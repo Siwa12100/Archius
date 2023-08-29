@@ -71,3 +71,4 @@ Il semblerait qu'il soit aussi bon pour finir de faire gpg --edit-key le_mail_de
 
 Ressources utiles : 
 https://www.youtube.com/watch?v=FhwsfH2TpFA
+https://www.redhat.com/sysadmin/management-password-store
