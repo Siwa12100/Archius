@@ -14,7 +14,7 @@ Ce type de routage consiste à définir pour chaque machine dans le réseau :
 
 - Sa route **par défaut** : le routeur qui lui permet d'accéder à la plus grosse partie du réseau *(dont souvent internet...).*
 
-- Pour chaque **réseaux/machines que auxquels la route par défaut ne permet d'accéder** : il faut définir quel est **le routeur qui lui le permet**.
+- Pour chaque **réseaux/machines auxquels la route par défaut ne permet d'accéder** : il faut définir quel est **le routeur qui lui le permet**.
 
 Sous linux, les routes statiques peuvent être définies dans le fichier `/etc/network/infercaces`.
 
