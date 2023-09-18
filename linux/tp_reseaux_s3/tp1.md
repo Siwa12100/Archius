@@ -81,11 +81,67 @@ En faisant `ip route show`, je vais voir :
 Si je veux savoir la route empruntée pour aller d'une machine A à une machine B, j'ai juste à aller sur ma machine A et rentrer `traceroute ip` pour qu'il me liste les différents routeurs empruntés. 
 Dans le cas de la question du tp, c'est donc `traceroute s2` qu'il faut rentrer depuis S1. 
 
+#### Quagga
+Dans le cadre du tp, nous allons utiliser Quagga qui est un logitiel de routage open source basé sur le routeur Zebra. 
+Quagga est composé de plusieurs démons, un par protocole de routage et un autre appelé Zebra utilisé en tant que gestionnaire de routage. Chaque démon a son propre fichier de configuration et interface de terminal à laquelle on peut accéder par telnet.
 
- 
+#### Telnet
+Telnet est un protocole de réseau utilisé pour permettre la communication à distance entre deux ordinateurs (ou périphériques) via un réseau IP (ou tout autre réseau compatible). Ce terme est aussi utilisé pour parler des logitiels client/serveurs qui implémentent ce protocole. 
 
+#### OSPF 
+**Open shortest path first** est un protocole de routage dynamique. Les protocoles de routage dynamique sont conçus pour permettre aux routeurs de découvrir automatiquement les chemins les plus courts vers les réseaux de destination. OSPF remplit cette fonction en échangeant des informations de routage avec d'autres routeurs au sein du même système autonome (AS). Ces informations de routage incluent des détails sur les liaisons entre les routeurs, les coûts associés à ces liaisons et d'autres métriques pour calculer les meilleures routes.
 
+OSPF est particulièrement bien adapté aux réseaux de grande envergure ou complexes où la topologie du réseau peut évoluer régulièrement. Il offre une convergence rapide en cas de changements dans la topologie, ce qui signifie qu'il ajuste rapidement ses tables de routage en réponse à de nouvelles informations.
 
+Quagga de son côté est un ensemble de logitiels open source pour la mise en oeuvre de protocoles des routages (sur des systèmes Unix-like), et OSPF est l'un des protocoles pris en charge par QUAGGA. 
+
+### Création des fichiers de configuration nécessaires
+Pour commencer, il faut créer deux fichiers. Le premier fichier est `/etc/quagga/zebra.conf` qui contient : 
+```
+!/etc/quagga/zebra.conf
+hostname router-zebra
+password zebraiut*
+log file /var/log/quagga/zebra.log
+```
+
+Le second fichier est `/etc/quagga/ospfd.conf` et doit contenir : 
+```
+!/etc/quagga/ospfd.conf
+hostname router-ospfd
+password ospfdiut*
+log file /var/log/quagga/ospfd.log
+```
+
+Ces deux fichiers de configuration nouse permettent de dorénavant pouvoir nous connecter aux démons de Quagga, par telnet, avec les commandes : 
+* Pour Zebra : `telnet localhost 2601`
+* Pour OSPF : `telnet localhost 2604`
+
+Dans le cadre du tp,  il faut ensuite que le routeur r2 puisse prendre en charge la gestion des routes dynamiques, et pour cela, il faut de nouveau modifier le fichier `/etc/quagga/ospfd.conf` et préciser : 
+* Les interfaces sur lesquelles émettre et écouter les annonces des autres démons OSPF 
+* L'identification du routeur. 
+* Les réseaux à gérer. 
+-> OSPF est capable de regrouper les réseaux par zones, mais dans ce tp, on considère que tous les réseaux appartiennent à l'unique zone de numéro 0. 
+
+Voici un exemple de `/etc/quagga/ospfd.conf` *(celui de r4)* :
+```
+!/etc/quagga/ospfd.conf
+hostname router-ospfd
+password ospfdiut*
+log file /var/log/quagga/ospfd.log
+
+interface eth0
+ ip ospf hello-interval 5
+ ip ospf dead-interval 20
+interface eth1
+ ip ospf hello-interval 5
+ ip ospf dead-interval 20
+
+router ospf
+ospf router-id 1.1.1.4
+network 192.168.3.0/24 area 0
+network 192.168.8.0/24 area 0
+```
+Il est donc possible de remplir le fichier de R2 en prenant pour modèle celui-ci. 
 
 
 
