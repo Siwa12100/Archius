@@ -5,7 +5,7 @@
 ### Les variables locales 
 Il s'agit de variables qui ne sont valables que dans l'instance du shell où elles ont été créées. Si le shell est fermé, elles disparaissent, et elles ne peuvent pas être utilisées dans d'autres shells ou processus sur la machine.  
  
- *Exemple : * `maVariable = 3`
+ *Exemple :* `maVariable = 3`
 
 ### Les constantes
 Une constante est une variable en lecture seule en quelque sorte, qui ne peut pas être modifiée. 
