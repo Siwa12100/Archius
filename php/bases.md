@@ -27,7 +27,8 @@ On utilisera aussi un **sgbd** pour la bdd...
 ---
 Pour pouvoir lire du PHP, il faut donc faire en sorte que notre ordi se comporte comme un serveur.
 
-Pour cela, on a besoin de : 
+Pour cela, on a besoin de :
+
     * **Apache :** C'est le serveur web. C'est lui qui va délivrer les pages web aux visiteurs. Pour autant, il ne gère que html et css et doit donc être complété par d'autres programmes pour avoir un site dynamique. 
 
     * **PHP :** C'est un plugin pour Apache qui le rend capable de traiter des pages dynamique en php. 
