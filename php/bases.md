@@ -29,17 +29,17 @@ Pour pouvoir lire du PHP, il faut donc faire en sorte que notre ordi se comporte
 
 Pour cela, on a besoin de :
 
-    * **Apache :** C'est le serveur web. C'est lui qui va délivrer les pages web aux visiteurs. Pour autant, il ne gère que html et css et doit donc être complété par d'autres programmes pour avoir un site dynamique. 
+* **Apache :** C'est le serveur web. C'est lui qui va délivrer les pages web aux visiteurs. Pour autant, il ne gère que html et css et doit donc être complété par d'autres programmes pour avoir un site dynamique. 
 
-    * **PHP :** C'est un plugin pour Apache qui le rend capable de traiter des pages dynamique en php. 
+* **PHP :** C'est un plugin pour Apache qui le rend capable de traiter des pages dynamique en php. 
 
-    * **Le SGBD :** Le logitiel de gestion de base de données permettrait d'enregistrer les données du site de manière organisée. 
+* **Le SGBD :** Le logitiel de gestion de base de données permettrait d'enregistrer les données du site de manière organisée. 
 
-    ### Installation de XAMPP (pour linux)
-    ---
-    Il s'agit du pack Apache + PHP qui permettra de simuler le serveur Web. XAMPP ne fonctionne que sous linux...
+### Installation de XAMPP (pour linux)
+---
+ Il s'agit du pack Apache + PHP qui permettra de simuler le serveur Web. XAMPP ne fonctionne que sous linux...
 
-    XAMPP contient : X, Apache, MySQL, Perl, PHP.
+XAMPP contient : X, Apache, MySQL, Perl, PHP.
 
 Voilà le lien pour le télécharger : https://www.apachefriends.org/fr/index.html
 
