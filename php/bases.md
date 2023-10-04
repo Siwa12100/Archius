@@ -39,3 +39,17 @@ Pour cela, on a besoin de :
     Il s'agit du pack Apache + PHP qui permettra de simuler le serveur Web. XAMPP ne fonctionne que sous linux...
 
     XAMPP contient : X, Apache, MySQL, Perl, PHP.
+
+Voilà le lien pour le télécharger : https://www.apachefriends.org/fr/index.html
+
+Ensuite, on a juste y mettre les bons droits à l'installeur :
+`chmod 755 xampp-linux-*-installer.run`
+Et on exécute : 
+`./xampp-linux-*-installer.run`
+
+On a ensuite `/opt/lampp/lampp start (ou stop...)` pour allumer et éteindre le service. 
+
+Ensuite, on peut aller dans le dossier `/opt/lampp/htdocs` pour créer des dossiers/fichiers et aller voir le résultat sur le web en chercher `https://localhost` dans son navigateur. 
+
+
+On peut aussi exécuter nos fichiers en php depuis le terminal en faisant `php -S localhost:8080` puis en allant dans le navigateur et en cherchant `http://localhost:8080/index.php (ou le nom du fichier en question...)`.  
