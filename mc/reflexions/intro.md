@@ -27,4 +27,4 @@ Je ne prétends pas forcément y arriver, mais simplement, même si j'échoue, j
 
 Dans ce sens, j'ai fait en sorte dès le début de l'année que rien ne puisse empiéter sur le temps que je juge nécessaire pour le côté études. 
 Et c'est dans ce contexte là, que je me suis retrouvé à avoir le peu de mon temps libre, *(c'est à dire le temps que je ne passe pas à étudier, ni à dormir ou me faire à manger)* occupé à 100% par la préparation d'Isildur. 
-Et je pourrais même dire d'ailleurs 110% de mon temps libre, mais si le temps alloué pour mes études n'a pas été impacté, mon temps de sommeil quand à lui et le temps que je prenais pour manger (et par extension me reposer l'esprit à ce moment là), ont eux aussi été réduits, en dessous de ce qu'il faudrait normalement. 
+Et je pourrais même dire d'ailleurs 110% de mon temps libre, car même si le temps alloué pour mes études n'a pas été impacté, mon temps de sommeil quand à lui et le temps que je prenais pour manger (et par extension me reposer l'esprit à ce moment là), ont eux aussi été réduits, en dessous de ce qu'il me faudrait normalement. 
