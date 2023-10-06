@@ -45,12 +45,12 @@ Je n'aurais pas forcément eu de meilleurs résultats, mais cela aurait été bi
 
 C'est un fait, mes projets sur Minecraft ont profondément influencé ma vie ces 3 dernières années, depuis la terminale. 
 
-Le jeu m'a fait découvrir un univers absolument fou, pour le meilleur et pour le pire, et j'ai beaucoup pris en expérience, en compétences et en caractères grâce à lui.
+Le jeu m'a fait découvrir un univers absolument fou, pour le meilleur et pour le pire, et j'ai beaucoup pris en expérience, en compétences et en caractère grâce à lui.
 
-J'ai appris à gérer et dynamiser des communautés, les faire s'agrandir par le biais de plans de communications. 
+J'ai appris à gérer et dynamiser des communautés, les faire grandir par le biais de plans de communications. 
 J'ai aussi appris à élaborer de la gestion de projet, de la planification et de la stratégie pour mener à bien mes objectifs, mais aussi trouver quels objectifs devaient être menés, et dans quel ordre, pour faire se développer les projets. 
 
-Puis, j'ai fait l'expérience de l'hostilité et de la dangerosité de certaines personnes, de la manipulation et des coups dans le dos, tout comme j'ai fait la rencontre de personnes formidables, à qui j'ai porté, et porte toujours pour certains d'ailleurs, une affection dépassant la simple relation entre joueurs, ou même administrateurs de serveurs. 
+Puis, j'ai fait l'expérience de l'hostilité et de la dangerosité de certaines personnes, de la manipulation et des coups dans le dos, tout comme j'ai fait la rencontre de personnes formidables, à qui j'ai porté, et porte toujours pour certaines d'ailleurs, une affection dépassant la simple relation entre joueurs, ou même administrateurs de serveurs. 
 
 Pour finir, j'ai découvert le fait d'acquérir des convictions, des idées et des idéaux, et de porter une vision sur le long terme d'un projet. 
 J'ai ainsi découvert par extension l'énergie que pouvaient générer la motivation et la passion pour un domaine, pour des projets, tout comme j'ai découvert par la même occasion l'énergie colossale qu'ils pouvaient pomper.
@@ -61,13 +61,13 @@ Mais si jusqu'à présent j'ai eu, plus ou moins, la possibilité d'investir aut
 
 Dès mon année à Polytech j'ai commencé à me questionner sur le sens de mon implication, je me suis demandé si les projets que je menais valaient vraiment la peine que j'y investisse autant de temps et d'énergie, s'ils avaient ne serait-ce qu'une petite chance d'aboutir, et même en réalité, s'ils pouvaient vraiment aboutir à quoique ce soit de vraiment intéressant en définitive, même avec tous les efforts du monde. 
 
-Et cette pensée arrive aujourd'hui à un tel point, au vu du peu de temps que j'ai encore de disponible, et donc de l'importance de bien le dépenser, que je dis avoir la réflexion la plus profonde possible sur le fait que je continue, ou non à avoir des projets sur le jeu, et si oui, de quelle manière et pour quels objectifs. 
+Et cette pensée arrive aujourd'hui à un tel point, au vu du peu de temps que j'ai encore de disponible, et donc de l'importance de bien le dépenser, que je dois avoir la réflexion la plus profonde possible sur le fait que je continue ou non à avoir des projets sur le jeu, et si oui, de quelle manière et pour quels objectifs. 
 
 C'est donc là qu'est la question qui se pose : que dois-je faire à partir de maintenant de mon implication dans l'univers de Minecraft. 
 
-A l'heure où ces lignes sont écrites *(le 21/10/23 à 21h50 pour les curieux)*, je n'ai pas encore la réponse à ce question, et c'est en fait là tout le but de ces lignes. 
+A l'heure où ces lignes sont écrites *(le 21/10/23 à 21h50 pour les curieux)*, je n'ai pas encore la réponse à cette question, et c'est en fait là tout le but de ces lignes. 
 
-Comme je l'ai dit, j'expose avant tout ma pensée à l'instant présent, et je la fait se développer au fil des lignes. Je ne cherche pas à expliquer quoique ce soit à quiconque ou même donner de leçons, je déroule simplement et de la manière la plus complète possible le fil de ma pensée, sans forcément chercher à être intéressant ou même pertinent, mais juste en essayant d'être le plus clair et lucide possible. 
+Comme je l'ai dit, j'expose avant tout ma pensée à l'instant présent, et je la fait se développer au fil des lignes. Je ne cherche pas à expliquer quoique ce soit à quiconque ou même à donner de leçons, je déroule simplement et de la manière la plus complète possible le fil de ma pensée, sans forcément chercher à être intéressant ou même pertinent, mais juste en essayant d'être le plus clair et lucide possible. 
 
 Peut être ce texte doit-il paraître très long, ennuyeux ou même inutile et perché pour la plupart des lecteurs, mais le but n'est là ni de plaire, ni de convaincre. 
 
@@ -75,4 +75,4 @@ Cela étant dit, cette introduction aura permis de poser des bases ainsi que la 
 
 Il est donc maintenant question de savoir si je dois poursuivre mon implication sur Minecraft ou non, et si oui de quelle manière. 
 
-Et ce n'es qu'une fois ces questionnements ayant obtenu des réponses, que je pourrais de nouveau m'investir sur le jeu, ou bien arrêter une bonne fois pour toutes. 
+Et ce n'est qu'une fois ces questionnements ayant obtenu des réponses claires et durables, que je pourrais de nouveau m'investir sur le jeu, ou bien arrêter une bonne fois pour toutes. 
