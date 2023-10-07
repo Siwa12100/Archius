@@ -67,5 +67,5 @@ phpinfo();
 Dans le tableau que ce fichier génèrera, il est possible ainsi de trouver le chemin vers le php.init.
 
 Voici ensuite les valeurs à modifier dans le `php.init` : 
-* `error_reporting --> `E_ALL`
+* `error_reporting` --> `E_ALL`
 * `display_errors` --> `ON`
