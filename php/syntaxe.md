@@ -24,16 +24,16 @@ Pour afficher le contenu d'une variable, on utilise le `$` dans un `echo` : `ech
 Pour les nombres, on a bien les `+ ; - ; * ; / ; %` qui fonctionnent de manière classique.
 
 
-### If ... else
+### If ... else et switch 
 ---
-Ils fonctionnent de manière totalement classique. 
+Ils fonctionnent de manière totalement classique. C'est absolument la même chose qu'en C ou en java...
 
-**Syntaxe :**
+**Syntaxe du if ... else :**
 ```php
-if (... != .... ){
+if (... != ....){
     faire ...
 }
-elseif (autre condition renvoyant un bool] {
+elseif (autre condition renvoyant un bool) {
     sinon si ... faire ....
 }
 else {
@@ -41,3 +41,33 @@ else {
 }
 ```
 
+**Syntaxe du switch :**
+```php
+switch($variable){
+
+    case 1 : ....
+    break;
+
+    case 2 : ...
+    break;
+
+    default : ...
+}
+```
+
+
+### Les ternaires
+C'est une manière peut fréquente mais très compacte de gérer les conditions. 
+
+**Syntaxe :**
+```php
+$userAge = 24;
+$isAdult = ($userAge >= 18) ? true : false;
+```
+
+Ce code permet de mettre true si la condition est validée, sinon faut.
+
+```php
+$isAdult = ($userAge >= 18);
+```
+Cette version là est encore plus contacte, on met dans la variable directement la valeur renvoyée par le test. 
