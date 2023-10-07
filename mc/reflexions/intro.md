@@ -63,7 +63,7 @@ Dès mon année à Polytech j'ai commencé à me questionner sur le sens de mon 
 
 Et cette pensée arrive aujourd'hui à un tel point, au vu du peu de temps que j'ai encore de disponible, et donc de l'importance de bien le dépenser, que je dois avoir la réflexion la plus profonde possible sur le fait que je continue ou non à avoir des projets sur le jeu, et si oui, de quelle manière et pour quels objectifs. 
 
-C'est donc là qu'est la question qui se pose : que dois-je faire à partir de maintenant de mon implication dans l'univers de Minecraft. 
+C'est donc là qu'est la question qui se pose : **que dois-je faire à partir de maintenant de mon implication dans l'univers de Minecraft.** 
 
 A l'heure où ces lignes sont écrites *(le 21/10/23 à 21h50 pour les curieux)*, je n'ai pas encore la réponse à cette question, et c'est en fait là tout le but de ces lignes. 
 
@@ -76,3 +76,21 @@ Cela étant dit, cette introduction aura permis de poser des bases ainsi que la 
 Il est donc maintenant question de savoir si je dois poursuivre mon implication sur Minecraft ou non, et si oui de quelle manière. 
 
 Et ce n'est qu'une fois ces questionnements ayant obtenu des réponses claires et durables, que je pourrais de nouveau m'investir sur le jeu, ou bien arrêter une bonne fois pour toutes. 
+
+Pour répondre à cette question, il va s'agir dans un premier temps de me demander quels sont les éléments qui me motivent dans l'univers de Minecraft, qu'est-ce qui aujourd'hui me motive quand je travaille sur Elendil, Isildur, le Valorium et quel est selon moi le moment où je pourrais me dire que le projet sera terminé, et que donc, ce ne sera plus simplement un projet, mais quelque chose de bien achevé, de solide et d'établi. 
+
+Une fois une vision claire sur mon projet établie, une fois que je serais clairement pour quels objectifs finaux je travaille, je pourrais me demander si cela en vaut réellement la peine.
+
+Il sera donc question de faire une sorte d'étude de marché du projet, adapté à Minecraft et ce que je considère comme les critères positifs et négatifs au sein de l'étude. 
+Le but étant vraiment de savoir si, le temps à y passer, l'énergie à y fournir, vallent la peine d'être investis, au vu de la chance de réalisation véritable des objectifs du projet, au vu de ce que la réalisation de ces objectifs pourraient apporter et m'apporter, mais aussi au vu de ce que le parcours, l'aventure pour atteindre ces objectifs, pourrait m'apporter elle aussi de son côté. 
+
+Et pour finir, une fois tout cela réfléchi, il s'agira si je souhaite donc poursuivre mon aventure dans l'univers de Minecraft, savoir de quelle manière, avec quelle philosophie et quels travaux sur le court, moyen et long terme doivent être menés, au vu de l'état actuel d'Isildur, d'Elendil et du Valorium, qui sont à l'heure actuelle les 3 organismes sur lesquels j'ai la main. 
+
+La volonté finale de tout ce grand travail de réflexion, est de revenir dans l'univers Minecraft avec une vision claire, une implication saine et des objectifs clairement défini. 
+Le but de cela étant de m'enlever toute sensation de culpabilité quand je travaille sur Minecraft, toute sensation de se sentir dans un brouillard de choses à faire sans vraiment savoir à quoi tout cela mène, et de clairement (re)lancer le développement rapide et puissant du projet. 
+
+Si vous avez tout lu jusque ici, franchement chapeau. Quel que soit votre rapport à ce texte (joueur mc, administrateur de serveur mc, partenaire ou associé ou même simplement proche IRL), c'est qu'il a du vous intriguer pour en arriver jusqu'à cette partie ci. 
+
+Comme je l'ai déjà dit plus haut, je ne prétends à rien à l'écrivant, ni expliquer ou donner de leçons à quiconque, ni même affirmer une quelconque vérité, ce n'est qu'un moyen de structurer et de faire avancer mes réflexions. 
+
+Cela étant rappelé, commençons à rentrer dans le dur, avec la suite du texte juste en dessous. 
