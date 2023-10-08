@@ -58,3 +58,15 @@ Enfin bref, j'étais enfant et ce genre de pratique n'est clairement pas des plu
 Evidemment, je tiens à rajouter au passage que j'avais sur Alexandria bien plus de considération pour les joueurs que pour des fourmis attention, ne me faites pas dire ce que je n'ai pas dit. Il n'était pas question de considérer la communauté comme du bétail ou d'une autre manière malsaine dans le genre. D'ailleurs, je me suis toujours considéré à l'égal des joueurs, chose que j'ai toujours trouvé fondamentale et absolument nécessaire pour s'assurer une ambiance des plus saines. 
 
 Simplement, je pense que l'intêret que j'avais à voir comment les joueurs s'appropriaient l'environnement que je leur mettais à disposition et la manière dont ils réagissaient à ses évolutions, est lié à la manière ont je retrouvais là un des points qui m'intéressait déjà, plus jeune, avec les insectes.
+
+En plus de cette passion de voir les joueurs évoluer dans un univers sculpté minitieusement au fil des jours, Alexandria fut l'occasion de découvrir l'un des points qui m'aura séduit le plus jusqu'à maintenant, la gestion de projet. 
+
+Dès Alexandria, la gestion d'un serveur survie m'a très vite demandé : 
+- D'analyser les forces et les faiblesses du serveur 
+
+- De prioriser les tâches à travailler 
+- De penser des stratégies et des plans sur le long terme 
+- De réfléchir à la communication interne & externe du serveur pour le maintenir actif 
+- De déléguer la gestion de la communauté à certains membres et de leur faire confiance 
+- D'organiser et de dynamiser la communauté 
+- D'organiser et dynamiser l'équipe de modérateurs travaillant à mes côtés sur le serveur
