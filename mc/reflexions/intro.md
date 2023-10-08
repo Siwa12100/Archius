@@ -93,4 +93,7 @@ Si vous avez tout lu jusque ici, franchement chapeau. Quel que soit votre rappor
 
 Comme je l'ai déjà dit plus haut, je ne prétends à rien à l'écrivant, ni expliquer ou donner de leçons à quiconque, ni même affirmer une quelconque vérité, ce n'est qu'un moyen de structurer et de faire avancer mes réflexions. 
 
-Cela étant rappelé, commençons à rentrer dans le dur, avec la suite du texte juste en dessous. 
+Cela étant rappelé, commençons à rentrer dans le dur, avec la suite du texte juste en dessous.
+
+
+[--> réflexion sur ma vision vis à vis de l'univers Minecraft.](./vision.md)
