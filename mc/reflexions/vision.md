@@ -39,3 +39,22 @@ C'est clairement à partir de la fondation de mon premier serveur survie vanilla
 C'est à ce moment là que j'ai réellement joué pour la première fois en multijoueur avec d'autres personnes. 
 En effet, je n'ai pas connu toute la mode pour les serveurs mini-jeux avec Epicube ou autre, comme cela a été le cas pour bien d'autres. 
 De toute manière, je n'aurais même pas eu l'ordinateur assez puissant puissant pour y jouer, et même une fois que ce fut le cas, même si j'ai apprécié faire quelques parties sur Hypixel, j'ai rapidement compris qu'à moins de m'entrainer énormément pour avoir un petit niveau en pvp, je resterais extrêmement mauvais, et je n'ai eu ni l'envie, ni la motivation ni le temps pour m'entrainer à savoir pvp. 
+
+
+Très rapidement après l'ouverture d'Alexandria, j'ai arrêté de jouer en survie pour me concentrer à 100% sur la gestion du serveur. Et là réside un point très important : à partir de ce moment là, pour la première fois, je ne jouais plus à Minecraft en réalité, mais Minecraft était inconsciemment devenu simplement un moyen de développer mon serveur, un support, un moyen comme dit juste avant, mais plus une finalité. 
+
+Dès lors, je n'allumais plus mon ordinateur pour jouer à Minecraft, mais bien pour gérer et faire se développer ce qui deviendra mon premier univers virtuel personnel. 
+En écrivant ces lignes, je me remet en mémoire la sensation que j'éprouvais à cette époque, et avec le recul, je comprends d'autant plus comment cela a pu prendre autant d'importances dans ma vie et me passionner autant. 
+
+En plus de ma vie IRL, qui n'était clairement pas à ce moment là des plus passionnantes et dans laquelle il n'y avait que très peu de choses me faisant vraiment vibrer, je me retrouvais avec entre mes mains un monde tout nouveau, habité de dizaines de personnes qui échangaient sans pauses, nuits et jours durant, qui jouaient ensemble, avaient des projets et faisaient vivre un monde dont j'étais celui qui en dictait le fonctionnement.
+
+Je me passionnais à voir les gens discuter entre eux, et tout particulièrement, jouer et prendre en main les nouveaux concepts, les nouvelles règles, les nouveaux axes de gameplay auquels je réfléchissais à longueur de journées, dans le but d'améliorer l'expérience des joueurs de ce petit univers. 
+
+Plus petit encore, étant enfant, j'étais très intéressé par les fourmis, leur manière d'évoluer et de construire leurs fourmilières. Je les observais souvent, et parfois en capturais, pour essayer de leur faire construire une nouvelle fourmilière artificiellement. 
+Je me passionnais ainsi de voir comment, même après avoir été séparées de leur groupe, elles se réorganisaient, et reconstruisaient en quelques heures, un tout nouvel habitat dans dans les quelques mottes de terre que je leur mettais à disposition. 
+
+Enfin bref, j'étais enfant et ce genre de pratique n'est clairement pas des plus formidables vis à vis du bien être des insectes, mais bon, à l'époque, je ne pensais pas cela si terrible.
+
+Evidemment, je tiens à rajouter au passage que j'avais sur Alexandria bien plus de considération pour les joueurs que pour des fourmis attention, ne me faites pas dire ce que je n'ai pas dit. Il n'était pas question de considérer la communauté comme du bétail ou d'une autre manière malsaine dans le genre. D'ailleurs, je me suis toujours considéré à l'égal des joueurs, chose que j'ai toujours trouvé fondamentale et absolument nécessaire pour s'assurer une ambiance des plus saines. 
+
+Simplement, je pense que l'intêret que j'avais à voir comment les joueurs s'appropriaient l'environnement que je leur mettais à disposition et la manière dont ils réagissaient à ses évolutions, est lié à la manière ont je retrouvais là un des points qui m'intéressait déjà, plus jeune, avec les insectes.
