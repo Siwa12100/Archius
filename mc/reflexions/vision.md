@@ -8,3 +8,5 @@ Ensuite une fois cela fait, j'essayerais d'approfondir ma vision actuelle et de 
 
 ### L'évolution de vision du jeu au fil du temps
 ---
+
+modif temporaire....
