@@ -28,4 +28,14 @@ Certainement, cela est lié à notre apprentissage de tout ce que contient cet u
 
 Et puis en plus de cela, la peur du danger s'est particulièrement estompée elle aussi au fil du temps, et la panique que nous avions leurs de nos premières nuits ou de nos premières explorations en grotte, cette panique qui contribuait fortement aux émotions que nous ressentions en jouant, n'est plus que très peu présente. 
 
-En définive, ce que je retiens donc de ces premières années d'expérience sur le jeu, cette première phase de découverte, c'est à la fois la sensation de liberté, la manière dont j'ai pu apprendre à considérer d'un oeil nouveau ce tout nouvel univers et ses règles tant visuels que physiques, et sa capacité à nous faire ressentir des émotions très fortes, certainement bien plus fortes, en tout en ce qui me concerne, que tous les autres jeux auquels j'avais joué jusque-là.
+En définive, ce que je retiens donc de ces premières années d'expérience sur le jeu, cette première phase de découverte, c'est à la fois la sensation de liberté, la manière dont j'ai pu apprendre à considérer d'un oeil nouveau ce tout nouvel univers et ses règles tant visuelles que physiques, et sa capacité à nous faire ressentir des émotions très fortes, certainement bien plus fortes, en tout cas en ce qui me concerne, que tous les autres jeux auquels j'avais joué jusque-là.
+
+
+
+**La découverte du multijoueur et de l'aspect social.**
+
+C'est clairement à partir de la fondation de mon premier serveur survie vanilla en 2019, Alexandria, que ma passion pour le jeu s'est forgée et que ma vision actuelle prend le plus ses racines.
+
+C'est à ce moment là que j'ai réellement joué pour la première fois en multijoueur avec d'autres personnes. 
+En effet, je n'ai pas connu toute la mode pour les serveurs mini-jeux avec Epicube ou autre, comme cela a été le cas pour bien d'autres. 
+De toute manière, je n'aurais même pas eu l'ordinateur assez puissant puissant pour y jouer, et même une fois que ce fut le cas, même si j'ai apprécié faire quelques parties sur Hypixel, j'ai rapidement compris qu'à moins de m'entrainer énormément pour avoir un petit niveau en pvp, je resterais extrêmement mauvais, et je n'ai eu ni l'envie, ni la motivation ni le temps pour m'entrainer à savoir pvp. 
