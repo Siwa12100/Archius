@@ -8,6 +8,9 @@ Ensuite une fois cela fait, j'essayerais d'approfondir ma vision actuelle et de 
 
 ### L'évolution de ma vision du jeu au fil du temps
 ---
+
+**Mes premières expériences avec le jeu.**
+
 La vision que j'ai de Minecraft actuellement prend principalement racine lors du lancement de mon premier serveur survie, Alexandria. 
 Mais pour autant, il est certains que mes premières heures sur le jeu, bien avant le lancement d'Alexandria, ont elles aussi marquées ma vision du jeu. 
 
