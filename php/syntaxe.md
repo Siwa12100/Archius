@@ -1,7 +1,6 @@
 # PHP - La syntaxe
 
 ### Les variables
----
 En php, il est important de garder en tête que la varibale n'existe que tant que la page est en cours de génération. 
 Ensuite une fois la génération terminée, elles sont supprimées de la mémoire car ne servent plus à rien.
 
