@@ -111,5 +111,21 @@ for ($lines = 0; $lines <= 70; $lines++){
 }
 ```
 
+## Compléments sur les tableaux
+Voici deux autres manières de déclarer des tableaux numérotés (c'est à dire qu'on associe une clé (un entier) à sa valeur, ce sont les tableaux classiques des autres langages...). 
+
+**Avec le mot clé array :**
+```php
+$tab = array('coucou', 'camion', 21);
+```
+Dans ce cas, on utilise des `()` et plus des `[]`. 
+
+**En déclarant les valeurs manuellement :**
+```php
+$tab[0] = 'coucou';
+$tab[1] = 'camion...';
+```
+
+
 
 
