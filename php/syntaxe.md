@@ -178,4 +178,21 @@ foreach ($recette as $clef => $valeur){
 */
 ```
 
+### Utilisation de print_r
+Il s'agit d'une sorte de echo, mais spécialisé pour les tableaux et utilisé pour débugger.
+Il est très simple à utiliser, mais son seul défaut est de ne pas renvoyer de code html. Il ne renvoie donc pas de `<br>` pour retourner à la ligne, et il faut donc le prendre en compte. 
+Pour se faire, on utilise les balises `<pre>` avant et après le `print_r`. 
+
+**Exemple :**
+```php
+// toujours avec notre tableau article ou autre...
+echo '<pre>';
+print_r($article);
+echo '<pre>';
+```
+
+### Recherche dans un tableau 
+
+// J'en suis à voir les méthodes de recherche dans un tableau sur le cours de openclassroom...
+
 
