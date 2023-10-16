@@ -70,3 +70,9 @@ Ce code permet de mettre true si la condition est validée, sinon faut.
 $isAdult = ($userAge >= 18);
 ```
 Cette version là est encore plus contacte, on met dans la variable directement la valeur renvoyée par le test. 
+
+
+### Les tableaux
+Le tableau se déclare avec des `[]`. 
+
+**Exemple :** `$tab = ['coucou', 23, 'voiture]`;
