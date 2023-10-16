@@ -1,5 +1,4 @@
 # PHP - Les bases
----
 
 ### Les balises
 Le code php vient s'insérer au milieu du code html. Il s'agit donc de venir placer des bouts de php dans les parties en html, quand il s'agit des parties dynamiques d'une page. 
