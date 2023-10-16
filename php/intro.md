@@ -1,10 +1,8 @@
 # PHP - Introduction
----
-
 
 
 ## Notions de base
----
+
 Un **site web statique** n'est constitué **que de html et de css**, il ne peut donc pas être mis à jour automatiquement : il faut passer par le code source. 
 
 Un **site web dynamique** utilise donc de son côté d'autres languages en plus de css & html. 
@@ -29,7 +27,7 @@ On utilisera aussi un **sgbd** pour la bdd...
 
 
 ## Configuration de la machine pour Dev
----
+
 Pour pouvoir lire du PHP, il faut donc faire en sorte que notre ordi se comporte comme un serveur.
 
 Pour cela, on a besoin de :
