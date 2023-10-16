@@ -81,4 +81,12 @@ On y accède avec le `$tableau[indice]`.
 
 **Exemple :** `echo $tab[2]`;
 
+Il est aussi possible de créer des tableaux 2D en insérant un tableau dans un autre tableau. 
+
+**Exemple :**
+```php
+    $tab = [2, 1, 4];
+    $tab2D = [23, 'coucou', $tab];
+```
+
 
