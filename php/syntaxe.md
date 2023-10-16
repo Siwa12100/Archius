@@ -89,7 +89,7 @@ Il est aussi possible de créer des tableaux 2D en insérant un tableau dans un 
     $tab2D = [23, 'coucou', $tab];
 ```
 
-### La boucle While
+### La boucle while
 Là encore, c'est absolument pareil qu'en C ou en Java. 
 
 **Syntaxe :**
@@ -98,6 +98,16 @@ $lines = 0;
 while ($lines <= 100) {
     // on fait des actions 
     $lines++; // pour incrémenter
+}
+```
+
+### La boucle for
+Toujours très similaire au C ou au Java. 
+
+**Syntaxe :**
+```php
+for ($lines = 0; $lines <= 70; $lines++){
+    // faire les actions que l'on souhaite
 }
 ```
 
