@@ -25,7 +25,6 @@ Pour les nombres, on a bien les `+ ; - ; * ; / ; %` qui fonctionnent de manière
 
 
 ### If ... else et switch 
----
 Ils fonctionnent de manière totalement classique. C'est absolument la même chose qu'en C ou en java...
 
 **Syntaxe du if ... else :**
