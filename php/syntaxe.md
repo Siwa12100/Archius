@@ -85,9 +85,10 @@ Il est aussi possible de créer des tableaux 2D en insérant un tableau dans un 
 
 **Exemple :**
 ```php
-    $tab = [2, 1, 4];
-    $tab2D = [23, 'coucou', $tab];
+    $tab = [2, 1, 4,];
+    $tab2D = [23, 'coucou', $tab,];
 ```
+Attention à bien mettre la virgule, même après le dernier élément ! 
 
 ### La boucle while
 Là encore, c'est absolument pareil qu'en C ou en Java. 
@@ -126,6 +127,56 @@ $tab[0] = 'coucou';
 $tab[1] = 'camion...';
 ```
 
+### Les tableaux associatifs
+Le principe est le même que les tableaux numérotés, mais les clefs ne sont pas des entiers mais des chaînes de caractères. 
 
+**Exemple :**
+```php
+$article = [
+    'titre' => 'Elendil',
+    'texte' => 'Bienvenue dans l\'Alliance !'
+    'id' => 1728,
+    'visible' => true,
+];
+
+$article['auteur'] = 'Siwa'; // pour rajouter des valeurs
+
+echo $article['auteur'] // Pour afficher l'une de ses cases
+```
+
+### La boucle foreach
+Là encore, toujours semblable à du java...
+
+**Exemple :**
+```php
+$tab1 = ['coucous', 'aligot',];
+$tab2 = ['voiture', 'moto',]; 
+$tab3 = [$tab1, $tab2,];
+
+foreach($tab3 as &ligne){
+    echo $ligne[0]; // pour afficher le premier élément de chaque sous tableau...
+}
+```
+
+Mais il est aussi possible de récupérer la clé des valeurs d'un tableau à la place des valeurs directement, à l'aide là encore d'un `foreach`. 
+
+**Exemple :**
+```php
+$recette = [
+    'titre' = 'titre de la recette',
+    'instruction1' = 'faire cuire....',
+    'auteur' = 'Siwa',
+];
+
+foreach ($recette as $clef => $valeur){
+    echo "$clef : $valeur <br>"; 
+}
+
+// ---- Renvoie l'affichage suivant : ------
+/* titre : titre de la recette 
+   instruction1 : .....
+   .... 
+*/
+```
 
 
