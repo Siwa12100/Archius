@@ -26,4 +26,16 @@ int setenv(const char *name, const char *value, int overwrite);
 * **overwrite :** Si la valeur n'est pas nulle (souvent = 1), alors même si la variable existe déjà, sa valeur sera remplacée. 
 Mais si la valeur est nulle (= 0), alors la var. d'env. ne sera mise à jour que si elle n'existe pas. 
 
+La fonction renvoie 0 si tout s'est bien passé, sinon elle renvoie -1. 
+
 ## getenv
+Cette fonction est utilisée pour récupérer la valeur d'une variable d'environnement. 
+
+Elle ne prend qu'un seul argument, qui est le nom de la variable d'environnement dont on souhaite connaitre la valeur. 
+
+```c
+#include <stdlib.h>
+
+char *getenv(const char *name);
+```
+Si la variable demandée n'existe pas, la fonction renvoie `NULL`.
