@@ -4,6 +4,8 @@ Les fonctions **setenv** et **getenv** en C sont utilisées pour manipuler les v
 
  Les variables d'environnement sont des valeurs stockées par le système d'exploitation qui peuvent être utilisées par les programmes en cours d'exécution pour obtenir des informations sur la configuration du système ou pour personnaliser le comportement des programmes.
 
+ Important : Les var. d'env. contiennent toujours des chaînes de caractères. 
+
 
  ##  setenv
  La fonction setenv est utilisée pour définir ou **mettre à jour une variable d'environnement.**
