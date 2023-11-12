@@ -64,6 +64,7 @@ On peut aussi exécuter nos fichiers en php depuis le terminal en faisant `php -
 ### Les bases : 
 - [1.) bases du langage](./bases/bases.md)
  - [2.) Syntaxe principale](./bases/syntaxe.md)
+ - [3.) Les fonctions en PHP](./bases/fonctions.md)
 
 
 
