@@ -1,7 +1,7 @@
 # PHP - La syntaxe
 
 ### Les variables
-En php, il est important de garder en tête que la varibale n'existe que tant que la page est en cours de génération. 
+En php, il est important de garder en tête que la variable n'existe que tant que la page est en cours de génération. 
 Ensuite une fois la génération terminée, elles sont supprimées de la mémoire car ne servent plus à rien.
 
 Les différents types de variables sont : 
@@ -193,6 +193,46 @@ echo '<pre>';
 
 ### Recherche dans un tableau 
 
-// J'en suis à voir les méthodes de recherche dans un tableau sur le cours de openclassroom...
+**1.) Vérifier qu'une clé existe dans un tableau :**
 
+On a un tableau, et le but est donc de savoir si une clé précise existe dedans. 
 
+Pour cela, on utilise la fonction : `array_key_exists`. On lui donne le nom de la clé à chercher, le nom du tableau, et elle renvoie un booléen en fonction de la présence de la clé ou non :
+```php
+$tab = [
+    'v1' => 'voiture',
+    'cle2' => 2345,
+];
+
+if (array_key_exists('cle2', $tab)) {
+    echo " --> La clé existe dans le tableau ! ";
+}
+``` 
+
+**2.) Vérifier si une valeur existe dans un tableau :**
+
+Dans la même idée, on va utiliser la fonction `in_array`, qui renvoie elle aussi un booléen en fonction de la présence de la valeur ou non : 
+```php
+$tab = [
+    'v1' => 'voiture',
+    'cle2' => 2345,
+];
+
+if (in_array('voiture', $tab)) {
+    echo " --> La valeur existe dans le tableau ! ";
+}
+```
+
+**3.) Récupérer la clé d'une valeur dans un tableau**
+
+Maintenant, à partir d'une valeur, on va récupérer sa clé dans un tableau avec la fonction `array_search`. 
+Si la clé existe, alors elle est renvoyée, sinon un false est renvoyé : 
+
+```php
+$tab = [
+    'v1' => 'voiture',
+    'cle2' => 2345,
+];
+
+$cle = array_search('voiture', $tab);
+```
