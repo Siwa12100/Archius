@@ -57,6 +57,17 @@ Une fois le procesus créé, il passe donc entre l'état **prêt à être exécu
 Le processus initial du système s'appelle **swapper**, et il donne naissance au processus **init**, qui lui donne ensuite naissance à tous les autres processus.
 Si un père meurt avant d'avoir récupéré le PID de son fils --> c'est le processus **init** qui se charge de récupérer tous les processus orphelins.
 
+### Gestion des erreurs systèmes
+
+Les fonctions systèmes comme `fork()` (vu juste après...) renvoient des codes de retour en fonction de leur succès ou non.
+
+On utilise la bibliothèque `<errno.h>` pour les analyser et les notifier :
+
+* `errno` : C'est une variable globale qui prend la valeur du code retour de la dernière fonction système exécutée.
+* `perror(const char * msg)` : on passe une chaîne de caractères à la fonction qui correspond à la description de l'erreur qui vient d'arriver. Ce message sera ainsi affiché sur la sortie d'erreur standard. On l'utilise souvent lorsque l'on constate un code retour négatif et que l'on veut expliquer pourquoi on en arrive là avant de partir avec un `exit(errno)`.
+
+*infos utile :* la commande shell `strace` permet de tracer les appels systèmes et les signaux.
+
 ### Création de processus
 
 Chaque processus dispose d'un PID (processus ID) et d'un PPID (Parent processus ID), il s'agit de types pid_t (= int en vrai).
@@ -70,11 +81,13 @@ Pour donner naissance à un processus, il faut que le père se clone, puis donne
 * `wait()` : permet d'être notifié de la mort d'un fils et de récupérer des infos dessus...
 
 **Le fork :**
+
 Lors d'un fork, toutes les données du père (contenues dans la zone U) sont dupliquées, à l'exception évidemment du PID & du PPID qui sont adaptées en fonction...
 Les descripteurs de fichiers sont aussi conservés --> donc le fils et le père ont les même fichiers d'ouverts.
 Et pour finir, évidemment, les stats du fils sont remises à 0...
 
 Voilà l'exemple classique d'un fork :
+
 ```c
 #include <sys/types.h>
 #include <unistd.h>
@@ -125,4 +138,14 @@ int main(void) {
     return 0;
 }
 ```
+
+**Le wait :**
+
+La fonction `wait` ou `waitpid` permettent à un processus père de se mettrent en pause, en attendant qu'un processus fils se termine.
+
+Voici les deux fonctions principales de `<wait.h>` :
+
+* `pid_t wait(int * status)` : Cette fonction met en pause le processus père, puis retourne le PID du dernier fils qui vient de se terminer, et met dans l'entier status un code, qui pourra être utilisé pour avoir des informations sur la mort du fils.
+* `pid_t waitpid(pid_t wpid, int * status, int options)` : Même chose que le simple wait, sauf que le père autant la mort d'un fils bien précis dont le pid est passé en paramètre. En ce qui concerne l'entier option, on peut simplement mettre 0 si on veut pas avoir d'options supplémentaires...
+* `WEXISTATUTS(status)` : Une fois le wait fait, on peut utiliser cette fonction qui envoie une chaine de caractères donnant des informations détaillées en fonction du status dont la valeur a été définie lors du wait...
 
