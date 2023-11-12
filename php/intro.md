@@ -58,3 +58,9 @@ Ensuite, on peut aller dans le dossier `/opt/lampp/htdocs` pour créer des dossi
 
 
 On peut aussi exécuter nos fichiers en php depuis le terminal en faisant `php -S localhost:8080` puis en allant dans le navigateur et en cherchant `http://localhost:8080/index.php (ou le nom du fichier en question...)`.  
+
+
+# Sommaire
+### Les bases : 
+- [1.) bases du langage](./bases/bases.md)
+ - [2.) Syntaxe principale](./bases/syntaxe.md)
