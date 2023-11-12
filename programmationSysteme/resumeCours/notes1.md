@@ -38,9 +38,9 @@ Au final, un programme n'est que du code et des données, mais quand il va s'agi
 
 Et c'est ainsi grâce à ces informations "supplémentaires" que le système sera en mesure de manipuler des processus, et par extension, d'en exécuter plusieurs à la fois en alternant entre eux.
 
-En mémoire, est présente pour chaque processus ce qui s'appelle zone U (= zone utilisateur). Elle donne des informations sur le contexte d'exécution du processus, d'un point de vue de l'utilisateur et contient :
+En mémoire, est présente pour chaque processus ce qui s'appelle une zone U (= zone utilisateur). Elle donne des informations sur le contexte d'exécution du processus, d'un point de vue de l'utilisateur et contient :
 
-* **Uid :** l'id de l'utilisateur qui a lancé le processus 
+* **Uid :** l'id de l'utilisateur qui a lancé le processus
 * Le **compteur de temps** durant lequel le processus s'est exécuté, du point de vue du noyau, et de celui de l'utilisateur
 * **Masque des signaux :** Les signaux ignorés ou non par le processus
 * **Le repertoire courant** du processus et **la racine** du système de fichier
@@ -146,7 +146,7 @@ La fonction `wait` ou `waitpid` permettent à un processus père de se mettrent 
 Voici les deux fonctions principales de `<wait.h>` :
 
 * `pid_t wait(int * status)` : Cette fonction met en pause le processus père, puis retourne le PID du dernier fils qui vient de se terminer, et met dans l'entier status un code, qui pourra être utilisé pour avoir des informations sur la mort du fils.
-* `pid_t waitpid(pid_t wpid, int * status, int options)` : Même chose que le simple wait, sauf que le père autant la mort d'un fils bien précis dont le pid est passé en paramètre. En ce qui concerne l'entier option, on peut simplement mettre 0 si on veut pas avoir d'options supplémentaires...
+* `pid_t waitpid(pid_t wpid, int * status, int options)` : Même chose que le simple wait, sauf que le père attend la mort d'un fils bien précis dont le pid est passé en paramètre. En ce qui concerne l'entier option, on peut simplement mettre 0 si on veut pas avoir d'options supplémentaires...
 * `WEXISTATUTS(status)` : Une fois le wait fait, on peut utiliser cette fonction qui envoie une chaine de caractères donnant des informations détaillées en fonction du status dont la valeur a été définie lors du wait...
 
 Ca va de soit, mais les waits sont donc utilisés dans le code du père...
@@ -154,6 +154,7 @@ Ca va de soit, mais les waits sont donc utilisés dans le code du père...
 Entre le moment où le fils est mort et où son père le récupère dans le wait, le fils est en mode **"zombie"**. Si le père est mort avant d'avoir récupéré son fils, **c'est le processus init qui récupèrera le fils** zombie au final...
 
 **Le exec :**
+
 Le exec de son côté va être utilisé du côté du fils, pour remplacer le vieux code du père par le nouveau code du fils.
 
 La fonction de la famille des exec la plus utile à mon sens est `execl`, voilà un exemple : 
@@ -195,3 +196,4 @@ Ils s'exécutent de façon concurrente mais partagent la même mémoire...
 
 Pour gérer les threads, on passe par des api spécifiques...
 *(on a pas trop vu les threads donc pas la peine de trop approfondir encore ici...)*
+
