@@ -1,6 +1,6 @@
 # Programmation système
-_-> Notes prises dans le cadre de mon cours de prog. système, semestre 3 BUT Info UCA._
 
+[...retour au sommaire](../intro.md)
 
 ## Rapide introduction
 Un système est un programme central qui fait l'interface entre le matériel et les applications. 
