@@ -16,7 +16,7 @@ Les différents types de variables sont :
 
 La déclaration de variable se fait de la manière suivante : `$age = 12;`. 
 
-Pour information en ce qui concerne les chaînes de caractères, le fonctionnement est comme le bash, `" ... "` interprète les caractères spéciaux mais pas les ` ... `. 
+Pour information en ce qui concerne les chaînes de caractères, le fonctionnement est comme le bash, `" ... "` interprète les caractères spéciaux mais pas les `` ... \``. 
 En plus de cela, il faut savoir que les `.` permette de concacténer des strings. 
 
 **Exemple :** `echo "coucou"."tout le monde....";`
