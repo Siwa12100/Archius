@@ -81,25 +81,32 @@ Voilà l'exemple classique d'un fork :
 
 int main(void) {
     /* 
-        On commence par cloner le processus père. A ce moment là, dans le code du père, child prendra la valeur du PID du fils. 
+        On commence par cloner le processus père. A ce moment là, dans le code du père, 
+        child prendra la valeur du PID du fils. 
 
         Dans le code du fils, child prendra la valeur 0. 
 
-        S'il y a un soucis, évidemment le fils ne sera pas créé et child contiendra la valeur -1 
+        S'il y a un soucis, évidemment le fils ne sera pas créé et child contiendra
+         la valeur -1 
     */
     pid_t child = fork();
     switch(child) {
 
         case -1 : 
             /*
-                Si child vaut -1, ça veut dire que l'on est resté dans le processus père, et qu'il y a eu une erreur pendant le fork. Bah du coup on le précise, et on quitte en renvoyant le code retour de la dernière fonction système exécutée, le fork dans le cas actuel...
+                Si child vaut -1, ça veut dire que l'on est resté dans le processus père, 
+                et qu'il y a eu une erreur pendant le fork. Bah du coup on le précise, 
+                et on quitte en renvoyant le code retour de la dernière 
+                fonction système exécutée, le fork dans le cas actuel...
             */
             perror("erreur pendant le fork");
             exit(errno);
         
         case 0 :
             /*
-                Si on passe ici, c'est qu'on est dans le processus fils. Du coup on fait le code qu'on veut donner au processus fils, puis on se barre avec le break...
+                Si on passe ici, c'est qu'on est dans le processus fils. 
+                Du coup on fait le code qu'on veut donner au processus fils,
+                puis on se barre avec le break...
             */
 
             // code que l'on veut donner au fils...
@@ -107,7 +114,10 @@ int main(void) {
         
         default :
             /*
-                Si on arrive ici, c'est que child ne vaut ni 0 ni -1, donc au final c'est qu'on est chez le père, qui a bien pris la valeur du PID du fils (qui évidemment n'est ni 0 ou -1). On fait le code du père et on se barre aussi...
+                Si on arrive ici, c'est que child ne vaut ni 0 ni -1, 
+                donc au final c'est qu'on est chez le père, qui a bien pris 
+                la valeur du PID du fils (qui évidemment n'est ni 0 ou -1).
+                On fait le code du père et on se barre aussi...
             */
 
             //code que l'on veut donner au père...
