@@ -1,4 +1,6 @@
 # PHP - La syntaxe
+[...retour au sommaire](../intro.md)
+[...retour à la page précédente](./bases.md)
 
 ### Les variables
 En php, il est important de garder en tête que la variable n'existe que tant que la page est en cours de génération. 
@@ -236,3 +238,4 @@ $tab = [
 
 $cle = array_search('voiture', $tab);
 ```
+[3.) les fonctions en php (suite des notes...)](./fonctions.md)
