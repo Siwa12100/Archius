@@ -1,5 +1,5 @@
 # PHP - Les bases
-
+[...retour au sommaire](../intro.md)
 ### Les balises
 Le code php vient s'insérer au milieu du code html. Il s'agit donc de venir placer des bouts de php dans les parties en html, quand il s'agit des parties dynamiques d'une page. 
 
@@ -68,3 +68,6 @@ Dans le tableau que ce fichier génèrera, il est possible ainsi de trouver le c
 Voici ensuite les valeurs à modifier dans le `php.init` : 
 * `error_reporting` --> `E_ALL`
 * `display_errors` --> `ON`
+
+---
+[2.) Syntaxe principale (suite des notes...)](./syntaxe.md)
