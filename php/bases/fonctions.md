@@ -69,3 +69,4 @@ $heure = date('H'); // en majuscule
 $minutes = date('i'); 
 ```
 ---
+[4.) Struturation en blocs et include (suite des notes...)](./blocs.md)

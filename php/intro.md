@@ -63,8 +63,10 @@ On peut aussi exécuter nos fichiers en php depuis le terminal en faisant `php -
 # Sommaire
 ### Les bases : 
 - [1.) bases du langage](./bases/bases.md)
- - [2.) Syntaxe principale](./bases/syntaxe.md)
- - [3.) Les fonctions en PHP](./bases/fonctions.md)
+- [2.) Syntaxe principale](./bases/syntaxe.md)
+- [3.) Les fonctions en PHP](./bases/fonctions.md)
+- [4.) Include et structuration en blocs](./bases/blocs.md) 
+- [5.) Passage de paramètres via l'URL & méthode GET](./bases/paramUrl.md)
 
 
 

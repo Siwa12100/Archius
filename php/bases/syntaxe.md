@@ -58,7 +58,7 @@ switch($variable){
 
 
 ### Les ternaires
-C'est une manière peut fréquente mais très compacte de gérer les conditions. 
+C'est une manière peu fréquente mais très compacte de gérer les conditions. 
 
 **Syntaxe :**
 ```php
