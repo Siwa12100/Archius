@@ -149,3 +149,49 @@ Voici les deux fonctions principales de `<wait.h>` :
 * `pid_t waitpid(pid_t wpid, int * status, int options)` : Même chose que le simple wait, sauf que le père autant la mort d'un fils bien précis dont le pid est passé en paramètre. En ce qui concerne l'entier option, on peut simplement mettre 0 si on veut pas avoir d'options supplémentaires...
 * `WEXISTATUTS(status)` : Une fois le wait fait, on peut utiliser cette fonction qui envoie une chaine de caractères donnant des informations détaillées en fonction du status dont la valeur a été définie lors du wait...
 
+Ca va de soit, mais les waits sont donc utilisés dans le code du père...
+
+Entre le moment où le fils est mort et où son père le récupère dans le wait, le fils est en mode **"zombie"**. Si le père est mort avant d'avoir récupéré son fils, **c'est le processus init qui récupèrera le fils** zombie au final...
+
+**Le exec :**
+Le exec de son côté va être utilisé du côté du fils, pour remplacer le vieux code du père par le nouveau code du fils.
+
+La fonction de la famille des exec la plus utile à mon sens est `execl`, voilà un exemple : 
+```c
+pid_t child = fork(); // on fait le fork classique...
+switch (child) {
+
+    case 0 : 
+        execl('./chemin/vers/le/nouveau/programme', 'nom_du_programme', 'argument1', 'argument2', (char *)NULL);
+
+        // suite du code mais là on s'en fou...
+}
+```
+Dans le `execl` du dessus, d'abord on spécifie le chemin vers le programme qu'on veut utiliser (comme une commande bash, un autre executable en C, ...), on met le nom du programme à côté (= souvent le nom de l'exécutable en soit, ça correspond à l'argument 0), puis on met la liste des arguments passés en paramètre du programme.
+On fini par un `(char *)NULL` pour indiquer la fin de la liste d'arguments.
+
+Juste pour information, on a aussi la fonction `execlp` qui est absolument identique à `execl`, mais si le programme à exécuter est dans le path, on a pas besoin de spécifier en premier paramètre le chemin entier, on peut mettre simplement le nom du programme (et on continue aussi de donner le nom du programme en second paramètre par contre attention). 
+
+### Arguments dans le main 
+
+On peut avoir ce prototype dans le main :
+
+```c
+int main(int argc, char * argv[]) { ...}
+```
+
+* `argc` : correspond au nombre de paramètres passés au programme
+* `argv` : c'est le tableau qui stocke les différents arguments passés...
+
+### Utilisation de variables d'environnement
+
+Voilà la liste des fonctions disponibles dans `<stdlib.h>` pour manipuler les variables d'environnement en C : 
+ --> [getenv et setenv notes](../fonctions/getenv_et_setenv.md)
+
+### Les threads
+
+Un processus peut se scinder en plusieurs fils d'exécution, c'est ce que l'on appelle des threads.
+Ils s'exécutent de façon concurrente mais partagent la même mémoire...
+
+Pour gérer les threads, on passe par des api spécifiques...
+*(on a pas trop vu les threads donc pas la peine de trop approfondir encore ici...)*
