@@ -1,5 +1,6 @@
 # PHP - La syntaxe
 [...retour au sommaire](../intro.md)
+
 [...retour à la page précédente](./bases.md)
 
 ### Les variables
