@@ -6,7 +6,7 @@
 
 ## Syntaxe
 
-La syntaxe des fonctions en php est un peu différence des langages c/java... classiques, mais le principe reste le même. Voilà la syntaxe de base : 
+La syntaxe des fonctions en php est un peu différente des langages c/java... classiques, mais le principe reste le même. Voilà la syntaxe de base : 
 ```php
 function nomFonction(type $nomParam, ...., ...) : typeDeRetour {
      ... le code ... 
@@ -21,7 +21,7 @@ $valeurRetour = maFonction($variableParam, 12, 'param string...');
 ```
 
 ## Fonctions de manipulation de texte & date 
-### Calculer longueur d'une chaîne de caractères
+### Calculer la longueur d'une chaîne de caractères
 Pour calculer la taille d'une chaîne de caractères, on utilise la fonction `strlen`. 
 On lui passe un string, et elle renvoie sa taille. 
 
@@ -58,7 +58,7 @@ echo sprintf('Il s\'appelle %s %s et a %s ans.',
 ```
 
 ### Récupération de la date
-La fonction date va nous permettre de récupérer la date. Enfin pour être précis, elle va récupérer par défaut la date connue par le serveur où est généré le php (donc à voir au besoin pour ajuster les fuseaux horaires...).
+La fonction `date` va nous permettre de récupérer la date. Enfin pour être précis, elle va récupérer par défaut la date connue par le serveur où est généré le php (donc à voir au besoin pour ajuster les fuseaux horaires...).
 
 **Voici comment l'utiliser :**
 ```php
