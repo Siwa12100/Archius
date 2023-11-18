@@ -15,8 +15,6 @@ Ce dépôt me permet de stocker une partie de mes prises de notes, et de manièr
 - [Notes sur le php](./php/intro.md)
 
 
-Voici une traduction en occitan languedocien, en essayant de respecter les spécificités de l'occitan rouergat :
-
 Aquelas archius son sobretot personals e pretendon a res d'autre coma m'ajudar a gardar a drech dins ma man d'informacions que mi seran utilas a l'avenir, o ben mi guiarnar a metre sus papièr de reflexions, d'una mòda a structurar ma pensada. 
 Ieu ne pretendi ni explicar res a degun, que sigam plan clar. 
 Dins aquò, certans de mos apontaments, especialament sus d'aspectes tecnics, pòdon conténer quauques errors que m'aurian escapats, es donc responsabilitat deis eventuals legeires de conservar un regard critic sus çò que pourran trobar aqui. 
