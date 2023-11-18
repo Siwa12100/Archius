@@ -31,7 +31,9 @@ Ce code permet donc créer créer un lien, qui sera affiché comme "Clique ici" 
 ### Faire circuler des informations avec des formulaires et HTTP GET
 Au lieu de directement inscrire les paramètres en dur dans le code, il est aussi possible de les faire à l'aide d'un formulaire, avec la méthode HTTP GET. 
 
-Pour commencer, voilà un rappel du fonctionnement des formulaires en html & css (essentiel pour maîtriser cela pour la suite) : 
+Pour commencer, voilà un rappel du fonctionnement des formulaires en html & css (essentiel de maîtriser cela pour la suite) : [Les formulaires en html & css](../../htmlCss/fichiers/formulaires.md). 
+
+
 
 
 ---
