@@ -77,7 +77,7 @@ Cette version là est encore plus contacte, on met dans la variable directement 
 ### Les tableaux
 Le tableau se déclare avec des `[]`. 
 
-**Exemple :** `$tab = ['coucou', 23, 'voiture]`;
+**Exemple :** `$tab = ['coucou', 23, 'voiture',]`;
 
 On y accède avec le `$tableau[indice]`. 
 
