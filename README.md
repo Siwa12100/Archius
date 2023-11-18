@@ -13,6 +13,7 @@ Ce dépôt me permet de stocker une partie de mes prises de notes, et de manièr
 ### Différentes catégories des archives : 
 
 - [Notes sur le php](./php/intro.md)
+- [Programmation système](./programmationSysteme/intro.md)
 
 
 Aquelas archius son sobretot personals e pretendon a res d'autre coma m'ajudar a gardar a drech dins ma man d'informacions que mi seran utilas a l'avenir, o ben mi guiarnar a metre sus papièr de reflexions, d'una mòda a structurar ma pensada. 
