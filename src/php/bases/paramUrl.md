@@ -33,11 +33,69 @@ Au lieu de directement inscrire les paramètres en dur dans le code, il est auss
 
 Pour commencer, voilà un rappel du fonctionnement des formulaires en html & css (essentiel de maîtriser cela pour la suite) : [Les formulaires en html & css](../../htmlCss/fichiers/formulaires.md). 
 
-Ainsi, si l'un fait un formulaire en html utilisant bien la méthode get, les données soumises se retrouveront bien dans l'URL. 
+Ainsi, si l'on fait un formulaire en html utilisant bien la méthode get, les données soumises se retrouveront bien dans l'URL menant vers la page spécifiée dans l'attribut `action` de la balise `form` du formulaire. 
 
+
+### Récupérer les paramètres en PHP
+
+Pour récupérer les données dans la page à qui elles ont été envoyées, c'est particulièrement simple.
+En fait, elles sont stockées dans une variable superglobable appelée `$_GET` *(qui est un tableau)*. 
+Donc on a juste à faire un `$_GET[...]` en mettant en crochet la valeur de l'attribut `name`, spécifié au moment de l'input dans le formulaire. 
+
+**Exemple :**
+```html
+--> Dans le formulaire html : 
+<input type="text" name="prenom" id="prenom">
+```
+```php
+--> Dans le php : 
+<h1> Prenom : <?php echo $_GET['prenom'] ?>
+```
+De cette manière, on affiche le prenom renseigné dans le formulaire. 
+
+### Commencer à traiter les données reçues
+
+N'importe qui peut bricoler une URL et passer les paramètres qu'il souhaite, sans forcément passer par le formulaire ou même en remplissant avec des valeurs qui essayeront de foutre le bordel sur le site. 
+Il faut donc filtrer les données reçues. 
+
+Il faut commencer par voir si les valeurs que l'on souhaite utiliser on bien été renseignées à la page. 
+
+Pour vérifier si une variable existe, on utilise la fonction `isset()`. 
+
+**Exemple :**
+```php
+<?php
+    if (!isset($_GET['nom']) || !isset($_GET['prenom'])) {
+
+        echo ('Les attributs ont été mal renseignés....');
+        return;
+    }
+?>
+```
+Ce petit bout de code affiche un message d'erreur et arrête l'exécution du script (avec `return`) si il n'existe pas de variable nom ou bien prenom dans le `$_GET`. 
+
+Deux autres fonctions php vont nous aider à inspecter les paramètres, il s'agit de `filter_var()` et `empty()`. 
+
+**Voilà un exemple :**
+```php
+<?php
+    if (!isset($_GET['email'])) {
+
+        if (!filter_var($_GET['email'], FILTER_VALIDATE_EMAIL) || empty($_GET['email'])) {
+            // gestion de l'erreur...
+            return;
+        }
+    }
+?>
+```
+Dans ce code, on commence par voir si la variable `email` existe bien.
+Mais ensuite, on utilise : 
+* `filter_var(...)` : Pour s'assurer que le contenu de la variable est bien conforme à ce qu'elle est censée contenir, c'est à dire un email. Pour cette fonction, on passe à chaque fois en premier paramètre la variable à vérifier, et la seconde valeur correspond au type auquel la variable doit correspondre, dans le cas présent un email. Mais on aura très bien pu mettre `FILTER_VALIDATE_INT` pour vérifier que ce soit un entier, ou même `FILTER_VALIDATE_IP` pour vérifier que ce soit une ip. 
+
+* `empty()` : Bon là ça parle de soit... La variable peut exister mais être vide, et la fonction verifie donc que ce ne soit bien pas le cas. 
 
 
 
 ---
-à terminer de noter : https://openclassrooms.com/fr/courses/918836-concevez-votre-site-web-avec-php-et-mysql/912799-ecoutez-la-requete-de-vos-utilisateurs-grace-aux-url
+[6.) Les formulaires sécurisés (suite des notes...)](./formulairesSecurises.md)
 
