@@ -1,8 +1,8 @@
-f# La création de formulaires
+# La création de formulaires
 
 Pour créer des formulaires, on utilise la balise `<form> ... </form>`. 
 Au sein de cette balise, deux attributs sont très importants : 
-* `method` : Pour indiquerle moyen par lequel les données sont envoyées. 
+* `method` : Pour indiquer le moyen par lequel les données sont envoyées. 
 * `action` : Pour indiquer  l'adresse de la page (ou du programme) qui va traiter les données saisies.
 
 **Syntaxe générale :**
@@ -47,20 +47,20 @@ Ensuite, on rajoute une balise `<label>` qui possède un attribut `for` prenant 
 
 On peut rajouter des attributs optionnels au `input` de manière à affiner le champ de saisie : 
 * `size` : pour spécifier le nombre de caractères que sera en mesure d'afficher le champ à l'écran. 
-* `maxlength` : pour spécifier le nombre de caractères max saisissable.
+* `maxlength` : pour spécifier le nombre de caractères max saisissables.
 * `placeholder` : Pour afficher légèrement en gris un message dans le champ et donc donner des indications à l'utilisateur...
 
 **Exemple :**
 ```html
 <form method="get" action="....">
     <label for="prenom"> Titre du champ </label>
-    <input name="prenom" id="prenom" type=text" size="30" maxlenght="50" placeholder="Quel est votre prénom ?">
+    <input name="prenom" id="prenom" type="text" size="30" maxlenght="50" placeholder="Quel est votre prénom ?">
 </form> 
 ```
 
 ### insérer des champs de plusieurs lignes de texte
 
-Les champs permettant de rentrer plusieurs lignes de texte sont appelés des champs multilignes. Pour les créer, on utilise la balise `<textaea> ... </textarea>`. 
+Les champs permettant de rentrer plusieurs lignes de texte sont appelés des champs multilignes. Pour les créer, on utilise la balise `<textarea> ... </textarea>`. 
 Son fonctionnement est absolument le même de manière générale que l'input, c'est à dire que l'on spécifie de la même manière le name et l'id pour le lier à un label par exemple. 
 
 Par contre, il y a une spéficité au niveau du message par défaut que l'on écrit dans le champ avant que l'utilisateur le remplisse : 
