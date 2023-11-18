@@ -15,10 +15,12 @@ Ce dépôt de permet de stocker une partie de mes prises de notes, et de manièr
 - [Notes sur le php](./php/intro.md)
 
 
-Ces archives sont avant tout personnelles et ne prétendent à rien d'autre comme vocation que de m'aider à garder à portée de main des informations qui me seront utile à l'avenir, ou bien de m'aider à mettre à l'écrit des réflexions, de manière à structurer ma pensée. 
-Je ne prétends ni expliquer quoique ce soit à qui que ce soit, que l'on soit bien clair. 
-Dans ce sens, certains de mes notes, en particulier sur des aspects techniques, peuvent contenir certains erreurs qui m'auraient échappé, il ne tient ainsi qu'aux potentiels lecteurs de garder un regard critique sur ce qu'ils pourront trouver ici. 
+Voici une traduction en occitan languedocien, en essayant de respecter les spécificités de l'occitan rouergat :
 
-Certains passages vous l'aurez remarqué sont écrits en occitan languedocien, langue de mon pays, le rouergue. C'est une manière de lui rendre hommage, et de l'inscrire dans une certaine modernité. Cela me tient à coeur de faire ainsi. 
+Aquelas archius son sobretot personals e pretendon a res d'autre coma m'ajudar a gardar a drech dins ma man d'informacions que mi seran utilas a l'avenir, o ben mi guiarnar a metre sus papièr de reflexions, d'una mòda a structurar ma pensada. 
+Ieu ne pretendi ni explicar res a degun, que sigam plan clar. 
+Dins aquò, certans de mos apontaments, especialament sus d'aspectes tecnics, pòdon conténer quauques errors que m'aurian escapats, es donc responsabilitat deis eventuals legeires de conservar un regard critic sus çò que pourran trobar aqui. 
 
-Tout cela étant précisé, bonne lecture aux curieux ! 
+Certans passatges, l'aurètz notat, son escrichs en occitan languedocian, la lenga de mon país, lo Roergue. Es una mòda de li rende omatge e de l'inscriure dins una certa modernitat. Aquò m'es car de far aital. 
+
+Tot aquò dich, bona lectura als curioses!
