@@ -167,7 +167,7 @@ Il est aussi possible de donner un titre à un regroupement de champs, en mettan
 ```
 Il est évidemment possible ensuite d'améliorer le fieldset avec du css...
 
-### Positionner un champ automatiquement 
+### Positionner le curseur automatiquement 
 
 Il est possible de postionner dès le chargement de la page le curseur de l'utilisateur dans un champ bien précis. 
 
@@ -186,7 +186,7 @@ Dans le même ordre que le autofocus, on peut rajouter un attribut `required` de
 ## Créer le bouton d'envoi du formulaire
 
 Pour créer le bouton d'envoi, on utilise la balise `<input>`. 
-Il y a plusieurs possbilités, mais de manière générale, on spécifie dans l'attribut type d'un input la valeur `submit`. 
+Il y a plusieurs possibilités, mais de manière générale, on spécifie dans l'attribut type d'un input la valeur `submit`. 
 On donne aussi le nom du bouton d'envoie, avec l'attribut `value`. 
 
 **Exemple :**
