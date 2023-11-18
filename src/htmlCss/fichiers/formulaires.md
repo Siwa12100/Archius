@@ -2,6 +2,8 @@
 
 [...retour aux notes php sur les URL](../../php/bases/paramUrl.md)
 
+---
+
 Pour créer des formulaires, on utilise la balise `<form> ... </form>`. 
 Au sein de cette balise, deux attributs sont très importants : 
 * `method` : Pour indiquer le moyen par lequel les données sont envoyées. 
