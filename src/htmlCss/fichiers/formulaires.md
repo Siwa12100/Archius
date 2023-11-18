@@ -1,5 +1,7 @@
 # La création de formulaires
 
+[...retour aux notes php sur les URL](../../php/bases/paramUrl.md)
+
 Pour créer des formulaires, on utilise la balise `<form> ... </form>`. 
 Au sein de cette balise, deux attributs sont très importants : 
 * `method` : Pour indiquer le moyen par lequel les données sont envoyées. 
@@ -195,3 +197,6 @@ On donne aussi le nom du bouton d'envoie, avec l'attribut `value`.
 ```
 A ce moment là, on sera redirigé vers la valeur précisée dans l'attribut `action` de la balise `form`. 
 Si rien n'a été précisé, alors on reste sur la même page...
+
+---
+[...retour aux notes php sur les URL](../../php/bases/paramUrl.md)
