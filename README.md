@@ -2,7 +2,7 @@
 ---
 
 Bienvenue dans mes archives. 
-Ce dépôt de permet de stocker une partie de mes prises de notes, et de manière générale, de me fournir un support d'écriture rapide particulièrement efficace, grâce à la simplicité du markdown, couplé à l'accessibilité apportée par git. 
+Ce dépôt me permet de stocker une partie de mes prises de notes, et de manière générale, de me fournir un support d'écriture rapide particulièrement efficace, grâce à la simplicité du markdown, couplé à l'accessibilité apportée par git. 
 
 ### Vous retrouverez donc sur ce repo, pour les curieux :
 - Des documentations personnelles pour me créer une banque de connaissances personnelles sur divers sujets 
