@@ -5,6 +5,9 @@ Au sein de cette balise, deux attributs sont très importants :
 * `method` : Pour indiquer le moyen par lequel les données sont envoyées. 
 * `action` : Pour indiquer  l'adresse de la page (ou du programme) qui va traiter les données saisies.
 
+
+## La struture générale d'un formulaire
+
 **Syntaxe générale :**
 ```html
 <p> Texte de la page avant le formulaire....</p>
@@ -16,6 +19,7 @@ Au sein de cette balise, deux attributs sont très importants :
 <p> Texte après le formulaire.... </p>
 ```
 On peut aussi ne rien mettre dans l'attribut `action` (`action=""`) pour indiquer que l'on ne redirige pas les informations ailleurs, et donc que l'on reste sur la page courante. 
+
 
 ### Insérer des champs de texte
 
@@ -134,3 +138,60 @@ Entre les bornes de la balise, on utilise des balises `<option> ... </option>` p
 </form>
 ```
 Il faut bien penser à remplir l'attribut `value` dans la balise d'option...
+
+## Peaufiner le formulaire 
+
+Voilà quelques autres fonctionnalités pour améliorer un formulaire. 
+
+
+## Faire envoyer un formulaire
+
+### Regrouper des champs 
+
+Il est possible de regrouper des champs d'un formulaire, c'est à dire créer une sorte d'encadré autour des champs, pour montrer qu'ils sont liés. 
+Pour cela, à l'image d'un div classique, on encadre l'ensemble des champs à regrouper dans des balises `<fieldset> ... </fieldset>` . 
+Il est aussi possible de donner un titre à un regroupement de champs, en mettant en première balise, au sein des balises fieldset, une balise `<legend> nom... </legend>`. 
+
+**Exemple :**
+```html
+<form method="get" action="...">
+    <fieldset>
+        <ledgend> Titre de la catégorie </fieldset>
+        <input> ...
+        <input> ...
+        <label> ...
+    </fieldset>
+
+    <fieldset> ..... </fieldset>
+</form>
+```
+Il est évidemment possible ensuite d'améliorer le fieldset avec du css...
+
+### Positionner un champ automatiquement 
+
+Il est possible de postionner dès le chargement de la page le curseur de l'utilisateur dans un champ bien précis. 
+
+Pour cela, il suffit de rajouter dans le champ que l'on souhaite l'attribut `autofocus`. Evidemment, cela ne marche qu'une seule fois par page...
+
+**Exemple :**
+```html
+<input type="..." name="..." id="..." autofocus>
+```
+
+### Rendre obligatoire le remplissage d'un champ 
+
+Dans le même ordre que le autofocus, on peut rajouter un attribut `required` de la même manière dans un champ, pour le rendre obligatoire à remplir avant l'envoi du formulaire.
+
+
+## Créer le bouton d'envoi du formulaire
+
+Pour créer le bouton d'envoi, on utilise la balise `<input>`. 
+Il y a plusieurs possbilités, mais de manière générale, on spécifie dans l'attribut type d'un input la valeur `submit`. 
+On donne aussi le nom du bouton d'envoie, avec l'attribut `value`. 
+
+**Exemple :**
+```html
+<input type="submit" value="Bouton d'envoi">
+```
+A ce moment là, on sera redirigé vers la valeur précisée dans l'attribut `action` de la balise `form`. 
+Si rien n'a été précisé, alors on reste sur la même page...
