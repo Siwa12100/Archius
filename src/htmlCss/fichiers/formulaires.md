@@ -89,4 +89,48 @@ Il est possible de mettre d'autres types que `text` dans un type d'input, voilà
   * `step` : l'incrémentation du curseur au mouvement de la souris
   * `value` : la valeur par défaut à laquelle est positionné le curseur 
 
-### Faire choisir des options à l'utilisateur
+### Faire choisir plusiuers options à l'utilisateur
+
+Pour cela, on utilise le type `checkbox` de l'input. 
+De cette manière, avec une liste d'inputs de ce type, l'utilisateur peut cocher plusieurs, une seule ou aucune case. 
+
+**Exemple :**
+```html
+<input name="camion" id="camion" type="checkbox" checked>
+<input name="voiture" id="voiture" type="checkbox">
+... on rajoute aussi les labels normalement....
+```
+On a si on veut l'attribut `checked` qui fait en sorte que la case soit cochée par défaut. 
+
+### Faire un choisir l'utilisateur 1 choix parmis plusieurs 
+
+Pour cela, on utilise le type `radio` de la balise input. Sinon, c'est très similaire à une checkbox. Voilà un exemple : 
+```html
+<p> Etes vous content ou non ? </p>
+    <input type="radio" name="reponseContent" id="ouiContent" value="oui"> <label ...> ...
+    <input type="radio" name="reponseContent" id="nonContent" value="non"> <label...> ...
+```
+On remarque deux choses différentes du checkbox simplement : 
+* Les valeurs de name sont toutes les même pour un même type de réponse. Cela permet de faire en sorte que l'utilisateur ne puisse cocher qu'un seul de ces inputs. 
+* Les id sont différents pour différencier les différents inputs. 
+* Un attribut `value` renseigne la valeur que renvoie l'input : ils doivent absolument tous avoir une valeur différente, sinon il y a un soucis...
+
+
+### Proposer un menu déroulant
+
+Pour cela, on utilise la balise `<select> ... </select>`. 
+Entre les bornes de la balise, on utilise des balises `<option> ... </option>` pour spécifier les différents choix. 
+
+**Exemple :**
+```html
+
+<form>
+    <select name="pays" id="pays"> 
+        <option value="espagne"> Espagne </option>
+        <option value="france"> France </option>
+    </select>
+    
+    <label for="pays"> Quel est votre pays ? </label>
+</form>
+```
+Il faut bien penser à remplir l'attribut `value` dans la balise d'option...
