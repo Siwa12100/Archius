@@ -7,7 +7,7 @@ Ce dépôt me permet de stocker une partie de mes prises de notes, et de manièr
 ### Vous retrouverez donc sur ce repo, pour les curieux :
 - Des documentations rédigées par mes soins pour me créer une banque de connaissances personnelles sur divers sujets 
 - Des morceaux de notes inachevées sur des cours 
-- Des débuts de réflexion sur certains sujets, particulièrement vis à vis du Valorium, et par extension sur MC. 
+- Des débuts de réflexions sur certains sujets, particulièrement vis à vis du Valorium, et par extension sur MC. 
 
 
 ### Différentes catégories des archives : 
