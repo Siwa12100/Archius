@@ -22,4 +22,18 @@ la variable pour récupérer les informations sera dorénavant ainsi `$_POST`, l
 **Pratique intéressante :**
 Il est possible par le biais d'un formulaire de faire passer des données en paramètre, sans que l'utilisateur ne s'en rende compte, en utilisant un input de type `hidden`. Dans ce sens, rien de s'affichera pour l'utilisateur, mais le tableau contenant les paramètres aura bien une association clé / valeur avec `hidden` dedans. 
 
+### Prévenir les failles XSS 
+
+Une faille XSS consiste à injecter du code HTML à l'intérieur d'un formulaire par exemple. Le soucis, c'est qu'au sein de code HTML, à l'aide de balises `<script> ... </script>`, il est possible d'injecter du javascript par exemple. 
+
+Pour ignorer le code HTML, il faut donc utiliser la fonction `htmlspecialchars()` lorsque l'on récupère les données d'un post ou d'un get. En soit, c'est ultra simple à appliquer...
+
+**Exemple :**
+```php
+<?php
+    echo htmlspecialchars($_POST['name']);
+?>
+```
+
+[7.) L'envoi de fichiers(suites des notes...)](./envoiFichiers.md)
 ---
