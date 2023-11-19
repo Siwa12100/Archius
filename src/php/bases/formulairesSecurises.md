@@ -35,5 +35,7 @@ Pour ignorer le code HTML, il faut donc utiliser la fonction `htmlspecialchars()
 ?>
 ```
 
-[7.) L'envoi de fichiers(suites des notes...)](./envoiFichiers.md)
 ---
+
+[7.) L'envoi de fichiers(suites des notes...)](./envoiFichiers.md)
+
