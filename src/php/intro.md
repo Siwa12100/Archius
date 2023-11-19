@@ -70,6 +70,7 @@ On peut aussi exécuter nos fichiers en php depuis le terminal en faisant `php -
 - [5.) Passage de paramètres via l'URL & méthode GET](./bases/paramUrl.md)
 - [6.) Passer des paramètres via l'URL et les utiliser](./bases/paramUrl.md)
 - [7.) L'envoi de fichiers via formulaires](./bases/envoiFichiers.md)
+- [8) Système de connexion](./bases/connexion.md)
 
 
 

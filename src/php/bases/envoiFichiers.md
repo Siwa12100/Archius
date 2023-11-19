@@ -10,7 +10,7 @@
 
 Pour laisser à l'utilisateur déposer un fichier dans un formulaire, les modifications sont plutôt simples au final. Il s'agit de : 
 
-* rajouter l'attribut `enctype="multipart/form-data"` à la balise `form` : pour information le navigateur qu'il s'apprête à envoyer des fichiers. 
+* rajouter l'attribut `enctype="multipart/form-data"` à la balise `form` : pour informer le navigateur qu'il s'apprête à envoyer des fichiers. 
 
 * utiliser le type `file` de la balise `input`, de manière assez classique au final...
 
@@ -29,11 +29,11 @@ Pour laisser à l'utilisateur déposer un fichier dans un formulaire, les modifi
 
 Avant de pouvoir récupérer le fichier et l'utiliser sans soucis, il est question de le traiter pour s'assurer qu'il nous convient et qu'il n'est pas dangereux. 
 
-Avant traitement, le fichier est donc par défaut stocker dans un dossier temporaire, en attente qu'on l'accepte ou non. 
+Avant traitement, le fichier est donc par défaut stocké dans un dossier temporaire, en attente qu'on l'accepte ou non. 
 
 Pour chaque fichier envoyé, on possède une variable superglobale `$_FILES` qui permet d'accéder à ses informations. 
 Pour accéder au fichier, on spécifie quel est le nom du champ du formulaire qui a permis d'envoyer le fichier. 
-Par exemple dans le code au dessus, l'input avec pour name "image", donc pour accéder au fichier envoyé, on va utiliser `$_FILES['image']`. 
+Par exemple dans le code au dessus, l'input avait pour name "image", donc pour accéder au fichier envoyé, on va utiliser `$_FILES['image']`. 
 
 Voilà comment accéder aux informations des fichiers et ce à quoi elles correspondent : 
 
@@ -70,7 +70,7 @@ if (isset($_FILES['nomDuChamp']) && $_FILES['nomDuChamp']['error'] == 0) {
     if ($_FILES['nomDuChamp']['size'] <= 1000000) {
 
         // On récupère un tableau contenant des informations sur le fichier 
-        // grâce à la fonction pathinfo,à qui on a simplement à passer 
+        // grâce à la fonction pathinfo, à qui on a simplement à passer 
         // le chemin vers le fichier 
         $infosSurFichier = pathinfo($_FILES['nomDuChamp']['name']);
 
@@ -101,9 +101,11 @@ move_uploaded_file($_FILES['nomDuChamp']['tmp_name'], 'uploads/' .
 
 On utilise ainsi la fonction `move_uploaded_file()`, qui prend en paramètres : 
 
-* Le nom temporaire du fichier (récupéreré avec le 'tmp_name')
+* Le nom temporaire du fichier (récupéré avec le 'tmp_name')
 
 * Le nom définitif du fichier. Dans le cas présent, on précise logiquement le chemin au passage, en indiquant le dossier uploads et concaténant le nom du dossier avec basename(...) qui permet d'extraire le nom du fichier actuel et de le réutiliser pour le fichier final. 
 
 
 ---
+
+[8.) Système de connexion](./connexion.md)
