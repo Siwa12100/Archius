@@ -57,3 +57,5 @@ Dans l'exemple ci dessus, on pourrait donc par la suite récupérer la valeur ve
 Pour modifier un cookie déjà existant, on fait comme quand on le créé, avec le même nom de variable, et ça va le remplacer...
 
 --- 
+
+[10.) Interagir avec une bdd grâce à PDO](./pdo.md)
