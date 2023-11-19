@@ -211,5 +211,9 @@ Si on récapitule comment ça se passe lors de l'arrivée de quelqu'un sur le si
 * Donc quand dans la page principale on va repasser par la page de connexion, les variables existeront, et si les informations sont bonnes, alors loggedUser contiendra bien l'utilisateur. 
 
 
-* Le formulaire ne s'affichera donc pas, on repartira sur la fin de la page de connexion, où l'isset détectera bien le loggedUser, et affichera donc le contenu réservé aux personnes connectés.  
+* Le formulaire ne s'affichera donc pas, on repartira sur la fin de la page de connexion, où l'isset détectera bien le loggedUser, et affichera donc le contenu réservé aux personnes connectées.  
+  
+
 --- 
+
+[9.) Sessions et cookies (...suite des notes)](./sessionsCookies.md)
