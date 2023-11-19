@@ -142,7 +142,7 @@ Donc en gros, le code de la page de connexion.php en entier ressemble globalemen
 ## La page principale du site
 
 Cette page va afficher les infos classiques de l'accueil. Ensuite elle va appeler la page de connexion, qui si l'utilisateur n'a pas rempli le formulaire (ou mal rempli), va afficher de nouveau le formulaire. 
-Et pour finir, s'il existe bien un utilisateur de connecté, alors la page principale va pour afficher les informations réservées aux utilisateurs connectés. 
+Et pour finir, s'il existe bien un utilisateur de connecté, alors la page principale va pouvoir afficher les informations réservées aux utilisateurs connectés. 
 
 Donc pour commencer, on a le haut de page classique, puis l'inclusion de la page de connexion. 
 **Voilà le code pour cela :**
@@ -177,9 +177,10 @@ Une fois ceci fait, c'est à dire que le haut de la page est défini et qu'on a 
 ```php
         <!-- Si l'utilisateur existe..... -->
         <?php 
-            ...
-            On fait ce qu'on veut ici...
-            On affiche ce qu'on veut à l'utilisateur connecté...
+            if(isset($loggedUser)) {
+                On fait ce qu'on veut ici...
+                On affiche ce qu'on veut à l'utilisateur connecté...
+            }
          ?>
     </div>
 
