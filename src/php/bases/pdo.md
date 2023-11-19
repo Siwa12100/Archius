@@ -13,7 +13,7 @@ Dans ces notes, le but n'est pas de reprendre les notions de SQL comme la créat
 
 PDO (PHP Data Objects) est une extension de php. c'est grâce à ses méthodes que l'on va pouvoir accéder à la bdd.
 
-On va commencer faire instancier PDO, pour représenter notre base de données. 
+On va commencer par faire instancier PDO, pour représenter notre base de données. 
 Voilà le code classique pour faire cela : 
 ```php
 
