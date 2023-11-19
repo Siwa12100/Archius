@@ -29,7 +29,7 @@ Le soucis des sessions, c'est qu'une fois qu'elles sont détruites, tous les inf
 
 On utilise donc des cookies, qui sont de petits fichiers qui s'enregistrent au niveau du navigateur de l'utilisateur, pour conserver des données sur un utilisateur, même après que sa session soit détruite. 
 
-Pour créer un cookie sur un utilisateur, on a la fonction `set_cookie()` qui prend plusieurs paramètres, dont le nom de la variable contenu l'info, et le contenu de l'info. Mais ce n'est pas tout. 
+Pour créer un cookie sur un utilisateur, on a la fonction `set_cookie()` qui prend plusieurs paramètres, dont le nom de la variable contenant l'info, et le contenu de l'info. Mais ce n'est pas tout. 
 
 **Voilà un exemple classique et sécurisé de la fonction :**
 ```php
@@ -48,8 +48,8 @@ setcookie(
 );
 ```
 
-Le expires permet d'indiquer le temps avant que le cookie ne soit supprimer. Il s'agit du nombre de secondes après jsp plus quand en 1970...
-Donc on utilise time() pour avoir le nombre de seconde actuelles depuis jsp quand en 1970, et on y rajoute le nombre de secondes après lesquels le cookies sera supprimées (on peut mettre des durées en années même si on veut, mais exprimées en secondes...). 
+Le expires permet d'indiquer le temps avant que le cookie ne soit supprimé. Il s'agit du nombre de secondes après jsp plus quand en 1970...
+Donc on utilise time() pour avoir le nombre de seconde actuelles depuis jsp quand en 1970, et on y rajoute le nombre de secondes après lesquels le cookies sera supprimé (on peut mettre des durées en années même si on veut, mais exprimées en secondes...). 
 
 A l'arrivée de l'utilisateur sur le site, php va aller récupérer les potentiels cookies et les mettre dans le tableau `$_COOKIE`. 
 Dans l'exemple ci dessus, on pourrait donc par la suite récupérer la valeur vert en appelant `$_COOKIE['couleurPrefere']`...

@@ -77,3 +77,5 @@ On peut aussi exécuter nos fichiers en php depuis le terminal en faisant `php -
 
 # Quelques liens utiles
 - [Messages d'erreur courants en php (openclassroom)](https://openclassrooms.com/fr/courses/918836-concevez-votre-site-web-avec-php-et-mysql/4240011-au-secours-mon-script-plante)
+
+- [Verifier le bon fonctionnement de PDO](https://openclassrooms.com/fr/courses/918836-concevez-votre-site-web-avec-php-et-mysql/914293-accedez-aux-donnees-en-php-avec-pdo)
