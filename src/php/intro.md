@@ -72,6 +72,7 @@ On peut aussi exécuter nos fichiers en php depuis le terminal en faisant `php -
 - [7.) L'envoi de fichiers via formulaires](./bases/envoiFichiers.md)
 - [8) Système de connexion](./bases/connexion.md)
 - [9.) Sessions et cookies](./bases/sessionsCookies.md)
+- [10.) Interagir avec une BDD grâce à PDO](./bases/pdo.md)
 
 
 
