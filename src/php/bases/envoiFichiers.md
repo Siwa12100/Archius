@@ -108,4 +108,4 @@ On utilise ainsi la fonction `move_uploaded_file()`, qui prend en paramètres :
 
 ---
 
-[8.) Système de connexion](./connexion.md)
+[8.) Système de connexion (suite des notes...)](./connexion.md)
