@@ -77,6 +77,9 @@ On peut aussi exécuter nos fichiers en php depuis le terminal en faisant `php -
 ### Prog. orientée objet :
 - [1.) bases et syntaxe générale](./poo/basesEtSyntaxe.md)
 - [2.) Les méthodes magiques](./poo/methodesMagiques.md)
+- [3.) Espaces de nom et autoloader](./poo/namespaceEtAutoload.md)
+
+
 
 
 
