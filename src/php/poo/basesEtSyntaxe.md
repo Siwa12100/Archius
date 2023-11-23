@@ -4,7 +4,7 @@
 
 ---
 
-Pour information, je ne vais revenir dans ces notes sur le concept même de programmation orientée objet. 
+Pour information, je ne vais pas revenir dans ces notes sur le concept même de programmation orientée objet. 
 Le but est uniquement d'expliquer la manière de l'appliquer au PHP, dans sa syntaxe et ses concepts. 
 
 ### Instanciation et référence
@@ -16,7 +16,7 @@ En PHP, l'instanciation est très similaire au Java. On passe par un `new`, qui 
 $a = new maClasse();
 ```
 
-Il possible de passer aux fonctions directement des références à variables (comme en C++ par exemple).
+Il possible de passer aux fonctions directement des références à des variables (comme en C++ par exemple).
 Le but est que le paramètre passé par référence à une fonction ne soit pas une copie de la vraie variable, mais soit la variable elle même. 
 Du coup si elle est modifiée pendant la fonction, elle gardera ses modifications même après son passage. 
 
@@ -52,9 +52,9 @@ Dans ce cas, si je modifie var2, var1 aussi sera modifié car ils pointent vers 
 
 En php, on déclare une classe en faisant `class nomCLasse { ... } `. 
 
-### Déclaration de priopriétés
+### Déclaration de propriétés
 
-On déclare une priorité en spécifiant sa visibilité, de manière facultative son type, puis son nom.
+On déclare une propriété en spécifiant sa visibilité, de manière facultative son type, puis son nom.
 
 **Exemple :**
 ```php
@@ -65,7 +65,7 @@ protected $age;
 
 Les trois types de protection sont :
 
-* `public` : tout le monde à accès aux attributs.
+* `public` : tout le monde a accès aux attributs.
 * `private` : seul la classe a accès à ses attributs.
 * `protected` : seul la classe et ses filles ont accès aux attributs de la classe. 
 
@@ -108,11 +108,11 @@ public function __destruct() {
 
 ```
 
-Le descructeur est facultatif et ne peux pas prendre de paramètres. Le constructeur de son côté est aussi facultatif même si très recommendé, et peut prendre des paramètres, ou pas. 
+Le descructeur est facultatif et ne peux pas prendre de paramètres. Le constructeur de son côté est aussi facultatif même si très recommandé, et peut prendre des paramètres, ou pas. 
 
 ### La fonction unset
 
-Je suis tombé sur cette fonction et je la trouve plutôt utile. ELle permet de détruire manuellement une instance en gros.
+Je suis tombé sur cette fonction et je la trouve plutôt utile. Elle permet de détruire manuellement une instance en gros.
 C'est une sorte d'équivalent du `free()` en C un peu...
 
 **Exemple :**
@@ -133,7 +133,7 @@ Pour hériter d'une classe, c'est le classique :
 class maClass extends classMere {...}
 ```
 
-En ce qui concerne la syntaxe, la voici : 
+En ce qui concerne les interfaces, voilà la syntaxe : 
 ```php
 
 interface monInterface {
@@ -144,7 +144,7 @@ class maClass implements monInterface {...}
 ```
 
 Il est possible de spécifier une visibilité à des méthodes d'interface, même si c'est facultatif. 
-Il faut aussi noter que l'on peut avec une visibilité plus restreinte lors de l'implémentation dans une classe d'une méthode, par rapport à sa déclaration dans l'interface.
+Il faut aussi noter que l'on peut avoir une visibilité plus restreinte lors de l'implémentation dans une classe d'une méthode, par rapport à sa déclaration dans l'interface.
 
 C'est à dire qu'une méthode public dans une interface peut être implémentée en protected par exemple dans une classe. 
 Mais une méthode private dans une interface elle, ne peut pas être protected dans une classe, car la visibilité est moins restreinte sinon...
@@ -183,9 +183,9 @@ Donc chaque instance possède ses propres valeurs d'attributs, et on peut vraime
 
 De son côté, le `$self` fait référence aux méthodes ou attributs statiques au sein d'une classe. C'est un peu comme le `maClass::...` en dehors de la déclaration d'une classe. C'est une sorte de `$this`, mais réservé aux éléments statiques (méthodes ou attributs).
 
-Attention, on fait `$this -> ...` pour accéder à un élément, mais avec seul c'est des `::`, du style `self::....`. 
+Attention, on fait `$this -> ...` pour accéder à un élément, mais avec self c'est des `::`, du style `self::....`. 
 
-Et pour finir, le `parent::` permet d'indiquer, au sein de la déclaration d'une classe que l'on fait référence à un attribut ou une méthode statique de la classe parente (à conditions que ceux-ci soient en protected évidemment...). 
+Et pour finir, le `parent::` permet d'indiquer, au sein de la déclaration d'une classe que l'on fait référence à un attribut ou une méthode de la classe parente (à conditions que ceux-ci soient en protected évidemment...). 
 
 
 ### mot clé : final
@@ -217,7 +217,7 @@ Il n'est pas lié à la POO, mais c'est intéressant de revenir dessus rapidemen
 
 Il permet d'utiliser une variable en dehors du contexte dans lequel elle a été déclarée.
 
-C'est à dire que si je définis une variable puis en dessous une fonction, je pourrais accéder à la variable du dessus au sein de la fonction directement, grâce au mot clé `global`. 
+C'est à dire que si je défini une variable puis en dessous une fonction, je pourrais accéder à la variable du dessus au sein de la fonction directement, grâce au mot clé `global`. 
 
 **Exemple :**
 ```php
