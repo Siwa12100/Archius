@@ -9,7 +9,7 @@ Le but au final, c'est d'éviter de faire juste planter le programme, et de lui 
 
 ### Lancer une exception
 
-Pour lancer une exeption à un moment dans le code, on utilise le mot clé `throw `, suivant d'une instanciation d'un objet venant de la classee Exception ou de l'une de ses filles. 
+Pour lancer une exeption à un moment dans le code, on utilise le mot clé `throw`, suivi d'une instanciation d'un objet venant de la classe Exception ou de l'une de ses filles. 
 
 **Exemple :**
 ```php
@@ -27,7 +27,7 @@ C'est pour cela qu'on utilise les blocs `try {} catch() finally {}`.
 
 On fait du code dans le try qui peut lancer des exceptions. Si aucune n'est levée, tout se passe bien, on ne passe pas dans le catch, mais on passe (toujours) par le finally. 
 
-Par contre si l'une des exceptions levée correspond à l'une de celles spécifiées les paramètres du catch, alors on passe par le bloc catch, puis on fini par le finally.
+Par contre si l'une des exceptions levée correspond à l'une de celles spécifiées dans les paramètres du catch, alors on passe par le bloc catch, puis on fini par le finally.
 
 Et pour info, si une exception est levée dans le try, tout le code du try après la levée de l'exception n'est pas exécuté. 
 
@@ -57,7 +57,7 @@ Il est possible de créer nos propres exceptions, en créer des classes qui hér
 
 **Exemple :**
 ```php
-class bordel Extends Exception {
+class bordel extends Exception {
     public $message = "ptn c le bordel et tout et tout !";
     ...
     ...
@@ -71,7 +71,7 @@ throw new bordel();
 ... } catch (bordel $b) { ...}
 ```
 
-Après, des exceptions comme celle-ci un peu plus... explicites disons sont déjà créées et peuvent être utilisées, comme la `RuntimeException`.
+Après, des exceptions un peu plus... explicites disons sont déjà créées et peuvent être utilisées, comme la `RuntimeException`.
 
 
 ### Gestion rapide
