@@ -6,11 +6,11 @@
 
 Les méthodes dites magiques sont des méthodes qui permettent des manipulations très utiles en PHP. 
 
-Certaines ont des comportement par défaut et on pourront être appelée sans même avoir été redéfinies dans la déclaration de la classe, mais d'autres comme `__toString` devront forcément être déclarées dans la classe avant d'être utilisées.
+Certaines ont des comportements par défaut et pourront être appelées sans même avoir été redéfinies dans la déclaration de la classe, mais d'autres comme `__toString` devront forcément être déclarées dans la classe avant d'être utilisées.
 
 Elles doivent être définies avec des visibilités publiques. 
 
-### __toString et __clone
+### __toString() et __clone()
 
 La méthode clone permet de cloner un objet. C'est à dire qu'un nouvel objet est instancié et toutes les valeurs de l'objet de base sont automatiquement passées à l'objet cloné pour qu'ils soient absolument similaires. 
 
@@ -52,7 +52,7 @@ public function __toString() {
 
 // ailleurs dans le code : 
 echo $maClasse; // va renvoyer ce qui a été défini dans le toString...
-// Attention, si le toString n'a pas été défini, ça va faire un erreur évidemment...
+// Attention, si le toString n'a pas été défini, ça va faire une erreur évidemment...
 ```
 
 ---
@@ -61,4 +61,4 @@ Il y a pas mal d'autres méthodes dans le genre que je veux absolument noter ici
 
 Mais elles sont toutes disponibles ici : [methodes magiques](https://openclassrooms.com/fr/courses/1665806-programmez-en-oriente-objet-en-php/7306942-exploitez-les-methodes-communes-aux-objets). 
 
-Surtout les méthodes pour la serialisation, elles sont l'air ultra utiles. 
+Surtout les méthodes pour la serialisation, elles ont l'air ultra utiles. 
