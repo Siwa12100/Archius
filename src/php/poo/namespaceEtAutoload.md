@@ -49,3 +49,34 @@ Il faut aussi penser à faire un `require_once("chemin/maClasse.php);`.
 L'autoloader va permettre d'enlever l'utilisation de `require`. En fait, simplement en précisant le namespace d'une classe avec `use`, l'autoloader va être en mesure d'intégrer les fichiers automatiquement. 
 C'est là que l'on comprend pourquoi il est très utile d'avoir l'arborescence de fichiers/dossiers identique à celle des namespace...
 
+En php, on utilise `spl_autoload_register` pour faire l'autoload (à part si on utilise composer...). 
+
+La fonction spl_autoload_register prend en paramètre une fonction, qui elle prend en paramètre un nom de classe, et explique dans son code comment à partir de ce nom comment aller charger la classe. 
+
+Prenons le cas où l'arborescence fichiers/dossiers correspond parfaitement à celle des namespace. 
+Dans ce cas, la fonction de notre autoload va en fait, pour chaque namespace spécifié dans un `use`, aller remplacer les \ par des / et rajouter .php à la fin. Cela va permettre de transformer le chemin en namespace en chemin vers le fichier contenant la classe. 
+
+**Exemple :**
+```php
+spl_autoload_register(static function ($cheminNamespace) {
+
+    $cheminFichier = str_replace("\\", "/", $cheminNamespace);
+    require_once $cheminFichier;
+});
+
+use ...;
+use ...;
+
+// autre syntaxe : 
+function mafonctionChargement($cheminNamespace) {
+    ...
+    ...
+} 
+
+spl_autoload_register('mafontionChargement');
+...
+...
+....
+```
+
+Dans l'idéal, le mieux est vraiment de mettre ce bout de code dans le fichier de config, histoire qu'il soit appelé au tout début du programme, et donc opérationnel dans l'ensemble du projet. 
