@@ -6,7 +6,7 @@
 
 Dans l'idée, le concept est très très semblable aux packages en Java. 
 
-Dans ce sens par convention, on considère tous les fichiers dans un dossier ont le même namespace. On s'assure aussi que les classes et les fichiers qui les contiennent ont le même nom, sinon ça peut être le bordel après avec certaines fonctionnalités qui utilisent les conventions, comme les autoloaders. 
+Dans ce sens par convention, on considère que tous les fichiers dans un dossier ont le même namespace. On s'assure aussi que les classes et les fichiers qui les contiennent ont le même nom, sinon ça peut être le bordel après avec certaines fonctionnalités qui utilisent les conventions, comme les autoloaders. 
 
 De manière générale, les namespace servent avant tout à éviter les mélanges entre des classes de même nom. Dans de grands projets, plusieurs classes peuvent avoir le même nom et grâce au fait qu'elles sont présentes dans des namespace différents, on ne les confond pas. 
 C'est un peu le même principe que les fichiers : deux fichiers dans le même dossier ne peuvent pas avoir le même nom, et de manière générale, on les identifie grâce à leur chemin... 
