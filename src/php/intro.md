@@ -87,3 +87,10 @@ On peut aussi exécuter nos fichiers en php depuis le terminal en faisant `php -
 - [Messages d'erreur courants en php (openclassroom)](https://openclassrooms.com/fr/courses/918836-concevez-votre-site-web-avec-php-et-mysql/4240011-au-secours-mon-script-plante)
 
 - [Verifier le bon fonctionnement de PDO](https://openclassrooms.com/fr/courses/918836-concevez-votre-site-web-avec-php-et-mysql/914293-accedez-aux-donnees-en-php-avec-pdo)
+
+
+# Notions intéressantes 
+
+Voilà des notions php importantes à maitriser mais que je n'ai pas encore eu le temps d'étudier et comprendre en détail.
+
+- [les traits](https://openclassrooms.com/fr/courses/1665806-programmez-en-oriente-objet-en-php/7307110-assouplissez-l-heritage-avec-les-traits) 
