@@ -79,6 +79,7 @@ On peut aussi exécuter nos fichiers en php depuis le terminal en faisant `php -
 - [2.) Les méthodes magiques](./poo/methodesMagiques.md)
 - [3.) Espaces de nom et autoloader](./poo/namespaceEtAutoload.md)
 - [4.) La gestion des erreurs](./poo/erreurs.md)
+- [5.) La serialisation](./poo/serialisation.md)
 
 
 
