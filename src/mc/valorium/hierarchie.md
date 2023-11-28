@@ -25,7 +25,7 @@ Chaque domaine de travail du Valorium est regroupé au sein d'un pôle. Ainsi ex
 
 Chaque pôle est constitué d'un chef de pôle ayant la charge de son bon fonctionnement, ainsi des membres travaillant dedans. 
 
-Au sein de l'équipe du Valorium, une partie de l'équipe travaille pour l'Alliance d'Elendil (étant donné qu'il s'agit à l'heure actuel d'un organisme moteur et clé dans le développement du Valorium tant dans son univers que sa philosophie) et est rassemblée au sein de la délégation Elendil. 
+Au sein de l'équipe du Valorium, une partie de l'équipe travaille pour l'Alliance d'Elendil (étant donné qu'il s'agit à l'heure actuel d'un organisme moteur et clé dans le développement du Valorium tant dans son univers que sa philosophie) et est rassemblée au sein de la délégation Elendil.
 
 Et pour finir, l'équipe du Valorium est constituée d'un sénat, rassemblant le dirigeant du Valorium ainsi que les personnes nommées par celui-ci, les sénateurs, pour l'épauler dans la direction du Valorium.
 

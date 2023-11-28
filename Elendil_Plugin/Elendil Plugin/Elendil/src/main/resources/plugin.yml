@@ -1,0 +1,8 @@
+name: Elendil
+version: '${version}'
+main: fr.toxio.elendil.Elendil
+api-version: '1.20'
+commands:
+  givehorse:
+    description: "Commande pour give le cheval"
+    usage: "givehorse"
