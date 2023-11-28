@@ -12,4 +12,4 @@ Il est ainsi pour commencer important de se demander quels types d'acteurs vont 
 
 ### Des serveurs MC. francophones
 
-Dans l'optique d'étendre l'univers en jeu d'Emrub, l'une des catégories d'acteurs majeurs au sein du Valorium est sans aucun doute les serveurs faisant partie du réseau d'Emrub. 
+
