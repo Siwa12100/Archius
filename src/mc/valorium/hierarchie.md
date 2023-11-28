@@ -2,7 +2,7 @@
 
 [...retour à l'accueil des archives du Valorium](./accueil.md)
 
-Ce document a pour but de mettre à l'écrit la réflexion liée à la hiérarchie au sein du Valorium.
+Ce document a pour but de mettre à l'écrit la réflexion vis à vis de la hiérarchie au sein du Valorium.
 Il est ainsi question de se demander quels sont les différents acteurs qui, au fil du temps, interagiront et feront partie de l'organisme, de manière à savoir quels rôles leurs donner, quels pouvoirs, quelles forces de décision et responsabilités au sein de notre communauté. 
 
 
