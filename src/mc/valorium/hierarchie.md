@@ -10,6 +10,24 @@ Il est ainsi question de se demander quels sont les différents acteurs qui, au 
 
 Il est ainsi pour commencer important de se demander quels types d'acteurs vont évoluer au sein du Valorium au fils des mois et des années à venir, pour quelles raisons et dans quel cadre.
 
-### Des serveurs MC. francophones
+* Serveurs mc. francophones 
+* regroupements de serveurs francophones 
+* organismes communautaires (avec ou sans serveurs)
+* organismes évènementiels 
+* organismes d'actualités / journalistiques 
+* organismes de création de contenu (graphistes, buildeurs, devs, vidéos...)
+  
+
+### L'équipe du Valorium
+
+L'équipe du Valorium a pour but de rassembler en son sein toutes les personnes qui travaillent activement au développement du Valorium.
+Chaque domaine de travail du Valorium est regroupé au sein d'un pôle. Ainsi existent un pôle pour le développement, un pôle pour la communication, un pôle pour les évènements, ect...
+
+Chaque pôle est constitué d'un chef de pôle ayant la charge de son bon fonctionnement, ainsi des membres travaillant dedans. 
+
+Au sein de l'équipe du Valorium, une partie de l'équipe travaille pour l'Alliance d'Elendil (étant donné qu'il s'agit à l'heure actuel d'un organisme moteur et clé dans le développement du Valorium tant dans son univers que sa philosophie) et est rassemblée au sein de la délégation Elendil. 
+
+Et pour finir, l'équipe du Valorium est constituée d'un sénat, rassemblant le dirigeant du Valorium ainsi que les personnes nommées par celui-ci, les sénateurs, pour l'épauler dans la direction du Valorium.
+
 
 
