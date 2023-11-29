@@ -21,10 +21,10 @@ Tout d'abord, il est important de se demander quels types d'acteurs vont évolue
 Pour structurer proprement la hiérarchie de notre organisme, il est nécessaire de séparer les différents sujets/domaines étant les raisons de l'investissement de tous les types d'acteurs.
 Dans ce sens, 4 domaines peuvent être identifiés comme raisons d'implication des acteurs au sein du Valorium :
 
-* le fait de travailler activement à son développement
-* le fait de posséder au moins un de leurs serveurs est relié au réseau d'Emrub
-* le fait d'être membre de l'association
-* ...
+* le fait de travailler activement à son développement.
+* le fait de posséder au moins un de leurs serveurs est relié au réseau d'Emrub.
+* le fait d'être membre de l'association.
+* le fait de participer au proceesus de partage d'expérience, de ressources et d'informations pour s'entraider et mener des projets communs.
 
 ### L'équipe du Valorium
 
