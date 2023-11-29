@@ -39,6 +39,10 @@ Et pour finir, l'équipe du Valorium est constituée d'un sénat, rassemblant le
 
 ### Le grand conseil d'Emrub
 
+Le grand conseil d'Emrub a pour but de rassembler l'ensemble des représentants de serveurs et groupements de serveurs réliés au réseau d'Emrub. 
+Le but est ainsi de favoriser l'échange entre ces acteurs liés directement depuis le jeu, et de se concentrer sur les sujets qui touchent directement à l'univers en jeu. Il peut s'agir de la mise en place de nouveaux concepts, de l'approfondissement de ceux déjà existants, de potentiels events, mais de manière générale, le but est avant tout d'écouter et de prendre en compte du mieux que possible et avec le plus de précision que possible les ressentis des serveurs vis à vis de leur appartenance au réseau, et de favoriser un espace d'échange; de débats et d'expressions, pour que le développement des concepts liés à Emrub soient bien ceux souhaités par l'ensemble des serveurs, et que chacun s'y retrouve. 
+
+Dans ce sens, c'est au sein du grand conseil d'Emrub que l'acceptation de nouveaux concepts est votée après débats et affinements au besoin, de manière à bien s'assurer qu'une importante majorité des serveurs est d'accord avec leur mise en place, et qu'il ne s'agisse pas d'une contrainte trop importante pour quiconque. 
 ### L'Assemblée générale du Valorium
 
 ### Le parlement du Valorium 
