@@ -41,5 +41,24 @@ A mon sens, le fait de réussir à ramener plus de monde en jeu sur le serveur s
 
 Un regain d'activité permettra aussi certainement de bien mieux faire tourner la municipalité, et avec elle la vie de la communauté sur le serveur. 
 
-Maintenant, le soucis est clairement que malgrès une communication plutôt assidue de ma part, l'arrivée de nouveaux joueurs sur le serveur reste encore trop faible pour faire remonter l'activité. Cela étant dit, les moyens de communication d'Isildur sont plutôt bons, on fait leurs preuves avec le temps et il n'est pas à mon sens dans leur amélioration que l'on réussira à sortir de cette situation compliquée. 
-Seul les sites de vote ne sont pas couverts par Isildur, et c'est un type de communication qui a montré son efficacité, mais qui demande une implication de la communauté qu'Isildur ne pourra sûrement jamais atteindre, du fait du faible nombre de joueurs actuels d'une part, mais aussi du fait de notre volonté de ne pas embêter les joueurs en leur demandant d'aller voter, même en échange d'une récompense. 
+Maintenant, le soucis est clairement que malgrès une communication plutôt assidue de ma part, l'arrivée de nouveaux joueurs sur le serveur reste encore trop faible pour faire remonter l'activité. Cela étant dit, les moyens de communication d'Isildur sont plutôt bons, ont fait leurs preuves avec le temps et il n'est pas à mon sens dans leur amélioration que l'on trouvera une issue à cette situation compliquée. 
+Seul les sites de vote ne sont pas couverts par Isildur, c'est un type de communication qui a montré son efficacité, mais qui demande une implication de la communauté qu'Isildur ne pourra sûrement jamais atteindre, du fait du faible nombre de joueurs actuels d'une part, mais aussi du fait de notre volonté de ne pas embêter les joueurs en leur demandant d'aller voter, même en échange d'une récompense.
+
+A l'heure actuelle, nous sommes donc dépendants de la hype de la communauté vis à vis de la survie vanilla, pour le meilleur, et dans la période actuelle, pour le pire surtout. 
+La meilleure chose à faire est donc certainement de résister, de faire le dos rond et de passer tranquillement cette phase compliquée. L'important est d'être transparent avec les joueurs avant tout, qu'ils comprennent la situation, de manière aussi à ce qu'ils aient confiance en l'avenir du serveur et en la présence d'une équipe (qu'il s'agisse des Medjaÿs ou de moi même) consciente de la situation actuelle, investie pour la traverser du mieux que possible, et prête à rebondir une fois que la période compliquée autour de la survie vanilla sera passée.
+
+Chaque niveau d'activité à sa richesse à mon sens. Si nous avons instauré sur Elendil une manière de classifier les serveurs en villes, villages et hameaux, c'est justement pour mettre en avant les charmes de chaque type. Isildur alterne ces temps-ci entre le village et l'hameau, et à mon sens, cela lui donne un réel charme, qu'un serveur plus actif ne saurait avoir. 
+
+Dans ce sens même si la situation pourrait être meilleure, je suis convaincu que le gameplay sur Isildur, y compris dans cette période reste vraiment agréable.
+
+### En résumé
+
+Au final, voilà donc les points / actions à travailler / mettre en place sur les prochains jours / semaines : 
+
+* Mise au propre des membres encore actifs sur le serveur après les impôts 
+* Mise au propre des licences et de l'économie en général 
+* Travail sur un accueil et une intégration plus poussée des nouveaux joueurs
+* Travail à la dynamisation et la réorganisation de la communauté dans cette période de calme
+  
+  
+
