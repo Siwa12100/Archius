@@ -19,4 +19,8 @@ Cette sensation que j'ai en rejoignant Isildur, cette sensation d'arriver en ter
 
 Maintenant, il est clair qu'Isildur me prend un temps considérable, et l'un des enjeux principaux pour moi est de réussir à minimiser un maximum ce temps, sans pour autant que le serveur n'en subisse les conséquences. 
 
-En ce qui concerne le gameplay en général, la saison 4 a réussi à apporter un vent de fraicheur vraiment intéressant, et il me semble particulièrement réussi, dans le sens où il permet une organisation de la communauté stable, durable, tout en ne complexifiant pas trop les choses et en gardant cette sensation de gameplay simple. 
+En ce qui concerne le gameplay en général, la saison 4 a réussi à apporter un vent de fraicheur vraiment intéressant, et il me semble particulièrement réussi, dans le sens où il permet une organisation de la communauté stable, durable, tout en ne complexifiant pas trop les choses et en gardant cette sensation de gameplay simple.
+
+### Les faiblesses et menaces du serveur
+
+Le soucis principal du serveur est clairement l'activité en jeu. La communication sur les différents discords n'a pas réussi à attirer suffisamment de monde pour s'assurer un renouvellement suffisant, et dorénavant, le serveur tourne autour des 0 à 4-5 joueurs connectés en simultané, contrairement aux 20 joueurs constant que j'aurais espéré faire perdurer lors du lancement.
