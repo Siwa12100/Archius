@@ -27,7 +27,7 @@ Le soucis principal du serveur est clairement l'activité en jeu. La communicati
 
 Un soucis venant du fait de ce manque d'activité, est l'absence importante de personnes pour tenir les différents groupes qui avaient été pensés pour faire tourner le serveur de manière relativement autonome.
 
-Si j'ai de la chance d'avoir Kasyama, Peverell et Ptigrillon qui m'épaule et m'allège une partie du travail en tant que medjaÿs, tout ce qui touche à la municipalité, et donc la dynamisation du serveur, l'économie, le spawn, les events et l'intégration des nouveaux joueurs, est totalement à l'arrêt.
+Si j'ai de la chance d'avoir Kasyama, Peverell et Ptigrillon qui m'épaulent et m'allègent sur une partie du travail en tant que medjaÿs, tout ce qui touche à la municipalité, et donc la dynamisation du serveur, l'économie, le spawn, les events et l'intégration des nouveaux joueurs, est totalement à l'arrêt.
 
 Les deux points qui aujourd'hui font qu'Isildur est en relative difficulté sont donc les suivants :
 
@@ -47,9 +47,9 @@ Seul les sites de vote ne sont pas couverts par Isildur, c'est un type de commun
 A l'heure actuelle, nous sommes donc dépendants de la hype de la communauté vis à vis de la survie vanilla, pour le meilleur, et dans la période actuelle, pour le pire surtout. 
 La meilleure chose à faire est donc certainement de résister, de faire le dos rond et de passer tranquillement cette phase compliquée. L'important est d'être transparent avec les joueurs avant tout, qu'ils comprennent la situation, de manière aussi à ce qu'ils aient confiance en l'avenir du serveur et en la présence d'une équipe (qu'il s'agisse des Medjaÿs ou de moi même) consciente de la situation actuelle, investie pour la traverser du mieux que possible, et prête à rebondir une fois que la période compliquée autour de la survie vanilla sera passée.
 
-Chaque niveau d'activité à sa richesse à mon sens. Si nous avons instauré sur Elendil une manière de classifier les serveurs en villes, villages et hameaux, c'est justement pour mettre en avant les charmes de chaque type. Isildur alterne ces temps-ci entre le village et l'hameau, et à mon sens, cela lui donne un réel charme, qu'un serveur plus actif ne saurait avoir. 
+Chaque niveau d'activité a sa richesse à mon sens. Si nous avons instauré sur Elendil une manière de classifier les serveurs en villes, villages et hameaux, c'est justement pour mettre en avant les charmes de chaque type. Isildur alterne ces temps-ci entre le village et l'hameau, et à mon sens, cela lui donne un réel charme, qu'un serveur plus actif ne saurait avoir. 
 
-Dans ce sens même si la situation pourrait être meilleure, je suis convaincu que le gameplay sur Isildur, y compris dans cette période reste vraiment agréable.
+Dans ce sens même si la situation pourrait être meilleure, je suis convaincu que le gameplay sur Isildur, y compris dans cette période, reste vraiment agréable.
 
 ### En résumé
 
@@ -60,5 +60,5 @@ Au final, voilà donc les points / actions à travailler / mettre en place sur l
 * Travail sur un accueil et une intégration plus poussée des nouveaux joueurs
 * Travail à la dynamisation et la réorganisation de la communauté dans cette période de calme
   
-  
+
 
