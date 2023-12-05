@@ -12,3 +12,15 @@ Il peut s'agir d'informations sur l'aspect technique du réseau Emrub et du Valo
 
 * [Hiérarchie du Valorium](./hierarchie.md)
 * [Rapports d'activité - Siwa](./rapports/accueil.md)
+
+# Présentation
+
+### Le Valorium
+
+* [Une ambition]
+* [Une association]
+* [Une structure]
+
+### L'univers d'Emrub
+
+* [Présentation générale]
