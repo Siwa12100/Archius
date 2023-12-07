@@ -1,4 +1,15 @@
-# Notre philosophie
+# Valorium - Présentation générale
+
+Le Valorium est une association loi 1901 fondée en automne 2023, dans l'optique de mener à bien des projets conséquents autour de l'univers de Minecraft dans un premier temps, et de développer une vision nouvelle autour de l'évolution et des interactions sociales dans, mais aussi autour, du jeu.
+
+## Sommaire
+
+* Une philosophie
+* une ambition
+* une organisation
+  
+
+## La philosophie du Valorium
 
 Le Valorium se développe avant tout autour d'une philosophie, fruit de plusieurs années d'échanges et de réflexions toujours en cours à l'heure actuelle, entre divers acteurs évoluant dans le Minecraft francophone.
 
