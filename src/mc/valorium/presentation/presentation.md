@@ -22,6 +22,11 @@ Le cœur de notre vision et de nos travaux consiste en la création d'échange e
 
 * Penser ensemble une vision et un avenir global prometteur pour la communauté Minecraft francophone. Ceci passe par un travail d'analyse en profondeur de la communauté actuelle et de sa composition, mais aussi par une recherche vis-à-vis des nouvelles envies des joueurs de nos jours.
   
+## Une ambition
+
+...
+...
+  
 ---
 
 [...retour à l'accueil des archives](../accueil.md)
