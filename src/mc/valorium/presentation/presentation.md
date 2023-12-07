@@ -1,6 +1,6 @@
 # Valorium - Présentation générale
 
-Le Valorium est une association loi 1901 fondée en automne 2023, dans l'optique de mener à bien des projets conséquents autour de l'univers de Minecraft dans un premier temps, et de développer une vision nouvelle autour de l'évolution et des interactions sociales dans, mais aussi autour, du jeu.
+Le Valorium est une association loi 1901 fondée en automne 2023, dans l'optique de mener à bien des projets conséquents autour de l'univers de Minecraft dans un premier temps, et de développer une vision nouvelle de l'évolution et des interactions sociales dans, mais aussi autour, du jeu.
 
 ## Sommaire
 
