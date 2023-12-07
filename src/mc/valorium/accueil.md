@@ -17,7 +17,7 @@ Il peut s'agir d'informations sur l'aspect technique du réseau Emrub et du Valo
 
 ### Le Valorium
 
-* [Une ambition]
+* [Une philosophie](./presentation/ambition.md)
 * [Une association]
 * [Une structure]
 
