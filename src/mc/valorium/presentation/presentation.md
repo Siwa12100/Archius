@@ -24,8 +24,19 @@ Le cœur de notre vision et de nos travaux consiste en la création d'échange e
   
 ## Une ambition
 
-...
-...
+### Un discord
+
+### Des évènements 
+
+### Un univers : Emrub
+
+
+## Une organisation 
+
+### Une association 
+
+### Une structure
+
   
 ---
 
