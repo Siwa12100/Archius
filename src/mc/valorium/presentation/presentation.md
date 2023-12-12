@@ -25,26 +25,19 @@ Le cœur de notre vision et de nos travaux consiste en la création d'échange e
 ## Une ambition
 
 ### Un discord
-```
-plan :
 
-- Fonctionner comme un hub pour la communauté 
+Il nous tient à coeur de mener, sur le long terme, un travail de structuration poussée de notre discord de manière à le transformer en une sorte de hub pour la communauté francophone.
 
-- Permettre d'avoir à porté de main l'ensemble du contenu, des évènements, des serveurs et des communautés 
+Notre volonté est ainsi de donner, aux visiteurs passant par chez nous tout comme aux habitués, la possibilité de découvrir et d'accéder à l'ensemble de ce qui se fait dans le Minecraft francophone, tant au niveau des serveurs de qualité, que des communautés en tout genre, des évènements et autres contenus produits.
 
-- Avoir une interface de communication facile pour une importante partie de la communauté 
-
-- Travailler l'identité de chacun et l'appartenance à certaines communautés
-
-- 
-```
-Il nous tient à coeur de mener, sur le long terme, un travail de structuration poussée de notre discord, de manière à le transformer en une sorte de hub pour la communauté francophone. 
-
-Notre volonté est ainsi de donner, aux visiteurs passant par chez nous tout comme aux habitués, la possibilité de découvrir et d'accéder à l'ensemble de ce qui se fait dans le Minecraft francophone, tant au niveau des serveurs de qualité, que des communautés en tout genre, des évènements et autres contenus produits. 
-
+Cette idée nous est venue suite au constat selon lequel l'exploration de la communauté francophone était compliqué à l'heure actuelle pour ses membres. Nous aimerions ainsi faire en sorte que les joueurs puissent découvrir les serveurs dans lesquels ils vont jouer, les communautés dans lequelles ils vont évoluer, en fonction de leurs envies, plutôt que simplement par hasard ou du fait de moyens de communications plus développés chez certains acteurs que chez d'autres.
 
 ### Un univers : Emrub
 
+En jeu, la philosophie du Valorium s'exprime dans une nouvelle manière de considérer les serveurs.
+Dans ce sens, le Valorium travaille à inscrire des serveurs autrefois isolés dans le cadre d'un vaste univers Minecraft multijoueur, où ils deviennent dès lors des régions d'un grand monde.
+
+Notre projet d'univers, Emrub, étant assez conséquent et occupant une place importante dans nos projets, nous lui avons consacré toute une présentation séparée, à retrouver ...ici...
 
 ## Une organisation 
 
