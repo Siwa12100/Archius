@@ -38,7 +38,9 @@ plan :
 
 - 
 ```
-Notre volonté est d'utiliser notre discord comme un hub pour la communauté francophone, dans le sens où chaque membre puisse, depuis le discord du Valorium 
+Il nous tient à coeur de mener, sur le long terme, un travail de structuration poussée de notre discord, de manière à le transformer en une sorte de hub pour la communauté francophone. 
+
+Notre volonté est ainsi de donner, aux visiteurs passant par chez nous tout comme aux habitués, la possibilité de découvrir et d'accéder à l'ensemble de ce qui se fait dans le Minecraft francophone, tant au niveau des serveurs de qualité, que des communautés en tout genre, des évènements et autres contenus produits. 
 
 
 ### Un univers : Emrub
