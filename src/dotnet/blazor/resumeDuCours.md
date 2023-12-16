@@ -130,6 +130,26 @@ Il est aussi possible de préciser un layout par défaut à l'application direct
 
 **A noter :** Les layouts peuvent faire référence à d'autres layouts de manière à les imbriquer entre eux.
 
+### Ajouter une partie modèle
+
+Dans le cadre de la doc, on utilise une petite classe de manière à s'entrainer à gérer des données.
+
+On créé donc un dossier pour contenir le modèle, que l'on appelle `Models`.
+
+On créé ensuite une classe pour mettre en forme des données.
+
+**Exemple :**
+```c#
+public class Item {
+    public int Id{ get; set;}
+    ...
+    ...
+    public List<string> ListeDeNoms {get; set;}
+    ...
+    ...
+}
+```
+
 ## Ajouter un item
 
 ## DI & IOC
