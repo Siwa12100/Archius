@@ -45,9 +45,78 @@ Le mot clé `partial` permet de dire que la déclaration de cette classe peut se
 
 Le but de cela est par exemple d'avoir la même classe utilisée dans des fichiers de codebehind différents, lorsque l'on souhaite utiliser les mêmes méthodes dans les composants, ou des choses dans le genre...
 
+On déclare l'URL d'une page en mettant tout en haut du fichier `@page "url/de/la/page"`. 
+On peut ensuite naviguer à travailler une page en utilisant un objet `NavigationManager`. 
 
+**Exemple de navigation depuis le code :**
+
+```c#
+[Inject]
+...
+...
+public NavigationManager manager {get; set}
+
+private void NavigateTo() {
+    manager.NavigateTo("/chemin/vers/page");
+}
+
+...
+...
+```
+
+Pour créer une nouvelle page, il suffait d'ajouter un composant .razor dans le dossier des pages.
 
 ## Affichage de données
+
+Comme en HTML, on peut utiliser la balise  `<nav> ... </nav>` pour permettre la navigation entre pages.
+
+Pour créer un lien vers une autre page, il est possible d'utiliser le composant `navlink`. Cela marche un peu comme le `[...](.../...)` en markdown.
+
+**Exemple :**
+
+```html
+<NavLink href="/chemin/vers/page"> Nom du lien... </NavLink>
+```
+
+Il est ainsi courant d'avoir une `nav` avec des `n avlink` à l'intérieur...
+
+### Les layouts
+
+Le but des layouts de de factoriser le code de la vue se répérant dans plusieurs pages, pour éviter la duplication de code et faciliter la modification.
+
+Les headers, footers et autres parties dans le genre sont ainsi souvent présents dans des layouts.
+
+Les layouts utilisent comme les autres composants l'extension `.razor` et sont stockés dans le dossier `Shared`.
+
+Ils sont composés de deux éléments principaux :
+
+* `@inherits LayoutComponentBase` : Pour indiquer qu'il s'agit d'un layout, à disposer tout en haut du fichier.
+
+* `@Body` : Qui permet d'indiquer le contenu de la page entourée par le layout.
+
+**Syntaxe classique du Layout :
+```html
+@inherits LayoutComponentBase
+
+<header>
+    ...
+    ...
+</header>
+
+<nav>
+    ...
+    ...
+</nav>
+
+@Body
+
+<footer>
+    ...
+    ...
+</footer>
+```
+
+Pour appliquer un layout, il suffit d'aller en haut de la page sur laquelle on veut appliquer le layout et sous la déclaration de l'url, on rajoute  
 
 ## Ajouter un item
 
