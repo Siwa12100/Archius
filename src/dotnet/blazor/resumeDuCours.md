@@ -116,7 +116,19 @@ Ils sont composés de deux éléments principaux :
 </footer>
 ```
 
-Pour appliquer un layout, il suffit d'aller en haut de la page sur laquelle on veut appliquer le layout et sous la déclaration de l'url, on rajoute  
+Pour appliquer un layout, il suffit d'aller en haut de la page sur laquelle on veut appliquer le layout et sous la déclaration de l'url, on rajoute : `@layout chemin.vers.le.layout`.
+
+**Important :** En gros on remplace le `/` classique du chemin par des `.` et on enlève le `.razor` à la fin du nom du layout.
+
+Si je veux importer un layout à plusieurs pages, je peux :
+
+* Créer un fichier `_Imports.razor` dans un dossier contenant les pages auxquels on veut appliquer le layout.
+
+* Ajouter le `@layout ....` dans le `_Imports.razor` et du coup penser à l'enlever des pages directement.
+  
+Il est aussi possible de préciser un layout par défaut à l'application directement dans le code du fichier `App.razor`.
+
+**A noter :** Les layouts peuvent faire référence à d'autres layouts de manière à les imbriquer entre eux.
 
 ## Ajouter un item
 
