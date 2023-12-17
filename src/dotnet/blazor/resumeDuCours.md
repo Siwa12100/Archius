@@ -167,6 +167,8 @@ Pour commencer, il faut donc activer la prise en charge du `HttpClient` dans l'a
 
 Pour cela, on rajoute la ligne : `builder.Services.AddHttpClient()` dans le fichier `Program.cs`.
 
+Utile pour continuer : [rappel sur l'asynchronisme en c#](./asynchronieNotes.md)
+
 ## Ajouter un item
 
 ## DI & IOC
