@@ -151,6 +151,22 @@ public class Item {
 }
 ```
 
+Dans le cadre de la doc, un fichier `fake-data.json` est installé dans le dossier `wwwroot`.
+De ce que j'ai cru comprendre, ce dossier est utilisé pour stocker des données statiques du projet, comme du css.
+
+Il semblerait qu'il puisse aussi permettre de stocker des fichiers comme du json pour garder des données en dur. Je ne sais pas encore si c'est une bonne pratique, mais en tout cas c'est possible.
+
+Il va donc être question de réussir à désérialiser les infos pour les mettre dans des instances de la classe Item.
+
+Pour rappel, le processus de serialisation/deserialisation consiste à mettre sous la forme d'un flux d'octets (= fichiers comme json ou xml en gros...), pour les stocker, les transférer sur un réseau, puis les récupérer et les retransformer en instances de classes dans le code par exemple.
+
+### Utiliser des données
+
+Pour désérialiser les données, on peut utiliser un objet `HttpClient`.
+Pour commencer, il faut donc activer la prise en charge du `HttpClient` dans l'application.
+
+Pour cela, on rajoute la ligne : `builder.Services.AddHttpClient()` dans le fichier `Program.cs`.
+
 ## Ajouter un item
 
 ## DI & IOC
