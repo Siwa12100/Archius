@@ -169,6 +169,42 @@ Pour cela, on rajoute la ligne : `builder.Services.AddHttpClient()` dans le fich
 
 Utile pour continuer : [rappel sur l'asynchronisme en c#](./asynchronieNotes.md)
 
+Donc, une fois le client http activé, dans le codebehind de la page où on veut récupérer les données par exemple, on va appeler la méthode suivante :
+
+```c#
+// Dans la méthode OnInitializedAsync() d'un 
+// composant par exemple :
+...;
+...;
+Item[] tab;
+tab = await Http.GetFromJsonAsync<Item[]>($"{NavigationManager.BaseUri}fake-data.json");
+...;
+...;
+```
+
+Il faut aussi penser à déclarer au sein de la classe un client http et un NavigationManager comme ceci :
+```c#
+[Inject]
+public HttpClient Http { get; set; }
+
+[Inject]
+public NavigationManager NavigationManager { get; set; }
+```
+
+Pour afficher les données, on peut ensuite faire la chose suivante dans la vue associée :
+
+```html
+<h3> Liste de valeurs ... : </h3>
+
+@if (tab != null) {
+    foreach(var item in tab) {
+        <div> @item.Id</div>
+    }
+}
+```
+
+Je ne sais pas s'il y a d'autres possibilités, mais en tout cas en s'assurant bien que `tab` dans le code au dessus soit bien un attribut de la classe du codebehind du composant razor, ça marche.
+
 ## Ajouter un item
 
 ## DI & IOC
