@@ -6,7 +6,7 @@
 
 L'asynchronisme est le fait de pouvoir lancer des tâches au sein de l'application qui s'exécutent en parralèle du programme principal (thread principal...).
 
-Le but est de ne pas avoir à attendre le retour d'une fonction avant de continuer à faire fonctionner l'application, et donc d'éviter des lags côtés utilisateur liés à une application qui ne répond plus en gros.
+Le but est de ne pas avoir à attendre le retour d'une fonction avant de continuer à faire fonctionner l'application, et donc d'éviter des lags côté utilisateur liés à une application qui ne répond plus en gros.
 
 Le concept de manière générale est donc de lancer une tâche de manière asynchrone (qui elle même peut lancer au besoin d'autres tâches de manière asynchrone...), d'effectuer une suite d'action indépendant de la tâche lancée, puis au final, d'attendre la fin de la tâche asynchrone, en bloquant le thread depuis lequel on l'a lancé.
 
