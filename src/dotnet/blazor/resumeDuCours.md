@@ -139,6 +139,7 @@ On créé donc un dossier pour contenir le modèle, que l'on appelle `Models`.
 On créé ensuite une classe pour mettre en forme des données.
 
 **Exemple :**
+
 ```c#
 public class Item {
     public int Id{ get; set;}
