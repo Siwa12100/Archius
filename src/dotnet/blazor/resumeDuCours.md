@@ -211,6 +211,14 @@ Pour afficher les données, on peut ensuite faire la chose suivante dans la vue 
 
 Je ne sais pas s'il y a d'autres possibilités, mais en tout cas en s'assurant bien que `tab` dans le code au dessus soit bien un attribut de la classe du codebehind du composant razor, ça marche.
 
+### aperçu du cyle de vie des composants razor
+
+Il existe différentes fonctions qui sont appelées automatique à certains moments bien spécifiques de la vie des composants razor. Il est ainsi possible de surcharger ces méthodes pour ajouter des comportements/actions précis à effectuer à ces moments là.
+
+Le cycle de vie des composants et les composants par extension on l'air d'être des sujets particulièrement complets et complexe, alors voilà simplement la liste (dans leur ordre d'appel) des [fonctions liées au cycle de vie des composants razor.](./cycleVieComposantsRazor.md)
+
+
+
 ## Ajouter un item
 
 ## DI & IOC
