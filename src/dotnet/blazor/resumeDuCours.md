@@ -46,7 +46,7 @@ Le mot clé `partial` permet de dire que la déclaration de cette classe peut se
 Le but de cela est par exemple d'avoir la même classe utilisée dans des fichiers de codebehind différents, lorsque l'on souhaite utiliser les mêmes méthodes dans les composants, ou des choses dans le genre...
 
 On déclare l'URL d'une page en mettant tout en haut du fichier `@page "url/de/la/page"`. 
-On peut ensuite naviguer à travailler une page en utilisant un objet `NavigationManager`. 
+On peut ensuite naviguer entre les pages en utilisant un objet `NavigationManager`. 
 
 **Exemple de navigation depuis le code :**
 
@@ -78,11 +78,11 @@ Pour créer un lien vers une autre page, il est possible d'utiliser le composant
 <NavLink href="/chemin/vers/page"> Nom du lien... </NavLink>
 ```
 
-Il est ainsi courant d'avoir une `nav` avec des `n avlink` à l'intérieur...
+Il est ainsi courant d'avoir une `nav` avec des `navlink` à l'intérieur...
 
 ### Les layouts
 
-Le but des layouts de de factoriser le code de la vue se répérant dans plusieurs pages, pour éviter la duplication de code et faciliter la modification.
+Le but des layouts de de factoriser le code de la vue se répétant dans plusieurs pages, pour éviter la duplication de code et faciliter la modification.
 
 Les headers, footers et autres parties dans le genre sont ainsi souvent présents dans des layouts.
 
@@ -94,7 +94,7 @@ Ils sont composés de deux éléments principaux :
 
 * `@Body` : Qui permet d'indiquer le contenu de la page entourée par le layout.
 
-**Syntaxe classique du Layout :
+**Syntaxe classique du Layout :**
 ```html
 @inherits LayoutComponentBase
 
@@ -120,7 +120,7 @@ Pour appliquer un layout, il suffit d'aller en haut de la page sur laquelle on v
 
 **Important :** En gros on remplace le `/` classique du chemin par des `.` et on enlève le `.razor` à la fin du nom du layout.
 
-Si je veux importer un layout à plusieurs pages, je peux :
+Si je veux importer un layout **sur** plusieurs pages, je peux :
 
 * Créer un fichier `_Imports.razor` dans un dossier contenant les pages auxquels on veut appliquer le layout.
 
@@ -165,6 +165,8 @@ Pour rappel, le processus de serialisation/deserialisation consiste à mettre so
 Pour désérialiser les données, on peut utiliser un objet `HttpClient`.
 Pour commencer, il faut donc activer la prise en charge du `HttpClient` dans l'application.
 
+Pour information, le `HttpClient` est la classe qui va permettre d'envoyer des requêtes http/https, et de recevoir leurs réponses, dans le cadre du framework Blazor.
+
 Pour cela, on rajoute la ligne : `builder.Services.AddHttpClient()` dans le fichier `Program.cs`.
 
 Utile pour continuer : [rappel sur l'asynchronisme en c#](./asynchronieNotes.md)
@@ -190,6 +192,10 @@ public HttpClient Http { get; set; }
 [Inject]
 public NavigationManager NavigationManager { get; set; }
 ```
+
+Je pense qu'on va le revoir dans la suite de la donc, mais apparemment le `[Inject] sert à faire une injection de dépendance directement gérée par Blazor.
+
+En gros, on a pas besoin de faire un new ... pour le HttpClient et le NavigationManager, c'est automatiquement gérer et on peut donc directement les utiliser...
 
 Pour afficher les données, on peut ensuite faire la chose suivante dans la vue associée :
 

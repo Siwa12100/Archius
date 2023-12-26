@@ -8,7 +8,7 @@ L'asynchronisme est le fait de pouvoir lancer des tâches au sein de l'applicati
 
 Le but est de ne pas avoir à attendre le retour d'une fonction avant de continuer à faire fonctionner l'application, et donc d'éviter des lags côté utilisateur liés à une application qui ne répond plus en gros.
 
-Le concept de manière générale est donc de lancer une tâche de manière asynchrone (qui elle même peut lancer au besoin d'autres tâches de manière asynchrone...), d'effectuer une suite d'action indépendant de la tâche lancée, puis au final, d'attendre la fin de la tâche asynchrone, en bloquant le thread depuis lequel on l'a lancé.
+Le concept de manière générale est donc de lancer une tâche de manière asynchrone (qui elle même peut lancer au besoin d'autres tâches de manière asynchrone...), d'effectuer une suite d'action indépendantes de la tâche lancée, puis au final, d'attendre la fin de la tâche asynchrone, en bloquant le thread depuis lequel on l'a lancée.
 
 ## await et async
 
@@ -43,9 +43,9 @@ public static async Task<UneClass> methodeAsynchrone2() {
 
 ### await
 
-C'est grâce au mot clé `await` que l'on va être en mesure de manipuler proprement des méthodes asynchrones comme celles-ci définies au dessus.
+C'est grâce au mot clé `await` que l'on va être en mesure de manipuler proprement des méthodes asynchrones comme celles définies au dessus.
 
-Le but est ainsi de lancer une méthode asynchrone, puis d'effectuer certains actions indépendantes de la méthode asynchrone, et une fois que l'on souhaite attendre la fin de la méthode asynchrone, on bloque le thread (=fil d'exécution en gros) courant.
+Le but est ainsi de lancer une méthode asynchrone, puis d'effectuer certaines actions indépendantes de la méthode asynchrone, et une fois que l'on souhaite attendre la fin de la méthode asynchrone, on bloque le thread (=fil d'exécution en gros) courant.
 
 **Exemple classique :**
 
