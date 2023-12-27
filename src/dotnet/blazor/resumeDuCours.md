@@ -219,7 +219,46 @@ Le cycle de vie des composants et les composants par extension on l'air d'être 
 
 ### Table HTML
 
-Il s'agit d'un moyen assez simple d'afficher des données dans la vue. 
+Il s'agit d'un moyen assez simple et comment d'afficher des données dans la vue. Les tableaux sont quelque chose de commun en HTML de manière générale et ne sont pas propres à Blazor.
+
+**Structure d'un tableau html :**
+```html
+<table>
+    <thead>
+        Il s'agit de l'endroit où l'on défini le haut du tableau comme le nom des colonnes. 
+        <tr>
+            La balise tr (pour table row) permet de définir une ligne du tableau. On commence donc par mettre dans cette 
+            premiere ligne les différents titres des colonnes.
+            
+            On utilise la balise th (pour table header) pour définir chaque titre des colonnes
+            <th> Titre de la colonne 1 <th>
+            <th> Titre de la colonne 2 <th>
+            <th> Titre de la colonne 3 <th>
+            ...
+            ...
+        </tr>
+    </thead>
+    <tbody>
+        Une fois le header du tableau terminé, on passe au corps du tableau, d'où le "tbody".
+        Pour chaque Item issu des données, on va utiliser une ligne du tableau pour l'afficher.
+
+        On commence donc par faire un foreach, à l'image de ce qu'on ferait un php...
+        @foreach(Var item in items) {
+
+            <tr>
+                Pour chaque item, on fait une nouvelle ligne avec "tr"
+                On utilise la balise td "table data" pour spécifier le contenu de la colonne, et on affiche la donnée 
+                du code behind.
+                <td>@item.Id</td>
+                <td>@item.Nom</td>
+                <td> ... </td>
+                ...
+                ...
+            </tr>
+        }
+    </tbody>
+</table>
+```
 
 
 ## Ajouter un item
