@@ -193,7 +193,7 @@ public HttpClient Http { get; set; }
 public NavigationManager NavigationManager { get; set; }
 ```
 
-Je pense qu'on va le revoir dans la suite de la donc, mais apparemment le `[Inject] sert à faire une injection de dépendance directement gérée par Blazor.
+Je pense qu'on va le revoir dans la suite de la donc, mais apparemment le `[Inject]` sert à faire une injection de dépendance directement gérée par Blazor.
 
 En gros, on a pas besoin de faire un new ... pour le HttpClient et le NavigationManager, c'est automatiquement gérer et on peut donc directement les utiliser...
 
