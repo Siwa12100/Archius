@@ -260,6 +260,22 @@ Il s'agit d'un moyen assez simple et comment d'afficher des données dans la vue
 </table>
 ```
 
+### Blazorise DataGrid
+
+Blazorise est une bibliothèque d'interface utilisateur open-source pour le framework blazor.
+Elle met à disposition énormément d'outils par le biais de nugets pour faire de beaux affichages, de belles interfaces et des traitements complexes de manière efficace.
+
+Pour utiliser les outils de Blazorise, il faut utiliser le concept de Nugets de .NET. En gros, ce sont des extensions qui permettent d'ajouter des fonctionnalités et d'utiliser du code déjà existant pour certaines fonctionnalités, plutôt que de tout refaire soit même from Scratch. 
+
+Il est très simple d'ajouter des Nugets à son projet, on peut directement passer par le gestionnaire de nugets en version graphique intégré à Visual studio, à retouver dans l'onglet "Outils", ou bien on peut passer par le gestionnaire en ligne de commande appelé CLI.
+
+Ici : [vidéos expliquant le fonctionnement des Nugets en .NET](https://youtu.be/WW3bO1lNDmo?si=Wc_5x-SbsEzxIbHC)
+
+Le cours montre donc un exemple d'utilisation de la Datagrid blazorise. Toutes les infos et la doc de Blazorise de manière générale soit [ici](https://blazorise.com/). 
+
+**Syntaxe générale de la Datagrid :**
+
+
 
 ## Ajouter un item
 
