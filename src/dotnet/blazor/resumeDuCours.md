@@ -217,6 +217,9 @@ Il existe différentes fonctions qui sont appelées automatique à certains mome
 
 Le cycle de vie des composants et les composants par extension on l'air d'être des sujets particulièrement complets et complexe, alors voilà simplement la liste (dans leur ordre d'appel) des [fonctions liées au cycle de vie des composants razor.](./cycleVieComposantsRazor.md)
 
+### Table HTML
+
+Il s'agit d'un moyen assez simple d'afficher des données dans la vue. 
 
 
 ## Ajouter un item
