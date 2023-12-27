@@ -271,7 +271,7 @@ Il est très simple d'ajouter des Nugets à son projet, on peut directement pass
 
 Ici : [vidéos expliquant le fonctionnement des Nugets en .NET](https://youtu.be/WW3bO1lNDmo?si=Wc_5x-SbsEzxIbHC)
 
-Le cours montre donc un exemple d'utilisation de la Datagrid blazorise. Toutes les infos et la doc de Blazorise de manière générale soit [ici](https://blazorise.com/). 
+Le cours montre donc un exemple d'utilisation de la Datagrid blazorise. Toutes les infos et la doc de Blazorise de manière générale sont [ici](https://blazorise.com/). 
 
 **Syntaxe générale de la Datagrid :**
 
