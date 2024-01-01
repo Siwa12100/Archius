@@ -276,8 +276,30 @@ Le cours montre donc un exemple d'utilisation de la Datagrid blazorise. Toutes l
 La doc de Blazorise est très bien faite pour comprendre le Datagrid, donc je ne reviens pas plus que ça sur l'exemple du cours.
 Par contre ils font référence à la notion de pagination, qui est importante à maitriser mais toujours très bien expliquée dans la doc.
 
-
 ## Ajouter un item
+
+On installe un Nuget qui va servir à manipuler le LocalStorage.
+Le LocalStorage est en gros un moyen de stocker des données directement du côté du navigateur web client. Cela ressemble énormément au concept des Cookies, mais à ce qu'il semblerait, le LocalStorage permet de stocker des quantités bien plus importantes de données, et il ne semble pas y avoir de notion de péremption de la donnée comme avec les cookies.
+
+Le Nuget indiqué dans le cours et utilisé pour manipuler facilement le LocalStorage s'appelle `Blazored.LocalStorage`, `Blazored` étant une biblio de nugets créée par une personne douée en .NET...
+
+On commence par rajouter un bouton au dessus de la Datagrid pour rajouter du contenu.
+Le bouton se charge simplement de rediriger vers une autre page, spécialisée pour l'ajout.
+
+```html
+<div>
+    <NavLink class="btn btn-primary" href="Add" Match="NavLinkMatch.All">
+        <i class="fa fa-plus"></i> Ajouter
+    </NavLink>
+</div>
+<datagrid....>
+    ...
+    ...
+</datagrid>
+```
+
+Ce qui est intéressant, c'est de voir que le bouton a directement avec ce code un joli style et un icon "+" à côté. Cela vient directement du CSS et des frameworks associés... (`<i ...></i>` est utilisé en html de manière générale pour ajouter des icônes).
+
 
 ## DI & IOC
 
