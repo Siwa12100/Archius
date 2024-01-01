@@ -322,7 +322,10 @@ if (currentData == null)
 	var originalData = Http.GetFromJsonAsync<Utilisateur[]>($"{NavigationManager.BaseUri}data/utilisateursFake.json").Result;
 	await LocalStorage.SetItemAsync("data", originalData);
 }
+
 ```
+## Formulaire de création et modèle associé
+
 
 
 ## DI & IOC
