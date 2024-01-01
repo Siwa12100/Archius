@@ -311,6 +311,7 @@ Voilà le bout de code en question :
 [Inject]
 // Le but de cette interface est de nous permettre de réaliser les manipulations liées au LocalStorage...
 public ILocalStorageService LocalStorage { get; set; }
+
 // Dans le OnAfterRenderAsync :
 // On récupère les données depuis le localStorage
 var currentData = await LocalStorage.GetItemAsync<Utilisateur[]>("data");
