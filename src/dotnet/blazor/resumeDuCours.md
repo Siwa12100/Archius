@@ -278,6 +278,8 @@ Par contre ils font référence à la notion de pagination, qui est importante �
 
 ## Ajouter un item
 
+### Localstorage et bouton d'ajout
+
 On installe un Nuget qui va servir à manipuler le LocalStorage.
 Le LocalStorage est en gros un moyen de stocker des données directement du côté du navigateur web client. Cela ressemble énormément au concept des Cookies, mais à ce qu'il semblerait, le LocalStorage permet de stocker des quantités bien plus importantes de données, et il ne semble pas y avoir de notion de péremption de la donnée comme avec les cookies.
 
@@ -299,6 +301,27 @@ Le bouton se charge simplement de rediriger vers une autre page, spécialisée p
 ```
 
 Ce qui est intéressant, c'est de voir que le bouton a directement avec ce code un joli style et un icon "+" à côté. Cela vient directement du CSS et des frameworks associés... (`<i ...></i>` est utilisé en html de manière générale pour ajouter des icônes).
+
+On va ensuite écrire un bout de code dans la fonction de cycle de vie de composant `OnAfterRenderAsync`, de manière à ce que si le LocalStorage est vide, on aille le remplir avec les données stockées dans le fichier .json créé plus haut.
+
+Voilà le bout de code en question : 
+
+```c#
+// Dans les propriétés de la classe codebehind :
+[Inject]
+// Le but de cette interface est de nous permettre de réaliser les manipulations liées au LocalStorage...
+public ILocalStorageService LocalStorage { get; set; }
+// Dans le OnAfterRenderAsync :
+// On récupère les données depuis le localStorage
+var currentData = await LocalStorage.GetItemAsync<Utilisateur[]>("data");
+
+if (currentData == null)
+{
+    // Si les données récupérées sont nulles, on vient choper les données du json et on les envoie dans le localStorage
+	var originalData = Http.GetFromJsonAsync<Utilisateur[]>($"{NavigationManager.BaseUri}data/utilisateursFake.json").Result;
+	await LocalStorage.SetItemAsync("data", originalData);
+}
+```
 
 
 ## DI & IOC
