@@ -481,6 +481,24 @@ Voilà la syntaxe classique d'un formulaire :
 
 ```
 
+Il est important de mettre le `DataAnnotationsValidator` car c'est ce qui fait que au moment de la soumission du formulaire par le client, les attributs spécifiés pour chaque propriétés vont être vérifiés, et le formulaire ne sera envoyé côté serveur que si tout est valide.
+
+S'il y a des erreurs de remplissage, elles apparaitront là où le ` <ValidationSummary />` a été placé.
+
+En ce qui concerne le code behind du composant contenant le formulaire, il faut simplement redéfinir la fonction `HandleValidSubmit`, que l'on a spéficié dans le formulaire comme se déclenchant à chaque évènement OnValidSubmit (`OnValidSubmit="@HandleValidSubmit"`).
+
+En effet, il existe 3 types d'évènements dans le genre auxquels ont peut associer des méthodes comme on vient de le faire :
+
+* `OnSubmit` : qui s'active à chaque soumission de formulaire, qu'il soit valide ou non.
+
+* `OnValidSubmit` & `OnInvalidSubmit` : qui s'active respectivement si un formulaire est correct ou non.
+
+Dans la méthode `HandleValidSubmit`, on va donc faire en sorte d'utiliser les priopriétés tout juste remplies dans le modèle pour créer un nouvel élément dans le cas présent :
+
+```c#
+
+```
+
 ## DI & IOC
 
 ## Modifier un Item
