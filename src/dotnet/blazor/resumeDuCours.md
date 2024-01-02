@@ -621,6 +621,22 @@ Ensuite, on a juste à aller dans le `Program.cs` et ajouter le service à l'app
 
 Là, on a utiliser `AddSingleton`, mais en réalité il existe 3 manières d'ajouter un service à l'application, qui sont résumés [ici](./ajouterService.md).
 
+Pour finir, voilà un exemple rapide d'utilisation du service dans une classe de codebehind par exemple :
+
+```c#
+...
+...
+[Inject]
+private IMonService monService {get; set;}
+
+...
+...
+// Dans une méthode :
+int val = await monService.getNombre();
+..
+...
+```
+
 ## Modifier un Item
 
 ## Supprimer un Item
