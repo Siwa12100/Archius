@@ -34,7 +34,7 @@ Evidemment, de la même manière que l'on avait ajouté un bouton "Ajouter" pour
 
 Voilà comment l'id est passé en paramètre par l'url de la page.
 
-** Dans le code de la vue :**
+**Dans le code de la vue :**
 ```html
 @page "/edit/{Id:int}"
 <h3>Edit</h3>
