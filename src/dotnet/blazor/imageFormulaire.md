@@ -1,6 +1,6 @@
 # Traiter une image soumise dans un formulaire
 
-Sans trop rentrer dans les détails (car tout est dans le doc [ici]( ASP.NET Core Blazor chargements de fichiers)), voilà comment gérer une image soumise dans un formulaire.
+Sans trop rentrer dans les détails (car tout est dans le doc [ici](https://learn.microsoft.com/fr-fr/aspnet/core/blazor/file-uploads?view=aspnetcore-8.0)), voilà comment gérer une image soumise dans un formulaire.
 
 Dans le HandleValidSubmit :
 ```c#
