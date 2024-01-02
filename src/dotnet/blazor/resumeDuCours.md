@@ -522,6 +522,40 @@ private async void HandleValidSubmit() {
 
 A retrouver [ici](./imageFormulaire.md) le traitement d'une image soumise dans un formulaire.
 
+Ensuite, voilà comment faire pour afficher proprement l'image rentrée dans le formulaire au sein d'une datagrid.
+
+Pour commencer, on doit injecter ceci dans le codebehind :
+
+```c#
+[Inject]
+public IWebHostEnvironment WebHostEnvironment { get; set; }
+```
+
+Ensuite, dans la datagrid, on affiche l'image, et si on ne la trouve pas, on affiche une image par défaut : 
+
+```html
+<!-- Définition d'une colonne de données pour un composant Telerik Grid -->
+<DataGridColumn TItem="Item" Field="@nameof(Item.Id)" Caption="Image">
+
+    <!-- Définition d'un modèle d'affichage personnalisé pour cette colonne -->
+    <DisplayTemplate>
+
+        <!-- Vérification de l'existence d'un fichier d'image spécifique dans le répertoire "wwwroot/images/" -->
+        @if (File.Exists($"{WebHostEnvironment.WebRootPath}/images/{context.Name}.png"))
+        {
+            <!-- Si l'image spécifique existe, affiche cette image -->
+            <img src="images/@(context.Name).png" class="img-thumbnail" title="@context.DisplayName" alt="@context.DisplayName" style="max-width: 150px"/>
+        }
+        else
+        {
+            <!-- Si l'image spécifique n'existe pas, affiche une image par défaut -->
+            <img src="images/default.png" class="img-thumbnail" title="@context.DisplayName" alt="@context.DisplayName" style="max-width: 150px"/>
+        }
+
+    </DisplayTemplate>
+</DataGridColumn>
+```
+
 ## DI & IOC
 
 ## Modifier un Item
