@@ -496,8 +496,31 @@ En effet, il existe 3 types d'évènements dans le genre auxquels ont peut assoc
 Dans la méthode `HandleValidSubmit`, on va donc faire en sorte d'utiliser les priopriétés tout juste remplies dans le modèle pour créer un nouvel élément dans le cas présent :
 
 ```c#
+...
+...
+[Inject]
+public NavigationManager NavigationManager { get; set; }
+...
+...
 
+private async void HandleValidSubmit() {
+
+    // On traite les données soumises lors du formulaire...
+    maClasse a = new maClasse(FormulaireModele.Id, FormulaireModele.Nom);
+
+    liste.add(a);
+    ...
+    ...
+    ...
+
+    // On fait en sorte qu'une fois le formulaire soumis et valide, on redirige vers une page :
+    NavigationManager.NavigateTo("/.../.../unEndroit...");
+
+    
+}
 ```
+
+A retrouver [ici](./imageFormulaire.md) le traitement d'une image soumise dans un formulaire.
 
 ## DI & IOC
 
