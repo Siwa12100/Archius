@@ -6,4 +6,4 @@ Cet espace à simplement pour but de noter quelques éléments utiles pour maitr
 # Sommaire
 
 * [Le language C#](./c#/intro.md)
-* [Framework Blazor notes](./blazor/introBlazor.md)
+* [Framework Blazor notes](./blazor/resumeCours/sommaire.md)
