@@ -414,7 +414,72 @@ Mais de ce que j'ai cru comprendre, on aurait quand même pu laisser le "Attribu
 
 Maintenant, on passe à la création du formulaire côté vue, et au final, ça ressemble pas mal à ce qui se fait en html/php de manière classique...
 
+Voilà la syntaxe classique d'un formulaire :
 
+```html
+<!-- Définit la page associée à ce composant Blazor -->
+@page "/add"
+
+<!-- En-tête HTML de la page -->
+<h3>Add</h3>
+
+<!-- Formulaire d'édition Blazor -->
+<EditForm Model="@itemModel" OnValidSubmit="@HandleValidSubmit">
+    <!-- Ajout d'un composant de validation basé sur les DataAnnotations -->
+    <DataAnnotationsValidator />
+    <!-- Affiche un résumé des erreurs de validation -->
+    <ValidationSummary />
+
+    <!-- Champ de saisie pour le Display Name -->
+    <p>
+        <label for="display-name">
+            Display name:
+            <!-- Lien bidirectionnel avec la propriété DisplayName de l'itemModel -->
+            <InputText id="display-name" @bind-Value="itemModel.DisplayName" />
+        </label>
+    </p>
+
+    <!-- Champ de saisie pour le Name -->
+    <p>
+        <label for="name">
+            Name:
+            <!-- Lien bidirectionnel avec la propriété Name de l'itemModel -->
+            <InputText id="name" @bind-Value="itemModel.Name" />
+        </label>
+    </p>
+
+    <!-- Champ de saisie numérique pour le Stack Size -->
+    <p>
+        <label for="stack-size">
+            Stack size:
+            <!-- Lien bidirectionnel avec la propriété StackSize de l'itemModel -->
+            <InputNumber id="stack-size" @bind-Value="itemModel.StackSize" />
+        </label>
+    </p>
+
+    <!-- Champ de fichier pour l'image de l'item -->
+    <p>
+        <label>
+            Item image:
+            <!-- Appelle la méthode LoadImage lorsque le fichier est changé -->
+            <InputFile OnChange="@LoadImage" accept=".png" />
+        </label>
+    </p>
+
+    <!-- Case à cocher pour Accept Condition -->
+    <p>
+        <label>
+            Accept Condition:
+            <!-- Lien bidirectionnel avec la propriété AcceptCondition de l'itemModel -->
+            <InputCheckbox @bind-Value="itemModel.AcceptCondition" />
+        </label>
+    </p>
+
+    <!-- Bouton de soumission du formulaire -->
+    <button type="submit">Submit</button>
+</EditForm>
+
+```
 
 ## DI & IOC
 
