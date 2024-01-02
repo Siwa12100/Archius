@@ -324,7 +324,95 @@ if (currentData == null)
 }
 
 ```
-## Formulaire de création et modèle associé
+
+### Formulaire de création et modèle associé
+
+En Blazor, pour créer un formulaire, il lui fait une classe qui lui serve de modèle. Cette classe contient ainsi les prioriétés qui récupèreront les valeurs insérées/modifiées par l'utilisateur.
+
+Voilà donc un exemple type de classe modèle pour un formulaire :
+ ```c#
+ public class ItemModel
+{
+    // Pas d'étiquette car aucune règles précises à lui attribuer...
+    public int Id { get; set; }
+    
+    // Required pour indiquer qu'il faut obligatoirement le saisir
+    [Required]
+    // On impose aussi une taille max 
+    [StringLength(50, ErrorMessage = "The display name must not exceed 50 characters.")]
+    public string DisplayName { get; set; }
+
+    [Required]
+    [StringLength(50, ErrorMessage = "The name must not exceed 50 characters.")]
+    [RegularExpression(@"^[a-z''-'\s]{1,50}$", ErrorMessage = "Only lowercase characters are accepted.")]
+    public string Name { get; set; }
+
+    [Required]
+    [Range(1, 125)]
+    public int MaxDurability { get; set; }
+    
+    [Required]
+    // On force pour qu'il soit forcément vrai : 
+    [Range(typeof(bool), "true", "true", ErrorMessage = "You must agree to the terms.")]
+    public bool AcceptCondition { get; set; }
+
+    // On envoie un msg si l'image n'est pas saisie
+    [Required(ErrorMessage = "The image of the item is mandatory!")]
+    // Le tableau de byte est ce qui permet de stocker l'image...
+    public byte[] ImageContent { get; set; }
+}
+ ```
+
+On voit ainsi qu'il existe une multitude de d'attributs que l'on peut mettre au dessus des priopriétés pour s'assurer qu'elles soient remplies correctement dans le formulaire.
+
+Voilà un [resume des attributs standards les plus communs](./attributsCommuns.md)
+
+Il est aussi possible de créer ses propres attributs de validation, voilà un exemple classique :
+
+```c#
+public class ClassicMovieAttribute : ValidationAttribute
+{
+    // L'attribut peut prendre des paramètres comme year ici : 
+    public ClassicMovieAttribute(int year)
+    {
+        Year = year;
+    }
+
+    public int Year { get; }
+
+    // On spécifie un message d'erreur 
+    public string GetErrorMessage() =>
+        $"Classic movies must have a release year no later than {Year}.";
+
+    // C'est la méthode à surcharger issue de ValidationAttribute qui va permettre de savoir si la propriété (passée en paramètre depuis l'object value) est valide ou non...
+    protected override ValidationResult IsValid(object value,
+        ValidationContext validationContext)
+    {
+        var movie = (Movie)validationContext.ObjectInstance;
+        var releaseYear = ((DateTime)value).Year;
+
+        if (movie.Genre == Genre.Classic && releaseYear > Year)
+        {
+            return new ValidationResult(GetErrorMessage());
+        }
+
+        return ValidationResult.Success;
+    }
+}
+```
+
+Voilà maintenant une manière de l'utiliser dans un modèle de formulaire :
+
+```c#
+[ClassicMovie(1980)]
+public DateTime ReleaseDate { get; set; }
+```
+
+Ce qui est important de noter, c'est que lorsque l'on utilise l'attribut, ce n'est pas la peine de mettre le "Attribute" pourtant présent à la fin du nom de la classe, c# fait quand même le lien car il s'agit d'une convention.
+
+Mais de ce que j'ai cru comprendre, on aurait quand même pu laisser le "Attribute" à la fin et ça aurait marché...
+
+Maintenant, on passe à la création du formulaire côté vue, et au final, ça ressemble pas mal à ce qui se fait en html/php de manière classique...
 
 
 
