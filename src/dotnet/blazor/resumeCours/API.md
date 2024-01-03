@@ -1,5 +1,9 @@
 # API
 
+[retour au sommaire](./sommaire.md)
+
+---
+
 La première partie est sur les images base64. Ca semble assez compliqué, et vu que cela n'a pas l'air ultra urgent à maitriser, pour l'instant, je zappe.
 
 ## Faire des requêtes http
@@ -133,3 +137,12 @@ Voici la syntaxe générale pour effectuer différents types de requêtes HTTP e
 }
 ```
 
+### IHttpClientFactory
+
+Ca a l'air un peu compliqué, assez poussé et ça risque de prendre du temps à comprendre, donc pour l'instant, voilà simplement un [lien](https://medium.com/@marcodesanctis2/using-ihttpclientfactory-with-blazor-webassembly-7cc702f5e9f8) vers un article sympa qui en parle...
+
+Mais ça a l'air sacrément sympa pour personaliser les appels api !
+
+---
+
+[retour au sommaire](./sommaire.md)
