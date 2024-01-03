@@ -10,13 +10,13 @@ Pour résumer, le cours sur cette partie fait les choses suivantes :
 
 * Ajoute à l'interface puis implémente au service de gestion de données créé dans la partie précédente les méthodes nécessaires à la modification d'un item. Une des deux nouvelles méthodes permet de récupérer un Item en fonction de son id, et l'autre de modifier un item à partir d'un ItemModel (= le modèle du formulaire permettant d'interagir avec l'item).
 
-* Le cours créé donc une nouvelle page réservée à la modification des données qui prend un id d'item en paramètre dans son url (pour plus d'infos sur le passage de paramètres par url : ici).
+* Le cours créé donc une nouvelle page réservée à la modification des données qui prend un id d'item en paramètre dans son url (pour plus d'infos sur le passage de paramètres par url : [ici](./notesSupplementaires/passageParamètres.md)).
 
 * Grâce à l'id passé en paramètre et la nouvelle méthode du service permettant de retrouver un item par son id, la page affiche un formulaire similaire à celui de la création d'item, sauf que là, on affiche les données de l'item que l'on modifie (puisqu'à la différence de l'ajout d'un item, là, il existe déjà).
 
 * Ensuite, lors de la soumission du formulaire, au lieu de rajouter simplement un item, on modifie un item déjà existant. On utilise au passage le patron factory pour cela.
 
-Evidemment, de la même manière que l'on avait ajouté un bouton "Ajouter" pour ajouter un item, on rajoute bien un bouton pour éditer un item. 
+Evidemment, de la même manière que l'on avait ajouté un bouton "Ajouter" pour ajouter un item, on rajoute bien un bouton pour éditer un item.
 
 **Voilà le code dans la datagrid pour cela :**
 
