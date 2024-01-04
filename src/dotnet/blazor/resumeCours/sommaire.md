@@ -18,4 +18,6 @@
 
 * [Supprimer des données](./supprimerDonnees.md)
 
+* [Les composants](./composant.md)
+
 * [API](./API.md)

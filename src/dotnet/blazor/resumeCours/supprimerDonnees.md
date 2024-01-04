@@ -67,7 +67,7 @@ protected CascadingType ChildCascadeParameter2 { get; set; }
 
 En fait, un modal c'est une petite fenêtre "popup" qui apparait à l'écran de l'utilisateur à un moment donné.
 
-On simplement besoin d'un passer le code de la vue du composant que l'on veut afficher.
+On simplement besoin d'y passer le code de la vue du composant que l'on veut afficher.
 
 Pour utiliser le modal, on installe le nuget `Blazored Modal`.
 
@@ -78,7 +78,7 @@ Ensuite, il faut juste rajouter ceci dans `_Imports.razor` :
 @using Blazored.Modal.Services
  ```
 
- Puis, on entoure le composant razor de balises qui passent en paramètre en cascade le Modal. Du coup, tous les composants enfants du routeur (c'est à dire l'ensemble de l'application en gros...) pourront accéder à l'instance du modal.
+ Puis, on entoure le composant `Router` de balises qui passent en paramètre en cascade le Modal. Du coup, tous les composants enfants du routeur (c'est à dire l'ensemble de l'application en gros...) pourront accéder à l'instance du modal.
 
  Dans `App.razor` :
 
