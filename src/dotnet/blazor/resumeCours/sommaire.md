@@ -16,4 +16,6 @@
 
 * [Modifier des données](./modifierDonnees.md)
 
+* [Supprimer des données](./supprimerDonnees.md)
+
 * [API](./API.md)
