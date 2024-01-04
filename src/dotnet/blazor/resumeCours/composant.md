@@ -9,6 +9,8 @@ La notion de composants est très fournie, alors j'ai pris la peine de la couper
 ### Liste des notions :
 
 * [composants génériques](./notesComposant.md/composantsGeneriques.md)
+
+* Il manque juste les parties liées aux composants complexes....
   
 ---
 
