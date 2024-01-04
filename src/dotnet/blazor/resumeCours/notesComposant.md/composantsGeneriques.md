@@ -15,10 +15,10 @@ Voilà un exemple classique d'un composant dans le genre.
 ```html
 <!-- AfficheurVehicules.razor -->
 
-<!-- On image qu'on veut un composant qui permettent d'afficher 
+<!-- On imagine qu'on veut un composant qui permettent d'afficher 
 différents types de véhicules... -->
 
-@typeparam Vehicules <!-- On image que Vehicules est une classe... -->
+@typeparam Vehicules <!-- On imagine que Vehicules est une classe... -->
 
 <div>
 
@@ -55,7 +55,7 @@ En gros dans ce composant, on a :
 
 * La template qui affiche le titre du composant, mais qui ne prend aucun paramètre (`RenderFragment`)
   
-`RenderFragment`, qu'il prenne un paramètre ou non, est en fait un type qui prend du code html. C'est une manière de stocker en quelque sorte du code html sois forme d'objet.
+`RenderFragment`, qu'il prenne un paramètre ou non, est en fait un type qui prend du code html. C'est une manière de stocker en quelque sorte du code html sous forme d'objet.
 
 Ce qui est intéressant, c'est que pour les 3 propriétés de mon composant, autant la liste de véhicules que les 2 templates, elles ne possèdent encore aucun contenu. Etant donné que ce sont des propriétés `[Parameter]`, c'est en fait au moment de leur utilisation dans la vue que les propriétés seront remplies, par le biais de paramètres.
 
