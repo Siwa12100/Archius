@@ -11,6 +11,8 @@ Le LocalStorage est en gros un moyen de stocker des données directement du côt
 
 Le Nuget indiqué dans le cours et utilisé pour manipuler facilement le LocalStorage s'appelle `Blazored.LocalStorage`, `Blazored` étant une biblio de nugets créée par une personne douée en .NET...
 
+Attention, bien penser à rajouter `builder.Services.AddBlazoredLocalStorage();` dans le `Program.cs`.
+
 On commence par rajouter un bouton au dessus de la Datagrid pour rajouter du contenu.
 Le bouton se charge simplement de rediriger vers une autre page, spécialisée pour l'ajout.
 
