@@ -1,0 +1,58 @@
+﻿
+<EditForm Model="@Modele" OnValidSubmit="@ajouterUtilisateur">
+
+    <DataAnnotationsValidator />
+    <Microsoft.AspNetCore.Components.Forms.ValidationSummary />
+
+    <p>
+        <label for="pseudo">
+            Pseudo : 
+            <InputText id="pseudo" @bind-Value="Modele.Pseudo" />
+        </label>
+    </p>
+
+    <p>
+        <label for="prenom">
+            Prénom : 
+            <InputText id="prenom" @bind-Value="Modele.Prenom" />
+        </label>
+    </p>
+
+    <p>
+        <label for="nom">
+            Nom :
+            <InputText id="nom" @bind-Value="Modele.Nom" />
+        </label>
+    </p>
+
+    <p>
+        <label for="role">
+            Role : 
+            <InputText id="role" @bind-Value="Modele.Role" />
+        </label>
+    </p>
+
+    <p>
+        <label for="mail">
+            Email :
+            <InputText id="mail" @bind-Value="Modele.Mail" />
+        </label>
+    </p>
+
+    <p>
+        <label for="mdp">
+            Mot de passe :
+            <InputText id="mdp" @bind-Value="Modele.Mdp" />
+        </label>
+    </p>
+
+    <p>
+        <label>
+            Utilisateur banni :
+            <InputCheckbox @bind-Value="Modele.IsBan" />
+        </label>
+    </p>
+
+    <button Type="Submit">Valider la création</button>
+
+</EditForm>
