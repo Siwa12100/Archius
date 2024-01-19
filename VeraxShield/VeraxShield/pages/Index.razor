@@ -1,0 +1,68 @@
+﻿@using VeraxShield.composants.affichages.navBar;
+@page "/"
+
+<!--
+<h1>VeraxShield</h1>
+
+<button type="button" class="btn btn-link ml-md-auto" @onclick="@SeConnecter">Connexion</button>
+
+<button type="button" class="btn btn-link ml-md-auto" @onclick="@NavBar">NavBar</button>
+
+
+<AuthorizeView>
+    <h1> Adiu :  @context.User.Identity.Name!</h1>
+    <p>Podètz veire aquest contengut solament se sètz autentificat ! </p>
+
+    <NavLink href="/utilisateurs/liste"> -> Liste des utilisateurs</NavLink>
+
+    <button type="button" class="btn btn-link ml-md-auto" @onclick="@SeDeconnecter">Deconnexion</button>
+</AuthorizeView>
+
+-->
+
+<head>
+    <link rel="stylesheet" href="css/index.css">
+</head>
+
+<AuthorizeView>
+    <NotAuthorized>
+        <body>
+            <header>
+                <h1>VeraxShield</h1>
+            </header>
+
+            <main>
+                <div class="center-box">
+                    <div class="button-container">
+                        <button type="button" class="btn btn-link" @onclick="@SeConnecter">Connexion</button>
+                    </div>
+                    <div class="button-container">
+                        <button type="button" class="btn btn-link" @onclick="@RetourVerax">
+                            <Icon Name="Blazorise.Icons.FontAwesome.FontAwesomeIcons.LocationArrow" />
+                            Retourner sur Verax
+                        </button>
+                    </div>
+                </div>
+            </main>
+            <footer>
+                .
+            </footer>
+        </body>
+    </NotAuthorized>
+
+    <Authorized>
+
+        <body>
+            
+            <NavBarPrincipale/>
+
+            <main>
+                <div class="home-center-box">
+                    <h1> Adiu :  @context.User.Identity.Name!</h1>
+                    <p>Podètz veire aquest contengut solament se sètz autentificat ! </p>
+                </div>
+            </main>
+        </body>
+    </Authorized>
+
+</AuthorizeView>

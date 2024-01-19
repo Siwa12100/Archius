@@ -1,0 +1,47 @@
+.connexion-container {
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Ajoute une ombre légère */
+}
+
+
+
+.field-container {
+    margin-bottom: 15px;
+}
+
+.textedit-container {
+    border-radius: 20px;
+    border: 1px solid black;
+    width: 80%; /* Ajuste la largeur des champs de saisie */
+}
+
+.btn-container {
+    display: flex;
+    justify-content: center;
+    gap: 10px; /* Ajoute de l'espace entre les boutons */
+}
+
+.btn-se-connecter,
+.btn-s-inscrire {
+    width: 150px; /* Ajuste la largeur des boutons */
+}
+
+.title-spacing {
+    margin-bottom: 20px; /* Ajoute plus d'espace entre le titre et les éléments suivants */
+}
+
+.btn-se-connecter {
+    background-color: #053679;
+    color: white;
+}
+    .btn-se-connecter:hover, .btn-s-inscrire:hover {
+        background-color: #afc1db;
+        color: #053679;
+    }
+
+    .btn-s-inscrire {
+        background-color: grey;
+        color: white;
+    }

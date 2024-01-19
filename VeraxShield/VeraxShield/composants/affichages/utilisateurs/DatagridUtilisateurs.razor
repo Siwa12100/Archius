@@ -1,0 +1,102 @@
+@using VeraxShield.modele.utilisateurs;
+@using Microsoft.AspNetCore.Components;
+@using VeraxShield.composants.modals;
+@using VeraxShield.composants.affichages.navBar;
+
+@layout NavBarPrincipale
+
+
+<head>
+    <link rel="stylesheet" href="css/composants/affichages/utilisateurs/datagridUtilisateurs.css">
+</head>
+
+<DataGrid   TItem="Utilisateur"
+            Data="@Utilisateurs"
+            @bind-SelectedRow="@UtilisateurSelectionne"
+            Responsive
+            ShowPager
+            ShowPageSizes
+            PagerPosition="DataGridPagerPosition.TopAndBottom"
+            PagerOptions="new(){ ButtonSize=Size.Small }"
+            OnUtilisateurSupprime="HandleUtilisateurSupprime">
+
+    <DataGridColumns>
+
+        <DataGridCommandColumn />
+
+         <DataGridColumn Field="@nameof(Utilisateur.Pseudo)" Caption="Pseudo" Sortable="false" />
+         <DataGridColumn Field="@nameof(Utilisateur.Prenom)" Caption="Prenom" Editable />
+         <DataGridColumn Field="@nameof(Utilisateur.Nom)" Caption="Nom" Editable />
+         <DataGridColumn Field="@nameof(Utilisateur.IsBan)" Caption="Banissement" Editable >
+         
+
+            <DisplayTemplate>
+                @if (context.IsBan)
+                {
+                <Badge Color="Color.Danger" Pill>Ban</Badge>
+            } else
+            {
+                <Badge Color="Color.Success" Pill>Valide</Badge>
+            }
+
+
+            </DisplayTemplate>
+        </DataGridColumn>
+        <DataGridColumn Field="@nameof(Utilisateur.Role)" Caption="role" Editable />
+        <DataGridColumn Field="@nameof(Utilisateur.Mail)" Caption="mail" Editable />
+
+        <DataGridColumn Field="@nameof(Utilisateur.Pseudo)" Caption="Gerer">
+        <DisplayTemplate>
+            <button type="button" class="btn btn-primary editButton" @onclick="() => onClickBoutonSuppression(context.Pseudo)"><i class="fa fa-trash"></i> </button>
+            <button type="button" class="btn btn-primary editButton" @onclick="() => onClickBoutonModification(context.Pseudo)"><i class="fa fa-edit"></i> </button>
+        </DisplayTemplate>
+        
+    </DataGridColumn>
+    </DataGridColumns>
+    <PageButtonTemplate>
+
+        <Span class="darkBlue">
+            @context.PageNumber
+        </Span>
+    </PageButtonTemplate>
+
+	<NextPageButtonTemplate><Icon Name="IconName.StepForward" class="darkBlue" /></NextPageButtonTemplate>
+    <PreviousPageButtonTemplate><Icon Name="IconName.StepBackward" class="darkBlue" /></PreviousPageButtonTemplate>
+    <LastPageButtonTemplate><Icon Name="IconName.Forward" class="darkBlue" /></LastPageButtonTemplate>
+    <FirstPageButtonTemplate><Icon Name="IconName.Backward" class="darkBlue" /></FirstPageButtonTemplate>
+    <TotalItemsTemplate><Badge class="darkBlue">@context.TotalItems utilisateurs</Badge></TotalItemsTemplate>
+    <TotalItemsShortTemplate><Badge class="darkBlue">@context.TotalItems</Badge></TotalItemsShortTemplate>
+    <ButtonRowTemplate>
+            <Button Class="editButton biggest" Clicked="boutonclick">+</Button>
+    </ButtonRowTemplate>
+    
+        <ItemsPerPageTemplate></ItemsPerPageTemplate>
+
+        <PageSelectorTemplate>
+
+            <Select TextColor="TextColor.Success" @bind-SelectedValue="@context.CurrentPage" Size="Size.Small">
+                @for (int i = context.FirstVisiblePage; i <= context.LastVisiblePage; ++i)
+                {
+                    var pageNumber = i;
+                    <SelectItem Value="@pageNumber">@pageNumber</SelectItem>
+                }
+            </Select>
+        </PageSelectorTemplate>
+
+        <PageSizesTemplate>
+        <Select class="darkBlue" @bind-SelectedValue="@context.CurrentPageSize" Size="Size.Small">
+            @foreach (var curPageSize in context.PageSizes)
+            {
+                <SelectItem Value="@curPageSize">@curPageSize</SelectItem>
+            }
+            </Select>
+    </PageSizesTemplate>
+</DataGrid>
+
+<div>
+    <ModalSuppressionUtilisateur
+        utilisateur="@UtilisateurSelectionne"
+        @ref="Modal"
+        modalFerme="fermetureModal" />
+</div>
+

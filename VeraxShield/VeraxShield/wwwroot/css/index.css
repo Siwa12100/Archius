@@ -1,0 +1,89 @@
+﻿/*Not Authorized
+    ---------------------------------------------------
+*/
+
+body {
+    background-color: white;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    width: 100%;
+}
+
+header {
+    color: #053679;
+    text-align: center;
+    padding: 10px;
+    margin: 0;
+    background-color: #afc1db;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+    margin-top:10vh;
+}
+
+.center-box {
+    /* background-color: #afc1db; */
+
+    background-color: #8BC6EC;
+    background-image: linear-gradient(135deg, #8BC6EC 0%, #9599E2 100%);
+
+    
+    padding: 20px;
+    text-align: center;
+    border-radius: 10px;
+}
+
+.button-container {
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn-link {
+    color: white;
+    background-color: #053679;
+    margin: 5px;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    display: block;
+    cursor: pointer;
+    width:100%;
+}
+
+    .btn-link:hover {
+        background-color: white;
+        color: #053679;
+    }
+
+    /*Authorized
+    ---------------------------------------------------
+*/
+
+    .navbar {
+    background-color: #053679;
+}
+
+.btn-navbar {
+    color: white;
+    background-color: none;
+}
+
+    .btn-navbar:hover {
+        color: #afc1db;
+    }
+
+.home-center-box {
+    background-color: #afc1db;
+    padding: 40px;
+    text-align: center;
+    border-radius: 10px;
+    width: 80%;
+}
+

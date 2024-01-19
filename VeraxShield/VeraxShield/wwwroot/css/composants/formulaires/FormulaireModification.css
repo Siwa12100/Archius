@@ -1,0 +1,52 @@
+/* Ajoutez ces styles à votre fichier CSS associé au composant (FormulaireModification.css) */
+
+.formulaire-conteneur {
+
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Ajoute une ombre au formulaire */
+    border-radius: 10px; /* Ajoute des bords arrondis au formulaire */
+
+    /* background-color: black; */
+    background-color: #8BC6EC;
+    background-image: linear-gradient(135deg, #8BC6EC 0%, #9599E2 100%);
+    
+    color: white; /* Définit la couleur du texte à blanc */
+    padding: 20px; /* Ajoute une marge intérieure pour plus de lisibilité */
+}
+
+.title-spacing {
+    margin-bottom: 20px; /* Ajoute une séparation entre le titre et le reste du contenu */
+}
+
+.field-container {
+    margin-bottom: 15px; /* Ajoute une séparation entre chaque champ */
+}
+
+/* Rend les labels en gras et blancs */
+.field-label {
+    font-weight: bold;
+    color: white;
+}
+
+.btn-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px; /* Ajoute une séparation entre les champs et les boutons */
+}
+
+.btn-se-connecter {
+    /* background-color: darkblue; */
+
+    /*background: #F3904F;   fallback for old browsers */
+    /*background: -webkit-linear-gradient(to right, #3B4371, #F3904F);   Chrome 10-25, Safari 5.1-6 */
+    /*background: linear-gradient(to right, #3B4371, #F3904F);  W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+    background: white;
+    color: black;
+    margin-right: 10px; /* Ajoute un espace entre les deux boutons */
+}
+
+.btn-s-inscrire {
+    background-color: white;
+    /* color: white; */
+    color: black;
+}

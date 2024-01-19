@@ -1,0 +1,101 @@
+[
+  {
+    "Pseudo": "john_doe",
+    "Mail": "john.doe@example.com",
+    "Nom": "Doe",
+    "Prenom": "John",
+    "Role": "Utilisateur standard",
+    "Mdp": "MotDePasse123",
+    "IsBan": false
+  },
+  {
+    "Pseudo": "jane_smith",
+    "Mail": "jane.smith@example.com",
+    "Nom": "Smith",
+    "Prenom": "Jane",
+    "Role": "Administrateur",
+    "Mdp": "SecretPassword456",
+    "IsBan": true
+  },
+  {
+    "Pseudo": "Admin",
+    "Mail": "Admin.admin@admin.com",
+    "Nom": "Admin",
+    "Prenom": "Admin",
+    "Role": "admin",
+    "Mdp": "Admin",
+    "IsBan": false
+  },
+  {
+    "Pseudo": "alice_jones",
+    "Mail": "alice.jones@example.com",
+    "Nom": "Jones",
+    "Prenom": "Alice",
+    "Role": "Utilisateur standard",
+    "Mdp": "SecurePass789",
+    "IsBan": false
+  },
+  {
+    "Pseudo": "bob_williams",
+    "Mail": "bob.williams@example.com",
+    "Nom": "Williams",
+    "Prenom": "Bob",
+    "Role": "Utilisateur standard",
+    "Mdp": "StrongPassword1",
+    "IsBan": true
+  },
+  {
+    "Pseudo": "emily_davis",
+    "Mail": "emily.davis@example.com",
+    "Nom": "Davis",
+    "Prenom": "Emily",
+    "Role": "Utilisateur standard",
+    "Mdp": "SecurePassword789",
+    "IsBan": false
+  },
+  {
+    "Pseudo": "alex_miller",
+    "Mail": "alex.miller@example.com",
+    "Nom": "Miller",
+    "Prenom": "Alex",
+    "Role": "Modérateur",
+    "Mdp": "StrongPass123",
+    "IsBan": true
+  },
+  {
+    "Pseudo": "sophie_brown",
+    "Mail": "sophie.brown@example.com",
+    "Nom": "Brown",
+    "Prenom": "Sophie",
+    "Role": "Utilisateur standard",
+    "Mdp": "Password123",
+    "IsBan": false
+  },
+  {
+    "Pseudo": "william_taylor",
+    "Mail": "william.taylor@example.com",
+    "Nom": "Taylor",
+    "Prenom": "William",
+    "Role": "Administrateur",
+    "Mdp": "AdminPass456",
+    "IsBan": true
+  },
+  {
+    "Pseudo": "olivia_clark",
+    "Mail": "olivia.clark@example.com",
+    "Nom": "Clark",
+    "Prenom": "Olivia",
+    "Role": "Utilisateur standard",
+    "Mdp": "OliviaPass789",
+    "IsBan": false
+  },
+  {
+    "Pseudo": "jacob_morgan",
+    "Mail": "jacob.morgan@example.com",
+    "Nom": "Morgan",
+    "Prenom": "Jacob",
+    "Role": "Modérateur",
+    "Mdp": "JacobPass1",
+    "IsBan": true
+  }
+]

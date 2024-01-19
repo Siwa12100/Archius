@@ -1,0 +1,33 @@
+﻿@inherits LayoutComponentBase
+
+<head>
+    <link rel="stylesheet" href="css/composants/navBar/NavBarPrincipale.css" />
+</head>
+
+<Bar Breakpoint="Breakpoint.Desktop" class="bar-container">
+    <BarBrand>
+        <img class="logo" src="/ressources/images/logo/logo.png" Text="Logo de Verax" Fluid @onclick="@NavAccueil"/>
+    </BarBrand>
+    <BarToggler />
+    <BarMenu class="bar-menu">
+        <BarItem>
+            <BarLink class="bar-link" @onclick="@NavUtilisateurs">Utilisateurs</BarLink>
+        </BarItem>
+        <BarItem>
+            <BarLink class="bar-link" @onclick="@NavArticles">Articles</BarLink>
+        </BarItem>
+        <BarItem>
+            <BarLink class="bar-link" @onclick="@NavModerateurs">Modérateurs</BarLink>
+        </BarItem>
+    </BarMenu>
+    <BarEnd>
+        <BarItem class="bar-role">
+            @DonneurEtat.getUtilisateurCourant().Pseudo
+        </BarItem>
+        <BarItem>
+            <Button Color="Color.Primary" @onclick="@Deconnecter">Deconnexion</Button>
+        </BarItem>
+    </BarEnd>
+</Bar>
+
+@Body

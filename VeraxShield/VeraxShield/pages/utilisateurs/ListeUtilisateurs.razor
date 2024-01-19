@@ -1,0 +1,27 @@
+﻿@using Microsoft.AspNetCore.Authorization
+@using VeraxShield.composants.affichages.utilisateurs;
+
+@page "/utilisateurs/liste"
+@attribute [Authorize(Roles = "admin, modo")]
+
+<head>
+    <link rel="stylesheet" href="css/pages/utilisateurs/listeUtilisateurs.css">
+</head>
+
+<body>
+	<div class="center-box">
+		<h1> Utilisateurs de Verax</h1>
+		<p class="margin10">Vous retrouverez ici les utilisateurs de Verax ainsi que les actions associées </p>
+	</div>
+	
+	<div class="dataGrid"><DatagridUtilisateurs/></div>
+	
+
+</body>
+
+
+
+
+
+
+

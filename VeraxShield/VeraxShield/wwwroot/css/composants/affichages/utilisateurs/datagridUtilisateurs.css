@@ -1,0 +1,16 @@
+﻿.darkBlue {
+    color: #053679;
+}
+
+.editButton {
+    background-color: #053679;
+    border: none;
+    color: white;
+}
+
+.biggest{
+    font-weight: bold;
+    font-size:120%;
+}
+
+

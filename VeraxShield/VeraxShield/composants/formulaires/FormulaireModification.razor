@@ -1,0 +1,119 @@
+<head>
+    <link rel="stylesheet" href="css/composants/formulaires/FormulaireModification.css">
+</head>
+
+<div class="formulaire-conteneur">
+    
+<h1 class="title-spacing"> Modifier l'utilisateur</h1>
+
+<Validations @ref="Validations" Mode="ValidationMode.Manual" Model="Modele">
+
+        <div class="field-container">
+            <Validation>
+                <Field Horizontal>
+                    <FieldLabel ColumnSize="ColumnSize.Is2">Pseudo</FieldLabel>
+                    <FieldBody ColumnSize="ColumnSize.Is10">
+                        <TextEdit Placeholder="Entrez votre pseudo" @bind-Text="@Modele.Pseudo">
+                            <Feedback>
+                                <ValidationError />
+                            </Feedback>
+                        </TextEdit>
+                    </FieldBody>
+                </Field>
+            </Validation>
+        </div>
+
+        <div class="field-container">
+            <Validation>
+                <Field Horizontal>
+                    <FieldLabel ColumnSize="ColumnSize.Is2">Prenom</FieldLabel>
+                    <FieldBody ColumnSize="ColumnSize.Is10">
+                        <TextEdit Placeholder="Entrez votre prenom" @bind-Text="@Modele.Prenom">
+                            <Feedback>
+                                <ValidationError />
+                            </Feedback>
+                        </TextEdit>
+                    </FieldBody>
+                </Field>
+            </Validation>
+        </div>
+
+        <div class="field-container">
+            <Validation>
+                <Field Horizontal>
+                    <FieldLabel ColumnSize="ColumnSize.Is2">Nom</FieldLabel>
+                    <FieldBody ColumnSize="ColumnSize.Is10">
+                        <TextEdit Placeholder="Entrez votre nom" @bind-Text="@Modele.Nom">
+                            <Feedback>
+                                <ValidationError />
+                            </Feedback>
+                        </TextEdit>
+                    </FieldBody>
+                </Field>
+            </Validation>
+        </div>
+
+        <div class="field-container">
+            <Validation>
+                <Field Horizontal>
+                    <FieldLabel ColumnSize="ColumnSize.Is2">Mail</FieldLabel>
+                    <FieldBody ColumnSize="ColumnSize.Is10">
+                        <TextEdit Placeholder="Entrez votre mail" @bind-Text="@Modele.Mail">
+                            <Feedback>
+                                <ValidationError />
+                            </Feedback>
+                        </TextEdit>
+                    </FieldBody>
+                </Field>
+            </Validation>
+        </div>
+
+        <div class="field-container">
+            <Validation>
+                <Field Horizontal>
+                    <FieldLabel ColumnSize="ColumnSize.Is2">Role</FieldLabel>
+                    <FieldBody ColumnSize="ColumnSize.Is10">
+                        <TextEdit Placeholder="Entrez le role" @bind-Text="@Modele.Role">
+                            <Feedback>
+                                <ValidationError />
+                            </Feedback>
+                        </TextEdit>
+                    </FieldBody>
+                </Field>
+            </Validation>
+        </div>
+
+        <div class="field-container">
+            <Validation>
+                <Field Horizontal>
+                    <FieldLabel ColumnSize="ColumnSize.Is2">Mot de passe</FieldLabel>
+                    <FieldBody ColumnSize="ColumnSize.Is10">
+                        <TextEdit Placeholder="Entrez votre mot de passe" @bind-Text="@Modele.Mdp">
+                            <Feedback>
+                                <ValidationError />
+                            </Feedback>
+                        </TextEdit>
+                    </FieldBody>
+                </Field>
+            </Validation>
+        </div>
+
+        <div>
+            <Validation>
+                <Switch TValue="bool" @bind-Checked="@Modele.IsBan" Color="Color.Primary">Utilisateur banni</Switch>
+            </Validation>
+        </div>
+
+        
+
+        <div class="btn-container">
+            <Button Class="btn-se-connecter" Clicked="@modifierUtilisateur">
+                <Icon Name="Blazorise.Icons.FontAwesome.FontAwesomeIcons.CheckCircle" />
+                Modifier</Button>
+            <Button Class="btn-s-inscrire" Clicked="@OnAnnulation">
+                <Icon Name="Blazorise.Icons.FontAwesome.FontAwesomeIcons.Reply" />
+                Annuler</Button>
+        </div>
+
+    </Validations>
+</div>

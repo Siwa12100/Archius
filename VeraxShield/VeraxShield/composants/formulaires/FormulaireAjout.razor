@@ -1,0 +1,115 @@
+﻿@using Blazorise.Components
+@using System.ComponentModel.DataAnnotations;
+
+<head>
+    <link rel="stylesheet" href="css/composants/formulaires/FormulaireAjout.css" />
+</head>
+
+<div class="formulaire-conteneur">
+
+    <h1 class="title-spacing"> Ajouter un utilisateur </h1>
+
+    <Validations @ref="Validations" Mode="ValidationMode.Manual" Model="Modele">
+
+        <div class="field-container">
+            <Validation>
+                <Field Horizontal>
+                    <FieldLabel ColumnSize="ColumnSize.Is2" Class="field-label">Pseudo</FieldLabel>
+                    <FieldBody ColumnSize="ColumnSize.Is10">
+                        <TextEdit Placeholder="Entrez son pseudo" @bind-Text="@Modele.Pseudo">
+                            <Feedback>
+                                <ValidationError />
+                            </Feedback>
+                        </TextEdit>
+                    </FieldBody>
+                </Field>
+            </Validation>
+        </div>
+
+        <div class="field-container">
+            <Validation>
+                <Field Horizontal>
+                    <FieldLabel ColumnSize="ColumnSize.Is2" Class="field-label">Prenom</FieldLabel>
+                    <FieldBody ColumnSize="ColumnSize.Is10">
+                        <TextEdit Placeholder="Entrez son prénom" @bind-Text="@Modele.Prenom">
+                            <Feedback>
+                                <ValidationError />
+                            </Feedback>
+                        </TextEdit>
+                    </FieldBody>
+                </Field>
+            </Validation>
+        </div>
+
+        <div class="field-container">
+            <Validation>
+                <Field Horizontal>
+                    <FieldLabel ColumnSize="ColumnSize.Is2" Class="field-label">Nom</FieldLabel>
+                    <FieldBody ColumnSize="ColumnSize.Is10">
+                        <TextEdit Placeholder="Entrez son nom" @bind-Text="@Modele.Nom">
+                            <Feedback>
+                                <ValidationError />
+                            </Feedback>
+                        </TextEdit>
+                    </FieldBody>
+                </Field>
+            </Validation>
+        </div>
+
+        <div class="field-container">
+            <Validation>
+                <Field Horizontal>
+                    <FieldLabel ColumnSize="ColumnSize.Is2" Class="field-label">Mail</FieldLabel>
+                    <FieldBody ColumnSize="ColumnSize.Is10">
+                        <TextEdit Placeholder="Entrez son mail" @bind-Text="@Modele.Mail">
+                            <Feedback>
+                                <ValidationError />
+                            </Feedback>
+                        </TextEdit>
+                    </FieldBody>
+                </Field>
+            </Validation>
+        </div>
+
+        <div class="field-container">
+            <Validation>
+                <Field Horizontal>
+                    <FieldLabel ColumnSize="ColumnSize.Is2" Class="field-label">Role</FieldLabel>
+                    <FieldBody ColumnSize="ColumnSize.Is10">
+                        <TextEdit Placeholder="Entrez son role" @bind-Text="@Modele.Role">
+                            <Feedback>
+                                <ValidationError />
+                            </Feedback>
+                        </TextEdit>
+                    </FieldBody>
+                </Field>
+            </Validation>
+        </div>
+
+        <div class="field-container">
+            <Validation>
+                <Field Horizontal>
+                    <FieldLabel ColumnSize="ColumnSize.Is2" Class="field-label">Mot de passe</FieldLabel>
+                    <FieldBody ColumnSize="ColumnSize.Is10">
+                        <TextEdit Placeholder="Entrez son mot de passe" @bind-Text="@Modele.Mdp">
+                            <Feedback>
+                                <ValidationError />
+                            </Feedback>
+                        </TextEdit>
+                    </FieldBody>
+                </Field>
+            </Validation>
+        </div>
+
+        <div class="btn-container">
+            <Button Class="btn-se-connecter" Clicked="@OnSubmit">
+                <Icon Name="Blazorise.Icons.FontAwesome.FontAwesomeIcons.CheckCircle" />
+                Ajouter</Button>
+            <Button Class="btn-s-inscrire" Clicked="@OnAnnulation">
+                <Icon Name="Blazorise.Icons.FontAwesome.FontAwesomeIcons.Reply" />
+                Annuler</Button>
+        </div>
+
+    </Validations>
+
+</div>
