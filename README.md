@@ -25,3 +25,7 @@ Dins aquò, certans de mos apontaments, especialament sus d'aspectes tecnics, p�
 Certans passatges, l'aurètz notat, son escrichs en occitan languedocian, la lenga de mon país, lo Roergue. Es una mòda de li rende omatge e de l'inscriure dins una certa modernitat. Aquò m'es car de far aital. 
 
 Tot aquò dich, bona lectura als curioses !
+
+
+**A approfondir :**
+[docker](https://www.youtube.com/playlist?list=PL6gx4Cwl9DGBkvpSIgwchk0glHLz7CQ-7)
