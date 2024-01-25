@@ -29,4 +29,31 @@ const maConstante = "coucou"
 * `console.warn("Ceci est un avertissement");`
 * `console.error("Ceci est une erreur");`
 
+**Les types :**
+
+Il existe 3 types principaux :
+
+* **Number** qui correspond aux nombres entiers et à virgule.
+* **Boolean** les booléens.
+* **String** les chaînes de caractère.
+
+On peut concaténer des strings avec le `+` :
+
+```js
+const nom = "Dupont";
+const prenom = "Louis";
+const assemblage = nom + penom;
+```
+
+Il est possible de convertir des types entre eux :
+
+```js
+let monChiffre = "150";
+let monString = 780;
+
+// Conversion en nombre
+const test = Number(monChiffre);
+// Conversion en string
+const test2 = String(monString);
+```
 
