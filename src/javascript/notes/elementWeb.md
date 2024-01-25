@@ -158,6 +158,49 @@ let monBody = document.querySelector("body");
 monBody.innerHTML += maDiv;
 ```
 
+## Ecouter un évènement
+
+Il est possible de réagir lorsque des évènements, comme des clicks, se produisent. Pour cela, on doit ajouter des listeners.
+
+### addEventListener
+
+addEventListener va permettre d'effectuer du code une fois qu'un évènement spécifique se produit.
+
+**Code général :**
+
+```js
+let monBouton = document.getElementById("monBoutonId");
+monBouton.addEventListener("click", function() {
+    ...
+    // on fait des trucs...
+    ...
+});
+
+// Une autre syntaxe possible :
+monBouton.addEventListener("click", () => {
+    ...
+    ...
+});
+```
+
+### Utilisation du paramètre event
+
+Il est possible de passer un paramètre à la fonction lors de l'ajout du listener, pour récupérer des informations sur l'évènement.
+
+**Exemple :**
+
+```js
+monBouton.addEventListener("submit", (event) => {
+    // annuler le comportement par défaut pour un évènement
+    event.preventDefault();
+    // afficher l'élement qui a été cliqué
+    console.log(event.target);
+    // il existe pleins d'autres informations récupérables depuis event
+});
+```
+
+
+
 ---
 
 [...retour au sommaire](../sommaire.md)
