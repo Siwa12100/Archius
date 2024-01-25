@@ -133,3 +133,5 @@ const mesFruits = ["pomme", "poire"];
 const monNouveauTab = [...mesFruits];
 ```
 
+---
+[...retour au sommaire](../sommaire.md)
