@@ -2,7 +2,8 @@
 
 ### Sommaire
 
-* [bases](./notes/bases.md)
+* [Bases](./notes/bases.md)
+* [Fonctions](./notes/fonctions.md)
 
 ---
 [retour à l'accueil](../../README.md)
