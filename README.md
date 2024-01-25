@@ -16,7 +16,8 @@ Ce dépôt me permet de stocker une partie de mes prises de notes, et de manièr
 - [Programmation système](./src/programmationSysteme/intro.md)
 - [Archives du Valorium](./src/mc/valorium/accueil.md)
 - [Elendil](./src/mc/Elendil/Ligue.md)
-- [dotnet](./src/dotnet/intro.md)
+- [Dotnet](./src/dotnet/intro.md)
+- [JavaScript](./src/javascript/sommaire.md)
 
 Aquelas archius son sobretot personals e pretendon a res d'autre coma m'ajudar a gardar a drech dins ma man d'informacions que mi seran utilas a l'avenir, o ben mi guiarnar a metre sus papièr de reflexions, d'una mòda a structurar ma pensada. 
 Ieu ne pretendi ni explicar res a degun, que sigam plan clar. 
