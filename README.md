@@ -29,3 +29,4 @@ Tot aquò dich, bona lectura als curioses !
 
 **A approfondir :**
 [docker](https://www.youtube.com/playlist?list=PL6gx4Cwl9DGBkvpSIgwchk0glHLz7CQ-7)
+[Bot discord - Python](https://www.youtube.com/playlist?list=PL6gx4Cwl9DGAHdJdtEl0-XiRfPRAvpbSz)
