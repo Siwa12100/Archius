@@ -71,7 +71,7 @@ switch(maVariable) {
 
 **for & while :**
 
-C'est le for classique...
+C'est le grand classique...
 
 ```js
 for (let cpt = 0; cpt < 10; cpt++) {
