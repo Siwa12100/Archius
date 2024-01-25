@@ -140,3 +140,7 @@ function maFonction() {
 console.log(maVariableLocale); // n'existe plus ici
 console.log(maVariableGlobale); //marche toujours
 ```
+
+---
+
+[retour au sommaire](../sommaire.md)
