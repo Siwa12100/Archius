@@ -1,4 +1,4 @@
-s# Les fonctions
+# Les fonctions
 
 ### Inclusion de code js dans le html
 
