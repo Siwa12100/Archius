@@ -17,3 +17,7 @@ Il peut s'agir d'informations sur l'aspect technique du réseau Emrub et du Valo
 ### L'univers d'Emrub
 
 * [Présentation générale](./presentation/presentation.md)
+
+### Autre
+
+* [redaction du Discord](./notes/redactionDiscord.md)
