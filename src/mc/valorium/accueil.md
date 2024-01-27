@@ -20,4 +20,4 @@ Il peut s'agir d'informations sur l'aspect technique du réseau Emrub et du Valo
 
 ### Autre
 
-* [redaction du Discord](./notes/redactionDiscord.md)
+* [Rédaction du Discord](./notes/redactionDiscord.md)
