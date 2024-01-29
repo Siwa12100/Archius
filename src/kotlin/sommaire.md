@@ -4,3 +4,4 @@ Kotlin est un langage de programmation moderne qui s'exécute sur la machine vir
 
 ## Bases
 
+* [Types et collections](./notes/bases.md)
