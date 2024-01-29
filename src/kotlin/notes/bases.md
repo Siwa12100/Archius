@@ -1,5 +1,40 @@
 # Variables & collection
 
+## Types de variables
+
+### `val` (Valeur constante)
+
+- `val` est utilisé pour déclarer une référence à une valeur constante (immuable).
+- Une fois assignée, la valeur ne peut pas être modifiée.
+- Le type de la variable peut être spécifié explicitement ou inféré par le compilateur.
+
+```kotlin
+val answer: Int = 42
+val age = 33  // Type inféré
+// age += 2  // Erreur, la variable est immuable
+```
+
+### `var` (Variable)
+
+- `var` est utilisé pour déclarer une référence à une variable (mutable).
+- La valeur peut être modifiée après son initialisation.
+
+```kotlin
+var x: Int = 2
+var y = 'y'
+++x  // OK, la variable est mutable
+```
+
+### Préférer `val` à `var` quand c'est possible
+
+- Il est recommandé d'utiliser `val` autant que possible pour favoriser l'immutabilité.
+- Cela permet au compilateur d'effectuer des optimisations et de rendre le code plus sûr.
+
+```kotlin
+val what: String  // Type nécessaire si pas de valeur
+what = "Whaaat ?"  // Initialisation différée
+```
+
 ## Types de base
 
 ### Entiers
@@ -194,4 +229,52 @@ enum class Color {
 val person: Person = Person("Alice", 30)
 val color: Color = Color.BLUE
 ```
+
+Les intervalles, les opérateurs `..`, `until`, `downTo`, et `step` ainsi que les fonctions d'extension sont des concepts importants en Kotlin pour travailler avec des séquences de nombres ou d'autres types de données. Voici une explication détaillée de chacun de ces concepts :
+
+## Intervalles (Range et Progression)
+
+Un intervalle est une séquence d'éléments. On peut créer des intervalles en utilisant l'opérateur `..` et spécifier un début et une fin.
+
+```kotlin
+val interval1 = 1..10  // de 1 inclus jusqu'à 10 inclus
+val interval2 = 1 until 10  // de 1 inclus jusqu'à 10 exclus
+val interval3 = 4..1  // vide
+val interval4 = 4 downTo 1  // de 4 jusqu'à 1 inclus
+val interval5 = 10 downTo 1 step 2  // de 10 jusqu'à 1 inclus avec un pas de 2
+```
+
+- `..` : Crée un intervalle inclusif.
+- `until` : Crée un intervalle exclusif.
+- `downTo` : Définit une plage décroissante.
+- `step` : Spécifie un pas entre les valeurs de l'intervalle.
+
+### Fonctions d'extension
+
+#### `in`
+
+L'opérateur `in` permet de vérifier si une valeur se trouve dans un intervalle.
+
+```kotlin
+val chiffres = 0..9
+if (3 in chiffres) {
+    println("3 est un chiffre")
+}
+```
+
+#### Boucle for avec un intervalle
+
+Vous pouvez utiliser un intervalle dans une boucle for pour itérer sur ses valeurs.
+
+```kotlin
+for (i in chiffres) {
+    print("$i, ")
+}
+println("sont des chiffres")
+```
+
+Cette boucle for itérera de 0 à 9 et imprimera chaque valeur.
+
+
+
 
