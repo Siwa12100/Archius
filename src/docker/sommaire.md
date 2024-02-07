@@ -5,7 +5,8 @@
 ## Sommaire
 
 * [Intro](./notes/intro.md)
-* [Lancer un conteneur](./notes/lancerConteneur.md)
+* [Lancer un conteneur & commandes de base](./notes/lancerConteneur.md)
+* [Créer un docker file](./notes/dockerFichier.md)
 
 ## Autres notes
 
