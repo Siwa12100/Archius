@@ -28,4 +28,6 @@ Cela résoud ainsi les soucis de comptabilité entre les machines.
 
 * **Statefull :** A l'inverse dans une requête stateful, le processus se souvient de l'état. Si on éteint et rallume une bdd, elle se retrouvera dans le même état qu'avant d'être éteinte, elle n'est pas réinitialisée...
   
-  
+---
+
+[...retour au sommaire](../sommaire.md)
