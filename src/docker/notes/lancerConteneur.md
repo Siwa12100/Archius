@@ -10,7 +10,7 @@ Docker hub est la registry officielle de docker. C'est un logitiel qui permet de
 
 Dans l'écosystème docker, il permet :
 
-* de distribuer aux devs des images prêts à l'emploi et de les versionner
+* de distribuer aux devs des images prêtes à l'emploi et de les versionner
 
 * De jouer des suites de tests pendant l'intégration continue
 
