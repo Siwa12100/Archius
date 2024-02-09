@@ -36,3 +36,6 @@ Tot aquò dich, bona lectura als curioses !
 [Bot discord - Python](https://www.youtube.com/playlist?list=PL6gx4Cwl9DGAHdJdtEl0-XiRfPRAvpbSz)
 
 [Junit IntelliJ](https://www.jetbrains.com/help/idea/junit.html#intellij)
+
+[Documentation de JUnit](https://junit.org/junit5/docs/current/user-guide/#writing-tests)
+
