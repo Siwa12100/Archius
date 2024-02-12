@@ -1,5 +1,9 @@
 # Services web Restful
 
+[...retour au sommaire](../sommaire.md)
+
+---
+
 ## Introduction
 
 Les services web sont des instances d'objets ou de ressources déployées sur Internet, facilitant l'accès à des fonctionnalités pour diverses applications. Cette technologie représente une évolution des systèmes distribués, adoptant une architecture orientée service (SOA) et normalisée par le W3C.
@@ -37,3 +41,6 @@ Les requêtes et réponses des services web doivent être sérialisées pour une
    - Utilisation directe des méthodes HTTP (PUT, GET, etc.).
    - Plus simple à mettre en œuvre, bien qu'initialement sans protocole de sécurité standard.
 
+---
+
+[...retour au sommaire](../sommaire.md)
