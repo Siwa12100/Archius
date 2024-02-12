@@ -4,8 +4,9 @@
 
 ---
 
-## Notes cours
+## Notes - cours
 
+* [Services web Restful](./notes/apiRest.md)
 
 ---
 
