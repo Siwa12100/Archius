@@ -10,7 +10,7 @@ Ce dépôt me permet de stocker une partie de mes prises de notes, et de manièr
 - Des débuts de réflexions sur certains sujets, particulièrement vis à vis du Valorium, et par extension sur MC. 
 
 
-### Différentes catégories des archives : 
+### Différentes catégories des archives
 
 - [Notes sur le php](./src/php/intro.md)
 - [Programmation système](./src/programmationSysteme/intro.md)
@@ -20,7 +20,8 @@ Ce dépôt me permet de stocker une partie de mes prises de notes, et de manièr
 - [Java](./src/java/sommaire.md)
 - [JavaScript](./src/javascript/sommaire.md)
 - [Kotlin](./src/kotlin/sommaire.md)
-- [docker](./src/docker/sommaire.md)
+- [Docker](./src/docker/sommaire.md)
+- [Services web](./src/servicesWeb/sommaire.md)
 
 Aquelas archius son sobretot personals e pretendon a res d'autre coma m'ajudar a gardar a drech dins ma man d'informacions que mi seran utilas a l'avenir, o ben mi guiarnar a metre sus papièr de reflexions, d'una mòda a structurar ma pensada. 
 Ieu ne pretendi ni explicar res a degun, que sigam plan clar. 
