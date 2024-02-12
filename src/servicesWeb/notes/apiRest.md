@@ -86,47 +86,77 @@ Content-Length: ...
 
 ## Micro-Services
 
-Les micro-services représentent une approche de développement logiciel où une application est construite comme une collection de petits services indépendants, chacun dédié à une fonctionnalité spécifique. Plusieurs frameworks légers facilitent la mise en œuvre de micro-services, parmi lesquels on retrouve :
+Les micro-services sont une approche de développement où une application est construite comme une collection de petits services indépendants, chacun dédié à une fonctionnalité spécifique. Certains frameworks légers tels que Dropwizard, Spring Boot, et Micronaut facilitent leur mise en œuvre.
 
-- Dropwizard
-- Spring Boot
-- Spotify Apollo
-- Spark (Java)
-- Kumuluzee (J2EE)
-- Flask (Python)
-- Sinatra (Ruby)
-- Vert.x (Polyglotte)
+### Composition de Services
 
-Deux frameworks spécifiques, **Micronaut** et **Quarkus**, sont également mentionnés.
+La composition de services implique l'interaction de plusieurs services web. On distingue deux types :
 
-### Micro-Services et Web Service Composition
+1. **Orchestration :** Coordination d'autres services dans un processus global avec des appels et gestion des erreurs.
 
-La composition de services web implique l'interaction de plusieurs services web entre eux, qu'ils soient déployés sur le même serveur ou sur différents serveurs/clouds. On distingue deux types de composition :
+2. **Chorégraphie :** Comportement global dérivé des interactions entre différents services, chacun connaissant le moment de ses opérations.
 
-1. **Orchestration**
-2. **Chorégraphie**
+### Gestion des Erreurs
 
-### Gestion des Erreurs dans la Composition
-
-La gestion des erreurs dans la composition de services web peut être complexe. En cas d'erreur remontée par un composant, elle doit être traitée par le service appelant pour un retour approprié vers le client.
+La gestion des erreurs peut être complexe. En cas d'erreur, le service appelant doit la traiter pour un retour approprié vers le client.
 
 ### Orchestration des Services
 
-L'orchestration des services web se produit lorsqu'un service web coordonne l'exécution d'autres services. Cela implique la création d'un processus global avec des appels vers d'autres services et la gestion des erreurs. Les compositions peuvent être simples en utilisant des langages tels que Java, mais dans des cas plus complexes, des méta-langages comme BPEL (Business Process Execution Language) sont nécessaires.
+Coordination d'autres services dans un processus global avec des appels et gestion des erreurs. Compositions simples en Java, méta-langages comme BPEL dans des cas complexes.
 
 ### Langages BPMN / BPEL
 
-BPEL est un langage basé sur XML qui décrit comment les services web interagissent en suivant des stimuli extérieurs. La gestion des erreurs est intégrée au processus, avec des mécanismes de repli et de re-exécution du processus.
+BPEL, basé sur XML, décrit comment les services interagissent. Gestion des erreurs intégrée avec mécanismes de repli et re-exécution du processus.
 
-### Caractéristiques du Langage BPEL
+#### Caractéristiques de BPEL
 
-- Définition des partenaires
-- Utilisation de variables, assignation de valeurs (assign)
-- Activités basiques (invoque, receive, reply, wait, throw)
-- Activités structurées (while, switch, sequence, pick (temporisation))
-- Corrélation = session
-- Scope : découpage d'un processus en plusieurs parties
-- Manipulation des gestionnaires (compensation, fault, event)
+- Définition des partenaires.
+- Utilisation de variables, assignation de valeurs.
+- Activités basiques (invoquer, recevoir, répondre, attendre, lever une exception).
+- Activités structurées (boucles, séquences, choix).
+- Corrélation = session.
+- Scope : découpage du processus.
+- Manipulation des gestionnaires (compensation, erreurs, événements).
+
+## Services en Orchestration et Chorégraphie
+
+### Service Minimal et Complet
+
+- **Service Minimal :** Fonctionnalité de base utilisable de manière autonome.
+
+- **Service Complet :** Offre une fonctionnalité étendue en orchestrant plusieurs services ou en participant à une chorégraphie.
+
+### Service Composable
+
+Conçu pour être flexible et réutilisable, peut être assemblé avec d'autres services pour des solutions complexes, offrant modularité.
+
+## REST et Niveaux
+
+REST (Representational State Transfer) est une architecture pour les systèmes distribués. Principes :
+
+1. **Identification des Ressources :** Chaque ressource a une URI.
+
+2. **Manipulation des Ressources :** Utilisation de représentations (XML, JSON) via HTTP.
+
+3. **Auto-Descriptive Messages :** Chaque message contient assez d'infos pour son traitement.
+
+4. **Stateless Communication :** Aucun état stocké au serveur entre les requêtes.
+
+### Richardson Maturity Model
+
+Classe les services REST en niveaux :
+
+- **Niveau 0 :** HTTP comme simple système de transport.
+  
+- **Niveau 1 :** Utilisation d'URI pour identifier les ressources.
+
+- **Niveau 2 :** Utilisation des méthodes HTTP pour manipuler les ressources et codes de statut.
+
+- **Niveau 3 :** Intégration du HATEOAS pour une interaction dynamique.
+
+### Stateless et REST
+
+REST repose sur la communication sans état pour simplicité, performance, et évolutivité.
 
 ---
 
