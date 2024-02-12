@@ -118,6 +118,8 @@ Les volumes Docker sont des conteneurs de stockage multiplateformes, gérés par
 
 - Si le volume n'existe pas, Docker le créera automatiquement. Les volumes ne font pas partie de l'image Docker et se comportent comme un support de stockage externe.
 
+[Infos supplémentaire sur les volumes.](./volumes.md)
+
 ### 3. **tmpfs :**
 
 Docker sur Linux offre une option supplémentaire appelée tmpfs. Elle permet au conteneur de créer des fichiers en dehors de ses couches, stockés temporairement dans la mémoire de l'hôte. Voici comment utiliser tmpfs :
