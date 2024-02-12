@@ -4,57 +4,74 @@
 
 ---
 
-## Docker hub
+## Docker Hub
 
-Docker hub est la registry officielle de docker. C'est un logitiel qui permet de partager des images à d'autres personnes.
+Docker Hub est la registry officielle de Docker, offrant une plateforme centralisée pour le partage d'images. Dans l'écosystème Docker, Docker Hub joue un rôle essentiel en permettant :
 
-Dans l'écosystème docker, il permet :
-
-* de distribuer aux devs des images prêtes à l'emploi et de les versionner
-
-* De jouer des suites de tests pendant l'intégration continue
-
-* des déployer des applications sur des environnements de dvlp et de production
+* La distribution d'images prêtes à l'emploi, avec une gestion de versions facilitée.
+* L'exécution de suites de tests pendant l'intégration continue.
+* Le déploiement d'applications sur des environnements de développement et de production.
 
 ## Démarrer un conteneur
 
-Pour démarrer un conteneur, il suffit de faire `docker run nomDeImage`. Docker va vérifier si l'image est déjà présente sur la machine, et si ce n'est pas le cas, il ira la télécharger depuis le docker hub automatiquement.
+Pour lancer un conteneur, la commande de base est `docker run nomDeImage`. Docker vérifie si l'image est déjà présente sur la machine, et si ce n'est pas le cas, il la télécharge automatiquement depuis Docker Hub.
 
 ### Démarrer un serveur avec un conteneur
 
-En utilisant la commande `docker run -d -p 8080:80 nginx`, on démarre un conteneur avec l'image nginx.
+Utilisez la commande `docker run -d -p 8080:80 nginx` pour démarrer un conteneur avec l'image Nginx. Les options utilisées sont :
 
-* `-d` permet d'indiquer que l'on détache le conteneur du processus de la console (pour pouvoir continuer à utiliser la console).
-
-`-p 8080:80` permet d'indiquer que l'on redirige le port 8080 de notre machine vers le port 80 du conteneur. Cela permet de se connecter à notre machine depuis le port 8080 et d'accéder au port 80 du conteneur (où se situe le serveur Nginx...).
+* `-d` : Détache le conteneur du processus de la console, permettant ainsi de continuer à utiliser la console.
+* `-p 8080:80` : Redirige le port 8080 de la machine vers le port 80 du conteneur, facilitant l'accès au serveur Nginx.
 
 ### Entrer dans le conteneur
 
-Si notre conteneur a un linux comme os, on peut rentrer dans le conteneur en faisant `docker exec -ti idDuConteneur bash`.
-
-Ensuite il est ainsi possible de faire des commandes comme `cd` ou autre, dans le conteneur.
+Si le conteneur utilise un système d'exploitation Linux, vous pouvez entrer dans le conteneur avec la commande `docker exec -ti idDuConteneur bash`. À l'intérieur, vous avez la possibilité d'exécuter des commandes comme `cd` et d'interagir avec le système.
 
 ### Arrêter un conteneur
 
-Il suffit d'utiliser la commande `docker stop idDuConteneur`.Ensuite, il est possible de supprimer le conteneur à l'arrêt avec `docker rm idConteneur`, ou bien de le relancer avec `docker start idConteneur`.
+Pour arrêter un conteneur, utilisez la commande `docker stop idDuConteneur`. Ensuite, vous pouvez le supprimer avec `docker rm idConteneur` ou le redémarrer avec `docker start idConteneur`.
 
-### Recupérer une image d'un conteneur
+### Récupérer une image d'un conteneur
 
-`docker pull nomImage` permet de récupérer l'image depuis le docker hub, sans pour autant la lancer.
+La commande `docker pull nomImage` permet de récupérer l'image depuis Docker Hub sans la lancer. Cela peut être utile lorsque vous souhaitez précharger une image sans démarrer un conteneur immédiatement.
 
-### Afficher ensemble des conteneurs existants
+### Afficher l'ensemble des conteneurs existants
 
-Pour afficher l'ensemble des conteneurs, il est possible de faire `docker ps`.
+La commande `docker ps` affiche tous les conteneurs en cours d'exécution. Si vous souhaitez voir tous les conteneurs, y compris ceux qui ne sont pas en cours d'exécution, utilisez `docker ps -a`.
 
 ### Afficher l'ensemble des images sur le système
 
-Pour afficher l'ensemble des images présentes sur le système, il suffit de faire `docker images -a`.
+Utilisez `docker images -a` pour afficher toutes les images présentes sur le système, y compris celles qui ne sont pas en cours d'utilisation.
 
 ### Nettoyer son système
 
 La commande `docker system prune` permet de :
 
-* Supprimer l'ensemble des **conteneurs qui ne tournent pas.**
-* Supprimer l'ensemble des **réseaux utilisés par aucun conteneur.**
-* Supprimer l'ensemble des **images non utilisées.**
-* Supprimer l'ensemble des **caches pour la création d'images.**
+* Supprimer tous les **conteneurs qui ne tournent pas.**
+* Supprimer tous les **réseaux non utilisés par les conteneurs.**
+* Supprimer toutes les **images non utilisées.**
+* Supprimer tous les **caches pour la création d'images.**
+
+### Copier des fichiers entre l'hôte et le conteneur
+
+Pour copier des fichiers entre l'hôte et le conteneur, utilisez la commande `docker cp`. Par exemple :
+
+```bash
+docker cp fichier.txt idDuConteneur:/chemin/dans/le/conteneur
+```
+
+### Voir les journaux d'un conteneur
+
+Pour afficher les journaux d'un conteneur, utilisez la commande `docker logs idDuConteneur`.
+
+### Exécuter une commande ponctuelle dans un conteneur
+
+Utilisez `docker exec` pour exécuter une commande ponctuelle dans un conteneur. Par exemple :
+
+```bash
+docker exec idDuConteneur echo "Hello World"
+```
+
+---
+
+[...retour au sommaire](../sommaire.md)

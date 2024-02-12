@@ -25,8 +25,6 @@ Selon la vision de Docker, un conteneur doit exécuter un seul processus. Ainsi,
 * **Stateless :** Cela signifie que l'application ne conserve pas d'état entre les requêtes. À chaque nouvelle requête, les mêmes actions sont réalisées, ce qui rend le comportement prévisible et cohérent.
 
 * **Stateful :** En revanche, dans un contexte stateful, le processus se souvient de l'état entre les requêtes. Par exemple, si une base de données est éteinte et rallumée, elle retrouvera son état antérieur. Elle n'est pas réinitialisée à chaque redémarrage.
-
-N'hésitez pas à me fournir plus de détails ou à spécifier si vous avez des éléments spécifiques que vous souhaitez ajouter ou clarifier dans le texte.
   
 ---
 
