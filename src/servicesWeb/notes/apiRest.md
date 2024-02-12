@@ -4,6 +4,8 @@
 
 ---
 
+[--> Diapos du cours](../diapos/cours-rest.pdf)
+
 ## Introduction
 
 Les services web sont des instances d'objets ou de ressources déployées sur Internet, facilitant l'accès à des fonctionnalités pour diverses applications. Cette technologie représente une évolution des systèmes distribués, adoptant une architecture orientée service (SOA) et normalisée par le W3C.
