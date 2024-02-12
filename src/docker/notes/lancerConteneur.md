@@ -23,6 +23,8 @@ Utilisez la commande `docker run -d -p 8080:80 nginx` pour démarrer un conteneu
 * `-d` : Détache le conteneur du processus de la console, permettant ainsi de continuer à utiliser la console.
 * `-p 8080:80` : Redirige le port 8080 de la machine vers le port 80 du conteneur, facilitant l'accès au serveur Nginx.
 
+* `--rm` : Permet la suppression automatique à l'arrêt du conteneur.
+
 ### Entrer dans le conteneur
 
 Si le conteneur utilise un système d'exploitation Linux, vous pouvez entrer dans le conteneur avec la commande `docker exec -ti idDuConteneur bash`. À l'intérieur, vous avez la possibilité d'exécuter des commandes comme `cd` et d'interagir avec le système.
