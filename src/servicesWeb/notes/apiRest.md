@@ -1,4 +1,4 @@
-# Services web Restful
+# Services Web RESTful
 
 [...retour au sommaire](../sommaire.md)
 
@@ -43,7 +43,6 @@ Les requêtes et réponses des services web doivent être sérialisées pour une
    - Utilisation directe des méthodes HTTP (PUT, GET, etc.).
    - Plus simple à mettre en œuvre, bien qu'initialement sans protocole de sécurité standard.
 
-
 ## RESTful Web Services
 
 ### Bonnes Pratiques HTTP
@@ -84,10 +83,6 @@ Content-Length: ...
   <link rel="close" href="/account/12345/close" />
 </account>
 ```
-
-
-
-
 
 ---
 
