@@ -1,32 +1,32 @@
-# Introduction
-
-[...retour au sommaire docker](../sommaire.md)
+Votre texte est une introduction bien formulée à la virtualisation légère avec Docker, mettant en avant les différences entre les machines virtuelles (VM) et les conteneurs. Voici quelques suggestions pour améliorer et clarifier certains points :
 
 ---
 
-Une machine virtuelle est une virtualisation lourde dans le sens où elle réserve des ressources de la machine réelle pour son fonctionnement et recréer un système complet, y compris avec un nouvel OS.
+# Introduction
 
-C'est intéressant si l'on souhaite :
+[...retour au sommaire Docker](../sommaire.md)
 
-* isoler totalement la vm de l'hôte
-* reserver totalement des ressources
-* installer différents OS que celui de l'hôte
+---
 
-Le conteneur lui ne fait qu'une isolation des processus. Il réutilise le même OS et ne virtualise pas de ressources.
+Une machine virtuelle représente une forme de virtualisation lourde, réservant des ressources substantielles de la machine physique pour recréer un environnement complet, y compris un nouveau système d'exploitation. Cette approche est pertinente lorsque l'on souhaite :
 
-Il est possible d'attribuer par exemple 16go de ram à un conteneur, mais s'il ne les utilise pas, il ne les réserve pas donc ils restent libres pour la machine hôte.
+* Isoler totalement la VM de l'hôte.
+* Résoudre des ressources dédiées exclusivement à la VM.
+* Installer différents systèmes d'exploitation que celui de l'hôte.
 
-## Les conteneurs docker
+En revanche, le conteneur adopte une approche légère, se contentant d'isoler des processus. Il réutilise le même système d'exploitation et évite la virtualisation des ressources. Il peut ainsi être configuré pour utiliser jusqu'à une certaine quantité de ressources (RAM, CPU), mais ne les réserve pas, laissant ainsi les ressources non utilisées disponibles pour la machine hôte.
 
-Dans la vision de docker, un conteneur ne doit faire tourner qu'un seul processus. Dans ce sens, si une application a par exemple besoin d'un serveur Apache, d'une bdd MySql et de PHP, il y aura un conteneur pour chacun des 3 processus.
+## Les conteneurs Docker
 
-Cela résoud ainsi les soucis de comptabilité entre les machines.
+Selon la vision de Docker, un conteneur doit exécuter un seul processus. Ainsi, si une application nécessite un serveur Apache, une base de données MySQL et PHP, il y aura un conteneur distinct pour chacun de ces trois processus. Cette approche résout les problèmes potentiels de compatibilité entre les environnements.
 
 ### Stateless & Stateful
 
-* **Stateless :** Cela signifie que l'application ne stocke pas d'état. COmme une requête http, à chaque nouvelle requête, les mêmes actions seront réalisées.
+* **Stateless :** Cela signifie que l'application ne conserve pas d'état entre les requêtes. À chaque nouvelle requête, les mêmes actions sont réalisées, ce qui rend le comportement prévisible et cohérent.
 
-* **Statefull :** A l'inverse dans une requête stateful, le processus se souvient de l'état. Si on éteint et rallume une bdd, elle se retrouvera dans le même état qu'avant d'être éteinte, elle n'est pas réinitialisée...
+* **Stateful :** En revanche, dans un contexte stateful, le processus se souvient de l'état entre les requêtes. Par exemple, si une base de données est éteinte et rallumée, elle retrouvera son état antérieur. Elle n'est pas réinitialisée à chaque redémarrage.
+
+N'hésitez pas à me fournir plus de détails ou à spécifier si vous avez des éléments spécifiques que vous souhaitez ajouter ou clarifier dans le texte.
   
 ---
 
