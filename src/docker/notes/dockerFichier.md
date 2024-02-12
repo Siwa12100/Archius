@@ -27,6 +27,10 @@ Pour partager des images Docker, on dispose de plusieurs options.
   docker push localhost:5000/alpine:3.15
   ```
 
+**Explications :**
+
+Ces deux commandes Docker sont utilisées pour taguer une image locale (dans cet exemple, Alpine 3.15) avec un nouveau nom et pousser cette image taguée vers un registre Docker local hébergé sur localhost:5000.
+
 - Les autres machines sur le même réseau peuvent tirer cette image depuis le registre. Assurez-vous que Docker autorise les registres non sécurisés dans la configuration du démon Docker.
 
 - Pour autoriser les registres non sécurisés, modifiez `/etc/docker/daemon.json` avec la configuration suivante :
