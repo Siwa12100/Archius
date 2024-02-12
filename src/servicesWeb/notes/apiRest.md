@@ -84,6 +84,50 @@ Content-Length: ...
 </account>
 ```
 
+## Micro-Services
+
+Les micro-services représentent une approche de développement logiciel où une application est construite comme une collection de petits services indépendants, chacun dédié à une fonctionnalité spécifique. Plusieurs frameworks légers facilitent la mise en œuvre de micro-services, parmi lesquels on retrouve :
+
+- Dropwizard
+- Spring Boot
+- Spotify Apollo
+- Spark (Java)
+- Kumuluzee (J2EE)
+- Flask (Python)
+- Sinatra (Ruby)
+- Vert.x (Polyglotte)
+
+Deux frameworks spécifiques, **Micronaut** et **Quarkus**, sont également mentionnés.
+
+### Micro-Services et Web Service Composition
+
+La composition de services web implique l'interaction de plusieurs services web entre eux, qu'ils soient déployés sur le même serveur ou sur différents serveurs/clouds. On distingue deux types de composition :
+
+1. **Orchestration**
+2. **Chorégraphie**
+
+### Gestion des Erreurs dans la Composition
+
+La gestion des erreurs dans la composition de services web peut être complexe. En cas d'erreur remontée par un composant, elle doit être traitée par le service appelant pour un retour approprié vers le client.
+
+### Orchestration des Services
+
+L'orchestration des services web se produit lorsqu'un service web coordonne l'exécution d'autres services. Cela implique la création d'un processus global avec des appels vers d'autres services et la gestion des erreurs. Les compositions peuvent être simples en utilisant des langages tels que Java, mais dans des cas plus complexes, des méta-langages comme BPEL (Business Process Execution Language) sont nécessaires.
+
+### Langages BPMN / BPEL
+
+BPEL est un langage basé sur XML qui décrit comment les services web interagissent en suivant des stimuli extérieurs. La gestion des erreurs est intégrée au processus, avec des mécanismes de repli et de re-exécution du processus.
+
+### Caractéristiques du Langage BPEL
+
+- Définition des partenaires
+- Utilisation de variables, assignation de valeurs (assign)
+- Activités basiques (invoque, receive, reply, wait, throw)
+- Activités structurées (while, switch, sequence, pick (temporisation))
+- Corrélation = session
+- Scope : découpage d'un processus en plusieurs parties
+- Manipulation des gestionnaires (compensation, fault, event)
+
 ---
 
 [...retour au sommaire](../sommaire.md)
