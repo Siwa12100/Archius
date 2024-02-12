@@ -6,7 +6,7 @@
 
 * [Intro](./notes/intro.md)
 * [Lancer un conteneur & commandes de base](./notes/lancerConteneur.md)
-* [Images & volumes](./notes/dockerFichier.md)
+* [Images & partage de fichiers](./notes/dockerFichier.md)
 
 ## Autres notes
 
