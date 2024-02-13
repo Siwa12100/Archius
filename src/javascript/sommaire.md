@@ -7,6 +7,7 @@
 * [Fonctions](./notes/fonctions.md)
 * [Interagir avec page web](./notes/elementWeb.md)
 * [Les formulaires](./notes/formulaires.md)
+* [Les classes](./notes/classes.md)
 
 ---
 [retour à l'accueil](../../README.md)
