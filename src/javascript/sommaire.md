@@ -10,6 +10,8 @@
 * [Les formulaires](./notes/formulaires.md)
 * [Les classes](./notes/classes.md)
 * [Les erreurs](./notes/erreurs.md)
+* [json parse()](./notes/jsonParse.md)
+* [json stringify()](./notes/jsonStringify.md)
 
 ---
 [retour à l'accueil](../../README.md)
