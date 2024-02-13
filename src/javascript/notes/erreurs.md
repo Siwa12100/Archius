@@ -30,6 +30,34 @@ Le constructeur **Error()** crée un nouvel objet Error.
 
 - **`Error.captureStackTrace()`:** Fonction non-standard qui crée la propriété `stack` d'une instance de Error.
 
+La propriété `stack` d'une instance de l'objet `Error` en JavaScript contient une trace de la pile d'appels (stack trace) au moment où l'erreur a été créée. La trace de la pile d'appels est une liste des appels de fonctions qui ont été effectués jusqu'au point où l'erreur a été lancée.
+
+La propriété `stack` est très utile pour le débogage, car elle fournit des informations sur la séquence d'appels de fonctions qui ont conduit à l'erreur. Cela aide les développeurs à identifier l'endroit précis dans le code où l'erreur s'est produite.
+
+Voici un exemple d'utilisation de la propriété `stack` :
+
+```javascript
+try {
+  // Simuler une erreur
+  throw new Error("Une erreur s'est produite !");
+} catch (e) {
+  // Afficher la trace de la pile d'appels
+  console.log(e.stack);
+}
+```
+
+Le résultat pourrait ressembler à ceci (le format peut varier selon le moteur JavaScript) :
+
+```
+Error: Une erreur s'est produite !
+    at <nom de la fonction ou du script> (<emplacement dans le code>)
+    at <nom de la fonction ou du script> (<emplacement dans le code>)
+    at <nom de la fonction ou du script> (<emplacement dans le code>)
+    // ... autres appels de fonctions dans la trace de la pile d'appels
+```
+
+Chaque ligne de la trace de la pile d'appels indique où la fonction a été appelée et à quelle position dans le code source. Cela aide les développeurs à comprendre le contexte entourant l'erreur.
+
 ## Exemples d'utilisation
 
 ### Déclenchement d'une erreur générique
