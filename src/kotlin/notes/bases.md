@@ -259,6 +259,88 @@ Oui, j'ai abordé les concepts de smart cast et du contrôle du flot d'exécutio
 
 - Les cas de `when` doivent couvrir le domaine de la variable.
 
+## Boucles
+
+### `while`, `continue`, `break`
+
+Les boucles `while`, `continue`, et `break` fonctionnent de manière similaire à Java.
+
+```kotlin
+var i = 0
+while (i < 5) {
+    println(i)
+    i++
+}
+```
+
+### `for` - Itération sur des itérables
+
+La boucle `for` permet de parcourir tout objet qui fournit un itérateur. L'itérateur doit avoir une méthode `iterator()`, `next()`, et `hasNext()` (marquées comme `operator`).
+
+```kotlin
+// Itération classique (intervalle, String, Array, ...)
+for (i in 0..9) {
+    println(i)
+}
+
+for (c in "Hello") {
+    println(c)
+}
+```
+
+### Itération avec Indices
+
+Il est possible d'itérer sur les indices d'un tableau ou d'une collection.
+
+```kotlin
+val array = arrayOf(1, 2, 3)
+for (i in array.indices) {
+    println(array[i])
+}
+
+for ((index, value) in array.withIndex()) {
+    println("L'élément à la position $index est $value")
+}
+```
+
+## Labels dans les Boucles
+
+Les labels dans les boucles en Kotlin fournissent un moyen de sortir d'une boucle imbriquée spécifique lorsqu'on utilise l'instruction `break`. L'exemple suivant illustre cette fonctionnalité :
+
+```kotlin
+loop@ for (i in 1..100) {
+    for (j in 1..100) {
+        if (...) break@loop
+    }
+}
+```
+
+Dans cet exemple, la boucle extérieure est étiquetée avec `loop@`, et l'instruction `break@loop` est utilisée pour sortir de cette boucle spécifique lorsque la condition (représentée par `...`) est satisfaite dans la boucle intérieure. Cela permet de contrôler précisément la sortie de la boucle selon les besoins du programme.
+
+## Gestion des Exceptions
+
+La gestion des exceptions en Kotlin est similaire à celle de Java, mais avec quelques nuances.
+
+### Expression `try/catch/finally`
+
+La structure `try/catch/finally` est une expression en Kotlin, ce qui signifie qu'elle peut renvoyer une valeur. Dans l'exemple suivant :
+
+```kotlin
+val line: String? = try {
+    input.readLine()
+} catch (e: NumberFormatException) {
+    null
+}
+```
+
+- Le bloc `try` contient le code qui pourrait générer une exception.
+- Le bloc `catch` permet de gérer les exceptions spécifiques, ici, une `NumberFormatException`.
+- La valeur de `line` sera soit le résultat de `input.readLine()` si aucune exception n'est levée, soit `null` si une `NumberFormatException` est attrapée.
+
+### Absence de Checked Exceptions
+
+Contrairement à Java, Kotlin n'a pas de notion de checked exceptions. Cela signifie que vous n'êtes pas obligé de déclarer les exceptions potentielles qu'une fonction peut générer. Cependant, vous pouvez toujours choisir de capturer et de traiter les exceptions selon vos besoins, comme illustré dans l'exemple ci-dessus.
+
 ---
 
 [...retour au sommaire](../sommaire.md)
