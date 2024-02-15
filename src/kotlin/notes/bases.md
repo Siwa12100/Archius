@@ -341,6 +341,198 @@ val line: String? = try {
 
 Contrairement à Java, Kotlin n'a pas de notion de checked exceptions. Cela signifie que vous n'êtes pas obligé de déclarer les exceptions potentielles qu'une fonction peut générer. Cependant, vous pouvez toujours choisir de capturer et de traiter les exceptions selon vos besoins, comme illustré dans l'exemple ci-dessus.
 
+## Fonctions
+
+### Fonctions Top Level
+
+En Kotlin, les fonctions peuvent être définies en dehors de toute classe ou objet, ce qui les rend top level. Voici un exemple :
+
+```kotlin
+fun sum(a: Int, b: Int): Int {
+    return a + b
+}
+```
+
+Si la fonction a une seule instruction, elle peut être écrite sous forme d'expression body :
+
+```kotlin
+fun sum(a: Int, b: Int): Int = a + b
+```
+
+L'inférence de type permet même de simplifier davantage :
+
+```kotlin
+fun sum(a: Int, b: Int) = a + b
+```
+
+### Paramètres
+
+#### Valeurs par Défaut
+
+Les paramètres peuvent avoir des valeurs par défaut, ce qui rend les fonctions plus flexibles.
+
+```kotlin
+fun say(text: String = "Something") = println(text)
+
+say()           // Affiche Something
+say("Hi guys")  // Affiche Hi guys
+```
+
+#### Paramètres Nommés
+
+Les paramètres peuvent être nommés pour une meilleure compréhension et flexibilité.
+
+```kotlin
+fun Box.setMargins(left: Int, top: Int, right: Int, bottom: Int) { … }
+
+myBox.setMargins(10, 10, 20, 20) // Ordre conventionnel
+myBox.setMargins(left = 10, right = 10, top = 20, bottom = 20) // Ordre spécifié
+```
+
+### Arguments Variables
+
+L'utilisation de `vararg` permet de définir un nombre variable de paramètres.
+
+```kotlin
+fun foo(vararg strings: String) { … }
+
+foo("bar")
+foo("bar", "baz", "foobar", "barbaz")
+```
+
+Utilisation du spread operator (`*`) si les arguments sont dans un tableau.
+
+```kotlin
+val strings = arrayOf("abc", "defg", "hijk")
+foo(*strings)
+```
+
+### Fonctions Imbriquées
+
+Les fonctions peuvent être déclarées à l'intérieur d'autres fonctions pour une encapsulation maximale.
+
+```kotlin
+fun dfs(graph: Graph) {
+    val visited = HashSet<Vertex>()
+    
+    fun dfs(current: Vertex) {
+        if (!visited.add(current)) return
+        for (v in current.neighbors)
+            dfs(v)
+    }
+
+    dfs(graph.vertices[0])
+}
+```
+
+### Typage des Fonctions
+
+Les fonctions en Kotlin ont un type associé, défini par la signature de la fonction.
+
+- `(A, B) -> C` : une fonction qui prend deux paramètres de types A et B, et retourne un C.
+- `() -> A` : pas de paramètre en entrée, retourne un A.
+- `(A) -> Unit` : pas de valeur de retour, mais prend un paramètre de type A.
+- `A.(B) -> C` : fonction qui peut être appelée sur un objet de type A, prend un paramètre de type B et retourne une valeur de type C.
+
+## Lambdas
+
+En Kotlin, les lambdas sont des expressions anonymes permettant de créer des fonctions de manière concise. Elles sont souvent utilisées pour passer des fonctions en tant que paramètres à d'autres fonctions, comme dans le cas de la fonction `forEach` sur les collections.
+
+### Syntaxe de base
+
+La syntaxe d'une lambda est la suivante :
+
+```kotlin
+val square = { num: Int -> num * num } // (Int) -> Int
+val more: (String, Int) -> String = { str, num -> str + num }
+val printVal: (Int) -> Unit = { num -> println(num) }
+```
+
+- La première lambda `square` prend un entier et renvoie le carré de cet entier.
+- La deuxième `more` prend une chaîne de caractères et un entier, renvoyant une nouvelle chaîne résultant de la concaténation.
+- La troisième `printVal` prend un entier et l'imprime.
+
+### Utilisation
+
+Une lambda peut être utilisée comme argument pour une fonction, par exemple avec la fonction `forEach` :
+
+```kotlin
+val a = arrayOf(1, 2, 3, 4, 5)
+a.forEach(printVal)
+// Équivalent à
+a.forEach({ num -> println(num) })
+```
+
+### Lambda avec `it`
+
+Pour les lambdas qui ne prennent qu'un paramètre, on peut utiliser le mot-clé `it` :
+
+```kotlin
+val printVal: (Int) -> Unit = { println(it) }
+val concatInt: String.(Int) -> String = { this + it }
+```
+
+- `printVal` imprime simplement la valeur reçue.
+- `concatInt` est une fonction d'extension sur les chaînes, concaténant la chaîne avec un entier.
+
+### Conversion entre `(A, B) -> C` et `A.(B) -> C`
+
+Une fonction de type `A.(B) -> C` peut être utilisée en lieu et place de `(A, B) -> C` et vice versa. Cela permet une certaine flexibilité dans le passage de fonctions.
+
+### Référence à une fonction existante
+
+Il est possible de passer une référence à une fonction ou une méthode existante à l'aide de l'opérateur `::` :
+
+```kotlin
+val a = arrayOf(1, 2, 3, 4, 5)
+a.forEach(::println)
+```
+
+### Fonctions d'Extension
+
+Il est possible d'ajouter des fonctions à une classe après coup grâce aux fonctions d'extension. Toutes les instances de la classe peuvent ensuite en profiter.
+
+```kotlin
+fun String.reverse() = StringBuilder(this).reverse().toString()
+"That's cool !".reverse() // "! looc s'tahT"
+```
+
+### Fonctions Infixes
+
+Les fonctions infixes sont déclarées avec le mot-clé `infix`. Elles doivent avoir un seul paramètre et ne peuvent pas avoir de vararg ou de paramètre par défaut.
+
+```kotlin
+infix fun String.open(rights: Access): File { … }
+"/home/provot/lecture" open Access.WRITE
+// Équivalent à
+"/home/provot/lecture".open(Access.WRITE)
+```
+
+### Documentation avec KDoc
+
+La documentation en Kotlin est réalisée avec KDoc, similaire à Javadoc. Elle inclut des tags tels que `@param`, `@return`, `@constructor`, `@receiver`, `@property`, `@throws`, `@exception`, `@sample`, `@see`, `@author`, `@since`, et `@suppress`.
+
+```kotlin
+/**
+ * A group of *members*.
+ *
+ * This class has no useful logic; it's just a documentation example.
+ *
+ * @param T the type of a member in this group.
+ * @property name the name of this group.
+ * @constructor Creates an empty group.
+ */
+class Group<T>(val name: String) {
+    /**
+     * Adds a [member] to this group.
+     * @return the new size of the group.
+     */
+    fun add(member: T): Int { ... }
+}
+```
+
+Les KDocs permettent de documenter le code de manière claire et de générer une documentation structurée avec des outils comme Dokka.
+
 ---
 
 [...retour au sommaire](../sommaire.md)
