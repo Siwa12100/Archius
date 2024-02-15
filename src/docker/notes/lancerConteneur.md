@@ -35,7 +35,10 @@ Pour arrêter un conteneur, utilisez la commande `docker stop idDuConteneur`. En
 
 ### Récupérer une image d'un conteneur
 
-La commande `docker pull nomImage` permet de récupérer l'image depuis Docker Hub sans la lancer. Cela peut être utile lorsque vous souhaitez précharger une image sans démarrer un conteneur immédiatement.
+La commande `docker pull nomRegistry/nomImage:tag` permet de récupérer l'image depuis Docker Hub sans la lancer. Cela peut être utile lorsque vous souhaitez précharger une image sans démarrer un conteneur immédiatement.
+
+* Si le registry n'est pas précisé, docker ira par défaut chercher dans le docker hub.
+* Si le tag n'est pas précis, docker prendra par défaut l'image avec le tag latest.
 
 ### Afficher l'ensemble des conteneurs existants
 
