@@ -4,42 +4,29 @@
 
 ---
 
-## Classes et Objets en Kotlin
+## Déclaration de Classe en Kotlin
 
-### Squelette de classe standard en Java (POJO)
-En Java, la création d'une classe standard implique la définition de getters, setters, hashCode, equals, et toString. Voici un exemple :
-
-```java
-class Person {
-    private String name;
-    private int age;
-
-    public Person(String name, int age) {
-        this.name = name;
-        this.age = age;
-    }
-
-    public String getName() { return name; }
-    public void setName(String name) { this.name = name; }
-    public String getAge() { return age; }
-    public void setAge(int age) { this.age = age; }
-
-    // hashCode, equals, toString overrides
-}
-```
-
-### Équivalent en Kotlin
-En Kotlin, la syntaxe est plus concise. Voici le même exemple en Kotlin :
+En Kotlin, la déclaration d'une classe est simplifiée par rapport à Java. Prenons l'exemple d'une classe `Person` avec des propriétés, un hashCode, une fonction equals, et une représentation en chaîne.
 
 ```kotlin
 class Person(var name: String, var age: Int) {
-    override fun hashCode(): Int { ... }
-    override fun equals(): Boolean { ... }
-    override fun toString() = "Person(name=$name, age=$age)"
+    override fun hashCode(): Int { 
+        // Logique de génération de hashCode
+    }
+    
+    override fun equals(other: Any?): Boolean {
+        // Logique de comparaison avec un autre objet
+    }
+    
+    override fun toString(): String {
+        return "Person(name=$name, age=$age)"
+    }
 }
 ```
 
-L'instanciation est également simplifiée, pas besoin de `new` :
+### Instanciation Facilitée
+
+L'instanciation d'objets en Kotlin est simplifiée, éliminant le besoin du mot-clé `new`.
 
 ```kotlin
 val moi = Person("Laurent Provot", 27)
@@ -47,38 +34,35 @@ val moi = Person("Laurent Provot", 27)
 
 ## Visibilités en Kotlin
 
-Les modificateurs de visibilité déterminent la portée d'une classe.
+Les modificateurs de visibilité déterminent la portée d'une classe en Kotlin.
 
-- **Public**: accessible partout.
-- **Private**: limité au fichier de déclaration.
-- **Internal**: accessible dans le même module.
-- **Protected**: comme private, mais accessible dans les classes dérivées.
+- **Public**: Accessible partout.
+- **Private**: Limité au fichier de déclaration.
+- **Internal**: Accessible dans le même module.
+- **Protected**: Comme private, mais accessible dans les classes dérivées.
 
-Un module est un ensemble de fichiers Kotlin compilés ensemble.
+Un module regroupe des fichiers Kotlin compilés ensemble, avec des implications différentes selon la plateforme (par exemple, module pour IntelliJ IDEA ou source set pour Android via Gradle).
 
 ## Constructeurs (Ctor) en Kotlin
 
-### Constructeur principal
-Le constructeur principal ne permet pas de spécifier du code immédiatement.
+### Constructeur Principal
 
-```kotlin
-class Person constructor(name: String) { ... }
-```
-
-Bloc d'initialisation : utilisation des paramètres du constructeur principal.
+Le constructeur principal permet la déclaration initiale sans spécifier de code immédiat. Cependant, on peut utiliser un bloc d'initialisation pour exécuter du code au moment de la création de l'objet.
 
 ```kotlin
 class Person(name: String) {
-    private val nameUpper = name.uppercase()
+    private val nameUpper: String
     
     init {
+        nameUpper = name.uppercase()
         println("My name is: $name. What? I said $nameUpper")
     }
 }
 ```
 
-### Constructeurs secondaires
-Kotlin prend en charge les constructeurs secondaires.
+### Constructeurs Secondaires
+
+Kotlin offre une flexibilité accrue avec les constructeurs secondaires. Reprenons l'exemple de la classe `Person` en montrant comment créer des instances avec différents constructeurs.
 
 ```kotlin
 class Person(name: String) {
@@ -93,7 +77,20 @@ class Person(name: String) {
 }
 ```
 
-La délégation au constructeur principal est obligatoire, et tous les blocs d'initialisation sont appelés en premier.
+Délégation au constructeur principal : Obligatoire, et tous les blocs d'initialisation sont appelés en premier.
+
+### Annotations et Modificateurs
+
+Les annotations et les modificateurs peuvent être ajoutés dans la déclaration du constructeur.
+
+```kotlin
+class Person private constructor(name: String) {
+    // Logique de la classe
+}
+class Person @Inject constructor(name: String) {
+    // Logique de la classe avec annotation Inject
+}
+```
 
 ### Annotations et modificateurs
 On peut spécifier des annotations ou des modificateurs dans la déclaration du constructeur.
@@ -102,6 +99,16 @@ On peut spécifier des annotations ou des modificateurs dans la déclaration du 
 class Person private constructor(name: String) { ... }
 class Person @Inject constructor(name: String) { ... }
 ```
+
+
+
+
+
+
+
+
+
+
 
 ## Propriétés en Kotlin
 
