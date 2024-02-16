@@ -49,6 +49,7 @@ Kotlin a été présenté comme un langage de premier ordre pour Android lors de
 ## Notes Personnelles - Les bases
 
 * [Bases](./notes/bases.md)
+* [Poo](./notes/poo.md)
 
 ## Diapos du cours
 
