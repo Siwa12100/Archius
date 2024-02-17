@@ -60,4 +60,6 @@ Kotlin a été présenté comme un langage de premier ordre pour Android lors de
 
 ---
 
+Ok donc là je peux absolument écrire comme si c'était mon propre ordinateur et ça marche absolument trop bien c'est un truc de fou ! 
+
 [...retour au sommaire](../../README.md)
