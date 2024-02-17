@@ -501,6 +501,9 @@ fun String.reverse() = StringBuilder(this).reverse().toString()
 
 Les fonctions infixes sont déclarées avec le mot-clé `infix`. Elles doivent avoir un seul paramètre et ne peuvent pas avoir de vararg ou de paramètre par défaut.
 
+
+Bon ceci est le second test du coup...
+
 ```kotlin
 infix fun String.open(rights: Access): File { … }
 "/home/provot/lecture" open Access.WRITE
