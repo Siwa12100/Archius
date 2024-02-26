@@ -68,6 +68,12 @@ Il existe 3 types de scopes :
 * `console.warn("Ceci est un avertissement");`
 * `console.error("Ceci est une erreur");`
 
+On peut aussi utiliser `prompt` pour demander de saisir une valeur :
+
+```js
+let maValeur = prompt("message a envoyer a l'utilisateur", "valeur par defaut");
+```
+
 ## Types de données
 
 ### Les types primitifs
@@ -99,6 +105,14 @@ const test = Number(monChiffre);
 // Conversion en string
 const test2 = String(monString);
 ```
+
+**L'interpolation :**
+
+Il est possible d'interpréter le contenu d'une chaine de caratère dynamiquement en utilisant \` et `${}` :
+
+```js
+const monNom = "Siwa";
+console.log(`Bonjour, je suis ${monNom}`);
 
 ### Les objets
 
@@ -135,6 +149,29 @@ Il est possible de créer des objets vide en faisant :
 let monObjet = {}
 // Ou bien
 let monAutreObjet = new Object();
+```
+
+**Propriétés calculées**
+
+Il est possible de définir une propriété d'un objet à partir d'une valeur variable. Par exemple :
+
+```js
+// On récupère la valeur de la clé 
+let maFutureCle = prompt("Entrez une clé", "maCle");
+
+let monObjet = {
+
+  nom : "Nom de l'objet",
+  [maFutureCle] : 56, 
+  ["voici_" + maFutureCle] : 67
+};
+
+// On imagine que l'utilisateur a entré la valeur "voiture" dans le prompt...
+console.log(monObjet.voiture); // -> 56
+console.log(monObjet.voici_voiture); // -> 67
+```
+
+Cela permet de définir de manière dynamique la clé. On voit qu'il est aussi possible de compléter le nom de la clé en ajoutant du contenu à l'intérieur des `[]`.
 
 ## Les tableaux
 
