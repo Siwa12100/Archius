@@ -17,11 +17,17 @@ let maPersonne = {
   prenom: "Dupont",
   age: 34,
   enVie: true
+
+  direBonjour : function() {
+    console.log("Bonjour je m'appelle" + this.nom + " !");
+  }
 };
 ```
 
 Il est ensuite possible d'appeler les différentes propriétés de manière assez classique : `maPersonne.age = 56;`.
 Si la propriété n'existe pas, elle est créée `maPersonne.surnom = "Loulou";`.
+
+On remarque l'utilisation de `this` pour faire référence à l'objet en lui même.
 
 Il est possible de supprimer une propriété en utilisant `delete` :
 
