@@ -113,6 +113,7 @@ Il est possible d'interpréter le contenu d'une chaine de caratère dynamiquemen
 ```js
 const monNom = "Siwa";
 console.log(`Bonjour, je suis ${monNom}`);
+```
 
 ### Les objets
 
