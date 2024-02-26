@@ -21,11 +21,41 @@ let maVariable = 6;
 const maConstante = "coucou"
 ```
 
-On utilise la convention de nommage **camelCase** et les noms de variables doivent toujours commencer par une lettre. La case compte donc `pomme` et `Pomme` sont des variables différentes.
+On utilise la convention de nommage **camelCase** et les noms de variables doivent toujours commencer par une lettre. La casse compte donc `pomme` et `Pomme` sont des variables différentes.
 
 Une bonne pratique est de nommer les constantes définies dès le chargement de la page (comme des couleurs, des noms, ...) en majuscule, en séparant les mots par des `_` : `MA_CONSTANTE`.
 Mais si une constante est calculée pendant l'exécution du script, elle peut être nommée comme une variable `let` en utilisant le **camelCase**.
 
+### Hoisting (remontée)
+
+Il s'agit du fait d'utiliser des fonctions ou des variables avant même leur déclaration. cela correspond par exemple à faire cela :
+
+```js
+console.log(val);
+var val = 8;
+// ça marche, mais de toute manière il ne faut pas utiliser var..
+
+maFonction()
+...
+...
+function maFonction() {
+  ...
+  ...
+}
+// C'est une manière d'appeler la fonction avec la déclaration. Cela ressemble à ce que l'on peut 
+// faire avec les prototypes en C par exemple...
+```
+
+### Scopes
+
+Les scopes en js font référence à la visibilitéd'une variable et comment elle peut être utilisée après sa déclaration.
+Il existe 3 types de scopes :
+
+* **Global scope :** Il s'agit des variables déclarées en dehors de fonctions ou même de `{}`. Elles sont ainsi accessible dans l'ensemble du code.
+
+* **Function scope :** Les variables déclarées dans le corps d'une fonction ne peuvent être utilisées qu'en son sein.
+
+* **Block scope :** Il s'agit des variables définies dans un bloc délimité par des `{}`. Le fonctionnement est le même que le function scope.
 
 
 ## Afficher infos en console
@@ -38,13 +68,17 @@ Mais si une constante est calculée pendant l'exécution du script, elle peut ê
 * `console.warn("Ceci est un avertissement");`
 * `console.error("Ceci est une erreur");`
 
-**Les types :**
+## Types de données
 
-Il existe 3 types principaux :
+### Les types primitifs
+
+Les 3 types primitifs principaux sont :
 
 * **Number** qui correspond aux nombres entiers et à virgule.
 * **Boolean** les booléens.
 * **String** les chaînes de caractère.
+  
+-> Les autres sont à retrouver [ici](https://developer.mozilla.org/en-US/docs/Glossary/Primitive).
 
 On peut concaténer des strings avec le `+` :
 
@@ -66,11 +100,12 @@ const test = Number(monChiffre);
 const test2 = String(monString);
 ```
 
-## Les objets
+### Les objets
 
-A ce qu'il semblerait, les notions d'objets et de classes sont distinctes en js. Il est ainsi possible d'avoir des objets qui ne sont pas forcément associés à une classe.
+Attention, en js, les notions d'objets et classes sont bien distinctes, dans le sens où l'on peut avoir des objets sans pour autant avoir de classes associées.
+Ils fonctionnent avec un système de clé/valeur et sont créés à l'aide de `{}`.
 
-Les objets sont ainsi simplement des conteneurs qui possèdent plusieurs propriétés.
+Les objets sont ainsi simplement des conteneurs qui possèdent des couples clé/valeur appelés propriétés.
 
 **Déclaration :**
 
@@ -85,6 +120,21 @@ let maPersonne = {
 
 Il est ensuite possible d'appeler les différentes propriétés de manière assez classique : `maPersonne.age = 56;`.
 Si la propriété n'existe pas, elle est créée `maPersonne.surnom = "Loulou";`.
+
+Il est possible de supprimer une propriété en utilisant `delete` :
+
+```js
+delete maPersonne.enVie;
+```
+
+**Créer un objet vide**
+
+Il est possible de créer des objets vide en faisant :
+
+```js
+let monObjet = {}
+// Ou bien
+let monAutreObjet = new Object();
 
 ## Les tableaux
 
