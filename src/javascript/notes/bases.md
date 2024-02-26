@@ -225,35 +225,6 @@ const monObjet {
 for (let p in monObjet) {
   console.log(p);
 }
-
-## Les tableaux
-
-**Declaration :**
-
-```js
-let mesFruits= ["pomme", "poire", "figue"];
-```
-
-**Accès :**
-
-```js
-const monFruit = mesFruits[2];
-```
-
-**Nombre d'éléments :**
-
-```js
-const maTaille = mesFruits.length;
-```
-
-**Ajouter & supprimer :**
-
-```js
-// Rajouter en fin de tableau :
-mesFruits.push("framboise");
-// Supprimer en fin de tableau :
-mesFruits.pop();
-// A supprimé framboise...
 ```
 
 ## Copie et référence
