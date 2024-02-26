@@ -13,7 +13,7 @@ En plus de son utilisation dans le cadre des navigateurs web, il est aussi utili
 
 **les bases :**
 
-* [Bases](./notes/bases.md)
+* [Variables & objets](./notes/bases.md)
 * [Fonctions](./notes/fonctions.md)
 * [Interagir avec page web](./notes/elementWeb.md)
 * [Les formulaires](./notes/formulaires.md)

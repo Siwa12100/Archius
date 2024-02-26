@@ -1,16 +1,10 @@
-# JavaScript - Les bases
+# JavaScript - Variables & Objets
 
-## Conventions de nommage
+[...retour au sommaire](../sommaire.md)
 
-* camelCase `maVariable` pour variables et fonctions.
-  
-* PascalCase pour les classes `MaClasse`.
-  
-* Snake_case pour les constantes `MA_CONSTANTE`.
+---
 
-## Les variables
-
-### Déclaration
+## Déclaration
 
 On déclare des variables avec `let` et des constantes avec `const`. Elles ont une portée de blocs `{}.`
 
@@ -58,7 +52,7 @@ Il existe 3 types de scopes :
 * **Block scope :** Il s'agit des variables définies dans un bloc délimité par des `{}`. Le fonctionnement est le même que le function scope.
 
 
-## Afficher infos en console
+### Afficher infos en console
 
 * `console.log("coucou : ", maVariable);` pour afficher des infos en console.
 
@@ -74,9 +68,7 @@ On peut aussi utiliser `prompt` pour demander de saisir une valeur :
 let maValeur = prompt("message a envoyer a l'utilisateur", "valeur par defaut");
 ```
 
-## Types de données
-
-### Les types primitifs
+## Les types primitifs
 
 Les 3 types primitifs principaux sont :
 
@@ -106,7 +98,7 @@ const test = Number(monChiffre);
 const test2 = String(monString);
 ```
 
-**L'interpolation :**
+### L'interpolation
 
 Il est possible d'interpréter le contenu d'une chaine de caratère dynamiquement en utilisant \` et `${}` :
 
@@ -115,14 +107,14 @@ const monNom = "Siwa";
 console.log(`Bonjour, je suis ${monNom}`);
 ```
 
-### Les objets
+## Les objets
 
 Attention, en js, les notions d'objets et classes sont bien distinctes, dans le sens où l'on peut avoir des objets sans pour autant avoir de classes associées.
 Ils fonctionnent avec un système de clé/valeur et sont créés à l'aide de `{}`.
 
 Les objets sont ainsi simplement des conteneurs qui possèdent des couples clé/valeur appelés propriétés.
 
-**Déclaration :**
+### Déclaration
 
 ```js
 let maPersonne = {
@@ -142,7 +134,7 @@ Il est possible de supprimer une propriété en utilisant `delete` :
 delete maPersonne.enVie;
 ```
 
-**Créer un objet vide**
+### Créer un objet vide
 
 Il est possible de créer des objets vide en faisant :
 
@@ -152,7 +144,7 @@ let monObjet = {}
 let monAutreObjet = new Object();
 ```
 
-**Propriétés calculées**
+### Propriétés calculées
 
 Il est possible de définir une propriété d'un objet à partir d'une valeur variable. Par exemple :
 
@@ -174,7 +166,7 @@ console.log(monObjet.voici_voiture); // -> 67
 
 Cela permet de définir de manière dynamique la clé. On voit qu'il est aussi possible de compléter le nom de la clé en ajoutant du contenu à l'intérieur des `[]`.
 
-**Fonctions renvoyant un objet**
+### Fonctions renvoyant un objet
 
 Une fonction peut renvoyer un objet. On peut transformer très simplement un paramètre de la fonction en propriété, où le nom du paramètre sera la clé de la propriété, et sa valeur la valeur de la propriété.
 
@@ -192,7 +184,7 @@ console.log(monLivre.nom); // -> Titre du livre
 console.log(monLivre.description); // description du livre
 ```
 
-**Voir si une propriété existante : In**
+### Voir si une propriété existante : In
 
 Pour voir si une propriété existe bien, la meilleure pratique est d'utiliser l'opérateur `in` qui renvoie un booléen :
 
@@ -210,7 +202,7 @@ if ("nom" in monObjet) {
 }
 ```
 
-**Parcourir les propriétés d'un objet : for .. in**
+### Parcourir les propriétés d'un objet : for .. in
 
 On peut parcourir l'ensemble de propriétés d'un objet avec les mots clés `for` et `in` :
 
@@ -226,6 +218,10 @@ for (let p in monObjet) {
   console.log(p);
 }
 ```
+
+
+
+
 
 ## Copie et référence
 
