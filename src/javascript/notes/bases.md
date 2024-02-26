@@ -174,6 +174,58 @@ console.log(monObjet.voici_voiture); // -> 67
 
 Cela permet de définir de manière dynamique la clé. On voit qu'il est aussi possible de compléter le nom de la clé en ajoutant du contenu à l'intérieur des `[]`.
 
+**Fonctions renvoyant un objet**
+
+Une fonction peut renvoyer un objet. On peut transformer très simplement un paramètre de la fonction en propriété, où le nom du paramètre sera la clé de la propriété, et sa valeur la valeur de la propriété.
+
+```js
+function maFonction(nom, description) {
+
+  return {
+    nom,
+    description
+  };
+}
+
+let monLivre = maFonction("Titre du livre", "description du livre");
+console.log(monLivre.nom); // -> Titre du livre
+console.log(monLivre.description); // description du livre
+```
+
+**Voir si une propriété existante : In**
+
+Pour voir si une propriété existe bien, la meilleure pratique est d'utiliser l'opérateur `in` qui renvoie un booléen :
+
+```js
+
+const monObjet {
+
+  nom = "coucou"
+};
+
+if ("nom" in monObjet) {
+  console.log(monObjet.nom);
+} else {
+  ...
+}
+```
+
+**Parcourir les propriétés d'un objet : for .. in**
+
+On peut parcourir l'ensemble de propriétés d'un objet avec les mots clés `for` et `in` :
+
+```js
+
+const monObjet {
+  nom : "coucou",
+  titre : "coucou 2", 
+  description : "coucou 3"
+};
+
+for (let p in monObjet) {
+  console.log(p);
+}
+
 ## Les tableaux
 
 **Declaration :**
