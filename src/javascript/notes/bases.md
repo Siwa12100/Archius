@@ -1,6 +1,6 @@
 # JavaScript - Les bases
 
-### Conventions de nommage
+## Conventions de nommage
 
 * camelCase `maVariable` pour variables et fonctions.
   
@@ -8,7 +8,9 @@
   
 * Snake_case pour les constantes `MA_CONSTANTE`.
 
-### Les variables
+## Les variables
+
+### Déclaration
 
 On déclare des variables avec `let` et des constantes avec `const`. Elles ont une portée de blocs `{}.`
 
@@ -19,7 +21,14 @@ let maVariable = 6;
 const maConstante = "coucou"
 ```
 
-### Afficher infos en console
+On utilise la convention de nommage **camelCase** et les noms de variables doivent toujours commencer par une lettre. La case compte donc `pomme` et `Pomme` sont des variables différentes.
+
+Une bonne pratique est de nommer les constantes définies dès le chargement de la page (comme des couleurs, des noms, ...) en majuscule, en séparant les mots par des `_` : `MA_CONSTANTE`.
+Mais si une constante est calculée pendant l'exécution du script, elle peut être nommée comme une variable `let` en utilisant le **camelCase**.
+
+
+
+## Afficher infos en console
 
 * `console.log("coucou : ", maVariable);` pour afficher des infos en console.
 
@@ -57,7 +66,7 @@ const test = Number(monChiffre);
 const test2 = String(monString);
 ```
 
-### Les objets
+## Les objets
 
 A ce qu'il semblerait, les notions d'objets et de classes sont distinctes en js. Il est ainsi possible d'avoir des objets qui ne sont pas forcément associés à une classe.
 
@@ -77,7 +86,7 @@ let maPersonne = {
 Il est ensuite possible d'appeler les différentes propriétés de manière assez classique : `maPersonne.age = 56;`.
 Si la propriété n'existe pas, elle est créée `maPersonne.surnom = "Loulou";`.
 
-### Les tableaux
+## Les tableaux
 
 **Declaration :**
 
@@ -107,7 +116,7 @@ mesFruits.pop();
 // A supprimé framboise...
 ```
 
-### Copie et référence
+## Copie et référence
 
 Si on affecte à une nouvelle variable un type primitif(string, nombre ou bool), alors c'est une affectation par copie :
 
