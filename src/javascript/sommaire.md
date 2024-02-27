@@ -9,11 +9,19 @@
 C'est un des 3 languages au coeur du Web, avec HTML & CSS. Il permet de rajouter de l'interactivité dans les pages.
 En plus de son utilisation dans le cadre des navigateurs web, il est aussi utilisé comme un language côté serveur, avec des environnements comme Node.js. Il peut aussi être utilisé dans le cadre d'applications de bureau (avec Electron) et mobiles (avec React Native) entre autre.
 
+
 ## Sommaire
+
+### Roadmap.sh
+
+* [Variables & objets](./notes/bases.md)
+
+
+## Ancien sommaire
 
 **les bases :**
 
-* [Variables & objets](./notes/bases.md)
+
 * [Fonctions](./notes/fonctions.md)
 * [Interagir avec page web](./notes/elementWeb.md)
 * [Les formulaires](./notes/formulaires.md)
