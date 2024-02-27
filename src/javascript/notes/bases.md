@@ -111,6 +111,26 @@ console.log(`Bonjour, je suis ${monNom}`);
 
 Notes à retrouver [ici](./objets.md) sur les objets.
 
+## Typeof
+
+On peut utiliser le mot clé `typeof` pour récupérer sous la forme d'une chaîne de caractère le type d'un élément :
+
+```js
+
+console.log(typeof 45); // -> number
+console.log(typeof (45 == 45)); // -> Boolean
+...
+```
+
+Les différents strings pouvant être retournés sont :
+
+* number
+* string
+* boolean
+* object
+* function
+* symbol
+
 ## Copie et référence
 
 Si on affecte à une nouvelle variable un type primitif(string, nombre ou bool), alors c'est une affectation par copie :
