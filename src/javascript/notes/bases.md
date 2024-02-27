@@ -216,5 +216,45 @@ La conversion implicite se produit automatiquement lors d'opérations entre des 
    let num = +bool;  // num sera 1 (true est équivalent à 1)
    ```
 
+## Comparaisons
+
+En JavaScript, `==` (opérateur d'égalité) et `===` (opérateur d'égalité stricte) sont deux opérateurs utilisés pour comparer des valeurs. La principale différence entre les deux réside dans la façon dont ils gèrent les types de données et les conversions de type.
+
+### `==` (Opérateur d'égalité) :
+
+L'opérateur `==` effectue une comparaison égalité non stricte, ce qui signifie qu'il effectue des conversions de type si les types des opérandes sont différents avant de comparer les valeurs. Par exemple, lorsqu'on compare une chaîne et un nombre, JavaScript tentera de convertir la chaîne en un nombre avant de faire la comparaison.
+
+**Exemple :**
+
+```javascript
+"5" == 5;  // true, car la chaîne "5" est convertie en nombre avant la comparaison
+```
+
+### `===` (Opérateur d'égalité stricte) :
+
+L'opérateur `===` effectue une comparaison égalité stricte, ce qui signifie qu'il ne fait pas de conversion de type. Les opérandes doivent avoir le même type et la même valeur pour que la comparaison retourne `true`.
+**
+Exemple :**
+
+```javascript
+"5" === 5;  // false, car les types sont différents (chaîne vs nombre)
+```
+
+### En ce qui concerne les objets :
+
+Lorsque l'on compare des objets avec `==` ou `===`, le comportement dépend de la référence des objets, pas de leur contenu. Les deux opérateurs comparent les références mémoire.
+
+Exemple :
+
+```javascript
+var obj1 = { key: "value" };
+var obj2 = { key: "value" };
+
+obj1 == obj2;  // false, car ce sont des références différentes
+obj1 === obj2;  // false, car ce sont des références différentes
+```
+
+Dans cet exemple, même si les objets ont des propriétés identiques, la comparaison renvoie `false` car ce sont deux objets distincts en mémoire.
+
 ---
 [...retour au sommaire](../sommaire.md)
