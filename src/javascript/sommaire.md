@@ -16,15 +16,14 @@ En plus de son utilisation dans le cadre des navigateurs web, il est aussi utili
 
 * [Variables & objets](./notes/bases.md)
 
-### Roadmamp.sh - Node.js
-
-* [introduction à node](./notes_nodeJS/bases.md)
-
 **Structures de données**
 
 * [Arrays](./notes/array.md)
 * [JSON]()
 
+### Roadmamp.sh - Node.js
+
+* [introduction à node](./notes_nodeJS/bases.md)
 
 ## Ancien sommaire
 
