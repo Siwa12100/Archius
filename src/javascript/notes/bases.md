@@ -86,17 +86,7 @@ const prenom = "Louis";
 const assemblage = nom + penom;
 ```
 
-Il est possible de convertir des types entre eux :
-
-```js
-let monChiffre = "150";
-let monString = 780;
-
-// Conversion en nombre
-const test = Number(monChiffre);
-// Conversion en string
-const test2 = String(monString);
-```
+Il est possible de convertir des types entre eux.
 
 ### L'interpolation
 
@@ -156,6 +146,75 @@ const mesFruits = ["pomme", "poire"];
 // On fait un nouveau tableau et on copie les valeurs 
 const monNouveauTab = [...mesFruits];
 ```
+
+## Conversion de type
+
+Voici un résumé concis des principales méthodes pour convertir des types de données entre eux en JavaScript.
+
+### Conversion explicite de type
+
+1. **`Number()` :** Convertit une valeur en un nombre.
+
+   ```javascript
+   let str = "42";
+   let num = Number(str);  // num sera 42 (en tant que nombre)
+   ```
+
+2. **`String()` :** Convertit une valeur en une chaîne de caractères.
+
+   ```javascript
+   let num = 42;
+   let str = String(num);  // str sera "42" (en tant que chaîne)
+   ```
+
+3. **`Boolean()` :** Convertit une valeur en un booléen.
+
+   ```javascript
+   let str = "true";
+   let bool = Boolean(str);  // bool sera true (non vide est équivalent à true)
+   ```
+
+4. **`parseInt()` :** Convertit une chaîne en un entier.
+
+   ```javascript
+   let str = "42";
+   let integer = parseInt(str);  // integer sera 42 (en tant qu'entier)
+   ```
+
+5. **`parseFloat()` :** Convertit une chaîne en un nombre à virgule flottante.
+
+   ```javascript
+   let str = "42.5";
+   let floatNum = parseFloat(str);  // floatNum sera 42.5 (en tant que nombre à virgule flottante)
+   ```
+
+### Conversion implicite de type (coercition)
+
+La conversion implicite se produit automatiquement lors d'opérations entre des types différents.
+
+1. **De chaîne à nombre :**
+   ```javascript
+   let str = "42";
+   let num = +str;  // num sera 42 (en tant que nombre)
+   ```
+
+2. **De nombre à chaîne :**
+   ```javascript
+   let num = 42;
+   let str = "" + num;  // str sera "42" (en tant que chaîne)
+   ```
+
+3. **De valeur à booléen :**
+   ```javascript
+   let value = "hello";
+   let bool = !!value;  // bool sera true (non vide est équivalent à true)
+   ```
+
+4. **De booléen à nombre :**
+   ```javascript
+   let bool = true;
+   let num = +bool;  // num sera 1 (true est équivalent à 1)
+   ```
 
 ---
 [...retour au sommaire](../sommaire.md)
