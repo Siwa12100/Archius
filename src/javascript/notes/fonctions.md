@@ -1,5 +1,9 @@
 # Les fonctions
 
+[...retour au sommaire](../sommaire.md)
+
+---
+
 ### Inclusion de code js dans le html
 
 Pour inclure un script js dans une vue html, on utilise la balise `script`.
@@ -71,18 +75,43 @@ switch(maVariable) {
 
 **for & while :**
 
-C'est le grand classique...
+Il faut distinguer le `for .. in` (plus réservé pour des collections clé / valeur) et le `for .. of` pour des collections comme des tableaux.
 
 ```js
 for (let cpt = 0; cpt < 10; cpt++) {
     console.log(cpt);
 }
 
+let tableau = ["pomme", "poire", "figue"];
+
+for (let fruit in tableau) {
+    console.log(fruit); // Va afficher l'index du fruit : 1 , 2, ...
+}
+
+for (let fruit of tableau) {
+    console.log(fruit); // Va afficher le fruit : pomme, ...
+}
+
+let monObjet = {
+    nom : "Louis", 
+    age : 45
+}
+
+for (let propriete in monObjet) {
+
+    console.log(propriete + " -> " + monObjet[propriete]); // Va afficher nom -> Louis, puis age -> 45
+}
+
 let i = 0;
+
 while (i < 10) {
     console.log(i);
     i++;
 }
+
+do {
+    ...
+} while (... != ...);
 ```
 
 ### Declaration de fonctions
