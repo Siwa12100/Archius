@@ -5,7 +5,7 @@
 ---
 
 Le Json (JavaScript Object Notation) est un moyen de stocker des données structurées comme des objets ou des tableaux JavaScript, sous forme de chaîne de caractères.
-Cela facilite ainsi le stocke et le partage des données.
+Cela facilite ainsi le stockage et le partage des données.
 
 Le json suit absolument la même syntaxe que les objets JavaScript. Simplement, chaque clé de propriété doit être mise entre `"` pour être correctement interprétée.
 
