@@ -20,6 +20,10 @@ En plus de son utilisation dans le cadre des navigateurs web, il est aussi utili
 
 * [introduction à node](./notes_nodeJS/bases.md)
 
+**Structures de données**
+
+* [Arrays](./notes/array.md)
+
 
 ## Ancien sommaire
 
