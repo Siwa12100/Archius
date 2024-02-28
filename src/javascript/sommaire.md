@@ -36,9 +36,6 @@ En plus de son utilisation dans le cadre des navigateurs web, il est aussi utili
 * [Les formulaires](./notes/formulaires.md)
 * [Les classes](./notes/classes.md)
 
-* [json parse()](./notes/jsonParse.md)
-* [json stringify()](./notes/jsonStringify.md)
-
 ## Ressources intéressantes
 
 * 
