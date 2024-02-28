@@ -1,32 +1,10 @@
-# Les fonctions
+# Notes - Fonctions, boucles & conditions
 
 [...retour au sommaire](../sommaire.md)
 
 ---
 
-### Inclusion de code js dans le html
 
-Pour inclure un script js dans une vue html, on utilise la balise `script`.
-
-**Exemple :**
-
-```html
-<!DOCTYPE HTML>
-<html lang="fr">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <script src="script.js"></script>
-</head>
-<body>
-
-</body>
-</html>
-```
-
-Dans cet exemple, on admet que le fichier `script.js` est dans le même dossier que le fichier html. s'il avait été dans un dossier `src`, on aurait mis : `<script src="src/script.js></script>`.
 
 ### Les conditions
 
