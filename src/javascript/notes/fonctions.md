@@ -8,7 +8,7 @@
 
 ### Les conditions
 
-Le grand classique if/else :
+Le grand classique **if/else** :
 
 ```js
 if (la condition...) {
@@ -16,13 +16,6 @@ if (la condition...) {
 } else {
 
 }
-```
-
-**Exemple :**
-
-```js
-let monMot = prompt("Entrez un mot  : ");
-console.log(monMot);
 ```
 
 Le **switch/case** fonctionne aussi de manière classique :

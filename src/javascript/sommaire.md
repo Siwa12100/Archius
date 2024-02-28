@@ -38,6 +38,13 @@ Pour inclure un script js dans une vue html, on utilise la balise `script`.
 
 **Exemple :**
 
+```js
+let monMot = prompt("Entrez un mot  : ");
+console.log(monMot);
+```
+
+**Exemple :**
+
 ```html
 <!DOCTYPE HTML>
 <html lang="fr">
