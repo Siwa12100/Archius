@@ -79,7 +79,9 @@ do {
 } while (... != ...);
 ```
 
-### Declaration de fonctions
+## Les fonctions
+
+### Declaration
 
 Il n'est pas utile de préciser le type de retour de la fonction et le type des paramètres en js.
 
@@ -98,43 +100,63 @@ function monAutreFonction() {
     let val = 56;
     return val;
 }
-
-maFonction("coucou", 56);
-const test = monAutreFonction();
 ```
 
-### Inclusion de fichiers et portées de variables
-
-L'inclusion de fichiers.js entre eux a l'air de ressembler à ce qui se fait en php avec un `require`.
-Dans ce sens, avec ce code :
-
-```html
-<script src="src/premierScript.js"></script>
-<script src="src/secondScript.js"></script>
-```
-
-C'est comme si on fusionnait les fichiers ensemble, dans l'ordre de leur inclusion. Donc secondScript connait l'ensemble de premierScript, mais premierScript ne connait pas le contenu de secondScript.
-
-Grâce à cette inclusion, il est possible de découper le code en différents fichiers.
-
-Les variables ont comme portée l'ensemble de leur bloc `{}`. Dans ce sens, les variables dans un bloc sont appelées locales, et les variables déclarées directement dans le script en dehors des blocs sont dites globales.
-
-**Exemple :**
+Il est aussi possible de stocker des fonctions dans des variables et de passer des fonctions en paramètre d'autres fonctions : 
 
 ```js
-let maVariableGlobale = 67;
 
-function maFonction() {
-    ...
-    const maVariableLocale = "coucou";
-    console.log(maVariableLocale); // marche car c'est le même bloc
-    console.log(maVariableGlobale); // marche car variable locale
+// Déclaration d'une fonction anonyme
+const maFonction1 = function (msg) {
+    console.log(msg);
 }
 
-console.log(maVariableLocale); // n'existe plus ici
-console.log(maVariableGlobale); //marche toujours
+let tableau = new Array("Pomme", "Poire", "Prune", "Figue");
+
+// On passe l'autre fonction en paramètre...
+function monAutreFonction(f, tableau) {
+
+    for (let fruit of tableau) {
+        f(fruit);
+    }
+}
+
+monAutreFonction(maFonction1, tableau);
 ```
 
+Il est aussi possible de déclarer des fonctions au sein d'autres fonctions (elles ont ainsi accès à toutes les données des fonctions parentes. Cela s'appelle des fonctions imbriquées. 
+
+```js
+
+function maFonction(msg) {
+
+    let tab = ["Pomme", "Poire", "Prune"];
+    function maFonctionImbriquee(fruit) {
+        console.log(" --> " + msg + " : " + fruit);
+    }
+
+    for (let f of tab) {
+        maFonctionImbriquee(f);
+    }
+}
+```
+
+### Parcours d'arguments
+
+Il est possible de passer un nombre variable d'arguments à des fonctions. On récupère ensuite ces arguments grâce à un tableau appelé `arguments`.
+
+```js
+
+maFonction() {
+    
+    for (let i = 0; i < arguments.lengh, i++) {
+        console.log(arguments[i])
+    }
+}
+
+maFonction("Pomme", "Poire", "Prune");
 ---
+
+
 
 [retour au sommaire](../sommaire.md)

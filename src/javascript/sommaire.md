@@ -63,6 +63,38 @@ console.log(monMot);
 
 Dans cet exemple, on admet que le fichier `script.js` est dans le même dossier que le fichier html. s'il avait été dans un dossier `src`, on aurait mis : `<script src="src/script.js></script>`.
 
+### Inclusion de fichiers et portées de variables
+
+L'inclusion de fichiers.js entre eux a l'air de ressembler à ce qui se fait en php avec un `require`.
+Dans ce sens, avec ce code :
+
+```html
+<script src="src/premierScript.js"></script>
+<script src="src/secondScript.js"></script>
+```
+
+C'est comme si on fusionnait les fichiers ensemble, dans l'ordre de leur inclusion. Donc secondScript connait l'ensemble de premierScript, mais premierScript ne connait pas le contenu de secondScript.
+
+Grâce à cette inclusion, il est possible de découper le code en différents fichiers.
+
+Les variables ont comme portée l'ensemble de leur bloc `{}`. Dans ce sens, les variables dans un bloc sont appelées locales, et les variables déclarées directement dans le script en dehors des blocs sont dites globales.
+
+**Exemple :**
+
+```js
+let maVariableGlobale = 67;
+
+function maFonction() {
+    ...
+    const maVariableLocale = "coucou";
+    console.log(maVariableLocale); // marche car c'est le même bloc
+    console.log(maVariableGlobale); // marche car variable locale
+}
+
+console.log(maVariableLocale); // n'existe plus ici
+console.log(maVariableGlobale); //marche toujours
+```
+
 ## Ancien sommaire
 
 **les bases :**
