@@ -4,7 +4,7 @@
 
 ---
 
-
+## Boucles & conditions
 
 ### Les conditions
 
@@ -17,12 +17,6 @@ if (la condition...) {
 
 }
 ```
-
-On met un `===` pour tester à la fois la valeur et s'assurer que le type est le même.
-
-### Récupérer une valeur
-
-La fonction `prompt` permet de demander de saisir une valeur en ouvrant une fenêtre popup. C'est vraiment inssuportable et à proscrire, mais utile pour le débuggage...
 
 **Exemple :**
 
