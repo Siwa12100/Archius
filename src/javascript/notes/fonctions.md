@@ -20,7 +20,7 @@ if (la condition...) {
 
 Le **switch/case** fonctionne aussi de manière classique :
 
-```
+```js
 switch(maVariable) {
 
     case 1 :
