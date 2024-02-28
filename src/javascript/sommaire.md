@@ -15,6 +15,7 @@ En plus de son utilisation dans le cadre des navigateurs web, il est aussi utili
 ### Roadmap.sh - JavaScript
 
 * [Variables & objets](./notes/bases.md)
+* [Les erreurs](./notes/erreurs.md)
 
 **Structures de données**
 
@@ -34,7 +35,7 @@ En plus de son utilisation dans le cadre des navigateurs web, il est aussi utili
 * [Interagir avec page web](./notes/elementWeb.md)
 * [Les formulaires](./notes/formulaires.md)
 * [Les classes](./notes/classes.md)
-* [Les erreurs](./notes/erreurs.md)
+
 * [json parse()](./notes/jsonParse.md)
 * [json stringify()](./notes/jsonStringify.md)
 
