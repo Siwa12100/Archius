@@ -177,6 +177,49 @@ try {
 }
 ```
 
+## Try / Catch / Finally
+
+Le bloc `try...catch...finally` en JavaScript est utilisé pour gérer les erreurs de manière contrôlée. Voici comment il fonctionne :
+
+### `try` :
+- Le code susceptible de générer une exception est placé dans le bloc `try`.
+
+```javascript
+try {
+  // Code susceptible de générer une exception
+  // ...
+} catch (error) {
+  // Gestion de l'exception
+  // ...
+}
+```
+
+### `catch` :
+- Si une exception est levée dans le bloc `try`, le contrôle est transféré au bloc `catch` où vous pouvez gérer l'exception.
+
+```javascript
+try {
+  // Code susceptible de générer une exception
+  throw new Error("Une erreur personnalisée");
+} catch (error) {
+  // Gestion de l'exception
+  console.error(error.message);
+}
+```
+
+### `finally` :
+- Le bloc `finally` est optionnel et est exécuté que l'exception soit levée ou non. Il est généralement utilisé pour effectuer des actions de nettoyage ou des opérations garanties, comme la fermeture de fichiers ou de connexions réseau.
+
+```javascript
+try {
+  // Code susceptible de générer une exception
+} catch (error) {
+  // Gestion de l'exception
+} finally {
+  // Code exécuté que l'exception soit levée ou non
+}
+```
+
 ---
 
 [...retour au sommaire](../sommaire.md)

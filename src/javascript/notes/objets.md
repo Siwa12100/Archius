@@ -85,7 +85,7 @@ console.log(monLivre.nom); // -> Titre du livre
 console.log(monLivre.description); // description du livre
 ```
 
-### Voir si une propriété existante : In
+### Voir si une propriété existe : In
 
 Pour voir si une propriété existe bien, la meilleure pratique est d'utiliser l'opérateur `in` qui renvoie un booléen :
 
