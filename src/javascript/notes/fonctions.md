@@ -141,6 +141,17 @@ function maFonction(msg) {
 }
 ```
 
+Il est aussi possible de donner des valeurs par défaut aux paramètres d'une fonction : 
+
+```js
+
+function maFonction(val, msg = "coucou") {
+    console.log(msg + " : " + val);
+}
+
+maFonction(4); // -> Affiche 4 : coucou
+```
+
 ### Parcours d'arguments
 
 Il est possible de passer un nombre variable d'arguments à des fonctions. On récupère ensuite ces arguments grâce à un tableau appelé `arguments`.
@@ -149,12 +160,65 @@ Il est possible de passer un nombre variable d'arguments à des fonctions. On r�
 
 maFonction() {
     
-    for (let i = 0; i < arguments.lengh, i++) {
+    for (let i = 0; i < arguments.length, i++) {
         console.log(arguments[i])
     }
 }
 
 maFonction("Pomme", "Poire", "Prune");
+
+// On peut aussi stocker des paramètres variables dans un tableau à l'aide du mot clé ... : 
+function monAutreFonction(valeur, mot, ...autresArguments) {
+    console.log("Ma valeur : " + valeur);
+    console.log("Mon mot : " + mot);
+
+    autresArguments.forEach((argument) => {
+        console.log(" - " + argument);
+    });
+}
+
+monAutreFonction(42, "Bonjour", "Argument1", "Argument2", "Argument3");
+```
+
+## Fonctions fléchées
+
+Il s'agit d'un moyen plus concis de déclarer des fonctions. 
+
+**Syntaxe générale :**
+
+```js
+
+// Avec deux arguments
+const maFonction = (val1, val2) => {
+    ....
+    ....
+}
+
+// Avec un seul argument 
+const maFonction2 = (val) => {
+    ...
+    ...
+}
+
+// Sans argument
+const maFonction3 = () => {
+    ...
+    ...
+}
+```
+
+Si la fonction peut être écrite sur une seule ligne, alors les accolades ne sont plus obligatoires et la ligne unique se comporte comme un `return`.
+
+```js
+
+const addition = (val1, val2) => val1 + val2;
+
+// Revient à la même chose que (ps : ceci est une fonction anonyme): 
+const autreAddition = function (val1, val2) {
+    return val1 + val2;
+}
+```
+
 ---
 
 
