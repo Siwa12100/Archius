@@ -65,6 +65,136 @@ console.log(tableauDeValeurs);
 
 * `Promise.race` : Renvoie une promesse qui est résolue ou rejetée dès que la première promesse dans l'itérable est résolue ou rejetée. La valeur ou la raison de la première promesse déterminante est transmise à la promesse renvoyée.
 
+## .then
+
+Le `.then` est une méthode utilisée pour traiter le résultat réussi d'une Promise en JavaScript. 
+
+### Invocation de `.then`
+   - Le `.then` est appelé sur une Promise. Cette méthode prend une ou deux fonctions en arguments. La première fonction spécifie le traitement à effectuer lorsque la Promise est résolue (réussie), et la deuxième fonction (optionnelle) spécifie le traitement des erreurs en cas de rejet de la Promise.
+
+   ```javascript
+   maPromise.then(
+     function(resultatReussi) {
+       // Code à exécuter en cas de réussite
+     },
+     function(raisonRejet) {
+       // Code à exécuter en cas d'échec (rejet)
+     }
+   );
+   ```
+
+### Exécution du code réussi
+
+Si la Promise associée est résolue avec succès, c'est-à-dire que l'opération asynchrone a réussi, la première fonction passée à `.then` est invoquée avec la valeur de résolution en tant qu'argument.
+
+   ```javascript
+   maPromise.then(function(resultat) {
+     console.log('Opération réussie avec le résultat :', resultat);
+   });
+   ```
+
+### Exécution du code en cas d'erreur (optionnel)
+
+Si la Promise est rejetée (l'opération asynchrone a échoué), la deuxième fonction passée à `.then` (la fonction de rejet) est invoquée avec la raison du rejet en tant qu'argument.
+
+   ```javascript
+   maPromise.then(
+     function(resultatReussi) {
+       // Code à exécuter en cas de réussite
+     },
+     function(raisonRejet) {
+       console.error('Opération échouée avec la raison :', raisonRejet);
+     }
+   );
+   ```
+
+### Chaînage de `.then`
+
+Plusieurs appels `.then` peuvent être chaînés, formant une séquence d'opérations asynchrones à exécuter en cas de réussite.
+
+   ```javascript
+   maPromise
+     .then(function(resultat1) {
+       // Code pour traiter le résultat1
+       return resultat1 * 2;
+     })
+     .then(function(resultat2) {
+       // Code pour traiter le résultat2
+       console.log('Résultat final :', resultat2);
+     });
+   ```
+
+### Retour de Promesse
+
+Chaque `.then` renvoie une nouvelle Promesse, permettant ainsi le chaînage de méthodes `.then` ou `.catch`. Cette Promesse résultante représente la valeur retournée par la fonction de traitement du `.then`.
+
+   ```javascript
+   maPromise
+     .then(function(resultat) {
+       return resultat * 2;
+     })
+     .then(function(resultatFinal) {
+       console.log('Résultat final :', resultatFinal);
+     });
+   ```
+
+## .catch & .finally
+
+Les méthodes `.catch` et `.finally` permettent de gérer respectivement les erreurs et les actions à effectuer indépendamment du succès ou de l'échec de la Promesse.
+
+### `.catch`
+
+La méthode `.catch` est utilisée pour gérer les erreurs survenues lors de la résolution ou du rejet d'une Promesse. Elle prend en argument une fonction qui sera appelée en cas de rejet de la Promesse.
+
+```javascript
+maPromesse.then((resultat) => {
+  // Traitement réussi
+  console.log(resultat);
+}).catch((erreur) => {
+  // Traitement en cas d'erreur
+  console.error(erreur);
+});
+```
+
+**Attention important :** Si dans un .then on a déjà fourni une seconde méthode pour gérer le cas d'erreur de la promesse, alors c'est cette fonction qui sera appelée et l'erreur ne sera pas propagée jusqu'au .catch.
+
+### `.finally`
+
+La méthode `.finally` est utilisée pour définir des actions qui doivent être exécutées indépendamment du succès ou de l'échec de la Promesse.
+
+```javascript
+maPromesse.then((resultat) => {
+  // Traitement réussi
+  console.log(resultat);
+}).catch((erreur) => {
+  // Traitement en cas d'erreur
+  console.error(erreur);
+}).finally(() => {
+  // Actions à effectuer indépendamment du succès ou de l'échec
+  console.log('Opération terminée, que la Promesse soit résolue ou rejetée.');
+});
+```
+
+**Combinaison de `.catch` et `.finally` :**
+
+```javascript
+maPromesse
+  .then((resultat) => {
+    // Traitement réussi
+    console.log(resultat);
+  })
+  .catch((erreur) => {
+    // Traitement en cas d'erreur
+    console.error(erreur);
+  })
+  .finally(() => {
+    // Actions à effectuer indépendamment du succès ou de l'échec
+    console.log('Opération terminée, que la Promesse soit résolue ou rejetée.');
+  });
+```
+
+## Fetch
+
 ---
 
 [...retour au sommaire](../sommaire.md)
