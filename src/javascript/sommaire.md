@@ -20,7 +20,13 @@ En plus de son utilisation dans le cadre des navigateurs web, il est aussi utili
 * [JSON](./notes/json.md)
 
 * [Fonctions, boucles & conditions](./notes/fonctions.md)
-  
+* [Fetch & asynchrone](./notes/asynchrone.md)
+* [Les classes](./notes/classes.md)
+
+### Interagir avec le DOM
+
+* [Interagir avec page web](./notes/elementWeb.md)
+* [Les formulaires](./notes/formulaires.md)
 
 ### Roadmamp.sh - Node.js
 
@@ -94,20 +100,6 @@ function maFonction() {
 console.log(maVariableLocale); // n'existe plus ici
 console.log(maVariableGlobale); //marche toujours
 ```
-
-## Ancien sommaire
-
-**les bases :**
-
-
-* 
-* [Interagir avec page web](./notes/elementWeb.md)
-* [Les formulaires](./notes/formulaires.md)
-* [Les classes](./notes/classes.md)
-
-## Ressources intéressantes
-
-* 
 
 ---
 [retour à l'accueil](../../README.md)
