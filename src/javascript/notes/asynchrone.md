@@ -195,6 +195,63 @@ maPromesse
 
 ## Fetch
 
+`fetch()` est une fonction asynchrone qui permet de faire des appels à l'api. Elle prend en paramètre une url (vers la ressource désirée), et peut optionnellement prendre aussi un objet permettant de spécifier des options.
+
+```js
+
+fetch("url/vers/api").then((reponse) => {
+    // On regarde si la requête a réussi
+    if (!reponse.ok) {
+        // Si c'est pas le cas, on lance une erreur qui sera attrapée par le catch
+        throw new Error("Erreur en appelant l'api...");
+    }
+
+    // on récupère dans la requête récupérée par le fetch les données qui nous intéressent
+    return reponse.json();
+
+}).then((donnees) => {
+    // Si on passe là, c'est qu'il n'y a pas eu d'erreur, on utilise les données comme on veut...
+    console.log("Voici les données récupérées de l'api : " + donnees);
+
+}).catch(erreur) => {
+    // Si on passe là c'est qu'il y a eu un soucis, alors on le gère...
+    console.error("Attention il y a eu une erreur en appelant l'api : " + erreur.message);
+}
+```
+
+### Gestion des types de données dans la réponse
+
+* `response.json()` : Transforme la réponse en objet JavaScript si la réponse est un JSON.
+* `response.text()` : Récupère la réponse sous forme de texte brut.
+* `response.blob()` : Récupère la réponse sous forme de Blob (Binary Large Object).
+
+### Options possibles
+
+Il donc possible de paramétrer notre requête en passant un objet dont l'on précise certaines propriétés.
+
+**header**
+Permet de préciser le verbe http(get, post, put, delete, patch....).
+
+**body :**
+Si il s'agit d'ajouter du contenu ou bien en modifier, c'est dans le body qu'on met le contenu en question.
+
+Voilà un exemple complet, avec encore d'autres options :
+
+```js
+fetch('https://exemple.com/api/data', {
+  method: 'POST',
+  headers: {
+    'Content-Type': 'application/json',
+    'Authorization': 'Bearer myToken'
+  },
+  body: JSON.stringify({ key: 'value' }),
+  mode: 'cors',
+  credentials: 'include',
+  cache: 'no-cache',
+  redirect: 'follow'
+}).then(.....)
+```
+
 ---
 
 [...retour au sommaire](../sommaire.md)
