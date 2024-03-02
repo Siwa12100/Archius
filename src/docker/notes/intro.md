@@ -1,7 +1,3 @@
-Votre texte est une introduction bien formulée à la virtualisation légère avec Docker, mettant en avant les différences entre les machines virtuelles (VM) et les conteneurs. Voici quelques suggestions pour améliorer et clarifier certains points :
-
----
-
 # Introduction
 
 [...retour au sommaire Docker](../sommaire.md)
