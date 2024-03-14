@@ -4,8 +4,6 @@
 
 ---
 
-Bien sûr ! Commençons par les fondamentaux de Vue.js.
-
 ## Fondamentaux de Vue.js
 
 ### Compréhension de Vue.js
