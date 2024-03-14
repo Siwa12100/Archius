@@ -11,6 +11,7 @@
 * [Props](./notes/props.md)
 * [Events](./notes/events.md)
 * [Directives et Bind](./notes/directivesEtBind.md)
+* [Formulaires](./notes/formulaires.md)
 
 ## Autres notes
 
