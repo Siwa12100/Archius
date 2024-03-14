@@ -6,7 +6,7 @@
 
 ## Bases
 
-* [Introduction]()
+* [Introduction](./notes/intro.md)
 
 
 ## Autres notes
