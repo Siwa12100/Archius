@@ -149,7 +149,6 @@ export default {
 </script>
 ```
 
-Dans cet exemple, les `<p>` affichent un message différent en fonction de la valeur de `type`, qui est mise à jour par les clics sur les boutons. Seul le `<p>` correspondant à la condition vraie sera rendu dans le DOM.
 ---
 
 [...retour au sommaire](../sommaire.md)
