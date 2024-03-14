@@ -8,6 +8,7 @@
 
 * [Introduction](./notes/intro.md)
 * [Creation de composants](./notes/creationComposants.md)
+* [Props]
 
 
 ## Autres notes
