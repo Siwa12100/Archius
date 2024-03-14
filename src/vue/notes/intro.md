@@ -62,32 +62,9 @@ app.message = 'Bonjour Vue!';
 
 Après l'exécution de cette ligne de code, le texte affiché dans l'élément avec l'ID "app" sera automatiquement mis à jour pour afficher "Bonjour Vue!" au lieu de "Hello Vue!". C'est le système de réactivité de Vue en action.
 
-## Intégrer simplement vue à un projet avec CDN
+## Créer rapidement un projet avec Vue
 
-Tout d'abord, il faut obtenir le lien CDN de VueJS. On peut le trouver sur le site officiel de VueJS ou utiliser des services comme jsdelivr.com ou cdnjs.com. Voici le lien CDN de VueJS à utiliser :
-
-```html
-Copy code
-<script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
-1. Ajoutez le lien CDN à votre page HTML
-```
-
-Dans le fichier HTML (index.html), on ajoute le lien CDN à l'intérieur de la balise `<head>` :
-
-```html
-<!DOCTYPE html>
-<html lang="fr">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Ma première application Vue.js</title>
-  <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
-</head>
-<body>
-  <!-- le code Vue.js va aller ici -->
-</body>
-</html>
-```
+On peut utiliser la commande `npm init vue@latest`.
 
 ---
 
