@@ -10,6 +10,7 @@
 * [Creation de composants](./notes/creationComposants.md)
 * [Props](./notes/props.md)
 * [Events](./notes/events.md)
+* [Directives et Bind](./notes/directivesEtBind.md)
 
 ## Autres notes
 
