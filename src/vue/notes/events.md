@@ -150,6 +150,85 @@ On peut accéder à l'argument de l'événement dans un gestionnaire en ligne en
   Soumettre
 </button>
 ```
+Oui, il est tout à fait possible de passer des données complexes, comme des objets, via des événements en Vue.js. Ceci est très utile pour transmettre un ensemble de données ou un état d'un composant enfant à un parent, sans se limiter à des valeurs simples.
+
+## Exemple Illustratif
+
+Supposons que nous ayons un composant enfant `FormulaireUtilisateur` dans lequel l'utilisateur peut entrer son nom et son email. Lorsque l'utilisateur soumet le formulaire, nous voulons passer ces informations au composant parent pour traitement ou pour les afficher.
+
+**Composant Enfant (`FormulaireUtilisateur.vue`)**
+
+```vue
+<template>
+  <form @submit.prevent="soumettreFormulaire">
+    <input v-model="utilisateur.nom" placeholder="Nom">
+    <input v-model="utilisateur.email" placeholder="Email">
+    <button type="submit">Soumettre</button>
+  </form>
+</template>
+
+<script>
+export default {
+  data() {
+    return {
+      utilisateur: {
+        nom: '',
+        email: ''
+      }
+    };
+  },
+  methods: {
+    soumettreFormulaire() {
+      // Émettre l'événement avec l'objet utilisateur comme payload
+      this.$emit('soumission-formulaire', this.utilisateur);
+    }
+  }
+}
+</script>
+```
+
+**Composant Parent**
+
+Dans le composant parent, nous écoutons l'événement `soumission-formulaire` émis par `FormulaireUtilisateur` et nous traitons les données de l'utilisateur passées en tant qu'objet.
+
+```vue
+<template>
+  <div>
+    <FormulaireUtilisateur @soumission-formulaire="gererSoumission"></FormulaireUtilisateur>
+    <p>Nom soumis : {{ utilisateurSoumis.nom }}</p>
+    <p>Email soumis : {{ utilisateurSoumis.email }}</p>
+  </div>
+</template>
+
+<script>
+import FormulaireUtilisateur from './FormulaireUtilisateur.vue';
+
+export default {
+  components: {
+    FormulaireUtilisateur
+  },
+  data() {
+    return {
+      utilisateurSoumis: {
+        nom: '',
+        email: ''
+      }
+    };
+  },
+  methods: {
+    gererSoumission(utilisateur) {
+      this.utilisateurSoumis = utilisateur;
+    }
+  }
+}
+</script>
+```
+
+### Explication
+
+- **Dans le composant enfant**, nous définissons un objet `utilisateur` dans `data` qui contient le `nom` et l'`email` de l'utilisateur. Lorsque le formulaire est soumis, nous émettons un événement `soumission-formulaire` avec l'objet `utilisateur` comme payload.
+  
+- **Dans le composant parent**, nous écoutons l'événement `soumission-formulaire` sur l'instance de `FormulaireUtilisateur`. La méthode `gererSoumission` est appelée en réponse à cet événement, et elle met à jour les données du composant parent avec les valeurs soumises.
 
 ---
 
