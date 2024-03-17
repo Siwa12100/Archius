@@ -23,7 +23,7 @@ Ce dépôt me permet de stocker une partie de mes prises de notes, et de manièr
 - [Docker](./src/docker/sommaire.md)
 - [Services web](./src/servicesWeb/sommaire.md)
 - [SAE Reseau](./src/saeReseau/notes1.md)
-- 
+
 ### Autre
 
 - [Archives du Valorium](./src/mc/valorium/accueil.md)

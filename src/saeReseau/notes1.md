@@ -1,6 +1,7 @@
 # Guide d'Administration Réseau
 
 [...retour au sommaire](../../README.md)
+[version 2 ici](./notes2.md)
 
 ---
 
