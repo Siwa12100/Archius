@@ -11,7 +11,7 @@
 
 ## Autres notes
 
-* [Détail des commandes docker](./commandes/sommaire.md)
+* [Résumé bases de docker](./commandes/sommaire.md)
 
 ## Liens utiles
 
