@@ -21,6 +21,7 @@
 - **Lister les images** : `docker images`
 - **Construire une image** : `docker build -t monimage:tag .`
 - **Supprimer une image** : `docker rmi monimage:tag`
+- **taguer/renommer une image** : `docker tag source_image:tag nouvelle_image:tag`
 - **Tirer une image** : `docker pull monimage:tag`
 - **Pousser une image** : `docker push monimage:tag`
 
