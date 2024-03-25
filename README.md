@@ -22,12 +22,16 @@ Ce dépôt me permet de stocker une partie de mes prises de notes, et de manièr
 - [Kotlin](./src/kotlin/sommaire.md)
 - [Docker](./src/docker/sommaire.md)
 - [Services web](./src/servicesWeb/sommaire.md)
-- [SAE Reseau](./src/saeReseau/notes1.md)
 
-### Autre
+### MC.
 
 - [Archives du Valorium](./src/mc/valorium/accueil.md)
 - [Elendil](./src/mc/Elendil/Ligue.md)
+
+### Révisions DS
+
+- [SAE Reseau](./src/saeReseau/notes1.md)
+- [Service Web](./src/stockageCode/servicesWeb/sommaire.md)
 
 Aquelas archius son sobretot personals e pretendon a res d'autre coma m'ajudar a gardar a drech dins ma man d'informacions que mi seran utilas a l'avenir, o ben mi guiarnar a metre sus papièr de reflexions, d'una mòda a structurar ma pensada.
 Ieu ne pretendi ni explicar res a degun, que sigam plan clar.
