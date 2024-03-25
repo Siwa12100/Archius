@@ -7,11 +7,10 @@ import java.util.List;
 import java.util.Optional;
 
 public class StubLivres implements ILivresDataManager {
-    private final List<Livre> livres; // Liste pour stocker les livres
+    private final List<Livre> livres;
 
     public StubLivres() {
         livres = new ArrayList<>();
-        // Initialisation avec une dizaine de livres
         initialiserDonnees();
     }
 
