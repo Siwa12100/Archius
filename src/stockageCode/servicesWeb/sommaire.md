@@ -29,7 +29,7 @@
 
 ## Syntaxes générales
 
-
+- [API Jersey](./syntaxeNotes/jerseyClient.md)
 
 ---
 
