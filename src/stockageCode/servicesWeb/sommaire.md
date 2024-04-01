@@ -31,6 +31,14 @@
 
 - [API Jersey](./syntaxeNotes/jerseyAPI.md)
 
+- [Client Jersey](./syntaxeNotes/jerseyClient.md)
+
+- [API Springboot](./syntaxeNotes/springbootAPI.md)
+
+- [Client Springboot](./syntaxeNotes/springbootClient.md)
+
+
+
 ---
 
 [...retour au sommaire](../../../README.md)
