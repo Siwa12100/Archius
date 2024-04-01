@@ -1,167 +1,154 @@
-# Jersey côté API
+# Jersey côté client
 
 [...retour au sommaire](../sommaire.md)
 
 ---
 
+Voici un guide complet utilisant Markdown pour créer un client en Jersey, illustré par des méthodes CRUD sur une ressource modèle `Livre`. Ce guide comprend des exemples de code pour chaque verbe HTTP (GET, POST, PUT, DELETE) avec des paramètres, ainsi que des explications sur la configuration nécessaire pour un client Jersey.
 
-Voici une version complétée de votre guide pour démarrer avec Jersey, incluant les URL pour appeler chaque méthode CRUD sur une ressource `Livre` à la base de l'URL `https://apiSiwa`.
-
-## Démarrage rapide avec Jersey
+## Création d'un Client en Jersey
 
 ### Prérequis
 
-- JDK installé (version 8 ou supérieure)
-- Maven pour la gestion des dépendances
-- Serveur d'application comme Tomcat ou Payara
+Pour travailler avec un client Jersey, vous aurez besoin de :
 
-### Configuration du projet
+- JDK (Java Development Kit), version 8 ou ultérieure.
+- Un environnement de développement intégré (IDE) ou un éditeur de texte.
+- Maven pour la gestion des dépendances.
+- L'accès à une API RESTful. Pour cet exemple, nous utiliserons une ressource `Livre`.
 
-1. **Créez un projet Maven** : Vous pouvez utiliser un IDE ou la ligne de commande pour cela. Si vous utilisez la ligne de commande, tapez:
+### Configuration de Maven
 
-   ```shell
-   mvn archetype:generate -DgroupId=com.exemple -DartifactId=projet-jersey -DarchetypeArtifactId=maven-archetype-webapp -DinteractiveMode=false
-   ```
+Ajoutez la dépendance Jersey Client à votre fichier `pom.xml` :
 
-2. **Ajoutez les dépendances Jersey** à votre fichier `pom.xml` :
-
-   ```xml
-   <dependencies>
-       <dependency>
-           <groupId>org.glassfish.jersey.containers</groupId>
-           <artifactId>jersey-container-servlet</artifactId>
-           <version>2.32</version>
-       </dependency>
-       <dependency>
-           <groupId>org.glassfish.jersey.inject</groupId>
-           <artifactId>jersey-hk2</artifactId>
-           <version>2.32</version>
-       </dependency>
-       <dependency>
-           <groupId>javax.xml.bind</groupId>
-           <artifactId>jaxb-api</artifactId>
-           <version>2.3.1</version>
-       </dependency>
-   </dependencies>
-   ```
-
-3. **Configurez le servlet de Jersey** dans `web.xml` :
-
-   ```xml
-   <servlet>
-       <servlet-name>jersey-serlvet</servlet-name>
-       <servlet-class>org.glassfish.jersey.servlet.ServletContainer</servlet-class>
-       <init-param>
-           <param-name>jersey.config.server.provider.packages</param-name>
-           <param-value>com.exemple</param-value>
-       </init-param>
-       <load-on-startup>1</load-on-startup>
-   </servlet>
-   <servlet-mapping>
-       <servlet-name>jersey-serlvet</servlet-name>
-       <url-pattern>/api/*</url-pattern>
-   </servlet-mapping>
-   ```
-
-### Définir une classe de ressource `Livre`
-
-```java
-@XmlRootElement
-public class Livre {
-    private String titre;
-    private String description;
-    private String contenu;
-
-    // Constructeurs, getters et setters
-    public Livre() { }
-
-    public Livre(String titre, String description, String contenu) {
-        this.titre = titre;
-        this.description = description;
-        this.contenu = contenu;
-    }
-
-    // Getters et setters
-}
+```xml
+<dependencies>
+    <dependency>
+        <groupId>org.glassfish.jersey.core</groupId>
+        <artifactId>jersey-client</artifactId>
+        <version>2.32</version>
+    </dependency>
+    <dependency>
+        <groupId>org.glassfish.jersey.inject</groupId>
+        <artifactId>jersey-hk2</artifactId>
+        <version>2.32</version>
+    </dependency>
+    <dependency>
+        <groupId>javax.xml.bind</groupId>
+        <artifactId>jaxb-api</artifactId>
+        <version>2.3.1</version>
+    </dependency>
+</dependencies>
 ```
 
-## Exemples de méthodes CRUD et URL pour les appeler
+### Exemples de Méthodes CRUD
 
-### READ - GET
+#### GET
+
+Récupère un `Livre` par son titre.
 
 ```java
-@Path("/livres")
-public class LivreResource {
+public class LivreClient {
+    private Client client = ClientBuilder.newClient();
+    private String BASE_URI = "https://apiSiwa/livres";
 
-    @GET
-    @Produces(MediaType.APPLICATION_JSON)
-    public Livre getLivre(@QueryParam("titre") String titre) {
-        // Simuler la recherche d'un livre par titre
-        return new Livre(titre, "Une description", "Le contenu du livre");
+    public String getLivre(String titre) {
+        WebTarget webTarget = client.target(BASE_URI).queryParam("titre", titre);
+        Invocation.Builder invocationBuilder = webTarget.request(MediaType.APPLICATION_JSON);
+        Response response = invocationBuilder.get();
+        if (response.getStatus() == 200) {
+            return response.readEntity(String.class);
+        } else {
+            return "Livre non trouvé";
+        }
     }
 }
 ```
 
-**URL pour appeler cette méthode :** `https://apiSiwa/api/livres?titre=LeTitreDuLivre`
+#### POST
 
-### CREATE - POST
+Crée un nouveau `Livre`.
 
 ```java
-@POST
-@Consumes(MediaType.APPLICATION_JSON)
-@Produces(MediaType.APPLICATION_JSON)
-public Livre createLivre(Livre livre) {
-    // Ajouter le livre à la base de données (simulation)
-    return livre;
+public void createLivre(Livre livre) {
+    WebTarget webTarget = client.target(BASE_URI);
+    Invocation.Builder invocationBuilder = webTarget.request(MediaType.APPLICATION_JSON);
+    Response response = invocationBuilder.post(Entity.entity(livre, MediaType.APPLICATION_JSON));
+    System.out.println("Status: " + response.getStatus());
 }
 ```
 
-**URL pour appeler cette méthode :** `https://apiSiwa/api/livres`
+#### PUT
 
-### UPDATE - PUT
-
-```java
-@PUT
-@Path("/{titre}")
-@Consumes(MediaType.APPLICATION_JSON)
-@Produces(MediaType.APPLICATION_JSON)
-public Livre updateLivre(@PathParam("titre") String titre, Livre livre) {
-    // Mettre à jour le livre ayant le titre spécifié
-    livre.setTitre(titre);
-    return livre;
-}
-
-```
-
-**URL pour appeler cette méthode :** `https://apiSiwa/api/livres/LeTitreDuLivre`
-
-### DELETE - DELETE
+Met à jour un `Livre` existant.
 
 ```java
-@DELETE
-@Path("/{titre}")
-public void deleteLivre(@PathParam("titre") String titre) {
-    // Supprimer le livre ayant le titre spécifié
+public void updateLivre(String titre, Livre livre) {
+    WebTarget webTarget = client.target(BASE_URI).path(titre);
+    Invocation.Builder invocationBuilder = webTarget.request(MediaType.APPLICATION_JSON);
+    Response response = invocationBuilder.put(Entity.entity(livre, MediaType.APPLICATION_JSON));
+    System.out.println("Status: " + response.getStatus());
 }
 ```
 
-**URL pour appeler cette méthode :** `https://apiSiwa/api/livres/LeTitreDuLivre`
+#### DELETE
 
-## Lancer le projet
+Supprime un `Livre` par son titre.
 
-1. **Compilez et packagez** votre application en utilisant Maven :
+```java
+public void deleteLivre(String titre) {
+    WebTarget webTarget = client.target(BASE_URI).path(titre);
+    Invocation.Builder invocationBuilder = webTarget.request();
+    Response response = invocationBuilder.delete();
+    System.out.println("Status: " + response.getStatus());
+}
+```
 
+### Configuration du Client Jersey
 
+Pour des besoins avancés comme l'authentification ou la configuration SSL, Jersey permet de personnaliser le client :
 
-   ```shell
-   mvn package
-   ```
+```java
+ClientConfig clientConfig = new ClientConfig();
+clientConfig.register(MyClientResponseFilter.class);
+clientConfig.register(new AnotherClientFilter());
+Client client = ClientBuilder.newClient(clientConfig);
+```
 
-2. **Déployez** le fichier `.war` généré dans votre serveur d'application.
+Pour l'**authentification HTTP Basic** :
 
-3. **Testez** vos endpoints à l'aide d'un outil comme Postman ou Curl.
+```java
+HttpAuthenticationFeature feature = HttpAuthenticationFeature.basic("user", "password");
+client.register(feature);
+```
 
-Ce guide vous donne une introduction complète sur la façon de démarrer avec Jersey pour créer une application Web API RESTful qui gère des ressources `Livre`, y compris les opérations CRUD et les URL pour tester ces opérations.
+Pour la **configuration SSL** :
+
+```java
+SSLContext sslContext = SSLContext.getInstance("TLSv1.2");
+sslContext.init(null, new TrustManager[]{new X509TrustManager() {
+    // Implémentation des méthodes de gestionnaire de confiance
+}}, new SecureRandom());
+client = ClientBuilder.newBuilder().sslContext(sslContext).build();
+```
+
+### Utilisation
+
+Pour utiliser le client `LivreClient`, instanciez-le et appelez la méthode désirée :
+
+```java
+public static void main(String[] args) {
+    LivreClient client = new LivreClient();
+    Livre livre = new Livre("Titre", "Description", "Contenu");
+    
+    // Exemple d'appel de méthode
+    client.createLivre(livre);
+}
+```
+
+Ce guide offre une vue d'ensemble sur la façon de construire et d'utiliser un
+
+ client Jersey pour interagir avec une API RESTful, en prenant l'exemple d'une ressource `Livre`.
 
 ---
 
