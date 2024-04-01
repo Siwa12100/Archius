@@ -26,18 +26,19 @@
 
 * [Cours 4 - PHP Slim](https://perso.limos.fr/~sesalva/files/webservice2A/cours/SOARESTC3.pdf)
 
-
 ## Syntaxes générales
 
-- [API Jersey](./syntaxeNotes/jerseyAPI.md)
+* [API Jersey](./syntaxeNotes/jerseyAPI.md)
 
-- [Client Jersey](./syntaxeNotes/jerseyClient.md)
+* [Client Jersey](./syntaxeNotes/jerseyClient.md)
 
-- [API Springboot](./syntaxeNotes/springbootAPI.md)
+* [API Springboot](./syntaxeNotes/springbootAPI.md)
 
-- [Client Springboot](./syntaxeNotes/springbootClient.md)
+* [Client Springboot](./syntaxeNotes/springbootClient.md)
 
+* [API PHP Slim](./syntaxeNotes/phpSlim.md)
 
+* [Client PHP Guzzle](./syntaxeNotes/phpClient.md)
 
 ---
 
