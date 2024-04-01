@@ -150,6 +150,7 @@ Ce guide offre une vue d'ensemble sur la façon de construire et d'utiliser un
 
  client Jersey pour interagir avec une API RESTful, en prenant l'exemple d'une ressource `Livre`.
 
+
 ---
 
 [...retour au sommaire](../sommaire.md)
