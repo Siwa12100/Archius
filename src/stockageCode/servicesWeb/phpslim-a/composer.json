@@ -1,0 +1,6 @@
+{
+    "require": {
+        "slim/psr7": "^1.6",
+        "slim/slim": "4.*"
+    }
+}
