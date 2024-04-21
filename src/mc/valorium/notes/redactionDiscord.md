@@ -65,3 +65,6 @@ Pour finir, l'association du Valorium, c'est une structure saine et propice pour
 
 ## L'assemblée générale
 
+L'assemblée générale constitue le coeur de la vie associative du Valorium. Elle regroupe au sein de cette catégorie discord l'ensemble des personnes adhérant à l'association, permettant ainsi un support de communication entre ahdérants, ainsi qu'un moyen de diffuser des informations concernant les actualités de l'association du Valorium.
+
+## Le parlement

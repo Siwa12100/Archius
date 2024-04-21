@@ -43,7 +43,19 @@ Le grand conseil d'Emrub a pour but de rassembler l'ensemble des représentants 
 Le but est ainsi de favoriser l'échange entre ces acteurs liés directement depuis le jeu, et de se concentrer sur les sujets qui touchent directement à l'univers en jeu. Il peut s'agir de la mise en place de nouveaux concepts, de l'approfondissement de ceux déjà existants, de potentiels events, mais de manière générale, le but est avant tout d'écouter et de prendre en compte du mieux que possible et avec le plus de précision que possible les ressentis des serveurs vis à vis de leur appartenance au réseau, et de favoriser un espace d'échange; de débats et d'expressions, pour que le développement des concepts liés à Emrub soient bien ceux souhaités par l'ensemble des serveurs, et que chacun s'y retrouve. 
 
 Dans ce sens, c'est au sein du grand conseil d'Emrub que l'acceptation de nouveaux concepts est votée après débats et affinements au besoin, de manière à bien s'assurer qu'une importante majorité des serveurs est d'accord avec leur mise en place, et qu'il ne s'agisse pas d'une contrainte trop importante pour quiconque. 
+
 ### L'Assemblée générale du Valorium
+
+L'assemblée générale a pour but de rassembler l'ensemble des adhérants de l'association du Valorium. C'est ainsi l'occasion de discuter de tout ce qui touche à la vie associative du Valorium, et de diffuser les informations et actualités à son sujet.
+
+Voilà un rappel des différents rôles au sein de l'association, directement issu des statuts de celle-ci :
+
+Membre Classique : Ce statut est ouvert à toute personne intéressée par la mission de l'association. Les membres classiques payent une cotisation annuelle de 5 euros, ce qui leur permet de s'identifier comme faisant partie de la communauté du Valorium et de soutenir financièrement l'association.
+Staff de l'Association : Ce statut est destiné aux individus désirant une implication active dans les activités et projets de l'association. Ils doivent également payer une cotisation annuelle de 10 euros. Le conseil d'administration peut révoquer ce statut si l'implication du membre faiblit, auquel cas le membre retourne au statut de membre classique.
+Représentant d'une Communauté : Ce rôle s'adresse aux gestionnaires de communautés dans le secteur du jeu vidéo et/ou du numérique, avec une cotisation de 10 euros requise par an.
+
+Tous les membres, indépendamment de leur statut, doivent être présents sur le Discord du Valorium, où une catégorie spéciale leur est réservée. Ils ont également le droit de participer aux assemblées générales de l'association.
+
 
 ### Le parlement du Valorium 
 
