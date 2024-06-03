@@ -10,7 +10,7 @@ Le sport traditionnel du Rouergue était et reste le jeu de quilles. Les hommes 
 
 En Rouergue central et septentrional, on joue avec neuf quilles et une grosse boule percée d’une poignée. Le jeu d’aujourd’hui est un sport réglementé qui porte le nom de “quilles de huit” car la neuvième quille (appelée **tampanèl, tampa, tiraira, quilh, bilhon** ou **quilhon**) est frappée avec la boule pour être projetée sur les quilles dressées. Les distances des lancers varient de 5 m en 5 m, entre 5 et 20 m, avec un lancer de la boule seule à 1 m. La **bona** ou **bufa** (parfois appelée **la sèt**) est la quille qu’il faut tomber impérativement dans certains cas de figure.
 
-Au cours de l'opération País I (Ségala-2021), nous avons interrogé l'un des piliers du sport de quilles : Jacques Regoud.
+Au cours de l'opération País I (Ségala-2021), nous avons interrogé l'un des piliers du sport de quilles : Jacques Regourd.
 
 ### Avant 1912
 Avant la codification du jeu de quilles de huit par le docteur Joseph Ayrignac (1874-1951) et ses amis de La Solidarité aveyronnaise en 1912, il existait de nombreuses variantes : 
@@ -50,15 +50,15 @@ La boule (**bola**) était jadis en racine de noyer (**noguièr**), la poignée 
 >Les quilles vivoteront, se nourrissant de la rivalité entre Aveyronnais de Paris et Aveyronnais du pays, notamment après la création de championnats de France en 1946, sans concerner plus de deux à trois cents joueurs répartis dans une vingtaine de sociétés en Aveyron et quatre ou cinq à Paris. L’Aveyron est alors scindé en secteurs géographiques. Rodez, Espalion et Decazeville sont les plus fournis. Les sociétés sont alors nombreuses dans le Bassin : Fontvernhes, Firmi, Hymes, Cransac, Le Gua, Auzits, Aubin, Rulhe, etc. Goutrens, Mayran, Escandolières fourniront aussi leur contingent. 
 
 >Il n’en demeure pas moins qu’en 1957, Jacques Bousquet, directeur des Archives départementales de l’Aveyron, écrira dans la Revue du Rouergue à propos des quilles qu’il faudrait « se hâter d’en noter les règles (…) pour satisfaire la curiosité des historiens de l’avenir. »
->
-> (Regourd Jacques, Calmont de Plancatge)
+
+> (Regourd Jacques)
 
 
 ### 1957 : le jeu de quilles devient un sport
 
-Si les années 60 voient quasiment disparaître les jeux improvisés au profit du jeu codifié mais aussi la plupart des sociétés du Bassin, plusieurs facteurs vont contribuer à perpétuer la pratique de ce jeu, à commencer par sa reconnaissance en tant que sport, précisément en 1957. 
-
-D’autres facteurs interviendront progressivement dans le développement de la pratique, tels que la “réintroduction” des quilles dans le milieu scolaire (USEP), dans les années 70, grâce à des instituteurs dont le plus connu répond au nom d’Henri Recoules, mais aussi la structuration des compétitions grâce à des organisateurs comme Charles Verdier ou Rémy Ginestet, puis l’ouverture de la discipline sur le monde extérieur, proche ou plus éloigné, sa féminisation, sa professionnalisation (embauche d’un conseiller technique), son intégration officielle dans le temps scolaire grâce aux dirigeants les plus récents.
+> Si les années 60 voient quasiment disparaître les jeux improvisés au profit du jeu codifié mais aussi la plupart des sociétés du Bassin, plusieurs facteurs vont contribuer à perpétuer la pratique de ce jeu, à commencer par sa reconnaissance en tant que sport, précisément en 1957. 
+> 
+> D’autres facteurs interviendront progressivement dans le développement de la pratique, tels que la “réintroduction” des quilles dans le milieu scolaire (USEP), dans les années 70, grâce à des instituteurs dont le plus connu répond au nom d’Henri Recoules, mais aussi la structuration des compétitions grâce à des organisateurs comme Charles Verdier ou Rémy Ginestet, puis l’ouverture de la discipline sur le monde extérieur, proche ou plus éloigné, sa féminisation, sa professionnalisation (embauche d’un conseiller technique), son intégration officielle dans le temps scolaire grâce aux dirigeants les plus récents.
 
 #### Aujourd'hui
 
