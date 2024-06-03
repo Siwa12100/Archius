@@ -70,8 +70,12 @@ Il existe plus de 80 clubs de quilles en Aveyron, avec des licenciés masculins 
 
 Pour l’heure, 8 départements pratiquent ce jeu : l’Aveyron, la Haute-Garonne, l’Hérault, la Lozère, le Lot, Paris, le Tarn et le Tarn-et-Garonne.
 
-##### Conclusion
 Le jeu de quilles de huit a su évoluer et s’adapter au fil des décennies, passant d’un simple loisir rural à un sport structuré et reconnu. Aujourd'hui, ce jeu traditionnel continue de rassembler et de passionner de nombreux joueurs de tous âges et horizons, perpétuant ainsi une riche tradition culturelle.
 
-> « Tant que **Sant-Cosme** a pas **jogat**, **Degús** a pas **ganhat**. »  
+> « Tant que **Sant-Cosme** a pas **jogat**,
+**Degús** a pas **ganhat**. »
+
+
+
+*pour schéma :*
 > Bulletin municipal de Cassagnes-Bégonhès, 2020
