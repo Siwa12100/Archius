@@ -1,8 +1,6 @@
 # Archives IOA
 
-## Quilles en Aveyron
-
-### Le sport traditionnel du Rouergue : le jeu de quilles
+## Le sport traditionnel du Rouergue : le jeu de quilles
 
 Le sport traditionnel du Rouergue était et reste le jeu de quilles. Les hommes y jouaient souvent le dimanche après-midi (on disait **far a las quilhas**) et le produit des paris servait à payer **lo quatre-oras**, souvent un **polet sautat** commandé à l’auberge. **Lo quilhièr** était l’espace dédié au jeu et les enfants qui se dévouaient pour relever les quilles tombées par les joueurs et renvoyer la boule recevaient une étrenne.
 > « Nautres, èrem quatre o cinc de la classa, las tornàvem **quilhar** e envoiàvem la **bola**. Nos donavan un **sòu**, cinc centimes. De còps, ganhàvem tres **sòus** aital. »  
