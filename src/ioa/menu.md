@@ -4,19 +4,15 @@
 
 ### Le sport traditionnel du Rouergue : le jeu de quilles
 
-#### Introduction au jeu de quilles
 Le sport traditionnel du Rouergue était et reste le jeu de quilles. Les hommes y jouaient souvent le dimanche après-midi (on disait **far a las quilhas**) et le produit des paris servait à payer **lo quatre-oras**, souvent un **polet sautat** commandé à l’auberge. **Lo quilhièr** était l’espace dédié au jeu et les enfants qui se dévouaient pour relever les quilles tombées par les joueurs et renvoyer la boule recevaient une étrenne.
 > « Nautres, èrem quatre o cinc de la classa, las tornàvem **quilhar** e envoiàvem la **bola**. Nos donavan un **sòu**, cinc centimes. De còps, ganhàvem tres **sòus** aital. »  
 > (Andurand Emile, né en 1906 à La Capelle-Bleys, Al canton de Rieupeyroux p. 160)
 
 > « Nous, nous étions quatre ou cinq du même âge, nous les redressions et nous envoyions la boule. Ils nous donnaient un sou, cinq centimes. Parfois, nous gagnions trois sous ainsi. »
 
-#### Les règles et variantes du jeu
-
-##### Quilles de huit
 En Rouergue central et septentrional, on joue avec neuf quilles et une grosse boule percée d’une poignée. Le jeu d’aujourd’hui est un sport réglementé qui porte le nom de “quilles de huit” car la neuvième quille (appelée **tampanèl, tampa, tiraira, bilhon** ou **quilhon**) est frappée avec la boule pour être projetée sur les quilles dressées. Les distances des lancers varient de 5 m en 5 m, entre 5 et 20 m, avec un lancer de la boule seule à 1 m. La **bona** ou **bufa** (parfois appelée **la sèt**) est la quille qu’il faut tomber impérativement dans certains cas de figure.
 
-##### Variantes historiques
+### Avant 1912
 Avant la codification du jeu de quilles de huit par le docteur Joseph Ayrignac (1874-1951) et ses amis de La Solidarité aveyronnaise en 1912, il existait de nombreuses variantes : 
 - **al torn de quilhièr**
 - **a la bona**
