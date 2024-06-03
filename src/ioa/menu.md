@@ -8,9 +8,17 @@ Le sport traditionnel du Rouergue était et reste le jeu de quilles. Les hommes 
 
 > « Nous, nous étions quatre ou cinq du même âge, nous les redressions et nous envoyions la boule. Ils nous donnaient un sou, cinq centimes. Parfois, nous gagnions trois sous ainsi. »
 
+Au cours de l'opération País I (Ségala-2021), nous avons interrogé l'un des piliers du sport de quilles : Jacques Regourd.
+
+#### En Rouergue central et septentrional
+
 En Rouergue central et septentrional, on joue avec neuf quilles et une grosse boule percée d’une poignée. Le jeu d’aujourd’hui est un sport réglementé qui porte le nom de “quilles de huit” car la neuvième quille (appelée **tampanèl, tampa, tiraira, quilh, bilhon** ou **quilhon**) est frappée avec la boule pour être projetée sur les quilles dressées. Les distances des lancers varient de 5 m en 5 m, entre 5 et 20 m, avec un lancer de la boule seule à 1 m. La **bona** ou **bufa** (parfois appelée **la sèt**) est la quille qu’il faut tomber impérativement dans certains cas de figure.
 
-Au cours de l'opération País I (Ségala-2021), nous avons interrogé l'un des piliers du sport de quilles : Jacques Regourd.
+#### En Rouergue occidental
+En Rouergue occidental et quelque peu sur le Ségala (Castanet, Sauveterre, Prévinquières, Rieupeyroux...), on jouait au rampeau (**rampèl, rampèu**) avec six quilles placées en triangle et une boule d’environ 15 centimètres de diamètre, sans poignée. Souvent, on bâtissait une piste en bois (un peu comme au bowling) pour faire rouler la boule sur dix mètres à trois reprises. Ce jeu donnait lieu à des paris qui furent interdits.
+
+#### En Rouergue méridional
+En Rouergue méridional, on jouait également à une sorte de rampeau, souvent propriété d’un **quilhaire** qui organisait le jeu dans les fêtes de la région moyennant une petite rétribution. Au XVIIIe siècle, le jeu de quilles s’y pratiquait déjà comme au XXe siècle, entre hommes, le dimanche près d’une auberge, avec une bouteille pour enjeu. Le jeu de boules semble y avoir concurrencé le jeu de quilles dès le début du XXe siècle.
 
 ### Avant 1912
 Avant la codification du jeu de quilles de huit par le docteur Joseph Ayrignac (1874-1951) et ses amis de La Solidarité aveyronnaise en 1912, il existait de nombreuses variantes : 
@@ -32,12 +40,6 @@ Avant la codification du jeu de quilles de huit par le docteur Joseph Ayrignac (
 > (Puech André, né en 1924 à Baraqueville, Al canton de Baraqueville-Sauveterre p. 153)
 
 > « Ils jouaient comme aujourd’hui ou alors ils inventaient des jeux. Ils disaient : “Il te faut sortir la quille qui est au milieu mais rien que celle-là !” »
-
-#### En Rouergue occidental
-En Rouergue occidental et quelque peu sur le Ségala (Castanet, Sauveterre, Prévinquières, Rieupeyroux...), on jouait au rampeau (**rampèl, rampèu**) avec six quilles placées en triangle et une boule d’environ 15 centimètres de diamètre, sans poignée. Souvent, on bâtissait une piste en bois (un peu comme au bowling) pour faire rouler la boule sur dix mètres à trois reprises. Ce jeu donnait lieu à des paris qui furent interdits.
-
-#### En Rouergue méridional
-En Rouergue méridional, on jouait également à une sorte de rampeau, souvent propriété d’un **quilhaire** qui organisait le jeu dans les fêtes de la région moyennant une petite rétribution. Au XVIIIe siècle, le jeu de quilles s’y pratiquait déjà comme au XXe siècle, entre hommes, le dimanche près d’une auberge, avec une bouteille pour enjeu. Le jeu de boules semble y avoir concurrencé le jeu de quilles dès le début du XXe siècle.
 
 #### Matériaux et fabrication des équipements
 La boule (**bola**) était jadis en racine de noyer (**noguièr**), la poignée (**ponhada**) y étant creusée dans la masse. Les boules composites modernes sont tout aussi solides mais moins lourdes (28 cm de diamètre maximum, 4 à 6 kg). Les quilles, quant à elles, étaient en hêtre (**fau**) et légèrement arrondies d’un côté. On continue à les fabriquer en hêtre (60 cm de haut pour un diamètre de 7 cm) ou en charme mais il en existe aussi en matière composite. Dans les villages, c’était souvent les sabotiers (**esclopièrs**) qui fabriquaient les jeux de quilles. Au Vibal, sur le Lévézou, trois générations de la famille Courtial (Victor, Raymond et Jean-Louis) ont fabriqué des jeux de quilles.
