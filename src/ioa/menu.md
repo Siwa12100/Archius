@@ -49,30 +49,26 @@ La boule (**bola**) était jadis en racine de noyer (**noguièr**), la poignée 
 > La Grande Guerre interrompra fêtes et concours, mais le jeu de quilles codifié ou non (jusqu’aux années 60, de nombreuses variantes continueront d’avoir cours avec le “jeu à mettre”, les règles étant dans ce cas définies avant les rencontres) reprendra une certaine vigueur. La première société de quilles créée en Aveyron sera celle d’Espalion, le 16 octobre 1921. La société de Rodez verra le jour, quant à elle, en 1934. 
 >Les quilles vivoteront, se nourrissant de la rivalité entre Aveyronnais de Paris et Aveyronnais du pays, notamment après la création de championnats de France en 1946, sans concerner plus de deux à trois cents joueurs répartis dans une vingtaine de sociétés en Aveyron et quatre ou cinq à Paris. L’Aveyron est alors scindé en secteurs géographiques. Rodez, Espalion et Decazeville sont les plus fournis. Les sociétés sont alors nombreuses dans le Bassin : Fontvernhes, Firmi, Hymes, Cransac, Le Gua, Auzits, Aubin, Rulhe, etc. Goutrens, Mayran, Escandolières fourniront aussi leur contingent. 
 
->Il n’en demeure pas moins qu’en 1957, Jacques Bousquet, directeur des Archives départementales de l’Aveyron, écrira dans la Revue du Rouergue à propos des quilles qu’il faudrait « se hâter d’en noter les règles (…) pour satisfaire la curiosité des historiens de l’avenir. »
-
-> (Regourd Jacques)
+>Il n’en demeure pas moins qu’en 1957, Jacques Bousquet, directeur des Archives départementales de l’Aveyron, écrira dans la Revue du Rouergue à propos des quilles qu’il faudrait « se hâter d’en noter les règles (…) pour satisfaire la curiosité des historiens de l’avenir. » (Regourd Jacques)
 
 
 ### 1957 : le jeu de quilles devient un sport
 
-> Si les années 60 voient quasiment disparaître les jeux improvisés au profit du jeu codifié mais aussi la plupart des sociétés du Bassin, plusieurs facteurs vont contribuer à perpétuer la pratique de ce jeu, à commencer par sa reconnaissance en tant que sport, précisément en 1957. 
+> "Si les années 60 voient quasiment disparaître les jeux improvisés au profit du jeu codifié mais aussi la plupart des sociétés du Bassin, plusieurs facteurs vont contribuer à perpétuer la pratique de ce jeu, à commencer par sa reconnaissance en tant que sport, précisément en 1957. 
 > 
-> D’autres facteurs interviendront progressivement dans le développement de la pratique, tels que la “réintroduction” des quilles dans le milieu scolaire (USEP), dans les années 70, grâce à des instituteurs dont le plus connu répond au nom d’Henri Recoules, mais aussi la structuration des compétitions grâce à des organisateurs comme Charles Verdier ou Rémy Ginestet, puis l’ouverture de la discipline sur le monde extérieur, proche ou plus éloigné, sa féminisation, sa professionnalisation (embauche d’un conseiller technique), son intégration officielle dans le temps scolaire grâce aux dirigeants les plus récents.
+> D’autres facteurs interviendront progressivement dans le développement de la pratique, tels que la “réintroduction” des quilles dans le milieu scolaire (USEP), dans les années 70, grâce à des instituteurs dont le plus connu répond au nom d’Henri Recoules, mais aussi la structuration des compétitions grâce à des organisateurs comme Charles Verdier ou Rémy Ginestet, puis l’ouverture de la discipline sur le monde extérieur, proche ou plus éloigné, sa féminisation, sa professionnalisation (embauche d’un conseiller technique), son intégration officielle dans le temps scolaire grâce aux dirigeants les plus récents." (Regourd Jacques)
 
-#### Aujourd'hui
+### Aujourd'hui
 
-Aujourd’hui, les quilles de huit sont devenues un sport reconnu, avec une équipe technique et des éducateurs diplômés (plus de 180), non seulement par les ministères de la Jeunesse et des Sports ou de l’Éducation nationale, mais aussi à l’international par l’Association Européenne des Jeux et Sports Traditionnels (AEJeST). Contre toute attente, les quelques centaines d’irréductibles pratiquants de l’époque auront été multipliés par plus de 10 puisqu’en 2012 plus de 4 600 quilleurs/euses licenciés ont été dénombrés, faisant du sport de quilles de huit le deuxième sport le plus pratiqué en Aveyron, après le football et, au plan national, la deuxième discipline de la Fédération Française de Bowling et de Sport de Quilles (FFBSQ), derrière le bowling.
+> "Aujourd’hui, les quilles de huit sont devenues un sport reconnu, avec une équipe technique et des éducateurs diplômés (plus de 180), non seulement par les ministères de la Jeunesse et des Sports ou de l’Éducation nationale, mais aussi à l’international par l’Association Européenne des Jeux et Sports Traditionnels (AEJeST). Contre toute attente, les quelques centaines d’irréductibles pratiquants de l’époque auront été multipliés par plus de 10 puisqu’en 2012 plus de 4 600 quilleurs/euses licenciés ont été dénombrés, faisant du sport de quilles de huit le deuxième sport le plus pratiqué en Aveyron, après le football et, au plan national, la deuxième discipline de la Fédération Française de Bowling et de Sport de Quilles (FFBSQ), derrière le bowling.
+> 
+> Aujourd'hui, on peut dire que le jeu de quilles aveyronnais se porte bien. Outre l’encadrement des instances purement sportives, il bénéficie du soutien de l’Association intercommunale de promotion sportive et culturelle des quilles de huit depuis 1995 (association qui a reçu en 2019 le trophée des bonnes pratiques de promotion des Jeux et Sports Traditionnels de la part de l’AEJeST) et de celui de l’Amicale parlementaire des sports et jeux traditionnels créée en 2010. Et, comme toute autre discipline sportive, le jeu de quilles peut être enseigné dans les écoles du département pendant le temps scolaire." (Regourd Jacques)
 
-#### Les infrastructures et la pratique moderne
-Aujourd'hui, on peut dire que le jeu de quilles aveyronnais se porte bien. Outre l’encadrement des instances purement sportives, il bénéficie du soutien de l’Association intercommunale de promotion sportive et culturelle des quilles de huit depuis 1995 (association qui a reçu en 2019 le trophée des bonnes pratiques de promotion des Jeux et Sports Traditionnels de la part de l’AEJeST) et de celui de l’Amicale parlementaire des sports et jeux traditionnels créée en 2010. Et, comme toute autre discipline sportive, le jeu de quilles peut être enseigné dans les écoles du département pendant le temps scolaire.
+### Plus de 80 clubs de quilles en Aveyron
 
-##### Clubs et installations modernes
 Il existe plus de 80 clubs de quilles en Aveyron, avec des licenciés masculins et féminins de tous âges. Campuac a construit le plus grand quillodrome couvert de l’Aveyron (avec système d’arrosage) et certaines communes ou villages du département ont des bâtiments permettant aux quilhaires de jouer à l’abri du mauvais temps (Trémouilles, Le Trauc-Rodez et Onet le Château, Bertholène, Bozouls, Espalion, Laguiole, Limayrac, Sainte-Geneviève, Millau). Baraqueville et Cassagnes-Bégonhès devraient aussi avoir leur quillodrome couvert prochainement. Sur les 60 écoles de quilles de huit fédérales, 54 se situent en Aveyron.
 
-Pour l
-
-’heure, 8 départements pratiquent ce jeu : l’Aveyron, la Haute-Garonne, l’Hérault, la Lozère, le Lot, Paris, le Tarn et le Tarn-et-Garonne.
+Pour l’heure, 8 départements pratiquent ce jeu : l’Aveyron, la Haute-Garonne, l’Hérault, la Lozère, le Lot, Paris, le Tarn et le Tarn-et-Garonne.
 
 ##### Conclusion
 Le jeu de quilles de huit a su évoluer et s’adapter au fil des décennies, passant d’un simple loisir rural à un sport structuré et reconnu. Aujourd'hui, ce jeu traditionnel continue de rassembler et de passionner de nombreux joueurs de tous âges et horizons, perpétuant ainsi une riche tradition culturelle.
