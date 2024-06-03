@@ -28,6 +28,10 @@ Ce dépôt me permet de stocker une partie de mes prises de notes, et de manièr
 - [Archives du Valorium](./src/mc/valorium/accueil.md)
 - [Elendil](./src/mc/Elendil/Ligue.md)
 
+### Autre
+
+- [Ioa](./src/ioa/menu.md)
+
 ### Révisions DS
 
 - [SAE Reseau](./src/saeReseau/notes1.md)
