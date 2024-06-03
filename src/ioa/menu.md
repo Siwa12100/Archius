@@ -42,15 +42,10 @@ En Rouergue méridional, on jouait également à une sorte de rampeau, souvent p
 #### Matériaux et fabrication des équipements
 La boule (**bola**) était jadis en racine de noyer (**noguièr**), la poignée (**ponhada**) y étant creusée dans la masse. Les boules composites modernes sont tout aussi solides mais moins lourdes (28 cm de diamètre maximum, 4 à 6 kg). Les quilles, quant à elles, étaient en hêtre (**fau**) et légèrement arrondies d’un côté. On continue à les fabriquer en hêtre (60 cm de haut pour un diamètre de 7 cm) ou en charme mais il en existe aussi en matière composite. Dans les villages, c’était souvent les sabotiers (**esclopièrs**) qui fabriquaient les jeux de quilles. Au Vibal, sur le Lévézou, trois générations de la famille Courtial (Victor, Raymond et Jean-Louis) ont fabriqué des jeux de quilles.
 
-### Le témoignage de Jacques Regourd
+### La codification de 1912
 Au cours de l’opération País I (Ségala-2021), nous avons rencontré Jacques Regourd sur la commune de Calmont. Habitant de Magrin, village qui organisa le championnat de France de quilles de huit en août 2021, et passionné par ce sport, il s’investit d’abord dans le club de son village d’adoption, puis au comité départemental et dans les instances nationales, avant de participer à la création (en 2000) de l’Association Européenne des Jeux et Sports Traditionnels dont l’hymne n’est autre que notre **Se canta occitan** (voir son **Camin de vida**). Il nous a aimablement permis de publier des passages de l’ouvrage qu’il avait rédigé à l’occasion du cinquantenaire du Sport quilles Magrin-Parlan en 2013. 
 
 > « Le printemps 1912 aura été déterminant dans la destinée du jeu de quilles de huit, appelé jusqu’à la fin des années 50 “quilles de neuf aveyronnaises” car il correspond à sa codification, synthèse librement acceptée par les participants aux fêtes organisées par les Aveyronnais de la capitale réunis au sein d’une amicale, La Solidarité aveyronnaise, créée en 1907 et présidée par Joseph Ayrignac. Le nom des trois “solidaires” ayant rédigé le premier règlement, MM. Garric, originaire de Rodez, Quintard, originaire d’Espalion et Plagnard, de Prades d’Aubrac, est ainsi passé à la postérité. »
-
-
-
-
-
 
 
 #### La renaissance du jeu après la guerre
