@@ -64,7 +64,7 @@ La boule (**bola**) était jadis en racine de noyer (**noguièr**), la poignée 
 > 
 > Aujourd'hui, on peut dire que le jeu de quilles aveyronnais se porte bien. Outre l’encadrement des instances purement sportives, il bénéficie du soutien de l’Association intercommunale de promotion sportive et culturelle des quilles de huit depuis 1995 (association qui a reçu en 2019 le trophée des bonnes pratiques de promotion des Jeux et Sports Traditionnels de la part de l’AEJeST) et de celui de l’Amicale parlementaire des sports et jeux traditionnels créée en 2010. Et, comme toute autre discipline sportive, le jeu de quilles peut être enseigné dans les écoles du département pendant le temps scolaire.» (Regourd Jacques)
 
-### Plus de 80 clubs de quilles en Aveyron
+### Plus de 80 clubs de quilles en Aveyron ! 
 
 Il existe plus de 80 clubs de quilles en Aveyron, avec des licenciés masculins et féminins de tous âges. Campuac a construit le plus grand quillodrome couvert de l’Aveyron (avec système d’arrosage) et certaines communes ou villages du département ont des bâtiments permettant aux quilhaires de jouer à l’abri du mauvais temps (Trémouilles, Le Trauc-Rodez et Onet le Château, Bertholène, Bozouls, Espalion, Laguiole, Limayrac, Sainte-Geneviève, Millau). Baraqueville et Cassagnes-Bégonhès devraient aussi avoir leur quillodrome couvert prochainement. Sur les 60 écoles de quilles de huit fédérales, 54 se situent en Aveyron.
 
