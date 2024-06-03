@@ -40,18 +40,16 @@ En Rouergue méridional, on jouait également à une sorte de rampeau, souvent p
 #### Matériaux et fabrication des équipements
 La boule (**bola**) était jadis en racine de noyer (**noguièr**), la poignée (**ponhada**) y étant creusée dans la masse. Les boules composites modernes sont tout aussi solides mais moins lourdes (28 cm de diamètre maximum, 4 à 6 kg). Les quilles, quant à elles, étaient en hêtre (**fau**) et légèrement arrondies d’un côté. On continue à les fabriquer en hêtre (60 cm de haut pour un diamètre de 7 cm) ou en charme mais il en existe aussi en matière composite. Dans les villages, c’était souvent les sabotiers (**esclopièrs**) qui fabriquaient les jeux de quilles. Au Vibal, sur le Lévézou, trois générations de la famille Courtial (Victor, Raymond et Jean-Louis) ont fabriqué des jeux de quilles.
 
-### La codification de 1912
+### De 1912 aux années 60
 
+> « Le printemps 1912 aura été déterminant dans la destinée du jeu de quilles de huit, appelé jusqu’à la fin des années 50 “quilles de neuf aveyronnaises” car il correspond à sa codification, synthèse librement acceptée par les participants aux fêtes organisées par les Aveyronnais de la capitale réunis au sein d’une amicale, La Solidarité aveyronnaise, créée en 1907 et présidée par Joseph Ayrignac. Le nom des trois “solidaires” ayant rédigé le premier règlement, MM. Garric, originaire de Rodez, Quintard, originaire d’Espalion et Plagnard, de Prades d’Aubrac, est ainsi passé à la postérité.
+> La Grande Guerre interrompra fêtes et concours, mais le jeu de quilles codifié ou non (jusqu’aux années 60, de nombreuses variantes continueront > d’avoir cours avec le “jeu à mettre”, les règles étant dans ce cas définies avant les rencontres) reprendra une certaine vigueur. La première société de quilles créée en Aveyron sera celle d’Espalion, le 16 octobre 1921. La société de Rodez verra le jour, quant à elle, en 1934. 
+>Les quilles vivoteront, se nourrissant de la rivalité entre Aveyronnais de Paris et Aveyronnais du pays, notamment après la création de championnats de France en 1946, sans concerner plus de deux à trois cents joueurs répartis dans une vingtaine de sociétés en Aveyron et quatre ou cinq à Paris. L’Aveyron est alors scindé en secteurs géographiques. Rodez, Espalion et Decazeville sont les plus fournis. Les sociétés sont alors nombreuses dans le Bassin : Fontvernhes, Firmi, Hymes, Cransac, Le Gua, Auzits, Aubin, Rulhe, etc. Goutrens, Mayran, Escandolières fourniront aussi leur contingent. 
 
-> « Le printemps 1912 aura été déterminant dans la destinée du jeu de quilles de huit, appelé jusqu’à la fin des années 50 “quilles de neuf aveyronnaises” car il correspond à sa codification, synthèse librement acceptée par les participants aux fêtes organisées par les Aveyronnais de la capitale réunis au sein d’une amicale, La Solidarité aveyronnaise, créée en 1907 et présidée par Joseph Ayrignac. Le nom des trois “solidaires” ayant rédigé le premier règlement, MM. Garric, originaire de Rodez, Quintard, originaire d’Espalion et Plagnard, de Prades d’Aubrac, est ainsi passé à la postérité. »
+>Il n’en demeure pas moins qu’en 1957, Jacques Bousquet, directeur des Archives départementales de l’Aveyron, écrira dans la Revue du Rouergue à propos des quilles qu’il faudrait « se hâter d’en noter les règles (…) pour satisfaire la curiosité des historiens de l’avenir. »
+>
 > (Regourd Jacques, Calmont de Plancatgue)
 
-
-#### La renaissance du jeu après la guerre
-La Grande Guerre interrompra fêtes et concours, mais le jeu de quilles codifié ou non (jusqu’aux années 60, de nombreuses variantes continueront d’avoir cours avec le “jeu à mettre”, les règles étant dans ce cas définies avant les rencontres) reprendra une certaine vigueur. La première société de quilles créée en Aveyron sera celle d’Espalion, le 16 octobre 1921. La société de Rodez verra le jour, quant à elle, en 1934. 
-Les quilles vivoteront, se nourrissant de la rivalité entre Aveyronnais de Paris et Aveyronnais du pays, notamment après la création de championnats de France en 1946, sans concerner plus de deux à trois cents joueurs répartis dans une vingtaine de sociétés en Aveyron et quatre ou cinq à Paris. L’Aveyron est alors scindé en secteurs géographiques. Rodez, Espalion et Decazeville sont les plus fournis. Les sociétés sont alors nombreuses dans le Bassin : Fontvernhes, Firmi, Hymes, Cransac, Le Gua, Auzits, Aubin, Rulhe, etc. Goutrens, Mayran, Escandolières fourniront aussi leur contingent. 
-
-Il n’en demeure pas moins qu’en 1957, Jacques Bousquet, directeur des Archives départementales de l’Aveyron, écrira dans la Revue du Rouergue à propos des quilles qu’il faudrait « se hâter d’en noter les règles (…) pour satisfaire la curiosité des historiens de l’avenir. »
 
 #### Le jeu de quilles aujourd'hui
 
