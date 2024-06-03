@@ -10,7 +10,7 @@ Le sport traditionnel du Rouergue était et reste le jeu de quilles. Les hommes 
 
 > « Nous, nous étions quatre ou cinq du même âge, nous les redressions et nous envoyions la boule. Ils nous donnaient un sou, cinq centimes. Parfois, nous gagnions trois sous ainsi. »
 
-En Rouergue central et septentrional, on joue avec neuf quilles et une grosse boule percée d’une poignée. Le jeu d’aujourd’hui est un sport réglementé qui porte le nom de “quilles de huit” car la neuvième quille (appelée **tampanèl, tampa, tiraira, bilhon** ou **quilhon**) est frappée avec la boule pour être projetée sur les quilles dressées. Les distances des lancers varient de 5 m en 5 m, entre 5 et 20 m, avec un lancer de la boule seule à 1 m. La **bona** ou **bufa** (parfois appelée **la sèt**) est la quille qu’il faut tomber impérativement dans certains cas de figure.
+En Rouergue central et septentrional, on joue avec neuf quilles et une grosse boule percée d’une poignée. Le jeu d’aujourd’hui est un sport réglementé qui porte le nom de “quilles de huit” car la neuvième quille (appelée **tampanèl, tampa, tiraira, quilh, bilhon** ou **quilhon**) est frappée avec la boule pour être projetée sur les quilles dressées. Les distances des lancers varient de 5 m en 5 m, entre 5 et 20 m, avec un lancer de la boule seule à 1 m. La **bona** ou **bufa** (parfois appelée **la sèt**) est la quille qu’il faut tomber impérativement dans certains cas de figure.
 
 ### Avant 1912
 Avant la codification du jeu de quilles de huit par le docteur Joseph Ayrignac (1874-1951) et ses amis de La Solidarité aveyronnaise en 1912, il existait de nombreuses variantes : 
@@ -26,6 +26,7 @@ Avant la codification du jeu de quilles de huit par le docteur Joseph Ayrignac (
 - **al jòc traucat**
 - **a curar** (ou **sortir**) **l’uòu**
 - **a las pensas**
+- (...)   
 
 > « **Jogavan** coma **duèi** o alara inventavan de **jòcs**. **Disián** : “Te cal **sortir la quilha** qu’es al **mièg** mès pas qu’aquela !” »  
 > (Puech André, né en 1924 à Baraqueville, Al canton de Baraqueville-Sauveterre p. 153)
