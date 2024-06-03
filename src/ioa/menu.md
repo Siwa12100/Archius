@@ -8,8 +8,6 @@ Le sport traditionnel du Rouergue était et reste le jeu de quilles. Les hommes 
 
 > « Nous, nous étions quatre ou cinq du même âge, nous les redressions et nous envoyions la boule. Ils nous donnaient un sou, cinq centimes. Parfois, nous gagnions trois sous ainsi. »
 
-Au cours de l'opération País I (Ségala-2021), nous avons interrogé l'un des piliers du sport de quilles : Jacques Regourd.
-
 #### En Rouergue central et septentrional
 
 En Rouergue central et septentrional, on joue avec neuf quilles et une grosse boule percée d’une poignée. Le jeu d’aujourd’hui est un sport réglementé qui porte le nom de “quilles de huit” car la neuvième quille (appelée **tampanèl, tampa, tiraira, quilh, bilhon** ou **quilhon**) est frappée avec la boule pour être projetée sur les quilles dressées. Les distances des lancers varient de 5 m en 5 m, entre 5 et 20 m, avec un lancer de la boule seule à 1 m. La **bona** ou **bufa** (parfois appelée **la sèt**) est la quille qu’il faut tomber impérativement dans certains cas de figure.
@@ -45,6 +43,8 @@ Avant la codification du jeu de quilles de huit par le docteur Joseph Ayrignac (
 > « Ils jouaient comme aujourd’hui ou alors ils inventaient des jeux. Ils disaient : “Il te faut sortir la quille qui est au milieu mais rien que celle-là !” »
 
 ### De 1912 aux années 1960
+
+Au cours de l'opération País I (Ségala-2021), nous avons interrogé l'un des piliers du sport de quilles : Jacques Regourd. (+ camin de vida...)
 
 > « Le printemps 1912 aura été déterminant dans la destinée du jeu de quilles de huit, appelé jusqu’à la fin des années 50 “quilles de neuf aveyronnaises” car il correspond à sa codification, synthèse librement acceptée par les participants aux fêtes organisées par les Aveyronnais de la capitale réunis au sein d’une amicale, La Solidarité aveyronnaise, créée en 1907 et présidée par Joseph Ayrignac. Le nom des trois “solidaires” ayant rédigé le premier règlement, MM. Garric, originaire de Rodez, Quintard, originaire d’Espalion et Plagnard, de Prades d’Aubrac, est ainsi passé à la postérité.
 >
