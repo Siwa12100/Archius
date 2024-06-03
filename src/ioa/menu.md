@@ -32,23 +32,23 @@ Avant la codification du jeu de quilles de huit par le docteur Joseph Ayrignac (
 
 > « Ils jouaient comme aujourd’hui ou alors ils inventaient des jeux. Ils disaient : “Il te faut sortir la quille qui est au milieu mais rien que celle-là !” »
 
-#### Matériaux et fabrication des équipements
-La boule (**bola**) était jadis en racine de noyer (**noguièr**), la poignée (**ponhada**) y étant creusée dans la masse. Les boules composites modernes sont tout aussi solides mais moins lourdes (28 cm de diamètre maximum, 4 à 6 kg). Les quilles, quant à elles, étaient en hêtre (**fau**) et légèrement arrondies d’un côté. On continue à les fabriquer en hêtre (60 cm de haut pour un diamètre de 7 cm) ou en charme mais il en existe aussi en matière composite. Dans les villages, c’était souvent les sabotiers (**esclopièrs**)
+#### En rouergue occidental
+En Rouergue occidental et quelque peu sur le Ségala (Castanet, Sauveterre, Prévinquières, Rieupeyroux...), on jouait au rampeau (**rampèl, rampèu**) avec six quilles placées en triangle et une boule d’environ 15 centimètres de diamètre, sans poignée. Souvent, on bâtissait une piste en bois (un peu comme au bowling) pour faire rouler la boule sur dix mètres à trois reprises. Ce jeu donnait lieu à des paris qui furent interdits.
 
- qui fabriquaient les jeux de quilles. Au Vibal, sur le Lévézou, trois générations de la famille Courtial (Victor, Raymond et Jean-Louis) ont fabriqué des jeux de quilles.
-
-#### Variantes régionales du jeu
-
-##### Rampeau
-En Rouergue occidental et quelque peu sur le Ségala (Castanet, Sauveterre, Prévinquières, Rieupeyroux...), on jouait au rampeau (**rampèl, rampèu**) avec six quilles placées en triangle et une boule d’environ 15 centimètres de diamètre, sans poignée. Souvent, on bâtissait une piste en bois (un peu comme au bowling) pour faire rouler la boule sur dix mètres à trois reprises. Ce jeu donnait lieu à des paris qui furent interdits. 
-
-##### Rampeau méridional
+#### En rouergue méridional
 En Rouergue méridional, on jouait également à une sorte de rampeau, souvent propriété d’un **quilhaire** qui organisait le jeu dans les fêtes de la région moyennant une petite rétribution. Au XVIIIe siècle, le jeu de quilles s’y pratiquait déjà comme au XXe siècle, entre hommes, le dimanche près d’une auberge, avec une bouteille pour enjeu. Le jeu de boules semble y avoir concurrencé le jeu de quilles dès le début du XXe siècle.
 
 #### Un témoignage contemporain
 Au cours de l’opération País I (Ségala-2021), nous avons rencontré Jacques Regourd sur la commune de Calmont. Habitant de Magrin, village qui organisa le championnat de France de quilles de huit en août 2021, et passionné par ce sport, il s’investit d’abord dans le club de son village d’adoption, puis au comité départemental et dans les instances nationales, avant de participer à la création (en 2000) de l’Association Européenne des Jeux et Sports Traditionnels dont l’hymne n’est autre que notre **Se canta occitan** (voir son **Camin de vida**). Il nous a aimablement permis de publier des passages de l’ouvrage qu’il avait rédigé à l’occasion du cinquantenaire du Sport quilles Magrin-Parlan en 2013. 
 
 > « Le printemps 1912 aura été déterminant dans la destinée du jeu de quilles de huit, appelé jusqu’à la fin des années 50 “quilles de neuf aveyronnaises” car il correspond à sa codification, synthèse librement acceptée par les participants aux fêtes organisées par les Aveyronnais de la capitale réunis au sein d’une amicale, La Solidarité aveyronnaise, créée en 1907 et présidée par Joseph Ayrignac. Le nom des trois “solidaires” ayant rédigé le premier règlement, MM. Garric, originaire de Rodez, Quintard, originaire d’Espalion et Plagnard, de Prades d’Aubrac, est ainsi passé à la postérité. »
+
+### Matériaux et fabrication des équipements
+La boule (**bola**) était jadis en racine de noyer (**noguièr**), la poignée (**ponhada**) y étant creusée dans la masse. Les boules composites modernes sont tout aussi solides mais moins lourdes (28 cm de diamètre maximum, 4 à 6 kg). Les quilles, quant à elles, étaient en hêtre (**fau**) et légèrement arrondies d’un côté. On continue à les fabriquer en hêtre (60 cm de haut pour un diamètre de 7 cm) ou en charme mais il en existe aussi en matière composite. Dans les villages, c’était souvent les sabotiers (**esclopièrs**) qui fabriquaient les jeux de quilles. Au Vibal, sur le Lévézou, trois générations de la famille Courtial (Victor, Raymond et Jean-Louis) ont fabriqué des jeux de quilles.
+
+
+
+
 
 #### La renaissance du jeu après la guerre
 La Grande Guerre interrompra fêtes et concours, mais le jeu de quilles codifié ou non (jusqu’aux années 60, de nombreuses variantes continueront d’avoir cours avec le “jeu à mettre”, les règles étant dans ce cas définies avant les rencontres) reprendra une certaine vigueur. La première société de quilles créée en Aveyron sera celle d’Espalion, le 16 octobre 1921. La société de Rodez verra le jour, quant à elle, en 1934. 
