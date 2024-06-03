@@ -44,7 +44,7 @@ Avant la codification du jeu de quilles de huit par le docteur Joseph Ayrignac (
 
 ### De 1912 aux années 1960
 
-Au cours de l'opération País I (Ségala-2021), nous avons interrogé l'un des piliers du sport de quilles : Jacques Regourd. (+ camin de vida...)
+Au cours de l'opération País I (Ségala-2021), nous avons interrogé l'un des piliers du sport de quilles : Jacques Regourd. Nous publions quelques extraits de l'ouvrage qu'il a rédigé à l'occasion du cinquantenaire du sport quilles Magrin-Parlan en 2013.(+ camin de vida...)
 
 > « Le printemps 1912 aura été déterminant dans la destinée du jeu de quilles de huit, appelé jusqu’à la fin des années 50 “quilles de neuf aveyronnaises” car il correspond à sa codification, synthèse librement acceptée par les participants aux fêtes organisées par les Aveyronnais de la capitale réunis au sein d’une amicale, La Solidarité aveyronnaise, créée en 1907 et présidée par Joseph Ayrignac. Le nom des trois “solidaires” ayant rédigé le premier règlement, MM. Garric, originaire de Rodez, Quintard, originaire d’Espalion et Plagnard, de Prades d’Aubrac, est ainsi passé à la postérité.
 >
