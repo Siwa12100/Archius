@@ -49,7 +49,7 @@ La boule (**bola**) était jadis en racine de noyer (**noguièr**), la poignée 
 
 >Il n’en demeure pas moins qu’en 1957, Jacques Bousquet, directeur des Archives départementales de l’Aveyron, écrira dans la Revue du Rouergue à propos des quilles qu’il faudrait « se hâter d’en noter les règles (…) pour satisfaire la curiosité des historiens de l’avenir. »
 >
-> (Regourd Jacques, Calmont de Plancatgue)
+> (Regourd Jacques, Calmont de Plancatge)
 
 
 #### Le jeu de quilles aujourd'hui
