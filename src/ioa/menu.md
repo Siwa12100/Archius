@@ -40,7 +40,7 @@ En Rouergue méridional, on jouait également à une sorte de rampeau, souvent p
 #### Matériaux et fabrication des équipements
 La boule (**bola**) était jadis en racine de noyer (**noguièr**), la poignée (**ponhada**) y étant creusée dans la masse. Les boules composites modernes sont tout aussi solides mais moins lourdes (28 cm de diamètre maximum, 4 à 6 kg). Les quilles, quant à elles, étaient en hêtre (**fau**) et légèrement arrondies d’un côté. On continue à les fabriquer en hêtre (60 cm de haut pour un diamètre de 7 cm) ou en charme mais il en existe aussi en matière composite. Dans les villages, c’était souvent les sabotiers (**esclopièrs**) qui fabriquaient les jeux de quilles. Au Vibal, sur le Lévézou, trois générations de la famille Courtial (Victor, Raymond et Jean-Louis) ont fabriqué des jeux de quilles.
 
-### De 1912 aux années 60
+### De 1912 aux années 1960
 
 > « Le printemps 1912 aura été déterminant dans la destinée du jeu de quilles de huit, appelé jusqu’à la fin des années 50 “quilles de neuf aveyronnaises” car il correspond à sa codification, synthèse librement acceptée par les participants aux fêtes organisées par les Aveyronnais de la capitale réunis au sein d’une amicale, La Solidarité aveyronnaise, créée en 1907 et présidée par Joseph Ayrignac. Le nom des trois “solidaires” ayant rédigé le premier règlement, MM. Garric, originaire de Rodez, Quintard, originaire d’Espalion et Plagnard, de Prades d’Aubrac, est ainsi passé à la postérité.
 >
@@ -52,9 +52,8 @@ La boule (**bola**) était jadis en racine de noyer (**noguièr**), la poignée 
 > (Regourd Jacques, Calmont de Plancatge)
 
 
-#### Le jeu de quilles aujourd'hui
+### 1957 : le jeu de quilles devient un sport
 
-##### Les années 60 et la codification du jeu
 Si les années 60 voient quasiment disparaître les jeux improvisés au profit du jeu codifié mais aussi la plupart des sociétés du Bassin, plusieurs facteurs vont contribuer à perpétuer la pratique de ce jeu, à commencer par sa reconnaissance en tant que sport, précisément en 1957. 
 
 D’autres facteurs interviendront progressivement dans le développement de la pratique, tels que la “réintroduction” des quilles dans le milieu scolaire (USEP), dans les années 70, grâce à des instituteurs dont le plus connu répond au nom d’Henri Recoules, mais aussi la structuration des compétitions grâce à des organisateurs comme Charles Verdier ou Rémy Ginestet, puis l’ouverture de la discipline sur le monde extérieur, proche ou plus éloigné, sa féminisation, sa professionnalisation (embauche d’un conseiller technique), son intégration officielle dans le temps scolaire grâce aux dirigeants les plus récents.
