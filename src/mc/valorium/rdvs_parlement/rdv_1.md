@@ -15,16 +15,16 @@ Lors de cette réunion, les participants ont discuté des objectifs principaux d
 
 Plusieurs organisations ont présenté leurs activités et leurs besoins :
 
-- **L'Alliance de Endal** : Un regroupement de serveurs Minecraft centré sur la survie, qui travaille à la refonte de leur système et au développement d'un bot Discord pour mieux suivre et gérer les interactions des joueurs.
+- **L'Alliance** : Un regroupement de serveurs Minecraft centré sur la survie, qui travaille à la refonte de leur système et au développement d'un bot Discord pour mieux suivre et gérer les interactions des joueurs.
 
 - **Gunivers** : Une communauté de créateurs engagés dans divers projets, allant des data packs à des développements plus larges comme des bibliothèques et des outils pour Minecraft. Ils expriment un besoin accru de participants pour mener à bien leurs projets ambitieux.
 
-- **Scorpia** : Une association qui fournit des services d'hébergement variés, allant des serveurs de jeux à des solutions VPS. Ils discutent de leur partenariat avec Endal et de leur capacité à soutenir techniquement d'autres projets.
+- **Scorpia** : Une association qui fournit des services d'hébergement variés, allant des serveurs de jeux à des solutions VPS. Ils discutent de leur partenariat avec Elendil et de leur capacité à soutenir techniquement d'autres projets.
 
-### Développement de Myade et Autres Projets Techniques
+### Développement de Myriade et Autres Projets Techniques
 
-Le projet Myade a été un sujet clé, avec des discussions sur son développement et ses capacités futures :
-- **Myade** : Un système de portails permettant aux joueurs de se déplacer facilement entre les serveurs. Des tests sont prévus pour intégrer Myade à d'autres plateformes, ce qui pourrait grandement améliorer la connectivité entre les communautés.
+Le projet Myriade a été un sujet clé, avec des discussions sur son développement et ses capacités futures :
+- **Myriade** : Un système de portails permettant aux joueurs de se déplacer facilement entre les serveurs. Des tests sont prévus pour intégrer Myade à d'autres plateformes, ce qui pourrait grandement améliorer la connectivité entre les communautés.
 
 ### Stratégies de Communication et de Visibilité
 
