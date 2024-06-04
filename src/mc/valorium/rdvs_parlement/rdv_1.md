@@ -2,7 +2,7 @@
 
 [Enregistrement de la séance](https://www.youtube.com/watch?v=gGs9Mt4QJmc)
 
-## Résumé de la Réunion Discord sur le Développement de Valorium et Présentation des Organismes
+## Résumé de la Réunion Discord sur le Développement du Valorium et Présentation des Organismes
 
 ### Objectifs et Présentation de Valorium
 
