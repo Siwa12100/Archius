@@ -60,11 +60,13 @@ Au cours de l'opération País I (Ségala-2021), nous avons interrogé l'un des 
 > 
 > D’autres facteurs interviendront progressivement dans le développement de la pratique, tels que la “réintroduction” des quilles dans le milieu scolaire (USEP), dans les années 70, grâce à des instituteurs dont le plus connu répond au nom d’Henri Recoules, mais aussi la structuration des compétitions grâce à des organisateurs comme Charles Verdier ou Rémy Ginestet, puis l’ouverture de la discipline sur le monde extérieur, proche ou plus éloigné, sa féminisation, sa professionnalisation (embauche d’un conseiller technique), son intégration officielle dans le temps scolaire grâce aux dirigeants les plus récents.» (Regourd Jacques)
 
+Pendant l'opération Pais II (Comtal, Lot et Truyère - 2022), nous avons collecté les souvenirs de cette autre grande figure aveyronnaise du jeu de quilles de 8 : Henri Recoules + camin de Vida...
+
 ### Aujourd'hui
 
->  « Aujourd’hui, les quilles de huit sont devenues un sport reconnu, avec une équipe technique et des éducateurs diplômés (plus de 180), non seulement par les ministères de la Jeunesse et des Sports ou de l’Éducation nationale, mais aussi à l’international par l’Association Européenne des Jeux et Sports Traditionnels (AEJeST). Contre toute attente, les quelques centaines d’irréductibles pratiquants de l’époque auront été multipliés par plus de 10 puisqu’en 2012 plus de 4 600 quilleurs/euses licenciés ont été dénombrés, faisant du sport de quilles de huit le deuxième sport le plus pratiqué en Aveyron, après le football et, au plan national, la deuxième discipline de la Fédération Française de Bowling et de Sport de Quilles (FFBSQ), derrière le bowling.
-> 
-> Aujourd'hui, on peut dire que le jeu de quilles aveyronnais se porte bien. Outre l’encadrement des instances purement sportives, il bénéficie du soutien de l’Association intercommunale de promotion sportive et culturelle des quilles de huit depuis 1995 (association qui a reçu en 2019 le trophée des bonnes pratiques de promotion des Jeux et Sports Traditionnels de la part de l’AEJeST) et de celui de l’Amicale parlementaire des sports et jeux traditionnels créée en 2010. Et, comme toute autre discipline sportive, le jeu de quilles peut être enseigné dans les écoles du département pendant le temps scolaire.» (Regourd Jacques)
+Aujourd’hui, les quilles de huit sont devenues un sport reconnu, avec une équipe technique et des éducateurs diplômés (plus de 180), non seulement par les ministères de la Jeunesse et des Sports ou de l’Éducation nationale, mais aussi à l’international par l’Association Européenne des Jeux et Sports Traditionnels (AEJeST). Contre toute attente, les quelques centaines d’irréductibles pratiquants de l’époque auront été multipliés par plus de 10 puisqu’en 2012 plus de 4 600 quilleurs/euses licenciés ont été dénombrés, faisant du sport de quilles de huit le deuxième sport le plus pratiqué en Aveyron, après le football et, au plan national, la deuxième discipline de la Fédération Française de Bowling et de Sport de Quilles (FFBSQ), derrière le bowling.
+
+Aujourd'hui, on peut dire que le jeu de quilles aveyronnais se porte bien. Outre l’encadrement des instances purement sportives, il bénéficie du soutien de l’Association intercommunale de promotion sportive et culturelle des quilles de huit depuis 1995 (association qui a reçu en 2019 le trophée des bonnes pratiques de promotion des Jeux et Sports Traditionnels de la part de l’AEJeST) et de celui de l’Amicale parlementaire des sports et jeux traditionnels créée en 2010. Et, comme toute autre discipline sportive, le jeu de quilles peut être enseigné dans les écoles du département pendant le temps scolaire.» (Regourd Jacques)
 
 ### Plus de 80 clubs de quilles en Aveyron ! 
 
@@ -76,8 +78,6 @@ Le jeu de quilles de huit a su évoluer et s’adapter au fil des décennies, pa
 
 > « Tant que **Sant-Cosme** a pas **jogat**,
 **Degús** a pas **ganhat**. »
-
-
 
 *pour schéma :*
 > Bulletin municipal de Cassagnes-Bégonhès, 2020
