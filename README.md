@@ -27,6 +27,7 @@ Ce dépôt me permet de stocker une partie de mes prises de notes, et de manièr
 ### Administration système
 
 - [Docker](./src/docker/sommaire.md)
+- [Administration VPS]()
 
 ### MC.
 
@@ -36,6 +37,7 @@ Ce dépôt me permet de stocker une partie de mes prises de notes, et de manièr
 ### Autre
 
 - [Ioa](./src/ioa/menu.md)
+- [Tutoriels](./src/tutoriels/menu.md)
 
 ### Révisions DS
 
