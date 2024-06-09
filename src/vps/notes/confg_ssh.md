@@ -122,6 +122,7 @@ Cloner un dépôt en utilisant l'URL SSH :
 git clone git@github.com:username/repository.git
 ```
 
+
 Les interactions futures avec le dépôt utiliseront automatiquement la configuration SSH définie.
 
 ---
