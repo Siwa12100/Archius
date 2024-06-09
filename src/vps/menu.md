@@ -8,3 +8,4 @@
 
 * [Gestion des utilisateurs](./notes/gerer_utilisateurs.md)
 * [Configuration SSH basique](./notes/confg_ssh.md)
+* [Permissions Docker - Utiliser Docker sans sudo](./notes/docker_sans_sudo.md)
