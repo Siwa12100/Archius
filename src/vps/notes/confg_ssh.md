@@ -1,4 +1,4 @@
-# Configuration et Utilisation de SSH sous Linux
+# Configuration et utilisation de SSH sous Linux
 ---
 
 [...retour en arrrière](../menu.md)
@@ -52,7 +52,6 @@ Host myserver
     IdentityFile ~/.ssh/id_rsa
     Port 2222
     AddKeysToAgent yes
-    UseKeychain yes
     ForwardAgent yes
 ```
 
