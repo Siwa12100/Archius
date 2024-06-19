@@ -100,7 +100,7 @@ Le véritable défi de Librariá résiderait dans l'intégration des nombreuses 
 Ensuite, il y aurait PAÍS TV. Le but de PAÍS TV serait de mettre en avant le contenu multimédia réalisé par l'IOA dans le cadre de l'opération PAÍS, tout en le rendant accessible à un public nouveau ou peu familier avec l'occitan. Le site répertorierait les vidéos de trois types de séries de l'IOA :
 
 - **Cossi dire ?** : Ces clips pédagogiques visent à enseigner la langue occitane de manière ludique et accessible.
-- 
+
 - **Mon Pichon País** : Cette série documentaire explore divers aspects de la vie en Aveyron à travers des thèmes variés comme l'agriculture, l'histoire locale, les savoir-faire traditionnels et les personnalités marquantes.
   
 - **Courts métrages** : Réalisés annuellement, ces documentaires thématiques utilisent les recherches et les centaines d'heures de témoignages recueillis chaque année pour explorer l'histoire et la culture de l'Aveyron à travers le prisme de la langue occitane.
@@ -116,6 +116,52 @@ Peu après le début des travaux sur Librariá, un troisième projet est venu se
 Ma présence à l'IOA a permis de proposer la création d'une page dédiée à ce jeu de quilles, détaillant ses règles, coutumes et histoire, le tout à travers le prisme de la langue occitane. Il a ainsi été convenu qu'un QR code serait affiché en grand sur des bannières lors du festival, redirigeant à la fois vers le site de l'office de tourisme de l'Aveyron et vers notre nouvelle page, située sur le nouveau site PAÍS TV. Le site de l'office de tourisme ferait également une redirection vers nous.
 
 Ce projet supplémentaire a nécessité une réorganisation de mon planning, mais il s'est présenté comme une opportunité formidable d'attirer de nombreux visiteurs sur PAÍS TV via ce QR code. Une attention particulière a dû être portée au design de cette page pour donner une image attrayante et moderne du jeu de quilles et de la culture occitane, incitant les visiteurs à explorer davantage le site.
+
+## Gestion du projet
+
+Met une petite phrase ici en expliquant que maintenant, on va passer à l'étude de ma gestion du projet tout au long des semaines de stage. On va commencer par apporter des précisions sur la manière dont je me suis organisé et jsutifier le fait que les gants ne soient que sur 9 semaines au lieu de 11 de stage. En suite on verra le preivsionel, puis le réel et analysant ses différences. 
+
+### Précision sur la contruction de la gestion de projet
+
+Là tu expliques que comme je l'ai déjà dit précédemment, la premiere semaine, j'ai commencé par m'installer, prendre mes marques, installer sur l'ordi portable qu'ils m'ont donné tous les outils nécessaire au dvlp, et commencer à rfléchir avec eux à mon intégration au projet comme je t'en ai déjà bien parlé. 
+Pendant ce temps, le temps de savoir comment j'aller coder et quels objectifs j'aillais avoir, j'ai travaillé sur le reste de la première semaine et sur une partie de la seconde sur des maquettes, de manière à pouvoir travailler et penser un design et une identité visuelle sur le travail que j'alais mener, quel qu'il serait. Que ce soit les palettes de couleurs, la manière d'agencer les éléments, les visuels, et m'assurer que l'on soit bien en accord sur le sytle avec le reste de ce que pense l'IOA. 
+J'ai aussi passé du temps à faire des receherches sur les tehcnoloqies que je pourrais utiliser pour la Libraria et Pais TV.
+Ce n'est qu'au milieu de la seconde semaine, après la réunion avec Laetis, que le travail tehcnique a vraiment pu commencer. 
+
+C'est donc pour cette raison que je n'ai pas jugé pertinent de faire commencer la GPO directement dès le premeir jour de stage, car au final c'est pendant ces deux premières semaines que j'ai pu faire mes prévisions pour la suite. C'est pour ça que les 2 gantts n'ont que 9 semaines et pas 11, et que la première semaine du Gannt correspond en fait à la seconde semaine de stage, car c'est en réalité à la fin de cette seconde semaine que j'ia pu avoir une vision clair de mes objectifs et m'organiser. 
+
+Pour autant, ces 2 prezmières semaines étaieznt loin d'être du temps perdu, car ça a permet de prnedre le temps de savoir clairemeent ce que j'allais faire d'un point de vue tehcnique, de voir avec Laetis, l'IOA, de choisir les tehcnos, et puis surtout de travailler sur les maquettes qui auraotn fait ganer un temps précieux dans la cré"ation de vues, pour la page des qauilles, livraria et Pais TV. 
+
+### Organisation prévisionnelle
+
+Nous allons maintenant détailler les différentes tâches présentées dans le diagramme de Gantt prévisionnel. Il est important de rappeler que la semaine 1 du Gantt correspond au début de la troisième semaine de stage, soit le lundi 22 avril.
+
+#### Librariá - API web Springboot
+La première tâche consisterait à concevoir le service web utilisant Spring Boot et Java, chargé de gérer l'ensemble des données et des images de Librariá. Ce composant constituerait le cœur du projet, essentiel pour la suite du développement. J'aurais prévu d'y consacrer deux semaines, anticipant que ce serait l'une des tâches les plus longues.
+
+#### Librariá - Site web Blazor
+Une fois le service web réalisé et déployé, la prochaine étape serait de développer la partie visuelle avec Blazor. J'aurais alloué une semaine pour cette tâche, bénéficiant déjà d'une certaine expérience avec Blazor et la manipulation d'APIs Web avec ce framework. Le travail préalable sur les maquettes aurait également facilité cette phase, permettant une mise en œuvre plus rapide et efficace.
+
+#### Configuration du VPS
+Après avoir développé le service web de Librariá et le site associé, il serait nécessaire de les déployer en ligne. Cette tâche inclurait la configuration d'un VPS chez Hostinger, l'achat du nom de domaine ioa-pais.fr, l'activation de HTTPS et la configuration d'un reverse proxy pour gérer les ports et les URL. La configuration comprendrait aussi la mise en place des conteneurs Docker pour isoler les services et garantir une meilleure gestion des ressources.
+
+#### PAÍS TV - Manipulation API YouTube
+Avec le VPS configuré et Librariá terminé, je pourrais commencer à travailler sur PAÍS TV. Cette tâche nécessiterait une utilisation approfondie de Blazor et une manipulation fine de l'API YouTube pour récupérer et classer les vidéos de la chaîne YouTube de l'IOA pertinentes pour le site.
+
+#### PAÍS TV - Vues du site Web
+Une fois les données des vidéos récupérées, il faudrait développer les vues du site et se concentrer sur l'aspect esthétique. Cette étape inclurait la création de pages attrayantes et l'affichage des vidéos de l'opération PAÍS de manière claire et organisée.
+
+#### Rapport de stage
+Une fois les projets Librariá et PAÍS TV terminés, j'aurais prévu de consacrer une semaine entière à la rédaction de mon rapport de stage, afin de documenter et analyser le travail effectué.
+
+#### Marge
+Enfin, j'aurais prévu deux semaines de marge pour gérer les imprévus. Travaillant sur des projets concrets et conséquents pour la première fois, utilisant des technologies que je ne connaissais pas encore bien comme MongoDB avec Spring Boot, l'API Google Drive et l'API YouTube, j'aurais préféré anticiper les éventuels défis et ajustements nécessaires. En cas de succès rapide, ces semaines auraient été consacrées à des projets additionnels, tels que l'intégration et la configuration d'IA pour des recherches avancées sur le site de l'IOA. Ces projets auraient exploré la possibilité d'utiliser une IA spécialisée pour effectuer des recherches approfondies et précises dans le contenu du site, améliorant ainsi l'expérience utilisateur et l'accessibilité des informations.
+
+### Organisation réelle
+
+(Je vais compléter cette partie lorsque vous me fournirez plus d'informations.)
+
+
 
 ---
 
