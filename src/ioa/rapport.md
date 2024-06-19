@@ -159,7 +159,27 @@ Enfin, j'aurais prévu deux semaines de marge pour gérer les imprévus. Travail
 
 ### Organisation réelle
 
-(Je vais compléter cette partie lorsque vous me fournirez plus d'informations.)
+Nous allons maintenant comparer le Gantt réel avec le prévisionnel et expliquer leurs différences.
+
+#### Tâches à la durée altérée et marge prévue consommée
+
+On remarque qu'il s'est avéré sage de prévoir de la marge, puisque les deux semaines prévues à cet effet ont été utilisées. Premièrement, la création de l'API Web Springboot ne m'a pas pris deux semaines, mais trois. 
+
+Cela est dû à deux raisons principales : 
+
+* d'une part, j'avais mal estimé le temps nécessaire pour réaliser ce projet. Bien que je savais qu'il serait long, je l'ai sous-estimé. 
+  
+* D'autre part, l'utilisation de l'API Google Drive s'est révélée plus complexe que prévu. Si l'intégration de MongoDB avec Springboot a été agréable et facile, l'organisation minutieuse des images et l'authentification auprès de l'API Google avec un token m'ont pris un temps considérable à mettre en place.
+
+L'allongement du temps pour l'API Web Springboot a consommé une semaine de la marge prévue. L'autre semaine a été prise par l'ajout de la page sur les quilles en Aveyron, qui n'était pas prévue initialement. Le design de cette page a nécessité un travail particulièrement soigné, avec une attention particulière portée à la mise en avant des textes de présentation, des médias et des citations fournis par l'IOA pour créer cette page.
+
+#### Tâches réalisées dans les temps
+
+De manière générale, les durées estimées pour la réalisation de la partie Blazor de Librariá, la configuration du VPS, l'utilisation de l'API YouTube en Blazor, les vues de PAÍS TV ainsi que la rédaction du rapport de stage, se sont avérées correctes. Ces tâches ont été réalisées dans les délais prévus, sans nécessiter d'ajustements supplémentaires.
+
+### Bilan sur la gestion du projet
+
+En définitive, la gestion prévisionnelle du projet s'est avérée globalement réaliste, malgré quelques ajustements nécessaires. La marge prévue a été essentielle pour gérer les imprévus et les tâches supplémentaires non anticipées, comme l'intégration de l'API Google Drive et la création de la page sur les quilles en Aveyron.
 
 
 
