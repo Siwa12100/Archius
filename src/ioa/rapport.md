@@ -181,7 +181,176 @@ De manière générale, les durées estimées pour la réalisation de la partie 
 
 En définitive, la gestion prévisionnelle du projet s'est avérée globalement réaliste, malgré quelques ajustements nécessaires. La marge prévue a été essentielle pour gérer les imprévus et les tâches supplémentaires non anticipées, comme l'intégration de l'API Google Drive et la création de la page sur les quilles en Aveyron.
 
+## Architecture du projet et technologies utilisées 
 
+Ok, tu commences par une petite phrase où tu expliques que cette partie va se concentrer sur l'explication de la structure architecture du projet. Comment les différents éléments fonctionnent ensemble, et quels sont les technos utilisées et pourquoi. Tu dis aussi que l'architecture de Libraria est la plus complète que j'ai mis en place, et celle de pais tv est juste une version simplifiée, donc cette partie se concentre sur la présentation de l'arch. de libraria, et puis dans un dernier, j'expliquerais ce qu'il en est pour Pais tv. 
+
+### Architecture générale du projet
+
+[ici il y aura le schéma que je t'ai donné....]
+
+Tu expliques qu'on remarque que le projet n'est pas resté sur une archi monolituque (tu rappelles ce que c'est rapidement au passage), mais a bien séparé la partie back, front et base de données de manière distincte. Elle a été pensée pour être évolutive, légère, et limiter aussi un maximum les frais d'hébergement, on y reviens dans la partie sur le back end. 
+
+
+On remarque aussi que cette architecture se rapproche fortement du patron MVC. Ici, tu présentes MVC en quelques lignes. Ensuite, tu expliques pourquoi c'est très proche de MVC.
+
+Tu expliques que la force de cette arhciyecture est donc la séparation claire du back, du front, l'apport de modularité. Mais que d'un autre côté, tout l'enjeu est de réussir une communication éfficace entre tout ça, que ce soit sur la gestion des erreurs, mais aussi sur l'authentification. 
+
+### Technologies sur la partie back-end 
+
+Tu as le schéma sous les yeux, donc si je manque des précisions ou si tu penses qu'il faut rajouter des ifnos sur cette partie, hésite pas. 
+Explique donc que le coueur du back end (rappelle ce qu'est le back end ) est le serice web, l'api web springboot. Cette Api permet de faire l'intertace à la vue en lui fournissant les données, et la base de données, en permettant les op. crud. Elle permet la récupération, modif et save d'images avec l'interaction avec google drive. 
+
+Tu expliques donc que l'ensemble des données du modèle présentant dans le service web (en java) sont sauvegardées dans un bdd MongoDB en utilisant l'api MongoDB. Tu accorderas 5 ou 6 lignes sur la présentation de ce qu'est mongodb et la puissance de son utilisation avec Spring Boot.
+
+Tu préciseras que c'est à cet endroit, que sans négliger sur la qualité du projet, on a réussi à faire des économies improtantes dans le budget du projet. En effet, MongoDB permet d'héeberver gratuitement des base de données, tant qu'un seuil de poids n'est pas dépassé. Et des tests ayant été réalisés, la version gratuite est largement suffisante en terme de poids. C'est donc un mpoyen très sur et fiable de d'héberger gratuitement un bdd en lign.
+
+Tu diras aussi que les images sont stockées dans un google drive. En effet là encore, l'API de google drive est utilisée depuis Springboot pour intéragir avec, classer prorpement les mages et effectuer des opérations dessus. Tu dis présente aussi rapidement google drive et dit que c'est là qu'une autrre économié importante est effectuée. En effet, google drive permet d'héeberger sur un drive gratuiement 15 go de stocjage de médias. Et en fait, l'ensemble des images de la lirbaria ne fait que 9 go, on a donc aucun socuis d'héebrgemen,t, et c'est donc une solution ultra fiable, solide et ratuiement pour hérbger et avoir accès à nos fichiers gratuiement, sans néglier la qualité de l'hébergement. 
+
+Pour finir que dans les 2 cas, une authentfication par token est effectuée entre Springboot et MongoDB, ainsi qu'entre s. et google drive. 
+
+### Technologies sur la partie front-end
+
+Sur le front-end, on utlise donc Blazor. Tu expliques ici ce qu'est Blazor en une dizaine de lignes et explique à quel point c'est formidable. Tu dis aussi que j'ai partiuclièrement appréciable de taffer avec et springboot, car le c# reste proche du java, et donc on est très peu dépaysé en passant de l'un à l'autre. 
+
+Tu expliques aussi que une authentification par token avec springsecurity permet de communquer entre le service web et l'appli Blazor. 
+
+### Pais TV
+
+Tu expliques que Pais TV a un fonctionnement assez similaire à Libraria, sauf que dans ce cas là, il n'y a besoin d'enregustrer en bdd ni data, ni fichiers. On a donc pas besoin  de serives web. 
+
+Pais tv utilise aussi Blazor, et utilise l'API De Youtube pour récupérer les vidéos sur la chaine youtube de l'IOA fécupérère celle qui l'intéresse, toutes les infos sur les vidéos, puis les affiche dans la vue. 
+
+## Analyse
+
+### Diagramme de classes
+
+@startuml
+
+package com.mongodb.starter.controleurs.auteurs {
+    class AuteurControleur {
+        - final static Logger LOGGER
+        - final AuteurService auteurService
+        + postAuteur(auteurDTO : AuteurDTO) : AuteurDTO
+        + postAuteurs(auteurDTOs : List<AuteurDTO>) : List<AuteurDTO>
+        + getAuteurs() : List<AuteurDTO>
+        + getAuteur(id : String) : ResponseEntity<AuteurDTO>
+        + getCount() : Long
+        + deleteAuteur(id : String) : Long
+        + deleteAllAuteurs() : Long
+        + putAuteur(auteurDTO : AuteurDTO) : AuteurDTO
+        + putAuteurs(auteurDTOs : List<AuteurDTO>) : Long
+        + handleAllExceptions(e : RuntimeException) : Exception
+    }
+}
+
+package com.mongodb.starter.controleurs.googleDrive {
+    class GoogleDriveControleur {
+        - GoogleDriveService googleDriveService
+        - GoogleDriveManager googleDriveManager
+        - LivreService livreService
+        + getImage(fileId : String) : ResponseEntity<byte[]>
+        + creerDossierPourLivre(id : String) : ResponseEntity<?>
+        + supprimerDossierPourLivre(id : String) : ResponseEntity<?>
+        + uploadPremiereCouverture(id : String, imageFile : byte[]) : ResponseEntity<?>
+        + uploadQuatriemeCouverture(id : String, imageFile : byte[]) : ResponseEntity<?>
+        + modifierPremiereCouverture(id : String, imageFile : byte[]) : ResponseEntity<?>
+        + modifierQuatriemeCouverture(id : String, imageFile : byte[]) : ResponseEntity<?>
+        + supprimerPremiereCouverture(id : String) : ResponseEntity<?>
+        + supprimerQuatriemeCouverture(id : String) : ResponseEntity<?>
+        + uploaderNouvelleImageDansSommaire(id : String, imageFile : byte[]) : ResponseEntity<?>
+        + modifierImageDansSommaire(id : String, position : int, fichier : byte[]) : ResponseEntity<?>
+        + supprimerImageDansSommaire(id : String, position : int) : ResponseEntity<?>
+        - uploaderImageSommaire(fichier : byte[], id : String, position : int, typeMethodeHttp : String) : ResponseEntity<?>
+        - uploadCouverture(imageFile : byte[], id : String, nomImage : String, typeMethodeHttp : String) : ResponseEntity<?>
+        - supprimerCouverture(id : String, nomCouverture : String) : ResponseEntity<?>
+        - jsonResponse(message : String) : String
+        - detecterTypeMime(typeImage : String) : String
+    }
+}
+
+package com.mongodb.starter.controleurs.livres {
+    class LivreControleur {
+        - final static Logger LOGGER
+        - final LivreService livreService
+        + postLivre(livreDTO : LivreDTO) : LivreDTO
+        + getLivres() : List<LivreDTO>
+        + getLivre(id : String) : ResponseEntity<LivreDTO>
+        + getCount() : Long
+        + deleteLivre(id : String) : Long
+        + deleteAllLivres() : Long
+        + putLivre(livreDTO : LivreDTO) : LivreDTO
+        + putLivres(livreDTOs : List<LivreDTO>) : Long
+        + handleAllExceptions(e : RuntimeException) : Exception
+    }
+}
+
+package com.mongodb.starter.dtos.auteurs {
+    class AuteurDTO {
+        // Les attributs et méthodes de cette classe sont à définir
+    }
+}
+
+package com.mongodb.starter.services.auteurs {
+    class AuteurService {
+        + save(auteurDTO : AuteurDTO) : AuteurDTO
+        + saveAll(auteurDTOs : List<AuteurDTO>) : List<AuteurDTO>
+        + findAll() : List<AuteurDTO>
+        + findOne(id : String) : AuteurDTO
+        + count() : Long
+        + delete(id : String) : Long
+        + deleteAll() : Long
+        + update(auteurDTO : AuteurDTO) : AuteurDTO
+        + update(auteurDTOs : List<AuteurDTO>) : Long
+    }
+}
+
+package com.mongodb.starter.services.googleDrive {
+    class GoogleDriveService {
+        + recupererUneImage(fileId : String) : byte[]
+        + detecterFormatImage(imageBytes : byte[]) : String
+        + creerDossierDeLivre(id : String, titre : String) : String
+        + supprimerDossierDeLivre(id : String, titre : String) : String
+        + televerserUneImageDeSommaire(id : String, fichier : byte[], position : int, typeMethodeHttp : String) : String
+        + televerserUneCouverture(id : String, imageFile : byte[], nomImage : String, typeMethodeHttp : String) : String
+        + supprimerUneCouverture(id : String, nomCouverture : String) : String
+        + supprimerUneImageDeSommaire(id : String, position : int) : String
+    }
+}
+
+package com.mongodb.starter.managers.googleDrive {
+    class GoogleDriveManager {
+        // Les attributs et méthodes de cette classe sont à définir
+    }
+}
+
+package com.mongodb.starter.dtos.livres {
+    class LivreDTO {
+        // Les attributs et méthodes de cette classe sont à définir
+        + titre() : String
+    }
+}
+
+package com.mongodb.starter.services.livres {
+    class LivreService {
+        + sauvegarder(livreDTO : LivreDTO) : LivreDTO
+        + recupererUnLivre(id : String) : LivreDTO
+        + recupererTout() : List<LivreDTO>
+        + compter() : Long
+        + supprimer(id : String) : Long
+        + supprimerTout() : Long
+        + modifier(livreDTO : LivreDTO) : LivreDTO
+        + modifier(livreDTOs : List<LivreDTO>) : Long
+    }
+}
+
+AuteurControleur --> AuteurService
+GoogleDriveControleur --> GoogleDriveService
+GoogleDriveControleur --> GoogleDriveManager
+GoogleDriveControleur --> LivreService
+LivreControleur --> LivreService
+
+@enduml
 
 ---
 
