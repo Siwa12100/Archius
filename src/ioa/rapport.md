@@ -221,136 +221,48 @@ Tu expliques que Pais TV a un fonctionnement assez similaire à Libraria, sauf q
 
 Pais tv utilise aussi Blazor, et utilise l'API De Youtube pour récupérer les vidéos sur la chaine youtube de l'IOA fécupérère celle qui l'intéresse, toutes les infos sur les vidéos, puis les affiche dans la vue. 
 
-## Analyse
+## Développement
 
-### Diagramme de classes
+Tu vas commencer par une petite phrase d'intro qui va dire que mtn on va se pencher sur la phase de développement du projet. On va commencer par revenir sur des outils très utiles que j'ai eu l'occasion d'utiliser dans le cadre de mon développement et dans mon workflow. Ensuite, on se penchera sur une étape importante menée, la config du vps, de l'https et le reverse proxy. Pour finir, je reviendrais sur un socusi quie j'ai eu et comment je l'ai résolu, en abordant la notion des modes de rendu de la tehcno Blazor.
 
-@startuml
+### Outils utilisés
 
-package com.mongodb.starter.controleurs.auteurs {
-    class AuteurControleur {
-        - final static Logger LOGGER
-        - final AuteurService auteurService
-        + postAuteur(auteurDTO : AuteurDTO) : AuteurDTO
-        + postAuteurs(auteurDTOs : List<AuteurDTO>) : List<AuteurDTO>
-        + getAuteurs() : List<AuteurDTO>
-        + getAuteur(id : String) : ResponseEntity<AuteurDTO>
-        + getCount() : Long
-        + deleteAuteur(id : String) : Long
-        + deleteAllAuteurs() : Long
-        + putAuteur(auteurDTO : AuteurDTO) : AuteurDTO
-        + putAuteurs(auteurDTOs : List<AuteurDTO>) : Long
-        + handleAllExceptions(e : RuntimeException) : Exception
-    }
-}
+Git et Github
 
-package com.mongodb.starter.controleurs.googleDrive {
-    class GoogleDriveControleur {
-        - GoogleDriveService googleDriveService
-        - GoogleDriveManager googleDriveManager
-        - LivreService livreService
-        + getImage(fileId : String) : ResponseEntity<byte[]>
-        + creerDossierPourLivre(id : String) : ResponseEntity<?>
-        + supprimerDossierPourLivre(id : String) : ResponseEntity<?>
-        + uploadPremiereCouverture(id : String, imageFile : byte[]) : ResponseEntity<?>
-        + uploadQuatriemeCouverture(id : String, imageFile : byte[]) : ResponseEntity<?>
-        + modifierPremiereCouverture(id : String, imageFile : byte[]) : ResponseEntity<?>
-        + modifierQuatriemeCouverture(id : String, imageFile : byte[]) : ResponseEntity<?>
-        + supprimerPremiereCouverture(id : String) : ResponseEntity<?>
-        + supprimerQuatriemeCouverture(id : String) : ResponseEntity<?>
-        + uploaderNouvelleImageDansSommaire(id : String, imageFile : byte[]) : ResponseEntity<?>
-        + modifierImageDansSommaire(id : String, position : int, fichier : byte[]) : ResponseEntity<?>
-        + supprimerImageDansSommaire(id : String, position : int) : ResponseEntity<?>
-        - uploaderImageSommaire(fichier : byte[], id : String, position : int, typeMethodeHttp : String) : ResponseEntity<?>
-        - uploadCouverture(imageFile : byte[], id : String, nomImage : String, typeMethodeHttp : String) : ResponseEntity<?>
-        - supprimerCouverture(id : String, nomCouverture : String) : ResponseEntity<?>
-        - jsonResponse(message : String) : String
-        - detecterTypeMime(typeImage : String) : String
-    }
-}
+L'ensemble du dvlp a été fait dans des repos git, un pour le site web de la libraria, un pour le service web, et un pour le site pais tv. J'ai utilisé git qutoidemment, avec des commit très réguliers pour m'assurer de tout sauvegarder et travail epuis plusieurs postes de travail, y compris durant mes jours en télétravail. J'ai utilisé des branches à chauqe fois qu'une foncitonnalité étré implémentée, de manière à garder mon code bien propre et éviter les erreurs. L'ensenmble du code est hébergé sur github, où un compte spécialement pour l'institut occitan a été créée. Evidemment, les repos sont privés.
 
-package com.mongodb.starter.controleurs.livres {
-    class LivreControleur {
-        - final static Logger LOGGER
-        - final LivreService livreService
-        + postLivre(livreDTO : LivreDTO) : LivreDTO
-        + getLivres() : List<LivreDTO>
-        + getLivre(id : String) : ResponseEntity<LivreDTO>
-        + getCount() : Long
-        + deleteLivre(id : String) : Long
-        + deleteAllLivres() : Long
-        + putLivre(livreDTO : LivreDTO) : LivreDTO
-        + putLivres(livreDTOs : List<LivreDTO>) : Long
-        + handleAllExceptions(e : RuntimeException) : Exception
-    }
-}
+Un autre outil extremement précieux a été Postman (tu présenteras en quelque ligens ce que c'est...). Je l'ai énormément utilisé pour tester le fonctionnment de mon service web et il a été très très utile, aprtculirement pour sauvegarder des reuqêtes fréquentes, mais aussi pour faire des requêtes autre que du get, faire des uploads de fichiers et tester l'authen par token. 
 
-package com.mongodb.starter.dtos.auteurs {
-    class AuteurDTO {
-        // Les attributs et méthodes de cette classe sont à définir
-    }
-}
+Et pour finir, un autre outil très utile a été mongoDB compass. Il m'a permet d'avoir une interface de gestion visuerlle de la base de données MongoDB, et d'inéragir avec les données, en ajotuer, et en modifer. C'était un très bon moyen de pouvoir faire du ebug, en voyant si les données s'enreistraient bien et donc pour cibler les soucis. 
 
-package com.mongodb.starter.services.auteurs {
-    class AuteurService {
-        + save(auteurDTO : AuteurDTO) : AuteurDTO
-        + saveAll(auteurDTOs : List<AuteurDTO>) : List<AuteurDTO>
-        + findAll() : List<AuteurDTO>
-        + findOne(id : String) : AuteurDTO
-        + count() : Long
-        + delete(id : String) : Long
-        + deleteAll() : Long
-        + update(auteurDTO : AuteurDTO) : AuteurDTO
-        + update(auteurDTOs : List<AuteurDTO>) : Long
-    }
-}
+### Configuration du VPS
 
-package com.mongodb.starter.services.googleDrive {
-    class GoogleDriveService {
-        + recupererUneImage(fileId : String) : byte[]
-        + detecterFormatImage(imageBytes : byte[]) : String
-        + creerDossierDeLivre(id : String, titre : String) : String
-        + supprimerDossierDeLivre(id : String, titre : String) : String
-        + televerserUneImageDeSommaire(id : String, fichier : byte[], position : int, typeMethodeHttp : String) : String
-        + televerserUneCouverture(id : String, imageFile : byte[], nomImage : String, typeMethodeHttp : String) : String
-        + supprimerUneCouverture(id : String, nomCouverture : String) : String
-        + supprimerUneImageDeSommaire(id : String, position : int) : String
-    }
-}
+La condfiguration du VPS s'est présenté& comme un vértbael défi. j'avais déjà fait de l'administration système, mais je n'avais jamais du configruer un serveur de cettre manièe en partant de 0. Pour commencer, nous avons donc louer u VPS (tu expliqueras ce que c'est un quelques lignes ). Il ne n'était donné au début qu'un accès ssh en root au vps. J'ai commencé par créer et donner les bonnes permissions à un  nouveau utilisateur pour adimnistrer le serveur. J'ai ensuite désactivé le ssh pour le rapport, et changer le port pour le ssh. 
 
-package com.mongodb.starter.managers.googleDrive {
-    class GoogleDriveManager {
-        // Les attributs et méthodes de cette classe sont à définir
-    }
-}
+ensite, après beaucoup de documentation et de recherches car je ne savais pas ocmment faire, j'ai utilisé cerf bot pour obtenir un certificat https. Il se renouvelle automatiquement. 
 
-package com.mongodb.starter.dtos.livres {
-    class LivreDTO {
-        // Les attributs et méthodes de cette classe sont à définir
-        + titre() : String
-    }
-}
+Une autre grande étape a été ensuite de faire en sorte qu'au lieu d'avoir une url comme : https://ioa-pais.fr:8081 pour aller sur le site de la libraria, et https://ioa-pais.fr:8082 par exemple pour aller sur pais tv, je puisse directement alors des url propres sans ports, utilisables par tout le monde, comme ioa-pais.fr et libraria.ioa-pais.fr. 
 
-package com.mongodb.starter.services.livres {
-    class LivreService {
-        + sauvegarder(livreDTO : LivreDTO) : LivreDTO
-        + recupererUnLivre(id : String) : LivreDTO
-        + recupererTout() : List<LivreDTO>
-        + compter() : Long
-        + supprimer(id : String) : Long
-        + supprimerTout() : Long
-        + modifier(livreDTO : LivreDTO) : LivreDTO
-        + modifier(livreDTOs : List<LivreDTO>) : Long
-    }
-}
+Là encore, après énorémement de documenttion, j'ai trouvé la solution, le reverse proxy (là je mets le schéma). 
 
-AuteurControleur --> AuteurService
-GoogleDriveControleur --> GoogleDriveService
-GoogleDriveControleur --> GoogleDriveManager
-GoogleDriveControleur --> LivreService
-LivreControleur --> LivreService
+ensuite, en utilisant le schéma, tu explique ce qu'a permis de faire le reverse proxy. 
 
-@enduml
+
+### Changement de mode de rendu Blazor
+
+Pour cette partie, voilà ce qui s'est passé en fait (extrait d'un mail que j'ai envoyé ):
+
+Le VPS que l'on a pris pour héberger la Libraria et Pais TV est vraiment petit, afin de ne pas payer trop de frais, et donc il y avait de gros soucis de chargement des images (en fait elles ne chargeaient pas du tout, car elles sont assez lourdes).
+
+Comme je l'expliquais à Patricia il y a quelques jours, cela venait du fait que la technologie utilisée pour la création du site est Blazor Server. Et donc, comme son nom l'indique, c'est du côté du serveur que le code est exécuté lorsque l'on se rend sur le site. C'est intéressant dans le sens où cela demande très peu de performance et de connexion à l'utilisateur final, mais par contre, quand le serveur n'est pas très puissant, certaines choses comme des images lourdes ont du mal à charger.
+
+J'ai donc entrepris de passer de Blazor Server à Blazor Web Assembly. C'est une technologie très similaire, mais au lieu d'avoir le code qui est directement exécuté sur le serveur, il est envoyé du côté du client, et c'est directement l'ordinateur de l'utilisateur final qui l'exécute. Cela permet donc de décharger énormément le serveur, et il n'y a plus de soucis de puissance.
+
+Je viens donc de terminer le passage de la Libraria vers Blazor Web Assembly, et le résultat est exactement celui espéré : plus aucun souci de chargement des images ! En plus de cela, puisque nous avions tout de même augmenté un peu la puissance du VPS, l'API qui gère les données peut dorénavant tourner sur le VPS, donc c'est aussi un point positif.
+
+
+En t'aidant du schéma que je te donne aussi et que je mettrais, explique le soucis que j'ai rencontré, comment je l'ai résolu avec susccès et comment les technos fonctionnent;
+
 
 ---
 
