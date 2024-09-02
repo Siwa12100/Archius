@@ -773,9 +773,7 @@
 10. Parmi  
 11. Près de  
 
-### 26.2. **Prépositions de
-
- temps et direction**
+### 26.2. **Prépositions de temps et direction**
 12. Jusqu'à  
 13. Vers  
 14. Autour de  
