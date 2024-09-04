@@ -7,6 +7,8 @@
 
 ## Salutation et formules de politesse
 
-:x: [formules de base](./fiches/1.md)
+:x: [formules de base](./fiches/1/1.md)
+:x: [formules complémentaires](./fiches/1/2.md)
+
 
 
