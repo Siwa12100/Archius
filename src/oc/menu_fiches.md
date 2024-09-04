@@ -13,7 +13,7 @@
 ## 2. Famille et relations
 
 :x: [Famille immédiate](./fiches/2/1.md)
-
+:x: [Famille étendue et relations sociales](./fiches/2/2.md)
 
 
 
