@@ -47,6 +47,7 @@ Ce dépôt me permet de stocker une partie de mes prises de notes, et de manièr
 ## Occitan
 
 - [1000 mots courants / thème](./src/oc/mots_courants_theme.md)
+- [Menu des fiches de vocab.](./src/oc/menu_fiches.md)
 
 Aquelas archius son sobretot personals e pretendon a res d'autre coma m'ajudar a gardar a drech dins ma man d'informacions que mi seran utilas a l'avenir, o ben mi guiarnar a metre sus papièr de reflexions, d'una mòda a structurar ma pensada.
 Ieu ne pretendi ni explicar res a degun, que sigam plan clar.
