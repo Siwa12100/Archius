@@ -5,10 +5,15 @@
 :white_check_mark: :x:
 ---
 
-## Salutation et formules de politesse
+## 1. Salutation et formules de politesse
 
 :x: [formules de base](./fiches/1/1.md)
 :x: [formules complémentaires](./fiches/1/2.md)
+
+## 2. Famille et relations
+
+:x: [Famille immédiate](./fiches/2/1.md)
+
 
 
 
