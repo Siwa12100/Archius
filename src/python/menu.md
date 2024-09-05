@@ -6,5 +6,5 @@
 
 ## Introduction
 
-[Resume des grandes bases du language](./resume_bases.md)
-[Illustration des bases](./illustration_bases.py)
+- [Resume des grandes bases du language](./resume_bases.md)
+- [Illustration des bases](./illustration_bases.py)
