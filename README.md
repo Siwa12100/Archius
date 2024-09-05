@@ -23,6 +23,7 @@ Ce dépôt me permet de stocker une partie de mes prises de notes, et de manièr
 - [Vue.js](./src/vue/sommaire.md)
 - [Kotlin](./src/kotlin/sommaire.md)
 - [Services web](./src/servicesWeb/sommaire.md)
+- [Python](./src/python/menu.md)
 
 ### Administration système
 
