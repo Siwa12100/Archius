@@ -17,5 +17,11 @@
 
 :large_orange_diamond: [Famille étendue et relations sociales](./fiches/2/2.md)
 
+## Nourriture et boissons
+
+:x: [Autres aliments et condiments](./fiches/3/1.md)
+
+:x: [Autres aliments et condiments](./fiches/3/2.md)
+
 
 
