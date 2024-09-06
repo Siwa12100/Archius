@@ -19,7 +19,7 @@
 
 ## Nourriture et boissons
 
-:x: [Autres aliments et condiments](./fiches/3/1.md)
+:x: [Aliments de base](./fiches/3/1.md)
 
 :x: [Autres aliments et condiments](./fiches/3/2.md)
 
