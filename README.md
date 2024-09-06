@@ -21,7 +21,7 @@ Tot aquò dich, bona lectura als curioses !
 
 ### Code & semestre 5 BUT Informatique
 
-- [Nouveaux paradigmes de BDD]
+- [Nouveaux paradigmes de BDD](./src/nouveaux_parag_bdd/menu.md)
 - [JavaScript](./src/javascript/sommaire.md)
 - [Python](./src/python/menu.md)
 
