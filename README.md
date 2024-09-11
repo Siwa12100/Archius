@@ -24,6 +24,7 @@ Tot aquò dich, bona lectura als curioses !
 - [Nouveaux paradigmes de BDD](./src/nouveaux_parag_bdd/menu.md)
 - [JavaScript](./src/javascript/sommaire.md)
 - [Python](./src/python/menu.md)
+- [Angular](./src/angular/menu.md)
 
 ### Administration système
 
