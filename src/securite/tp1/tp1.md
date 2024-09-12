@@ -62,3 +62,14 @@ Nous avons donc trouvé les mots de passe suivants :
 * `$1$BABA$DOzBWHNx08SgVSX/YuYvC/` --> batman 
 
 * `$1$CACA$XLWo4OqFFCYICqYrZ0y5i/` --> enigma
+
+## Exercice 5
+
+Nous avons trouvé les réponses sur le [site suivant](https://nvd.nist.gov/vuln/detail/CVE-2014-7232). 
+
+* user : `insite` ---> mdp : `2getin`
+* user : `xruser` ---> mdp : `4$xray`
+* user : `root` ---> mdp : `#superxr`
+
+## Exercice 7
+
