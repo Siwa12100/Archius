@@ -6,7 +6,7 @@
 
 ## Notions
 
-- [Redis : bases et syntaxe principale]()
+- [Redis : bases et syntaxe principale](./notes/base_redis.md)
 
 [Intro sur Redis et tentatives tp 1](./temp.md)
 
