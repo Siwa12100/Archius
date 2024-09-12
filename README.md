@@ -21,7 +21,7 @@ Tot aquò dich, bona lectura als curioses !
 
 ### Tps de securite
 
-- [tp1](./src/securite/tp1.md)
+- [tp1](./src/securite/tp1/tp1.md)
 
 ### Code & semestre 5 BUT Informatique
 
