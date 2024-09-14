@@ -9,7 +9,7 @@
 ### Redis
 
 - [Redis : bases et syntaxe principale](./notes/base_redis.md)
-- [Redis dans conteneur docker & accès depuis Java](./notes/)
+- [Redis dans conteneur docker & accès depuis Java](./notes/redis_conteneur_et_java.md)
 
 
 
