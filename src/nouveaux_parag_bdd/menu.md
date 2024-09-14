@@ -6,8 +6,11 @@
 
 ## Notions
 
-- [Redis : bases et syntaxe principale](./notes/base_redis.md)
+### Redis
 
-[Intro sur Redis et tentatives tp 1](./temp.md)
+- [Redis : bases et syntaxe principale](./notes/base_redis.md)
+- [Redis dans conteneur docker & accès depuis Java](./notes/)
+
+
 
 - [Le theoreme CAP](./notes/cap.md)
