@@ -7,6 +7,12 @@
 
 * [Liste de tous les mots appris](./mots_appris.md)
 
+## 7 Couleurs & formes
+
+:x: [Couleurs](./fiches/7/1.md)
+
+:x: [Formes](./fiches/7/2.**md**)
+
 ## 6. Emotions et sentiments
 
 :x: [Sentiments positifs et négatifs](./fiches/6/1.md)

@@ -119,5 +119,6 @@ Nous avons trouvé les réponses sur le [site suivant](https://nvd.nist.gov/vuln
 2. **www.labanquepostale.fr**
 3. **www.societegenerale.fr**
 4. **www.credit-agricole.fr** (le plus sécurisé)
+   
 
 Ce classement est basé sur la gestion des certificats, des protocoles TLS, et des faiblesses dans les suites de chiffrement, avec un accent particulier sur l'exclusion des versions obsolètes de TLS qui sont très vulnérables.
