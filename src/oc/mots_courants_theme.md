@@ -1,5 +1,9 @@
 # Liste de mots importants à maîtriser 
 
+[...retour en arriere](./menu_fiches.md)
+
+---
+
 ## 1. **Salutations et formules de politesse**
 ### 1.1. **Formules de base**
 0. Bonjour  
@@ -1449,3 +1453,7 @@
 22. Agressivité  
 23. Rejet  
 24. Isolement
+
+---
+
+[...retour en arriere](./menu_fiches.md)

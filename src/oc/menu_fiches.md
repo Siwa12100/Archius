@@ -5,20 +5,25 @@
 :white_check_mark: :large_orange_diamond: :x:
 ---
 
+* [Liste de tous les mots appris]()
 
+## 6. Emotions et sentiments
 
+:x: [Sentiments positifs et négatifs](./fiches/6/1.md)
+
+:x: [Emotions complexes](./fiches/6/2.md)
 
 ## 5. Temps et dates
 
-:x: [Mesure du temps](./fiches/5/1.md)
+:white_check_mark: [Mesure du temps](./fiches/5/1.md)
 
-:x: [Mois et saisons](./fiches/5/2.md)
+:large_orange_diamond: [Mois et saisons](./fiches/5/2.md)
 
 ## 4. Corps humain et santé
 
-:large_orange_diamond: [Parties du corps](./fiches/4/1.md)
+:white_check_mark: [Parties du corps](./fiches/4/1.md)
 
-:large_orange_diamond: [Santé et médecine](./fiches/4/2.md)
+:white_check_mark: [Santé et médecine](./fiches/4/2.md)
 
 ## 3. Nourriture et boissons
 
