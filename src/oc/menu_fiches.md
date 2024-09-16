@@ -5,7 +5,7 @@
 :white_check_mark: :large_orange_diamond: :x:
 ---
 
-* [Liste de tous les mots appris]()
+* [Liste de tous les mots appris](./mots_appris.md)
 
 ## 6. Emotions et sentiments
 
