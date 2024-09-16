@@ -73,3 +73,51 @@ Nous avons trouvé les réponses sur le [site suivant](https://nvd.nist.gov/vuln
 
 ## Exercice 7
 
+
+### 1. **mabanque.bnpparibas**
+   - **Faiblesses :**
+     - Utilise encore **TLS 1.0 et TLS 1.1**, qui sont des versions obsolètes et non sécurisées.
+     - Le certificat **RSA de 2048 bits** est moins robuste que les certificats de 4096 bits observés sur d'autres domaines.
+   - **Forces :**
+     - Bonne reconnaissance du certificat par les navigateurs, mais cela n'atténue pas les faiblesses des protocoles plus anciens.
+
+   **Justification du classement :** L'utilisation de TLS 1.0 et TLS 1.1 est un sérieux problème de sécurité, car ces protocoles sont vulnérables. Bien que le certificat soit valide et reconnu, l'usage de ces anciens protocoles le place en dernière position.
+
+### 2. **www.labanquepostale.fr**
+   - **Faiblesses :**
+     - **TLS 1.1** activé, ce qui n'est plus recommandé.
+     - Quelques faiblesses mineures dans certaines suites de chiffrement.
+   - **Forces :**
+     - Utilisation du **TLS 1.2** avec Forward Secrecy, ce qui est un standard plus sécurisé.
+     - Certificat **RSA de 4096 bits**, ce qui assure une forte protection.
+
+   **Justification du classement :** Bien que la banque postale utilise TLS 1.2 avec une bonne longueur de clé, la présence de TLS 1.1 et certaines faiblesses de chiffrement réduisent sa sécurité, mais elle reste meilleure que BNP Paribas.
+
+### 3. **www.societegenerale.fr**
+   - **Faiblesses :**
+     - Certaines suites de chiffrement considérées comme faibles, bien qu'elles soient optionnelles.
+   - **Forces :**
+     - Pas de TLS 1.0 ni 1.1, seulement **TLS 1.2**.
+     - Certificat **RSA de 4096 bits** avec un algorithme de signature robuste.
+     - Bon support des navigateurs et des clients simulés.
+
+   **Justification du classement :** Société Générale présente une configuration de sécurité solide avec des protocoles à jour et un bon chiffrement. Quelques suites de chiffrement faibles l'empêchent d’atteindre le plus haut niveau, mais elle reste très sécurisée.
+
+### 4. **www.credit-agricole.fr**
+   - **Faiblesses :**
+     - N'utilise pas encore **TLS 1.3**, mais cela n'affecte pas trop la sécurité globale.
+   - **Forces :**
+     - Le certificat **RSA de 4096 bits** avec **SHA256withRSA** assure une excellente sécurité.
+     - Support uniquement du **TLS 1.2**, avec des suites de chiffrement qui incluent **Forward Secrecy**.
+     - Aucune version obsolète de TLS activée.
+     - A+ est la meilleure note possible, ce qui reflète l’excellence de la configuration.
+
+   **Justification du classement :** Le Crédit Agricole se distingue par une configuration de sécurité quasi parfaite, avec des suites de chiffrement robustes, un certificat solide, et aucun protocole obsolète activé.
+
+### Classement final :
+1. **mabanque.bnpparibas** (le moins sécurisé)
+2. **www.labanquepostale.fr**
+3. **www.societegenerale.fr**
+4. **www.credit-agricole.fr** (le plus sécurisé)
+
+Ce classement est basé sur la gestion des certificats, des protocoles TLS, et des faiblesses dans les suites de chiffrement, avec un accent particulier sur l'exclusion des versions obsolètes de TLS qui sont très vulnérables.
