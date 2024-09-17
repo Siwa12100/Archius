@@ -102,6 +102,20 @@ gpg --delete-secret-keys secretary
 gpg --import keys/president.prv
 ```
 
+### 6.)
+
+Commandes réalisées :
+
+```bash
+gpg --encrypt -r president q3/message3.txt
+cat q3/message3.txt
+```
+
+**Message :**
+
+* URGENT: C'est une arnaque ! 
+Bonjour, je vous remercie pour votre message, je n'ai absolument pas demandé de virement !!
+
 ## Exercice 7
 
 
