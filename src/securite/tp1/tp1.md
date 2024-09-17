@@ -71,6 +71,37 @@ Nous avons trouvé les réponses sur le [site suivant](https://nvd.nist.gov/vuln
 * user : `xruser` ---> mdp : `4$xray`
 * user : `root` ---> mdp : `#superxr`
 
+## Exercice 6
+
+### 1.)
+
+Commande réalisée : `gpg --import keys/secretary.prv`.
+
+### 2.)
+**Message reçue :**
+
+* URGENT: Demande de virement en urgence.
+Bonjour, je te contacte car je suis en voyage depuis quelques jours avec les collégues.
+On est sur le point de signer un gros contrat mais il nous manque des fonds pour les convaincre.
+Peux-tu me faire un virement au RIB ci-joint ? Pas besoin d'une grosse somme, 10.000 euros devraient suffir.
+
+### 3.)
+
+Commande réalisée : `gpg --import keys/president.pub`
+
+### 4.)
+
+Commande réalisée : `gpg -r president --sign --encrypt q2/message2.txt`
+
+### 5.)
+
+Commande réalisées :
+
+```bash
+gpg --delete-secret-keys secretary
+gpg --import keys/president.prv
+```
+
 ## Exercice 7
 
 
