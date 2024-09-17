@@ -116,6 +116,38 @@ cat q3/message3.txt
 * URGENT: C'est une arnaque ! 
 Bonjour, je vous remercie pour votre message, je n'ai absolument pas demandé de virement !!
 
+### 7.)
+
+Commandes réalisées :
+
+```bash
+gpg --delete-secret-key president
+gpg --import keys/secretary.prv
+```
+
+### 8.)
+
+Commande réalisée : `gpg --verify q3/message3.txt.sig q3/message3.txt`
+
+### 9.)
+
+Commande réalisée : `gpg --import keys/.attacker.pub`
+
+### 10.)
+
+Commande réalisée : `gpg --verify q4/message1.txt.sig output.txt`
+
+### 11.) 
+
+Commandes réalisées :
+
+```bash
+gpg --list-keys
+gpg --list-options show-photos --fingerprint AD1D5FA5298C9352D67A8059C3BD7A0737788DB5
+``` 
+
+On récupère la photo avec "Martin Coquin"...
+
 ## Exercice 7
 
 
