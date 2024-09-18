@@ -13,6 +13,23 @@ Le nombre de codes que peut générer Alice est `10 ^ 4` puisqu'elle a 10 choix 
 Si Bob s'y prend bien, c'est à dire que pour chaque chiffre du code à tester, il procède par élimination en regardant si la led est rouge ou verte, il trouvera chaque chiffre du code en, au pire, 10 essais. 
 Dans ce sens, étant donné qu'il y a 4 chiffres à trouver, il fera dans le pire des cas `10 * 4` tentatives.
 
+## Exercice 3
+
+Nous connaissons P'1 (0111 1111 0111) et C1. L'objectif est de calculer IV'. Supposons que C1 = 1001 0110 1100.
+
+On calcule : IV′ = P′1 ⊕ C1 = 111010011011.
+
+On a ensuite : P′3 = C′2 ⊕ C′1
+
+Nous connaissons P'3 et nous allons choisir C'1, puis calculer C'2. On choisit C'1 = 0000 0000 0000. 
+
+On calcule donc : C′ 2 = P′3 ⊕ C′1 = 100010011011.
+
+D'après l'énoncé, on a ainsi : C′3 = C1. Cela signifie que C'3 = C1 = 1001 0110 1100.
+
+À partir de C'3, les blocs chiffrés sont copiés des blocs du message original.
+
+
 ## Exercice 4
 
 ### 1.)

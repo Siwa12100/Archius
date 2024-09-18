@@ -40,5 +40,7 @@ KexAlgorithms curve25519-sha256,curve25519-sha256@libssh.org,sntrup761x25519-sha
 - 
 - **KexAlgorithms** : Désactivation des algorithmes utilisant les courbes `nistp*` et conservation des algorithmes sécurisés comme `curve25519` et `sntrup761x25519`.
 
-Ces changements amélioreront la sécurité de ton serveur SSH en suivant les recommandations de `ssh-audit`.
+## Exercice 2
+
+
 
