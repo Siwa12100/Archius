@@ -29,7 +29,6 @@ D'après l'énoncé, on a ainsi : C′3 = C1. Cela signifie que C'3 = C1 = 1001 
 
 À partir de C'3, les blocs chiffrés sont copiés des blocs du message original.
 
-
 ## Exercice 4
 
 ### 1.)

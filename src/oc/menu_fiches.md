@@ -11,7 +11,7 @@
 
 :x: [Couleurs](./fiches/7/1.md)
 
-:x: [Formes](./fiches/7/2.**md**)
+:x: [Formes](./fiches/7/2.md)
 
 ## 6. Emotions et sentiments
 
