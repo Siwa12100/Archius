@@ -48,6 +48,7 @@ Tot aquò dich, bona lectura als curioses !
 
 - [Archives du Valorium](./src/mc/valorium/accueil.md)
 - [Elendil](./src/mc/Elendil/Ligue.md)
+- [Display text](./src/mc/display-entities/menu.md)
 
 ## Autre
 
