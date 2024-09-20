@@ -19,6 +19,10 @@ Tot aquò dich, bona lectura als curioses !
 
 ## Dev
 
+### Temporaire
+
+- [anglais](./src/temporaire/anglais.md)
+
 ### Tps de securite
 
 - [Dm]()
