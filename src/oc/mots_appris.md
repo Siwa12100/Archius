@@ -4,6 +4,20 @@
 
 ---
 
+## 7. **Couleurs et formes**
+### 7.1. **Couleurs**
+0. Rouge  
+1. Bleu  
+2. Vert  
+3. Jaune  
+4. Noir  
+5. Blanc  
+6. Gris  
+7. Marron  
+8. Rose  
+9. Violet  
+10. Orange
+
 ### 7.2. **Formes et dimensions**
 11. Carré  
 12. Rond  
@@ -17,21 +31,6 @@
 20. Large  
 21. Étroit  
 22. Profond
-
-## 8. **Vêtements et accessoires**
-### 8.1. **Vêtements**
-0. Pantalon  
-1. Chemise  
-2. Veste  
-3. Manteau  
-4. Robe  
-5. Jupe  
-6. Chaussure  
-7. Chaussette  
-8. Chapeau  
-9. Écharpe  
-10. Gant  
-11. Ceinture  
 
 ## 1. **Salutations et formules de politesse**
 ### 1.1. **Formules de base**
