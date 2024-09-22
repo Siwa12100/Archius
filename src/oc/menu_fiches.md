@@ -7,23 +7,35 @@
 
 * [Liste de tous les mots appris](./mots_appris.md)
 
+## 9 Verbes courants
+
+:x: [Actions essentielles](./fiches/9/1.md)
+
+:x: [Verbes d'interactions](./fiches/9/2.md)
+
+## 8 Expressions courantes
+
+:x: [Expressions de confirmation et de doute](./fiches/8/1.md)
+
+:x: [Expressions d'indifférence et de souhait](./fiches/8/2.md)
+
 ## 7 Couleurs & formes
 
-:x: [Couleurs](./fiches/7/1.md)
+:white_check_mark: [Couleurs](./fiches/7/1.md)
 
-:x: [Formes](./fiches/7/2.md)
+:large_orange_diamond: [Formes](./fiches/7/2.md)
 
 ## 6. Emotions et sentiments
 
-:x: [Sentiments positifs et négatifs](./fiches/6/1.md)
+:white_check_mark: [Sentiments positifs et négatifs](./fiches/6/1.md)
 
-:x: [Emotions complexes](./fiches/6/2.md)
+:large_orange_diamond: [Emotions complexes](./fiches/6/2.md)
 
 ## 5. Temps et dates
 
 :white_check_mark: [Mesure du temps](./fiches/5/1.md)
 
-:large_orange_diamond: [Mois et saisons](./fiches/5/2.md)
+:white_check_mark: [Mois et saisons](./fiches/5/2.md)
 
 ## 4. Corps humain et santé
 

@@ -4,6 +4,65 @@
 
 ---
 
+## 24. **Verbes courants**
+### 24.1. **Actions essentielles**
+0. Être  
+1. Avoir  
+2. Aller  
+3. Venir  
+4. Faire  
+5. Dire  
+6. Voir  
+7. Savoir  
+8. Pouvoir  
+9. Vouloir  
+10. Devoir  
+11. Prendre  
+
+### 24.2. **Verbes d'interaction**
+12. Donner  
+13. Parler  
+14. Écouter  
+15. Lire  
+16. Écrire  
+17. Acheter  
+18. Vendre  
+19. Manger  
+20. Boire  
+21. Ouvrir  
+22. Fermer  
+23. Rire  
+24. Pleurer
+
+## 22. **Expressions courantes**
+### 22.1. **Expressions de confirmation et de doute**
+0. Bien sûr  
+1. Pourquoi pas  
+2. Je ne sais pas  
+3. C'est vrai  
+4. C'est faux  
+5. Je comprends  
+6. Je ne comprends pas  
+7. D'accord  
+8. Pas de problème  
+9. Ça marche  
+10. Enchanté  
+11. Pas mal  
+
+### 22.2. **Expressions d'indifférence et de souhait**
+12. Tant pis  
+13. Ça m'est égal  
+14. Peut-être  
+15. Aucun problème  
+16. J'espère  
+17. Quelle heure est-il ?  
+18. Comment vous appelez-vous ?  
+19. Je m'appelle  
+20. Bon courage  
+21. Bravo  
+22. C'est dommage  
+23. Pourquoi pas  
+
 ## 7. **Couleurs et formes**
 ### 7.1. **Couleurs**
 0. Rouge  
