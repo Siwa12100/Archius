@@ -1,6 +1,6 @@
 ### **Titre de l'Exposé : La Découverte Accidental des Antidépresseurs et les Défis Actuels des Troubles de l'Humeur**
 
-[...etour accueil](../../README.md)
+[...retour accueil](../../README.md)
 
 ---
 
