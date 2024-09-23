@@ -17,13 +17,13 @@
 
 :x: [Expressions de confirmation et de doute](./fiches/8/1.md)
 
-:x: [Expressions d'indifférence et de souhait](./fiches/8/2.md)
+:large_orange_diamond: [Expressions d'indifférence et de souhait](./fiches/8/2.md)
 
 ## 7 Couleurs & formes
 
 :white_check_mark: [Couleurs](./fiches/7/1.md)
 
-:large_orange_diamond: [Formes](./fiches/7/2.md)
+:white_check_mark: [Formes](./fiches/7/2.md)
 
 ## 6. Emotions et sentiments
 
