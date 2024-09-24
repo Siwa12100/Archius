@@ -7,6 +7,12 @@
 
 * [Liste de tous les mots appris](./mots_appris.md)
 
+## Transports
+
+:x: [Moyens de transport](./fiches/10/1.md)
+
+:x: [Infrastructure et déplacement](./fiches/10/2.md)
+
 ## 9 Verbes courants
 
 :x: [Actions essentielles](./fiches/9/1.md)

@@ -1157,9 +1157,7 @@
 0. Amour  
 1. Amitié  
 2. Compassion  
-3
-
-. Empathie  
+3. Empathie  
 4. Confiance  
 5. Respect  
 6. Jalousie  
