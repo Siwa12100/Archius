@@ -1,4 +1,4 @@
-# TP Angular – tuto
+# TP Angular – Tuto
 
 [...retour au menu sur Angular](../menu.md)
 
@@ -28,7 +28,7 @@
 
 ### Étape 1: Créer un projet Angular avec la CLI
 
-**Objectif :** Créer une application Angular en utilisant la commande CLI.
+**Objectif :** Créer une application Angular en utilisant la commande CLI, en spécifiant l'option pour créer un projet avec des modules si nécessaire.
 
 1. **Installation d'Angular CLI** :
    Si ce n'est pas déjà fait, installe Angular CLI via npm :
@@ -36,12 +36,21 @@
    npm install -g @angular/cli
    ```
 
-2. **Création du projet** :
-   Utilise la commande suivante pour générer un nouveau projet :
+2. **Création du projet avec modules** :
+   Par défaut, Angular 17/18 utilise les **composants autonomes**. Si tu souhaites avoir un projet avec `app.module.ts`, utilise l'option `--no-standalone` :
+
+   ```bash
+   ng new book-app --no-standalone
+   ```
+   Cela créera un projet avec la structure modulaire traditionnelle, y compris le fichier `app.module.ts`.
+
+   Si tu préfères les composants autonomes, tu peux simplement exécuter :
+   
    ```bash
    ng new book-app
    ```
-   Réponds aux questions de configuration et entre dans le dossier du projet :
+
+   Ensuite, entre dans le dossier du projet :
    ```bash
    cd book-app
    ```
@@ -51,7 +60,6 @@
    ```bash
    ng serve --open
    ```
-   Cela ouvrira automatiquement ton application dans un navigateur.
 
 ---
 
@@ -69,7 +77,6 @@
      publicationDate: Date;
    }
    ```
-   Ce modèle sera utilisé dans toute l'application pour manipuler les livres.
 
 ---
 
@@ -88,10 +95,12 @@
    ```
 
 2. **Création du service BookService** :
-   Crée le service BookService :
+   Si tu as créé un projet avec modules, génère le service comme suit :
    ```bash
-   ng generate service book
+   ng generate service services/book
    ```
+
+   Sinon, si tu utilises des composants autonomes, génère le service normalement.
 
    Ensuite, dans `book.service.ts`, ajoute le code suivant pour charger les livres depuis le stub JSON :
 
@@ -115,7 +124,8 @@
    }
    ```
 
-3. **Importer `HttpClientModule`** dans `app.module.ts` pour que les appels HTTP fonctionnent :
+3. **Si tu utilises des modules :**
+   Dans `app.module.ts`, importe `HttpClientModule` pour que les appels HTTP fonctionnent :
    ```typescript
    import { HttpClientModule } from '@angular/common/http';
 
@@ -126,6 +136,8 @@
    })
    export class AppModule {}
    ```
+
+   Si tu utilises des composants autonomes, il suffit d'importer `HttpClientModule` directement dans les composants nécessaires.
 
 ---
 
@@ -142,7 +154,7 @@
 
    ```typescript
    import { Component, OnInit } from '@angular/core';
-   import { BookService } from '../book.service';
+   import { BookService } from '../services/book.service';
    import { Book } from '../book';
 
    @Component({
@@ -180,7 +192,7 @@
 
    ```typescript
    import { Component } from '@angular/core';
-   import { BookService } from '../book.service';
+   import { BookService } from '../services/book.service';
    import { Book } from '../book';
 
    @Component({
@@ -207,24 +219,25 @@
      <button type="submit">Add Book</button>
    </form>
    ```
-
----
-
 ## TP2: Améliorations avec MatAngular et gestion des formulaires
 
 ### Étape 1: Afficher la date avec un pipe
 
-Pour afficher la date dans un format spécifique (ex: Mardi 30 octobre 1990), utilise le `DatePipe` dans le template de `book-list.component.html` :
+Pour afficher la date dans un format spécifique (par exemple : *Mardi 30 octobre 1990*), tu peux utiliser le `DatePipe` dans le template de `book-list.component.html` :
 
 ```html
 {{ book.publicationDate | date:'EEEE dd MMMM yyyy' }}
 ```
 
+Le `DatePipe` est intégré dans Angular et permet de formater les dates de différentes manières. Dans cet exemple, nous utilisons le format long avec le jour de la semaine, le jour numérique, le mois complet et l'année.
+
 ---
 
 ### Étape 2: Méthode `addBook` dans BookService
 
-Dans `book.service.ts`, ajoute la méthode `addBook` qui ajoute un nouveau livre à la liste `books`.
+Dans `book.service.ts`, tu peux ajouter une méthode `addBook` qui va permettre d’ajouter un nouveau livre à la liste des livres dans le service.
+
+Voici comment implémenter cette méthode pour qu'elle génère automatiquement un `id` basé sur l'ID le plus élevé existant :
 
 ```typescript
 addBook(book: Book): void {
@@ -234,15 +247,28 @@ addBook(book: Book): void {
 }
 ```
 
+Cette méthode vérifie d'abord l'ID le plus élevé existant dans la liste des livres, puis assigne à ce nouveau livre un ID unique.
+
 ---
 
 ### Étape 3: Utiliser MatAngular pour les formulaires
 
-Après avoir installé **MatAngular**, tu peux améliorer ton formulaire avec des composants Material Design.
+Après avoir installé **Angular Material**, tu peux améliorer ton formulaire avec des composants Material Design pour une interface utilisateur plus agréable.
 
-1. **Ajouter MatInput et MatButton** :
+1. **Installation de Angular Material** :
 
-   Commence par importer les modules nécessaires dans `app.module.ts` :
+   Si ce n'est pas déjà fait, installe Angular Material en utilisant la commande suivante :
+
+   ```bash
+   ng add @angular/material
+   ```
+
+   Angular CLI te demandera de choisir un thème, activer l'animation et d'autres options de configuration.
+
+2. **Ajouter MatInput et MatButton** :
+
+   Ensuite, dans `app.module.ts` (ou directement dans ton composant si tu utilises les composants autonomes), importe les modules nécessaires pour utiliser les champs de saisie (`MatInputModule`), le bouton (`MatButtonModule`), et le sélecteur de dates (`MatDatepickerModule` et `MatNativeDateModule`) :
+
    ```typescript
    import { MatInputModule } from '@angular/material/input';
    import { MatButtonModule } from '@angular/material/button';
@@ -263,7 +289,9 @@ Après avoir installé **MatAngular**, tu peux améliorer ton formulaire avec de
    export class AppModule {}
    ```
 
-2. **Mettre à jour le formulaire dans `book-form.component.html`** pour utiliser les composants MatAngular :
+3. **Modifier le formulaire dans `book-form.component.html`** :
+
+   Mets à jour le formulaire HTML pour utiliser les composants Angular Material :
 
    ```html
    <form (ngSubmit)="addBook()">
@@ -288,10 +316,14 @@ Après avoir installé **MatAngular**, tu peux améliorer ton formulaire avec de
    </form>
    ```
 
-3. **Ajout du menu MatAngular** :
-   Crée un menu avec deux liens : Liste des livres et Ajouter un livre. Cela te permettra d’avoir une navigation basique sans encore utiliser le routage.
+   Ce formulaire utilise des composants Material Design pour les champs de texte et le sélecteur de dates, offrant une meilleure expérience utilisateur.
 
-   Dans `app.component.html` :
+4. **Ajouter un menu avec MatAngular** :
+
+   Tu peux également ajouter un menu de navigation avec Angular Material pour simplifier la navigation entre les pages de l’application :
+
+   Dans `app.component.html`, ajoute ce code pour créer un menu simple :
+
    ```html
    <mat-menu #appMenu="matMenu">
      <button mat-menu-item (click)="goToBooks()">Liste des livres</button>
@@ -301,7 +333,8 @@ Après avoir installé **MatAngular**, tu peux améliorer ton formulaire avec de
    <button mat-button [matMenuTriggerFor]="appMenu">Menu</button>
    ```
 
-   Ensuite, ajoute des méthodes dans `app.component.ts` pour gérer les actions :
+   Et dans `app.component.ts`, ajoute les méthodes associées :
+
    ```typescript
    export class AppComponent {
      goToBooks() {
@@ -314,13 +347,15 @@ Après avoir installé **MatAngular**, tu peux améliorer ton formulaire avec de
    }
    ```
 
+Cela met en place un menu simple sans encore toucher au routage, ce qui sera abordé dans le TP3.
+
 ---
 
 ## TP3: Gestion des routes, API et affichage des détails du livre
 
 ### Étape 1: Gestion des doublons dans `addBook`
 
-Modifie la méthode `addBook` dans `BookService` pour vérifier si un livre avec le même titre et le même auteur existe déjà avant de l'ajouter :
+Pour éviter les doublons dans la liste des livres, modifie la méthode `addBook` dans `BookService` pour vérifier si un livre avec le même titre et le même auteur existe déjà :
 
 ```typescript
 addBook(book: Book): void {
@@ -330,7 +365,7 @@ addBook(book: Book): void {
     book.id = maxId + 1;
     this.books.push(book);
   } else {
-    console.error('Book already exists');
+    console.error('Le livre existe déjà');
   }
 }
 ```
@@ -339,7 +374,8 @@ addBook(book: Book): void {
 
 1. **Configurer le routage** :
 
-   Dans `app-routing.module.ts`, configure les routes comme demandé :
+   Dans `app-routing.module.ts`, configure les routes pour l'application :
+
    ```typescript
    const routes: Routes = [
      { path: '', component: HomeComponent },
@@ -350,16 +386,20 @@ addBook(book: Book): void {
    ];
    ```
 
-2. **Créer le composant `book-detail`** pour afficher les détails d'un livre via l'ID :
+2. **Créer le composant `book-detail`** :
+
+   Génère un nouveau composant `book-detail` pour afficher les détails d'un livre spécifique basé sur l'ID récupéré depuis l'URL :
 
    ```bash
    ng generate component book-detail --skip-tests --inline-style
    ```
 
-   Dans `book-detail.component.ts`, récupère l’ID du livre à partir de l’URL :
+   Dans `book-detail.component.ts`, récupère l’ID du livre à partir de l’URL et utilise `BookService` pour afficher ses détails :
+
    ```typescript
    import { ActivatedRoute } from '@angular/router';
-   import { BookService } from '../book.service';
+   import { BookService } from '../services/book.service';
+   import { Book } from '../book';
 
    export class BookDetailComponent implements OnInit {
      book: Book | undefined;
@@ -373,7 +413,8 @@ addBook(book: Book): void {
    }
    ```
 
-   Le template `book-detail.component.html` :
+   Et dans `book-detail.component.html` :
+
    ```html
    <div *ngIf="book">
      <h2>{{ book.title }}</h2>
@@ -381,26 +422,28 @@ addBook(book: Book): void {
      <p>Publication Date: {{ book.publicationDate | date:'longDate' }}</p>
    </div>
    <div *ngIf="!book">
-     <p>Book not found.</p>
+     <p>Le livre n'a pas été trouvé.</p>
    </div>
    ```
 
-3. **Ajouter des liens dans la liste des livres pour afficher le détail d'un livre** :
+3. **Ajouter des liens pour afficher les détails des livres** :
 
-   Dans `book-list.component.html` :
+   Dans `book-list.component.html`, mets à jour la liste des livres pour qu’elle comporte des liens vers la page de détails :
+
    ```html
    <ul>
      <li *ngFor="let book of books">
-       <a [routerLink]="['/book', book.id]">{{ book.title }}</a> by {{ book.author }}
+       <a [routerLink]="['/book', book.id]">{{ book.title }}</a> par {{ book.author }}
      </li>
    </ul>
    ```
 
 ### Étape 3: Charger et ajouter des livres via une API
 
-1. **Charger les livres depuis une API** :
+1. **Charger les livres depuis une API externe** :
 
-   Modifie `BookService` pour charger les livres depuis l'API :
+   Pour charger les livres depuis une API distante, modifie `BookService` pour utiliser l'URL suivante : `https://664ba07f35bbda10987d9f99.mockapi.io/api/books`.
+
    ```typescript
    private apiUrl = 'https://664ba07f35bbda10987d9f99.mockapi.io/api/books';
 
@@ -411,7 +454,8 @@ addBook(book: Book): void {
 
 2. **Ajouter un livre via l'API** :
 
-   Dans `BookService`, modifie la méthode `addBook` pour envoyer une requête POST à l'API :
+   Modifie également `addBook` pour envoyer une requête POST à l'API lors de l'ajout d’un nouveau livre :
+
    ```typescript
    addBook(book: Book): Observable<Book> {
      return this.http.post<Book>(this.apiUrl, book);
@@ -419,14 +463,28 @@ addBook(book: Book): void {
    ```
 
    Dans `book-form.component.ts`, appelle cette méthode lors de la validation du formulaire :
+
    ```typescript
    addBook(): void {
      this.bookService.addBook(this.newBook).subscribe(
-       (newBook) => console.log('Book added:', newBook),
-       (error) => console.error('Error:', error)
+       (newBook) => console.log('Livre ajouté :', newBook),
+       (...newBook) => console.log('Livre ajouté :', newBook),
+       (error) => console.error('Erreur lors de l\'ajout du livre :', error)
      );
    }
    ```
+
+Cette méthode envoie une requête POST à l'API pour ajouter un nouveau livre et gère la réponse ou les erreurs via des `Observable`.
+
+### BONUS : Gérer les routes malformées/fausses
+
+Pour gérer les routes qui ne sont pas valides ou inexistantes, ajoute une route "wildcard" à la fin de ta configuration de routage dans `app-routing.module.ts` :
+
+```typescript
+{ path: '**', redirectTo: '/' }  // Redirige vers la page d'accueil pour les routes non valides
+```
+
+Cela redirigera automatiquement toute URL incorrecte vers la page d'accueil ou une autre page de ton choix, évitant ainsi les erreurs 404.
 
 ---
 
