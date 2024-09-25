@@ -159,9 +159,7 @@ GitLab permet de définir différents **environnements** dans le pipeline CI/CD,
 Pour gérer des informations sensibles comme des clés SSH ou des tokens d'authentification Docker, GitLab te permet de définir des **variables secrètes** dans la configuration CI/CD, accessibles via `$CI_REGISTRY_USER` et `$CI_REGISTRY_PASSWORD`.
 
 ### 3. **Hadolint et Dockerfiles optimisés**
-L'utilisation de **Hadolint** dans le pipeline CI/CD permet de garantir que les **Docker
-
-files** sont bien écrits et optimisés pour éviter des problèmes comme la taille d'image excessive, les vulnérabilités de sécurité, ou des configurations inefficaces.
+L'utilisation de **Hadolint** dans le pipeline CI/CD permet de garantir que les **Dockerfiles** sont bien écrits et optimisés pour éviter des problèmes comme la taille d'image excessive, les vulnérabilités de sécurité, ou des configurations inefficaces.
 
 ---
 
