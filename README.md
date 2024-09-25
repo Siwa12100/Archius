@@ -40,6 +40,7 @@ Tot aquò dich, bona lectura als curioses !
 
 - [Docker](./src/docker/sommaire.md)
 - [Administration VPS](./src/vps/menu.md)
+- [CI / CD](./src/ci/menu.md)
 
 
 ## Occitan
