@@ -2,15 +2,21 @@
 
 [...retour au sommaire](../../README.md)
 
-## Sommaire
+
+## Doc / notes / notions
+
+* [Base syntaxe dockerfile](./dockerfile/bases.md)
+* [Notions avancées dockerfile](./dockerfile/notions_avancees.md)
+* [Système de fichier d'un conteneur, persistance des données et comparaison avec un serveur classique](./dockerfile/vps_contre_conteneur.md)
+* [Reseaux docker et utilisation entre 2 services web springboot](./dockerfile/reseaux.md)
+* [Docker compose et utilisation d'un service web springboot d'une mongodb](./dockerfile/compose.md)
+
+## Anciennes notes
 
 * [Intro](./notes/intro.md)
 * [Lancer un conteneur & commandes de base](./notes/lancerConteneur.md)
 * [Images & partage de fichiers](./notes/dockerFichier.md)
 * [Docker compose](./notes/dockerCompose.md)
-
-## Autres notes
-
 * [Résumé bases de docker](./commandes/sommaire.md)
 
 ## Liens utiles
