@@ -57,6 +57,7 @@ Tot aquò dich, bona lectura als curioses !
 
 - [Ioa](./src/ioa/menu.md)
 - [Tutoriels](./src/tutoriels/menu.md)
+- [Anciens sujets / notes](./archives.md)
 
 ## A approfondir
 
