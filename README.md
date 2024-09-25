@@ -17,37 +17,35 @@ Certans passatges, l'aurètz notat, son escrichs en occitan languedocian, la len
 
 Tot aquò dich, bona lectura als curioses !
 
+## Général
+
+- [Apprentissage occitan](./src/oc/menu_fiches.md)
+
 ## Dev
 
-### Temporaire
+### Administration système
+
+- [Docker](./src/docker/sommaire.md)
+- [CI / CD](./src/ci/menu.md)
+- [Administration VPS](./src/vps/menu.md)
+
+
+## Temporaire
 
 - [anglais](./src/temporaire/anglais.md)
-
+  
 ### Tps de securite
 
 - [Dm]()
 - [tp1](./src/securite/tp1/tp1.md)
 - [tp2](./src/securite/tp2/tp2.md)
 
-### Code & semestre 5 BUT Informatique
+## Notes semestre 5 BUT Informatique
 
 - [Nouveaux paradigmes de BDD](./src/nouveaux_parag_bdd/menu.md)
 - [JavaScript](./src/javascript/sommaire.md)
 - [Python](./src/python/menu.md)
-- [Angular](./src/angular/menu.md)
-
-### Administration système
-
-- [Docker](./src/docker/sommaire.md)
-- [Administration VPS](./src/vps/menu.md)
-- [CI / CD](./src/ci/menu.md)
-
-
-## Occitan
-
-- [1000 mots courants / thème](./src/oc/mots_courants_theme.md)
-- [Menu des fiches de vocab.](./src/oc/menu_fiches.md)
-  
+- [Angular](./src/angular/menu.md) 
 
 ## MC.
 
@@ -60,7 +58,6 @@ Tot aquò dich, bona lectura als curioses !
 - [Ioa](./src/ioa/menu.md)
 - [Tutoriels](./src/tutoriels/menu.md)
 
-
 ## A approfondir
 
 - [docker](https://www.youtube.com/playlist?list=PL6gx4Cwl9DGBkvpSIgwchk0glHLz7CQ-7)
@@ -70,18 +67,3 @@ Tot aquò dich, bona lectura als curioses !
 - [Initialisation xUnit avec vs code](https://code.visualstudio.com/docs/csharp/testing)
 
 
-## Semestre 3-4 BUT Informatique
-
-- [Notes sur le php](./src/php/intro.md)
-- [Programmation système](./src/programmationSysteme/intro.md)
-- [Dotnet](./src/dotnet/intro.md)
-- [Java](./src/java/sommaire.md)
-- [Vue.js](./src/vue/sommaire.md)
-- [Kotlin](./src/kotlin/sommaire.md)
-- [Services web](./src/servicesWeb/sommaire.md)
-
-
-## Stockage anciens sujets
-
-- [SAE Reseau](./src/saeReseau/notes1.md)
-- [Service Web](./src/stockageCode/servicesWeb/sommaire.md)
