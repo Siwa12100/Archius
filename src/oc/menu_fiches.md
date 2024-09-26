@@ -8,23 +8,41 @@
 * [1000 mots courants / thème](./mots_courants_theme.md)
 * [Liste de tous les mots appris](./mots_appris.md)
 
-## Transports
+## 13. Mots de quantité
 
-:x: [Moyens de transport](./fiches/10/1.md)
+:x: [Quantités absolues](./fiches/13/1.md)
 
-:x: [Infrastructure et déplacement](./fiches/10/2.md)
+:x: [Expressions de fréquence](./fiches/13/2.md)
 
-## 9 Verbes courants
+## 12. Prépositions courantes
 
-:x: [Actions essentielles](./fiches/9/1.md)
+:x: [prépositions de lieu](./fiches/12/1.md)
 
-:x: [Verbes d'interactions](./fiches/9/2.md)
+:x: [prépositions de temps & de direction](./fiches/12/2.md)
 
-## 8 Expressions courantes
+## 11. Mots interrogatifs et conjonctions
 
-:x: [Expressions de confirmation et de doute](./fiches/8/1.md)
+:x: [Mots interrogatifs](./fiches/11/1.md)
 
-:large_orange_diamond: [Expressions d'indifférence et de souhait](./fiches/8/2.md)
+:x: [Connecteurs et conjonctions](./fiches/11/2.md)
+
+## 10. Transports
+
+:large_orange_diamond: [Moyens de transport](./fiches/10/1.md)
+
+:large_orange_diamond: [Infrastructure et déplacement](./fiches/10/2.md)
+
+## 9. Verbes courants
+
+:large_orange_diamond: [Actions essentielles](./fiches/9/1.md)
+
+:white_check_mark: [Verbes d'interactions](./fiches/9/2.md)
+
+## 8. Expressions courantes
+
+:white_check_mark: [Expressions de confirmation et de doute](./fiches/8/1.md)
+
+:white_check_mark: [Expressions d'indifférence et de souhait](./fiches/8/2.md)
 
 ## 7 Couleurs & formes
 
@@ -36,7 +54,7 @@
 
 :white_check_mark: [Sentiments positifs et négatifs](./fiches/6/1.md)
 
-:large_orange_diamond: [Emotions complexes](./fiches/6/2.md)
+:white_check_mark: [Emotions complexes](./fiches/6/2.md)
 
 ## 5. Temps et dates
 

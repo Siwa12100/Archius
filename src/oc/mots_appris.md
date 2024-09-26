@@ -4,6 +4,126 @@
 
 ---
 
+## 25. **Mots interrogatifs et conjonctions**
+### 25.1. **Mots interrogatifs**
+0. Qui  
+1. Quoi  
+2. Où  
+3. Quand  
+4. Pourquoi  
+5. Comment  
+6. Lequel  
+7. Combien  
+8. Quel  
+9. Quelque  
+10. Quiconque  
+11. Pourquoi
+
+### 25.2. **Conjonctions et connecteurs**
+12. Parce que  
+13. Et  
+14. Ou  
+15. Mais  
+16. Donc  
+17. Alors  
+18. Puis  
+19. Cependant  
+20. Car  
+21. Si  
+22. Pourtant  
+23. Tandis que  
+24. Bien que
+
+## 26. **Prépositions courantes**
+### 26.1. **Prépositions de lieu**
+0. À  
+1. De  
+2. En  
+3. Sur  
+4. Sous  
+5. Devant  
+6. Derrière  
+7. Avec  
+8. Sans  
+9. Entre  
+10. Parmi  
+11. Près de  
+
+### 26.2. **Prépositions de temps et direction**
+12. Jusqu'à  
+13. Vers  
+14. Autour de  
+15. À côté de  
+16. Loin de  
+17. Pendant  
+18. Depuis  
+19. Pour  
+20. Avant  
+21. Après  
+22. Durant  
+23. Chez  
+24. Dès
+
+## 27. **Mots de quantité**
+### 27.1. **Quantités absolues**
+0. Beaucoup  
+1. Peu  
+2. Trop  
+3. Assez  
+4. Tout  
+5. Rien  
+6. Quelque chose  
+7. Personne  
+8. Aucun  
+9. Quelques  
+10. Plusieurs  
+11. Un peu  
+
+### 27.2. **Expressions de fréquence**
+12. Toujours  
+13. Souvent  
+14. Parfois  
+15. Rarement  
+16. Jamais  
+17. Tout le monde  
+18. Personne  
+19. Tous les jours  
+20. Tous les soirs  
+21. De temps en temps  
+22. Une fois  
+23. Deux fois  
+24. Fréquemment
+
+## 9. **Transports**
+### 9.1. **Moyens de transport**
+0. Voiture  
+1. Train  
+2. Avion  
+3. Bus  
+4. Taxi  
+5. Vélo  
+6. Moto  
+7. Bateau  
+8. Métro  
+9. Tramway  
+10. Scooter  
+11. Trotinette
+
+### 9.2. **Infrastructure et déplacement**
+12. Gare  
+13. Aéroport  
+14. Route  
+15. Autoroute  
+16. Pont  
+17. Feu rouge  
+18. Permis  
+19. Essence  
+20. Station  
+21. Quai  
+22. Passage  
+23. Passage piéton  
+24. Embouteillage
+
 ## 24. **Verbes courants**
 ### 24.1. **Actions essentielles**
 0. Être  
