@@ -17,8 +17,15 @@ int copy(char * buf1, char * buf2, unsigned char len1, unsigned char len2) {
 
     printf("[BEFORE] buffer = \"%s\"\n", d.buffer);
     printf("[BEFORE] secret = 0x%X\n", d.secret);
+    printf("[Secret] --> %X \n", d.secret);
     printf("[BEFORE] out = \"%s\"\n", d.out);
     printf("[DEBUG] len1+len2 = %u\n", len1+len2);
+
+    int test1 = (unsigned char) len1 + len2;
+    unsigned char test2 = len1 + len2;
+    unsigned char test3 = (len1 + len2)% 256;
+    printf("Test 1 : %u ; Test 2 : %u ; Test 3 : %u\n", test1, test2, test3);
+
 
     if((unsigned char)(len1 + len2) > 200) {
         printf("[ERROR] Size too long!\n");
@@ -28,7 +35,8 @@ int copy(char * buf1, char * buf2, unsigned char len1, unsigned char len2) {
         memcpy(d.buffer + len1, buf2, len2);
 
         printf("[AFTER] buffer = \"%s\"\n", d.buffer);
-        printf("[AFTER] secret = 0x%x\n",d.secret);
+        printf("[AFTER] secret = 0x%X\n",d.secret);
+        printf("[Secret] --> %X \n", d.secret);
         printf("[AFTER] out = \"%s\"\n", d.out);
         return 1;
 }

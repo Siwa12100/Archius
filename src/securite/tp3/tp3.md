@@ -28,6 +28,16 @@ Un unsigned char fait 1 octet.
 
 ### 3.
 
+Pour changer la valeur de secret, il faut tout simplement que la valeur de len1 + len2 soit supérieure à 255. 
+
+### 4.
+
+Commande qui fonctionne : 
+
+```bash
+./a.out a BBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBB 255 161
+``` 
+
 
 
 
