@@ -1,4 +1,4 @@
-# Devoir Maison : EBIOS
+# Securité : Devoir maison (Jean & Shana)
 
 ## Exercice 1 : Cadrage et socle de sécurité
 
