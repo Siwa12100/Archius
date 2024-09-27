@@ -150,9 +150,7 @@
    - **Impact** : Diminue la vraisemblance en incitant à une révision continue, empêchant l'accumulation.
 
 3. **Scénario : Suppression accidentelle de fichiers critiques**  
-   - **Contre
-
--mesure** : Automatisation des sauvegardes via des outils comme Git/CodeFirst.  
+   - **Contre-mesure** : Automatisation des sauvegardes via des outils comme Git/CodeFirst.  
    - **Impact** : Réduit la gravité en prévenant la perte de fichiers grâce à des commits réguliers et des sauvegardes automatisées.
 
 4. **Scénario : Mauvaise configuration de l’environnement de développement**  

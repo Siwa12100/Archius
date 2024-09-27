@@ -37,6 +37,7 @@ Tot aquò dich, bona lectura als curioses !
 ### Tps de securite
 
 - [Dm](./src/securite/dm.md)
+- [DM -V2](./src/securite/dm_v2.md)
 - [tp1](./src/securite/tp1/tp1.md)
 - [tp2](./src/securite/tp2/tp2.md)
 - [tp3](./src/securite/tp3/tp3.md)
