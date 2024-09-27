@@ -1,6 +1,6 @@
 # Devoir Maison : EBIOS
 
-## Exercice 1 : Cadrage et socle de sécurité (6 points)
+## Exercice 1 : Cadrage et socle de sécurité
 
 ### Liste de 10 biens essentiels et supports nécessaires à cette mission :
 
@@ -65,7 +65,7 @@
 
 ---
 
-## Exercice 2 : Source du risque (3 points)
+## Exercice 2 : Source du risque
 
 ### Liste de 3 sources de risque et leurs objectifs visés :
 
@@ -83,7 +83,7 @@
 
 ---
 
-## Exercice 3 : Scénarios stratégiques et opérationnels (6 points)
+## Exercice 3 : Scénarios stratégiques et opérationnels
 
 ### Scénarios pour chaque couple Source du Risque (SR) et Objectif Visé (OV) :
 
@@ -137,7 +137,7 @@
 
 ---
 
-## Exercice 4 : Traitement du risque (5 points)
+## Exercice 4 : Traitement du risqu
 
 ### Contre-mesures pour chaque scénario :
 
