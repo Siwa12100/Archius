@@ -10,9 +10,9 @@
 
 ## 13. Mots de quantité
 
-:x: [Quantités absolues](./fiches/13/1.md)
+:x: [Quantités absolues](./fiches/fiches_2//13/1.md)
 
-:x: [Expressions de fréquence](./fiches/13/2.md)
+:x: [Expressions de fréquence](./fiches/fiches_2/13/2.md)
 
 ## 12. Prépositions courantes
 
