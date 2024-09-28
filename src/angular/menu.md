@@ -8,6 +8,10 @@
 
 - [Cours - 2](./resume_cours/cours_2.md)
 
+## Notions
+
+- [Modules, Injection de Dépendances et Structuration projet](./notes/modules.md)
+
 ### Exemples pratiques
 
 - [Illustration cours 1](./illustrations/illustration1.md)
