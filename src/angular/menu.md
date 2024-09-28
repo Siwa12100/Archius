@@ -11,6 +11,7 @@
 ## Notions
 
 - [Modules, Injection de Dépendances et Structuration projet](./notes/modules.md)
+- [Bases sur la CLI Angular](./notes/cli_bases.md)
 
 ### Exemples pratiques
 
