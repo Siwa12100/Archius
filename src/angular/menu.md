@@ -21,4 +21,8 @@
 
 - [Tutos illustration des tps](./illustrations/tuto_tps.md)
 
+## Trucs utiles
+
+* Rendre l'app accessible à l'extérieur du serveur (et pas juste en localhost) : ng serve --host 0.0.0.0 --port 4200`
+
 
