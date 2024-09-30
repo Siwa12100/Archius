@@ -1,4 +1,4 @@
-# `Observable<any>`, Appels Asynchrones, Directives, Attributs des Composants et Cycle de Vie des Composants en Angular
+# `Observable<any>`, Appels Asynchrones, Directives, Attributs des Composants et Cycle de Vie des Composants
 
 [...retour menu sur Angular](../menu.md)
 

@@ -13,7 +13,7 @@
 - [Modules, Injection de Dépendances et Structuration projet](./notes/modules.md)
 - [Bases sur la CLI Angular](./notes/cli_bases.md)
 - [Création, Utilisation, et Intégration des Composants en Angular 18 (Standalone)](./notes/composants_bases.md)
-- 
+- [`Observable<any>`, Appels Asynchrones, Directives, Attributs des Composants et Cycle de Vie des Composants](./notes/composants_suite_1.md)
 
 ### Exemples pratiques
 
