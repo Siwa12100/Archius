@@ -12,6 +12,8 @@
 
 - [Modules, Injection de Dépendances et Structuration projet](./notes/modules.md)
 - [Bases sur la CLI Angular](./notes/cli_bases.md)
+- [Création, Utilisation, et Intégration des Composants en Angular 18 (Standalone)](./notes/composants_bases.md)
+- 
 
 ### Exemples pratiques
 
