@@ -8,6 +8,12 @@
 * [1000 mots courants / thème](./mots_courants_theme.md)
 * [Liste de tous les mots appris](./mots_appris.md)
 
+## 14. Animaux
+
+:x: [Animaux domestiques](./fiches/fiches_2/15/1.md)
+
+:x: [Animaux de ferme et sauvages](./fiches/fiches_2/15/2.md)
+
 ## Maison et meubles
 
 :x: [Pièces de la maison](./fiches/fiches_2/14/1.md)

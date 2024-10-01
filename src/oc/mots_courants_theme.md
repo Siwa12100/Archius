@@ -316,12 +316,12 @@
 3. Poisson  
 4. Lapin  
 5. Souris  
-6. Hamster  
+6. Grenouille 
 7. Perruche  
 8. Tortue  
 9. Serpent  
-10. Cochon d'Inde  
-11. Furet  
+10. Insecte
+11. Sanglier  
 
 ### 11.2. **Animaux de ferme et sauvages**
 12. Cheval  
