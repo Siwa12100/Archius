@@ -8,23 +8,29 @@
 * [1000 mots courants / thème](./mots_courants_theme.md)
 * [Liste de tous les mots appris](./mots_appris.md)
 
+## Maison et meubles
+
+:x: [Pièces de la maison](./fiches/fiches_2/14/1.md)
+
+
+
 ## 13. Mots de quantité
 
-:x: [Quantités absolues](./fiches/fiches_2//13/1.md)
+:large_orange_diamond: [Quantités absolues](./fiches/fiches_2//13/1.md)
 
-:x: [Expressions de fréquence](./fiches/fiches_2/13/2.md)
+:large_orange_diamond: [Expressions de fréquence](./fiches/fiches_2/13/2.md)
 
 ## 12. Prépositions courantes
 
-:x: [prépositions de lieu](./fiches/12/1.md)
+:white_check_mark: [prépositions de lieu](./fiches/12/1.md)
 
-:x: [prépositions de temps & de direction](./fiches/12/2.md)
+:white_check_mark: [prépositions de temps & de direction](./fiches/12/2.md)
 
 ## 11. Mots interrogatifs et conjonctions
 
-:x: [Mots interrogatifs](./fiches/11/1.md)
+:white_check_mark: [Mots interrogatifs](./fiches/11/1.md)
 
-:x: [Connecteurs et conjonctions](./fiches/11/2.md)
+:white_check_mark: [Connecteurs et conjonctions](./fiches/11/2.md)
 
 ## 10. Transports
 
@@ -34,7 +40,7 @@
 
 ## 9. Verbes courants
 
-:large_orange_diamond: [Actions essentielles](./fiches/9/1.md)
+:white_check_mark: [Actions essentielles](./fiches/9/1.md)
 
 :white_check_mark: [Verbes d'interactions](./fiches/9/2.md)
 
