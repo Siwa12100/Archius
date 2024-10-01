@@ -4,6 +4,69 @@
 
 ---
 
+## 11. **Animaux**
+### 11.1. **Animaux domestiques**
+0. Chien  
+1. Chat  
+2. Oiseau  
+3. Poisson  
+4. Lapin  
+5. Souris  
+6. Grenouille 
+7. Perruche  
+8. Tortue  
+9. Serpent  
+10. Insecte
+11. Sanglier  
+
+### 11.2. **Animaux de ferme et sauvages**
+12. Cheval  
+13. Vache  
+14. Cochon  
+15. Mouton  
+16. Chèvre  
+17. Poule  
+18. Canard  
+19. Singe  
+20. Tigre  
+21. Éléphant  
+22. Lion  
+23. Serpent  
+24. Abeille  
+25. Papillon
+
+
+## 10. **Maison et meubles**
+### 10.1. **Pièces de la maison**
+0. Maison  
+1. Appartement  
+2. Chambre  
+3. Salon  
+4. Cuisine  
+5. Salle de bain  
+6. Toilette  
+7. Bureau  
+8. Grenier  
+9. Cave  
+10. Garage  
+11. Jardin  
+
+### 10.2. **Meubles et éléments**
+12. Lit  
+13. Table  
+14. Chaise  
+15. Canapé  
+16. Armoire  
+17. Tiroir  
+18. Étagère  
+19. Bureau  
+20. Fenêtre  
+21. Porte  
+22. Miroir  
+23. Escalier  
+24. Plafond  
+25. Mur
+
 ## 25. **Mots interrogatifs et conjonctions**
 ### 25.1. **Mots interrogatifs**
 0. Qui  
