@@ -4,6 +4,8 @@
 
 ## GitLab Actions
 
+* [Bases mots cles gitlab actions](./fiches/mots_cles.md)
+
 ### CI
 
 * [Bases de la CI avec gitlab](./fiches/gitlab_bases_ci.md)
