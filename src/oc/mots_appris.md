@@ -4,6 +4,36 @@
 
 ---
 
+## 13. **Météo et saisons**
+### 13.1. **Conditions météorologiques**
+0. Soleil  
+1. Pluie  
+2. Neige  
+3. Vent  
+4. Nuage  
+5. Tempête  
+6. Foudre  
+7. Brouillard  
+8. Arc-en-ciel  
+9. Orage  
+10. Chaud  
+11. Froid  
+
+### 13.2. **Phénomènes météorologiques**
+12. Gel  
+13. Grêle  
+14. Humidité  
+15. Canicule  
+16. Brume  
+17. Éclair  
+18. Climat  
+19. Saisons  
+20. Équinoxe  
+21. Solstice  
+22. Déluge  
+23. Sécheresse  
+24. Avalanche
+
 ## 11. **Animaux**
 ### 11.1. **Animaux domestiques**
 0. Chien  

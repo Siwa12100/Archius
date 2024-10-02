@@ -8,17 +8,23 @@
 * [1000 mots courants / thème](./mots_courants_theme.md)
 * [Liste de tous les mots appris](./mots_appris.md)
 
-## 14. Animaux
+## 16.Météo et saisons
 
-:x: [Animaux domestiques](./fiches/fiches_2/15/1.md)
+:x: [conditions meteos](./fiches/fiches_2/16/1.md)
 
-:x: [Animaux de ferme et sauvages](./fiches/fiches_2/15/2.md)
+:x: [phénomènes meteos](./fiches/fiches_2/16/2.md)
 
-## Maison et meubles
+## 15. Animaux
 
-:x: [Pièces de la maison](./fiches/fiches_2/14/1.md)
+:large_orange_diamond: [Animaux domestiques](./fiches/fiches_2/15/1.md)
 
-:x: [Meubles et éléments](./fiches/fiches_2/14/2.md)
+:large_orange_diamond: [Animaux de ferme et sauvages](./fiches/fiches_2/15/2.md)
+
+## 14. Maison et meubles
+
+:large_orange_diamond: [Pièces de la maison](./fiches/fiches_2/14/1.md)
+
+:large_orange_diamond: [Meubles et éléments](./fiches/fiches_2/14/2.md)
 
 ## 13. Mots de quantité
 

@@ -393,8 +393,6 @@
 16. Brume  
 17. Éclair  
 18. Climat  
-
-
 19. Saisons  
 20. Équinoxe  
 21. Solstice  
