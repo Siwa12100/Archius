@@ -38,6 +38,14 @@ Commande qui fonctionne :
 ./a.out a BBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBB 255 161
 ``` 
 
+Approche a expliquer....
+
+## Exercice 3
+
+## 1.)
+
+La fonction `gets()` est signalée comme dangereuse par le compilateur. Il est connu que cette fonction permet un buffer overflow car elle ne limite pas la quantité de données saisies. Cela signifie que si un utilisateur entre plus de 128 caractères (la taille du buffer), les données supplémentaires vont déborder en mémoire, écrasant d'autres variables ou le retour d'adresse du programme.
+
 
 
 
