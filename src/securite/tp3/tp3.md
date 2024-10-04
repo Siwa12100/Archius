@@ -4,16 +4,16 @@
 
 ## Exercice 1
 
-Pour changer la variable `modified`, il faut surcharger le buffer lorsque l'on rentre le string, de manière à écrire au delà de la mémoire attribuée au buffer et ainsi changer le string. 
+Pour changer la variable `modified`, il faut surcharger le buffer lorsque l'on rentre le string, de manière à écrire au delà de la mémoire attribuée au buffer, et ainsi changer le string. 
 
-Ainsi, en rentrant 67 caractères, nous arrivons à changer modified : `aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa`. 
+Dans ce sens, en rentrant 67 caractères, nous arrivons à changer modified : `aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa`. 
 
 ## Exercice 2
 
 ### 1.
 
-Le programme prend en paramètre 2 strings ainsi que leur nombre de caractères. Il rend ainsi dans le buffer les 2 strings concaténés, ainsi que les tailles de 2 strings additionnés. 
-Par contre, si on ne donne pas la bonne taille pour les 2 strings (par exemple une taille plus petite que la taille réel du string), alors seul le nombre de caractères spécifié en paramètre sera pris dans le string. 
+Le programme prend en paramètre 2 strings ainsi que leur nombre de caractères. Il rend dans le buffer les 2 strings concaténés, avec les tailles des 2 strings additionnés. 
+Cela étant, si on ne donne pas la bonne taille pour les 2 strings (par exemple une taille plus petite que la taille réelle du string), alors seul le nombre de caractères spécifié en paramètre sera pris dans le string. 
 
 **Exemple :**
 
@@ -38,12 +38,11 @@ Commande qui fonctionne :
 ./a.out a BBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBB 255 161
 ``` 
 
-Approche a expliquer....
-
+Nous avons commencé par utiliser une première chaîne très courte, `a`, pour occuper uniquement le premier octet du tableau `buffer`. Ensuite, une deuxième chaîne composée de 255 caractères `B` a été utilisée, dont une partie a dépassé les 200 octets alloués pour `buffer`, écrasant la variable `secret` située juste après. En contrôlant précisément cette longueur, nous avons fait en sorte que le caractère `B`, correspondant à `0x42` en ASCII, soit copié à l'emplacement mémoire de `secret`, lui attribuant ainsi cette valeur.
 
 ## Exercice 3
 
-### code du Main décompilé : 
+### code du main décompilé : 
 
 ```c
 undefined4 main(void) {
@@ -87,7 +86,6 @@ undefined4 main(void) {
 }
 ```
 
-
 ### Explication du programme
 
 **Initialisation des variables :**
@@ -117,9 +115,9 @@ Le programme attend un mot de passe décalé de -4 par rapport à la chaîne "a_
 
 ## Exercice 4
 
-## 1.)
+## 1.
 
-La fonction `gets()` est signalée comme dangereuse par le compilateur. Il est connu que cette fonction permet un buffer overflow car elle ne limite pas la quantité de données saisies. Cela signifie que si un utilisateur entre plus de 128 caractères (la taille du buffer), les données supplémentaires vont déborder en mémoire, écrasant d'autres variables ou le retour d'adresse du programme.
+La fonction `gets()` est signalée comme dangereuse par le compilateur. Il est connu que cette fonction permet un buffer overflow car elle ne limite pas la quantité de données saisies. Cela signifie que si un utilisateur entre plus de 128 caractères (la taille du buffer...), les données supplémentaires vont déborder en mémoire, écrasant d'autres variables ou le retour d'adresse du programme.
 
 ```bash
 clang -o rop vulnerable.c -m64 -fno-stack-protector -Wl,-z,relro,-z,now,-z,noexecstack -static
@@ -132,9 +130,9 @@ vulnerable.c:8:5: warning: implicit declaration of function 'gets' is invalid in
 vulnerable.c:(.text+0x23): warning: the `gets' function is dangerous and should not be used.
 ```
 
-## 2.) 
+## 2.
 
-Première série de tests :
+### Première série de tests
 
 ```bash
 perl -e 'print "A"x150' | ./rop
@@ -158,7 +156,7 @@ You password is incorrect
        1842719 segmentation fault  ./rop
 ``` 
 
-Seconde série de tests : 
+### Seconde série de tests
 
 ```bash
 perl -e 'print "A"x160' | ./rop
@@ -185,7 +183,6 @@ You password is incorrect
 ```
 
 150 caractères ne suffisent pas pour causer un segmentation fault, mais à partir de 160 caractères, le buffer déborde et l'écrasement se produit.
-
 
 ## Exercice 5
 
