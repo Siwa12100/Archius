@@ -40,7 +40,82 @@ Commande qui fonctionne :
 
 Approche a expliquer....
 
+
 ## Exercice 3
+
+### code du Main décompilé : 
+
+```c
+undefined4 main(void) {
+
+  char *pcVar1;
+  size_t sVar2;
+  int iVar3;
+  char local_58 [24];
+  undefined2 local_40;
+  char acStack_3c [32];
+  uint local_1c;
+  
+  builtin_strncpy(local_58,"`a_kileh]pekj[]ni[naqooe",0x18);
+  local_40 = 0x61;
+  puts("=== Break My ARM ===");
+  printf("Password: ");
+  pcVar1 = fgets(acStack_3c,0x1e,stdin);
+
+  if (pcVar1 != (char *)0x0) {
+
+    sVar2 = strcspn(acStack_3c,"\n");
+    acStack_3c[sVar2] = '\0';
+    local_1c = 0;
+
+    while (sVar2 = strlen(acStack_3c), local_1c < sVar2) {
+      acStack_3c[local_1c] = acStack_3c[local_1c] + -4;
+      local_1c = local_1c + 1;
+    }
+
+    iVar3 = strcmp(acStack_3c,local_58);
+
+    if (iVar3 == 0) {
+      puts("\nCongrats! Flag is the password");
+    }
+    else {
+      puts("\nNope. You need to feel the Force, young Padawan.");
+    }
+  }
+
+  return 0;
+}
+```
+
+
+### Explication du programme
+
+**Initialisation des variables :**
+
+* local_58 : Contient une chaîne de caractères initialisée avec "a_kileh]pekj[]ni[naqooe".
+* acStack_3c : Utilisé pour stocker le mot de passe entré par l'utilisateur.
+
+### Affichage et entrée de l'utilisateur
+
+Le programme affiche "=== Break My ARM ===", puis demande un mot de passe via la fonction fgets, qui stocke le mot de passe saisi dans la variable acStack_3c.
+
+### Décalage des caractères du mot de passe
+
+Ensuite, il y a une boucle while qui itère sur chaque caractère de la chaîne acStack_3c. Chaque caractère est décrémenté de 4 (c'est-à-dire que chaque caractère est décalé de -4 dans la table ASCII).
+
+### Comparaison avec la chaîne codée en dur
+
+Le mot de passe modifié est ensuite comparé à la chaîne codée en dur dans local_58 : "a_kileh]pekj[]ni[naqooe".
+Si le mot de passe modifié correspond à cette chaîne, le programme affiche "\nCongrats! Flag is the password".
+Sinon, il affiche "\nNope. You need to feel the Force, young Padawan.".
+
+### Trouver le mot de passe
+
+Le programme attend un mot de passe décalé de -4 par rapport à la chaîne "a_kileh]pekj[]ni[naqooe". En ajoutant 4 à chaque caractère, le mot de passe correct à entrer est "e_compilationbareussi".
+
+
+
+## Exercice 4
 
 ## 1.)
 
@@ -110,5 +185,7 @@ You password is incorrect
 ```
 
 150 caractères ne suffisent pas pour causer un segmentation fault, mais à partir de 160 caractères, le buffer déborde et l'écrasement se produit.
+
+
 
 
