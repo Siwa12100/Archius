@@ -187,5 +187,15 @@ You password is incorrect
 150 caractères ne suffisent pas pour causer un segmentation fault, mais à partir de 160 caractères, le buffer déborde et l'écrasement se produit.
 
 
+## Exercice 5
 
+### Analyse du code
 
+L'argument passé (via argv[1]) est copié dans le tampon buffer avec strcpy(), mais il n'y a pas de vérification sur la taille de l'argument. Etant donné que le buffer est déclaré avec une taille 64, cela ouvre la porte à une vulnérabilité de dépassement de tampon. Le dépassement du tampon pourrait permettre d'écraser des variables situées après buffer en mémoire, ici la variable modified.
+
+* La variable modified est située après buffer en mémoire. Le tampon a une taille de 64 octets, donc il faut envoyer au moins 64 octets pour remplir buffer, puis 4 octets supplémentaires pour écraser modified.
+
+* Pour exploiter le programme, nous pouvons utiliser cette chaine d'attaque :
+
+    
+`./a.out AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA \x64\x63\x62\x61`
