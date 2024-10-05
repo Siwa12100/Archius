@@ -4,6 +4,36 @@
 
 ---
 
+## 15. **Activités quotidiennes**
+### 15.1. **Routines quotidiennes**
+0. Se lever  
+1. Manger  
+2. Dormir  
+3. Se laver  
+4. Travailler  
+5. Se reposer  
+6. Cuisiner  
+7. Nettoyer  
+8. Lire  
+9. Écrire  
+10. Parler  
+11. Écouter  
+
+### 15.2. **Autres activités**
+12. Regarder  
+13. Marcher  
+14. Courir  
+15. S'asseoir  
+16. Conduire  
+17. Acheter  
+18. Vendre  
+19. Se promener  
+20. Prendre une douche  
+21. Se maquiller  
+22. Se coiffer  
+23. Se raser  
+24. Réparer
+
 ## 13. **Météo et saisons**
 ### 13.1. **Conditions météorologiques**
 0. Soleil  

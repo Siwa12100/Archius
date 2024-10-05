@@ -184,6 +184,8 @@ You password is incorrect
 
 150 caractères ne suffisent pas pour causer un segmentation fault, mais à partir de 160 caractères, le buffer déborde et l'écrasement se produit.
 
+
+
 ## Exercice 5
 
 ### Analyse du code

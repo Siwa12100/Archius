@@ -6,13 +6,20 @@
 ---
 
 * [1000 mots courants / thème](./mots_courants_theme.md)
+* [Mots restants à apprendre](./mots_restants.md)
 * [Liste de tous les mots appris](./mots_appris.md)
 
-## 16.Météo et saisons
+## 17. Activités quotidiennes
 
-:x: [conditions meteos](./fiches/fiches_2/16/1.md)
+:x: [routines quotidiennes](./fiches/fiches_2/17/1.md)
 
-:x: [phénomènes meteos](./fiches/fiches_2/16/2.md)
+:x: [Autres activités](./fiches/fiches_2/17/2.md)
+
+## 16. Météo et saisons
+
+:large_orange_diamond: [conditions meteos](./fiches/fiches_2/16/1.md)
+
+:large_orange_diamond: [phénomènes meteos](./fiches/fiches_2/16/2.md)
 
 ## 15. Animaux
 
