@@ -53,7 +53,16 @@ Voici comment l’attaque se déroule en détail, en suivant les étapes illustr
 
 ---
 
-## 4. **Attaques notables utilisant Log4Shell**
+## 4. Conséquences : Quels sont les risques concrets de Log4Shell ?
+- **Durée : 2 minutes**
+- 
+Les conséquences de Log4Shell sont très sérieuses. En accédant à un serveur via cette vulnérabilité, un attaquant peut prendre le contrôle complet du serveur, exécuter des scripts arbitraires, installer des ransomwares, ou même voler des informations sensibles.
+
+Les sociétés de cybersécurité, comme CheckPoint et Palo Alto Networks, ont observé une augmentation massive des attaques exploitant cette vulnérabilité dès sa divulgation. Certaines variantes d’attaques ont été particulièrement sophistiquées, utilisant des chaînes encodées en Base64 pour échapper à la détection et rendre l’analyse plus complexe.
+
+De plus, même après les premiers correctifs de Log4J, des vulnérabilités supplémentaires ont été découvertes, notamment liées à des attaques DDoS (Denial of Service) sur certaines configurations de Log4J. Cela montre à quel point cette vulnérabilité est difficile à éradiquer totalement.
+
+## 5. **Attaques notables utilisant Log4Shell**
    - **Durée : 2 minutes**
 
 Depuis sa découverte, **Log4Shell** a été largement exploité par des cybercriminels et des groupes malveillants. Voici quelques exemples d’attaques notables :
@@ -74,7 +83,7 @@ Ces attaques montrent à quel point **Log4Shell** a été rapidement intégré d
 
 ---
 
-## 5. **Mesures de protection : Comment se protéger contre Log4Shell ?**
+## 6. **Mesures de protection : Comment se protéger contre Log4Shell ?**
    - **Durée : 2 minutes**
 
 Passons maintenant aux mesures de protection. Il existe plusieurs façons de se protéger contre Log4Shell, mais il est essentiel d'agir rapidement.
@@ -93,7 +102,7 @@ Passons maintenant aux mesures de protection. Il existe plusieurs façons de se 
 
 ---
 
-## 6. **Conclusion**
+## 7. **Conclusion**
    - **Durée : 1 minute**
 
 En conclusion, **Log4Shell** a montré à quel point une vulnérabilité dans un composant aussi largement utilisé que **Log4J** peut avoir des répercussions mondiales. Elle a souligné l’importance de la **vigilance continue** dans la gestion des dépendances logicielles et des mises à jour.
