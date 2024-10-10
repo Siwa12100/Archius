@@ -226,3 +226,48 @@ base.apk	     classes.dex  META-INF  res      testssl.sh      websec23-tp2
 ```
 
 On voit dans les fichiers que le projet a été fait en kotlin.
+
+Pour répondre aux questions 2 et 3 concernant l'analyse de l'APK, voici les démarches détaillées, les commandes utilisées, et les réflexions menées :
+
+### 2.
+
+Pour retrouver les permissions de l'application, nous avons utilisé l'outil `aapt`, qui permet d'extraire des informations d'un fichier APK. 
+
+**Extraction des permissions** :
+
+   Après avoir installé `aapt`, nous avons exécuté la commande pour obtenir les permissions de l'application :
+
+   ```bash
+   aapt dump permissions base.apk
+   ```
+
+   Cette commande nous a donné les permissions suivantes :
+   - `android.permission.READ_SMS`
+   - `android.permission.RECEIVE_BOOT_COMPLETED`
+   - `android.permission.INTERNET`
+
+Ces permissions indiquent que l'application a la capacité de lire les messages SMS, de s'exécuter au démarrage du téléphone et d'accéder à Internet, ce qui peut être caractéristique d'une application malveillante cherchant à surveiller ou à intercepter des informations sensibles.
+
+### 3.
+
+Pour retrouver le numéro de version de la librairie `androidx:core:core`, nous avons procédé comme suit :
+
+1. **Navigation dans le répertoire META-INF** :
+   
+   Après avoir décompressé l'APK avec la commande :
+   ```bash
+   unzip base.apk
+   ```
+   Nous avons navigué dans le répertoire `META-INF` pour examiner les fichiers présents, qui contiennent des informations sur les dépendances de l'application.
+
+2. **Liste des fichiers de version** :
+3. 
+   En utilisant la commande `ls`, nous avons trouvé plusieurs fichiers, y compris `androidx.core_core.version`, qui correspond à la librairie `androidx:core:core`.
+
+4. **Lecture du fichier de version** :
+5. 
+   Nous avons ensuite affiché le contenu du fichier pour extraire la version :
+   ```bash
+   cat androidx.core_core.version
+   ```
+   Ce qui a révélé que la version de la librairie est **1.5.0**.
