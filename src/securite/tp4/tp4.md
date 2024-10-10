@@ -271,3 +271,25 @@ Pour retrouver le numéro de version de la librairie `androidx:core:core`, nous 
    cat androidx.core_core.version
    ```
    Ce qui a révélé que la version de la librairie est **1.5.0**.
+
+
+### 4.
+
+Le langage du code décompilé est principalement du Java, car les applications Android sont écrites dans ce langage et compilées en bytecode. Lorsque ce bytecode est décompilé, l'outil de décompilation génère une version approximative du code source Java d'origine. 
+
+### 5.
+
+Dans le fichier `DumpData.java`, nous trouvons l'adresse du serveur sur lequel les SMS sont envoyés. Voici le code pertinent :
+
+```java
+private static String SERVER_IP = "sms.pms.droid.vubugzurwpehppqzwsshvypjwtmxkekg.xyz";
+private static int SERVER_PORT = 8888;
+```
+
+L'adresse complète est donc : `http://sms.pms.droid.vubugzurwpehppqzwsshvypjwtmxkekg.xyz:8888/`.
+
+### 6.
+
+Dans le même répertoire, le fichier `ReverseShell.java` est conçu pour établir une connexion de shell inversé à un serveur. Il se connecte à l'adresse IP `240.123.207.20` sur le port `8888` et redirige les entrées et sorties du shell de l'appareil Android vers ce serveur. Ce type de fonctionnalité est souvent utilisé dans les scénarios de malware pour donner à un attaquant un accès à distance à l'appareil de la victime.
+
+Ces informations soulignent l'objectif malveillant de l'application, qui cherche à collecter des données personnelles en envoyant des SMS et en établissant un accès non autorisé via un shell inversé.
