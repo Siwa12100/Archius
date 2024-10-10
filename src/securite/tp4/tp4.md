@@ -214,3 +214,15 @@ Sachant que le nombre 86400000 représente le nombre de millisecondes dans une j
 Cette requête a retourné plusieurs résultats, parmi lesquels un événement suspect : **"Barbecue"**. Nous avons constaté que cet événement avait un timestamp de début (dtstart) de 1683352800000 et un timestamp de fin (dtend) de 1683356400000, ce qui correspond au 5 mai 2023 à 10:00:00 UTC.
 
 Bien que nous ayons d'abord suspecté un autre événement intitulé **"Réparation téléphone"**, il ne correspondait pas à la date d'installation de l'application malveillante. En revanche, l'événement **"Barbecue"** se déroulait juste avant l'installation, ce qui soulève des questions sur la possibilité que l'application ait été installée pendant cet événement.
+
+## Exercice 4
+
+### 1.
+
+```bash
+root@debian-1:~# ls 
+AndroidManifest.xml  cert	  kotlin    okhttp3  resources.arsc  tp2.tar.gz
+base.apk	     classes.dex  META-INF  res      testssl.sh      websec23-tp2
+```
+
+On voit dans les fichiers que le projet a été fait en kotlin.
