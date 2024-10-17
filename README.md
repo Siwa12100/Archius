@@ -44,6 +44,7 @@ Tot aquò dich, bona lectura als curioses !
 - [tp4](./src/securite/tp4/tp4.md)
 - [tp5](./src/securite/tp5/tp5.md)
 - [Expose td](./src/securite/expose_td.md)
+- [Revisions DS](./src/securite/revisions_Ds.md)
 
 ## Notes semestre 5 BUT Informatique
 
