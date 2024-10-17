@@ -294,3 +294,176 @@ C'est un algorithme de chiffrement parfaitement sûr, où chaque bit du message 
      - Le client utilise ce TGT pour demander des services auprès du **Ticket Granting Service (TGS)**.
    - **Utilité** : Largement utilisé dans les environnements où la sécurité des identités est cruciale, comme dans les grandes entreprises.
 
+## Tp 1
+
+Voici une explication détaillée des concepts et méthodologies abordés dans ce **TP de sécurité** en cryptographie et réseaux, afin que tu puisses bien comprendre les notions clés pour un QCM.
+
+### 1. **Comparaison HTTP vs HTTPS (Exercice 1)**
+
+   - **HTTP (Hypertext Transfer Protocol)** : Les requêtes et réponses HTTP sont envoyées en clair, ce qui signifie que tout le contenu, y compris les informations sensibles (mots de passe, identifiants), peut être intercepté par un attaquant lors d'une attaque de type "Man-in-the-Middle" (MitM).
+   - **HTTPS (HTTP Secure)** : Basé sur le protocole TLS (Transport Layer Security), HTTPS chiffre les communications après une négociation sécurisée, garantissant la **confidentialité** (les données ne peuvent pas être lues par des tiers) et l'**intégrité** (les données ne peuvent pas être modifiées à leur insu). Cela protège contre les interceptions et les usurpations de session.
+   - **Analyse des trames PCAP** : Dans le TP, tu es amené à analyser des fichiers `.pcapng` pour observer ces différences entre HTTP et HTTPS. Pour filtrer les données, on peut utiliser les adresses IP et les protocoles dans un outil comme **Wireshark**.
+
+### 2. **Digicode et Probabilité (Exercice 2)**
+
+   - **Nombre de combinaisons possibles** : Le digicode comporte 4 chiffres, avec 10 possibilités pour chaque chiffre. Ainsi, Alice peut générer \( 10^4 \) combinaisons possibles, soit 10 000 codes.
+   - **Optimisation des essais de Bob** : Bob peut utiliser une stratégie d'élimination en observant si la lumière est rouge (erreur) ou verte (bon chiffre). Dans le pire des cas, pour chaque chiffre, il fera 10 essais, soit un total de 40 essais maximum (10 essais par chiffre et 4 chiffres à deviner).
+   - **Méthodologie** : Il s'agit ici d'une application de la combinatoire et des probabilités, avec un scénario de recherche séquentielle optimisée.
+
+### 3. **Attaque par Malleabilité en Chiffrement CBC (Exercice 3)**
+
+   - **CBC (Cipher Block Chaining)** : Mode de chiffrement symétrique utilisé pour protéger les messages. Chaque bloc de texte clair est XORé avec le bloc chiffré précédent avant d'être chiffré. Cela améliore la sécurité par rapport au mode **ECB**, où des blocs identiques génèrent des blocs chiffrés identiques.
+   - **Malleabilité** : En CBC, il est possible pour un attaquant de modifier certains blocs de texte chiffré pour provoquer des modifications contrôlées dans le texte déchiffré. Par exemple, un attaquant pourrait modifier le nombre de pizzas commandées dans un message (de 2 à 200) en altérant les blocs chiffrés.
+   - **Méthodologie** : Tu dois calculer un nouvel IV et de nouveaux blocs chiffrés pour manipuler le message déchiffré, en exploitant la propriété du XOR. L'énoncé te guide pour choisir des valeurs spécifiques de IV, C1, C2 et C3.
+
+### 4. **Hachage et Bruteforce (Exercice 4)**
+
+   - **Hachage avec Salt** : Un mot de passe peut être haché avec un algorithme comme **MD5crypt**. Le salt est une valeur aléatoire ajoutée au mot de passe avant le hachage pour rendre plus difficile les attaques par tables arc-en-ciel.
+   - **Bruteforce** : Le TP te demande de retrouver des mots de passe à partir de leurs hachages, en utilisant un script bash et l'outil **openssl** pour générer les hachages correspondants. L'idée est de tester des mots de passe à partir d'une base de données (comme **phpbb**).
+   - **Méthodologie** : Tu compares le hachage généré à partir du mot de passe testé avec le hachage cible. Si les deux correspondent, tu as trouvé le mot de passe.
+
+### 5. **Recherche de CVE (Exercice 5)**
+
+   - **CVE (Common Vulnerabilities and Exposures)** : Une CVE est une vulnérabilité publiquement connue, souvent exploitée par les attaquants pour compromettre des systèmes. Tu es invité à rechercher une CVE spécifique pour pénétrer un site web configuré dans un environnement Docker.
+   - **Méthodologie** : Après avoir lancé un serveur Docker avec un site vulnérable, tu utilises des bases de données de vulnérabilités comme le **NVD (National Vulnerability Database)** pour trouver une faille exploitable. Il s'agit de comprendre comment exploiter une faille documentée.
+
+### 6. **Attaque au Président (Exercice 6)**
+
+   - **GPG (GNU Privacy Guard)** : Un outil de chiffrement et de signature numérique qui utilise la cryptographie à clé publique. Cet exercice t'invite à manipuler des clés GPG pour envoyer, signer et vérifier des messages entre le président et la secrétaire d'une entreprise fictive.
+   - **Chiffrement asymétrique** : L'idée est que chaque acteur possède une clé publique (pour chiffrer les messages) et une clé privée (pour déchiffrer et signer).
+   - **Méthodologie** :
+     - Importer des clés publiques et privées avec `gpg --import`.
+     - Chiffrer des messages avec `gpg --encrypt`.
+     - Signer des messages avec `gpg --sign`.
+     - Vérifier les signatures avec `gpg --verify`.
+   - L'exercice te fait alterner entre le rôle de secrétaire et de président, te permettant de manipuler les clés et d'apprendre à reconnaître les attaques par substitution de clé.
+
+### 7. **Audit SSL/TLS des Sites Bancaires (Exercice 7)**
+
+   - **SSL/TLS** : Protocoles qui assurent la sécurité des communications sur Internet. **TLS** (Transport Layer Security) est l'évolution de **SSL** (Secure Sockets Layer), offrant une meilleure sécurité.
+   - **Audit avec SSL Labs** : Tu es invité à utiliser le site **SSL Labs** pour tester la configuration SSL/TLS de plusieurs banques. Le test analyse des éléments comme les versions de TLS, les suites de chiffrement supportées, et la solidité des certificats.
+   - **Méthodologie** :
+     - Accéder au site **SSL Labs** et lancer un test sur les domaines bancaires.
+     - Analyser les résultats : versions de TLS supportées, longueur des clés RSA, support de Forward Secrecy, etc.
+     - Classer les banques en fonction de la robustesse de leur configuration SSL/TLS.
+
+---
+
+### Concepts clés à maîtriser :
+- **HTTPS** vs **HTTP** : Confidentialité et intégrité des données.
+- **Modes de chiffrement symétrique** : ECB et CBC, avec une attention particulière à la malleabilité en CBC.
+- **Hachage avec salt** et bruteforce de mots de passe.
+- **Cryptographie asymétrique** avec GPG pour le chiffrement, la signature et la vérification.
+- **Audit de la sécurité SSL/TLS** : Importance des protocoles à jour, des certificats robustes, et des suites de chiffrement.
+
+## Tp 2 
+
+### 1. **Sécurité SSH (Exercice 1)**
+
+   - **SSH (Secure Shell)** : Un protocole réseau qui permet de se connecter à distance de manière sécurisée. SSH chiffre les communications, assurant ainsi confidentialité et intégrité.
+   - **Audit SSH avec ssh-audit** :
+     - L'outil **ssh-audit** analyse les configurations du serveur SSH (127.0.0.1 dans ce cas) pour vérifier la robustesse des algorithmes utilisés.
+     - **Key Exchange Algorithms (Algorithmes d'échange de clés)** : Ceux-ci permettent de sécuriser l'établissement de la connexion. Certains algorithmes comme **sntrup761x25519** sont modernes et résistants aux attaques quantiques.
+     - **Host Key Algorithms (Algorithmes de clé d'hôte)** : Ils déterminent comment le serveur s'authentifie. Les algorithmes **ed25519** et **rsa-sha2-512** sont préférés pour leur sécurité.
+     - **MACs (Message Authentication Codes)** : Utilisés pour garantir l'intégrité des messages échangés. Les versions basées sur **SHA-2** sont privilégiées pour éviter les vulnérabilités de **SHA-1**.
+     - **Ciphers (Chiffres)** : Les algorithmes de chiffrement comme **AES** sont largement utilisés en raison de leur sécurité. Les algorithmes vulnérables comme **chacha20-poly1305** sont désactivés.
+     - **Attaques DHEat DoS** : L'audit signale également des attaques potentielles par déni de service (DoS) en utilisant des algorithmes de Diffie-Hellman avec une configuration non optimisée.
+
+   - **Modification du fichier sshd_config** : 
+     - On modifie la configuration SSH pour améliorer la sécurité en restreignant l'utilisation des algorithmes vulnérables et en privilégiant ceux considérés comme sécurisés. Après chaque modification, il est important de redémarrer le service SSH avec `systemctl restart sshd`.
+
+### 2. **HTTPS et Cryptographie avec OpenSSL (Exercice 2)**
+
+   - **Certificat SSL/TLS** : Les certificats SSL/TLS assurent que les communications entre le navigateur et le serveur sont chiffrées. Le certificat est émis par une **autorité de certification (CA)**.
+   - **Création d'une Root CA** :
+     - **Générer une clé RSA** : Avec OpenSSL, on génère une clé privée de 4096 bits qui servira à signer les certificats. La clé est utilisée pour créer un **certificat auto-signé** pour une autorité racine (root CA).
+     - **Création d'une autorité intermédiaire** : Cette autorité intermédiaire est signée par la root CA. Les certificats intermédiaires permettent d'ajouter une couche de confiance, utilisée par de nombreux navigateurs pour valider les certificats.
+     - **PKCS12 et PEM** : Les certificats et clés sont exportés au format **PKCS12** (format binaire) et **PEM** (format texte), ce dernier étant utilisé par les serveurs web pour configurer SSL.
+   
+   - **Configuration du serveur Apache** :
+     - Apache doit être configuré pour utiliser ces nouveaux certificats. On modifie le fichier **default-ssl.conf** pour indiquer les bons chemins des fichiers de clé et certificat. Les modules SSL doivent également être activés dans Apache (`a2enmod ssl`).
+     - On vérifie le bon fonctionnement de HTTPS via le navigateur et on s'assure que les certificats sont bien importés dans le navigateur.
+
+### 3. **EFAIL (Exercice 3)**
+
+   - **EFAIL** : Une attaque sur le chiffrement des emails qui permet à un attaquant de manipuler des parties du texte chiffré pour modifier ou révéler des parties du texte en clair après déchiffrement. Elle exploite la malleabilité des messages chiffrés en mode **CBC** (Cipher Block Chaining).
+   - **Modification du fichier efail_exercice.py** :
+     - Le TP te demande de compléter la fonction **efail()** pour manipuler le **ciphertext** (texte chiffré) et son **IV** (vecteur d'initialisation) afin de reconstruire le texte original dans les emails interceptés. Le but est de remplacer certaines parties du message pour voir comment l'attaque fonctionne.
+     - L'attaque modifie les blocs de chiffrement pour obtenir des informations en clair à partir d'un message chiffré, ce qui démontre les faiblesses de certains modes de chiffrement lorsque la malleabilité n'est pas correctement protégée.
+
+### 4. **TLS 1.3 (Exercice 4)**
+
+   - **TLS (Transport Layer Security)** : La version 1.3 de TLS améliore la sécurité par rapport aux versions précédentes, en supprimant certains algorithmes faibles et en rendant les négociations plus rapides.
+   - **Vérification des versions TLS** :
+     - Utilisation de la commande **openssl s_client** pour vérifier que les sites web comme **google.com** et **ayesh.me** supportent les versions TLS 1.2 et 1.3.
+     - **testssl.sh** : Ce script permet de tester la configuration SSL/TLS d'un site. Il vérifie si les versions TLS et les suites de chiffrement sont à jour et sécurisées.
+   
+   - **Configuration TLS sur Apache** :
+     - Le TP te demande de jouer avec les paramètres cryptographiques d'Apache, comme les **ciphersuites** et les **courbes elliptiques**. Ces paramètres sont définis dans le fichier **ssl.conf** et influencent la sécurité des connexions.
+     - On peut forcer l'utilisation de certaines ciphersuites comme **TLS_AES_128_GCM_SHA256** ou restreindre les courbes elliptiques à celles qui sont résistantes aux attaques, comme **X25519**.
+
+### Concepts clés à maîtriser :
+1. **SSH** : Importance du chiffrement des communications et de la configuration sécurisée des algorithmes dans SSH.
+2. **SSL/TLS et certificats** : Compréhension des certificats, autorité de certification, et configuration SSL sur les serveurs web.
+3. **EFAIL** : Attaque exploitant la malleabilité du chiffrement CBC pour manipuler des emails chiffrés.
+4. **TLS 1.3** : Améliorations de la sécurité dans la version 1.3 de TLS et configuration des ciphersuites et courbes elliptiques.
+
+## Tp 3
+
+### 1. **Buffer Overflow (Exercice 1)**
+
+   - **Buffer Overflow (BoF)** : Un **débordement de buffer** se produit lorsqu'un programme écrit plus de données dans un espace mémoire (buffer) que ce que celui-ci peut contenir. Cela peut écraser des zones mémoire adjacentes et entraîner des comportements imprévisibles, comme l'exécution de code malveillant.
+   - **Code de l'exercice** :
+     - Le programme comporte une variable `modified` qui est initialisée à 0. L'objectif est de modifier cette variable à partir de l'entrée utilisateur sans modifier directement le code source.
+     - **Analyse** : Lorsque l'utilisateur entre une chaîne de caractères trop longue pour le buffer (64 octets), cette chaîne peut écraser la mémoire où est stockée la variable `modified`. En fournissant une entrée spécialement conçue, tu peux donc écraser cette variable et déclencher le message "you have changed the ‘modified’ variable".
+     - **Méthodologie** : En injectant une chaîne plus longue que 64 caractères, on provoque un débordement qui modifie la valeur de `modified`. L'idée est d'exploiter cette vulnérabilité pour contrôler le programme.
+
+### 2. **Integer Overflow (Exercice 2)**
+
+   - **Integer Overflow** : Cette vulnérabilité survient lorsque les calculs effectués sur des variables de type entier dépassent la capacité maximale de ces variables, entraînant des résultats incorrects ou imprévisibles.
+   - **Analyse du code** :
+     - Le programme effectue des opérations avec des entiers non signés (`unsigned char`), dont la taille maximale est 255. En provoquant un dépassement (somme de `len1` et `len2` supérieure à 255), il est possible d'affecter la variable `d.secret`, et ainsi de la modifier sans accès direct.
+     - **Méthodologie** : En manipulant les longueurs d'entrée (`len1` et `len2`), tu peux provoquer un dépassement d'entier et ajuster la valeur de `d.secret`. L'objectif est de définir cette variable à la valeur hexadécimale `0x42` en contrôlant les entrées fournies au programme.
+
+### 3. **Reverse Engineering (Exercice 3)**
+
+   - **Reverse Engineering avec Ghidra** : Cet exercice consiste à analyser un programme compilé pour architecture ARM à l'aide de l'outil de rétro-ingénierie **Ghidra**. L'objectif est de comprendre comment le programme fonctionne et de retrouver un mot de passe à partir de l'analyse du code binaire.
+   - **Méthodologie** :
+     - Utiliser Ghidra pour désassembler le binaire et observer le code source reconstitué.
+     - Analyser les conditions de comparaison (par exemple, la vérification du mot de passe) et déterminer comment contourner les mécanismes de sécurité du programme en trouvant la bonne entrée (mot de passe).
+
+### 4. **Return-Oriented Programming (Exercice 4)**
+
+   - **Return-Oriented Programming (ROP)** : Une attaque **ROP** permet à un attaquant d'exécuter du code malveillant en utilisant des fragments de code légitime déjà présent dans la mémoire du programme. Cela contourne des mesures de sécurité comme **DEP** (Data Execution Prevention).
+   - **ROPgadget** :
+     - Cet outil permet de trouver des gadgets (fragments de code se terminant par une instruction de retour `RET`) dans un binaire, qui peuvent être chaînés pour exécuter du code arbitraire sans avoir besoin d'injecter de nouveau code.
+     - **Exercice** : Utiliser `ROPgadget` pour analyser le binaire compilé à partir du fichier `vulnerable.c`. Ce fichier contient une vulnérabilité de débordement de buffer, et l'objectif est d'exploiter cette vulnérabilité pour créer une chaîne ROP qui ouvre un shell sur la machine.
+   - **Méthodologie** :
+     - Compiler le binaire avec les options nécessaires pour désactiver certaines protections comme le **stack protector**.
+     - Utiliser `ROPgadget` pour identifier les gadgets dans le binaire.
+     - Écrire un script Python avec la bibliothèque **pwn** pour envoyer la chaîne de gadgets au programme, exploitant ainsi la vulnérabilité pour obtenir un accès shell.
+
+   - **Mécanismes de défense** :
+     - **DEP (Data Execution Prevention)** : Cette mesure empêche l'exécution de code dans certaines régions de la mémoire réservées aux données. Elle protège contre les attaques de type buffer overflow en empêchant l'exécution de code injecté.
+     - **ASLR (Address Space Layout Randomization)** : Cette technique rend plus difficile l'exploitation des vulnérabilités en modifiant de manière aléatoire l'emplacement des segments mémoire lors du chargement d'un processus. Cela complique la création de chaînes ROP efficaces.
+
+   - **Preuve que DEP et ASLR sont actifs** :
+     - Utilisation de la commande `readelf -l rop` pour vérifier que le segment de pile n'est pas exécutable.
+     - La commande `cat /proc/sys/kernel/randomize_va_space` doit retourner 2 pour indiquer que l'ASLR est activé.
+
+### 5. **BoF (Buffer Overflow) le retour (Exercice 5)**
+
+   - **Exploitation d'un débordement de buffer** : Le programme de cet exercice contient une vulnérabilité similaire à celle du premier exercice. L'objectif est de modifier la variable `modified` pour qu'elle prenne la valeur spécifique `0x61626364`.
+   - **Méthodologie** :
+     - En exploitant la vulnérabilité de débordement de buffer, il est possible d'écraser la variable `modified` en fournissant une chaîne d'entrée spécialement construite.
+     - L'objectif est d'injecter une valeur particulière (hexadécimale) pour obtenir la sortie voulue du programme.
+
+---
+
+### Concepts clés à maîtriser :
+1. **Buffer Overflow (BoF)** : Comprendre comment un débordement de buffer permet de manipuler la mémoire d'un programme et d'exécuter du code arbitraire.
+2. **Integer Overflow** : Savoir comment un dépassement d'entier peut être exploité pour modifier des variables critiques.
+3. **Reverse Engineering** : Utiliser des outils comme Ghidra pour analyser des binaires et comprendre leur fonctionnement.
+4. **Return-Oriented Programming (ROP)** : Exploitation avancée de vulnérabilités pour contourner les protections comme DEP et ASLR.
+5. **Mécanismes de défense (DEP, ASLR)** : Comprendre comment ces techniques renforcent la sécurité et compliquent l'exploitation des vulnérabilités.
+
