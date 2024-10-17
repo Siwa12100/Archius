@@ -467,3 +467,69 @@ Voici une explication détaillée des concepts et méthodologies abordés dans c
 4. **Return-Oriented Programming (ROP)** : Exploitation avancée de vulnérabilités pour contourner les protections comme DEP et ASLR.
 5. **Mécanismes de défense (DEP, ASLR)** : Comprendre comment ces techniques renforcent la sécurité et compliquent l'exploitation des vulnérabilités.
 
+## Tp 4
+
+### Exercice 1 : Analyse d'une trace réseau post-mortem
+
+Cet exercice implique l'analyse de fichiers logs et d'une trace réseau pour identifier une attaque et comprendre comment elle s'est déroulée. Voici les étapes importantes :
+
+1. **Adresse du serveur attaqué** : L'adresse IP du serveur cible de l'attaque doit être trouvée dans la trace PCAP en analysant les paquets réseau avec **Wireshark**.
+   
+2. **Nature de l'attaque** : L'attaque pourrait être un vol de données ou une compromission de système. Il s'agit de vérifier les types de paquets envoyés et reçus pour détecter des anomalies, comme des tentatives de connexion suspectes ou des transferts de données non autorisés.
+
+3. **Dispositif source de l'attaque** : Identifier l'adresse IP ou MAC de l'appareil à l'origine de l'attaque, souvent trouvé dans les en-têtes des paquets capturés.
+
+4. **Identifiants de connexion** : Les logs doivent révéler les tentatives de connexion avec des identifiants (login/password). Le but est d'extraire les derniers identifiants utilisés par l'attaquant.
+
+5. **Page d'authentification compromise** : Il faut déterminer quelle page Web (comme `login.php`) a été utilisée par l'attaquant pour accéder au système.
+
+### Exercice 2 : Analyse de logs
+
+Cet exercice repose sur l'analyse des logs d'accès pour détecter une attaque par brute-force sur un service ERP non à jour. Voici les points clés :
+
+1. **Début de l'attaque brute-force** : Les requêtes répétées dans les logs (généralement des requêtes POST) révèlent le moment où l'attaque brute-force a commencé. Ces requêtes visent souvent une page de connexion pour deviner les identifiants de manière répétée.
+
+2. **Extensions de fichiers testées** : Après avoir obtenu l'accès, l'attaquant essaie plusieurs extensions de fichiers (comme `.php`, `.phtml`, `.php3`, etc.) pour tenter d'exploiter des vulnérabilités sur des scripts PHP. Les logs révèlent les extensions essayées.
+
+3. **Extension vulnérable utilisée** : À partir des logs, il faut identifier l'extension qui a permis à l'attaquant d'exploiter le serveur (par exemple `.phar`).
+
+4. **Commandes shell exécutées** : Une fois le fichier vulnérable identifié, l'attaquant utilise des commandes shell pour exécuter des actions sur le serveur, comme télécharger des fichiers ou exécuter des scripts malveillants.
+
+### Exercice 3 : Analyse post-mortem d'un système de fichier Android
+
+Cet exercice porte sur l'analyse d'un système de fichier Android compromis. Voici les principales étapes :
+
+1. **Chemin de la base de données des SMS/MMS** : Les SMS et MMS sont souvent stockés dans une base de données SQLite. Il faut trouver le chemin vers cette base, souvent situé dans le répertoire `com.android.providers.telephony/databases/`.
+
+2. **Recherche de SMS/MMS contenant des identifiants** : En explorant la table des messages dans la base de données, il s'agit de retrouver des SMS/MMS mentionnant des identifiants de connexion ERP compromis. Le champ `id` du message et l'heure d'envoi doivent être notés.
+
+3. **Identifiants compromis et chemin des fichiers** : Le fichier contenant les identifiants est souvent stocké dans un répertoire accessible à partir du système de fichier. Il faut également retrouver le mot de passe associé à l'utilisateur RH.
+
+4. **Nom de l'application malveillante et permissions** : À l'aide des fichiers de système, il faut identifier l'application malveillante installée et ses permissions. Les permissions critiques (accès SMS, démarrage automatique, etc.) doivent être relevées. De plus, la date d'installation de l'application doit être déterminée.
+
+5. **Analyse des événements du calendrier** : En examinant la base de données des événements du calendrier, il est possible de détecter des événements ou rendez-vous suspects autour de la date d'installation de l'application malveillante, ce qui peut indiquer un lien entre ces événements et l'attaque.
+
+### Exercice 4 : Reverse Engineering Android
+
+Cet exercice consiste à analyser un fichier APK malveillant pour comprendre son comportement.
+
+1. **Langage de l'application** : En regardant les fichiers du projet (souvent `.java` ou `.xml`), il est possible de déterminer le langage utilisé pour développer l'application (généralement Java ou Kotlin).
+
+2. **Permissions de l'application** : Avec la commande **`aapt dump permissions`**, il est possible d'extraire les permissions que l'application requiert, comme l'accès aux SMS ou à Internet.
+
+3. **Version de la librairie `androidx:core:core`** : En explorant le répertoire `META-INF` dans le fichier APK décompressé, on peut retrouver la version de cette librairie utilisée par l'application.
+
+4. **Langage du code décompilé** : En décompilant le fichier APK avec un outil comme **JADX**, le code source peut être récupéré. Le langage généré par la décompilation est souvent du Java, même si l'application a été développée en Kotlin.
+
+5. **Adresse du serveur de réception des SMS** : L'analyse des fichiers Java dans le répertoire `output` permet de retrouver l'adresse du serveur vers lequel les SMS sont envoyés.
+
+6. **Analyse du fichier `ReverseShell.java`** : Ce fichier est souvent utilisé pour établir une connexion inversée (reverse shell), permettant à l'attaquant de prendre le contrôle du téléphone. Il est important de comprendre son fonctionnement pour évaluer l'étendue de la compromission.
+
+---
+
+### Concepts clés à maîtriser :
+1. **Analyse de traces réseau (Wireshark)** : Savoir identifier des attaques à partir de paquets capturés.
+2. **Logs d'accès (brute-force)** : Comprendre comment une attaque brute-force se manifeste dans les logs.
+3. **SQLite (SMS/MMS sur Android)** : Maîtriser les commandes SQLite pour extraire des données critiques.
+4. **Permissions Android** : Savoir identifier et analyser les permissions d'une application Android malveillante.
+5. **Reverse Engineering d'APK** : Utiliser des outils comme `aapt` et `JADX` pour extraire et analyser les informations d'une application Android.
