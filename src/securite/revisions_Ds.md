@@ -210,3 +210,87 @@ C'est un algorithme de chiffrement parfaitement sûr, où chaque bit du message 
    - Chaque certificat est signé par une **Autorité de Certification (CA)**, qui garantit que la clé publique associée appartient bien à l'entité indiquée.
 
 ## Amphi 4
+
+### 1. **XSS (Cross-Site Scripting)**
+   - **Principe** : Il s'agit d'une injection de code malveillant dans une page web, souvent en JavaScript, qui s'exécute côté client. Un exemple de code : `<script>alert('Bonjour!')</script>`.
+   - **Types d'attaques XSS** :
+     - **Réfléchie** : Le code est temporairement injecté via la réponse du serveur.
+     - **Persistante** : Le code est stocké sur le serveur et exécuté par les utilisateurs.
+     - **Basée sur le DOM** : Le code est exécuté uniquement côté client, sans intervention du serveur.
+   - **Effets possibles** :
+     - **Defacement** : Changer l'apparence du site (exemple : afficher un message d'attaque).
+     - **Redirection** : Rediriger les utilisateurs vers un autre site.
+     - **Vol de cookies** : Récupérer les cookies d'authentification de l'utilisateur, permettant à l'attaquant de se connecter en tant que lui.
+
+   - **Contremesures** :
+     - Assainir et valider strictement les entrées.
+     - Appliquer des règles de sécurité pour les cookies (e.g., HttpOnly, Secure).
+     - Utiliser des **Content Security Policies (CSP)** pour limiter les sources de scripts.
+
+### 2. **CSRF (Cross-Site Request Forgery)**
+   - **Principe** : L'attaquant incite un utilisateur authentifié à exécuter des actions non désirées sur un site auquel il est connecté, comme un transfert d'argent. Par exemple, un formulaire caché en HTML pourrait être soumis automatiquement, exploitant l'authentification active de la victime.
+   - **Contremesures** :
+     - Implémenter des tokens CSRF pour vérifier l'origine des requêtes.
+     - Limiter la durée de vie des sessions et invalider les sessions inactives.
+     - Utiliser la politique de même origine (same-origin policy) pour restreindre les requêtes entre différents domaines.
+
+### 3. **SSRF (Server-Side Request Forgery)**
+   - **Principe** : L'attaquant utilise le serveur cible pour envoyer des requêtes à d'autres serveurs, souvent internes, et contourner les restrictions de pare-feu.
+   - **Exemples** : Un fichier uploadé contenant une URL malveillante pourrait être récupéré par le serveur. Les fonctions PHP comme `file_get_contents()` peuvent être exploitées dans ce type d'attaque.
+   - **Contremesures** :
+     - Utiliser des listes blanches pour autoriser uniquement certaines adresses IP ou DNS.
+     - Restreindre les protocoles autorisés (exemple : bloquer FTP si non nécessaire).
+
+### 4. **LFI (Local File Inclusion) et RFI (Remote File Inclusion)**
+   - **Principe** : Permet à un attaquant d'exécuter des fichiers sur le serveur en manipulant les paramètres d'URL.
+     - **LFI** : Inclusion de fichiers locaux (exemple : `/etc/passwd`).
+     - **RFI** : Inclusion de fichiers distants (exemple : un fichier malveillant hébergé sur un autre serveur).
+   - **Contremesures** :
+     - Désactiver l'option `allow_url_include` dans le fichier `php.ini`.
+     - Filtrer et valider les entrées pour éviter l'inclusion de fichiers non autorisés.
+
+### 5. **JWT (JSON Web Token)**
+   - **Principe** : Un **JWT** est un jeton d'authentification structuré en trois parties : Header, Payload, et Signature. Il permet l'authentification stateless, souvent utilisé dans les API et les applications mobiles.
+     - **Header** : Indique l'algorithme de hachage (ex. : HMAC, SHA256).
+     - **Payload** : Contient les informations sur l'utilisateur (ex. : ID, nom).
+     - **Signature** : Assure que le jeton n'a pas été modifié.
+   - **Attaques possibles** :
+     - **Signature stripping** : Modifier l'algorithme en `none` pour contourner la vérification de signature.
+     - **HMAC spoofing** : Utiliser la clé publique RSA pour signer des jetons après avoir changé l'algorithme en HMAC.
+   - **Contremesures** :
+     - Vérifier que l'algorithme de signature est conforme.
+     - Utiliser des clés sécurisées pour signer et vérifier les jetons.
+
+### 6. **Shodan**
+   - **Principe** : Un moteur de recherche pour les appareils connectés à Internet. Il permet de découvrir des systèmes vulnérables, comme des caméras de surveillance ou des serveurs mal configurés.
+   - **Usage** : Utilisé pour l'audit de sécurité, mais également exploité par des attaquants pour détecter des failles dans les infrastructures connectées.
+
+### 7. **nmap**
+   - **Principe** : Outil open source utilisé pour l'exploration réseau et l'audit de sécurité. Il permet de scanner des adresses IP pour découvrir les ports ouverts et les services actifs.
+   - **Exemple** : Une commande comme `nmap -p80,443 localhost` scanne les ports 80 (HTTP) et 443 (HTTPS) d'une machine locale.
+   - **Contremesures** :
+     - N'utiliser cet outil que sur des systèmes autorisés pour éviter des actions illégales, car le scan non autorisé est illégal dans plusieurs pays.
+
+### 8. **Forensic (investigation numérique)**
+   - **Principe** : L'enquête numérique vise à analyser les systèmes après une attaque pour identifier la source de la menace. Elle se déroule souvent en plusieurs étapes :
+     - **Acquisition** des données.
+     - **Analyse** pour identifier les actions de l'attaquant.
+     - **Remédiation** pour corriger les vulnérabilités.
+     - **Rapport** sur les découvertes.
+   - **Défis** :
+     - Accéder à la mémoire vive.
+     - Analyser un volume massif de données pour identifier les éléments pertinents.
+
+### 9. **TEE (Trusted Execution Environment) et TPM (Trusted Platform Module)**
+   - **TEE** : C'est un environnement sécurisé dans lequel du code sensible peut s'exécuter en toute sécurité, isolé du reste du système.
+   - **TPM** : Un module matériel utilisé pour sécuriser les processus liés aux clés cryptographiques.
+   - **Exemple** : **Intel SGX** est une implémentation de TEE qui divise la mémoire en enclaves protégées. Cependant, des attaques comme **Plundervolt** et **SGAxe** ont montré que même ces environnements peuvent être compromis.
+  
+### 10. **Kerberos**
+   - **Principe** : Système d'authentification utilisant un tiers de confiance (AS - Authentication Server) et des tickets pour authentifier les utilisateurs de manière sécurisée.
+   - **Fonctionnement** : 
+     - Le client demande un ticket auprès de l'AS.
+     - L'AS délivre un **Ticket Granting Ticket (TGT)**.
+     - Le client utilise ce TGT pour demander des services auprès du **Ticket Granting Service (TGS)**.
+   - **Utilité** : Largement utilisé dans les environnements où la sécurité des identités est cruciale, comme dans les grandes entreprises.
+
