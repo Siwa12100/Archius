@@ -9,6 +9,14 @@
 * [Mots restants à apprendre](./mots_restants.md)
 * [Liste de tous les mots appris](./mots_appris.md)
 
+---
+
+## 19. Nombres et quantités
+
+:x: [Nombres et quantités](./fiches/fiches_2/19/1.md)
+
+:x: [Nombre et quantité suite](./fiches/fiches_2/19/2.md)
+
 ## 18. Vêtements et accessoires
 
 :x: [Vêtements](./fiches/fiches_2/18/1.md)

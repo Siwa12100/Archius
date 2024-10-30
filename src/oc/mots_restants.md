@@ -4,37 +4,6 @@
 
 ---
 
-## 12. **Nombres et quantités**
-### 12.1. **Nombres de base**
-0. Un  
-1. Deux  
-2. Trois  
-3. Quatre  
-4. Cinq  
-5. Six  
-6. Sept  
-7. Huit  
-8. Neuf  
-9. Dix  
-10. Vingt  
-11. Trente  
-
-### 12.2. **Quantités et nombres avancés**
-12. Quarante  
-13. Cinquante  
-14. Soixante  
-15. Cent  
-16. Mille  
-17. Premier  
-18. Deuxième  
-19. Moitié  
-20. Quart  
-21. Plusieurs  
-22. Moins  
-23. Plus  
-24. Ensemble  
-25. Seul
-
 ## 14. **Profession et travail**
 ### 14.1. **Professions courantes**
 0. Travail  
