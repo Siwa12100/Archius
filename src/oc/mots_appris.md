@@ -4,6 +4,36 @@
 
 ---
 
+## 8. **Vêtements et accessoires**
+### 8.1. **Vêtements**
+0. Pantalon  
+1. Chemise  
+2. Veste  
+3. Manteau  
+4. Robe  
+5. Jupe  
+6. Chaussure  
+7. Chaussette  
+8. Chapeau  
+9. Écharpe  
+10. Gant  
+11. Ceinture  
+
+### 8.2. **Accessoires et bijoux**
+12. Sac  
+13. Lunettes  
+Laine14. Montre  
+15. Panier 
+16. Collier  
+17. Bague  
+18. Parapluie 
+19. Sandale  
+20. Bracelet  
+21. Sac à dos
+22. Barette  
+23. Cuir  
+24. 
+
 ## 15. **Activités quotidiennes**
 ### 15.1. **Routines quotidiennes**
 0. Se lever  

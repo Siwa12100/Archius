@@ -9,6 +9,12 @@
 * [Mots restants à apprendre](./mots_restants.md)
 * [Liste de tous les mots appris](./mots_appris.md)
 
+## 18. Vêtements et accessoires
+
+:x: [Vêtements](./fiches/fiches_2/18/1.md)
+
+:x: [Accessoires et bijoux](./fiches/fiches_2/18/2.md)
+
 ## 17. Activités quotidiennes
 
 :x: [routines quotidiennes](./fiches/fiches_2/17/1.md)

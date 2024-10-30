@@ -4,36 +4,6 @@
 
 ---
 
-## 8. **Vêtements et accessoires**
-### 8.1. **Vêtements**
-0. Pantalon  
-1. Chemise  
-2. Veste  
-3. Manteau  
-4. Robe  
-5. Jupe  
-6. Chaussure  
-7. Chaussette  
-8. Chapeau  
-9. Écharpe  
-10. Gant  
-11. Ceinture  
-
-### 8.2. **Accessoires et bijoux**
-12. Sac  
-13. Lunettes  
-14. Montre  
-15. Cravate  
-16. Collier  
-17. Bague  
-18. Boucle  
-19. Sandale  
-20. Bracelet  
-21. Broche  
-22. Barette  
-23. Cuir  
-24. Laine
-
 ## 12. **Nombres et quantités**
 ### 12.1. **Nombres de base**
 0. Un  
