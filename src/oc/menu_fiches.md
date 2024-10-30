@@ -11,6 +11,12 @@
 
 ---
 
+## 21 Achats et vente
+
+:x: [Achat et argent](./fiches/fiches_3/21.md/1.md)
+
+:x: [Gestion financière](./fiches/fiches_3/21.md/2.md)
+
 ## 20. Professions
 
 :x: [Professions et travaux](./fiches/fiches_2/20/1.md)

@@ -4,6 +4,38 @@
 
 ---
 
+## 17. **Achats et argent**
+### 17.1. **Opérations d'achat et de vente**
+0. Acheter  
+1. Vendre  
+2. Argent  
+3. Prix
+4. Coûter 
+5. Monnaie  
+6. Billet  
+7. Banque
+8. Carte bancaire  
+9. Facture  
+10. Marché  
+10. Magasin  
+11. Boutique  
+12. Supermarché  
+
+### 17.2. **Gestion financière**
+12. Panier  
+13. Promotion  
+14. Soldes  
+15. Budget  
+16. Économies  
+17. Dépense  
+18. Épargne  
+19. Transaction  
+20. Investissement  
+21. Crédit  
+22. Débit  
+23. Revenu  
+24. Salaire
+
 ## 14. **Profession et travail**
 ### 14.1. **Professions courantes**
 0. Travail  
