@@ -4,6 +4,36 @@
 
 ---
 
+## 14. **Profession et travail**
+### 14.1. **Professions courantes**
+0. Travail  
+1. Employé  
+2. Ouvrier  
+3. Agriculteur  
+4. Enseignant  
+5. Médecin  
+6. Avocat  
+7. Infirmier  
+8. Policier  
+9. Pompier  
+10. Ingénieur  
+11. Électricien  
+
+### 14.2. **Autres métiers**
+12. Plombier  
+13. Peintre  
+14. Mécanicien  
+15. Architecte  
+16. Vendeur  
+17. Coiffeur  
+18. Cuisinier  
+19. Serveur  
+20. Réceptionniste  
+21. Caissier  
+22. Pharmacien  
+23. Boulanger  
+24. Boucher
+
 ## 12. **Nombres et quantités**
 ### 12.1. **Nombres de base**
 0. Un  

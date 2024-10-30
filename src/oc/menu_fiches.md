@@ -11,6 +11,12 @@
 
 ---
 
+## 20. Professions
+
+:x: [Professions et travaux](./fiches/fiches_2/20/1.md)
+
+:x: [Autres métiers](./fiches/fiches_2/20/2.md)
+
 ## 19. Nombres et quantités
 
 :x: [Nombres et quantités](./fiches/fiches_2/19/1.md)
