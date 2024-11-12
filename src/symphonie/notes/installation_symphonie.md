@@ -1,6 +1,6 @@
 # Installation et Configuration
 
-[...retour menu symphonie](../menu.md)
+[...retour menu symphony](../menu.md)
 
 ---
 
@@ -231,5 +231,5 @@ php bin/console doctrine:migrations:migrate --env=prod
 
 ---
 
-[Retour menu Symphonie](../menu.md)
+[...retour menu symphony](../menu.md)
 
