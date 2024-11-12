@@ -1,5 +1,4 @@
-```markdown
-# Documentation Symfony : Partie 8 - Sécurité
+# Partie 8 - Sécurité
 
 [...retour menu symphony](../menu.md)
 
