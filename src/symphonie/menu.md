@@ -4,3 +4,4 @@
 
 ## Doc perso
 
+1. [Installation & config](./notes/installation_symphonie.md)
