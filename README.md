@@ -23,6 +23,8 @@ Tot aquò dich, bona lectura als curioses !
 
 ## Dev
 
+- [Symphonie](./src/symphonie/menu.md)
+
 ### Administration système
 
 - [Docker](./src/docker/sommaire.md)
