@@ -1,4 +1,4 @@
-# Documentation Symfony : Partie 1 - Installation et Configuration
+# Installation et Configuration
 
 [...retour menu symphonie](../menu.md)
 
@@ -22,7 +22,7 @@ Avant d’installer Symfony, s’assurer que l’environnement est correctement 
     composer -v
     ```
 
-- **Symfony CLI** : Un outil officiel pour créer et gérer des projets Symfony. Installer Symfony CLI depuis [https://symfony.com/download](https://symfony.com/download). Vérifier son bon fonctionnement avec :
+- **Symfony CLI** : Un outil officiel pour créer et gérer des projets Symfony.  Vérifier son bon fonctionnement avec :
 
     ```bash
     symfony -v
