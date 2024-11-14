@@ -13,39 +13,39 @@
 
 ## 21 Achats et vente
 
-:x: [Achat et argent](./fiches/fiches_3/21.md/1.md)
+:white_check_mark: [Achat et argent](./fiches/fiches_3/21.md/1.md)
 
-:x: [Gestion financière](./fiches/fiches_3/21.md/2.md)
+:white_check_mark: [Gestion financière](./fiches/fiches_3/21.md/2.md)
 
 ## 20. Professions
 
-:x: [Professions et travaux](./fiches/fiches_2/20/1.md)
+:white_check_mark:  [Professions et travaux](./fiches/fiches_2/20/1.md)
 
-:x: [Autres métiers](./fiches/fiches_2/20/2.md)
+:large_orange_diamond: [Autres métiers](./fiches/fiches_2/20/2.md)
 
 ## 19. Nombres et quantités
 
-:x: [Nombres et quantités](./fiches/fiches_2/19/1.md)
+:white_check_mark: [Nombres et quantités](./fiches/fiches_2/19/1.md)
 
-:x: [Nombre et quantité suite](./fiches/fiches_2/19/2.md)
+:white_check_mark: [Nombre et quantité suite](./fiches/fiches_2/19/2.md)
 
 ## 18. Vêtements et accessoires
 
-:x: [Vêtements](./fiches/fiches_2/18/1.md)
+:large_orange_diamond: [Vêtements](./fiches/fiches_2/18/1.md)
 
-:x: [Accessoires et bijoux](./fiches/fiches_2/18/2.md)
+:white_check_mark: [Accessoires et bijoux](./fiches/fiches_2/18/2.md)
 
 ## 17. Activités quotidiennes
 
-:x: [routines quotidiennes](./fiches/fiches_2/17/1.md)
+:white_check_mark: [routines quotidiennes](./fiches/fiches_2/17/1.md)
 
-:x: [Autres activités](./fiches/fiches_2/17/2.md)
+:white_check_mark: [Autres activités](./fiches/fiches_2/17/2.md)
 
 ## 16. Météo et saisons
 
 :large_orange_diamond: [conditions meteos](./fiches/fiches_2/16/1.md)
 
-:large_orange_diamond: [phénomènes meteos](./fiches/fiches_2/16/2.md)
+:white_check_mark: [phénomènes meteos](./fiches/fiches_2/16/2.md)
 
 ## 15. Animaux
 
