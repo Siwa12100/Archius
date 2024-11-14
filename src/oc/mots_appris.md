@@ -369,6 +369,8 @@
 22. Passage  
 23. Passage piéton  
 24. Embouteillage
+25. Rue 
+26. Permettre
 
 ## 24. **Verbes courants**
 ### 24.1. **Actions essentielles**
