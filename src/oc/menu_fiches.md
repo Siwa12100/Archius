@@ -49,9 +49,9 @@
 
 ## 15. Animaux
 
-:large_orange_diamond: [Animaux domestiques](./fiches/fiches_2/15/1.md)
+:white_check_mark: [Animaux domestiques](./fiches/fiches_2/15/1.md)
 
-:large_orange_diamond: [Animaux de ferme et sauvages](./fiches/fiches_2/15/2.md)
+:white_check_mark: [Animaux de ferme et sauvages](./fiches/fiches_2/15/2.md)
 
 ## 14. Maison et meubles
 

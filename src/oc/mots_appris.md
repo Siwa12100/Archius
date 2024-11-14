@@ -196,7 +196,7 @@
 4. Lapin  
 5. Souris  
 6. Grenouille 
-7. Perruche  
+7. Perdrix 
 8. Tortue  
 9. Serpent  
 10. Insecte
