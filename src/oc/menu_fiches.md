@@ -55,9 +55,9 @@
 
 ## 14. Maison et meubles
 
-:large_orange_diamond: [Pièces de la maison](./fiches/fiches_2/14/1.md)
+:white_check_mark:  [Pièces de la maison](./fiches/fiches_2/14/1.md)
 
-:large_orange_diamond: [Meubles et éléments](./fiches/fiches_2/14/2.md)
+:white_check_mark:  [Meubles et éléments](./fiches/fiches_2/14/2.md)
 
 ## 13. Mots de quantité
 
