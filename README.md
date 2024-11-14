@@ -24,6 +24,7 @@ Tot aquò dich, bona lectura als curioses !
 ## Dev
 
 - [Symphonie](./src/symphonie/menu.md)
+- [Vue.js](./src/vue2/menu.md)
 
 ### Administration système
 

@@ -145,44 +145,15 @@
 14. Facile  
 15. Difficile  
 16. Lent  
-17. Cher  
-18. Bon marché  
-19. Gentil  
-20. Méchant  
-21. Intelligent  
-22. Stupide  
-23. Sûr  
-24. Dangereux
-
-## 24. **Verbes courants**
-### 24.1. **Actions essentielles**
-0. Être  
-1. Avoir  
-2. Aller  
-3. Venir  
-4. Faire  
-5. Dire  
-6. Voir  
-7. Savoir  
-8. Pouvoir  
-9. Vouloir  
-10. Devoir  
-11. Prendre  
-
-### 24.2. **Verbes d'interaction**
-12. Donner  
-13. Parler  
-14. Écouter  
-15. Lire  
-16. Écrire  
-17. Acheter  
-18. Vendre  
-19. Manger  
-20. Boire  
-21. Ouvrir  
-22. Fermer  
-23. Rire  
-24. Pleurer
+17. Rapide
+18. Cher  
+19. Bon marché  
+20. Gentil  
+21. Méchant  
+22. Intelligent  
+23. Stupide  
+24. Sûr  
+25. Dangereux
 
 ## 28. **Mots liés à la maison et à la vie quotidienne**
 ### 28.1. **Objets domestiques**
