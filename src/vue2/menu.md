@@ -13,4 +13,4 @@
 9. [Directives fondamentales et optimisation des conditions en Vue](./notes/chap9.md)
 10. [Utilisation d’Axios avec Vue.js](./notes/chap10.md)
 
-TypeScript : [Doc TS dans cours Angular](../angular/notes/ts_bases.mdwx)
+TypeScript : [Doc TS dans cours Angular](../angular/notes/ts_bases.md)
