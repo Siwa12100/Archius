@@ -329,16 +329,19 @@
 12. Toujours  
 13. Souvent  
 14. Parfois  
-15. Rarement  
-16. Jamais  
-17. Tout le monde  
-18. Personne  
-19. Tous les jours  
-20. Tous les soirs  
-21. De temps en temps  
-22. Une fois  
-23. Deux fois  
-24. Fréquemment
+15. Rarement 
+16. Rare
+17. Presque
+18. Fréquence 
+19. Jamais  
+20. Tout le monde  
+21. Personne  
+22. Tous les jours  
+23. Tous les soirs  
+24. De temps en temps  
+25. Une fois  
+26. Deux fois  
+26. Fréquemment
 
 ## 9. **Transports**
 ### 9.1. **Moyens de transport**
