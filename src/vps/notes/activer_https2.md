@@ -103,18 +103,27 @@ services:
       - ./vhost.d:/etc/nginx/vhost.d            # Configurations spécifiques à chaque service
       - ./html:/usr/share/nginx/html            # Page par défaut
     environment:
-      - DEFAULT_HOST=exemple.com                # Domaine par défaut
+      - DEFAULT_HOST=exemple.com    
+    networks:
+      - nginx-proxy-network
+            # Domaine par défaut
 
   letsencrypt-companion:
     image: jrcs/letsencrypt-nginx-proxy-companion
     container_name: nginx-letsencrypt
     depends_on:
       - nginx-proxy
+    environment:
+      - NGINX_PROXY_CONTAINER=nginx-proxy
     volumes:
       - /var/run/docker.sock:/var/run/docker.sock:ro
       - ./certs:/etc/nginx/certs
       - ./vhost.d:/etc/nginx/vhost.d
       - ./html:/usr/share/nginx/html
+      - ./acme:/etc/acme.sh
+    networks:
+      - nginx-proxy-network
+
 
   webapp:
     image: mon-site-web
@@ -125,6 +134,22 @@ services:
       - VIRTUAL_HOST=exemple.com
       - LETSENCRYPT_HOST=exemple.com
       - LETSENCRYPT_EMAIL=admin@exemple.com
+
+  fake-service:
+    image: nginx:alpine
+    container_name: fake-service
+    expose:
+      - "80"
+    environment:
+      - VIRTUAL_HOST=devalada.valorium-mc.fr
+      - LETSENCRYPT_HOST=devalada.valorium-mc.fr
+      - LETSENCRYPT_EMAIL=admin@valorium-mc.fr
+    networks:
+      - nginx-proxy-network
+
+networks:
+  nginx-proxy-network:
+    external: true
 ```
 
 ### Explications du fichier
@@ -241,7 +266,8 @@ services:
 Exécutez la commande suivante pour démarrer NGINX, Let's Encrypt et votre application web :
 
 ```bash
-docker-compose up -d
+docker network create nginx-proxy-network
+docker compose up -d
 ```
 * **up :**
 Lance les services définis dans le fichier docker-compose.yml.
