@@ -16,5 +16,6 @@
 ## Bonus
 
 1. [Composition API VS Option API](./notes/comp_vs_opt.md)
+2. [WebClients, Axios, DTO, Promises](./notes/webclients.md)
 
 TypeScript : [Doc TS dans cours Angular](../angular/notes/ts_bases.md)
