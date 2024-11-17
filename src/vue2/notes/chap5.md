@@ -212,6 +212,72 @@ Par défaut, Vue Router applique une classe CSS appelée **`router-link-active`*
 
 Ici, le lien vers la route active aura un style personnalisé grâce à la classe `actif`.
 
+# Important : erreurs communes 
+
+## 1. Déclaration des modules `.vue`
+
+Il est crucial de déclarer les modules `.vue` pour que TypeScript puisse les reconnaître correctement. Ajoutez la déclaration suivante dans un fichier de types, par exemple `src/vite-env.d.ts` :
+
+```typescript
+/// <reference types="vite/client" />
+
+declare module '*.vue' {
+  import { DefineComponent } from 'vue';
+  const component: DefineComponent<{}, {}, any>;
+  export default component;
+}
+```
+
+Cette déclaration permet à TypeScript de comprendre les fichiers `.vue` et d'éviter les erreurs d'importation.
+
+## 2. Utilisation de `<router-view>` dans `App.vue`
+
+Pour que le routage fonctionne correctement, assurez-vous d'inclure `<router-view>` dans le template de votre composant `App.vue`. Cela permet de rendre les composants en fonction de la route actuelle.
+
+Exemple de `App.vue` :
+
+```vue
+<script setup lang="ts">
+</script>
+
+<template>
+  <router-view />
+</template>
+
+<style scoped>
+.logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
+}
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+.logo.vue:hover {
+  filter: drop-shadow(0 0 2em #42b883aa);
+}
+</style>
+```
+
+## 3. Utilisation du routeur dans `main.ts`
+
+Pour que le routeur soit utilisé dans votre application, vous devez l'ajouter à l'instance de l'application Vue. Cela se fait généralement dans le fichier `main.ts` :
+
+```typescript
+import { createApp } from 'vue';
+import App from './App.vue';
+import router from './router';
+
+const app = createApp(App);
+
+app.use(router);
+
+app.mount('#app');
+```
+
+En ajoutant `.use(router)`, vous indiquez à Vue d'utiliser le routeur configuré pour gérer les routes de votre application.
+
 ---
 
 [Menu vue](../menu.md)
