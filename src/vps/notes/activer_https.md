@@ -25,7 +25,6 @@
   - [Vérification et Dépannage](#vérification-et-dépannage)
     - [Vérifications de base](#vérifications-de-base)
     - [Logs utiles](#logs-utiles)
-  - [Conclusion](#conclusion)
   - [Références](#références)
 
 ---
@@ -185,12 +184,6 @@ En cas d’erreur, consultez les logs du serveur web :
   ```bash
   sudo tail -f /var/log/apache2/error.log
   ```
-
----
-
-## Conclusion
-
-Grâce à **Let's Encrypt** et **Certbot**, vous pouvez facilement activer **HTTPS** sur votre VPS avec **NGINX** ou **Apache2**. En configurant l'automatisation via **Cron**, vos certificats seront toujours à jour, garantissant une sécurité continue.
 
 ---
 
