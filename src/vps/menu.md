@@ -11,7 +11,10 @@
 * [Scp et Sshfs](./notes/scp_sshfs.md)
 * [Permissions Docker - Utiliser Docker sans sudo](./notes/docker_sans_sudo.md)
 * [Gestion / inspection du stockage](./notes/gestion_stockage.md)
-* [Activer HTTPS sur VPS](./notes/activer_https.md)
+  
+### Https
+* [Activer HTTPS sur VPS - Classique](./notes/activer_https.md)
+* [Faire profiter de https à des conteneurs docker](./notes/activer_https2.md)
 
 ## Tutos externes utiles
 
