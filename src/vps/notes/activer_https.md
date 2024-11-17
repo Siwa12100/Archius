@@ -1,12 +1,12 @@
 # Activer HTTPS sur un VPS avec Let's Encrypt (NGINX & Apache)
 
 [Menu vps](../menu.md)
+
 ---
 
 ## Sommaire
 
 - [Activer HTTPS sur un VPS avec Let's Encrypt (NGINX \& Apache)](#activer-https-sur-un-vps-avec-lets-encrypt-nginx--apache)
-  - [Menu vps](#menu-vps)
   - [Sommaire](#sommaire)
   - [Introduction](#introduction)
   - [Prérequis](#prérequis)
