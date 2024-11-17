@@ -15,6 +15,6 @@
 
 ## Bonus
 
-1. [Composition API VS Option API]
+1. [Composition API VS Option API](./notes/comp_vs_opt.md)
 
 TypeScript : [Doc TS dans cours Angular](../angular/notes/ts_bases.md)
