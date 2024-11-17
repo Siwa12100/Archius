@@ -1,4 +1,4 @@
-# Documentation Complète : Déployer et Configurer NGINX en Conteneur avec Docker Compose pour HTTPS
+# Déployer et Configurer NGINX en Conteneur avec Docker Compose pour HTTPS
 
 [Menu VPS](../menu.md)
 
@@ -6,7 +6,7 @@
 
 ## Sommaire
 
-- [Documentation Complète : Déployer et Configurer NGINX en Conteneur avec Docker Compose pour HTTPS](#documentation-complète--déployer-et-configurer-nginx-en-conteneur-avec-docker-compose-pour-https)
+- [Déployer et Configurer NGINX en Conteneur avec Docker Compose pour HTTPS](#déployer-et-configurer-nginx-en-conteneur-avec-docker-compose-pour-https)
   - [Sommaire](#sommaire)
   - [Introduction](#introduction)
     - [Objectif de cette documentation](#objectif-de-cette-documentation)
@@ -26,7 +26,7 @@
     - [Fonctionnement](#fonctionnement)
     - [Vérification](#vérification)
     - [Avertissement](#avertissement)
-  - [Ajouter un Nouveau Conteneur avec HTTPS : Explications Approfondies selon Divers Scénarios](#ajouter-un-nouveau-conteneur-avec-https--explications-approfondies-selon-divers-scénarios)
+  - [Ajouter un Nouveau Conteneur avec HTTPS : Explications selon Divers Scénarios](#ajouter-un-nouveau-conteneur-avec-https--explications-selon-divers-scénarios)
     - [Notions Clés Avant de Commencer](#notions-clés-avant-de-commencer)
     - [Scénario 1 : Ajouter un Nouveau Service dans le Même Docker Compose que NGINX Proxy](#scénario-1--ajouter-un-nouveau-service-dans-le-même-docker-compose-que-nginx-proxy)
       - [Exemple de Configuration](#exemple-de-configuration)
@@ -308,7 +308,7 @@ Par exemple, un email invalide format à let's Encrypt peut faire échouer la g�
 
 ---
 
-## Ajouter un Nouveau Conteneur avec HTTPS : Explications Approfondies selon Divers Scénarios
+## Ajouter un Nouveau Conteneur avec HTTPS : Explications selon Divers Scénarios
 
 L’ajout de nouveaux services à NGINX Proxy pour bénéficier d’**HTTPS** peut se faire dans plusieurs contextes. Nous allons explorer trois scénarios, en détaillant la **logique sous-jacente** liée aux environnements Docker, aux réseaux et à l’intégration avec **NGINX Proxy**.
 
