@@ -13,4 +13,8 @@
 9. [Directives fondamentales et optimisation des conditions en Vue](./notes/chap9.md)
 10. [Utilisation d’Axios avec Vue.js](./notes/chap10.md)
 
+## Bonus
+
+1. [Composition API VS Option API]
+
 TypeScript : [Doc TS dans cours Angular](../angular/notes/ts_bases.md)
