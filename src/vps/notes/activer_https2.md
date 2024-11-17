@@ -25,6 +25,7 @@
   - [Activer HTTPS avec Let's Encrypt](#activer-https-avec-lets-encrypt)
     - [Fonctionnement](#fonctionnement)
     - [Vérification](#vérification)
+    - [Avertissement](#avertissement)
   - [Ajouter un Nouveau Conteneur avec HTTPS : Explications Approfondies selon Divers Scénarios](#ajouter-un-nouveau-conteneur-avec-https--explications-approfondies-selon-divers-scénarios)
     - [Notions Clés Avant de Commencer](#notions-clés-avant-de-commencer)
     - [Scénario 1 : Ajouter un Nouveau Service dans le Même Docker Compose que NGINX Proxy](#scénario-1--ajouter-un-nouveau-service-dans-le-même-docker-compose-que-nginx-proxy)
@@ -299,6 +300,11 @@ Après avoir démarré les conteneurs, les certificats seront générés automat
 ```bash
 docker logs nginx-letsencrypt
 ```
+
+### Avertissement
+
+Attention, parce que les potentiels soucis avec let's Encrypt n'apparaissent pas directement dans le terminal. Donc s'il y a un soucis, gardez en tête que cela peut venir de là. 
+Par exemple, un email invalide format à let's Encrypt peut faire échouer la génération d'un certificat.
 
 ---
 
