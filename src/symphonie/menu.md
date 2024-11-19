@@ -13,3 +13,7 @@
 7. [Gestion des exceptions](./notes/exceptions.md)
 8. [Securite](./notes/securite.md)
 9. [Tests](./notes/tests.md)
+
+## Bonus
+
+1. [Config & déployer une bdd pour symfony](./notes/utiliser_bdd.md)
