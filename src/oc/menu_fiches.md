@@ -79,9 +79,9 @@
 
 ## 10. Transports
 
-:large_orange_diamond: [Moyens de transport](./fiches/fiches_1/10/1.md)
+:white_check_mark: [Moyens de transport](./fiches/fiches_1/10/1.md)
 
-:large_orange_diamond: [Infrastructure et déplacement](./fiches/fiches_1/10/2.md)
+:white_check_mark:  [Infrastructure et déplacement](./fiches/fiches_1/10/2.md)
 
 ## 9. Verbes courants
 
