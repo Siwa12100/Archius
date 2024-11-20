@@ -170,7 +170,10 @@
 8. Arc-en-ciel  
 9. Orage  
 10. Chaud  
-11. Froid  
+11. Froid
+12. Tonerre
+13. Tonner
+14. souffler
 
 ### 13.2. **Phénomènes météorologiques**
 12. Gel  
