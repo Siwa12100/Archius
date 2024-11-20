@@ -3,22 +3,62 @@
 [...retour en arriere](./menu_fiches.md)
 
 ---
+
+## 47. **Mots liés à la culture générale**
+### 47.1. **Humanités et sciences sociales**
+0. Histoire  
+1. Récit / conte
+2. Culture
+3. général
+4. Humanité
+5. Science
+6. Géographie  
+7. Politique  
+8. Société  
+9. Philosophie  
+10. Religion  
+11. Mythologie  
+12. Littérature  
+13. Poésie  
+14. Art  
+15. Muséologie  
+16. Linguistique  
+
+### 47.2. **Sciences et technologies**
+12. Anthropologie  
+13. social
+14. humain
+15. Sociologie  
+16. Économie  
+17. Physique  
+18. Chimie  
+19. Chimiste 
+20. Biologie  
+21. Biologiste
+22. Mathématiques  
+23. Statistiques  
+24. Informatique  
+25. Technologie  
+26. Ingénierie  
+27. Innovation  
+28. Recherche
+    
 ## 48. **Mots liés aux sentiments et aux relations humaines**
 ### 48.1. **Sentiments positifs**
-0. Amour  
-1. Sentiment
-2. positif
-3. Amitié  
-4. Compassion  
-5. Empathie  
-6. Confiance  
-7. Respect  
-8. Fierté  
-9. Admiration  
-10. Passion  
-11. Harmonie  
-12. Solidarité  
-13. Coopération  
+1. Amour  
+2. Sentiment
+3. positif
+4. Amitié  
+5. Compassion  
+6. Empathie  
+7. Confiance  
+8. Respect  
+9. Fierté  
+10. Admiration  
+11. Passion  
+12. Harmonie  
+13. Solidarité  
+14. Coopération  
 
 ### 48.2. **Sentiments négatifs**
 12. Jalousie  

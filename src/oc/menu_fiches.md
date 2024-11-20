@@ -11,13 +11,19 @@
 
 ---
 
-## Sentiments et relations humaines
+## 23. Culture générale
+
+:x: [Humanité et sciences sociales](./fiches/fiches_3/23/1.md)
+
+:x: [Sciences et technologies](./fiches/fiches_3/23/2.md)
+
+## 22. Sentiments et relations humaines
 
 :x: [Sentiments positifs](./fiches/fiches_3/22/1.md)
 
 :x: [Sentiments négatifs](./fiches/fiches_3/22/2.md)
 
-## 21 Achats et vente
+## 21. Achats et vente
 
 :white_check_mark: [Achat et argent](./fiches/fiches_3/21/1.md)
 

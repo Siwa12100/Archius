@@ -755,35 +755,7 @@
 23. Innovation  
 24. Recherche
 
-## 48. **Mots liés aux sentiments et aux relations humaines**
-### 48.1. **Sentiments positifs**
-0. Amour  
-1. Amitié  
-2. Compassion  
-3. Empathie  
-4. Confiance  
-5. Respect  
-6. Fierté  
-7. Admiration  
-8. Passion  
-9. Harmonie  
-10. Solidarité  
-11. Coopération  
 
-### 48.2. **Sentiments négatifs**
-12. Jalousie  
-13. Envie  
-14. Trahison  
-15. Conflit  
-16. Indifférence  
-17. Hostilité  
-18. Rivalité  
-19. Désespoir  
-20. Anxiété  
-21. Méfiance  
-22. Agressivité  
-23. Rejet  
-24. Isolement
 
 ---
 
