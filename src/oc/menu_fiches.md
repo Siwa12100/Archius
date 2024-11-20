@@ -11,11 +11,17 @@
 
 ---
 
+## Sentiments et relations humaines
+
+:x: [Sentiments positifs](./fiches/fiches_3/22/1.md)
+
+:x: [Sentiments négatifs](./fiches/fiches_3/22/2.md)
+
 ## 21 Achats et vente
 
-:white_check_mark: [Achat et argent](./fiches/fiches_3/21.md/1.md)
+:white_check_mark: [Achat et argent](./fiches/fiches_3/21/1.md)
 
-:white_check_mark: [Gestion financière](./fiches/fiches_3/21.md/2.md)
+:white_check_mark: [Gestion financière](./fiches/fiches_3/21/2.md)
 
 ## 20. Professions
 

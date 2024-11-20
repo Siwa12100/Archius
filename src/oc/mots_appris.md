@@ -3,23 +3,57 @@
 [...retour en arriere](./menu_fiches.md)
 
 ---
+## 48. **Mots liés aux sentiments et aux relations humaines**
+### 48.1. **Sentiments positifs**
+0. Amour  
+1. Sentiment
+2. positif
+3. Amitié  
+4. Compassion  
+5. Empathie  
+6. Confiance  
+7. Respect  
+8. Fierté  
+9. Admiration  
+10. Passion  
+11. Harmonie  
+12. Solidarité  
+13. Coopération  
 
+### 48.2. **Sentiments négatifs**
+12. Jalousie  
+13. négatif
+14. Envie  
+15. Trahison  
+16. Conflit  
+17. Indifférence  
+18. différence
+19. Hostilité  
+20. Rivalité  
+21. Désespoir  
+22. Anxiété  
+23. Méfiance  
+24. Agressivité  
+25. Rejet  
+26. Rejeter
+27. Isolement
+    
 ## 17. **Achats et argent**
 ### 17.1. **Opérations d'achat et de vente**
-0. Acheter  
-1. Vendre  
-2. Argent  
-3. Prix
-4. Coûter 
-5. Monnaie  
-6. Billet  
-7. Banque
-8. Carte bancaire  
-9. Facture  
-10. Marché  
-10. Magasin  
-11. Boutique  
-12. Supermarché  
+1. Acheter  
+2. Vendre  
+3. Argent  
+4. Prix
+5. Coûter 
+6. Monnaie  
+7. Billet  
+8. Banque
+9. Carte bancaire  
+10. Facture  
+11. Marché  
+12. Magasin  
+13. Boutique  
+14. Supermarché  
 
 ### 17.2. **Gestion financière**
 12. Panier  
