@@ -31,7 +31,7 @@
 
 ## 18. Vêtements et accessoires
 
-:large_orange_diamond: [Vêtements](./fiches/fiches_2/18/1.md)
+:white_check_mark: [Vêtements](./fiches/fiches_2/18/1.md)
 
 :white_check_mark: [Accessoires et bijoux](./fiches/fiches_2/18/2.md)
 
