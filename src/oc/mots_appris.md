@@ -3,26 +3,87 @@
 [...retour en arriere](./menu_fiches.md)
 
 ---
+## 19. **Éducation et apprentissage**
+### 19.1. **Établissements et structures**
+0. École  
+1. Etablissement
+2. Structure
+3. Apprentissage
+4. Education
+5. Classe  
+6. Salle
+7. Couloir
+7. Université
+8. Etablissement
+9. Bâtiment
+10. Intérieur
+11. Extérieur
+12. Dedans
+13. Dehors  
+14. Institut  
+15. Collège  
+16. Lycée  
+17. École primaire  
+18. Crèche  
+19. Bibliothèque  
+20. Gymnase  
+21. Laboratoire  
+22. Cour de récréation
+23. Terrain
 
+### 19.2. **Activités et outils d'apprentissage**
+12. Leçon  
+13. Activité
+14. Outil
+15. Cours
+16. Devoir  
+17. Étudier  
+18. Réviser
+19. Apprendre  
+20. Oublier
+21. Mémoriser
+22. Expliquer
+23. Professeur  
+24. Maître
+25. Enseignant
+26. Élève  
+27. Etudiant
+28. Cahier  
+29. Livre  
+30. Document
+31. Page
+32. Partie
+33. Crayon à papier
+34. Effaceur
+35. Effacer
+35. Dessiner
+36. Noter
+37. Crayon  
+38. Stylo  
+39. Gomme  
+40. Règle  
+41. Examen
+42. Evaluation
+    
 ## 47. **Mots liés à la culture générale**
 ### 47.1. **Humanités et sciences sociales**
-0. Histoire  
-1. Récit / conte
-2. Culture
-3. général
-4. Humanité
-5. Science
-6. Géographie  
-7. Politique  
-8. Société  
-9. Philosophie  
-10. Religion  
-11. Mythologie  
-12. Littérature  
-13. Poésie  
-14. Art  
-15. Muséologie  
-16. Linguistique  
+1. Histoire  
+2. Récit / conte
+3. Culture
+4. général
+5. Humanité
+6. Science
+7. Géographie  
+8. Politique  
+9. Société  
+10. Philosophie  
+11. Religion  
+12. Mythologie  
+13. Littérature  
+14. Poésie  
+15. Art  
+16. Muséologie  
+17. Linguistique  
 
 ### 47.2. **Sciences et technologies**
 12. Anthropologie  

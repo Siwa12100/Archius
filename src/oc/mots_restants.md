@@ -15,54 +15,28 @@
 6. Bagage  
 7. Valise  
 8. Passeport  
-9. Visa  
-10. Douane  
-11. Billet  
+9. Autorisation
+10. Permission
+11. Douane  
+12. Billet  
 
 ### 18.2. **Destinations et activités**
 12. Trajet  
 13. Itinéraire  
 14. Excursion  
 15. Guide touristique  
-16. Souvenir  
-17. Monument  
-18. Plage  
-19. Montagne  
-20. Camping  
-21. Safari  
-22. Circuit  
-23. Croisière  
-24. Trek
-
-## 19. **Éducation et apprentissage**
-### 19.1. **Établissements et structures**
-0. École  
-1. Classe  
-2. Université  
-3. Institut  
-4. Collège  
-5. Lycée  
-6. École primaire  
-7. Crèche  
-8. Bibliothèque  
-9. Gymnase  
-10. Laboratoire  
-11. Cour de récréation
-
-### 19.2. **Activités et outils d'apprentissage**
-12. Leçon  
-13. Devoir  
-14. Étudier  
-15. Apprendre  
-16. Professeur  
-17. Élève  
-18. Cahier  
-19. Livre  
-20. Crayon  
-21. Stylo  
-22. Gomme  
-23. Règle  
-24. Examen
+16. Randonnée
+17. Promenade
+18. Souvenir  
+19. Monument  
+20. Plage  
+21. Montagne  
+22. Camping  
+23. Safari  
+24. Circuit  
+25. Croisière  
+26. Course
+27. Se dépêcher
 
 ## 20. **Technologie et médias**
 ### 20.1. **Appareils et outils numériques**

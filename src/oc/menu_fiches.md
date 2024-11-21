@@ -11,17 +11,24 @@
 
 ---
 
+
+## 24. Education et apprentissage
+
+:x: [Etablissements et structures](./fiches/fiches_3/24/1.md)
+
+:x: [Activités et outils](./fiches/fiches_3/24/2.md)
+
 ## 23. Culture générale
 
-:x: [Humanité et sciences sociales](./fiches/fiches_3/23/1.md)
+:large_orange_diamond: [Humanité et sciences sociales](./fiches/fiches_3/23/1.md)
 
-:x: [Sciences et technologies](./fiches/fiches_3/23/2.md)
+:large_orange_diamond: [Sciences et technologies](./fiches/fiches_3/23/2.md)
 
 ## 22. Sentiments et relations humaines
 
-:x: [Sentiments positifs](./fiches/fiches_3/22/1.md)
+:large_orange_diamond: [Sentiments positifs](./fiches/fiches_3/22/1.md)
 
-:x: [Sentiments négatifs](./fiches/fiches_3/22/2.md)
+:large_orange_diamond: [Sentiments négatifs](./fiches/fiches_3/22/2.md)
 
 ## 21. Achats et vente
 
