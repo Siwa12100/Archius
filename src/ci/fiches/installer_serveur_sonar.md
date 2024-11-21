@@ -4,7 +4,7 @@
 
 ---
 
-Cette documentation explique toutes les étapes nécessaires pour installer, configurer et faire tourner un serveur SonarQube sur un VPS privé. Elle inclut des solutions aux problèmes courants rencontrés lors de l'installation.
+Cette documentation explique toutes les étapes nécessaires pour installer, configurer et faire tourner un serveur SonarQube sur un VPS privé. Elle inclut des solutions aux problèmes courants rencontrés lors de l'installation et des configurations spécifiques pour garantir un environnement optimisé.
 
 ---
 
@@ -17,225 +17,224 @@ Cette documentation explique toutes les étapes nécessaires pour installer, con
 - **OS :** Linux (Ubuntu recommandé).
 - **Docker et Docker Compose :** Installés et configurés.
 
-### Installer Docker et Docker Compose
-1. **Mettez à jour le système :**
+---
+
+### Étape 1 : Vérifications initiales et mise à jour du VPS
+
+#### 1. Mettez à jour votre système
+Avant de commencer, assurez-vous que votre système est à jour :
+```bash
+sudo apt update && sudo apt upgrade -y
+```
+
+#### 2. Vérifiez les ressources système
+- Vérifiez la RAM disponible :
+  ```bash
+  free -h
+  ```
+- Vérifiez l'espace disque :
+  ```bash
+  df -h
+  ```
+
+#### 3. Configurez le swap si nécessaire
+Si votre serveur dispose de moins de 4 Go de RAM, configurez un fichier de swap pour éviter les problèmes de mémoire :
+```bash
+sudo fallocate -l 2G /swapfile
+sudo chmod 600 /swapfile
+sudo mkswap /swapfile
+sudo swapon /swapfile
+echo '/swapfile none swap sw 0 0' | sudo tee -a /etc/fstab
+```
+
+**Rôle :** Le swap agit comme de la RAM supplémentaire en cas de surcharge, évitant les erreurs liées au manque de mémoire.
+
+---
+
+## Étape 2 : Installer Docker et Docker Compose
+
+#### 1. Installation de Docker
+1. Ajoutez les dépendances nécessaires :
    ```bash
-   sudo apt update && sudo apt upgrade -y
+   sudo apt install -y apt-transport-https ca-certificates curl software-properties-common
    ```
 
-2. **Installez Docker :**
+2. Ajoutez la clé GPG de Docker :
    ```bash
-   sudo apt install docker.io -y
+   curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo apt-key add -
    ```
 
-3. **Activez et démarrez Docker :**
+3. Ajoutez le dépôt Docker à votre système :
    ```bash
-   sudo systemctl enable docker
-   sudo systemctl start docker
+   sudo add-apt-repository "deb [arch=amd64] https://download.docker.com/linux/ubuntu $(lsb_release -cs) stable"
    ```
 
-4. **Installez Docker Compose :**
+4. Installez Docker :
    ```bash
-   sudo apt install docker-compose -y
+   sudo apt update
+   sudo apt install -y docker-ce
    ```
 
-5. **Vérifiez les versions :**
+5. Vérifiez l'installation :
    ```bash
    docker --version
+   ```
+
+#### 2. Installation de Docker Compose
+1. Téléchargez Docker Compose :
+   ```bash
+   sudo curl -L "https://github.com/docker/compose/releases/latest/download/docker-compose-$(uname -s)-$(uname -m)" -o /usr/local/bin/docker-compose
+   ```
+
+2. Rendez-le exécutable :
+   ```bash
+   sudo chmod +x /usr/local/bin/docker-compose
+   ```
+
+3. Vérifiez l'installation :
+   ```bash
    docker-compose --version
    ```
 
 ---
 
-## Configuration de l'environnement
+## Étape 3 : Préparer l'environnement
 
-### Organisation des fichiers
-Créez un répertoire dédié pour SonarQube :
+#### 1. Organisez les répertoires
+Créez une structure de répertoires pour SonarQube et PostgreSQL :
 ```bash
-mkdir -p /sonar/{data,extensions,logs}
+mkdir -p /sonar/{data,extensions,logs,postgres}
 ```
 
-### Configuration du réseau Docker
-Créez un réseau spécifique pour SonarQube :
+#### 2. Configurez le réseau Docker
+Créez un réseau Docker spécifique pour SonarQube :
 ```bash
 docker network create sonar_network
 ```
 
----
-
-## Fichier `docker-compose.yml`
-
-Créez le fichier `docker-compose.yml` dans le répertoire `/sonar` :
-```yaml
-version: "3.9"
-
-services:
-  sonarqube:
-    image: sonarqube:lts
-    container_name: sonarqube
-    networks:
-      - sonar_network
-    ports:
-      - "9000:9000"
-    environment:
-      - SONAR_JDBC_URL=jdbc:postgresql://db:5432/sonar
-      - SONAR_JDBC_USERNAME=sonar
-      - SONAR_JDBC_PASSWORD=securepassword
-      - SONAR_SEARCH_JAVAOPTS=-Xms512m -Xmx1024m -XX:+HeapDumpOnOutOfMemoryError
-    volumes:
-      - /sonar/data:/opt/sonarqube/data
-      - /sonar/extensions:/opt/sonarqube/extensions
-      - /sonar/logs:/opt/sonarqube/logs
-
-  db:
-    image: postgres:alpine
-    container_name: sonar_postgres
-    networks:
-      - sonar_network
-    environment:
-      - POSTGRES_USER=sonar
-      - POSTGRES_PASSWORD=securepassword
-      - POSTGRES_DB=sonar
-    volumes:
-      - /sonar/postgres:/var/lib/postgresql/data
-
-networks:
-  sonar_network:
-    external: true
-```
+**Rôle :** Un réseau Docker dédié permet une communication isolée entre les conteneurs SonarQube et PostgreSQL.
 
 ---
 
-## Lancer SonarQube
+## Étape 4 : Créer le fichier `docker-compose.yml`
 
-1. **Démarrez les conteneurs :**
+1. Créez le fichier dans le répertoire `/sonar` :
    ```bash
    cd /sonar
+   vim docker-compose.yml
+   ```
+
+2. Collez le contenu suivant et adaptez si nécessaire :
+   ```yaml
+   version: "3.9"
+
+   services:
+     sonarqube:
+       image: sonarqube:lts
+       container_name: sonarqube
+       networks:
+         - sonar_network
+       ports:
+         - "9000:9000"
+       environment:
+         - SONAR_JDBC_URL=jdbc:postgresql://db:5432/sonar
+         - SONAR_JDBC_USERNAME=sonar
+         - SONAR_JDBC_PASSWORD=securepassword
+         - SONAR_SEARCH_JAVAOPTS=-Xms512m -Xmx2048m -XX:+HeapDumpOnOutOfMemoryError
+       volumes:
+         - /sonar/data:/opt/sonarqube/data
+         - /sonar/extensions:/opt/sonarqube/extensions
+         - /sonar/logs:/opt/sonarqube/logs
+
+     db:
+       image: postgres:alpine
+       container_name: sonar_postgres
+       networks:
+         - sonar_network
+       environment:
+         - POSTGRES_USER=sonar
+         - POSTGRES_PASSWORD=securepassword
+         - POSTGRES_DB=sonar
+       volumes:
+         - /sonar/postgres:/var/lib/postgresql/data
+
+   networks:
+     sonar_network:
+       external: true
+   ```
+
+---
+
+## Étape 5 : Lancer SonarQube
+
+1. Lancez les conteneurs :
+   ```bash
    docker-compose up -d
    ```
 
-2. **Vérifiez le statut des conteneurs :**
+2. Vérifiez que les services sont opérationnels :
    ```bash
    docker ps
    ```
 
-3. **Accédez à l'interface SonarQube :**
-   - URL : `http://<VPS_IP>:9000`
-   - Identifiants par défaut : 
+3. Accédez à l'interface web :
+   - URL : `http://<IP-PUBLIC-VPS>:9000`
+   - Identifiants par défaut :
      - **Utilisateur :** admin
      - **Mot de passe :** admin
 
-4. **Changez le mot de passe par défaut pour des raisons de sécurité.**
+4. **Changez immédiatement le mot de passe admin pour des raisons de sécurité.**
 
 ---
 
-## Résolution des problèmes courants
+## Étape 6 : Résolution des Problèmes Courants
 
-### **Problème 1 : Mémoire insuffisante**
-#### Symptômes :
-- SonarQube ne démarre pas ou affiche des erreurs `OutOfMemoryError`.
+### Problème 1 : Mémoire insuffisante
+**Symptômes :** Erreurs `OutOfMemoryError`.
 
-#### Solution :
-- Ajoutez ou augmentez la mémoire SWAP :
-  ```bash
-  sudo fallocate -l 1G /swapfile
-  sudo chmod 600 /swapfile
-  sudo mkswap /swapfile
-  sudo swapon /swapfile
-  echo '/swapfile none swap sw 0 0' | sudo tee -a /etc/fstab
-  ```
-
-- Ajustez les paramètres JVM :
+**Solution :**
+- Augmentez la mémoire swap comme décrit dans l'étape 1.
+- Adaptez les options JVM dans `docker-compose.yml` :
   ```yaml
-  environment:
-    - SONAR_SEARCH_JAVAOPTS=-Xms512m -Xmx2048m
+  - SONAR_SEARCH_JAVAOPTS=-Xms512m -Xmx2048m
   ```
 
 ---
 
-### **Problème 2 : Accès réseau refusé**
-#### Symptômes :
-- Impossible d'accéder à SonarQube via l'URL.
+### Problème 2 : Accès réseau refusé
+**Symptômes :** Impossible d'accéder à SonarQube via l'IP publique.
 
-#### Solution :
-- Vérifiez que le port 9000 est ouvert :
+**Solution :**
+- Ouvrez le port 9000 dans le pare-feu :
   ```bash
   sudo ufw allow 9000
   sudo ufw reload
   ```
 
-- Si vous utilisez un proxy inverse (Nginx) pour HTTPS, configurez-le comme suit :
-  ```nginx
-  server {
-    listen 80;
-    server_name yourdomain.com;
+---
 
-    location / {
-      proxy_pass http://localhost:9000;
-      proxy_set_header Host $host;
-      proxy_set_header X-Real-IP $remote_addr;
-    }
-  }
-  ```
+### Problème 3 : Perte de données après redémarrage
+**Symptômes :** Extensions ou logs manquants.
+
+**Solution :**
+- Assurez-vous que les volumes sont correctement configurés dans `docker-compose.yml`.
 
 ---
 
-### **Problème 3 : Base de données inaccessible**
-#### Symptômes :
-- Erreur de connexion à PostgreSQL.
+## Étape 7 : Maintenance et Mise à Jour
 
-#### Solution :
-- Vérifiez les variables d'environnement pour la connexion JDBC dans `docker-compose.yml`.
-- Redémarrez les conteneurs pour appliquer les modifications :
-  ```bash
-  docker-compose down && docker-compose up -d
-  ```
+1. **Sauvegardez les volumes :**
+   ```bash
+   tar -czf sonar_backup.tar.gz /sonar
+   ```
 
----
-
-### **Problème 4 : Perte de données après redémarrage**
-#### Symptômes :
-- Logs ou extensions non persistants.
-
-#### Solution :
-- Assurez-vous que les volumes sont correctement définis dans `docker-compose.yml`.
-
----
-
-### **Problème 5 : Lenteur ou instabilité**
-#### Symptômes :
-- L'interface est lente ou instable.
-
-#### Solution :
-- Limitez les ressources CPU et RAM pour PostgreSQL :
-  ```yaml
-  deploy:
-    resources:
-      limits:
-        memory: 512M
-        cpus: "0.5"
-  ```
-
-- Mettez à jour les images Docker :
-  ```bash
-  docker pull sonarqube:lts
-  docker pull postgres:alpine
-  ```
-
----
-
-## Maintenance et mises à jour
-
-1. **Sauvegarde des données :**
-   - Copiez les répertoires de volumes `/sonar/data`, `/sonar/extensions`, et `/sonar/postgres`.
-
-2. **Mise à jour des images Docker :**
+2. **Mettez à jour les images Docker :**
    ```bash
    docker-compose pull
    docker-compose up -d
    ```
 
-3. **Surveillance des logs :**
+3. **Surveillez les logs :**
    ```bash
    docker logs -f sonarqube
    ```
