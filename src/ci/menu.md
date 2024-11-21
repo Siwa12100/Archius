@@ -2,7 +2,12 @@
 
 [...retour à l'accueil des archives](../../README.md)
 
-## GitLab Actions
+## Notes
+
+* [Tester et scanner avec Sonar - Drone](./fiches/test_sonar_drone.md)
+
+
+## Révisions BUT 3 - GitLab Actions
 
 * [Bases mots cles gitlab actions](./fiches/mots_cles.md)
 
