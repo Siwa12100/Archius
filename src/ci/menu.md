@@ -7,6 +7,8 @@
 * [Installer un serveur drone sur vps](./fiches/installation_drone.md)
 * [Installer un serveur Sonar sur vps](./fiches/installer_serveur_sonar.md)
 * [Tester et scanner avec Sonar - Drone](./fiches/test_sonar_drone.md)
+* [Déployer une registry docker sur un vps](./fiches/installer_registry.md)
+* [Build, push et Deploiement image docker sur vps avec Drone](./fiches/build_push_deploy.md)
 
 
 ## Révisions BUT 3 - GitLab Actions
