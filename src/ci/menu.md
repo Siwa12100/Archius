@@ -4,6 +4,7 @@
 
 ## Notes
 
+[Installer un serveur Sonar](./fiches/installer_serveur_sonar.md)
 * [Tester et scanner avec Sonar - Drone](./fiches/test_sonar_drone.md)
 
 
