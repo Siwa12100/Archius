@@ -13,10 +13,9 @@
 
 ## 25. Voyages et tourisme
 
-:x: [Préparation et organisation]()
+:x: [Préparation et organisation](./fiches/fiches_3/25/1.md)
 
-:x: [Destination et activités]()
-
+:x: [Destination et activités](./fiches/fiches_3/25/2.md)
 
 ## 24. Education et apprentissage
 

@@ -6,36 +6,61 @@
 ## 18. **Voyages et tourisme**
 ### 18.1. **Préparation et organisation**
 0. Voyage  
-1. Tourisme  
-2. Carte  
-3. Guide  
-4. Hôtel  
-5. Réservation  
-6. Bagage  
-7. Valise  
-8. Passeport  
-9. Autorisation
-10. Permission
-11. Douane  
-12. Billet  
+1. Voyager 
+2. Découvrir
+3. Tourisme  
+4. Carte  
+5. Cartable
+6. Guide  
+7. Hôtel  
+8. Auberge 
+9. Campement
+10. Réservation  
+11. Bagage  
+12. Valise  
+13. Passeport 
+14. Passer
+15. Traverser 
+16. Autorisation
+17. Permission
+18. Douane  
+19. Billet  
 
 ### 18.2. **Destinations et activités**
 12. Trajet  
 13. Itinéraire  
-14. Excursion  
-15. Guide touristique  
-16. Randonnée
-17. Promenade
-18. Souvenir  
-19. Monument  
-20. Plage  
-21. Montagne  
-22. Camping  
-23. Safari  
-24. Circuit  
-25. Croisière  
-26. Course
-27. Se dépêcher
+14. Exploration
+15. touristique  
+16. Populaire
+17. Randonnée
+18. Promenade
+19. Souvenir  
+20. Monument  
+21. Statue
+22. Plage 
+23. Sable
+24. Mer
+25. lac
+26. Rivière
+27. ruisseau
+28. Fleuve
+29. Cascade
+30. jaillir 
+31. ardeur
+32. Rayonner
+33. Rayonnement
+34. flaque 
+34. Montagne
+35. Grotte
+36. colline  
+37. Camping  
+38. Désert 
+39. Circuit  
+40. tournée
+41. Croisière  
+42. Course
+43. Compétition
+44. Se dépêcher
     
 ## 19. **Éducation et apprentissage**
 ### 19.1. **Établissements et structures**
@@ -64,6 +89,11 @@
 23. Laboratoire  
 24. Cour de récréation
 25. Terrain
+26. S'ennuyer
+27. mot
+28. phrase
+29. Texte 
+30. Ecriture
 
 ### 19.2. **Activités et outils d'apprentissage**
 12. Leçon  

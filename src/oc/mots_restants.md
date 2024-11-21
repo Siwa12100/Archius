@@ -305,36 +305,6 @@
 23. Suture  
 24. Plâtre
 
-## 35. **Mots liés à l’éducation et à l'école**
-### 35.1. **Structures éducatives**
-0. Professeur  
-1. Élève  
-2. Étudiant  
-3. Classe  
-4. Cours  
-5. Leçon  
-6. Devoir  
-7. Examen  
-8. Diplôme  
-9. Université  
-10. Institut  
-11. Collège  
-
-### 35.2. **Ressources et matériel pédagogique**
-12. Lycée  
-13. École primaire  
-14. Crèche  
-15. Bibliothèque  
-16. Cantine  
-17. Gymnase  
-18. Laboratoire  
-19. Cour de récréation  
-20. Cahier  
-21. Livre  
-22. Crayon  
-23. Stylo  
-24. Gomme
-
 ## 36. **Mots liés à l’environnement**
 ### 36.1. **Problèmes environnementaux**
 0. Pollution  
