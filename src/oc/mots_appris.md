@@ -42,6 +42,9 @@
 26. Ingénierie  
 27. Innovation  
 28. Recherche
+29. chercher
+30. trouver
+31. cacher
     
 ## 48. **Mots liés aux sentiments et aux relations humaines**
 ### 48.1. **Sentiments positifs**
