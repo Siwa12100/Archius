@@ -4,7 +4,8 @@
 
 ## Notes
 
-[Installer un serveur Sonar](./fiches/installer_serveur_sonar.md)
+* [Installer un serveur drone sur vps](./fiches/installation_drone.md)
+* [Installer un serveur Sonar sur vps](./fiches/installer_serveur_sonar.md)
 * [Tester et scanner avec Sonar - Drone](./fiches/test_sonar_drone.md)
 
 
