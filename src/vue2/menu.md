@@ -19,5 +19,6 @@
 
 1. [Composition API VS Option API](./notes/comp_vs_opt.md)
 2. [WebClients, Axios, DTO, Promises](./notes/webclients.md)
+3. [Effectuer des tests avec Jest](./notes/tests.md)
 
 TypeScript : [Doc TS dans cours Angular](../angular/notes/ts_bases.md)
