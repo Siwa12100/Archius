@@ -11,6 +11,12 @@
 
 ---
 
+## 25. Voyages et tourisme
+
+:x: [Préparation et organisation]()
+
+:x: [Destination et activités]()
+
 
 ## 24. Education et apprentissage
 

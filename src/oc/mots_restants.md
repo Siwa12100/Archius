@@ -4,40 +4,6 @@
 
 ---
 
-## 18. **Voyages et tourisme**
-### 18.1. **Préparation et organisation**
-0. Voyage  
-1. Tourisme  
-2. Carte  
-3. Guide  
-4. Hôtel  
-5. Réservation  
-6. Bagage  
-7. Valise  
-8. Passeport  
-9. Autorisation
-10. Permission
-11. Douane  
-12. Billet  
-
-### 18.2. **Destinations et activités**
-12. Trajet  
-13. Itinéraire  
-14. Excursion  
-15. Guide touristique  
-16. Randonnée
-17. Promenade
-18. Souvenir  
-19. Monument  
-20. Plage  
-21. Montagne  
-22. Camping  
-23. Safari  
-24. Circuit  
-25. Croisière  
-26. Course
-27. Se dépêcher
-
 ## 20. **Technologie et médias**
 ### 20.1. **Appareils et outils numériques**
 0. Ordinateur  

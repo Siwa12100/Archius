@@ -3,33 +3,67 @@
 [...retour en arriere](./menu_fiches.md)
 
 ---
+## 18. **Voyages et tourisme**
+### 18.1. **Préparation et organisation**
+0. Voyage  
+1. Tourisme  
+2. Carte  
+3. Guide  
+4. Hôtel  
+5. Réservation  
+6. Bagage  
+7. Valise  
+8. Passeport  
+9. Autorisation
+10. Permission
+11. Douane  
+12. Billet  
+
+### 18.2. **Destinations et activités**
+12. Trajet  
+13. Itinéraire  
+14. Excursion  
+15. Guide touristique  
+16. Randonnée
+17. Promenade
+18. Souvenir  
+19. Monument  
+20. Plage  
+21. Montagne  
+22. Camping  
+23. Safari  
+24. Circuit  
+25. Croisière  
+26. Course
+27. Se dépêcher
+    
 ## 19. **Éducation et apprentissage**
 ### 19.1. **Établissements et structures**
-0. École  
-1. Etablissement
-2. Structure
-3. Apprentissage
-4. Education
-5. Classe  
-6. Salle
-7. Couloir
-7. Université
-8. Etablissement
-9. Bâtiment
-10. Intérieur
-11. Extérieur
-12. Dedans
-13. Dehors  
-14. Institut  
-15. Collège  
-16. Lycée  
-17. École primaire  
-18. Crèche  
-19. Bibliothèque  
-20. Gymnase  
-21. Laboratoire  
-22. Cour de récréation
-23. Terrain
+1. École  
+2. Etablissement
+3. Structure
+4. Apprentissage
+5. Education
+6. Classe  
+7. Salle
+8. Couloir
+9. Université
+10. Etablissement
+11. Bâtiment
+12. Intérieur
+13. Extérieur
+14. Dedans
+15. Dehors  
+16. Institut  
+17. Collège  
+18. Lycée  
+19. École primaire  
+20. Crèche  
+21. Bibliothèque  
+22. Gymnase  
+23. Laboratoire  
+24. Cour de récréation
+25. Terrain
 
 ### 19.2. **Activités et outils d'apprentissage**
 12. Leçon  
