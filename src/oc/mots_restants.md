@@ -725,36 +725,6 @@
 23. Automatisation  
 24. Machine learning
 
-## 47. **Mots liés à la culture générale**
-### 47.1. **Humanités et sciences sociales**
-0. Histoire  
-1. Géographie  
-2. Politique  
-3. Société  
-4. Philosophie  
-5. Religion  
-6. Mythologie  
-7. Littérature  
-8. Poésie  
-9. Art  
-10. Muséologie  
-11. Linguistique  
-
-### 47.2. **Sciences et technologies**
-12. Anthropologie  
-13. Sociologie  
-14. Économie  
-15. Physique  
-16. Chimie  
-17. Biologie  
-18. Mathématiques  
-19. Statistiques  
-20. Informatique  
-21. Technologie  
-22. Ingénierie  
-23. Innovation  
-24. Recherche
-
 
 
 ---
