@@ -24,7 +24,9 @@
 16. Autorisation
 17. Permission
 18. Douane  
-19. Billet  
+19. Billet
+20. preparation
+21. organisation
 
 ### 18.2. **Destinations et activités**
 12. Trajet  
