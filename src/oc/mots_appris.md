@@ -77,25 +77,27 @@
 9. Université
 10. Etablissement
 11. Bâtiment
-12. Intérieur
-13. Extérieur
-14. Dedans
-15. Dehors  
-16. Institut  
-17. Collège  
-18. Lycée  
-19. École primaire  
-20. Crèche  
-21. Bibliothèque  
-22. Gymnase  
-23. Laboratoire  
-24. Cour de récréation
-25. Terrain
-26. S'ennuyer
-27. mot
-28. phrase
-29. Texte 
-30. Ecriture
+12. édifice
+13. construction
+14. Intérieur
+15. Extérieur
+16. Dedans
+17. Dehors  
+18. Institut  
+19. Collège  
+20. Lycée  
+21. École primaire  
+22. Crèche  
+23. Bibliothèque  
+24. Gymnase  
+25. Laboratoire  
+26. Cour de récréation
+27. Terrain
+28. S'ennuyer
+29. mot
+30. phrase
+31. Texte 
+32. Ecriture
 
 ### 19.2. **Activités et outils d'apprentissage**
 12. Leçon  
