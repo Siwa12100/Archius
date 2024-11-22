@@ -1,323 +1,323 @@
-1. luènh
-2. veire
-3. excusatz-me
-4. lo que ...
-5. Suau / Calme
-6. Miègjorn
-7. escruire
-8. davant
-9. cap de problèma
-10. Vesin
-11. La pèl
-12. Benvenguda
-13. dempuèi
-14. estomac
-15. Mainatge
-16. per çò que
-17. menina / mameta
-18. Setembre
-19. dever
-20. Febrièr
-21. vendre
-22. Amor
-23. crompar
-24. Oncle
-25. ortalissa / legum / verdura
-26. èsser
-27. Bonur
-28. perdon
-29. polet
-30. Escolan
-31. acquò fonctiona
-32. Annada
-33. Felicitacions
-34. quina ora es
-35. Irange
-36. Nenet
-37. Espalta
-38. Collèga
-39. Setmana
-40. Fraire
-41. Decepcion
-42. carrièra
-43. Adissiatz
-44. Dent
-45. sens
-46. Patron
-47. batèu
-48. Qual
-49. me soni / m'apèli / me disi
-50. Filh
-51. pastas
-52. Desolat
-53. Amiga
-54. parlar
-55. Dròlla
-56. Uèlh
-57. Uèi
-58. problèma / lo picar de la dalha (+= le noeud de l'affaire...)
-59. Sagnar
-60. veitura
-61. E vosautres ?
-62. cap a
-63. pendent
-64. Aurelha
-65. Mèstre
-66. Cosina
-67. emcombrament / embotelhatge
-68. espèri
-69. mentre que
-70. Negre
-71. Estrech
-72. Amic
-73. e
-74. Blau
-75. pendent
-76. quant
-77. Solitud / soletat
-78. Nas
-79. non
-80. òdi / asirança
-81. Cossí vos apelatz ? Cossí t'apelas ? cossí te sonas ?
-82. adieu
-83. Pichon
-84. D'acòrdi
-85. autostrada
-86. Octobre
-87. barrar
-88. Solatjament
-89. Rond / Ceucle
-90. es damatge
-91. Ser
-92. estacion
-93. Còr
-94. Enveja
-95. Esquina
-96. quicòm
-97. perqué
-98. sang
-99. uòu
-100. escotèr
-101. Aquò va plan
-102. Bèl
-103. Farmacia
-104. domatge / rai! / rai d'aquò!
-105. maugrat que
-106. Bona nuèch
-107. donar / balhar
-108. jos
-109. quauque
-110. puèi
-111. bièrra / cervesa
-112. Auton / Devalada
-113. Verd
-114. Mes
-115. plorar
-116. aeropòrt
-117. apelar / sonar
-118. perqué pas
-119. Colèra
-120. Coma aquò va ?
-121. vos prègui / te prègui
-122. Ora
-123. lèu
-124. quin / quina
-125. pedon
-126. Alara
-127. estrada
-128. Rectangle
-129. Estrès
-130. sucre
-131. costat
-132. Maire
+1. en
+2. costat
+3. gailhard
+4. Mes
+5. Ora
+6. Bonur
+7. bon, bona
+8. après
+9. Mai
+10. salut
+11. èsser
+12. lèu
+13. de res
+14. De segur
+15. bon coratge / coratge !
+16. donar / balhar
+17. Cosina
+18. languiment
+19. acquò fonctiona
+20. detràs / darrièr
+21. Paur
+22. Marron
+23. Segonda
+24. bonser
+25. bus
+26. manjar
+27. Espital
+28. entre
+29. Boca
+30. dobrir
+31. ortalissa / legum / verdura
+32. Negre
+33. Camba
+34. cap de problèma
+35. Maire
+36. sabi pas
+37. Tristesa
+38. al costat de
+39. La pèl
+40. Pè
+41. Solatjament
+42. batèu
+43. quina ora es
+44. mòto
+45. Prima
+46. burre
+47. Uèi
+48. Gris
+49. es damatge
+50. Miègjorn
+51. quant
+52. Colèra
+53. apelar / sonar
+54. qué
+55. pendent
+56. de
+57. Nas
+58. se
+59. avion
+60. esséncia
+61. rire
+62. Collèga
+63. Ivèrn
+64. Cap
+65. fruch
+66. Adissiatz
+67. carn
+68. Solitud / soletat
+69. ont
+70. tè
+71. Oncle
+72. Det
+73. pedon
+74. Bon astre
+75. Sòrre
+76. Annada
+77. Nenet
+78. Marit
+79. Genièr
+80. tanlèu que
+81. Vesin
+82. perqué
+83. Amor
+84. cap de problèma
+85. mètro
+86. estomac
+87. Ièr
+88. D'acòrdi
+89. Paciéncia
+90. Qual
+91. vos prègui / te prègui
+92. sang
+93. perqué pas
+94. pr’aquò / pasmens
+95. près
+96. espèri
+97. cap a
+98. Farmacia
+99. Aquò va plan
+100. Braç
+101. Dolor
+102. poma
+103. peis
+104. veire
+105. Enveja
+106. parlar
+107. veitura
+108. A lèu
+109. Nuèch
+110. ris
+111. bicicleta
+112. préner
+113. mal
+114. Bèl
+115. car
+116. menina / mameta
+117. Cort
+118. barrar
+119. Oval / Ovau
+120. Abril
+121. Uèlh
+122. Paire
+123. Amiga
+124. sus
+125. òdi / asirança
+126. quora
+127. Carrat
+128. fins a
+129. en çò de / cò de
+130. voler
+131. carrièra
+132. adieu
 133. permés
-134. Genièr
-135. entre
-136. Gris
-137. per
-138. compreni pas
-139. se
-140. Jaune
-141. Espital
-142. a
-143. Matin
-144. Pè
-145. tram
-146. voler
-147. Gloria
-148. sus
-149. mas
-150. Cosin
-151. Long
-152. fòrça / bravament
-153. Det
-154. Larg
-155. Jòia
-156. Depression
-157. Roge
-158. compreni
-159. Violet
-160. Paire
-161. avion
-162. tè
-163. Bon astre
-164. Junh
-165. cafè
-166. Abril
-167. Oval / Ovau
-168. Prigond
-169. Tanta
-170. qual que siá
-171. Pòrt
-172. en
-173. gara
-174. Tristesa
-175. tanlèu que
-176. ont
-177. pont
-178. Benlèu
-179. amb
-180. pan
-181. Espèr
-182. Nebot
-183. De segur
-184. Femna
-185. tren
-186. bicicleta
-187. poder
-188. Ièr
-189. après
-190. gailhard
-191. Març
-192. vin
-193. Cort
-194. far
-195. taxi
-196. mòto
-197. fins a
-198. demest / entre
-199. Braç
-200. bonjorn / Adiu
-201. Novembre
-202. bonser
-203. Estiu
-204. Cervèl
-205. préner
-206. Agost
-207. en çò de / cò de
-208. chuc
-209. vertadièr
-210. poma
-211. quora
-212. ris
-213. Paur
-214. vertat
-215. donc / doncas
-216. legir
-217. Paciéncia
-218. de
-219. Marron
-220. dobrir
-221. pr’aquò / pasmens
-222. rire
-223. cossí
-224. es fals
-225. fruch
-226. de res
-227. Ròsa
-228. aiga
-229. Man
-230. Desir / desirança
-231. coratge
-232. òsca
-233. esséncia
-234. Vergonha
-235. permetre
-236. segur
-237. pepin / papeta
-238. Sòrre
-239. Cap
-240. salut
-241. mercés
-242. venir
-243. manjar
-244. Julhet
-245. aver
-246. avans
-247. Fèbre
-248. Boca
-249. fromatge
-250. a l'entorn
-251. sopa
-252. al costat de
-253. escotar
-254. qué
-255. passatge
-256. Carrat
-257. près
-258. ensalada
-259. carn
-260. Decembre
-261. Neboda
-262. cap de problèma
-263. Suspresa
-264. Dolor
-265. beure
-266. Marit
-267. ànsia
-268. Qual / Quala
-269. Còl
-270. burre
-271. Segonda
-272. sabi pas
-273. sal
-274. Plaser
-275. mètro
-276. Benlèu
-277. Triangle
-278. Lo Pel
-279. D'acòrdi
-280. camin
-281. detràs / darrièr
-282. cai
-283. òc
-284. encantat
-285. Deman
-286. tant me fa / aquò m’es parièr
-287. saber / saupre
-288. de còps
-289. pebre
-290. Pensament / lagui
-291. tant polit
-292. Dolor
-293. Minuta
-294. lach
-295. peis
-296. Mai
-297. Santat
-298. A lèu
-299. bon coratge / coratge !
-300. languiment
-301. parièr, parièra
-302. anar
-303. Prima
-304. fals, falsa
-305. dire
-306. Mètge / medecin
-307. çaquelà
-308. Malautiá
-309. Blanc
-310. mal
-311. Bona jornada
-312. es vertat
-313. car
-314. bus
-315. bon, bona
-316. endacòm
-317. pastís
-318. luènh de
-319. Ivèrn
-320. Camba
-321. Mièjanuèch
-322. Nuèch
-323. o
+134. ensalada
+135. Femna
+136. tren
+137. Benvenguda
+138. Setembre
+139. Còl
+140. sens
+141. sucre
+142. avans
+143. Junh
+144. Aurelha
+145. vin
+146. pan
+147. Malautiá
+148. Jòia
+149. Cervèl
+150. Larg
+151. donc / doncas
+152. Bona nuèch
+153. coratge
+154. Suau / Calme
+155. Felicitacions
+156. polet
+157. tant me fa / aquò m’es parièr
+158. per çò que
+159. beure
+160. luènh
+161. quauque
+162. vertadièr
+163. pebre
+164. Espèr
+165. Fraire
+166. excusatz-me
+167. cossí
+168. compreni pas
+169. aeropòrt
+170. o
+171. dempuèi
+172. fals, falsa
+173. compreni
+174. a l'entorn
+175. Dent
+176. Santat
+177. fromatge
+178. mentre que
+179. Espalta
+180. Estrès
+181. Rond / Ceucle
+182. Agost
+183. es fals
+184. Coma aquò va ?
+185. lo que ...
+186. passatge
+187. Benlèu
+188. maugrat que
+189. Febrièr
+190. far
+191. Blau
+192. Bona jornada
+193. Mièjanuèch
+194. chuc
+195. Amic
+196. per
+197. tram
+198. emcombrament / embotelhatge
+199. vendre
+200. camin
+201. escotèr
+202. sal
+203. parièr, parièra
+204. Estrech
+205. autostrada
+206. crompar
+207. òc
+208. gara
+209. aver
+210. Suspresa
+211. Escolan
+212. Cossí vos apelatz ? Cossí t'apelas ? cossí te sonas ?
+213. cafè
+214. Man
+215. perdon
+216. Cosin
+217. Minuta
+218. plorar
+219. Depression
+220. Desolat
+221. Irange
+222. quin / quina
+223. Qual / Quala
+224. venir
+225. pendent
+226. Vergonha
+227. Tanta
+228. Violet
+229. lach
+230. Jaune
+231. saber / saupre
+232. Deman
+233. Novembre
+234. Dolor
+235. vertat
+236. de còps
+237. segur
+238. Setmana
+239. E vosautres ?
+240. Fèbre
+241. Verd
+242. uòu
+243. pepin / papeta
+244. Pòrt
+245. dire
+246. cai
+247. Plaser
+248. Julhet
+249. puèi
+250. Matin
+251. Pichon
+252. sopa
+253. a
+254. Mainatge
+255. Roge
+256. estacion
+257. endacòm
+258. escruire
+259. davant
+260. Dròlla
+261. Patron
+262. Mèstre
+263. demest / entre
+264. Desir / desirança
+265. pont
+266. Lo Pel
+267. Decembre
+268. Blanc
+269. pastís
+270. permetre
+271. pastas
+272. tant polit
+273. estrada
+274. ànsia
+275. bièrra / cervesa
+276. dever
+277. bonjorn / Adiu
+278. çaquelà
+279. mercés
+280. poder
+281. Long
+282. Auton / Devalada
+283. qual que siá
+284. legir
+285. anar
+286. Esquina
+287. Benlèu
+288. escotar
+289. es vertat
+290. Estiu
+291. Rectangle
+292. Gloria
+293. D'acòrdi
+294. Neboda
+295. fòrça / bravament
+296. me soni / m'apèli / me disi
+297. Decepcion
+298. Sagnar
+299. luènh de
+300. Filh
+301. domatge / rai! / rai d'aquò!
+302. encantat
+303. aiga
+304. Alara
+305. Pensament / lagui
+306. Nebot
+307. Octobre
+308. problèma / lo picar de la dalha (+= le noeud de l'affaire...)
+309. mas
+310. òsca
+311. Ser
+312. non
+313. amb
+314. e
+315. Mètge / medecin
+316. taxi
+317. Prigond
+318. Còr
+319. Triangle
+320. quicòm
+321. jos
+322. Març
+323. Ròsa

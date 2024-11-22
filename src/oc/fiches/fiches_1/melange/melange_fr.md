@@ -1,323 +1,323 @@
-1. loin de
-2. Voir
-3. Excusez-moi
-4. Qui (en mode "celui qui ..." )
-5. Calme
-6. Midi
-7. Écrire
-8. Devant
-9. Aucun problème
-10. Voisin
-11. Peau
-12. Bienvenue
-13. Depuis
-14. Estomac
-15. Enfant
-16. Parce que
-17. Grand-mère
-18. Septembre
-19. Devoir
-20. Février
-21. Vendre
-22. Amour
-23. Acheter
-24. Oncle
-25. Légume
-26. Être
-27. Bonheur
-28. Pardon
-29. Poulet
-30. Élève
-31. Ça marche
-32. Année
-33. Félicitations
-34. Quelle heure est-il
-35. Orange
-36. Bébé
-37. Epaule
-38. Collègue
-39. Semaine
-40. Frère
-41. Déception
-42. Rue
-43. Au revoir
-44. Dent
-45. Sans
-46. Patron
-47. Bateau
-48. Qui (en mode "qui est t'il ?")
-49. Je m'appelle
-50. Fils
-51. Pâtes
-52. Désolé
-53. Amie
-54. Parler
-55. Fille
-56. Œil
-57. Aujourd'hui
-58. problème
-59. Saigner
-60. Voiture
-61. Et vous ?
-62. Vers
-63. Durant
-64. Oreille
-65. Maître
-66. Cousine
-67. Embouteillage
-68. J'espère
-69. Tandis que
-70. Noir
-71. Étroit
-72. Ami
-73. Et
-74. Bleu
-75. Pendant
-76. Combien
-77. Solitude
-78. Nez
-79. Non
-80. Haine
-81. Comment vous appelez-vous ?
-82. Adieu
-83. Petit
-84. D'accord
-85. Autoroute
-86. Octobre
-87. Fermer
-88. Soulagement
-89. Rond
-90. C'est dommage
-91. Soir
-92. Station
-93. Cœur
-94. Envie
-95. Dos
-96. Quelque chose
-97. Pourquoi
-98. Sang
-99. Œuf
-100. Scooter
-101. Ça va bien
-102. Grand
-103. Pharmacie
-104. Tant pis
-105. Malgré que
-106. Bonne nuit
-107. Donner
-108. Sous
-109. Quelque
-110. Puis
-111. Bière
-112. Automne
-113. Vert
-114. Mois
-115. Pleurer
-116. Aéroport
-117. Appeler
-118. Pourquoi pas
-119. Colère
-120. Comment ça va ?
-121. S'il vous plaît
-122. Heure
-123. Bientôt
-124. Quel
-125. Passage piéton
-126. Alors
-127. Route
-128. Rectangle
-129. Stress
-130. Sucre
-131. côté
-132. Mère
+1. En
+2. côté
+3. Vigoureux
+4. Mois
+5. Heure
+6. Bonheur
+7. bon
+8. Après
+9. Mai
+10. Salut
+11. Être
+12. Bientôt
+13. De rien
+14. Bien sûr
+15. Bon courage
+16. Donner
+17. Cousine
+18. Ennui
+19. Ça marche
+20. Derrière
+21. Peur
+22. Marron
+23. Seconde
+24. Bonsoir
+25. Bus
+26. Manger
+27. Hôpital
+28. Entre
+29. Bouche
+30. Ouvrir
+31. Légume
+32. Noir
+33. Jambe
+34. Pas de problème
+35. Mère
+36. Je ne sais pas
+37. Tristesse
+38. A côté de
+39. Peau
+40. Pied
+41. Soulagement
+42. Bateau
+43. Quelle heure est-il
+44. Moto
+45. Printemps
+46. Beurre
+47. Aujourd'hui
+48. Gris
+49. C'est dommage
+50. Midi
+51. Combien
+52. Colère
+53. Appeler
+54. Quoi
+55. Pendant
+56. De
+57. Nez
+58. Si
+59. Avion
+60. Essence
+61. Rire
+62. Collègue
+63. Hiver
+64. Tête
+65. Fruit
+66. Au revoir
+67. Viande
+68. Solitude
+69. Où
+70. Thé
+71. Oncle
+72. Doigt
+73. Passage piéton
+74. Bonne chance
+75. Sœur
+76. Année
+77. Bébé
+78. Mari
+79. Janvier
+80. Dès
+81. Voisin
+82. Pourquoi
+83. Amour
+84. Aucun problème
+85. Métro
+86. Estomac
+87. Hier
+88. D'accord
+89. Patience
+90. Qui (en mode "qui est t'il ?")
+91. S'il vous plaît
+92. Sang
+93. Pourquoi pas
+94. Cependant
+95. Près de
+96. J'espère
+97. Vers
+98. Pharmacie
+99. Ça va bien
+100. Bras
+101. Douleur
+102. Pomme
+103. Poisson
+104. Voir
+105. Envie
+106. Parler
+107. Voiture
+108. À bientôt
+109. Nuit
+110. Riz
+111. Vélo
+112. Prendre
+113. mal
+114. Grand
+115. Car
+116. Grand-mère
+117. Court
+118. Fermer
+119. Ovale
+120. Avril
+121. Œil
+122. Père
+123. Amie
+124. Sur
+125. Haine
+126. Quand
+127. Carré
+128. Jusqu'à
+129. Chez
+130. Vouloir
+131. Rue
+132. Adieu
 133. Permis
-134. Janvier
-135. Entre
-136. Gris
-137. Pour
-138. Je ne comprends pas
-139. Si
-140. Jaune
-141. Hôpital
-142. À (prep lieu & temps)
-143. Matin
-144. Pied
-145. Tramway
-146. Vouloir
-147. Fierté
-148. Sur
-149. Mais
-150. Cousin
-151. Long
-152. Pas mal
-153. Doigt
-154. Large
-155. Joie
-156. Dépression
-157. Rouge
-158. Je comprends
-159. Violet
-160. Père
-161. Avion
-162. Thé
-163. Bonne chance
-164. Juin
-165. Café
-166. Avril
-167. Ovale
-168. Profond
-169. Tante
-170. Quiconque
-171. Col (en montagne)
-172. En
-173. Gare
-174. Tristesse
-175. Dès
-176. Où
-177. Pont
-178. Peut-être
-179. Avec
-180. Pain
-181. Espoir
-182. Neveu
-183. Bien sûr
-184. Femme
-185. Train
-186. Vélo
-187. Pouvoir
-188. Hier
-189. Après
-190. Vigoureux
-191. Mars
-192. Vin
-193. Court
-194. Faire
-195. Taxi
-196. Moto
-197. Jusqu'à
-198. Parmi
-199. Bras
-200. Bonjour
-201. Novembre
-202. Bonsoir
-203. Été
-204. Cerveau
-205. Prendre
-206. Août
-207. Chez
-208. Jus
-209. vrai
-210. Pomme
-211. Quand
-212. Riz
-213. Peur
-214. vérité
-215. Donc
-216. Lire
-217. Patience
-218. De
-219. Marron
-220. Ouvrir
-221. Cependant
-222. Rire
-223. Comment
-224. C'est faux
-225. Fruit
-226. De rien
-227. Rose
-228. Eau
-229. Main
-230. Désir
-231. Courage
-232. Bravo
-233. Essence
-234. Honte
-235. permettre
-236. sûr
-237. Grand-père
-238. Sœur
-239. Tête
-240. Salut
-241. Merci
-242. Venir
-243. Manger
-244. Juillet
-245. Avoir
-246. Avant
-247. Fièvre
-248. Bouche
-249. Fromage
-250. Autour de
-251. Soupe
-252. A côté de
-253. Écouter
-254. Quoi
-255. Passage
-256. Carré
-257. Près de
-258. Salade
-259. Viande
-260. Décembre
-261. Nièce
-262. Pas de problème
-263. Surprise
-264. Douleur
-265. Boire
-266. Mari
-267. Anxiété
-268. L(a)quel(le)
-269. Cou
-270. Beurre
-271. Seconde
-272. Je ne sais pas
-273. Sel
-274. Plaisir
-275. Métro
-276. Peut-être
-277. Triangle
-278. Cheveu
-279. D'accord
-280. Chemin
-281. Derrière
-282. Quai
-283. Oui
-284. Enchanté
-285. Demain
-286. Ça m'est égal
-287. Savoir
-288. Quelquefois
-289. Poivre
-290. Souci
-291. Si joli
-292. Douleur
-293. Minute
-294. Lait
-295. Poisson
-296. Mai
-297. Santé
-298. À bientôt
-299. Bon courage
-300. Ennui
-301. pareil / pareille
-302. Aller
-303. Printemps
-304. faux / fausse
-305. Dire
-306. Médecin
-307. Pourtant
-308. Maladie
-309. Blanc
-310. mal
-311. Bonne journée
-312. C'est vrai
-313. Car
-314. Bus
-315. bon
-316. Quelque part
-317. Gâteau
-318. Loin de
-319. Hiver
-320. Jambe
-321. Minuit
-322. Nuit
-323. Ou
+134. Salade
+135. Femme
+136. Train
+137. Bienvenue
+138. Septembre
+139. Cou
+140. Sans
+141. Sucre
+142. Avant
+143. Juin
+144. Oreille
+145. Vin
+146. Pain
+147. Maladie
+148. Joie
+149. Cerveau
+150. Large
+151. Donc
+152. Bonne nuit
+153. Courage
+154. Calme
+155. Félicitations
+156. Poulet
+157. Ça m'est égal
+158. Parce que
+159. Boire
+160. loin de
+161. Quelque
+162. vrai
+163. Poivre
+164. Espoir
+165. Frère
+166. Excusez-moi
+167. Comment
+168. Je ne comprends pas
+169. Aéroport
+170. Ou
+171. Depuis
+172. faux / fausse
+173. Je comprends
+174. Autour de
+175. Dent
+176. Santé
+177. Fromage
+178. Tandis que
+179. Epaule
+180. Stress
+181. Rond
+182. Août
+183. C'est faux
+184. Comment ça va ?
+185. Qui (en mode "celui qui ..." )
+186. Passage
+187. Peut-être
+188. Malgré que
+189. Février
+190. Faire
+191. Bleu
+192. Bonne journée
+193. Minuit
+194. Jus
+195. Ami
+196. Pour
+197. Tramway
+198. Embouteillage
+199. Vendre
+200. Chemin
+201. Scooter
+202. Sel
+203. pareil / pareille
+204. Étroit
+205. Autoroute
+206. Acheter
+207. Oui
+208. Gare
+209. Avoir
+210. Surprise
+211. Élève
+212. Comment vous appelez-vous ?
+213. Café
+214. Main
+215. Pardon
+216. Cousin
+217. Minute
+218. Pleurer
+219. Dépression
+220. Désolé
+221. Orange
+222. Quel
+223. L(a)quel(le)
+224. Venir
+225. Durant
+226. Honte
+227. Tante
+228. Violet
+229. Lait
+230. Jaune
+231. Savoir
+232. Demain
+233. Novembre
+234. Douleur
+235. vérité
+236. Quelquefois
+237. sûr
+238. Semaine
+239. Et vous ?
+240. Fièvre
+241. Vert
+242. Œuf
+243. Grand-père
+244. Col (en montagne)
+245. Dire
+246. Quai
+247. Plaisir
+248. Juillet
+249. Puis
+250. Matin
+251. Petit
+252. Soupe
+253. À (prep lieu & temps)
+254. Enfant
+255. Rouge
+256. Station
+257. Quelque part
+258. Écrire
+259. Devant
+260. Fille
+261. Patron
+262. Maître
+263. Parmi
+264. Désir
+265. Pont
+266. Cheveu
+267. Décembre
+268. Blanc
+269. Gâteau
+270. permettre
+271. Pâtes
+272. Si joli
+273. Route
+274. Anxiété
+275. Bière
+276. Devoir
+277. Bonjour
+278. Pourtant
+279. Merci
+280. Pouvoir
+281. Long
+282. Automne
+283. Quiconque
+284. Lire
+285. Aller
+286. Dos
+287. Peut-être
+288. Écouter
+289. C'est vrai
+290. Été
+291. Rectangle
+292. Fierté
+293. D'accord
+294. Nièce
+295. Pas mal
+296. Je m'appelle
+297. Déception
+298. Saigner
+299. Loin de
+300. Fils
+301. Tant pis
+302. Enchanté
+303. Eau
+304. Alors
+305. Souci
+306. Neveu
+307. Octobre
+308. problème
+309. Mais
+310. Bravo
+311. Soir
+312. Non
+313. Avec
+314. Et
+315. Médecin
+316. Taxi
+317. Profond
+318. Cœur
+319. Triangle
+320. Quelque chose
+321. Sous
+322. Mars
+323. Rose

@@ -1,478 +1,781 @@
-1. Sœur
-2. Plaisir
-3. Vendre
-4. Puis
-5. Dormir
-6. Aucun
-7. Pendant
-8. Vent
-9. Ami
-10. Hôpital
-11. Bonjour
-12. En avoir assez
-13. Saisons
-14. L(a)quel(le)
-15. Mari
-16. Dépression
-17. Petit
-18. Rarement
-19. S'il vous plaît
-20. Chemin
-21. Main
-22. Bureau
-23. Regarder
-24. Pleurer
-25. Fruit
-26. Noir
-27. Autour de
-28. Lapin
-29. Pluie
-30. pareil / pareille
-31. perdrix
-32. Cheveu
-33. Après
-34. Bateau
-35. Froid(e)
-36. Amie
-37. Grand-mère
-38. Grêle(r)
-39. Travailler
-40. Soulagement
-41. Permis
-42. Sucre
-43. Miroir
-44. Désolé
-45. A côté de
-46. Courage
-47. Essence
-48. rare
-49. Avoir
-50. Froideur
-51. Estomac
-52. Envie
-53. Tout
-54. Chien
-55. Parler
-56. Pâtes
-57. Rien
-58. Porte
-59. Bouche
-60. Plafond
-61. Escalier
-62. Court
-63. Embouteillage
-64. Pardon
-65. Ou
-66. Poisson
-67. Nuage
-68. Bien sûr
-69. Se laver
-70. Jus
-71. Papillon
-72. D'accord
-73. Juillet
-74. loin de
-75. Comment vous appelez-vous ?
-76. Personne
-77. Pas mal
-78. Pied
-79. Sans
-80. Passage
-81. Fenêtre
-82. Sécheresse
-83. Salade
-84. Chèvre
-85. Gel
-86. Merci
-87. Légume
-88. Bus
-89. Cerveau
-90. Cou
-91. Dent
-92. Mai
-93. Ovale
-94. Je ne comprends pas
-95. Quelques
-96. Triangle
-97. Geler
-98. Bras
-99. sûr
-100. Maison
-101. Serpent
-102. Avalanche
-103. Vin
-104. Epaule
-105. Acheter
-106. Fréquence
-107. Nez
-108. C'est dommage
-109. Rectangle
-110. Foudre
-111. Aéroport
-112. Bureau
-113. Armoire
-114. Santé
-115. Pourquoi
-116. Écrire
-117. Décembre
-118. Orage
-119. Bonheur
-120. Matin
-121. Quelquefois
-122. Canapé
-123. mal
-124. Comment ça va ?
-125. Où
-126. Neveu
-127. Bientôt
-128. Abeille
-129. Pas de problème
-130. Nièce
-131. Quelque part
-132. Automne
-133. Bonne journée
-134. Eau
-135. coq
-136. Thé
-137. De rien
-138. Pleuvoir
-139. Rose
-140. Si joli
-141. Mars
-142. Soupe
-143. Manger
-144. Bleu
-145. Canard
-146. Février
-147. Faire
-148. Joie
-149. Vers
-150. Depuis
-151. Courir
-152. Cousine
-153. Ouvrir
-154. Août
-155. Bonsoir
-156. Rouge
-157. Neiger
-158. Nettoyer
-159. Sel
-160. Beurre
-161. Septembre
-162. Ça m'est égal
-163. Quelque chose
-164. Une personne
-165. Train
-166. Douleur
-167. Combien
-168. Pour
-169. Anxiété
-170. Parmi
-171. Novembre
-172. Quai
+1. Vouloir
+2. Patience
+3. Mythologie
+4. Texte
+5. Extérieur
+6. Quatrième
+7. Plusieurs
+8. problème
+9. permettre
+10. Écrire
+11. humain
+12. Conduire
+13. Large
+14. Parler
+15. Saisons
+16. Courage
+17. Ouvrir
+18. Souci
+19. Voyager
+20. À (prep lieu & temps)
+21. Université
+22. Ruisseau
+23. Poivre
+24. En
+25. Géographie
+26. Institut
+27. Fille
+28. Poésie
+29. Sécheresse
+30. Réviser (technique)
+31. Chaque
+32. Tristesse
+33. Cousin
+34. Quelques
+35. Stylo
+36. Miroir
+37. Pleurer
+38. Surprise
+39. Grand-mère
+40. Vin
+41. Chimiste
+42. Boucher
+43. Soldes
+44. Pourtant
+45. Loin de
+46. Peintre
+47. Brume
+48. Sœur
+49. Vent
+50. Fièvre
+51. Pourquoi
+52. Tournée
+53. frelon
+54. (re)Chercher
+55. Femme
+56. Expliquer
+57. Enseignant
+58. S'asseoir
+59. Amie
+60. Facture
+61. ardeur / rayonnement
+62. Savoir
+63. Étagère
+64. Parce que
+65. Moitié
+66. Tortue
+67. Sentiment
+68. Pont
+69. Il faut chaud
+70. Gant
+71. Dedans
+72. Rien
+73. Vingt
+74. Stress
+75. fois
+76. Un
+77. Singe
+78. Bracelet
+79. Noter
+80. Secrétaire
+81. C'est vrai
+82. Joie
+83. L'économie
+84. Sociologie
+85. Pendant
+86. Bagage
+87. Manger
+88. Faire
+89. Trente
+90. Combien
+91. Cou
+92. Cuisine
+93. Statistiques
+94. Frère
+95. tonner
+96. Ça marche
+97. Mois
+98. Mai
+99. guèpe
+100. Calme
+101. Haine
+102. Travail
+103. Bonjour
+104. Fruit
+105. Éléphant
+106. Profond
+107. Pantalon
+108. Pâtes
+109. Crèche
+110. Croisière
+111. Montagne
+112. Fromage
+113. Salon
+114. Oreille
+115. Je ne sais pas
+116. Matin
+117. Cinquante
+118. Canicule
+119. Peut-être
+120. Eau
+121. Promenade
+122. Agriculteur
+123. Chimie
+124. A moitié
+125. Marron
+126. Serveur
+127. Dire
+128. Envie
+129. Effaceur
+130. Pain
+131. Fermer
+132. Examen
+133. Mars
+134. Tout
+135. Fils
+136. Sans
+137. Fréquemment
+138. Pas de problème
+139. Montre
+140. Cependant
+141. Tramway
+142. Œil
+143. Grand
+144. Gâteau
+145. Tante
+146. Professeur
+147. Outil
+148. frais / fraîche
+149. Souvent
+150. Innovation
+151. général
+152. Noir
+153. Lycée
+154. Appartement
+155. Passage
+156. Route
+157. Économies (argent mis de côté)
+158. Nièce
+159. Autorisation
+160. Exploration
+161. Économie
+162. Honte
+163. Et vous ?
+164. Poulet
+165. quatre-vingts
+166. Semaine
+167. Science
+168. Désir
+169. jaillir / rayonner
+170. ruche
+171. Oublier
+172. Orange
 173. Pouvoir
-174. Foudroyer
-175. Col (en montagne)
-176. Plusieurs
-177. Venir
-178. Sous
-179. Pharmacie
-180. Pomme
-181. Quiconque
-182. Large
-183. Souris
-184. Tortue
-185. Savoir
-186. Amour
-187. Mais
-188. Écouter
-189. Équinoxe
-190. ruche
-191. bon
-192. Honte
-193. Haine
-194. Rire
-195. Il faut chaud
-196. Métro
-197. rat
-198. Père
-199. laisser
-200. Riz
-201. Presque
-202. Je ne sais pas
-203. Se maquiller
-204. Bébé
-205. tonnerre
-206. Bonne nuit
-207. Carré
-208. Eclairer
-209. Chaud
-210. Peut-être
-211. Poulet
-212. Assez
-213. Fermer
-214. Voiture
-215. D'accord
-216. guèpe
-217. Ça marche
-218. Vélo
-219. Éclair
-220. Parler
-221. Qui (en mode "qui est t'il ?")
-222. Douleur
-223. Sanglier
-224. Fromage
-225. Taxi
-226. C'est faux
-227. Personne
-228. Cochon
-229. Station
-230. Entre
-231. Étroit
-232. vrai
-233. Grand
-234. Manger
-235. Soir
-236. Salle de bain
-237. Lire
-238. Autoroute
-239. miel
-240. Long
-241. Arc-en-ciel
-242. Doigt
-243. Avant
-244. Dire
-245. Poivre
-246. Et vous ?
-247. Jaune
-248. Café
-249. Tête
-250. Vouloir
-251. Quelle heure est-il
-252. Nuit
-253. Tempête
-254. Souci
-255. Toujours
-256. Loin de
-257. Fièvre
-258. Tigre
-259. permettre
-260. Viande
-261. Comment
-262. Gâteau
-263. S'asseoir
-264. Avec
-265. Espoir
-266. Dos
-267. Vache
-268. Œuf
-269. Écrire
-270. Prendre une douche
-271. Ça va bien
-272. Dès
-273. Qui (en mode "celui qui ..." )
-274. Profond
-275. Demain
-276. Gare
-277. Tant pis
-278. Oncle
-279. Mère
-280. Marron
-281. Hier
-282. Aucun problème
-283. Moto
-284. Bravo
-285. Avion
-286. Fraîcheur
-287. Écouter
-288. Passage piéton
-289. Rond
-290. Semaine
-291. Salut
-292. Bon courage
-293. Orange
-294. Mur
-295. Et
-296. Je comprends
-297. Voisin
-298. Cave
-299. Vendre
-300. Insecte
-301. Poisson
-302. Boire
-303. Non
-304. Cuisiner
-305. Nuageux
-306. Gris
-307. Patron
-308. Au revoir
-309. Grenier
-310. Mouton
-311. Singe
-312. Conduire
-313. Chez
-314. Heure
-315. Midi
-316. Car
-317. Sec
-318. Solitude
-319. Déception
-320. Poule
-321. Acheter
-322. Se lever
-323. Je m'appelle
-324. Beaucoup
-325. Quand
-326. Excusez-moi
-327. Été
-328. Vert
-329. Oui
-330. Tante
-331. Pain
-332. Grand-père
-333. nid
-334. Souvent
-335. Scooter
-336. Aujourd'hui
-337. Médecin
-338. Devant
-339. Frère
-340. Félicitations
-341. Quelque
-342. Collègue
-343. Aller
-344. Prendre
-345. À (prep lieu & temps)
-346. Cependant
-347. Se raser
-348. Peut-être
-349. Déluge
-350. Lait
-351. Parfois
-352. Chambre
-353. Seconde
-354. Lire
-355. Quoi
-356. Pourquoi pas
-357. Donner
-358. Se reposer
-359. De
-360. Peur
-361. Lion
-362. Violet
-363. Désir
-364. Tous les jours
-365. Tandis que
-366. La douche
-367. Humidité
-368. Chaise
-369. Trop
-370. Cuisine
-371. Fréquemment
-372. Tous les soirs
-373. côté
-374. Cœur
-375. Fierté
-376. problème
-377. Janvier
-378. Être
-379. Calme
-380. Saigner
-381. Voir
-382. Rue
-383. Peau
-384. Parce que
-385. Stress
-386. Vigoureux
-387. Adieu
-388. Pourtant
-389. Tristesse
-390. Bienvenue
-391. Route
-392. Soleil
-393. Appeler
-394. Patience
-395. Jardin
-396. Près de
-397. Toilette
-398. Fille
-399. Minuit
-400. Sang
-401. Appartement
-402. Devoir
-403. faux / fausse
-404. Tiroir
-405. Juin
-406. Quelque chose
-407. Jambe
-408. Brume
-409. Pont
-410. Œil
-411. Surprise
-412. Jusqu'à
-413. Si
-414. Mois
-415. Année
-416. À bientôt
-417. Tramway
-418. souffler
-419. En
-420. Minute
-421. Tout le monde
-422. Fils
-423. Étagère
-424. vérité
-425. Octobre
-426. Femme
-427. Climat
-428. Cheval
-429. Durant
-430. Bonne chance
-431. Avril
-432. Blanc
-433. Derrière
-434. Marcher
-435. Se promener
-436. Sur
-437. Quel
-438. Table
-439. Alors
-440. Éléphant
-441. Maladie
-442. Mouillé
-443. Brouillard
-444. Colère
-445. Donc
-446. Printemps
-447. Grenouille
-448. Bière
-449. Oiseau
-450. fois
-451. Solstice
-452. Oreille
-453. Garage
-454. Neige
-455. Malgré que
-456. Se coiffer
-457. Salon
-458. tonner
-459. Cousin
-460. frais / fraîche
-461. Enchanté
-462. Maître
-463. frelon
-464. Peu
-465. Hiver
-466. J'espère
-467. Enfant
-468. Réparer
-469. Chat
-470. C'est vrai
-471. Jamais
-472. Élève
-473. Chaque
-474. Canicule
-475. Ennui
-476. Lit
-477. Chaleur
-478. Serpent
+174. Rue
+175. Cuir
+176. Sept
+177. Rarement
+178. Chaussette
+179. Pour
+180. Je m'appelle
+181. Caissier
+182. Trajet
+183. Plombier
+184. Qui (en mode "celui qui ..." )
+185. Hôtel
+186. Petit
+187. Leçon
+188. Isolement
+189. Neiger
+190. Si
+191. Excusez-moi
+192. Septembre
+193. Adieu
+194. Circuit
+195. Quelquefois
+196. Sac à dos
+197. Rejeter
+198. Gare
+199. Enseignant
+200. Station
+201. Agressivité
+202. Rose
+203. Bonsoir
+204. Vendre
+205. Compétition
+206. Se dépêcher
+207. Chaleur
+208. Sang
+209. Été
+210. Cacher
+211. Mouillé
+212. Tout le monde
+213. Pire
+214. Salle de bain
+215. Parmi
+216. Se maquiller
+217. Électricien
+218. Billet
+219. Fraîcheur
+220. Félicitations
+221. Mieux
+222. Cascade
+223. Fréquence
+224. Sur
+225. Cerveau
+226. Harmonie
+227. Bravo
+228. colline
+229. Grenier
+230. Mouton
+231. Bientôt
+232. Porte
+233. différence
+234. Ça m'est égal
+235. Trouver
+236. Thé
+237. Regarder
+238. Écharpe
+239. Climat
+240. Bureau
+241. Avant
+242. Page
+243. Café
+244. Biologie
+245. lac
+246. Eclairer
+247. Sec
+248. Mur
+249. Avoir
+250. Étroit
+251. Quarante
+252. Court
+253. Maître
+254. Désespoir
+255. Tiroir
+256. Ennui
+257. Politique
+258. côté
+259. rat
+260. Jupe
+261. Cheveu
+262. Histoire
+263. Commerce
+264. Quel
+265. Monnaie
+266. Budget
+267. Structure
+268. Depuis
+269. Hier
+270. Février
+271. D'accord
+272. Mais
+273. Pas mal
+274. Mille
+275. Avocat
+276. Embouteillage
+277. Manger
+278. Douleur
+279. Vendeur
+280. Rejet
+281. Dos
+282. Robe
+283. Cour de récréation
+284. Chaud
+285. Maladie
+286. Salle
+287. Voyage
+288. Avalanche
+289. Chat
+290. Gendarme
+291. Saigner
+292. Troixième
+293. Prendre une douche
+294. Chèvre
+295. Humidité
+296. tonnerre
+297. Infirmier
+298. Garage
+299. Supermarché
+300. Devoir
+301. Aéroport
+302. Sac
+303. Prendre
+304. Travailler
+305. Acheter
+306. Collège
+307. Bouche
+308. Pourquoi pas
+309. Déception
+310. Trop
+311. Maison
+312. Lire
+313. Recherche
+314. Salaire
+315. Rivalité
+316. Rond
+317. Appeler
+318. Transaction
+319. Neige
+320. Aucun problème
+321. Papier
+322. Escalier
+323. Élève
+324. Bonne nuit
+325. Conflit
+326. Courir
+327. Mari
+328. Tous les soirs
+329. Bière
+330. Car
+331. Seul
+332. Billet
+333. Boire
+334. Près de
+335. Beaucoup
+336. Janvier
+337. Marché
+338. Respect
+339. Avec
+340. Une dernière fois
+341. Blanc
+342. Lait
+343. Amour
+344. Médecin
+345. Collègue
+346. Hôpital
+347. Autour de
+348. positif
+349. Laine
+350. Bus
+351. Tandis que
+352. Décembre
+353. Nuage
+354. Envie
+355. Grêle(r)
+356. Prix
+357. Acheter
+358. Informatique
+359. vrai
+360. Philosophie
+361. Automne
+362. Découvrir
+363. Humanité
+364. Marcher
+365. Revenu
+366. Vendre
+367. Après
+368. coq
+369. Souris
+370. Se coiffer
+371. Couloir
+372. Écouter
+373. Terrain
+374. Avion
+375. Compassion
+376. Cœur
+377. Tête
+378. Souvenir
+379. Partie
+380. Gymnase
+381. Quelque chose
+382. Carré
+383. Solitude
+384. Printemps
+385. Organisation
+386. Cahier
+387. Désert(e)
+388. Plusieurs
+389. Salade
+390. Toujours
+391. Bonheur
+392. pareil / pareille
+393. Col (en montagne)
+394. Horloge
+395. Cours
+396. Chemise
+397. Grand-père
+398. laisser
+399. Ensemble
+400. mot
+401. Deux
+402. Etablissement
+403. Douane
+404. Linguistique
+405. S'il vous plaît
+406. Foudre
+407. Evaluation
+408. Lit
+409. Itinéraire
+410. Coiffeur
+411. Document
+412. Orage
+413. Ça va bien
+414. Malgré que
+415. Acheter
+416. Étudier
+417. bon
+418. Bébé
+419. perdrix
+420. Ingénieur
+421. Tant pis
+422. Solidarité
+423. Venir
+424. Investissement
+425. Froideur
+426. Littérature
+427. Cousine
+428. Devoir
+429. Statue
+430. Panier
+431. Quatre
+432. Parler
+433. Tigre
+434. Pleuvoir
+435. Quelle heure est-il
+436. École
+437. Carte
+438. Passeport
+439. Jamais
+440. Maître
+441. Règle
+442. Ecriture
+443. Dormir
+444. Long
+445. Cinq
+446. Arc-en-ciel
+447. Préparation
+448. Campement
+449. Biologiste
+450. Huit
+451. Fierté
+452. Policier
+453. Soixante-dix
+454. Soir
+455. Cent
+456. Sous
+457. Tous les jours
+458. Voir
+459. Santé
+460. Plage
+461. Autoroute
+462. Triangle
+463. Toilette
+464. Assez
+465. Juin
+466. Dessiner
+467. Art
+468. Novembre
+469. Peur
+470. Promotion
+471. une histoire / récit
+472. Sel
+473. Librairie
+474. flaque
+475. Métro
+476. Dehors
+477. Élève
+478. Mathématiques
+479. nid
+480. Classe
+481. De
+482. Violet
+483. Vigoureux
+484. Jardin
+485. Hiver
+486. Coûter
+487. social
+488. Seconde
+489. Oiseau
+490. Vache
+491. Plafond
+492. Parapluie
+493. Lion
+494. Jambe
+495. Sanglier
+496. Éclair
+497. Scooter
+498. Course
+499. Écouter
+500. Gris
+501. Se reposer
+502. Moins
+503. Nuit
+504. Passage piéton
+505. Alors
+506. Midi
+507. Trahison
+508. Cave
+509. Permis
+510. Fenêtre
+511. Moto
+512. Premier
+513. Enfant
+514. Médecin
+515. Veste
+516. Salut
+517. Oui
+518. Donc
+519. Chambre
+520. Avril
+521. Panier
+522. Architecte
+523. Ovale
+524. Gomme
+525. Dépression
+526. Religion
+527. Soupe
+528. Aller
+529. souffler
+530. Bague
+531. Jus
+532. Pharmacien
+533. Table
+534. Une personne
+535. Technologie
+536. Estomac
+537. Chapeau
+538. Ou
+539. Heure
+540. Sucre
+541. Bibliothèque
+542. loin de
+543. Intérieur
+544. Camping
+545. Chez
+546. Argent
+547. Presque
+548. Guide
+549. A côté de
+550. mal
+551. Personne
+552. Quatre-vingt-dix
+553. Quoi
+554. Puis
+555. Meilleurs
+556. Pomme
+557. Empathie
+558. Effacer
+559. Viande
+560. Désolé
+561. négatif
+562. Être
+563. Valise
+564. Jaune
+565. Comment vous appelez-vous ?
+566. Bleu
+567. Oncle
+568. Laboratoire
+569. Bonne chance
+570. Poisson
+571. Règle
+572. Équinoxe
+573. Je ne comprends pas
+574. Doigt
+575. touristique
+576. Vers
+577. Papillon
+578. Abeille
+579. Société
+580. Gel
+581. Quelque chose
+582. Riz
+583. Tourisme
+584. Bienvenue
+585. Indifférence
+586. Quand
+587. Neveu
+588. Ami
+589. À bientôt
+590. Manteau
+591. Comment
+592. Serpent
+593. Réparer
+594. Deuxième
+595. Minuit
+596. Cuisinier
+597. Mémoriser
+598. Muséologie
+599. Rire
+600. Peu
+601. Essence
+602. Quai
+603. Rectangle
+604. Education
+605. Employé
+606. Aucun
+607. Rouge
+608. Banque
+609. Bien sûr
+610. Cochon
+611. Geler
+612. Plus
+613. Dépense
+614. Derrière
+615. Lunettes
+616. Bonne journée
+617. Père
+618. Peau
+619. D'accord
+620. Quelque part
+621. Réviser (leçon) / revoir
+622. De rien
+623. Monument
+624. Poisson
+625. La douche
+626. Quart
+627. Amour
+628. Grotte
+629. Fleuve
+630. Collier
+631. Lire
+632. Grenouille
+633. Se raser
+634. Randonnée
+635. Et
+636. Insecte
+637. Amitié
+638. sûr
+639. Ouvrier
+640. Méfiance
+641. Canard
+642. Mécanicien
+643. Mère
+644. Cartable
+645. Se laver
+646. Livre
+647. Confiance
+648. Devant
+649. Se promener
+650. Nettoyer
+651. Populaire
+652. Juillet
+653. Traverser
+654. Plaisir
+655. Physique
+656. Espoir
+657. Quelque
+658. Brouillard
+659. Pharmacie
+660. Comment ça va ?
+661. École primaire
+662. Aujourd'hui
+663. Pied
+664. Durant
+665. Lapin
+666. Froid(e)
+667. Dent
+668. mythique
+669. Au revoir
+670. Construction
+671. Vendre
+672. Passion
+673. Anxiété
+674. Six
+675. Vert
+676. Soulagement
+677. Taxi
+678. Foudroyer
+679. Chien
+680. Se lever
+681. Beurre
+682. Apprendre
+683. Personne
+684. Épargne
+685. Pluie
+686. Serpent
+687. Etudiant
+688. faux / fausse
+689. Réservation
+690. phrase
+691. Edifice
+692. Train
+693. Anxiété
+694. Colère
+695. Dix
+696. Enchanté
+697. Bon courage
+698. Soleil
+699. Boutique
+700. Mer
+701. Vélo
+702. C'est dommage
+703. Hostilité
+704. Bâtiment
+705. Ceinture
+706. Canapé
+707. Entre
+708. Poule
+709. Pardon
+710. Fierté
+711. Merci
+712. Peut-être
+713. Bureau
+714. Quiconque
+715. Octobre
+716. Cheval
+717. Œuf
+718. Chemin
+719. Activité
+720. Dès
+721. Pompier
+722. Écrire
+723. rare
+724. Je comprends
+725. Déluge
+726. Parfois
+727. Sandale
+728. Armoire
+729. Rivière
+730. Crédit
+731. Douleur
+732. Année
+733. Apprentissage
+734. Crayon
+735. L(a)quel(le)
+736. Jusqu'à
+737. Passer
+738. Tempête
+739. Permission
+740. Minute
+741. Soixante
+742. Culture
+743. Chaise
+744. Carte bancaire
+745. C'est faux
+746. Coopération
+747. Voiture
+748. Légume
+749. Non
+750. Epaule
+751. Qui (en mode "qui est t'il ?")
+752. Main
+753. Voisin
+754. En avoir assez
+755. Jalousie
+756. Chaussure
+757. Si joli
+758. Donner
+759. J'espère
+760. Affection
+761. Vingtième
+762. Nuageux
+763. Boulanger
+764. Auberge
+765. miel
+766. vérité
+767. Sable
+768. Anthropologie
+769. Admiration
+770. Patron
+771. Bateau
+772. Neuf
+773. Cuisiner
+774. Nez
+775. Où
+776. Août
+777. Trois
+778. Demain
+779. Bras
+780. S'ennuyer
+781. Solstice

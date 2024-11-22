@@ -8,6 +8,7 @@
 * [1000 mots courants / thème](./mots_courants_theme.md)
 * [Mots restants à apprendre](./mots_restants.md)
 * [Liste de tous les mots appris](./mots_appris.md)
+* [Mots courants randoms](./mots_courants_random/menu.md)
 
 ---
 

@@ -1,155 +1,243 @@
-1. Armoire
-2. Miroir
-3. Humidité
-4. Pluie
-5. Appartement
-6. Bureau
-7. Neige
-8. Serpent
-9. Mouton
-10. rat
-11. Lapin
-12. Chambre
-13. Neiger
-14. Chaud
-15. Oiseau
-16. fois
-17. Nuage
-18. Se reposer
-19. Poisson
-20. Cuisiner
-21. Plusieurs
-22. Grenouille
-23. Sécheresse
-24. Avalanche
-25. Orage
-26. Tigre
-27. Arc-en-ciel
+1. Toujours
+2. Ingénieur
+3. Bague
+4. Vent
+5. Troixième
+6. Dix
+7. Écouter
+8. Eclairer
+9. Tout
+10. Six
+11. Canapé
+12. Cave
+13. Cinq
+14. Soleil
+15. Trop
+16. rare
+17. Quarante
+18. Ceinture
+19. Collier
+20. Tout le monde
+21. Quart
+22. Moitié
+23. Prendre une douche
+24. Enseignant
+25. Chaque
+26. Deux
+27. Quatre
 28. Tempête
-29. Singe
-30. souffler
-31. Cochon
-32. Tiroir
-33. Se maquiller
-34. Déluge
-35. Travailler
-36. frelon
-37. Une personne
-38. Chaleur
-39. Quelque chose
-40. Personne
-41. S'asseoir
-42. Aucun
-43. Vache
-44. frais / fraîche
-45. Prendre une douche
-46. Réparer
-47. Foudre
-48. Tout le monde
-49. Acheter
-50. Quelques
-51. Foudroyer
-52. Canicule
-53. Serpent
-54. Geler
-55. Peu
-56. Chèvre
-57. Écouter
-58. Se coiffer
-59. Canapé
-60. Chien
-61. Nuageux
-62. Personne
-63. Conduire
-64. Soleil
-65. La douche
-66. Salle de bain
-67. Tortue
-68. Assez
-69. Toilette
-70. tonner
-71. Jamais
-72. Solstice
-73. Chat
-74. Il faut chaud
-75. Garage
-76. Cuisine
-77. Froid(e)
-78. Bureau
-79. Eclairer
-80. tonnerre
-81. Froideur
-82. Escalier
-83. Abeille
-84. Porte
-85. Sec
-86. Climat
-87. Grenier
-88. miel
-89. Lire
-90. Courir
-91. Souvent
-92. nid
-93. Toujours
-94. Maison
-95. Se promener
-96. Tous les jours
-97. Étagère
-98. Éclair
-99. Équinoxe
-100. Chaise
-101. Écrire
-102. Parler
-103. perdrix
-104. Lit
-105. ruche
-106. Éléphant
-107. Presque
-108. Rien
-109. En avoir assez
-110. Cheval
-111. Nettoyer
-112. Brume
-113. Table
-114. Pleuvoir
-115. Cave
-116. Poule
-117. Canard
-118. Salon
-119. Fréquence
-120. Se raser
-121. Lion
-122. Grêle(r)
-123. Fréquemment
-124. Brouillard
-125. rare
-126. Mur
-127. Se laver
-128. Plafond
-129. Tout
-130. Rarement
-131. guèpe
-132. Parfois
-133. Chaque
-134. Mouillé
-135. Vendre
-136. Manger
-137. Saisons
-138. Vent
-139. Fraîcheur
-140. Gel
-141. Sanglier
-142. Jardin
-143. Papillon
-144. Beaucoup
-145. Fenêtre
-146. Dormir
-147. Regarder
-148. Marcher
-149. Trop
-150. Se lever
-151. laisser
-152. Tous les soirs
-153. Souris
-154. coq
-155. Insecte
+29. Miroir
+30. Chaleur
+31. Trois
+32. Quatrième
+33. Foudre
+34. Pire
+35. Pompier
+36. Une personne
+37. Foudroyer
+38. Rarement
+39. Poisson
+40. ruche
+41. Mouillé
+42. Assez
+43. frelon
+44. Table
+45. Lit
+46. Manteau
+47. Vendeur
+48. Secrétaire
+49. Serpent
+50. Moins
+51. Garage
+52. Deuxième
+53. Plus
+54. tonnerre
+55. Cinquante
+56. Nuage
+57. Salon
+58. Lion
+59. Se raser
+60. Tous les jours
+61. Employé
+62. Pharmacien
+63. Trente
+64. Acheter
+65. coq
+66. Plusieurs
+67. Neuf
+68. Un
+69. Bracelet
+70. Conduire
+71. Souvent
+72. Fréquemment
+73. Ensemble
+74. Montre
+75. Toilette
+76. Chaise
+77. Cochon
+78. Sac à dos
+79. Geler
+80. Marcher
+81. Chemise
+82. Neiger
+83. Nuageux
+84. Écrire
+85. Courir
+86. Fenêtre
+87. Lire
+88. Jardin
+89. Se promener
+90. Chien
+91. Seul
+92. Sec
+93. Peu
+94. Chèvre
+95. Dormir
+96. Serveur
+97. Sécheresse
+98. Lunettes
+99. Presque
+100. Se laver
+101. Mille
+102. nid
+103. Serpent
+104. Infirmier
+105. Pantalon
+106. Sac
+107. Veste
+108. Personne
+109. Mouton
+110. Chaussure
+111. Tigre
+112. En avoir assez
+113. Éléphant
+114. Plombier
+115. Horloge
+116. Solstice
+117. Sandale
+118. Écharpe
+119. Tiroir
+120. Cuisinier
+121. Cuir
+122. Panier
+123. Jamais
+124. Lapin
+125. Neige
+126. Gendarme
+127. Singe
+128. Se reposer
+129. tonner
+130. quatre-vingts
+131. Travail
+132. Cuisiner
+133. Saisons
+134. Vache
+135. Climat
+136. Agriculteur
+137. Abeille
+138. Souris
+139. Architecte
+140. Boucher
+141. Médecin
+142. Brume
+143. Grêle(r)
+144. Froid(e)
+145. Se maquiller
+146. Papillon
+147. Parfois
+148. Équinoxe
+149. La douche
+150. fois
+151. Canicule
+152. Jupe
+153. Poule
+154. Ouvrier
+155. Chat
+156. Avocat
+157. Maison
+158. Une dernière fois
+159. Regarder
+160. Pleuvoir
+161. Vingt
+162. Chapeau
+163. Brouillard
+164. Froideur
+165. Bureau
+166. Porte
+167. Vendre
+168. Cuisine
+169. Huit
+170. Arc-en-ciel
+171. Bureau
+172. Policier
+173. Soixante-dix
+174. Soixante
+175. Quelques
+176. laisser
+177. Vingtième
+178. Robe
+179. Salle de bain
+180. Peintre
+181. Tortue
+182. Oiseau
+183. Plafond
+184. perdrix
+185. Grenouille
+186. Tous les soirs
+187. Manger
+188. souffler
+189. Armoire
+190. Nettoyer
+191. Parler
+192. Mur
+193. Gel
+194. Orage
+195. Caissier
+196. Se coiffer
+197. Beaucoup
+198. A moitié
+199. Personne
+200. Coiffeur
+201. Éclair
+202. Cent
+203. Il faut chaud
+204. Chaussette
+205. Sept
+206. Grenier
+207. Premier
+208. Étagère
+209. guèpe
+210. rat
+211. S'asseoir
+212. Gant
+213. Canard
+214. Meilleurs
+215. Chambre
+216. miel
+217. Boulanger
+218. Pluie
+219. Réparer
+220. Se lever
+221. Plusieurs
+222. Parapluie
+223. Travailler
+224. Appartement
+225. Fraîcheur
+226. Mieux
+227. Sanglier
+228. Avalanche
+229. Quatre-vingt-dix
+230. Escalier
+231. Quelque chose
+232. Humidité
+233. Déluge
+234. Chaud
+235. Électricien
+236. Fréquence
+237. Laine
+238. Aucun
+239. Insecte
+240. frais / fraîche
+241. Mécanicien
+242. Cheval
+243. Rien
