@@ -1,87 +1,174 @@
-1. Certains ----> **Unes ; Unas**
-2. Des ----> **de**
-3. Un ; une ----> **un ; una**
-4. de ; du ----> **de** | "Portatz-me de pan, d'aiga"
-5. autant ----> **tan**
-6. Très ----> **fòrça**
-7. plus ----> **mai**
-8. mon / ma ----> **mon ; ma**
-9. ton / ta ----> **ton ; ta**
-10. son sa / sa ----> **son ; sa**
-11. notre ----> **nòstre ; nòstra**
-12. votre ----> **vòstre ; vòstra**
-13. leur ----> **lor**
-14. nos ----> **nòstres ; nòstras**
-15. vos ----> **vòstres ; vòstras**
-16. leurs ----> **lors**
-17. le mien ----> **lo meu**
-18. la mienne ----> **la meuna**
-19. le nôtre ----> **lo nòstre**
-20. la nôtre ----> **la nòstra**
-21. le tien ----> **lo teu**
-22. la tienne ----> **la teuna**
-23. le vôtre ----> **lo vòstre**
-24. la vôtre ----> **la vòstra**
-25. le sien ----> **lo seu**
-26. la sienne ----> **la seuna**
-27. le leur ----> **lo lor**
-28. la leur ----> **la lor**
-29. les miens ----> **los meus**
-30. les miennes ----> **las meunas**
-31. les tiens ----> **los teus**
-32. les tiennes ----> **la teunas**
-33. les nôtres m. ----> **los nòstres**
-34. les nôtres f. ----> **las nòstras**
-35. les vôtres m. ----> **los vòstres**
-36. les vôtres f. ----> **las vòstras**
-37. les leurs f. & m. ----> **las / las lors**
-38. celui-ci (proche) ----> **aqueste**
-39. celui-là (loin) ----> **aquel**
-40. celle-ci (proche) ----> **aquesta**
-41. celle-là (loin) ----> **aquela** 
-42. ceux-ci (proche) ----> **aquestes**
-43. ceux-là (loin) ----> **aqueles**
-44. celles-ci (proche) ----> **aquetas**
-45. celles-là (loin) ----> **aquelas**
-46. celui qui ----> **lo que**
-47. celle qui ----> **la que**
-48. que ----> **que**
-49. lequel ----> **qual**
-50. laquelle ----> **quala**
-51. lesquels ----> **quals**
-52. lesquelles ----> **qualas**
-53. dont ----> **dont**
-54. où ----> **ont**
-55. quoi ----> **que**
-56. du quel ; dont ----> **del qual**
-57. qui (personne) ----> **qual**
-58. quel ----> **quin**
-59. quelle ----> **quina**
-60. quelles ----> **quinas**
-61. quels ----> **quins**
-62. y ----> **i**
-63. en ----> **ne* ; n'**
-64. Moi, je chante une chanson.
-65. toi, tu parles occitan ?
-66. elle vient bientôt.
-67. Nous, nous étudions la langue
-68. vous, vous travaillez beaucoup
-69. eux, ils sont contents
-70. Tu me vois ?
-71. Je te rappelle demain.
-72. Je le / la vois.
-73. Ils nous appellent au téléphone.
-74. Je ne vous entends pas.
-75. Je les vois.
-76. Il me donne un livre.
-77. Je te dis un secret.
-78. Nous lui disons la vérité.
-79. Il nous écrit une lettre.
-80. Je vous donnerai le document.
-81. Nous leur répondons rapidement.
-82. Je me lève à sept heures.
-83. Tu te vois dans le miroir ?
-84. Ils se trouvent dans le jardin.
-85. nous nous préparons pour la fête.
-86. Vous vous souvenez de dela ?
-87. Ils se disent au revoir avant de partir.
+# Voca grammaire revidara
+
+[...retour en arriere](../grammaire.md)
+
+### **Déterminants et Articles**
+1. Certains ----> **Unes ; Unas**  
+2. Des ----> **De**  
+3. Un ; une ----> **Un ; Una**  
+4. De ; du ----> **De** | *"Portatz-me de pan, d'aiga."*
+
+---
+
+### **Adverbes d'intensité**
+5. Autant ----> **Tan**  
+6. Très ----> **Fòrça**  
+7. Plus ----> **Mai**
+
+---
+
+### **Pronoms et Déterminants Possessifs**
+8. Mon / Ma ----> **Mon ; Ma**  
+9. Ton / Ta ----> **Ton ; Ta**  
+10. Son / Sa ----> **Son ; Sa**  
+11. Notre ----> **Nòstre ; Nòstra**  
+12. Votre ----> **Vòstre ; Vòstra**  
+13. Leur ----> **Lor**  
+14. Nos ----> **Nòstres ; Nòstras**  
+15. Vos ----> **Vòstres ; Vòstras**  
+16. Leurs ----> **Lors**
+
+---
+
+### **Pronoms Possessifs Singuliers**
+17. Le mien ----> **Lo meu**  
+18. La mienne ----> **La meuna**  
+19. Le nôtre ----> **Lo nòstre**  
+20. La nôtre ----> **La nòstra**  
+21. Le tien ----> **Lo teu**  
+22. La tienne ----> **La teuna**  
+23. Le vôtre ----> **Lo vòstre**  
+24. La vôtre ----> **La vòstra**  
+25. Le sien ----> **Lo seu**  
+26. La sienne ----> **La seuna**  
+27. Le leur ----> **Lo lor**  
+28. La leur ----> **La lor**
+
+---
+
+### **Pronoms Possessifs Pluriels**
+29. Les miens ----> **Los meus**  
+30. Les miennes ----> **Las meunas**  
+31. Les tiens ----> **Los teus**  
+32. Les tiennes ----> **Las teunas**  
+33. Les nôtres (m.) ----> **Los nòstres**  
+34. Les nôtres (f.) ----> **Las nòstras**  
+35. Les vôtres (m.) ----> **Los vòstres**  
+36. Les vôtres (f.) ----> **Las vòstras**  
+37. Les leurs (m. & f.) ----> **Los / Las lors**
+
+---
+
+### **Pronoms Démonstratifs**
+38. Celui-ci (proche) ----> **Aqueste**  
+39. Celui-là (loin) ----> **Aquel**  
+40. Celle-ci (proche) ----> **Aquesta**  
+41. Celle-là (loin) ----> **Aquela**  
+42. Ceux-ci (proche) ----> **Aquestes**  
+43. Ceux-là (loin) ----> **Aquels**  
+44. Celles-ci (proche) ----> **Aquestas**  
+45. Celles-là (loin) ----> **Aquelas**
+
+---
+
+### **Pronoms Relatifs**
+46. Celui qui ----> **Lo que**  
+47. Celle qui ----> **La que**  
+48. Que ----> **Que**  
+49. Lequel ----> **Qual**  
+50. Laquelle ----> **Quala**  
+51. Lesquels ----> **Quals**  
+52. Lesquelles ----> **Qualas**
+
+---
+
+### **Pronoms et Adverbes Interrogatifs**
+53. Dont ----> **Dont**  
+54. Où ----> **Ont**  
+55. Quoi ----> **Que**  
+56. Duquel / Dont ----> **Del qual**  
+57. Qui (personne) ----> **Qual**  
+58. Quel ----> **Quin**  
+59. Quelle ----> **Quina**  
+60. Quelles ----> **Quinas**  
+61. Quels ----> **Quins**
+
+---
+
+### **Adverbes Pronominaux**
+62. Y ----> **I**  
+63. En ----> **Ne ; N'**
+
+---
+
+### **Exemples avec Pronoms Personnels**
+64. Moi, je chante une chanson. ----> **Ieu, canti una cançon.**  
+65. Toi, tu parles occitan ? ----> **Tu, parlas occitan ?**  
+66. Elle vient bientôt. ----> **Ela ven lèu.**  
+67. Nous, nous étudions la langue. ----> **Nosautres, estudièm la lenga.**  
+68. Vous, vous travaillez beaucoup. ----> **Vosautres, trabalhadètz fòrça.**  
+69. Eux, ils sont contents. ----> **Eles, son contents.**  
+70. Tu me vois ? ----> **Me veses ?**  
+71. Je te rappelle demain. ----> **Te cridi deman.**  
+72. Je le / la vois. ----> **Lo / La vesi.**  
+73. Ils nous appellent au téléphone. ----> **Nos cridan al telefòn.**  
+74. Je ne vous entends pas. ----> **Vos ausissi pas.**  
+75. Je les vois. ----> **Los / Las vesi.**  
+76. Il me donne un livre. ----> **Me balha un libre.**  
+77. Je te dis un secret. ----> **Te disi un secret.**  
+78. Nous lui disons la vérité. ----> **Li disèm la vertat.**  
+79. Il nous écrit une lettre. ----> **Nos escriu una letra.**  
+80. Je vous donnerai le document. ----> **Vos balharai lo document.**  
+81. Nous leur répondons rapidement. ----> **Lor respondèm lèu.**  
+82. Je me lève à sept heures. ----> **Me lèvi a sèt oras.**  
+83. Tu te vois dans le miroir ? ----> **Te veses dins lo miralh ?**  
+84. Ils se trouvent dans le jardin. ----> **Se tròban dins lo jardin.**  
+85. Nous nous préparons pour la fête. ----> **Nos preparèm per la fèsta.**  
+86. Vous vous souvenez de cela ? ----> **Vos sovenètz d’aquò ?**  
+87. Ils se disent au revoir avant de partir. ----> **Se dison adieu abans de partir.**
+
+---
+
+### **Expressions de Quantité et Négation**
+88. Tout ----> **Tot**  
+89. Tous ----> **Totes**  
+90. Toutes ----> **Totas**  
+91. Toute ----> **Tota**  
+92. Où ----> **Ont**  
+93. Quand ----> **Quora**  
+94. Comment ----> **Cossi**  
+95. Pourquoi ----> **Perqué**  
+96. Quelques ----> **Qualques**  
+97. Quelqu'un ----> **Qualqu’un(a)**  
+98. Quelques-uns ----> **Qualques-unes(as)**  
+99. Quelque chose ----> **Quicòm**  
+100. Certain ----> **Cèrt**  
+101. Certains ----> **Cèrts**  
+102. Certaine ----> **Cèrta**  
+103. Certaines ----> **Cèrtas**  
+104. Pas ----> **Pas**  
+105. Guère ----> **Gaire**  
+106. Rien ----> **Res**  
+107. Personne ----> **Degun(a)**  
+108. Jamais ----> **Jamai**  
+109. Pas encore ----> **Pas encara**  
+110. Aucun ----> **Cap**  
+111. Autant ----> **Aitant**  
+112. Tant ----> **Tant(s) ; Tanta(s)**  
+113. Davantage ----> **Mai**  
+114. Moins ----> **Mens**  
+115. Point / Pas du tout ----> **Ges**  
+116. Plus ----> **Plus**  
+117. Tel ----> **Tal**  
+118. Telle ----> **Tala**  
+119. Tels ----> **Tals**  
+120. Telles ----> **Talas**  
+121. Même(s) ----> **Meteis(ssa)(s)**  
+122. Autre(s) ----> **Autre(a)(s)**  
+123. Autre chose ----> **Quicòm mai**  
+124. Le reste ----> **Çò autre**  
+125. Personne d'autre ----> **Degun mai**  
+
+---
+
+[...retour en arriere](../grammaire.md)
