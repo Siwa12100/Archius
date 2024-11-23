@@ -9,6 +9,7 @@
 * [Mots restants à apprendre](./mots_restants.md)
 * [Liste de tous les mots appris](./mots_appris.md)
 * [Mots courants randoms](./mots_courants_random/menu.md)
+* [Grammaire](./grammaire.md)
 
 ---
 
