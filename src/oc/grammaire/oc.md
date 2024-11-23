@@ -6,7 +6,7 @@
 1. Certains ----> **Unes ; Unas**  
 2. Des ----> **De**  
 3. Un ; une ----> **Un ; Una**  
-4. De ; du ----> **De** | *"Portatz-me de pan, d'aiga."*
+4. De ; du ----> **De | "Portatz-me de pan, d'aiga."**
 
 ---
 
