@@ -1,8 +1,8 @@
-# Voca grammaire revidara
+# **Voca gramatica revidar**
 
-[...retour en arriere](../grammaire.md)
+[...retorn en arrièr](../grammaire.md)
 
-### **Déterminants et Articles**
+### **Determinants e articles**
 1. Certains ----> **Unes ; Unas**  
 2. Des ----> **De**  
 3. Un ; une ----> **Un ; Una**  
@@ -10,14 +10,14 @@
 
 ---
 
-### **Adverbes d'intensité**
+### **Adverbis d'intensitat**
 5. Autant ----> **Tan**  
 6. Très ----> **Fòrça**  
 7. Plus ----> **Mai**
 
 ---
 
-### **Pronoms et Déterminants Possessifs**
+### **Pronòms e determinants possessius**
 8. Mon / Ma ----> **Mon ; Ma**  
 9. Ton / Ta ----> **Ton ; Ta**  
 10. Son / Sa ----> **Son ; Sa**  
@@ -30,7 +30,7 @@
 
 ---
 
-### **Pronoms Possessifs Singuliers**
+### **Pronòms possessius singulars**
 17. Le mien ----> **Lo meu**  
 18. La mienne ----> **La meuna**  
 19. Le nôtre ----> **Lo nòstre**  
@@ -46,7 +46,7 @@
 
 ---
 
-### **Pronoms Possessifs Pluriels**
+### **Pronòms possessius plurals**
 29. Les miens ----> **Los meus**  
 30. Les miennes ----> **Las meunas**  
 31. Les tiens ----> **Los teus**  
@@ -59,7 +59,7 @@
 
 ---
 
-### **Pronoms Démonstratifs**
+### **Pronòms demostratius**
 38. Celui-ci (proche) ----> **Aqueste**  
 39. Celui-là (loin) ----> **Aquel**  
 40. Celle-ci (proche) ----> **Aquesta**  
@@ -71,7 +71,7 @@
 
 ---
 
-### **Pronoms Relatifs**
+### **Pronòms relatius**
 46. Celui qui ----> **Lo que**  
 47. Celle qui ----> **La que**  
 48. Que ----> **Que**  
@@ -82,7 +82,7 @@
 
 ---
 
-### **Pronoms et Adverbes Interrogatifs**
+### **Pronòms e adverbis interrogatius**
 53. Dont ----> **Dont**  
 54. Où ----> **Ont**  
 55. Quoi ----> **Que**  
@@ -95,13 +95,13 @@
 
 ---
 
-### **Adverbes Pronominaux**
+### **Adverbis pronominals**
 62. Y ----> **I**  
 63. En ----> **Ne ; N'**
 
 ---
 
-### **Exemples avec Pronoms Personnels**
+### **Exemples amb pronòms personals**
 64. Moi, je chante une chanson. ----> **Ieu, canti una cançon.**  
 65. Toi, tu parles occitan ? ----> **Tu, parlas occitan ?**  
 66. Elle vient bientôt. ----> **Ela ven lèu.**  
@@ -129,7 +129,7 @@
 
 ---
 
-### **Expressions de Quantité et Négation**
+### **Expressions de quantitat e negacion**
 88. Tout ----> **Tot**  
 89. Tous ----> **Totes**  
 90. Toutes ----> **Totas**  
@@ -171,4 +171,4 @@
 
 ---
 
-[...retour en arriere](../grammaire.md)
+[...retorn en arrièr](../grammaire.md)
