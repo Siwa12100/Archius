@@ -15,27 +15,27 @@
 
 ## 25. Voyages et tourisme
 
-:x: [Préparation et organisation](./fiches/fiches_3/25/1.md)
+:large_orange_diamond: [Préparation et organisation](./fiches/fiches_3/25/1.md)
 
-:x: [Destination et activités](./fiches/fiches_3/25/2.md)
+:large_orange_diamond: [Destination et activités](./fiches/fiches_3/25/2.md)
 
 ## 24. Education et apprentissage
 
-:x: [Etablissements et structures](./fiches/fiches_3/24/1.md)
+:large_orange_diamond: [Etablissements et structures](./fiches/fiches_3/24/1.md)
 
-:x: [Activités et outils](./fiches/fiches_3/24/2.md)
+:large_orange_diamond: [Activités et outils](./fiches/fiches_3/24/2.md)
 
 ## 23. Culture générale
 
-:large_orange_diamond: [Humanité et sciences sociales](./fiches/fiches_3/23/1.md)
+:white_check_mark: [Humanité et sciences sociales](./fiches/fiches_3/23/1.md)
 
-:large_orange_diamond: [Sciences et technologies](./fiches/fiches_3/23/2.md)
+:white_check_mark: [Sciences et technologies](./fiches/fiches_3/23/2.md)
 
 ## 22. Sentiments et relations humaines
 
-:large_orange_diamond: [Sentiments positifs](./fiches/fiches_3/22/1.md)
+:white_check_mark: [Sentiments positifs](./fiches/fiches_3/22/1.md)
 
-:large_orange_diamond: [Sentiments négatifs](./fiches/fiches_3/22/2.md)
+:white_check_mark: [Sentiments négatifs](./fiches/fiches_3/22/2.md)
 
 ## 21. Achats et vente
 
