@@ -47,7 +47,7 @@
 
 :white_check_mark:  [Professions et travaux](./fiches/fiches_2/20/1.md)
 
-:large_orange_diamond: [Autres métiers](./fiches/fiches_2/20/2.md)
+:white_check_mark: [Autres métiers](./fiches/fiches_2/20/2.md)
 
 ## 19. Nombres et quantités
 
@@ -69,7 +69,7 @@
 
 ## 16. Météo et saisons
 
-:large_orange_diamond: [conditions meteos](./fiches/fiches_2/16/1.md)
+:white_check_mark: [conditions meteos](./fiches/fiches_2/16/1.md)
 
 :white_check_mark: [phénomènes meteos](./fiches/fiches_2/16/2.md)
 
@@ -87,9 +87,9 @@
 
 ## 13. Mots de quantité
 
-:large_orange_diamond: [Quantités absolues](./fiches/fiches_2//13/1.md)
+:white_check_mark: [Quantités absolues](./fiches/fiches_2//13/1.md)
 
-:large_orange_diamond: [Expressions de fréquence](./fiches/fiches_2/13/2.md)
+:white_check_mark: [Expressions de fréquence](./fiches/fiches_2/13/2.md)
 
 ## 12. Prépositions courantes
 
