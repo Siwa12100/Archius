@@ -13,6 +13,18 @@
 
 ---
 
+## 27. Adjectifs courants
+
+:x: [Descriptions physiques](./fiches/fiches_3/27/1.md)
+
+:x: [Descriptions de caractère et de qualité](./fiches/fiches_3/27/2.md)
+
+## 26. Lieux et directions
+
+:x: [Lieux urbains](./fiches/fiches_3/26/1.md)
+
+:x: [Environnement naturel](./fiches/fiches_3/26/2.md)
+
 ## 25. Voyages et tourisme
 
 :large_orange_diamond: [Préparation et organisation](./fiches/fiches_3/25/1.md)

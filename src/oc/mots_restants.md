@@ -34,66 +34,7 @@
 23. Vidéo  
 24. Film
 
-## 21. **Lieux et directions**
-### 21.1. **Lieux urbains**
-0. Ville  
-1. Village  
-2. Rue  
-3. Route  
-4. Chemin  
-5. Carrefour  
-6. Centre-ville  
-7. Banlieue  
-8. Campagne  
-9. Parc  
-10. Monument  
-11. Église  
 
-### 21.2. **Environnement naturel**
-12. Montagne  
-13. Rivière  
-14. Lac  
-15. Mer  
-16. Plage  
-17. Forêt  
-18. Désert  
-19. Vallée  
-20. Colline  
-21. Grotte  
-22. Ciel  
-23. Étoile  
-24. Lune
-
-## 23. **Adjectifs courants**
-### 23.1. **Descriptions physiques**
-0. Grand  
-1. Petit  
-2. Nouveau  
-3. Vieux  
-4. Jeune  
-5. Beau  
-6. Laid  
-7. Fort  
-8. Faible  
-9. Léger  
-10. Lourd  
-11. Rapide  
-
-### 23.2. **Descriptions de caractère et de qualité**
-12. Bon  
-13. Mauvais  
-14. Facile  
-15. Difficile  
-16. Lent  
-17. Rapide
-18. Cher  
-19. Bon marché  
-20. Gentil  
-21. Méchant  
-22. Intelligent  
-23. Stupide  
-24. Sûr  
-25. Dangereux
 
 ## 28. **Mots liés à la maison et à la vie quotidienne**
 ### 28.1. **Objets domestiques**

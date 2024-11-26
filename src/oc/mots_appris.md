@@ -3,6 +3,190 @@
 [...retour en arriere](./menu_fiches.md)
 
 ---
+## 23. **Adjectifs courants**
+### 23.1. **Descriptions physiques**
+0. Grand  
+1. Courant
+2. Adjectif
+3. Description
+4. Physique
+5. Santé
+6. Taille
+7. Poids
+8. Masse 
+9. hauteur
+10. largeur
+11. profondeur
+12. Peser
+13. Mesurer
+14. Gros
+15. Maigre
+16. Fin
+17. Haut
+18. Bas
+19. Lourd
+20. Léger
+21. Epais
+22. Petit  
+23. Nouveau
+24. Ancien  
+25. Vieux
+26. Agé
+27. Age 
+28. Jeune  
+29. Beau  
+30. Laid  
+30. Fort  
+31. Faible 
+32. Puissant
+33. Courageux
+34. Lâche 
+35. Léger  
+36. Lourd  
+37. Rapide  
+38. Vite
+39. Vitesse
+    
+
+### 23.2. **Descriptions de caractère et de qualité**
+12. Bon  
+13. Bien
+14. Caractère
+15. Comportement
+16. Action
+17. Actionner
+18. Utiliser
+19. Qualité
+20. Valeur
+21. Intérressant
+22. Ennuyeux
+23. Formidable 
+24. Horrible
+25. Effrayant
+26. embêtant
+27. Mauvais  
+28. Facile  
+29. Difficile  
+30. Compliqué
+31. Complexe
+32. Simple
+33. Lent  
+34. Rapide
+35. Moyen
+36. Moyenne
+37. Moyennement
+38. Extrême 
+39. Extrêmement
+40. Infinie
+41. Infiniment
+41. Cher  
+42. Gratuit
+43. Rentable
+44. Gentil  
+45. Méchant  
+46. Intelligent  
+47. Malin
+48. Naif
+49. Stupide  
+50. Sûr  
+51. Dangereux
+52. Bizarre
+53. Curieux
+54. Genant
+    
+## 21. **Lieux et directions**
+### 21.1. **Lieux urbains**
+1. Ville  
+2. cité
+3. Lieu
+4. urbain
+5. direction
+6. Village  
+7. Hameau
+8. Avenue
+9. Boulevard
+10. Voie
+11. Mairie
+12. Maire
+13. Municipal
+14. Conseiller (v.)
+15. Conseiller (n.)
+16. Elu
+17. Président
+18. Ministre
+19. Adjoint
+20. Département 
+21. Région
+22. Territoire
+23. Carrefour  
+24. Centre-ville  
+25. Banlieue  
+26. Quartier
+27. Campagne  
+28. Nature
+29. Parc  
+30. Enclot
+31. Boite
+32. Monument  
+33. Église  
+34. Cathédrale
+35. Palais
+36. Château
+37. Manoir
+
+### 21.2. **Environnement naturel**
+ 
+1.  Forêt  
+2.  environnement
+3.  naturel
+4.  rive
+5.  Bois 
+6.  branche
+7.  feuille
+8.  bûche
+9.  tronc
+10. feuillage
+11. branchage
+12. Chêne
+13. Sapin
+14. Pin
+15. Bouleau
+16. Chataigner
+17. Noisetier
+18. Noisette
+19. Pommier
+20. Pomme 
+21. raisin
+22. Amandier 
+23. Amande
+24. Poirier
+25. Poire
+26. Prunier
+27. Prune
+28. Figuier
+29. Figue
+27. buis
+28. buisson
+29. ronce
+30. haie
+31. rosier
+32. Prairie
+33. Herbe
+34. Pelouse
+35. Végétation
+36. Près
+37. Col
+38. Ciel  
+39. Etang
+40. Étoile  
+41. Planète
+42. Lune
+43. Espace
+44. Observation
+45. Observer
+46. Surveiller
+
+
 ## 18. **Voyages et tourisme**
 ### 18.1. **Préparation et organisation**
 0. Voyage  
