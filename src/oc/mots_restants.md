@@ -4,6 +4,7 @@
 
 ---
 
+<<<<<<< HEAD
 ## 20. **Technologie et médias**
 ### 20.1. **Appareils et outils numériques**
 0. Ordinateur  
@@ -66,6 +67,8 @@
 23. Fourchette  
 24. Couteau
 
+=======
+>>>>>>> cf6db02 (taff oc)
 ## 29. **Mots liés à la nature et aux animaux**
 ### 29.1. **Éléments naturels**
 0. Arbre  

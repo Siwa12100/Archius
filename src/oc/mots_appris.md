@@ -3,6 +3,155 @@
 [...retour en arriere](./menu_fiches.md)
 
 ---
+
+## 20. **Technologie et médias**
+### 20.1. **Appareils et outils numériques**
+0. Ordinateur  
+1. Numérique
+2. Portable
+3. Technologie
+4. Médias
+5. Appareil
+6.  Téléphone  
+7.  Internet  
+8.  Connecter
+9.  Connexion
+10. Réseau
+11. relier 
+12. Lien
+13. Télévision  
+14. Radio
+16. Musique
+17. Chanson
+18. Son 
+19. Titre
+20. Paroles  
+21. Écran  
+22. Clavier
+23. Taper
+24. Frapper
+25. Tuer
+26. Mort
+28. Mourir  
+29. Cadavre
+30. Souris
+31. Fil
+32. Câble 
+34. Caméra  
+35. Vidéo  
+36. Photo
+37. Image
+33. Logiciel  
+
+### 20.2. **Médias et communication**
+12. Application  
+13. Développer
+14. Coder
+15. Concevoir
+16. Réfléchir
+17. Penser
+18. Email  
+19. Courrier
+20. Recevoir
+21. Réseau  
+22. Site web  
+23. Web 
+24. Programme
+25. Projet
+26. Langage
+27. Communiquer
+28. Echanger
+29. Fournir  
+31. Actualités
+29. Information
+30. Magazine  
+31. Blog  
+33. Conférence  
+34. Intervention
+35. Concert
+36. Spectable
+37. Discours
+38. Discussion  
+39. Film
+40. Court-métrage
+38. Numérique
+39. Chargeur
+40. Prise
+41. Brancher
+42. Alimenter
+
+<!-- ## 28. **Mots liés à la maison et à la vie quotidienne**
+### 28.1. **Objets domestiques**
+0. Clé  
+1. Objet
+2. Domestique
+3. Sauvage
+4. vie
+5. quotidien
+6. Portefeuille  
+7. Affaire
+8. Equipement
+9. Télécommande  
+10. Lampe 
+11. Sol
+12. Placard
+13. Tapis
+14. Produit
+15. Rideau 
+16. Volet
+17. Vitre
+18. Poignée 
+19. Tableau  
+20. Horloge  
+21. Réveil  
+22. Ordinateur portable  
+23. Téléphone portable  
+22. Aspirateur  
+23. Balai
+24. Brosse
+25. Laver
+26. Ranger
+27. Garer
+28. Lessive
+29. Savon
+30. Vaisselle
+31. Machine à laver  
+
+### 28.2. **Équipements ménagers**
+12. Réfrigérateur 
+13. Ménager 
+14. Four  
+15. Micro-ondes  
+16. Plaque de cuisson  
+17. Gaz
+18. Lave-vaisselle  
+19. Evier
+20. Robinet
+21. Eponge
+22. Torchon
+23. Tissu
+24. Séchoir
+25. Sécher
+26. Poêle  
+27. Casserole  
+28. Assiette
+29. Serviette
+29. Bougie
+30. Nappe
+31. Goûter
+32. Aimer
+33. Détester
+34. Bol
+35. Cocôtte
+36. Plat
+37. Repas 
+38. Dîner  
+39. Verre  
+40. Tasse  
+41. Cuillère  
+42. Fourchette  
+43. Couteau -->
+    
 ## 23. **Adjectifs courants**
 ### 23.1. **Descriptions physiques**
 0. Grand  
@@ -189,28 +338,28 @@
 
 ## 18. **Voyages et tourisme**
 ### 18.1. **Préparation et organisation**
-0. Voyage  
-1. Voyager 
-2. Découvrir
-3. Tourisme  
-4. Carte  
-5. Cartable
-6. Guide  
-7. Hôtel  
-8. Auberge 
-9. Campement
-10. Réservation  
-11. Bagage  
-12. Valise  
-13. Passeport 
-14. Passer
-15. Traverser 
-16. Autorisation
-17. Permission
-18. Douane  
-19. Billet
-20. preparation
-21. organisation
+1. Voyage  
+2. Voyager 
+3. Découvrir
+4. Tourisme  
+5. Carte  
+6. Cartable
+7. Guide  
+8. Hôtel  
+9. Auberge 
+10. Campement
+11. Réservation  
+12. Bagage  
+13. Valise  
+14. Passeport 
+15. Passer
+16. Traverser 
+17. Autorisation
+18. Permission
+19. Douane  
+20. Billet
+21. preparation
+22. organisation
 
 ### 18.2. **Destinations et activités**
 12. Trajet  
