@@ -2,7 +2,7 @@
 
 [...retour en arrière](../../README.md)
 
-:white_check_mark: :large_orange_diamond: :x:
+:white_check_mark:  :x:
 ---
 
 * [1000 mots courants / thème](./mots_courants_theme.md)
@@ -21,27 +21,27 @@
 
 ## 27. Adjectifs courants
 
-:x: [Descriptions physiques](./fiches/fiches_3/27/1.md)
+:large_orange_diamond: [Descriptions physiques](./fiches/fiches_3/27/1.md)
 
-:x: [Descriptions de caractère et de qualité](./fiches/fiches_3/27/2.md)
+:large_orange_diamond: [Descriptions de caractère et de qualité](./fiches/fiches_3/27/2.md)
 
 ## 26. Lieux et directions
 
-:x: [Lieux urbains](./fiches/fiches_3/26/1.md)
+:large_orange_diamond: [Lieux urbains](./fiches/fiches_3/26/1.md)
 
-:x: [Environnement naturel](./fiches/fiches_3/26/2.md)
+:large_orange_diamond: [Environnement naturel](./fiches/fiches_3/26/2.md)
 
 ## 25. Voyages et tourisme
 
-:large_orange_diamond: [Préparation et organisation](./fiches/fiches_3/25/1.md)
+:white_check_mark: [Préparation et organisation](./fiches/fiches_3/25/1.md)
 
-:large_orange_diamond: [Destination et activités](./fiches/fiches_3/25/2.md)
+:white_check_mark: [Destination et activités](./fiches/fiches_3/25/2.md)
 
 ## 24. Education et apprentissage
 
-:large_orange_diamond: [Etablissements et structures](./fiches/fiches_3/24/1.md)
+:white_check_mark: [Etablissements et structures](./fiches/fiches_3/24/1.md)
 
-:large_orange_diamond: [Activités et outils](./fiches/fiches_3/24/2.md)
+:white_check_mark: [Activités et outils](./fiches/fiches_3/24/2.md)
 
 ## 23. Culture générale
 
