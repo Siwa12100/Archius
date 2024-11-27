@@ -13,7 +13,12 @@
 
 ---
 
-<<<<<<< HEAD
+## 26. Technologie et médias
+
+:x: [Appareils et outils numériques](./fiches/fiches_4/26/1.md)
+
+:x: [Medias et communications](./fiches/fiches_4/26/2.md)
+
 ## 27. Adjectifs courants
 
 :x: [Descriptions physiques](./fiches/fiches_3/27/1.md)
@@ -25,13 +30,6 @@
 :x: [Lieux urbains](./fiches/fiches_3/26/1.md)
 
 :x: [Environnement naturel](./fiches/fiches_3/26/2.md)
-=======
-## 26. Technologie et médias
-
-:x: [Appareils et outils numériques](./fiches/fiches_4/26/1.md)
-
-:x: [Medias et communications](./fiches/fiches_4/26/2.md)
->>>>>>> cf6db02 (taff oc)
 
 ## 25. Voyages et tourisme
 
