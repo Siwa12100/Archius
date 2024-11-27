@@ -13,11 +13,11 @@
 
 ---
 
-## 26. Technologie et médias
+## 28. Technologie et médias
 
-:x: [Appareils et outils numériques](./fiches/fiches_4/26/1.md)
+:x: [Appareils et outils numériques](./fiches/fiches_4/28/1.md)
 
-:x: [Medias et communications](./fiches/fiches_4/26/2.md)
+:x: [Medias et communications](./fiches/fiches_4/28/2.md)
 
 ## 27. Adjectifs courants
 

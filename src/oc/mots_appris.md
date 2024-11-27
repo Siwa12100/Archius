@@ -46,8 +46,9 @@
 ### 20.2. **Médias et communication**
 12. Application  
 13. Développer
-14. Coder
-15. Concevoir
+14. Communication
+15. Coder
+16. Concevoir
 16. Réfléchir
 17. Penser
 18. Email  
@@ -62,22 +63,22 @@
 27. Communiquer
 28. Echanger
 29. Fournir  
-31. Actualités
-29. Information
+30. Actualités
+31. Information
 30. Magazine  
 31. Blog  
-33. Conférence  
-34. Intervention
-35. Concert
-36. Spectable
-37. Discours
+32. Conférence  
+33. Intervention
+34. Concert
+35. Spectable
+36. Discours
 38. Discussion  
 39. Film
 40. Court-métrage
-38. Numérique
-39. Chargeur
-40. Prise
-41. Brancher
+41. Numérique
+42. Chargeur
+43. Prise
+44. Brancher
 42. Alimenter
 
 <!-- ## 28. **Mots liés à la maison et à la vie quotidienne**
