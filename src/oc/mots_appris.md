@@ -163,38 +163,39 @@
 35. Peinture
 35. Lave-vaisselle  
 36. Evier
-36. Robinet
-37. Tuyau
-38. Bout
-39. Bord
-40. Eponge
-41. Torchon
+37. Lavabo
+38. Robinet
+39. Tuyau
+40. Bout
+41. Bord
+42. Eponge
+43. Torchon
 42. Tissu
 43. Séchoir
 44. Sécher
-44. Poêle  (cuisine)
-45. Poêle (chauffage)
-46. Plat (cuisine)
-47. Casserole  
-48. Assiette
-49. Serviette
-49. Bougie
-50. Nappe
-51. Tapis 
-52. Goûter
-53. Aimer
-54. Détester
-55. plaire
-56. adorer
-57. Bol
+45. Poêle  (cuisine)
+46. Poêle (chauffage)
+47. Plat (cuisine)
+48. Casserole  
+49. Assiette
+50. Serviette
+51. Bougie
+52. Nappe
+53. Tapis 
+54. Goûter
+55. Aimer
+56. Détester
+57. plaire
+58. adorer
+59. Bol
 58. Cocôtte
-60. Repas 
-61. Dîner  
-62. Verre  
-63. Coupe
-64. Tasse  
-62. Cuillère  
-63. Fourchette  
+59. Repas 
+60. Dîner  
+61. Verre  
+62. Coupe
+63. Tasse  
+64. Cuillère  
+65. Fourchette  
 64. Couteau
 65. Eplucher
 66. Spatule
