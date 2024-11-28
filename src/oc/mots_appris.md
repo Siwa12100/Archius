@@ -116,21 +116,24 @@
 29. Vitre
 30. Poignée 
 31. Tableau  
-32. Horloge  
+32. Pendule 
 33. Réveil  
-34. Se réveiller
-35. S'endormir
-36. Rêver
-34. Aspirateur  
-35. Balai
+34. Réveillon
+35. Se réveiller
+36. S'endormir
+37. Rêver
+38. Aspirateur  
+39. Balai
 36. Brosse
 37. Laver
 38. Ranger
 39. Garer
 40. Lessive
 41. Savon
-42. Vaisselle
-43. Machine à laver  
+42. Liquide
+43. Solide
+44. Vaisselle
+45. Machine
 
 ### 28.2. **Équipements ménagers**
 12. Réfrigérateur 
