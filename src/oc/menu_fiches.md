@@ -21,7 +21,7 @@
 
 ## 28. Technologie et médias
 
-:x: [Appareils et outils numériques](./fiches/fiches_4/28/1.md)
+:large_orange_diamond: [Appareils et outils numériques](./fiches/fiches_4/28/1.md)
 
 :x: [Medias et communications](./fiches/fiches_4/28/2.md)
 
