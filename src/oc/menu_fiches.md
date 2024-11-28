@@ -13,6 +13,12 @@
 
 ---
 
+## 29. Mots liés à la maison et à la vie quotidienne
+
+:x: [Objets domestiques](./fiches/fiches_4/29/1.md)
+
+:x: [Équipements ménagers](./fiches/fiches_4/29/2.md)
+
 ## 28. Technologie et médias
 
 :x: [Appareils et outils numériques](./fiches/fiches_4/28/1.md)

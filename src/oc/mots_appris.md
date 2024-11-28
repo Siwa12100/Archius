@@ -81,7 +81,7 @@
 44. Brancher
 42. Alimenter
 
-<!-- ## 28. **Mots liés à la maison et à la vie quotidienne**
+## 28. **Mots liés à la maison et à la vie quotidienne**
 ### 28.1. **Objets domestiques**
 0. Clé  
 1. Objet
@@ -89,34 +89,47 @@
 3. Sauvage
 4. vie
 5. quotidien
-6. Portefeuille  
-7. Affaire
-8. Equipement
-9. Télécommande  
-10. Lampe 
-11. Sol
-12. Placard
-13. Tapis
-14. Produit
-15. Rideau 
-16. Volet
-17. Vitre
-18. Poignée 
-19. Tableau  
-20. Horloge  
-21. Réveil  
-22. Ordinateur portable  
-23. Téléphone portable  
-22. Aspirateur  
-23. Balai
-24. Brosse
-25. Laver
-26. Ranger
-27. Garer
-28. Lessive
-29. Savon
-30. Vaisselle
-31. Machine à laver  
+6. régulier 
+7. Portefeuille  
+8. Affaire
+9. Equipement
+10. Télécommande  
+11. Lampe 
+12. Sol
+13. Trousse
+14. Sacoche
+15. Poteau
+16. Pilier
+17. Placard
+18. Tapis
+19. Bouteille
+20. Gourde
+21. Bouchon
+22. Entonoir
+22. Flacon
+23. Fiole
+24. Récipient
+25. Ustencile
+26. Produit
+27. Rideau 
+28. Volet
+29. Vitre
+30. Poignée 
+31. Tableau  
+32. Horloge  
+33. Réveil  
+34. Ordinateur portable  
+35. Téléphone portable  
+36. Aspirateur  
+37. Balai
+38. Brosse
+39. Laver
+40. Ranger
+41. Garer
+42. Lessive
+43. Savon
+44. Vaisselle
+45. Machine à laver  
 
 ### 28.2. **Équipements ménagers**
 12. Réfrigérateur 
@@ -125,33 +138,45 @@
 15. Micro-ondes  
 16. Plaque de cuisson  
 17. Gaz
-18. Lave-vaisselle  
-19. Evier
-20. Robinet
-21. Eponge
-22. Torchon
-23. Tissu
-24. Séchoir
-25. Sécher
-26. Poêle  
-27. Casserole  
-28. Assiette
-29. Serviette
-29. Bougie
-30. Nappe
-31. Goûter
-32. Aimer
-33. Détester
-34. Bol
-35. Cocôtte
-36. Plat
-37. Repas 
-38. Dîner  
-39. Verre  
-40. Tasse  
-41. Cuillère  
-42. Fourchette  
-43. Couteau -->
+18. Pétrole
+19. Electricité
+20. Ampoule
+21. Eclairage
+22. Lampe
+23. Imprimante
+24. Scanner
+25. Peinture
+26. Lave-vaisselle  
+26. Evier
+27. Robinet
+28. Eponge
+29. Torchon
+30. Tissu
+31. Séchoir
+32. Sécher
+33. Poêle  
+34. Casserole  
+35. Assiette
+36. Serviette
+37. Bougie
+38. Nappe
+39. Goûter
+40. Aimer
+41. Détester
+42. Bol
+43. Cocôtte
+44. Plat
+45. Repas 
+46. Dîner  
+47. Verre  
+48. Tasse  
+49. Cuillère  
+50. Fourchette  
+51. Couteau
+52. Eplucheur
+53. Spatule
+54. Racloir
+55. Racler
     
 ## 23. **Adjectifs courants**
 ### 23.1. **Descriptions physiques**
