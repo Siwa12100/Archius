@@ -2,6 +2,7 @@
 
 [...Retour menu oc](../menu_fiches.md)
 
+[Mots appris](./mots_appris.md)
 
 ---
 
