@@ -4,6 +4,53 @@
 
 ---
 
+## Partie 2
+
+1. Soir
+2. Réunir
+3. Assembler
+4. Rassembler
+5. Retrouver
+6. Quel que soit
+7. Présent
+8. Passé
+9. Futur
+10. Avenir
+11. Reparler
+12. folie
+13. fou 
+14. vagabonder
+15. deviner
+16. mystère
+17. secret
+18. prévoir 
+19. prédire
+20. erreur
+21. tromper
+22. Planifier
+22. façon
+23. poésie
+24. méditérannée
+25. tendresse
+26. rude
+27. hostile
+28. guitare
+27. enfermé
+28. destin
+29. destinée
+30. séparer
+31. sauver
+32. aider
+33. soutenir
+34. soutient
+33. support
+34. base
+35. Attaquer
+36. défendre
+37. protéger
+38. Annoncer 
+39. Informer
+
 ## Partie 1
 
 1. Capable
