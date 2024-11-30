@@ -14,11 +14,12 @@
 6. Quel que soit
 7. Présent
 8. Passé
-9. Futur
-10. Avenir
-11. Reparler
-12. folie
-13. fou 
+9. Jeunnesse
+10. Futur
+11. Avenir
+12. Reparler
+13. folie
+14. fou 
 14. vagabonder
 15. deviner
 16. mystère
@@ -28,7 +29,7 @@
 20. erreur
 21. tromper
 22. Planifier
-22. façon
+23. façon
 23. poésie
 24. méditérannée
 25. tendresse
@@ -40,15 +41,16 @@
 29. destinée
 30. séparer
 31. sauver
-32. aider
-33. soutenir
-34. soutient
-33. support
-34. base
-35. Attaquer
-36. défendre
-37. protéger
-38. Annoncer 
+32. ennemi
+33. aider
+34. soutenir
+35. soutient
+35. support
+36. base
+37. Attaquer
+38. défendre
+39. protéger
+40. Annoncer 
 39. Informer
 
 ## Partie 1
