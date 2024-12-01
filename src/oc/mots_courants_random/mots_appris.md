@@ -4,6 +4,92 @@
 
 ---
 
+## Partie 3
+
+1. encore
+2. suite
+3. suivre
+4. grosso modo
+5. chantier
+6. multicolore
+7. fade
+7. terne
+8. au fond
+9. salir
+9. vue
+10. plainte
+11. nombreux
+12. trouble
+13. normal
+14. langue
+15. éteindre
+16. arranger
+17. empirer
+18. empire
+19. dégrader
+20. améliorer
+21. régresser
+22. reculer
+23. diminuer
+24. augmenter
+25. approcher
+26. éloigner
+27. gens
+28. sentir
+29. viser
+30. lettres
+31. charabia
+32. décider 
+33. face
+34. conspiration
+35. théorie
+36. complot 
+37. plan
+38. idée
+39. génocide
+40. massacre
+41. servir
+42. repaires
+43. maquis
+44. jeter
+45. par terre
+46. tranquille
+47. survivre
+48. carnage
+49. dégat
+50. infliger
+51. rabâcher
+52. voix
+53. chaîne
+54. info
+55. amoureux
+56. folklore
+57. perdre
+58. perdu
+59. ronde
+60. vigiles 
+61. garde
+62. murmure
+63. chuchotter
+64. doucement
+65. fragile
+66. robuste
+67. refrain
+68. vibrer
+69. pierre 
+70. roche
+71. chaque
+72. reproche
+73. lointain
+74. proche
+75. Tenace
+76. motivé
+77. lierre
+78. Trimbaler
+79. transporter
+80. allumer 
+81. imposer
+
 ## Partie 2
 
 1. Soir
