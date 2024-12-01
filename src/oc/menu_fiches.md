@@ -13,31 +13,35 @@
 
 ---
 
+## 30.Jardin et travaux
 
+:x: [Outils de travaux](./fiches/fiches_4/30/1.md)
+
+:x: [Outils de jardin](./fiches/fiches_4/30/2.md)
 
 ## 29. Mots liés à la maison et à la vie quotidienne
 
-:x: [Objets domestiques](./fiches/fiches_4/29/1.md)
+:white_check_mark: [Objets domestiques](./fiches/fiches_4/29/1.md)
 
-:x: [Équipements ménagers](./fiches/fiches_4/29/2.md)
+:white_check_mark: [Équipements ménagers](./fiches/fiches_4/29/2.md)
 
 ## 28. Technologie et médias
 
-:large_orange_diamond: [Appareils et outils numériques](./fiches/fiches_4/28/1.md)
+:white_check_mark: [Appareils et outils numériques](./fiches/fiches_4/28/1.md)
 
-:large_orange_diamond: [Medias et communications](./fiches/fiches_4/28/2.md)
+:white_check_mark: [Medias et communications](./fiches/fiches_4/28/2.md)
 
 ## 27. Adjectifs courants
 
-:large_orange_diamond: [Descriptions physiques](./fiches/fiches_3/27/1.md)
+:white_check_mark: [Descriptions physiques](./fiches/fiches_3/27/1.md)
 
-:large_orange_diamond: [Descriptions de caractère et de qualité](./fiches/fiches_3/27/2.md)
+:white_check_mark: [Descriptions de caractère et de qualité](./fiches/fiches_3/27/2.md)
 
 ## 26. Lieux et directions
 
-:large_orange_diamond: [Lieux urbains](./fiches/fiches_3/26/1.md)
+:white_check_mark: [Lieux urbains](./fiches/fiches_3/26/1.md)
 
-:large_orange_diamond: [Environnement naturel](./fiches/fiches_3/26/2.md)
+:white_check_mark: [Environnement naturel](./fiches/fiches_3/26/2.md)
 
 ## 25. Voyages et tourisme
 

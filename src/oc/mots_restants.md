@@ -4,71 +4,6 @@
 
 ---
 
-<<<<<<< HEAD
-## 20. **Technologie et médias**
-### 20.1. **Appareils et outils numériques**
-0. Ordinateur  
-1. Téléphone  
-2. Internet  
-3. Télévision  
-4. Radio  
-5. Écran  
-6. Clavier  
-7. Souris  
-8. Appareil photo  
-9. Caméra  
-10. Vidéo  
-11. Logiciel  
-
-### 20.2. **Médias et communication**
-12. Application  
-13. Email  
-14. Réseau  
-15. Site web  
-16. Programme  
-17. Journal  
-18. Magazine  
-19. Blog  
-20. Réseau social  
-21. Conférence  
-22. Discussion  
-23. Vidéo  
-24. Film
-
-
-
-## 28. **Mots liés à la maison et à la vie quotidienne**
-### 28.1. **Objets domestiques**
-0. Clé  
-1. Portefeuille  
-2. Télécommande  
-3. Lampe  
-4. Rideau  
-5. Tableau  
-6. Horloge  
-7. Réveil  
-8. Ordinateur portable  
-9. Téléphone portable  
-10. Aspirateur  
-11. Machine à laver  
-
-### 28.2. **Équipements ménagers**
-12. Réfrigérateur  
-13. Four  
-14. Micro-ondes  
-15. Plaque de cuisson  
-16. Lave-vaisselle  
-17. Poêle  
-18. Casserole  
-19. Assiette  
-20. Verre  
-21. Tasse  
-22. Cuillère  
-23. Fourchette  
-24. Couteau
-
-=======
->>>>>>> cf6db02 (taff oc)
 ## 29. **Mots liés à la nature et aux animaux**
 ### 29.1. **Éléments naturels**
 0. Arbre  
@@ -102,21 +37,10 @@
 ## 30. **Mots liés aux bâtiments et infrastructures**
 ### 30.1. **Types de bâtiments**
 0. Immeuble  
-1. Bureau  
 2. Usine  
-3. Hôpital  
-4. École  
-5. Université  
-6. Bibliothèque  
-7. Banque  
-8. Magasin  
-9. Supermarché  
-10. Hôtel  
 11. Restaurant  
 
 ### 30.2. **Infrastructures publiques**
-12. Église  
-13. Cathédrale  
 14. Mosquée  
 15. Synagogue  
 16. Temple  
@@ -125,67 +49,23 @@
 19. Cinéma  
 20. Stade  
 21. Piscine  
-22. Parc  
-23. Monument  
-24. Gare
 
-## 31. **Mots liés aux achats et à l'argent**
-### 31.1. **Éléments financiers**
-0. Monnaie  
-1. Billet  
-2. Carte  
-3. Crédit  
-4. Débit  
-5. Facture  
-6. Reçu  
-7. Ticket  
-8. Prix  
-9. Promotion  
-10. Rabais  
-11. Remise  
-
-### 31.2. **Opérations financières**
-12. Économie  
-13. Dépense  
-14. Budget  
-15. Salaire  
-16. Revenu  
-17. Dépôt  
-18. Prêt  
-19. Remboursement  
-20. Investissement  
-21. Intérêt  
-22. Assurance  
-23. Impôt  
-24. Transaction
 
 ## 32. **Mots liés à la communication**
 ### 32.1. **Moyens de communication**
-0. Téléphone  
 1. Appel  
 2. Message  
 3. SMS  
-4. Email  
 5. Lettre  
 6. Adresse  
-7. Internet  
-8. Réseau  
-9. Média  
-10. Journal  
-11. Magazine  
 
 ### 32.2. **Contenus médiatiques**
 12. Publicité  
 13. Article  
-14. Blog  
 15. Forum  
-16. Réseau social  
-17. Vidéo  
-18. Conférence  
 19. Discussion  
 20. Débat  
 21. Communiqué  
-22. Information  
 23. Émission  
 24. Bulletin
 
@@ -221,11 +101,8 @@
 
 ## 34. **Mots liés à la santé et au bien-être**
 ### 34.1. **Soins médicaux**
-0. Médecin  
 1. Infirmier  
-2. Hôpital  
 3. Clinique  
-4. Pharmacie  
 5. Médicament  
 6. Pilule  
 7. Vitamine  
@@ -235,7 +112,6 @@
 11. Consultation  
 
 ### 34.2. **Urgences et interventions**
-12. Examen  
 13. Analyse  
 14. Chirurgie  
 15. Opération  
