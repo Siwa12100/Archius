@@ -4,20 +4,6 @@
 
 ---
 
-## 29. **Mots liés à la nature et aux animaux**
-### 29.1. **Éléments naturels**
-0. Arbre  
-1. Fleur  
-2. Plante  
-3. Herbe  
-4. Feuille  
-5. Racine  
-6. Branche  
-7. Forêt  
-8. Désert  
-9. Montagne  
-10. Colline  
-11. Rivière  
 
 ### 29.2. **Phénomènes naturels**
 12. Lac  

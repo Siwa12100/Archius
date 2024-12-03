@@ -13,6 +13,13 @@
 
 ---
 
+## 32. Nature suite 1
+
+:x: [Fruits et arbres](./fiches/fiches_4/32/1.md)
+
+:x: [Potager et légumes](./fiches/fiches_4/32/2.md)
+
+
 ## 31. Calculs
 
 :x: [Nombres et maths](./fiches/fiches_4/31/1.md)
