@@ -113,6 +113,8 @@
 94. protéger
 95. Houe
 
+## Calculs et maths
+
 ### Nombres et maths
 
 1. onze
@@ -160,10 +162,12 @@
 43. Zéro
 44. Total
 45. Gagner
-46. Variable
-47. Constante
-48. Formule
-49. Facteur
+46. Voler
+47. Perdre
+48. Variable
+49. Constante
+50. Formule
+51. Facteur
 50. Puissance
 51. Racine
 
@@ -176,14 +180,15 @@
 5. Majeur
 6. Ainé
 7. cadet
-8. compter
-9.  Représenter
-10. Rang
+8. benjamin
+9. compter
+10. Représenter
+11. Rang
 11. Rangée
 12. partielle
 13. Reste
-14. Arrondi
-16. Angle
+14. Arrondir
+15. Angle
 17. Forme
 18. Symétrie
 19. Géométrie
@@ -193,8 +198,9 @@
 23. Présenter
 24. Oral
 25. Axe
-26. Frontière
-27. Bordure
+26. Axer
+27. Frontière
+28. Bordure
 28. Coordonnée
 29. Position
 30. Intervalle
@@ -215,17 +221,21 @@
 45. Crédit
 46. Dépense
 47. Profit
-48. Perte
-49. Perdre
-50. Abandonner
-51. Echouer
-52. Intérêt
-53. Capital
-54. Amortir
-55. Amortissement
-56. Taxe
-57. Impôt
-58. Rendement
+48. Réussir
+49. gain
+50. réussite 
+51. persévérer
+52. Perte
+52. Perdre
+53. Abandonner
+54. Echouer
+55. Intérêt
+56. Capital
+56. Amortir
+57. Amortissement
+57. Taxe
+58. Impôt
+59. Rendement
 
 
 ## 20. **Technologie et médias**

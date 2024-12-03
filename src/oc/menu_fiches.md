@@ -13,6 +13,12 @@
 
 ---
 
+## 31. Calculs
+
+:x: [Nombres et maths](./fiches/fiches_4/31/1.md)
+
+:x: [Comptabilité](./fiches/fiches_4/31/2.md)
+
 ## 30.Jardin et travaux
 
 :x: [Outils de travaux](./fiches/fiches_4/30/1.md)
