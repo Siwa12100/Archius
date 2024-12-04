@@ -2,7 +2,7 @@
 
 [...retour en arrière](../../README.md)
 
-:white_check_mark:  :x:
+:white_check_mark:  :x: :large_orange_diamond:
 ---
 
 * [1000 mots courants / thème](./mots_courants_theme.md)
@@ -13,24 +13,30 @@
 
 ---
 
+## 33. Nature suite 2
+
+:x: [Nature et environnement](./fiches/fiches_4/33/1.md)
+
+:x: [Activités, équipements et actions](./fiches/fiches_4/33/2.md)
+
 ## 32. Nature suite 1
 
-:x: [Fruits et arbres](./fiches/fiches_4/32/1.md)
+:large_orange_diamond: [Fruits et arbres](./fiches/fiches_4/32/1.md)
 
-:x: [Potager et légumes](./fiches/fiches_4/32/2.md)
+:large_orange_diamond: [Potager et légumes](./fiches/fiches_4/32/2.md)
 
 
 ## 31. Calculs
 
-:x: [Nombres et maths](./fiches/fiches_4/31/1.md)
+:large_orange_diamond: [Nombres et maths](./fiches/fiches_4/31/1.md)
 
-:x: [Comptabilité](./fiches/fiches_4/31/2.md)
+:large_orange_diamond: [Comptabilité](./fiches/fiches_4/31/2.md)
 
 ## 30.Jardin et travaux
 
-:x: [Outils de travaux](./fiches/fiches_4/30/1.md)
+:white_check_mark: [Outils de travaux](./fiches/fiches_4/30/1.md)
 
-:x: [Outils de jardin](./fiches/fiches_4/30/2.md)
+:white_check_mark: [Outils de jardin](./fiches/fiches_4/30/2.md)
 
 ## 29. Mots liés à la maison et à la vie quotidienne
 
