@@ -11,11 +11,14 @@
 ### Fruits et arbres
 
 1. Cerise  
-2. Prune  
-3. Fraise  
-4. Abricot  
-5. Pêche  
-6. Raisin  
+2. Les fruits
+3. le fruit
+4. Melon
+5. Prune  
+5. Fraise  
+6. Abricot  
+7. Pêche  
+8. Raisin  
 7. Figue  
 8. Coing  
 9. Nectarine  
@@ -43,7 +46,6 @@
 31. Cognassier  
 32. Nectarinier  
 33. Grenadier  
-34. Kaki (arbre)  
 35. Noyer  
 36. Amandier  
 37. Châtaignier  
@@ -53,12 +55,17 @@
 41. Citronnier  
 42. Framboise  
 43. Mûre  
-44. Myrtille  
-45. Noisette  
-46. Sureau  
-47. Baie  
-48. Genièvre  
-49. Graine  
+44. Mûr ; mûre
+45. Myrtille  
+46. Noisette  
+47. Sureau  
+48. Baie  
+49. Genièvre  
+50. Graine  
+51. confiture
+52. crème
+53. gelée
+54. pot
 
 ### Potager et légumes
 
