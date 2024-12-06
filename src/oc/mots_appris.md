@@ -4,8 +4,6 @@
 
 ---
 
-```markdown
-
 ## Nature suite 2
 
 ### Nature et environnement
