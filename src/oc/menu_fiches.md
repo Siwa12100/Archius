@@ -10,27 +10,31 @@
 * [Liste de tous les mots appris](./mots_appris.md)
 * [Mots courants randoms](./mots_courants_random/menu.md)
 * [Grammaire](./grammaire.md)
+  
+### Idées voc
+
+* 
 
 ---
 
 ## 33. Nature suite 2
 
-:x: [Nature et environnement](./fiches/fiches_4/33/1.md)
+:white_check_mark: [Nature et environnement](./fiches/fiches_4/33/1.md)
 
-:x: [Activités, équipements et actions](./fiches/fiches_4/33/2.md)
+:white_check_mark: [Activités, équipements et actions](./fiches/fiches_4/33/2.md)
 
 ## 32. Nature suite 1
 
-:large_orange_diamond: [Fruits et arbres](./fiches/fiches_4/32/1.md)
+:white_check_mark: [Fruits et arbres](./fiches/fiches_4/32/1.md)
 
-:large_orange_diamond: [Potager et légumes](./fiches/fiches_4/32/2.md)
+:white_check_mark: [Potager et légumes](./fiches/fiches_4/32/2.md)
 
 
 ## 31. Calculs
 
-:large_orange_diamond: [Nombres et maths](./fiches/fiches_4/31/1.md)
+:white_check_mark: [Nombres et maths](./fiches/fiches_4/31/1.md)
 
-:large_orange_diamond: [Comptabilité](./fiches/fiches_4/31/2.md)
+:white_check_mark: [Comptabilité](./fiches/fiches_4/31/2.md)
 
 ## 30.Jardin et travaux
 
