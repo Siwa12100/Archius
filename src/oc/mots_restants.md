@@ -21,27 +21,16 @@
 11. Estampe  
 12. Céramique  
 13. Textile  
-14. Art numérique  
 15. Installation  
 16. Performance  
-17. Land art  
-18. Vidéo art  
-19. Design  
 20. Perspective  
 21. Composition  
-22. Proportions  
-23. Symétrie  
-24. Asymétrie  
 25. Abstraction  
 26. Réalisme  
 27. Impressionnisme  
-28. Cubisme  
-29. Surréalisme  
-30. Expressionnisme  
 31. Minimalisme  
 32. Baroque  
 33. Renaissance  
-34. Classicisme  
 35. Romantisme  
 36. Inspiration  
 37. Créativité  
@@ -71,21 +60,15 @@
 8. Réfraction  
 9. Ombre  
 10. Lueur  
-11. Gradation  
 12. Nuance  
 13. Intensité  
-14. Clair-obscur  
-15. Mat  
 16. Brillant  
 17. Pâle  
 18. Éclat  
 19. Translucide  
-20. Chatoyant  
 21. Multicolore  
 22. Monochrome  
-23. Pastel  
 24. Métallisé  
-25. Iride  
 26. Sombre  
 27. Éblouissant  
 28. Tamisé  
@@ -94,8 +77,6 @@
 31. Réflectif  
 32. Terne  
 33. Vif  
-34. Évanescent  
-35. Diaphane  
 36. Saturé  
 37. Décoloré  
 38. Ébloui  
@@ -104,14 +85,9 @@
 41. Délavé  
 42. Surbrillance  
 43. Intensifié  
-44. Lustré  
 45. Voilé  
 46. Prisme  
-47. Ombre portée  
 48. Tonalités  
-49. Relief visuel  
-50. Impression lumineuse  
-
 
 ## Noms des animaux
 
@@ -182,7 +158,6 @@
 17. Piranha  
 18. Carpe  
 19. Silure  
-20. Poisson-clown  
 
 ## Noms des arbres et fleurs
 
@@ -196,101 +171,44 @@
 6. Sapin  
 7. Cèdre  
 8. Cyprès  
-9. Marronnier  
 10. Tilleul  
 11. Bouleau  
 12. Hêtre  
 13. Frêne  
-14. Orme  
 15. Platane  
-16. Séquoia  
 17. Acacia  
-18. Baobab  
-19. Eucalyptus  
-20. Palmier  
-21. Figuier  
 22. Olivier  
-23. Pommier  
-24. Poirier  
-25. Cerisier  
-26. Prunier  
-27. Pêcher  
-28. Amandier  
 29. Noyer  
-30. Châtaignier  
 31. Cocotier  
-32. Mangrove  
-33. Arbousier  
-34. Alisier  
-35. Aulne  
-36. Charme  
-37. Catalpa  
-38. Gingko  
-39. Magnolia  
-40. Mûrier  
-41. Mélèze  
 42. Epicéa  
-43. Tremble  
-44. Sorbier  
-45. If  
-46. Arbre de Judée  
-47. Cornouiller  
 48. Laurier  
-49. Arbre à soie  
-50. Arbre à pain  
 
 ### Fleurs
 
 1. Rose  
 2. Tulipe  
 3. Marguerite  
-4. Pivoine  
 5. Lys  
-6. Dahlia  
 7. Orchidée  
-8. Camélia  
 9. Anémone  
 10. Violette  
 11. Jasmin  
-12. Chrysanthème  
 13. Bleuet  
 14. Coquelicot  
-15. Souci  
-16. Myosotis  
 17. Lavande  
 18. Hibiscus  
 19. Magnolia  
 20. Iris  
 21. Géranium  
 22. Hortensia  
-23. Capucine  
-24. Zinnia  
-25. Amaryllis  
 26. Azalée  
 27. Bougainvillier  
 28. Clématite  
-29. Cosmos  
-30. Fuchsia  
-31. Gaillarde  
-32. Héliotrope  
 33. Jonquille  
 34. Mimosa  
 35. Narcisse  
 36. Œillet  
-37. Passiflore  
-38. Pensée  
-39. Primevère  
-40. Renoncule  
-41. Rudbeckia  
 42. Tournesol  
-43. Véronique  
-44. Lysimaque  
-45. Campanule  
-46. Digitale  
-47. Édelweiss  
-48. Bégonia  
-49. Freesia  
-50. Achillée  
 
 ## Plantes et biodiversité
 
@@ -304,17 +222,9 @@
 6. Fruit  
 7. Graine  
 8. Pétale  
-9. Sépale  
-10. Étamine  
-11. Pistil  
 12. Pollen  
 13. Nectaire  
 14. Ovule  
-15. Calice  
-16. Corolle  
-17. Stigmate  
-18. Style  
-19. Anther  
 20. Rameau  
 21. Tronc  
 22. Écorce  
@@ -324,28 +234,20 @@
 26. Nœud  
 27. Nappe phréatique  
 28. Moelle  
-29. Nervure  
 30. Chlorophylle  
 31. Photosynthèse  
-32. Stomate  
-33. Phloème  
-34. Xylème  
-35. Mycorhize  
 36. Symbiose  
 37. Lichen  
 38. Résine  
 39. Sève  
 40. Épi  
-41. Inflorescence  
-42. Ombelle  
-43. Rhizome  
 44. Tubercule  
 45. Bulbe  
 46. Fougère  
 47. Mousse  
 48. Champignon  
 49. Gousse  
-50. Épi de maïs  
+50. Épi
 
 ### Biodiversité
 
@@ -369,37 +271,28 @@
 18. Menacée  
 19. Invasive  
 20. Pollinisation  
-21. Coévolution  
 22. Interaction  
 23. Symbiose  
 24. Parasitisme  
 25. Prédation  
-26. Chaîne alimentaire  
-27. Réseau trophique  
+26. alimentaire  
 28. Producteur  
 29. Consommateur  
 30. Décomposeur  
 31. Climat  
 32. Température  
 33. Humidité  
-34. Forêt tropicale  
-35. Savane  
-36. Toundra  
-37. Prairie  
-38. Désert  
-39. Mangrove  
-40. Récif corallien  
-41. Plage  
-42. Montagne  
-43. Rivière  
-44. Lac  
-45. Océan  
-46. Pollution  
-47. Reforestation  
-48. Déforestation  
-49. Équilibre  
-50. Résilience  
-
+34. Forêt 
+35. tropicale  
+36. Savane  
+37. Toundra  
+42. Lac  
+46. Océan  
+47. Pollution  
+48. Reforestation  
+49. Déforestation  
+50. Équilibre  
+51. Résilience  
 
 ## Temps et lieux
 
