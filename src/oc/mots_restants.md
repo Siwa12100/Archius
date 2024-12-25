@@ -4,6 +4,115 @@
 
 ---
 
+
+## Cosmétique et contenants
+
+### Cosmétique et bijoux
+
+1. Rouge à lèvres  
+2. Mascara  
+3. Eyeliner  
+4. Fond de teint  
+5. Correcteur  
+6. Poudre  
+7. Blush  
+8. Highlighter  
+9. Ombre à paupières  
+10. Crayon à sourcils  
+11. Crème hydratante  
+12. Sérum  
+13. Gommage  
+14. Masque facial  
+15. Démaquillant  
+16. Lait corporel  
+17. Lotion tonique  
+18. Brume fixatrice  
+19. Vernis à ongles  
+20. Dissolvant  
+21. Parfum  
+22. Eau de toilette  
+23. Shampooing  
+24. Après-shampooing  
+25. Savon  
+26. Gel douche  
+27. Bain moussant  
+28. Déodorant  
+29. Crème solaire  
+30. Bijou  
+31. Collier  
+32. Bracelet  
+33. Bague  
+34. Alliance  
+35. Boucles d’oreilles  
+36. Chaîne  
+37. Médaillon  
+38. Broche  
+39. Pendentif  
+40. Perle  
+41. Diamant  
+42. Rubis  
+43. Émeraude  
+44. Saphir  
+45. Améthyste  
+46. Or  
+47. Argent  
+48. Platine  
+49. Alliage  
+50. Bijoux fantaisie  
+
+### Hygiène maison et contenants
+
+1. Serpillère  
+2. Balai  
+3. Pelle à poussière  
+4. Éponge  
+5. Chiffon  
+6. Seau  
+7. Brosse  
+8. Raclette  
+9. Aspirateur  
+10. Produit ménager  
+11. Détergent  
+12. Nettoyant multi-usage  
+13. Savon liquide  
+14. Liquide vaisselle  
+15. Désinfectant  
+16. Détachant  
+17. Assouplissant  
+18. Lessive  
+19. Anti-calcaire  
+20. Déboucheur  
+21. Dépoussiérant  
+22. Nettoyant vitre  
+23. Désodorisant  
+24. Lingette  
+25. Récurant  
+26. Lave-linge  
+27. Sèche-linge  
+28. Lave-vaisselle  
+29. Égouttoir  
+30. Poubelle  
+31. Sac poubelle  
+32. Contenant  
+33. Bac  
+34. Pot  
+35. Coffre  
+36. Boîte  
+37. Corbeille  
+38. Panier  
+39. Jarre  
+40. Tupperware  
+41. Bidon  
+42. Réservoir  
+43. Placard  
+44. Étagère  
+45. Armoire  
+46. Coffret  
+47. Bocal  
+48. Caisse  
+49. Casier  
+50. Carton  
+
 ## Art et apparences
 
 ### Art
