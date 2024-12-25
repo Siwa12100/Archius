@@ -10,6 +10,7 @@
 * [Liste de tous les mots appris](./mots_appris.md)
 * [Mots courants randoms](./mots_courants_random/menu.md)
 * [Grammaire](./grammaire.md)
+* [Verbes importants à maitriser](./verbes_importants.md)
 
 ---
 

@@ -50,13 +50,16 @@
 ### Apparence et couleur
 
 1. Saturation  
+2. Contraste  
 3. Teinte  
 4. Luminosité  
 5. Opacité  
 6. Transparence  
 7. Reflet  
 8. Réfraction  
+9. Ombre  
 10. Lueur  
+12. Nuance  
 13. Intensité  
 16. Brillant  
 17. Pâle  
@@ -70,6 +73,7 @@
 28. Tamisé  
 29. Contrasté  
 30. Dégradé  
+31. Réflectif  
 32. Terne  
 33. Vif  
 36. Saturé  
@@ -89,13 +93,11 @@
 ### Insectes
 
 1. Fourmi  
-2. Araignée
-3. Toile
-4. Abeille  
-5. Guêpe  
-6. Frelon  
-7. Mouche  
-8. Moustique  
+2. Abeille  
+3. Guêpe  
+4. Frelon  
+5. Mouche  
+6. Moustique  
 7. Papillon  
 8. Libellule  
 9. Scarabée  
@@ -107,15 +109,22 @@
 15. Chenille  
 16. Coccinelle  
 17. Termite  
+18. Fourmilion  
+19. Phasme  
+20. Éphémère  
 
 ### Oiseaux
 
 1. Moineau  
 2. Merle  
-3. Pintade
-4. Corneille  
-6. Pie  
-11. Étourneau  
+3. Corneille  
+4. Pigeon  
+5. Pie  
+6. Faucon  
+7. Aigle  
+8. Hibou  
+9. Chouette  
+10. Étourneau  
 11. Goéland  
 12. Mouette  
 13. Flamant rose  
@@ -133,6 +142,7 @@
 2. Saumon  
 3. Cabillaud  
 4. Morue  
+5. Hareng  
 6. Thon  
 7. Sardine  
 8. Maquereau  
@@ -142,6 +152,7 @@
 12. Anguille  
 13. Sole  
 14. Raie  
+15. Mérou  
 16. Espadon  
 17. Piranha  
 18. Carpe  
@@ -180,6 +191,7 @@
 7. Orchidée  
 9. Anémone  
 10. Violette  
+11. Jasmin  
 13. Bleuet  
 14. Coquelicot  
 17. Lavande  
@@ -190,6 +202,7 @@
 22. Hortensia  
 26. Azalée  
 27. Bougainvillier  
+28. Clématite  
 33. Jonquille  
 34. Mimosa  
 35. Narcisse  
@@ -200,7 +213,13 @@
 
 ### Composition des plantes
 
+1. Racine  
 2. Tige  
+3. Feuille  
+4. Bourgeon  
+5. Fleur  
+6. Fruit  
+7. Graine  
 8. Pétale  
 12. Pollen  
 13. Nectaire  
@@ -209,6 +228,7 @@
 21. Tronc  
 22. Écorce  
 23. Branches  
+24. Ramification  
 25. Bois  
 26. Nœud  
 27. Nappe phréatique  
@@ -216,11 +236,17 @@
 30. Chlorophylle  
 31. Photosynthèse  
 36. Symbiose  
+37. Lichen  
 38. Résine  
+39. Sève  
 40. Épi  
 44. Tubercule  
 45. Bulbe  
+46. Fougère  
+47. Mousse  
+48. Champignon  
 49. Gousse  
+50. Épi
 
 ### Biodiversité
 
@@ -243,8 +269,10 @@
 17. Introduite  
 18. Menacée  
 19. Invasive  
+20. Pollinisation  
 22. Interaction  
-24. Parasite  
+23. Symbiose  
+24. Parasitisme  
 25. Prédation  
 26. alimentaire  
 28. Producteur  
@@ -293,6 +321,7 @@
 22. Ponctuel  
 23. Régulier  
 24. Fréquent  
+25. Éphémère  
 26. Permanent  
 27. Actuel  
 28. Antérieur  
@@ -427,6 +456,7 @@
 2. Argumentation  
 3. Controverse  
 4. Opposition  
+5. Discussion  
 6. Contradiction  
 7. Réfutation  
 8. Concession  
@@ -440,17 +470,22 @@
 16. Antithèse  
 17. Synthèse  
 18. Hypothèse  
+19. Proposition  
 20. Démonstration  
 21. Conclusion  
 22. Introduction  
 23. Modération  
 24. Règlement  
 25. Interruption  
+26. Opinion  
 27. Divergence  
 28. Consensus  
 32. Objection  
 33. Réplique  
+34. Question  
+35. Réponse  
 36. Justification  
+37. Argument  
 38. Contre-argument  
 39. Exemple  
 40. Illustration  
@@ -458,6 +493,7 @@
 42. Déduction  
 44. Paradoxe  
 45. Rhétorique  
+46. Émotion  
 47. Raison  
 49. Analyse  
 
@@ -509,9 +545,12 @@
 4. Art  
 5. Littérature  
 6. Musique  
+7. Peinture  
+8. Sculpture  
 9. Théâtre  
 10. Cinéma  
 11. Danse  
+12. Photographie  
 13. Artisanat  
 14. Tradition  
 15. Coutume  
@@ -527,14 +566,19 @@
 26. Mythologie  
 31. Gastronomie  
 35. Exposition  
+36. Calligraphie  
 37. Mode  
 38. Bijoux  
 39. Design  
 40. Mode de vie  
 41. Héritage  
 42. Identité  
+43. Créativité  
+44. Imagination  
 45. Innovation  
 46. Diversité  
+47. Expression  
+48. Esthétique  
 49. Symbolisme  
 50. Évolution  
 
@@ -564,6 +608,7 @@
 20. Urne  
 21. Parti  
 22. Coalition  
+23. Opposition  
 24. Majorité  
 25. Président  
 26. Premier ministre  
@@ -587,17 +632,21 @@
 45. Égalité  
 46. Justice  
 47. Corruption  
+48. Transparence  
 49. Diplomatie  
 50. Souveraineté  
 
 ### Géopolitique
 
 1. Géopolitique  
+2. Frontière  
+3. Territoire  
 4. Nation  
 5. État-nation  
 6. Union  
 7. Alliance  
 8. Traité  
+9. Accord  
 10. Conflit  
 11. Guerre  
 12. Paix  
@@ -610,6 +659,7 @@
 19. Globalisation  
 20. Nationalisme  
 21. Protectionnisme  
+22. Diplomatie  
 23. Sanctions  
 24. Embargo  
 25. Intervention  
@@ -626,6 +676,7 @@
 38. Réfugié  
 39. Crise  
 40. Rivalité  
+41. Influence  
 42. Expansion  
 46. Colonisation  
 
@@ -651,6 +702,7 @@
 17. Match nul  
 18. Score  
 19. Points  
+20. Terrain  
 21. Stade  
 22. Piste  
 23. Gymnase  
@@ -658,6 +710,7 @@
 25. Court  
 26. Salle de sport  
 27. Yoga  
+28. Méditation  
 31. Cyclisme  
 32. Course à pied  
 33. Athlétisme  
@@ -668,6 +721,7 @@
 38. Ski  
 39. Snowboard  
 40. Patinage  
+41. Danse  
 42. Tennis  
 43. Football  
 44. Basketball  
@@ -697,6 +751,7 @@
 19. Pagaie  
 20. Gilet de sauvetage  
 21. Skis  
+22. Snowboard  
 23. Patins à glace  
 24. Surfs  
 25. Planches à voile  
@@ -727,9 +782,12 @@
 3. Partition  
 4. Portée  
 5. Mesure  
+6. Temps  
 9. Tempo  
 10. Rythme  
 11. Mélodie  
+12. Harmonie  
+13. Accord  
 15. Tonalité  
 27. Accentuations  
 32. Battement  
@@ -739,6 +797,7 @@
 36. Ronde  
 37. Double croche  
 38. Soupir  
+39. Silence  
 40. Crescendo  
 41. Decrescendo  
 
@@ -758,6 +817,7 @@
 13. Saxophone  
 14. Trompette  
 15. Trombone  
+16. Tuba  
 17. Cor  
 18. Batterie  
 23. Cymbales  
@@ -807,13 +867,16 @@
 33. Désarroi  
 34. Haine  
 35. Euphorie  
+36. Enthousiasme  
 37. Excitation  
 38. Satisfaction  
 39. Doute  
 40. Indignation  
 41. Confusion  
 42. Malaise  
+43. Sérénité  
 44. Exaltation  
+45. Admiration  
 46. Dégoût profond  
 48. Regret amer  
 49. Exténuation  
@@ -822,36 +885,49 @@
 ### Sentiments
 
 1. Amitié  
+2. Respect  
 3. Mépris  
 4. Adoration  
 5. Dévotion  
 6. Altruisme  
 7. Empathie  
+8. Gratitude  
 9. Plénitude  
 10. Mal-être  
 12. Attachement  
 13. Passion  
 14. Fraternité  
 15. Culpabilité  
+16. Compassion  
+17. Frustration  
 18. Rejet  
 19. Curiosité  
+20. Enthousiasme  
 22. Résignation  
 23. Dévouement  
 24. Appartenance  
 25. Désintérêt  
+26. Admiration  
 27. Fidélité  
 28. Reconnaissance  
 29. Affection  
 30. Tendresse  
+31. Exaltation  
+32. Mélancolie 
+33. Respect 
 34. mutuel  
 35. Désillusion  
+36. Tranquillité  
 37. Introspection  
 39. Confiance en soi  
 40. Doute envers autrui  
 41. affectif  
 42. Dépendance 
 44. Épanouissement  
+45. Découragement
 46. sentimental  
+47. Harmonie  
+48. Coopération  
 49. Désir ardent   
 50. Affinité  
 51. émotionnelle  
@@ -884,13 +960,16 @@
 31. Argile  
 32. Terre cuite  
 33. Porcelaine  
+34. Céramique  
 35. Béton  
 36. Ciment  
 37. Brique  
+38. Bois  
 39. Bambou  
 40. Liège  
 41. Verre  
 42. Plastique  
+43. Résine  
 44. Fibre
 45. carbone  
 47. Tissu  
@@ -964,12 +1043,17 @@
 17. Cylindre  
 18. Cône  
 19. Pyramide  
+21. Prisme  
+23. Angle  
 24. Rayon  
 25. Diamètre  
 26. Circonférence  
 27. Sommet  
 28. Arête  
 29. Face  
+30. Surface  
+31. Volume  
+32. Aire  
 33. Lignes
 34. Courbes  
 35. Segment  
@@ -978,11 +1062,13 @@
 39. Diagonale  
 40. Perpendiculaire  
 41. Parallèle  
+43. Centre  
 44. Équilatéral  
 45. Isocèle  
 47. Convexe  
 48. Concave  
 49. Proportion  
+50. Dimension  
 
 ### Transformation de la matière
 
@@ -1049,14 +1135,27 @@
 7. Lancer  
 8. Pêcheur  
 9. Ligne  
+13. Nœud  
+14. Plomb  
 15. Épuisette   
 16. Quai  
 17. Banc de poissons  
+23. Thon  
+24. Sardine  
+25. Maquereau  
+26. Truite  
+27. Saumon  
+29. Morue  
+32. Perche  
 33. Brochet  
+35. Anguille  
+36. Carpe  
+37. Silure   
 
 ### Mers et océans
 
 1. Mer  
+2. Océan  
 3. Plage  
 4. Rivage  
 5. Vague  
@@ -1072,6 +1171,7 @@
 19. Abysse  
 20. Falaise  
 24. Courant  
+25. Marée
 27. Coquillage  
 28. Corail  
 29. Étoile de mer  
@@ -1086,8 +1186,12 @@
 40. Homard  
 41. Crevette  
 43. Algue  
+44. Mouette  
+45. Goéland  
 47. Plongée  
 48. Scaphandre  
+49. Tuba  
+50. Palmes  
 
 ## Aide pour affiner la langue
 
@@ -1157,16 +1261,22 @@
 9. à condition que  
 10. pour peu que  
 11. en cas de  
+12. à moins que  
 13. en outre  
 14. de surcroît  
 15. de plus  
 16. qui plus est  
 17. en dépit de  
 18. malgré  
+19. bien que  
+20. quoique  
 21. lors de  
 22. au moment de  
+23. dès que  
 24. tandis que  
+25. pendant que  
 26. afin de/que  
+27. pour que  
 28. en vue de  
 29. dans la mesure où  
 30. excepté que  
@@ -1179,7 +1289,13 @@
 37. parce que  
 38. puisque  
 39. alors  
+40. c’est pourquoi  
 41. de sorte que  
+42. relativement à  
+43. à propos de  
+44. concernant  
+45. en vue de  
+46. au cas où  
 47. tantôt… tantôt  
 48. ou bien… ou bien  
 49. du moment que  
@@ -1220,10 +1336,12 @@
 37. Paprika  
 38. Viande  
 39. Dinde  
+40. Saumon  
 41. Crevettes  
 
 ### Actions de cuisine et adjectifs
 
+1. Mélanger  
 2. Remuer  
 3. Fouetter  
 4. Battre  
@@ -1243,9 +1361,12 @@
 21. Griller  
 22. Poêler  
 23. Blanchir  
+24. Chauffer  
 25. Frire  
+26. Moelleux  
 27. Fondant  
 28. Croustillant  
+29. Croquant  
 30. Épicé  
 31. Sucré  
 32. Salé  
@@ -1257,6 +1378,7 @@
 38. Doré  
 39. Savoureux  
 40. Parfumé  
+41. Onctueux  
 42. Léger  
 43. Lourd  
 45. Frais  
@@ -1269,9 +1391,13 @@
 
 ### Guerre et conflits
 
+1. Guerre  
+2. Conflit  
 3. Bataille  
 4. Offensive  
+5. Déclaration  
 6. Armistice  
+7. Traité  
 8. Trêve  
 9. Siège  
 10. Insurrection  
@@ -1285,6 +1411,7 @@
 18. Avancée  
 19. Défense  
 20. Stratégie  
+21. Diplomatie  
 22. Espionnage  
 23. Sabotage  
 24. Alliés  
@@ -1326,6 +1453,7 @@
 9. Flèche  
 10. Arbalète  
 11. Lance  
+12. Javelot  
 13. Coutelas  
 14. Bâton  
 15. Hallebarde  
@@ -1361,6 +1489,7 @@
 45. Sarbacane  
 46. Glaive  
 47. Trident  
+48. Fouet  
 49. Chakram  
 50. Boulet de canon  
  
@@ -1371,7 +1500,10 @@
 ### Chasse
 
 1. Fusil  
+2. Arc  
+3. Flèche  
 4. Carabine  
+5. Filet  
 6. Piège  
 7. Chien de chasse  
 8. Gibecière  
@@ -1379,6 +1511,7 @@
 10. Traque  
 11. Affût  
 12. Mirador  
+13. Appât  
 14. Appeau  
 15. Bivouac  
 16. Veste de chasse  
@@ -1388,6 +1521,7 @@
 20. Camouflage  
 21. Bottes  
 22. Couteau  
+23. Lame  
 24. Étui  
 25. Balle  
 26. Débusquer  
@@ -1399,12 +1533,16 @@
 32. Fretin  
 33. Proie  
 34. Sentier forestier  
+35. Piste  
 36. Enclos  
 37. Zone de chasse  
+38. Réserve  
 39. Tir à l’arc  
+40. Arbalète  
 41. Traque silencieuse  
 42. Poste fixe  
 43. Dépecer  
+44. Découper  
 45. Taxidermie  
 46. Poudrière  
 47. Cheminement  
@@ -1454,6 +1592,7 @@
 38. Hermine  
 39. Sanglier noir  
 40. Civette  
+41. Étourneau  
 42. Oie sauvage  
 43. Canard siffleur  
 44. Bernache  
@@ -1471,6 +1610,7 @@
 
 1. Rond-point  
 2. Croisement  
+3. Intersection  
 4. Impasse  
 5. Chemin  
 6. Sentier  
@@ -1521,12 +1661,17 @@
 
 ### justice
 
+1. Justice  
+2. Loi  
 3. Droit  
+4. Constitution  
 5. Code civil  
 6. Code pénal  
+7. Décret  
 8. Arrêté  
 9. Jurisprudence  
 10. Législation  
+11. Règlement  
 12. Tribunal  
 13. Cour  
 14. Magistrat  
@@ -1554,13 +1699,17 @@
 36. Amende  
 37. Liberté conditionnelle  
 38. Caution  
+39. Mandat  
 40. Citation à comparaître  
 41. Assignation  
 42. Plaidoirie  
 43. Verdict  
+44. Appel  
 45. Casier judiciaire  
+46. Médiation  
 47. Arbitrage  
 48. Immunité  
+49. Défense  
 50. Juridiction  
 
 
@@ -1622,6 +1771,7 @@
 ### Machine et mécanique
 
 1. Moteur  
+2. Batterie  
 3. Roue  
 4. Pneu  
 5. Jante  
@@ -1701,6 +1851,7 @@
 23. Épidémie  
 24. Pandémie  
 25. Vaccin  
+26. Immunité  
 27. Prévention  
 28. Pathologie  
 29. Thérapie  
@@ -1784,12 +1935,14 @@
 
 ### Parties du corps humain
 
+1. Front  
 2. Sourcils  
 3. Paupières  
 4. Narines  
 5. Joues  
 6. Lèvres  
 7. Dents  
+8. Langue  
 9. Gencives  
 10. Menton  
 11. Gorge  
@@ -1900,13 +2053,17 @@
 7. Orca (épaulard)  
 8. Baleine bleue  
 9.  Requin-marteau  
+10. Espadon  
 12. Méduse géante  
 13. Calamar géant  
 14. Crabe des cocotiers  
 15. Langoustine  
 16. Pélican brun  
+17. Flamant rose  
 18. Autruche  
 19. Kiwi (oiseau)  
+20. Pélican  
+21. Moineau  
 22. Albatros  
 23. Pingouin empereur  
 24. Dauphin rose  
@@ -1927,10 +2084,15 @@
 39. Crocodile du Nil  
 40. Lézard à collerette  
 41. Gecko  
+42. Piranha  
 43. Hippocampe  
 44. Lémurien  
 45. Paon  
+46. Héron  
 47. Scarabée rhinocéros  
+48. Chenille  
+49. Coccinelle  
+50. Étoile de mer  
 
 ### Parties du corps des animaux
 
@@ -1943,6 +2105,7 @@
 7. Nageoires  
 8. Ailes  
 9. Antennes  
+10. Dents  
 11. Queue  
 12. Crinière  
 13. Corne  
@@ -1956,11 +2119,18 @@
 21. Museau  
 22. Mâchoires  
 23. Branchies  
+24. Crâne  
 25. Épine dorsale  
 26. Plastron  
+27. Langue  
 28. Tête  
+29. Narines  
+30. Abdomen  
 31. Thorax  
+32. Ventre  
 33. Dos  
+34. Articulations  
+35. Côtes  
 36. Pelage  
 37. Barbichette  
 38. Papilles  
@@ -1968,10 +2138,12 @@
 40. Coussinets  
 41. Duvet  
 42. Fourrure  
+43. Ailes
 44. Queue préhensile  
 45. Ventouses  
 46. Griffes rétractiles  
 47. Vibrisses  
+48. Rotules  
 
 
 ## Noms et adectifs utilisés dans adverbes
@@ -2057,6 +2229,7 @@
 24. intelligent  
 25. joyeux  
 26. lent  
+27. logique  
 28. majestueux  
 29. modéré  
 30. naturel  
@@ -2200,6 +2373,7 @@
 5. bientôt  
 6. continuellement  
 7. dernièrement  
+8. dès lors  
 9. dorénavant  
 10. éternellement  
 11. fréquemment  
@@ -2216,6 +2390,7 @@
 22. prochainement  
 23. ponctuellement  
 24. rarement  
+25. régulièrement  
 26. subitement  
 27. successivement  
 28. temporairement  
@@ -2233,6 +2408,7 @@
 40. chaque semaine  
 41. quelquefois  
 42. soudainement  
+43. spontanément  
 44. tôt ou tard  
 45. tout à coup  
 46. à cette époque  
@@ -2259,6 +2435,7 @@
 14. extraordinairement  
 15. fort peu  
 16. grandement  
+17. intensément  
 18. incroyablement  
 19. insuffisamment  
 20. inutilement  
@@ -2279,6 +2456,7 @@
 35. singulièrement  
 36. strictement  
 37. stupéfiante  
+38. subtilement  
 39. tant soit peu  
 40. terriblement  
 41. tout au plus  
@@ -2287,6 +2465,7 @@
 44. véritablement  
 45. vraiment beaucoup  
 46. éblouissamment  
+47. énergiquement  
 48. étonnamment  
 49. énormément plus  
 50. extrêmement moins  
@@ -2308,6 +2487,7 @@
 11. incertainement  
 12. inexplicablement  
 13. irrémédiablement  
+14. logiquement  
 15. manifestement  
 16. naturellement peut-être  
 17. nécessairement  
@@ -2353,10 +2533,16 @@
 2. aujourd’hui  
 3. demain  
 4. maintenant  
+5. bientôt  
 6. tard  
 7. tôt  
 8. encore  
 9. autrefois  
+10. jadis  
+11. auparavant  
+12. aussitôt  
+13. lorsque  
+14. tandis que  
 15. pendant  
 16. après  
 17. avant  
@@ -2368,12 +2554,20 @@
 23. une fois  
 24. deux fois  
 25. souvent  
+26. rarement  
 27. jamais  
 28. quelque part  
+29. ailleurs  
 30. ici  
 31. là  
+32. là-bas  
 33. devant  
 34. derrière  
+35. autour  
+36. au-dessus  
+37. au-dessous  
+38. en haut  
+39. en bas  
 40. dedans  
 41. dehors  
 42. près  
@@ -2388,24 +2582,54 @@
 
 ### Autres
 
+1. parce que  
+2. car  
+3. puisque  
+4. vu que  
 5. étant donné  
+6. grâce à  
+7. à cause de  
+8. en raison de  
+9. pour que  
 10. afin de  
 11. dans le but de  
+12. en vue de  
 13. avec  
 14. sans  
+15. comme  
+16. ainsi  
 17. de cette façon  
 18. d’une manière  
+19. par conséquent  
+20. donc  
+21. alors  
+22. c’est pourquoi  
 23. en conséquence  
 24. par  
 25. au moyen de  
 26. à travers  
 27. à l’aide de  
+28. sous prétexte que  
+29. au cas où  
+30. si  
 31. sinon  
+32. sauf si  
+33. à condition que  
+34. même si  
+35. bien que  
+36. quoique  
+37. de peur que  
+38. de sorte que  
+39. pourvu que  
+40. autant que  
+41. malgré  
+42. en dépit de  
 43. en fonction de  
 44. proportionnellement  
 45. selon  
 46. par rapport à  
 47. d’autant plus  
+48. en raison de  
 49. faute de  
 50. à défaut de 
 
@@ -2430,6 +2654,7 @@
 15. semblablement  
 16. différemment  
 17. autrement  
+18. comme  
 19. que  
 20. tel  
 21. similaire  
@@ -2441,11 +2666,13 @@
 27. opposé  
 28. contraire  
 29. tout comme  
+30. ainsi que  
 31. pareillement  
 32. en comparaison de  
 33. à l’opposé de  
 34. vis-à-vis de  
 35. versus  
+36. par rapport à  
 37. comparativement  
 38. au même titre que  
 39. équitable  
@@ -2466,6 +2693,7 @@
 1. très  
 2. trop  
 3. extrêmement  
+4. énormément  
 5. fortement  
 6. vraiment  
 7. tellement  
@@ -2481,7 +2709,11 @@
 17. presque  
 18. tout à fait  
 19. entièrement  
+20. totalement  
+21. intensément  
+22. puissamment  
 23. infiniment  
+24. faiblement  
 25. durement  
 26. profondément  
 27. sérieusement  
@@ -2496,10 +2728,14 @@
 36. purement  
 37. radicalement  
 38. excessivement  
+39. énormément  
+40. violemment  
+41. doucement  
 42. très peu  
 43. moins que rien  
 44. plus que tout  
 45. excessif  
+46. modéré  
 47. démesuré  
 48. insignifiant  
 49. amplifié  
