@@ -11,7 +11,7 @@
 * [Mots courants randoms](./mots_courants_random/menu.md)
 * [Grammaire](./grammaire.md)
 * [Verbes importants à maitriser](./verbes_importants.md)
-
+* [Libertat](./chansons/libertat.md)
 ---
 
 ## 33. Nature suite 2
