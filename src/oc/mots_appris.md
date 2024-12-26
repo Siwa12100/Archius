@@ -4,6 +4,57 @@
 
 ---
 
+## Verbes importants 1
+
+### Vie quotidienne et actions courantes
+
+1. Boiter  
+2. Tousser  
+3. S’étirer  
+4. Bailler  
+5. S’agenouiller  
+6. Roter  
+7. Siffler  
+8. Éternuer  
+9. Ronfler  
+10. Mâcher  
+11. Avaler  
+12. Cracher  
+13. Aspirer  
+14. Claquer 
+15. Marchander  
+16. Louer  
+17. Souscrire  
+18. Postuler  
+19. Ressembler  
+21. Gronder  (réprimande)
+22. Plaider  
+23. Réconforter  
+24. Anticiper  
+26. Sculpter  
+27. Observer  
+28. Filmer  
+29. Décorer  
+30. Fournir  
+31. Instruire  
+33. Hésiter  
+34. Frissonner  
+35. Approcher  
+36. Manipuler  
+37. Tondre  
+38. Balayer  
+39. Essuyer  
+40. Déménager  
+41. Installer  
+43. Réorganiser  
+44. Sembler  
+45. Exister  
+46. Surveiller  
+47. Briser  
+48. Compléter  
+49. Souligner  
+50. Progresser 
+
 ## Nature suite 2
 
 ### Nature et environnement

@@ -3,6 +3,7 @@
 [...retour en arrière](../../README.md)
 
 :white_check_mark:  :x: :large_orange_diamond:
+
 ---
 
 * [1000 mots courants / thème](./mots_courants_theme.md)
@@ -12,6 +13,7 @@
 * [Grammaire](./grammaire.md)
 * [Verbes importants à maitriser](./verbes_importants.md)
 * [Libertat](./chansons/libertat.md)
+  
 ---
 
 ## 33. Nature suite 2
@@ -25,7 +27,6 @@
 :white_check_mark: [Fruits et arbres](./fiches/fiches_4/32/1.md)
 
 :white_check_mark: [Potager et légumes](./fiches/fiches_4/32/2.md)
-
 
 ## 31. Calculs
 

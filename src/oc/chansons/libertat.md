@@ -107,3 +107,56 @@ Toi qui as une voix de clairon
 Aujourd’hui appelle, appelle à pleins poumons  
 
 L’heure est venue.  
+
+---
+
+## Lenguadocian
+
+Tu que siás arderosa e nuda  
+Tu qu'as sus las ancas tos ponhs  
+Tu qu'as una votz de clairon  
+Uei sona sona a plens palmons  
+
+Ò bona musa.  
+
+Siás la musa dei paurei gus  
+Ta cara es negra de fumada  
+Teis uelhs senton la fusilhada  
+Siás una flor de barricada  
+
+Siás la Venús.  
+
+Dei mòrts de fam siás la mestressa,  
+D'aquelei qu'an ges de camiá  
+Lei gus que van sensa soliers  
+Lei sensa pan, lei sensa liech  
+
+An tei careças.  
+
+Mai leis autrei ti fan rotar,  
+Lei gròs cacans 'mbé sei familhas  
+Leis enemics de la paurilha  
+Car ton nom tu, ò santa filha  
+
+Es Libertat.  
+
+Ò Libertat coma siás bela  
+Teis uelhs brilhan coma d'ulhauç  
+E croses, liures de tot mau,  
+Tei braç fòrts coma de destraus  
+
+Sus tei mamèlas.  
+
+Mai puei, perfés diés de mòts raucs,  
+Tu pus doça que leis estelas  
+E nos treboles ò ma bela  
+Quand baisam clinant lei parpèlas  
+
+Tei pès descauç.  
+
+Tu que siás poderosa e ruda  
+Tu que luses dins lei raions  
+Tu qu'as una vòtz de cleron  
+Uei sòna sòna a plens parmons  
+
+L'ora es venguda. 
