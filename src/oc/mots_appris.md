@@ -32,16 +32,13 @@
 23. Réconforter  
 24. Anticiper  
 26. Sculpter  
-27. Observer  
 28. Filmer  
 29. Décorer  
-30. Fournir  
 31. Instruire  
 33. Hésiter  
 34. Frissonner  
 35. Approcher  
 36. Manipuler  
-37. Tondre  
 38. Balayer  
 39. Essuyer  
 40. Déménager  
