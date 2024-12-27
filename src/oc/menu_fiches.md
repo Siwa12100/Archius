@@ -15,6 +15,11 @@
 * [Libertat](./chansons/libertat.md)
   
 ---
+## 34. Verbes importants 1
+
+:x: [Actions courantes e quotidient](./fiches/fiches_5/1/1.md)
+
+:x: [Déplacements et voyages](./fiches/fiches_5/1/2.md)
 
 ## 33. Nature suite 2
 

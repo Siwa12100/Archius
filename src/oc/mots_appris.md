@@ -52,6 +52,48 @@
 49. Souligner  
 50. Progresser 
 
+## **2. Déplacements et voyages**  
+51. Naviguer  
+52. Ramer  
+53. Plonger  
+56. Traverser  
+57. Explorer  
+58. Dévier  
+59. Stationner  
+60. Atterrir  
+61. Décoller  
+64. Déraper  
+65. Décharger  
+66. Embarquer  
+67. Débarquer  
+68. Piloter  
+69. Escorter  
+70. Livrer  
+72. Hâter  
+73. Guider  
+75. S’égarer  
+76. Déraper  
+77. S’allonger  
+79. Réserver  
+80. Prévoir  
+81. Décrire
+83. S’orienter  
+84. Localiser  
+85. Perdre  
+86. Visiter  
+88. Admirer  
+89. Immigrer  
+91. Transférer  
+92. Expédier  
+93. Transporter  
+94. Accélérer  
+95. Freiner  
+96. Arrêter  
+97. Ralentir  
+98. Dépêcher  
+99. Circuler  
+100. Camper  
+
 ## Nature suite 2
 
 ### Nature et environnement
