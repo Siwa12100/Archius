@@ -15,6 +15,13 @@
 * [Libertat](./chansons/libertat.md)
   
 ---
+
+## 35. Verbes importants 2
+
+:x: [Communication et apprentissage](./fiches/fiches_5/2/1.md)
+
+:x: [Émotions et relations humaines](./fiches/fiches_5/2/2.md)
+
 ## 34. Verbes importants 1
 
 :x: [Actions courantes e quotidient](./fiches/fiches_5/1/1.md)

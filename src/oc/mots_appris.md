@@ -6,29 +6,31 @@
 
 ## Verbes importants 2
 
-### **3. Communication et apprentissage**  
+### Communication et apprentissage  
 101. Proclamer  
-102. Confier  
-103. Interroger  
-104. Démentir  
-105. Expliquer  
+102. Apprentissage
+103. Confier  
+104. Interroger  
+105. Démentir  
+106. Expliquer  
 107. Exposer  
 108. Proposer  
-110. Inventer  
-111. Traduire  
-112. Interpréter  
-113. Réciter  
-114. Solliciter  
-115. Suggérer  
-117. Exclamer  
-118. Remercier  
-119. Reprendre
-120. Corriger  
-121. Analyser  
-122. Évaluer  
-123. Résumer  
-124. Reformuler  
-125. Prouver  
+109. Inventer  
+110. Traduire  
+111. Interpréter  
+112. Réciter  
+113. Solliciter  
+114. Suggérer  
+115. Exclamer  
+116. Remercier  
+117. Reprendre
+118. Corriger  
+119. Tromper
+120. Analyser  
+121. Évaluer  
+122. Résumer  
+123. Formuler  
+124. Prouver  
 126. Convaincre  
 127. Douter  
 128. Persuader  
@@ -39,11 +41,11 @@
 133. Démontrer  
 134. Affirmer  
 135. Préciser  
-138. Énoncer  
-140. Enseigner  
+136. Énoncer  
+139. Enseigner  
 141. Apprendre  
-143. Valider  
-144. Questionner  
+142. Valider  
+143. Questionner  
 145. Admettre  
 146. Justifier  
 147. Comparer  
@@ -53,40 +55,39 @@
 
 ---
 
-### **4. Émotions et relations humaines**  
+### Émotions et relations humaines  
 151. Rire  
-152. Pleurer  
-153. S’émerveiller  
-154. S’énerver  
-155. Se détendre  
-156. Se consoler  
-157. Flatter  
-158. Mépriser  
-159. Ignorer  
-160. Soutenir  
-161. Encourager  
-162. Se réconcilier  
-163. Se disputer  
-164. S’opposer  
-166. Pardonner  
-167. Féliciter  
-168. Adorer  
-169. Haïr  
-171. S’attacher  
+152. Emotions
+153. Relations
+154. Humain
+155. Pleurer  
+156. S’émerveiller  
+157. S’énerver  
+158. Se détendre  
+159. Se consoler  
+160. Flatter  
+161. Mépriser  
+162. Ignorer  
+164. Encourager  
+165. Se réconcilier  
+166. Se disputer  
+167. S’opposer  
+168. Pardonner  
+169. Féliciter  
+168. Haïr  
 172. Se confier  
-174. Espérer  
-175. Douter  
-176. S’inquiéter  
-177. Ressentir  
-178. Compatir  
-179. Se révolter  
-180. S’indigner  
+173. Espérer  
+174. Douter  
+175. S’inquiéter  
+176. Ressentir  
+177. Compatir  
+178. Se révolter  
+179. S’indigner  
 181. Surmonter  
 182. Troubler  
 183. Apprécier  
 184. Déprimer  
 185. Offenser  
-186. Réconforter  
 187. Avertir  
 188. S’enthousiasmer  
 189. Apaiser  
@@ -94,9 +95,7 @@
 191. Irriter  
 192. Soupçonner  
 193. Préférer  
-194. Soutenir  
 195. Susciter  
-196. Manipuler  
 197. Fâcher  
 198. Convenir  
 199. Rassurer  
