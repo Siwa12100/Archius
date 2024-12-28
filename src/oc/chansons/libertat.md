@@ -119,44 +119,44 @@ Uei sona sona a plens palmons
 
 Ò bona musa.  
 
-Siás la musa dei paurei gus  
+Siás la musa del paure gus  
 Ta cara es negra de fumada  
-Teis uelhs senton la fusilhada  
+Tos uelhs senton la fusilhada  
 Siás una flor de barricada  
 
 Siás la Venús.  
 
-Dei mòrts de fam siás la mestressa,  
-D'aquelei qu'an ges de camiá  
-Lei gus que van sensa soliers  
-Lei sensa pan, lei sensa liech  
+De mòrts de fam siás la mestressa,  
+D'aqueles qu'an ges de camisa
+Los gus que van sens solièrs  
+Los sens pan, los sens liech  
 
-An tei careças.  
+An tas careças.  
 
-Mai leis autrei ti fan rotar,  
-Lei gròs cacans 'mbé sei familhas  
-Leis enemics de la paurilha  
+Mai los autres te fan rotar,  
+Los gròs pervenguts 'mbé sas familhas  
+Los enemics de la paurilha  
 Car ton nom tu, ò santa filha  
 
 Es Libertat.  
 
 Ò Libertat coma siás bela  
-Teis uelhs brilhan coma d'ulhauç  
-E croses, liures de tot mau,  
-Tei braç fòrts coma de destraus  
+Tos uelhs brilhan coma de liuçs
+E crosas, liures de tot mau,  
+Tos braçs fòrts coma de destrals
 
-Sus tei mamèlas.  
+Sus tas mamèlas.  
 
-Mai puei, perfés diés de mòts raucs,  
-Tu pus doça que leis estelas  
+Mai puei, dises de mots raucs,  
+Tu pus doça que las estelas  
 E nos treboles ò ma bela  
-Quand baisam clinant lei parpèlas  
+Quand baissam clihant las parpèlas  
 
-Tei pès descauç.  
+Tos pès descauçs.  
 
 Tu que siás poderosa e ruda  
-Tu que luses dins lei raions  
-Tu qu'as una vòtz de cleron  
-Uei sòna sòna a plens parmons  
+Tu que luses dins los raions  
+Tu qu'as una votz de clairon  
+Uei sona sona a plens palmons  
 
-L'ora es venguda. 
+L'ore es venguda. 
