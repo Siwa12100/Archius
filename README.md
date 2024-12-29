@@ -31,6 +31,7 @@ Tot aquò dich, bona lectura als curioses !
 - [Docker](./src/docker/sommaire.md)
 - [CI / CD](./src/ci/menu.md)
 - [Administration VPS](./src/vps/menu.md)
+- [MongoDB](./src/mongo/menu.md)
 
 
 ## Temporaire
