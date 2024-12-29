@@ -6,32 +6,55 @@
 
 ## 1. Exposition de MongoDB dans un Conteneur Docker
 
-### Configuration et Lancement de MongoDB dans Docker
-MongoDB peut facilement être exécuté dans un conteneur Docker. Par défaut, il écoute sur le port `27017`.
+### Configuration et Lancement de MongoDB avec Docker Compose
+Pour exécuter MongoDB avec Docker Compose, voici un fichier `docker-compose.yml` typique :
 
-#### Création du Conteneur MongoDB
-Voici comment créer et exécuter un conteneur MongoDB accessible en `localhost` :
+```yaml
+version: '3.9'
 
-```bash
-# Lancez un conteneur MongoDB avec un répertoire de données persistant
-sudo docker run -d \
-  --name mongodb \
-  -p 27017:27017 \
-  -v ~/mongodb-data:/data/db \
-  mongo:latest
-```
-- **`-p 27017:27017`** : Expose le port 27017 du conteneur sur localhost.
-- **`-v ~/mongodb-data:/data/db`** : Monte un volume pour persister les données.
+services:
+  mongodb:
+    image: mongo:6.0
+    container_name: mongodb_valorium
+    ports:
+      - "127.0.0.1:27017:27017"
+    environment:
+      MONGO_INITDB_ROOT_USERNAME: root
+      MONGO_INITDB_ROOT_PASSWORD: examplepassword
+    volumes:
+      - ./data_mongo_valorium:/data/db
+    networks:
+      - mongo_network
 
-#### Validation du Fonctionnement
-Pour vérifier que le conteneur fonctionne :
-```bash
-sudo docker ps
+networks:
+  mongo_network:
+    driver: bridge
 ```
-Puis essayez de vous connecter :
-```bash
-mongosh mongodb://localhost:27017
-```
+
+### Explications
+1. **Exposition du port à `127.0.0.1`:**
+   - En spécifiant `127.0.0.1:27017:27017`, MongoDB est accessible uniquement en local sur la machine hôte.
+   - Cela empêche l'accès externe à MongoDB, améliorant ainsi la sécurité.
+
+2. **Variables d'environnement :**
+   - `MONGO_INITDB_ROOT_USERNAME` et `MONGO_INITDB_ROOT_PASSWORD` permettent de créer un utilisateur administrateur au démarrage.
+
+3. **Volumes :**
+   - `./data_mongo_valorium:/data/db` persiste les données MongoDB sur l’hôte pour éviter leur perte lors de la suppression du conteneur.
+
+4. **Réseau Docker :**
+   - `mongo_network` est un réseau Docker isolé pour permettre la communication entre conteneurs si besoin.
+
+### Lancer et Tester
+1. Lancez MongoDB avec Docker Compose :
+   ```bash
+   docker-compose up -d
+   ```
+
+2. Testez la connexion :
+   ```bash
+   mongosh mongodb://root:examplepassword@127.0.0.1:27017
+   ```
 
 ---
 
@@ -89,7 +112,7 @@ Les utilisateurs sont liés à une base de données spécifique (par exemple, `a
    ```javascript
    db.createUser({
        user: "Siwa",
-       pwd: "password123",
+       pwd: "securepassword",
        roles: [
            { role: "readWrite", db: "db-siwa" }
        ]
@@ -99,7 +122,7 @@ Les utilisateurs sont liés à une base de données spécifique (par exemple, `a
 #### Modifier un Utilisateur
 Pour modifier un mot de passe :
 ```javascript
-db.updateUser("Siwa", { pwd: "newpassword" });
+db.updateUser("Siwa", { pwd: "newsecurepassword" });
 ```
 
 #### Lister les Utilisateurs
@@ -124,10 +147,10 @@ mongodb://<username>:<password>@<host>:<port>/<database>?<options>
 
 ### Exemple pour Spring Boot
 ```properties
-spring.data.mongodb.uri=mongodb://Siwa:%401732hkjhdjkdhzjk%40%4028371J@127.0.0.1:27017/db-siwa?authSource=admin
+spring.data.mongodb.uri=mongodb://Siwa:securepassword@127.0.0.1:27017/db-siwa?authSource=admin
 ```
 - **`Siwa`** : Nom de l’utilisateur.
-- **`%401732hkjhdjkdhzjk%40%4028371J`** : Mot de passe avec encodage URL.
+- **`securepassword`** : Mot de passe fictif.
 - **`127.0.0.1:27017`** : Hôte et port.
 - **`db-siwa`** : Base de données cible.
 - **`authSource=admin`** : Indique que l’authentification doit être effectuée contre la base `admin`.
@@ -135,7 +158,7 @@ spring.data.mongodb.uri=mongodb://Siwa:%401732hkjhdjkdhzjk%40%4028371J@127.0.0.1
 ### Exemple pour VS Code
 L’extension MongoDB de VS Code accepte les URLs MongoDB avec la même syntaxe :
 ```text
-mongodb://Siwa:%401732hkjhdjkdhzjk%40%4028371J@127.0.0.1:27017/db-siwa?authSource=admin
+mongodb://Siwa:securepassword@127.0.0.1:27017/db-siwa?authSource=admin
 ```
 
 ### Encodage des Caractères Spéciaux
@@ -162,7 +185,7 @@ Lorsque l’utilisateur est créé dans une base comme `admin`, MongoDB tente pa
 
 Ajoutez `authSource=admin` pour spécifier que l’authentification doit utiliser la base `admin` :
 ```properties
-spring.data.mongodb.uri=mongodb://Siwa:password@127.0.0.1:27017/db-siwa?authSource=admin
+spring.data.mongodb.uri=mongodb://Siwa:securepassword@127.0.0.1:27017/db-siwa?authSource=admin
 ```
 
 ### Conséquences Sans `authSource`
@@ -174,4 +197,4 @@ Cela indique que MongoDB ne trouve pas l'utilisateur dans la base de données ci
 
 ---
 
-[...Retour menu Mongo](../menu.md)
+[Retour menu Mongo](../menu.md)
