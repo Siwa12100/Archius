@@ -133,6 +133,7 @@ services:
       - "8080" # Port interne utilisé par l'application
     environment:
       - VIRTUAL_HOST=exemple.com
+      - VIRTUAL_PORT=8080
       - LETSENCRYPT_HOST=exemple.com
       - LETSENCRYPT_EMAIL=admin@exemple.com
 
@@ -240,6 +241,7 @@ services:
       - "8080" # Port utilisé par le service en interne
     environment:
       - VIRTUAL_HOST=exemple.com
+      - VIRTUAL_PORT=80
       - LETSENCRYPT_HOST=exemple.com
       - LETSENCRYPT_EMAIL=admin@exemple.com
 ```
@@ -261,6 +263,7 @@ services:
      Spécifie le domaine pour lequel un certificat SSL doit être généré.
   3. **`LETSENCRYPT_EMAIL=admin@exemple.com`**  
      Adresse e-mail pour recevoir des notifications sur l'état des certificats.
+  4. `Virtual_Host` permet de préciser le port à utiliser sur le conteneur 
 
 ### 2. Démarrage des Conteneurs
 
