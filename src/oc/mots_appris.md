@@ -4,6 +4,98 @@
 
 ---
 
+## Verbes importants 3
+
+### Travail et tâches pratiques  
+
+3. Pratique
+4. Tâche
+5. Programmer  
+6. Exécuter  
+7. Ajuster  
+9. Préparer  
+10. Réparer  
+11. Rénover  
+14. Produire  
+15. Optimiser  
+15. Tester  
+16. Organiser  
+17. Animer  
+19. Distribuer  
+20. Superviser  
+21. Vérifier  
+22. Collaborer  
+23. Réunir  
+24. Diriger  
+25. Gérer  
+28. Commander  
+29. Livrer  
+30. Exporter  
+31. Importer  
+33. Emballer  
+34. Déballer  
+35. Mesurer  
+36. Assembler  
+37. Trier  
+39. Établir  
+40. Entretenir  
+41. Démonter  
+43. Suivre  
+44. Imprimer  
+45. Numériser  
+46. Archiver  
+47. Envoyer  
+50. Planifier  
+
+### Santé et bien-être
+
+1. Soigner  
+2. Guérir  
+3. Bien-être
+4. Souffrir  
+5. Diagnostiquer  
+6. Opérer  
+7. Vacciner  
+7. Prévenir  
+8. éduquer  
+9. Examiner  
+10. Traiter  
+11. Respirer  
+12. Courir  
+13. S’entraîner  
+14. Nager  
+15. S’étirer  
+16. Transpirer  
+17. Se reposer  
+19. Méditer  
+20. Masser  
+21. Relaxer  
+22. Bouger  
+24. Contrôler  
+25. Réaliser
+26. Récupérer  
+27. Minimiser  
+28. Augmenter  
+29. Diminuer  
+30. Immobiliser  
+31. Bander
+32. Recoudre  
+33. Prescrire  
+34. Administrer  
+35. Éviter  
+36. Hydrater  
+38. Stimuler  
+39. Renforcer  
+40. Maintenir  
+41. Vérifier  
+42. Réduire  
+43. Stabiliser  
+44. Enregistrer  
+45. Injecter  
+46. Suivre  
+47. Se calmer  
+48. Se relever  
+
 ## Verbes importants 2
 
 ### Communication et apprentissage  

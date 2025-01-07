@@ -16,6 +16,12 @@
   
 ---
 
+## 36. Verbes importants 3
+
+:x: [Travail & tâches pratiques](./fiches/fiches_5/3/1.md)
+
+:x: [Santé et bien-être](./fiches/fiches_5/3/2.md)
+
 ## 35. Verbes importants 2
 
 :x: [Communication et apprentissage](./fiches/fiches_5/2/1.md)
