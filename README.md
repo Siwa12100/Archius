@@ -50,8 +50,9 @@ Tot aquò dich, bona lectura als curioses !
 - [Expose td](./src/securite/expose_td.md)
 - [Revisions DS](./src/securite/revisions_Ds.md)
 
-## Notes semestre 5 BUT Informatique
+## Notes semestre 5 & 6 BUT Informatique
 
+- [Images, son et visualisation](./src/python/images/menu.md)
 - [Nouveaux paradigmes de BDD](./src/nouveaux_parag_bdd/menu.md)
 - [JavaScript](./src/javascript/sommaire.md)
 - [Python](./src/python/menu.md)
