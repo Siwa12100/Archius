@@ -23,7 +23,6 @@
 17. Animer  
 19. Distribuer  
 20. Superviser  
-21. Vérifier  
 22. Collaborer  
 23. Réunir  
 24. Diriger  
@@ -40,9 +39,6 @@
 39. Établir  
 40. Entretenir  
 41. Démonter  
-43. Suivre  
-44. Imprimer  
-45. Numériser  
 46. Archiver  
 47. Envoyer  
 50. Planifier  
