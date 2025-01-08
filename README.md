@@ -52,6 +52,7 @@ Tot aquò dich, bona lectura als curioses !
 
 ## Notes semestre 5 & 6 BUT Informatique
 
+- [Droit](./src/droit/menu.md)
 - [Images, son et visualisation](./src/python/images/menu.md)
 - [Nouveaux paradigmes de BDD](./src/nouveaux_parag_bdd/menu.md)
 - [JavaScript](./src/javascript/sommaire.md)
