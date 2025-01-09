@@ -41,7 +41,8 @@
 41. Démonter  
 46. Archiver  
 47. Envoyer  
-50. Planifier  
+50. Planifier
+51. Imprimer
 
 ### Santé et bien-être
 
