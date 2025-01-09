@@ -56,9 +56,27 @@ function processMarkdownFiles(dir) {
         return;
     }
 
+    // Supprimer les doublons tout en conservant l'ordre et la correspondance
+    const uniquePairs = [];
+    const seen = new Set();
+
+    for (let i = 0; i < francais.length; i++) {
+        const pair = `${francais[i]}|${occitan[i]}`;
+        if (!seen.has(pair)) {
+            seen.add(pair);
+            uniquePairs.push({ fr: francais[i], oc: occitan[i] });
+        }
+    }
+
+    const uniqueFrancais = uniquePairs.map(pair => pair.fr);
+    const uniqueOccitan = uniquePairs.map(pair => pair.oc);
+
     // Mélanger la liste française
-    const shuffledFrancais = shuffle(francais.slice());
-    const shuffledOccitan = shuffledFrancais.map(frWord => occitan[francais.indexOf(frWord)]);
+    const shuffledIndices = Array.from(uniqueFrancais.keys());
+    shuffle(shuffledIndices);
+
+    const shuffledFrancais = shuffledIndices.map(i => uniqueFrancais[i]);
+    const shuffledOccitan = shuffledIndices.map(i => uniqueOccitan[i]);
 
     // Créer le dossier "melange"
     const outputDir = path.join(process.cwd(), 'melange');

@@ -16,6 +16,12 @@
   
 ---
 
+## 37. Temps et lieux 
+
+:x: [Temps](./fiches/fiches_5/4/1.md)
+
+:x: [Lieux](./fiches/fiches_5/4/2.md)
+
 ## 36. Verbes importants 3
 
 :x: [Travail & tâches pratiques](./fiches/fiches_5/3/1.md)

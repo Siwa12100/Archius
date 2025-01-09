@@ -4,6 +4,107 @@
 
 ---
 
+## Temps et lieux
+
+### Temps
+
+1. Temps  
+2. Décennie  
+3. Siècle  
+4. Millénaire  
+5. Époque  
+6. Période  
+7. Instant  
+8. Moment  
+9. Chronomètre  
+10. Chronologie  
+11. Futur  
+12. Immédiat  
+13. Tard  
+14. Immediatement
+15. Tôt  
+16. Prochain  
+17. Durer 
+18. Dernier  
+17. Éternité  
+18. Rapide  
+19. Lent  
+20. Immobile  
+21. Répétitif  
+22. Ponctuel  
+23. Régulier  
+24. Fréquent  
+25. Permanent  
+26. Actuel  
+27. Antérieur  
+28. S’écouler  
+29. Anticiper  
+33. Retarder  
+34. Retard 
+35. Avance
+37. Chronique  
+38. Cadencer  
+39. Intermittent  
+40. Séquencer  
+41. Périodique  
+42. Temporaire  
+43. Durable  
+44. Progressif  
+45. Instantané  
+46. Espacer  
+47. Succéder  
+48. Reporter  
+49. Différer  
+49. Synchroniser  
+50. Estimer  
+
+### Lieux
+
+1. Espace  
+2. Emplacement  
+3. Position  
+4. Localisation  
+5. Zone  
+6. Région  
+7. Lieu
+8. Territoire  
+9. Secteur  
+10. Aire  
+11. Point  
+11. Surface  
+12. Distance  
+13. Environnement  
+14. Habitation  
+15. Bâtiment  
+16. Infrastructure  
+17. Site  
+18. Proximité  
+19. Proche
+20. Loin
+21. Intérieur  
+22. Extérieur  
+23. Centre  
+23. Périphérie  
+24. Bord  
+25. Limite  
+26. Contour  
+26. Dimension  
+27. Intersection  
+28. Ascenseur  
+29. Terrain  
+30. Relief  
+40. Plancher  
+41. Toit  
+42. Coin  
+43. Angle  
+44. Étage  
+45. sol
+46. rez-de-chaussée  
+47. Balcon  
+48. Terrasse  
+49. Horizon  
+50. Cave
+
 ## Verbes importants 3
 
 ### Travail et tâches pratiques  
