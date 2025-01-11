@@ -11,6 +11,7 @@
 * [Scp et Sshfs](./notes/scp_sshfs.md)
 * [Permissions Docker - Utiliser Docker sans sudo](./notes/docker_sans_sudo.md)
 * [Gestion / inspection du stockage](./notes/gestion_stockage.md)
+* [Memo Tmux](./notes/tmux_1.md)
   
 ### Https
 * [Activer HTTPS sur VPS - Classique](./notes/activer_https.md)
