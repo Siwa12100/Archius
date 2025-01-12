@@ -8,7 +8,9 @@
 
  ### Comparaison
 
- 1. plus  
+1. plus
+2. chercher (qq on sait où c'est)
+3. chercher (en mode recherche)
 1. moins  
 2. Comparaison
 3. autant  
