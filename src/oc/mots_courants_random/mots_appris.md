@@ -7,39 +7,47 @@
 ## Partida 4
 
 1. prédiction
-2. retour
-3. retourner
-4. demi-tour
-5. en avant
-6. en dessous
-7. en dessus
-8. là-bas
-9. dorénavant
-10. en arrière
-11. clairvoyance
-12. coefficient
-13. corrélation
-14. erreur
-15. similaire
-16. flèche
-17. pointe
-18. signe
-19. caillou
-20. disparaitre
-21. anéantir 
-22. détruire 
-23. créer
-24. apparaitre 
-25. avocat
-26. cheminée
-27. demander
-28. supplier
-29. refuser
-30. souhaiter
-31. gairison
-32. huisser
-33. juge
-34. réguler
+2. faillir
+3. citoyen
+4. habitant
+5. population 
+6. peuple
+7. équipe
+8. membre
+9. groupe
+10. retour
+11. retourner
+12. demi-tour
+13. en avant
+14. en dessous
+15. en dessus
+16. là-bas
+17. dorénavant
+18. en arrière
+19. clairvoyance
+20. coefficient
+21. corrélation
+22. erreur
+22. similaire
+23. flèche
+24. pointe
+25. signe
+26. caillou
+27. disparaitre
+28. anéantir 
+29. détruire 
+30. créer
+31. apparaitre 
+32. avocat
+33. cheminée
+34. demander
+35. supplier
+34. refuser
+35. souhaiter
+36. gairison
+37. huisser
+38. juge
+39. réguler
 35. autoriser
 36. interdire
 37. référence
