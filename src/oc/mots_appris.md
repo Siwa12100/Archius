@@ -4,6 +4,97 @@
 
 ---
 
+## Comparaison et intensité
+
+ ### Comparaison
+
+ 1. plus  
+2. moins  
+3. Comparaison
+4. autant  
+5. aussi  
+6. davantage  
+7. de même  
+8. pareil  
+9. semblable  
+10. inférieur  
+11. supérieur  
+12. meilleur  
+13. mieux
+14. pire  
+15. égal  
+16. identique  
+16. différent
+17. autrement  
+18. que  
+19. tel  
+20. similaire  
+21. proportionnel  
+22. relatif  
+24. comparable  
+25. équivalent  
+26. identiquement  
+27. opposé  
+28. contraire  
+29. tout comme  
+30. comme 
+31. pareillement  
+34. vis-à-vis de 
+35. l'égard 
+36. en face de 
+37. comparativement  
+39. équitable  
+40. symétrique  
+41. proportionné  
+42. inégal  
+43. grand  
+47. un peu
+48. important
+49. beaucoup 
+51. à peu près  
+
+### Intensité
+
+1. très  
+2. trop  
+3. Intensité
+4. extrêmement  
+5. fortement  
+6. vraiment  
+7. tellement  
+8. parfaitement  
+9. totalement  
+10. complètement  
+11. assez  
+12. moyennement  
+13. relativement  
+14. légèrement  
+16. quasi  
+17. presque  
+19. entièrement  
+23. infiniment  
+25. durement  
+26. profondément  
+27. sérieusement  
+28. franchement  
+29. absolument  
+30. super  
+31. ultra  
+33. hyper  
+34. carrément  
+35. follement  
+36. purement  
+37. radicalement  
+38. excessivement  
+42. très peu  
+43. moins que rien  
+44. plus que tout  
+45. excessif  
+46. démesuré  
+48. insignifiant  
+49. amplifié  
+50. limité  
+
 ## Temps et lieux
 
 ### Temps

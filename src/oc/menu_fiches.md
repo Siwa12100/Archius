@@ -16,6 +16,12 @@
   
 ---
 
+## 38. Comparaison et intensité
+
+:x: [Comparaison](./fiches/fiches_5/5/1.md)
+
+:x: [Intensité](./fiches/fiches_5/5/2.md)
+
 ## 37. Temps et lieux 
 
 :x: [Temps](./fiches/fiches_5/4/1.md)
