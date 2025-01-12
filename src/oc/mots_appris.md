@@ -9,21 +9,21 @@
  ### Comparaison
 
  1. plus  
-2. moins  
-3. Comparaison
-4. autant  
-5. aussi  
-6. davantage  
-7. de même  
-8. pareil  
-9. semblable  
-10. inférieur  
-11. supérieur  
-12. meilleur  
-13. mieux
-14. pire  
-15. égal  
-16. identique  
+1. moins  
+2. Comparaison
+3. autant  
+4. aussi  
+5. davantage  
+6. de même  
+7. pareil  
+8. semblable  
+9. inférieur  
+10. supérieur  
+11. meilleur  
+12. mieux
+13. pire  
+14. égal  
+15. identique  
 16. différent
 17. autrement  
 18. que  
@@ -31,27 +31,27 @@
 20. similaire  
 21. proportionnel  
 22. relatif  
-24. comparable  
-25. équivalent  
-26. identiquement  
-27. opposé  
-28. contraire  
-29. tout comme  
-30. comme 
-31. pareillement  
-34. vis-à-vis de 
-35. l'égard 
-36. en face de 
-37. comparativement  
-39. équitable  
-40. symétrique  
-41. proportionné  
-42. inégal  
-43. grand  
-47. un peu
-48. important
-49. beaucoup 
-51. à peu près  
+23. comparable  
+24. équivalent  
+25. identiquement  
+26. opposé  
+27. contraire  
+28. tout comme  
+29. comme 
+30. pareillement  
+31. vis-à-vis de 
+32. l'égard 
+33. en face de 
+34. comparativement  
+35. équitable  
+36. symétrique  
+37. proportionné  
+38. inégal  
+39. grand  
+40. un peu
+41. important
+42. beaucoup 
+43. à peu près  
 
 ### Intensité
 
@@ -69,31 +69,31 @@
 12. moyennement  
 13. relativement  
 14. légèrement  
-16. quasi  
-17. presque  
-19. entièrement  
-23. infiniment  
-25. durement  
-26. profondément  
-27. sérieusement  
-28. franchement  
-29. absolument  
-30. super  
-31. ultra  
-33. hyper  
-34. carrément  
-35. follement  
-36. purement  
-37. radicalement  
-38. excessivement  
-42. très peu  
-43. moins que rien  
-44. plus que tout  
-45. excessif  
-46. démesuré  
-48. insignifiant  
-49. amplifié  
-50. limité  
+15. quasi  
+16. presque  
+17. entièrement  
+18. infiniment  
+19. durement  
+20. profondément  
+21. sérieusement  
+22. franchement  
+23. absolument  
+24. super  
+25. ultra  
+26. hyper  
+27. carrément  
+28. follement  
+29. purement  
+30. radicalement  
+31. excessivement  
+32. très peu  
+33. moins que rien  
+34. plus que tout  
+35. excessif  
+36. démesuré  
+37. insignifiant  
+38. amplifié  
+39. limité  
 
 ## Temps et lieux
 
@@ -117,37 +117,37 @@
 16. Prochain  
 17. Durer 
 18. Dernier  
-17. Éternité  
-18. Rapide  
-19. Lent  
-20. Immobile  
-21. Répétitif  
-22. Ponctuel  
-23. Régulier  
-24. Fréquent  
-25. Permanent  
-26. Actuel  
-27. Antérieur  
-28. S’écouler  
-29. Anticiper  
-33. Retarder  
-34. Retard 
-35. Avance
-37. Chronique  
-38. Cadencer  
-39. Intermittent  
-40. Séquencer  
-41. Périodique  
-42. Temporaire  
-43. Durable  
-44. Progressif  
-45. Instantané  
-46. Espacer  
-47. Succéder  
-48. Reporter  
-49. Différer  
-49. Synchroniser  
-50. Estimer  
+19. Éternité  
+20. Rapide  
+21. Lent  
+22. Immobile  
+23. Répétitif  
+24. Ponctuel  
+25. Régulier  
+26. Fréquent  
+27. Permanent  
+28. Actuel  
+29. Antérieur  
+30. S’écouler  
+31. Anticiper  
+32. Retarder  
+33. Retard 
+34. Avance
+35. Chronique  
+36. Cadencer  
+37. Intermittent  
+38. Séquencer  
+39. Périodique  
+40. Temporaire  
+41. Durable  
+42. Progressif  
+43. Instantané  
+44. Espacer  
+45. Succéder  
+46. Reporter  
+47. Différer  
+48. Synchroniser  
+49. Estimer  
 
 ### Lieux
 
@@ -162,79 +162,79 @@
 9. Secteur  
 10. Aire  
 11. Point  
-11. Surface  
-12. Distance  
-13. Environnement  
-14. Habitation  
-15. Bâtiment  
-16. Infrastructure  
-17. Site  
-18. Proximité  
-19. Proche
-20. Loin
-21. Intérieur  
-22. Extérieur  
-23. Centre  
-23. Périphérie  
-24. Bord  
-25. Limite  
-26. Contour  
-26. Dimension  
-27. Intersection  
-28. Ascenseur  
-29. Terrain  
-30. Relief  
-40. Plancher  
-41. Toit  
-42. Coin  
-43. Angle  
-44. Étage  
-45. sol
-46. rez-de-chaussée  
-47. Balcon  
-48. Terrasse  
-49. Horizon  
-50. Cave
+12. Surface  
+13. Distance  
+14. Environnement  
+15. Habitation  
+16. Bâtiment  
+17. Infrastructure  
+18. Site  
+19. Proximité  
+20. Proche
+21. Loin
+22. Intérieur  
+23. Extérieur  
+24. Centre  
+25. Périphérie  
+26. Bord  
+27. Limite  
+28. Contour  
+29. Dimension  
+30. Intersection  
+31. Ascenseur  
+32. Terrain  
+33. Relief  
+34. Plancher  
+35. Toit  
+36. Coin  
+37. Angle  
+38. Étage  
+39. sol
+40. rez-de-chaussée  
+41. Balcon  
+42. Terrasse  
+43. Horizon  
+44. Cave
 
 ## Verbes importants 3
 
 ### Travail et tâches pratiques  
 
-3. Pratique
-4. Tâche
-5. Programmer  
-6. Exécuter  
-7. Ajuster  
-9. Préparer  
-10. Réparer  
-11. Rénover  
-14. Produire  
-15. Optimiser  
-15. Tester  
-16. Organiser  
-17. Animer  
-19. Distribuer  
-20. Superviser  
-22. Collaborer  
-23. Réunir  
-24. Diriger  
-25. Gérer  
-28. Commander  
-29. Livrer  
-30. Exporter  
-31. Importer  
-33. Emballer  
-34. Déballer  
-35. Mesurer  
-36. Assembler  
-37. Trier  
-39. Établir  
-40. Entretenir  
-41. Démonter  
-46. Archiver  
-47. Envoyer  
-50. Planifier
-51. Imprimer
+1. Pratique
+2. Tâche
+3. Programmer  
+4. Exécuter  
+5. Ajuster  
+6. Préparer  
+7. Réparer  
+8. Rénover  
+9. Produire  
+10. Optimiser  
+11. Tester  
+12. Organiser  
+13. Animer  
+14. Distribuer  
+15. Superviser  
+16. Collaborer  
+17. Réunir  
+18. Diriger  
+19. Gérer  
+20. Commander  
+21. Livrer  
+22. Exporter  
+23. Importer  
+24. Emballer  
+25. Déballer  
+26. Mesurer  
+27. Assembler  
+28. Trier  
+29. Établir  
+30. Entretenir  
+31. Démonter  
+32. Archiver  
+33. Envoyer  
+34. Planifier
+35. Imprimer
 
 ### Santé et bien-être
 
@@ -245,142 +245,142 @@
 5. Diagnostiquer  
 6. Opérer  
 7. Vacciner  
-7. Prévenir  
-8. éduquer  
-9. Examiner  
-10. Traiter  
-11. Respirer  
-12. Courir  
-13. S’entraîner  
-14. Nager  
-15. S’étirer  
-16. Transpirer  
-17. Se reposer  
+8. Prévenir  
+9. éduquer  
+10. Examiner  
+11. Traiter  
+12. Respirer  
+13. Courir  
+14. S’entraîner  
+15. Nager  
+16. S’étirer  
+17. Transpirer  
+18. Se reposer  
 19. Méditer  
 20. Masser  
 21. Relaxer  
 22. Bouger  
-24. Contrôler  
-25. Réaliser
-26. Récupérer  
-27. Minimiser  
-28. Augmenter  
-29. Diminuer  
-30. Immobiliser  
-31. Bander
-32. Recoudre  
-33. Prescrire  
-34. Administrer  
-35. Éviter  
-36. Hydrater  
-38. Stimuler  
-39. Renforcer  
-40. Maintenir  
-41. Vérifier  
-42. Réduire  
-43. Stabiliser  
-44. Enregistrer  
-45. Injecter  
-46. Suivre  
-47. Se calmer  
-48. Se relever  
+23. Contrôler  
+24. Réaliser
+25. Récupérer  
+26. Minimiser  
+27. Augmenter  
+28. Diminuer  
+29. Immobiliser  
+30. Bander
+31. Recoudre  
+32. Prescrire  
+33. Administrer  
+34. Éviter  
+35. Hydrater  
+36. Stimuler  
+37. Renforcer  
+38. Maintenir  
+39. Vérifier  
+40. Réduire  
+41. Stabiliser  
+42. Enregistrer  
+43. Injecter  
+44. Suivre  
+45. Se calmer  
+46. Se relever  
 
 ## Verbes importants 2
 
 ### Communication et apprentissage  
-101. Proclamer  
-102. Apprentissage
-103. Confier  
-104. Interroger  
-105. Démentir  
-106. Expliquer  
-107. Exposer  
-108. Proposer  
-109. Inventer  
-110. Traduire  
-111. Interpréter  
-112. Réciter  
-113. Solliciter  
-114. Suggérer  
-115. Exclamer  
-116. Remercier  
-117. Reprendre
-118. Corriger  
-119. Tromper
-120. Analyser  
-121. Évaluer  
-122. Résumer  
-123. Formuler  
-124. Prouver  
-126. Convaincre  
-127. Douter  
-128. Persuader  
-129. Contester  
-130. Débattre  
-131. Obtenir  
-132. Critiquer  
-133. Démontrer  
-134. Affirmer  
-135. Préciser  
-136. Énoncer  
-139. Enseigner  
-141. Apprendre  
-142. Valider  
-143. Questionner  
-145. Admettre  
-146. Justifier  
-147. Comparer  
-148. Provoquer  
-149. Insister  
-150. Illustrer  
+1. Proclamer  
+2. Apprentissage
+3. Confier  
+4. Interroger  
+5. Démentir  
+6. Expliquer  
+7. Exposer  
+8. Proposer  
+9. Inventer  
+10. Traduire  
+11. Interpréter  
+12. Réciter  
+13. Solliciter  
+14. Suggérer  
+15. Exclamer  
+16. Remercier  
+17. Reprendre
+18. Corriger  
+19. Tromper
+20. Analyser  
+21. Évaluer  
+22. Résumer  
+23. Formuler  
+24. Prouver  
+25. Convaincre  
+26. Douter  
+27. Persuader  
+28. Contester  
+29. Débattre  
+30. Obtenir  
+31. Critiquer  
+32. Démontrer  
+33. Affirmer  
+34. Préciser  
+35. Énoncer  
+36. Enseigner  
+37. Apprendre  
+38. Valider  
+39. Questionner  
+40. Admettre  
+41. Justifier  
+42. Comparer  
+43. Provoquer  
+44. Insister  
+45. Illustrer  
 
 ---
 
 ### Émotions et relations humaines  
-151. Rire  
-152. Emotions
-153. Relations
-154. Humain
-155. Pleurer  
-156. S’émerveiller  
-157. S’énerver  
-158. Se détendre  
-159. Se consoler  
-160. Flatter  
-161. Mépriser  
-162. Ignorer  
-164. Encourager  
-165. Se réconcilier  
-166. Se disputer  
-167. S’opposer  
-168. Pardonner  
-169. Féliciter  
-168. Haïr  
-172. Se confier  
-173. Espérer  
-174. Douter  
-175. S’inquiéter  
-176. Ressentir  
-177. Compatir  
-178. Se révolter  
-179. S’indigner  
-181. Surmonter  
-182. Troubler  
-183. Apprécier  
-184. Déprimer  
-185. Offenser  
-187. Avertir  
-188. S’enthousiasmer  
-189. Apaiser  
-190. Charmer  
-191. Irriter  
-192. Soupçonner  
-193. Préférer  
-195. Susciter  
-197. Fâcher  
-198. Convenir  
-199. Rassurer  
-200. Attirer 
+1. Rire  
+2. Emotions
+3. Relations
+4. Humain
+5. Pleurer  
+6. S’émerveiller  
+7. S’énerver  
+8. Se détendre  
+9. Se consoler  
+10. Flatter  
+11. Mépriser  
+12. Ignorer  
+13. Encourager  
+14. Se réconcilier  
+15. Se disputer  
+16. S’opposer  
+17. Pardonner  
+18. Féliciter  
+19. Haïr  
+20. Se confier  
+21. Espérer  
+22. Douter  
+23. S’inquiéter  
+24. Ressentir  
+25. Compatir  
+26. Se révolter  
+27. S’indigner  
+28. Surmonter  
+29. Troubler  
+30. Apprécier  
+31. Déprimer  
+32. Offenser  
+33. Avertir  
+34. S’enthousiasmer  
+35. Apaiser  
+36. Charmer  
+37. Irriter  
+38. Soupçonner  
+39. Préférer  
+40. Susciter  
+41. Fâcher  
+42. Convenir  
+43. Rassurer  
+44. Attirer 
 
 ## Verbes importants 1
 
@@ -405,72 +405,72 @@
 17. Souscrire  
 18. Postuler  
 19. Ressembler  
-21. Gronder  (réprimande)
-22. Plaider  
-23. Réconforter  
-24. Anticiper  
-26. Sculpter  
-28. Filmer  
-29. Décorer  
-31. Instruire  
-33. Hésiter  
-34. Frissonner  
-35. Approcher  
-36. Manipuler  
-38. Balayer  
-39. Essuyer  
-40. Déménager  
-41. Installer  
-43. Réorganiser  
-44. Sembler  
-45. Exister  
-46. Surveiller  
-47. Briser  
-48. Compléter  
-49. Souligner  
-50. Progresser 
+20. Gronder  (réprimande)
+21. Plaider  
+22. Réconforter  
+23. Anticiper  
+24. Sculpter  
+25. Filmer  
+26. Décorer  
+27. Instruire  
+28. Hésiter  
+29. Frissonner  
+30. Approcher  
+31. Manipuler  
+32. Balayer  
+33. Essuyer  
+34. Déménager  
+35. Installer  
+36. Réorganiser  
+37. Sembler  
+38. Exister  
+39. Surveiller  
+40. Briser  
+41. Compléter  
+42. Souligner  
+43. Progresser 
 
 ## **2. Déplacements et voyages**  
-51. Naviguer  
-52. Ramer  
-53. Plonger  
-56. Traverser  
-57. Explorer  
-58. Dévier  
-59. Stationner  
-60. Atterrir  
-61. Décoller  
-64. Déraper  
-65. Décharger  
-66. Embarquer  
-67. Débarquer  
-68. Piloter  
-69. Escorter  
-70. Livrer  
-72. Hâter  
-73. Guider  
-75. S’égarer  
-76. Déraper  
-77. S’allonger  
-79. Réserver  
-80. Prévoir  
-81. Décrire
-83. S’orienter  
-84. Localiser  
-85. Perdre  
-86. Visiter  
-88. Admirer  
-89. Immigrer  
-91. Transférer  
-92. Expédier  
-93. Transporter  
-94. Accélérer  
-95. Freiner  
-96. Arrêter  
-97. Ralentir  
-98. Dépêcher  
-99. Circuler  
-100. Camper  
+1. Naviguer  
+2. Ramer  
+3. Plonger  
+4. Traverser  
+5. Explorer  
+6. Dévier  
+7. Stationner  
+8. Atterrir  
+9. Décoller  
+10. Déraper  
+11. Décharger  
+12. Embarquer  
+13. Débarquer  
+14. Piloter  
+15. Escorter  
+16. Livrer  
+17. Hâter  
+18. Guider  
+19. S’égarer  
+20. Déraper  
+21. S’allonger  
+22. Réserver  
+23. Prévoir  
+24. Décrire
+25. S’orienter  
+26. Localiser  
+27. Perdre  
+28. Visiter  
+29. Admirer  
+30. Immigrer  
+31. Transférer  
+32. Expédier  
+33. Transporter  
+34. Accélérer  
+35. Freiner  
+36. Arrêter  
+37. Ralentir  
+38. Dépêcher  
+39. Circuler  
+40. Camper  
 
 ## Nature suite 2
 
@@ -524,19 +524,19 @@
 46. Éboulement  
 47. Ravin  
 48. Plateau  
-50. Brume  
-51. Liane
-52. Couvert
-53. bouquet d’arbres
-54. faucon
-55. rapace 
-56. planer
-57. vautour
-58. pigeon
-59. tourterelle
-60. mésange
-61. moineau
-62. roc
+49. Brume  
+50. Liane
+51. Couvert
+52. bouquet d’arbres
+53. faucon
+54. rapace 
+55. planer
+56. vautour
+57. pigeon
+58. tourterelle
+59. mésange
+60. moineau
+61. roc
 
 ### Activités, équipements et actions
 
@@ -565,37 +565,37 @@
 23. Machette  
 24. Serpette 
 25. Cordage  
-27. Thermos  
-29. Altimètre  
-30. Casque  
-31. Rouler  
-32. Dévaler  
-33. Chuter  
-34. Tomber  
-35. Accrocher  
-36. Escarpement  
-37. Falaise  
-38. Dense  
-39. Épars  
-40. Gravir  
-41. Descendre  
-42. S'orienter  
-43. Monter  
-44. Se reposer  
-45. Glisser  
-46. Contempler  
-47. Dégoûter  
-48. Survivre  
-49. Tracer  
-50. Admirer
-51. Grimper
-52. Equipement
-53. Activité
-54. Activer
-55. chasser 
-56. Corde
-57. Fil
-58. sillon
+26. Thermos  
+27. Altimètre  
+28. Casque  
+29. Rouler  
+30. Dévaler  
+31. Chuter  
+32. Tomber  
+33. Accrocher  
+34. Escarpement  
+35. Falaise  
+36. Dense  
+37. Épars  
+38. Gravir  
+39. Descendre  
+40. S'orienter  
+41. Monter  
+42. Se reposer  
+43. Glisser  
+44. Contempler  
+45. Dégoûter  
+46. Survivre  
+47. Tracer  
+48. Admirer
+49. Grimper
+50. Equipement
+51. Activité
+52. Activer
+53. chasser 
+54. Corde
+55. Fil
+56. sillon
 
 
 ## Nature suite 1
@@ -609,105 +609,105 @@
 3. le fruit
 4. Melon
 5. Prune  
-5. Fraise  
-6. Abricot  
-7. Pêche  
-8. Raisin  
-7. Figue  
-8. Coing  
-9. Nectarine  
-10. Grenade  
-11. Kaki  
-12. Noix  
-13. Amande  
-14. Cassis  
-15. Châtaigne  
-16. Banane  
-17. Mandarine  
-18. Marron  
-19. Citron  
-20. Agrume  
-21. Fruit  
-22. Orange  
-23. Datte  
-24. Cerisier  
-25. Prunier  
-26. Abricotier  
-27. Pêcher  
-28. Fraisier  
-29. Vigne  
-30. Figuier  
-31. Cognassier  
-32. Nectarinier  
-33. Grenadier  
-35. Noyer  
-36. Amandier  
-37. Châtaignier  
-38. Palmier  
-39. Bananier  
-40. Oranger  
-41. Citronnier  
-42. Framboise  
-43. Mûre  
-44. Mûr ; mûre
-45. Myrtille  
-46. Noisette  
-47. Sureau  
-48. Baie  
-49. Genièvre  
-50. Graine  
-51. confiture
-52. crème
-53. gelée
-54. pot
+6. Fraise  
+7. Abricot  
+8. Pêche  
+9. Raisin  
+10. Figue  
+11. Coing  
+12. Nectarine  
+13. Grenade  
+14. Kaki  
+15. Noix  
+16. Amande  
+17. Cassis  
+18. Châtaigne  
+19. Banane  
+20. Mandarine  
+21. Marron  
+22. Citron  
+23. Agrume  
+24. Fruit  
+25. Orange  
+26. Datte  
+27. Cerisier  
+28. Prunier  
+29. Abricotier  
+30. Pêcher  
+31. Fraisier  
+32. Vigne  
+33. Figuier  
+34. Cognassier  
+35. Nectarinier  
+36. Grenadier  
+37. Noyer  
+38. Amandier  
+39. Châtaignier  
+40. Palmier  
+41. Bananier  
+42. Oranger  
+43. Citronnier  
+44. Framboise  
+45. Mûre  
+46. Mûr ; mûre
+47. Myrtille  
+48. Noisette  
+49. Sureau  
+50. Baie  
+51. Genièvre  
+52. Graine  
+53. confiture
+54. crème
+55. gelée
+56. pot
 
 ### Potager et légumes
 
-50. Carotte  
-51. Tomate  
-52. Courgette  
-53. Concombre  
-54. Aubergine  
-55. Salade  
-56. Radis  
-57. Poireau  
-58. Oignon  
-59. Chou  
-60. Brocoli  
-61. Épinard  
-62. Haricot  
-63. Pois  
-64. Piment  
-65. Poivron  
-66. Betterave  
-67. Navet  
-68. Courge  
-69. Potiron  
-70. Terreau  
-71. Compost  
-72. Engrais  
-73. Paillage  
-74. Gravier  
-75. Goudron  
-76. Sentier  
-77. Paille  
-78. Abris  
-79. Bois  
-80. Gazon  
-81. Semences  
-82. Plant  
-83. Cagette  
-84. Semer  
-85. Bêcher  
-86. Récolter  
-87. Fertiliser  
-88. Parterre  
-89. Allée  
-90. Serre  
-91. Couvercle  
-92. Protection  
-93. Pousse
-94. Bourgeon
+1. Carotte  
+2. Tomate  
+3. Courgette  
+4. Concombre  
+5. Aubergine  
+6. Salade  
+7. Radis  
+8. Poireau  
+9. Oignon  
+10. Chou  
+11. Brocoli  
+12. Épinard  
+13. Haricot  
+14. Pois  
+15. Piment  
+16. Poivron  
+17. Betterave  
+18. Navet  
+19. Courge  
+20. Potiron  
+21. Terreau  
+22. Compost  
+23. Engrais  
+24. Paillage  
+25. Gravier  
+26. Goudron  
+27. Sentier  
+28. Paille  
+29. Abris  
+30. Bois  
+31. Gazon  
+32. Semences  
+33. Plant  
+34. Cagette  
+35. Semer  
+36. Bêcher  
+37. Récolter  
+38. Fertiliser  
+39. Parterre  
+40. Allée  
+41. Serre  
+42. Couvercle  
+43. Protection  
+44. Pousse
+45. Bourgeon
 
 ##  Jardin et travaux
 
@@ -720,103 +720,103 @@
 5. Créer
 6. Imaginer
 7. Tournevis
-7. Pince
-8. Pincer
-9. Scie
-10. Scier
-11. Couper
-12. Perceuse
-13. Percer
-14. Trouer
-15. Vis
-16. Viser
-17. Clou
-13. Adhérer
-14. Marteler
-15. Clouer
-16. Ruban
-17. Adhésif
-18. Attacher
-19. Mètre
-20. Niveau
-21. Trancher
-22. Lime
-23. Poncer
-24. Limer
-25. Rouleau (peinture)
-25. Colorier
-26. Peindre
-27. Pinceau
-28. Colle
-29. Coller
-31. Serrer
-32. Joint
-33. Jointer
-34. Boucher
-35. Scie
-36. Sauter
-37. Ciseau
-38. Former
-39. Équerre
-40. Analyser
-41. Rapporteur
-42. Cheville (murale)
-44. Stocker
-45. Pistolet
-46. Tirer
-47. Viser
+8. Pince
+9. Pincer
+10. Scie
+11. Scier
+12. Couper
+13. Perceuse
+14. Percer
+15. Trouer
+16. Vis
+17. Viser
+18. Clou
+19. Adhérer
+20. Marteler
+21. Clouer
+22. Ruban
+23. Adhésif
+24. Attacher
+25. Mètre
+26. Niveau
+27. Trancher
+28. Lime
+29. Poncer
+30. Limer
+31. Rouleau (peinture)
+32. Colorier
+33. Peindre
+34. Pinceau
+35. Colle
+36. Coller
+37. Serrer
+38. Joint
+39. Jointer
+40. Boucher
+41. Scie
+42. Sauter
+43. Ciseau
+44. Former
+45. Équerre
+46. Analyser
+47. Rapporteur
+48. Cheville (murale)
+49. Stocker
+50. Pistolet
+51. Tirer
+52. Viser
     
 ### Outils de jardin
-50. jardinage
-51. Jardiner
-52. Pelle
-53. Rateau
-54. Brouette
-55. Remorque
-56. Barrière
-57. Dalle
-58. muret
-59. Portillon
-60. Portail
-61. Entrée
-62. Sortie
-63. Planter
-64. Camion
-65. Motoculteur
-66. Pompe
-67. Pomper
-68. Lancer
-70. Tracter
-71. Tracteur
-71. Charue
-71. Chargement
-72. Contenu
-73. Arrosage
-74. Arroser
-75. Arrosoir
-74. Tondeuse
-75. Tondre
-76. Sécateur
-77. cisaille
-78. Binette
-79. Griffe
-80. Griffer
-81. Abimer
-82. déserber
-83. Pioche
-83. hâche
-84. épée
-85. Fourche
-86. Seau
-87. Tronçonneuse
-88. Bucheron
-89. Jardinier
-90. Filet
-91. Attraper
-92. Retenir
-93. Tenir
-94. protéger
-95. Houe
+1. jardinage
+2. Jardiner
+3. Pelle
+4. Rateau
+5. Brouette
+6. Remorque
+7. Barrière
+8. Dalle
+9. muret
+10. Portillon
+11. Portail
+12. Entrée
+13. Sortie
+14. Planter
+15. Camion
+16. Motoculteur
+17. Pompe
+18. Pomper
+19. Lancer
+20. Tracter
+21. Tracteur
+22. Charue
+23. Chargement
+24. Contenu
+25. Arrosage
+26. Arroser
+27. Arrosoir
+28. Tondeuse
+29. Tondre
+30. Sécateur
+31. cisaille
+32. Binette
+33. Griffe
+34. Griffer
+35. Abimer
+36. déserber
+37. Pioche
+38. hâche
+39. épée
+40. Fourche
+41. Seau
+42. Tronçonneuse
+43. Bucheron
+44. Jardinier
+45. Filet
+46. Attraper
+47. Retenir
+48. Tenir
+49. protéger
+50. Houe
 
 ## Calculs et maths
 
@@ -855,9 +855,9 @@
 31. Opération
 32. Fraction
 33. Pourcentage
-35. Somme
-36. Produit
-37. Différence
+34. Somme
+35. Produit
+36. Différence
 37. Quotient
 38. Valeur
 39. Unité
@@ -873,8 +873,8 @@
 49. Constante
 50. Formule
 51. Facteur
-50. Puissance
-51. Racine
+52. Puissance
+53. Racine
 
 ### Comptabilité
 
@@ -889,11 +889,11 @@
 9. compter
 10. Représenter
 11. Rang
-11. Rangée
-12. partielle
-13. Reste
-14. Arrondir
-15. Angle
+12. Rangée
+13. partielle
+14. Reste
+15. Arrondir
+16. Angle
 17. Forme
 18. Symétrie
 19. Géométrie
@@ -906,60 +906,60 @@
 26. Axer
 27. Frontière
 28. Bordure
-28. Coordonnée
-29. Position
-30. Intervalle
-31. Parité (pair/impair)
-32. Inégalité
-33. Equité
-34. Injustice
-35. Proportion
-36. Rapport
-37. Médiane
-38. Facture
-39. Bilan
-40. Conclusion
-41. Résumé
-42. Actif
-43. Passif
-44. Débit
-45. Crédit
-46. Dépense
-47. Profit
-48. Réussir
-49. gain
-50. réussite 
-51. persévérer
-52. Perte
-52. Perdre
-53. Abandonner
-54. Echouer
-55. Intérêt
-56. Capital
-56. Amortir
-57. Amortissement
-57. Taxe
-58. Impôt
-59. Rendement
+29. Coordonnée
+30. Position
+31. Intervalle
+32. Parité (pair/impair)
+33. Inégalité
+34. Equité
+35. Injustice
+36. Proportion
+37. Rapport
+38. Médiane
+39. Facture
+40. Bilan
+41. Conclusion
+42. Résumé
+43. Actif
+44. Passif
+45. Débit
+46. Crédit
+47. Dépense
+48. Profit
+49. Réussir
+50. gain
+51. réussite 
+52. persévérer
+53. Perte
+54. Perdre
+55. Abandonner
+56. Echouer
+57. Intérêt
+58. Capital
+59. Amortir
+60. Amortissement
+61. Taxe
+62. Impôt
+63. Rendement
 
 
 ## 20. **Technologie et médias**
 ### 20.1. **Appareils et outils numériques**
-0. Ordinateur  
-1. Numérique
-2. Portable
-3. Technologie
-4. Médias
-5. Appareil
-6.  Téléphone  
-7.  Internet  
-8.  Connecter
-9.  Connexion
-10. Réseau
-11. relier 
-12. Lien
-13. Télévision  
-14. Radio
+1. Ordinateur  
+2. Numérique
+3. Portable
+4. Technologie
+5. Médias
+6. Appareil
+7.  Téléphone  
+8.  Internet  
+9.  Connecter
+10.  Connexion
+11. Réseau
+12. relier 
+13. Lien
+14. Télévision  
+15. Radio
 16. Musique
 17. Chanson
 18. Son 
@@ -971,266 +971,266 @@
 24. Frapper
 25. Tuer
 26. Mort
-28. Mourir  
-29. Cadavre
-30. Souris
-31. Fil
-32. Câble 
-34. Caméra  
-35. Vidéo  
-36. Photo
-37. Image
-33. Logiciel  
+27. Mourir  
+28. Cadavre
+29. Souris
+30. Fil
+31. Câble 
+32. Caméra  
+33. Vidéo  
+34. Photo
+35. Image
+36. Logiciel  
 
 ### 20.2. **Médias et communication**
-12. Application  
-13. Développer
-14. Communication
-15. Coder
-16. Concevoir
-16. Réfléchir
-17. Penser
-18. Email  
-19. Courrier
-20. Recevoir
-21. Réseau  
-22. Site web  
-23. Web 
-24. Programme
-25. Projet
-26. Langage
-27. Communiquer
-28. Echanger
-29. Fournir  
-30. Actualités
-31. Information
-30. Magazine  
-31. Blog  
-32. Conférence  
-33. Intervention
-34. Concert
-35. Spectable
-36. Discours
-38. Discussion  
-39. Film
-40. Court-métrage
-41. Numérique
-42. Chargeur
-43. Prise
-44. Brancher
-42. Alimenter
+1. Application  
+2. Développer
+3. Communication
+4. Coder
+5. Concevoir
+6. Réfléchir
+7. Penser
+8. Email  
+9. Courrier
+10. Recevoir
+11. Réseau  
+12. Site web  
+13. Web 
+14. Programme
+15. Projet
+16. Langage
+17. Communiquer
+18. Echanger
+19. Fournir  
+20. Actualités
+21. Information
+22. Magazine  
+23. Blog  
+24. Conférence  
+25. Intervention
+26. Concert
+27. Spectable
+28. Discours
+29. Discussion  
+30. Film
+31. Court-métrage
+32. Numérique
+33. Chargeur
+34. Prise
+35. Brancher
+36. Alimenter
 
 ## 28. **Mots liés à la maison et à la vie quotidienne**
 ### 28.1. **Objets domestiques**
-0. Clé  
-1. Objet
-2. Domestique
-3. Sauvage
-4. vie
-5. quotidien
-6. régulier 
-7. Portefeuille  
-8. Affaire
-9. Equipement
-10. Télécommande  
-11. Lampe 
-12. Sol
-13. Trousse
-14. Sacoche
-15. Poteau
-16. Pilier
-17. Placard
-18. Tapis
-19. Bouteille
-20. Gourde
-21. Bouchon
-22. Entonoir
-22. Flacon
-23. Fiole
-24. Récipient
-25. Ustencile
-26. Produit
-27. Rideau 
-28. Volet
-29. Vitre
-30. Poignée 
-31. Tableau  
-32. Pendule 
-33. Réveil  
-34. Réveillon
-35. Se réveiller
-36. S'endormir
-37. Rêver
-38. Aspirateur  
-39. Balai
-36. Brosse
-37. Laver
-38. Ranger
-39. Garer
-40. Lessive
-41. Savon
-42. Liquide
-43. Solide
-44. Vaisselle
-45. Machine
+1. Clé  
+2. Objet
+3. Domestique
+4. Sauvage
+5. vie
+6. quotidien
+7. régulier 
+8. Portefeuille  
+9. Affaire
+10. Equipement
+11. Télécommande  
+12. Lampe 
+13. Sol
+14. Trousse
+15. Sacoche
+16. Poteau
+17. Pilier
+18. Placard
+19. Tapis
+20. Bouteille
+21. Gourde
+22. Bouchon
+23. Entonoir
+24. Flacon
+25. Fiole
+26. Récipient
+27. Ustencile
+28. Produit
+29. Rideau 
+30. Volet
+31. Vitre
+32. Poignée 
+33. Tableau  
+34. Pendule 
+35. Réveil  
+36. Réveillon
+37. Se réveiller
+38. S'endormir
+39. Rêver
+40. Aspirateur  
+41. Balai
+42. Brosse
+43. Laver
+44. Ranger
+45. Garer
+46. Lessive
+47. Savon
+48. Liquide
+49. Solide
+50. Vaisselle
+51. Machine
 
 ### 28.2. **Équipements ménagers**
-12. Réfrigérateur 
-13. Congélateur
-14. Conserver
-15. Supprimer
-16. Enlever
-17. Mettre
-18. Déposer
-19. Ménager (économiser)
-20. Ménager (de la maison)
-21. Habiller
-22. Four  
-23. Micro-ondes  
-24. Plaque
-25. Cuisson
-26. Cuire
-27. Cuit
-28. Gaz
-29. Pétrole
-30. Electricité
-30. Ampoule
-31. Eclairage
-32. Lampe
-33. Imprimante
-34. Scanner
-35. Peinture
-35. Lave-vaisselle  
-36. Evier
-37. Lavabo
-38. Robinet
-39. Tuyau
-40. Bout
-41. Bord
-42. Eponge
-43. Torchon
-42. Tissu
-43. Séchoir
-44. Sécher
-45. Poêle  (cuisine)
-46. Poêle (chauffage)
-47. Plat (cuisine)
-48. Casserole  
-49. Assiette
-50. Serviette
-51. Bougie
-52. Nappe
-53. Tapis 
-54. Goûter
-55. Aimer
-56. Détester
-57. plaire
-58. adorer
-59. Bol
-58. Cocôtte
-59. Repas 
-60. Dîner  
-61. Verre  
-62. Coupe
-63. Tasse  
-64. Cuillère  
-65. Fourchette  
-64. Couteau
-65. Eplucher
-66. Spatule
-67. Racloir
-68. Racler
+1. Réfrigérateur 
+2. Congélateur
+3. Conserver
+4. Supprimer
+5. Enlever
+6. Mettre
+7. Déposer
+8. Ménager (économiser)
+9. Ménager (de la maison)
+10. Habiller
+11. Four  
+12. Micro-ondes  
+13. Plaque
+14. Cuisson
+15. Cuire
+16. Cuit
+17. Gaz
+18. Pétrole
+19. Electricité
+20. Ampoule
+21. Eclairage
+22. Lampe
+23. Imprimante
+24. Scanner
+25. Peinture
+26. Lave-vaisselle  
+27. Evier
+28. Lavabo
+29. Robinet
+30. Tuyau
+31. Bout
+32. Bord
+33. Eponge
+34. Torchon
+35. Tissu
+36. Séchoir
+37. Sécher
+38. Poêle  (cuisine)
+39. Poêle (chauffage)
+40. Plat (cuisine)
+41. Casserole  
+42. Assiette
+43. Serviette
+44. Bougie
+45. Nappe
+46. Tapis 
+47. Goûter
+48. Aimer
+49. Détester
+50. plaire
+51. adorer
+52. Bol
+53. Cocôtte
+54. Repas 
+55. Dîner  
+56. Verre  
+57. Coupe
+58. Tasse  
+59. Cuillère  
+60. Fourchette  
+61. Couteau
+62. Eplucher
+63. Spatule
+64. Racloir
+65. Racler
     
 ## 23. **Adjectifs courants**
 ### 23.1. **Descriptions physiques**
-0. Grand  
-1. Courant
-2. Adjectif
-3. Description
-4. Physique
-5. Santé
-6. Taille
-7. Poids
-8. Masse 
-9. hauteur
-10. largeur
-11. profondeur
-12. Peser
-13. Mesurer
-14. Gros
-15. Maigre
-16. Fin
-17. Haut
-18. Bas
-19. Lourd
-20. Léger
-21. Epais
-22. Petit  
-23. Nouveau
-24. Ancien  
-25. Vieux
-26. Agé
-27. Age 
-28. Jeune  
-29. Beau  
-30. Laid  
-30. Fort  
-31. Faible 
-32. Puissant
-33. Courageux
-34. Lâche 
-35. Léger  
-36. Lourd  
-37. Rapide  
-38. Vite
-39. Vitesse
+1. Grand  
+2. Courant
+3. Adjectif
+4. Description
+5. Physique
+6. Santé
+7. Taille
+8. Poids
+9. Masse 
+10. hauteur
+11. largeur
+12. profondeur
+13. Peser
+14. Mesurer
+15. Gros
+16. Maigre
+17. Fin
+18. Haut
+19. Bas
+20. Lourd
+21. Léger
+22. Epais
+23. Petit  
+24. Nouveau
+25. Ancien  
+26. Vieux
+27. Agé
+28. Age 
+29. Jeune  
+30. Beau  
+31. Laid  
+32. Fort  
+33. Faible 
+34. Puissant
+35. Courageux
+36. Lâche 
+37. Léger  
+38. Lourd  
+39. Rapide  
+40. Vite
+41. Vitesse
     
 
 ### 23.2. **Descriptions de caractère et de qualité**
-12. Bon  
-13. Bien
-14. Caractère
-15. Comportement
-16. Action
-17. Actionner
-18. Utiliser
-19. Qualité
-20. Valeur
-21. Intérressant
-22. Ennuyeux
-23. Formidable 
-24. Horrible
-25. Effrayant
-26. embêtant
-27. Mauvais  
-28. Facile  
-29. Difficile  
-30. Compliqué
-31. Complexe
-32. Simple
-33. Lent  
-34. Rapide
-35. Moyen
-36. Moyenne
-37. Moyennement
-38. Extrême 
-39. Extrêmement
-40. Infinie
-41. Infiniment
-41. Cher  
-42. Gratuit
-43. Rentable
-44. Gentil  
-45. Méchant  
-46. Intelligent  
-47. Malin
-48. Naif
-49. Stupide  
-50. Sûr  
-51. Dangereux
-52. Bizarre
-53. Curieux
-54. Genant
+1. Bon  
+2. Bien
+3. Caractère
+4. Comportement
+5. Action
+6. Actionner
+7. Utiliser
+8. Qualité
+9. Valeur
+10. Intérressant
+11. Ennuyeux
+12. Formidable 
+13. Horrible
+14. Effrayant
+15. embêtant
+16. Mauvais  
+17. Facile  
+18. Difficile  
+19. Compliqué
+20. Complexe
+21. Simple
+22. Lent  
+23. Rapide
+24. Moyen
+25. Moyenne
+26. Moyennement
+27. Extrême 
+28. Extrêmement
+29. Infinie
+30. Infiniment
+31. Cher  
+32. Gratuit
+33. Rentable
+34. Gentil  
+35. Méchant  
+36. Intelligent  
+37. Malin
+38. Naif
+39. Stupide  
+40. Sûr  
+41. Dangereux
+42. Bizarre
+43. Curieux
+44. Genant
     
 ## 21. **Lieux et directions**
 ### 21.1. **Lieux urbains**
@@ -1303,26 +1303,26 @@
 27. Prune
 28. Figuier
 29. Figue
-27. buis
-28. buisson
-29. ronce
-30. haie
-31. rosier
-32. Prairie
-33. Herbe
-34. Pelouse
-35. Végétation
-36. Près
-37. Col
-38. Ciel  
-39. Etang
-40. Étoile  
-41. Planète
-42. Lune
-43. Espace
-44. Observation
-45. Observer
-46. Surveiller
+30. buis
+31. buisson
+32. ronce
+33. haie
+34. rosier
+35. Prairie
+36. Herbe
+37. Pelouse
+38. Végétation
+39. Près
+40. Col
+41. Ciel  
+42. Etang
+43. Étoile  
+44. Planète
+45. Lune
+46. Espace
+47. Observation
+48. Observer
+49. Surveiller
 
 
 ## 18. **Voyages et tourisme**
@@ -1351,40 +1351,40 @@
 22. organisation
 
 ### 18.2. **Destinations et activités**
-12. Trajet  
-13. Itinéraire  
-14. Exploration
-15. touristique  
-16. Populaire
-17. Randonnée
-18. Promenade
-19. Souvenir  
-20. Monument  
-21. Statue
-22. Plage 
-23. Sable
-24. Mer
-25. lac
-26. Rivière
-27. ruisseau
-28. Fleuve
-29. Cascade
-30. jaillir 
-31. ardeur
-32. Rayonner
-33. Rayonnement
-34. flaque 
-34. Montagne
-35. Grotte
-36. colline  
-37. Camping  
-38. Désert 
-39. Circuit  
-40. tournée
-41. Croisière  
-42. Course
-43. Compétition
-44. Se dépêcher
+1. Trajet  
+2. Itinéraire  
+3. Exploration
+4. touristique  
+5. Populaire
+6. Randonnée
+7. Promenade
+8. Souvenir  
+9. Monument  
+10. Statue
+11. Plage 
+12. Sable
+13. Mer
+14. lac
+15. Rivière
+16. ruisseau
+17. Fleuve
+18. Cascade
+19. jaillir 
+20. ardeur
+21. Rayonner
+22. Rayonnement
+23. flaque 
+24. Montagne
+25. Grotte
+26. colline  
+27. Camping  
+28. Désert 
+29. Circuit  
+30. tournée
+31. Croisière  
+32. Course
+33. Compétition
+34. Se dépêcher
     
 ## 19. **Éducation et apprentissage**
 ### 19.1. **Établissements et structures**
@@ -1422,40 +1422,40 @@
 32. Ecriture
 
 ### 19.2. **Activités et outils d'apprentissage**
-12. Leçon  
-13. Activité
-14. Outil
-15. Cours
-16. Devoir  
-17. Étudier
-18. étude
-19. Réviser
-20. Apprendre  
-21. Oublier
-22. Mémoriser
-23. Expliquer
-24. Professeur  
-25. Maître
-26. Enseignant
-27. Élève  
-28. Etudiant
-29. Cahier  
-30. Livre  
-31. Document
-32. dossier
-33. Page
-34. Partie
-35. Crayon à papier
-36. Effaceur
-37. Effacer
-35. Dessiner
-36. Noter
-37. Crayon  
-38. Stylo  
-39. Gomme  
-40. Règle  
-41. Examen
-42. Evaluation
+1. Leçon  
+2. Activité
+3. Outil
+4. Cours
+5. Devoir  
+6. Étudier
+7. étude
+8. Réviser
+9. Apprendre  
+10. Oublier
+11. Mémoriser
+12. Expliquer
+13. Professeur  
+14. Maître
+15. Enseignant
+16. Élève  
+17. Etudiant
+18. Cahier  
+19. Livre  
+20. Document
+21. dossier
+22. Page
+23. Partie
+24. Crayon à papier
+25. Effaceur
+26. Effacer
+27. Dessiner
+28. Noter
+29. Crayon  
+30. Stylo  
+31. Gomme  
+32. Règle  
+33. Examen
+34. Evaluation
     
 ## 47. **Mots liés à la culture générale**
 ### 47.1. **Humanités et sciences sociales**
@@ -1478,26 +1478,26 @@
 17. Linguistique  
 
 ### 47.2. **Sciences et technologies**
-12. Anthropologie  
-13. social
-14. humain
-15. Sociologie  
-16. Économie  
-17. Physique  
-18. Chimie  
-19. Chimiste 
-20. Biologie  
-21. Biologiste
-22. Mathématiques  
-23. Statistiques  
-24. Informatique  
-25. Technologie  
-26. Ingénierie  
-27. Innovation  
-28. Recherche
-29. chercher
-30. trouver
-31. cacher
+1. Anthropologie  
+2. social
+3. humain
+4. Sociologie  
+5. Économie  
+6. Physique  
+7. Chimie  
+8. Chimiste 
+9. Biologie  
+10. Biologiste
+11. Mathématiques  
+12. Statistiques  
+13. Informatique  
+14. Technologie  
+15. Ingénierie  
+16. Innovation  
+17. Recherche
+18. chercher
+19. trouver
+20. cacher
     
 ## 48. **Mots liés aux sentiments et aux relations humaines**
 ### 48.1. **Sentiments positifs**
@@ -1517,22 +1517,22 @@
 14. Coopération  
 
 ### 48.2. **Sentiments négatifs**
-12. Jalousie  
-13. négatif
-14. Envie  
-15. Trahison  
-16. Conflit  
-17. Indifférence  
-18. différence
-19. Hostilité  
-20. Rivalité  
-21. Désespoir  
-22. Anxiété  
-23. Méfiance  
-24. Agressivité  
-25. Rejet  
-26. Rejeter
-27. Isolement
+1. Jalousie  
+2. négatif
+3. Envie  
+4. Trahison  
+5. Conflit  
+6. Indifférence  
+7. différence
+8. Hostilité  
+9. Rivalité  
+10. Désespoir  
+11. Anxiété  
+12. Méfiance  
+13. Agressivité  
+14. Rejet  
+15. Rejeter
+16. Isolement
     
 ## 17. **Achats et argent**
 ### 17.1. **Opérations d'achat et de vente**
@@ -1552,633 +1552,633 @@
 14. Supermarché  
 
 ### 17.2. **Gestion financière**
-12. Panier  
-13. Promotion  
-14. Soldes  
-15. Budget  
-16. Économies  
-17. Dépense  
-18. Épargne  
-19. Transaction  
-20. Investissement  
-21. Crédit  
-22. Débit  
-23. Revenu  
-24. Salaire
+1. Panier  
+2. Promotion  
+3. Soldes  
+4. Budget  
+5. Économies  
+6. Dépense  
+7. Épargne  
+8. Transaction  
+9. Investissement  
+10. Crédit  
+11. Débit  
+12. Revenu  
+13. Salaire
 
 ## 14. **Profession et travail**
 ### 14.1. **Professions courantes**
-0. Travail  
-1. Employé  
-2. Ouvrier  
-3. Agriculteur  
-4. Enseignant  
-5. Médecin  
-6. Avocat  
-7. Infirmier  
-8. Policier  
-9. Pompier  
-10. Ingénieur  
-11. Électricien  
+1. Travail  
+2. Employé  
+3. Ouvrier  
+4. Agriculteur  
+5. Enseignant  
+6. Médecin  
+7. Avocat  
+8. Infirmier  
+9. Policier  
+10. Pompier  
+11. Ingénieur  
+12. Électricien  
 
 ### 14.2. **Autres métiers**
-12. Plombier  
-13. Peintre  
-14. Mécanicien  
-15. Architecte  
-16. Vendeur  
-17. Coiffeur  
-18. Cuisinier  
-19. Serveur  
-20. Réceptionniste  
-21. Caissier  
-22. Pharmacien  
-23. Boulanger  
-24. Boucher
+1. Plombier  
+2. Peintre  
+3. Mécanicien  
+4. Architecte  
+5. Vendeur  
+6. Coiffeur  
+7. Cuisinier  
+8. Serveur  
+9. Réceptionniste  
+10. Caissier  
+11. Pharmacien  
+12. Boulanger  
+13. Boucher
 
 ## 12. **Nombres et quantités**
 ### 12.1. **Nombres de base**
-0. Un  
-1. Deux  
-2. Trois  
-3. Quatre  
-4. Cinq  
-5. Six  
-6. Sept  
-7. Huit  
-8. Neuf  
-9. Dix  
-10. Vingt  
-11. Trente  
+1. Un  
+2. Deux  
+3. Trois  
+4. Quatre  
+5. Cinq  
+6. Six  
+7. Sept  
+8. Huit  
+9. Neuf  
+10. Dix  
+11. Vingt  
+12. Trente  
 
 ### 12.2. **Quantités et nombres avancés**
-12. Quarante  
-13. Cinquante  
-14. Soixante  
-15. Cent  
-16. Mille  
-17. Premier  
-18. Deuxième  
-19. Moitié  
-20. Quart  
-21. Plusieurs  
-22. Moins  
-23. Plus  
-24. Ensemble  
-25. Seul
+1. Quarante  
+2. Cinquante  
+3. Soixante  
+4. Cent  
+5. Mille  
+6. Premier  
+7. Deuxième  
+8. Moitié  
+9. Quart  
+10. Plusieurs  
+11. Moins  
+12. Plus  
+13. Ensemble  
+14. Seul
 
 ## 8. **Vêtements et accessoires**
 ### 8.1. **Vêtements**
-0. Pantalon  
-1. Chemise  
-2. Veste  
-3. Manteau  
-4. Robe  
-5. Jupe  
-6. Chaussure  
-7. Chaussette  
-8. Chapeau  
-9. Écharpe  
-10. Gant  
-11. Ceinture  
+1. Pantalon  
+2. Chemise  
+3. Veste  
+4. Manteau  
+5. Robe  
+6. Jupe  
+7. Chaussure  
+8. Chaussette  
+9. Chapeau  
+10. Écharpe  
+11. Gant  
+12. Ceinture  
 
 ### 8.2. **Accessoires et bijoux**
-12. Sac  
-13. Lunettes  
-14. Montre  
-15. Panier 
-16. Collier  
-17. Bague  
-18. Parapluie 
-19. Sandale  
-20. Bracelet  
-21. Sac à dos
-22. Barette  
-23. Cuir  
-24. Laine
+1. Sac  
+2. Lunettes  
+3. Montre  
+4. Panier 
+5. Collier  
+6. Bague  
+7. Parapluie 
+8. Sandale  
+9. Bracelet  
+10. Sac à dos
+11. Barette  
+12. Cuir  
+13. Laine
 
 ## 15. **Activités quotidiennes**
 ### 15.1. **Routines quotidiennes**
-0. Se lever  
-1. Manger  
-2. Dormir  
-3. Se laver  
-4. Travailler  
-5. Se reposer  
-6. Cuisiner  
-7. Nettoyer  
-8. Lire  
-9. Écrire  
-10. Parler  
-11. Écouter  
+1. Se lever  
+2. Manger  
+3. Dormir  
+4. Se laver  
+5. Travailler  
+6. Se reposer  
+7. Cuisiner  
+8. Nettoyer  
+9. Lire  
+10. Écrire  
+11. Parler  
+12. Écouter  
 
 ### 15.2. **Autres activités**
-12. Regarder  
-13. Marcher  
-14. Courir  
-15. S'asseoir  
-16. Conduire  
-17. Acheter  
-18. Vendre  
-19. Se promener  
-20. Prendre une douche  
-21. Se maquiller  
-22. Se coiffer  
-23. Se raser  
-24. Réparer
+1. Regarder  
+2. Marcher  
+3. Courir  
+4. S'asseoir  
+5. Conduire  
+6. Acheter  
+7. Vendre  
+8. Se promener  
+9. Prendre une douche  
+10. Se maquiller  
+11. Se coiffer  
+12. Se raser  
+13. Réparer
 
 ## 13. **Météo et saisons**
 ### 13.1. **Conditions météorologiques**
-0. Soleil  
-1. Pluie  
-2. Neige  
-3. Vent  
-4. Nuage  
-5. Tempête  
-6. Foudre  
-7. Brouillard  
-8. Arc-en-ciel  
-9. Orage  
-10. Chaud  
-11. Froid
-12. Tonerre
-13. Tonner
-14. souffler
+1. Soleil  
+2. Pluie  
+3. Neige  
+4. Vent  
+5. Nuage  
+6. Tempête  
+7. Foudre  
+8. Brouillard  
+9. Arc-en-ciel  
+10. Orage  
+11. Chaud  
+12. Froid
+13. Tonerre
+14. Tonner
+15. souffler
 
 ### 13.2. **Phénomènes météorologiques**
-12. Gel  
-13. Grêle  
-14. Humidité  
-15. Canicule  
-16. Brume  
-17. Éclair  
-18. Climat  
-19. Saisons  
-20. Équinoxe  
-21. Solstice  
-22. Déluge  
-23. Sécheresse  
-24. Avalanche
+1. Gel  
+2. Grêle  
+3. Humidité  
+4. Canicule  
+5. Brume  
+6. Éclair  
+7. Climat  
+8. Saisons  
+9. Équinoxe  
+10. Solstice  
+11. Déluge  
+12. Sécheresse  
+13. Avalanche
 
 ## 11. **Animaux**
 ### 11.1. **Animaux domestiques**
-0. Chien  
-1. Chat  
-2. Oiseau  
-3. Poisson  
-4. Lapin  
-5. Souris  
-6. Grenouille 
-7. Perdrix 
-8. Tortue  
-9. Serpent  
-10. Insecte
-11. Sanglier  
+1. Chien  
+2. Chat  
+3. Oiseau  
+4. Poisson  
+5. Lapin  
+6. Souris  
+7. Grenouille 
+8. Perdrix 
+9. Tortue  
+10. Serpent  
+11. Insecte
+12. Sanglier  
 
 ### 11.2. **Animaux de ferme et sauvages**
-12. Cheval  
-13. Vache  
-14. Cochon  
-15. Mouton  
-16. Chèvre  
-17. Poule  
-18. Canard  
-19. Singe  
-20. Tigre  
-21. Éléphant  
-22. Lion  
-23. Serpent  
-24. Abeille  
-25. Papillon
+1. Cheval  
+2. Vache  
+3. Cochon  
+4. Mouton  
+5. Chèvre  
+6. Poule  
+7. Canard  
+8. Singe  
+9. Tigre  
+10. Éléphant  
+11. Lion  
+12. Serpent  
+13. Abeille  
+14. Papillon
 
 
 ## 10. **Maison et meubles**
 ### 10.1. **Pièces de la maison**
-0. Maison  
-1. Appartement  
-2. Chambre  
-3. Salon  
-4. Cuisine  
-5. Salle de bain  
-6. Toilette  
-7. Bureau  
-8. Grenier  
-9. Cave  
-10. Garage  
-11. Jardin  
+1. Maison  
+2. Appartement  
+3. Chambre  
+4. Salon  
+5. Cuisine  
+6. Salle de bain  
+7. Toilette  
+8. Bureau  
+9. Grenier  
+10. Cave  
+11. Garage  
+12. Jardin  
 
 ### 10.2. **Meubles et éléments**
-12. Lit  
-13. Table  
-14. Chaise  
-15. Canapé  
-16. Armoire  
-17. Tiroir  
-18. Étagère  
-19. Bureau  
-20. Fenêtre  
-21. Porte  
-22. Miroir  
-23. Escalier  
-24. Plafond  
-25. Mur
+1. Lit  
+2. Table  
+3. Chaise  
+4. Canapé  
+5. Armoire  
+6. Tiroir  
+7. Étagère  
+8. Bureau  
+9. Fenêtre  
+10. Porte  
+11. Miroir  
+12. Escalier  
+13. Plafond  
+14. Mur
 
 ## 25. **Mots interrogatifs et conjonctions**
 ### 25.1. **Mots interrogatifs**
-0. Qui  
-1. Quoi  
-2. Où  
-3. Quand  
-4. Pourquoi  
-5. Comment  
-6. Lequel  
-7. Combien  
-8. Quel  
-9. Quelque  
-10. Quiconque  
-11. Pourquoi
+1. Qui  
+2. Quoi  
+3. Où  
+4. Quand  
+5. Pourquoi  
+6. Comment  
+7. Lequel  
+8. Combien  
+9. Quel  
+10. Quelque  
+11. Quiconque  
+12. Pourquoi
 
 ### 25.2. **Conjonctions et connecteurs**
-12. Parce que  
-13. Et  
-14. Ou  
-15. Mais  
-16. Donc  
-17. Alors  
-18. Puis  
-19. Cependant  
-20. Car  
-21. Si  
-22. Pourtant  
-23. Tandis que  
-24. Bien que
+1. Parce que  
+2. Et  
+3. Ou  
+4. Mais  
+5. Donc  
+6. Alors  
+7. Puis  
+8. Cependant  
+9. Car  
+10. Si  
+11. Pourtant  
+12. Tandis que  
+13. Bien que
 
 ## 26. **Prépositions courantes**
 ### 26.1. **Prépositions de lieu**
-0. À  
-1. De  
-2. En  
-3. Sur  
-4. Sous  
-5. Devant  
-6. Derrière  
-7. Avec  
-8. Sans  
-9. Entre  
-10. Parmi  
-11. Près de  
+1. À  
+2. De  
+3. En  
+4. Sur  
+5. Sous  
+6. Devant  
+7. Derrière  
+8. Avec  
+9. Sans  
+10. Entre  
+11. Parmi  
+12. Près de  
 
 ### 26.2. **Prépositions de temps et direction**
-12. Jusqu'à  
-13. Vers  
-14. Autour de  
-15. À côté de  
-16. Loin de  
-17. Pendant  
-18. Depuis  
-19. Pour  
-20. Avant  
-21. Après  
-22. Durant  
-23. Chez  
-24. Dès
+1. Jusqu'à  
+2. Vers  
+3. Autour de  
+4. À côté de  
+5. Loin de  
+6. Pendant  
+7. Depuis  
+8. Pour  
+9. Avant  
+10. Après  
+11. Durant  
+12. Chez  
+13. Dès
 
 ## 27. **Mots de quantité**
 ### 27.1. **Quantités absolues**
-0. Beaucoup  
-1. Peu  
-2. Trop  
-3. Assez  
-4. Tout  
-5. Rien  
-6. Quelque chose  
-7. Personne  
-8. Aucun  
-9. Quelques  
-10. Plusieurs  
-11. Un peu  
+1. Beaucoup  
+2. Peu  
+3. Trop  
+4. Assez  
+5. Tout  
+6. Rien  
+7. Quelque chose  
+8. Personne  
+9. Aucun  
+10. Quelques  
+11. Plusieurs  
+12. Un peu  
 
 ### 27.2. **Expressions de fréquence**
-12. Toujours  
-13. Souvent  
-14. Parfois  
-15. Rarement 
-16. Rare
-17. Presque
-18. Fréquence 
-19. Jamais  
-20. Tout le monde  
-21. Personne  
-22. Tous les jours  
-23. Tous les soirs  
-24. De temps en temps  
-25. Une fois  
-26. Deux fois  
-26. Fréquemment
+1. Toujours  
+2. Souvent  
+3. Parfois  
+4. Rarement 
+5. Rare
+6. Presque
+7. Fréquence 
+8. Jamais  
+9. Tout le monde  
+10. Personne  
+11. Tous les jours  
+12. Tous les soirs  
+13. De temps en temps  
+14. Une fois  
+15. Deux fois  
+16. Fréquemment
 
 ## 9. **Transports**
 ### 9.1. **Moyens de transport**
-0. Voiture  
-1. Train  
-2. Avion  
-3. Bus  
-4. Taxi  
-5. Vélo  
-6. Moto  
-7. Bateau  
-8. Métro  
-9. Tramway  
-10. Scooter  
-11. Trotinette
+1. Voiture  
+2. Train  
+3. Avion  
+4. Bus  
+5. Taxi  
+6. Vélo  
+7. Moto  
+8. Bateau  
+9. Métro  
+10. Tramway  
+11. Scooter  
+12. Trotinette
 
 ### 9.2. **Infrastructure et déplacement**
-12. Gare  
-13. Aéroport  
-14. Route  
-15. Autoroute  
-16. Pont  
-17. Feu rouge  
-18. Permis  
-19. Essence  
-20. Station  
-21. Quai  
-22. Passage  
-23. Passage piéton  
-24. Embouteillage
-25. Rue 
-26. Permettre
+1. Gare  
+2. Aéroport  
+3. Route  
+4. Autoroute  
+5. Pont  
+6. Feu rouge  
+7. Permis  
+8. Essence  
+9. Station  
+10. Quai  
+11. Passage  
+12. Passage piéton  
+13. Embouteillage
+14. Rue 
+15. Permettre
 
 ## 24. **Verbes courants**
 ### 24.1. **Actions essentielles**
-0. Être  
-1. Avoir  
-2. Aller  
-3. Venir  
-4. Faire  
-5. Dire  
-6. Voir  
-7. Savoir  
-8. Pouvoir  
-9. Vouloir  
-10. Devoir  
-11. Prendre  
+1. Être  
+2. Avoir  
+3. Aller  
+4. Venir  
+5. Faire  
+6. Dire  
+7. Voir  
+8. Savoir  
+9. Pouvoir  
+10. Vouloir  
+11. Devoir  
+12. Prendre  
 
 ### 24.2. **Verbes d'interaction**
-12. Donner  
-13. Parler  
-14. Écouter  
-15. Lire  
-16. Écrire  
-17. Acheter  
-18. Vendre  
-19. Manger  
-20. Boire  
-21. Ouvrir  
-22. Fermer  
-23. Rire  
-24. Pleurer
+1. Donner  
+2. Parler  
+3. Écouter  
+4. Lire  
+5. Écrire  
+6. Acheter  
+7. Vendre  
+8. Manger  
+9. Boire  
+10. Ouvrir  
+11. Fermer  
+12. Rire  
+13. Pleurer
 
 ## 22. **Expressions courantes**
 ### 22.1. **Expressions de confirmation et de doute**
-0. Bien sûr  
-1. Pourquoi pas  
-2. Je ne sais pas  
-3. C'est vrai  
-4. C'est faux  
-5. Je comprends  
-6. Je ne comprends pas  
-7. D'accord  
-8. Pas de problème  
-9. Ça marche  
-10. Enchanté  
-11. Pas mal  
+1. Bien sûr  
+2. Pourquoi pas  
+3. Je ne sais pas  
+4. C'est vrai  
+5. C'est faux  
+6. Je comprends  
+7. Je ne comprends pas  
+8. D'accord  
+9. Pas de problème  
+10. Ça marche  
+11. Enchanté  
+12. Pas mal  
 
 ### 22.2. **Expressions d'indifférence et de souhait**
-12. Tant pis  
-13. Ça m'est égal  
-14. Peut-être  
-15. Aucun problème  
-16. J'espère  
-17. Quelle heure est-il ?  
-18. Comment vous appelez-vous ?  
-19. Je m'appelle  
-20. Bon courage  
-21. Bravo  
-22. C'est dommage  
-23. Pourquoi pas  
+1. Tant pis  
+2. Ça m'est égal  
+3. Peut-être  
+4. Aucun problème  
+5. J'espère  
+6. Quelle heure est-il ?  
+7. Comment vous appelez-vous ?  
+8. Je m'appelle  
+9. Bon courage  
+10. Bravo  
+11. C'est dommage  
+12. Pourquoi pas  
 
 ## 7. **Couleurs et formes**
 ### 7.1. **Couleurs**
-0. Rouge  
-1. Bleu  
-2. Vert  
-3. Jaune  
-4. Noir  
-5. Blanc  
-6. Gris  
-7. Marron  
-8. Rose  
-9. Violet  
-10. Orange
+1. Rouge  
+2. Bleu  
+3. Vert  
+4. Jaune  
+5. Noir  
+6. Blanc  
+7. Gris  
+8. Marron  
+9. Rose  
+10. Violet  
+11. Orange
 
 ### 7.2. **Formes et dimensions**
-11. Carré  
-12. Rond  
-13. Triangle  
-14. Ovale  
-15. Rectangle  
-16. Grand  
-17. Petit  
-18. Long  
-19. Court  
-20. Large  
-21. Étroit  
-22. Profond
+1. Carré  
+2. Rond  
+3. Triangle  
+4. Ovale  
+5. Rectangle  
+6. Grand  
+7. Petit  
+8. Long  
+9. Court  
+10. Large  
+11. Étroit  
+12. Profond
 
 ## 1. **Salutations et formules de politesse**
 ### 1.1. **Formules de base**
-0. Bonjour  
-1. Salut  
-2. Bonsoir  
-3. Au revoir  
-4. Adieu  
-5. Merci  
-6. S'il vous plaît  
-7. Excusez-moi  
-8. Pardon  
-9. De rien  
-10. Oui  
-11. Non
+1. Bonjour  
+2. Salut  
+3. Bonsoir  
+4. Au revoir  
+5. Adieu  
+6. Merci  
+7. S'il vous plaît  
+8. Excusez-moi  
+9. Pardon  
+10. De rien  
+11. Oui  
+12. Non
 
 ### 1.2. **Formules complémentaires**
-12. Peut-être  
-13. D'accord  
-14. Bienvenue  
-15. Comment ça va ?  
-16. Ça va bien  
-17. Et vous ?  
-18. À bientôt  
-19. Bonne journée  
-20. Bonne nuit  
-21. Félicitations  
-22. Bonne chance  
-23. Santé  
-24. Désolé
+1. Peut-être  
+2. D'accord  
+3. Bienvenue  
+4. Comment ça va ?  
+5. Ça va bien  
+6. Et vous ?  
+7. À bientôt  
+8. Bonne journée  
+9. Bonne nuit  
+10. Félicitations  
+11. Bonne chance  
+12. Santé  
+13. Désolé
 
 ## 2. **Famille et relations**
 ### 2.1. **Famille immédiate**
-0. Père  
-1. Mère  
-2. Frère  
-3. Sœur  
-4. Fils  
-5. Fille  
-6. Mari  
-7. Femme  
-8. Enfant  
-9. Bébé  
-10. Grand-père  
-11. Grand-mère  
+1. Père  
+2. Mère  
+3. Frère  
+4. Sœur  
+5. Fils  
+6. Fille  
+7. Mari  
+8. Femme  
+9. Enfant  
+10. Bébé  
+11. Grand-père  
+12. Grand-mère  
 
 ### 2.2. **Famille étendue et relations sociales**
-12. Oncle  
-13. Tante  
-14. Cousin  
-15. Cousine  
-16. Neveu  
-17. Nièce  
-18. Ami  
-19. Amie  
-20. Voisin  
-21. Collègue  
-22. Patron  
-23. Maître  
-24. Élève
+1. Oncle  
+2. Tante  
+3. Cousin  
+4. Cousine  
+5. Neveu  
+6. Nièce  
+7. Ami  
+8. Amie  
+9. Voisin  
+10. Collègue  
+11. Patron  
+12. Maître  
+13. Élève
 
 ## 3. **Nourriture et boissons**
 ### 3.1. **Aliments de base**
-0. Pain  
-1. Eau  
-2. Vin  
-3. Fromage  
-4. Pomme  
-5. Lait  
-6. Café  
-7. Thé  
-8. Viande  
-9. Poulet  
-10. Poisson  
-11. Légume
+1. Pain  
+2. Eau  
+3. Vin  
+4. Fromage  
+5. Pomme  
+6. Lait  
+7. Café  
+8. Thé  
+9. Viande  
+10. Poulet  
+11. Poisson  
+12. Légume
 
 ### 3.2. **Autres aliments et condiments**
-12. Fruit  
-13. Salade  
-14. Soupe  
-15. Riz  
-16. Pâtes  
-17. Sucre  
-18. Sel  
-19. Poivre  
-20. Beurre  
-21. Œuf  
-22. Jus  
-23. Bière  
-24. Gâteau
+1. Fruit  
+2. Salade  
+3. Soupe  
+4. Riz  
+5. Pâtes  
+6. Sucre  
+7. Sel  
+8. Poivre  
+9. Beurre  
+10. Œuf  
+11. Jus  
+12. Bière  
+13. Gâteau
 
 ## 4. **Corps humain et santé**
 ### 4.1. **Parties du corps**
-0. Tête  
-1. Main  
-2. Pied  
-3. Bras  
-4. Jambe  
-5. Œil  
-6. Oreille  
-7. Nez  
-8. Bouche  
-9. Dent  
-10. Cœur  
-11. Sang  
+1. Tête  
+2. Main  
+3. Pied  
+4. Bras  
+5. Jambe  
+6. Œil  
+7. Oreille  
+8. Nez  
+9. Bouche  
+10. Dent  
+11. Cœur  
+12. Sang  
 
 ### 4.2. **Santé et médecine**
-12. Estomac  
-13. Doigt  
-14. Cheveu  
-15. Peau  
-16. Dos  
-17. Cou  
-18. Cerveau  
-19. Douleur  
-20. Fièvre  
-21. Médecin  
-22. Pharmacie  
-23. Hôpital  
-24. Maladie
+1. Estomac  
+2. Doigt  
+3. Cheveu  
+4. Peau  
+5. Dos  
+6. Cou  
+7. Cerveau  
+8. Douleur  
+9. Fièvre  
+10. Médecin  
+11. Pharmacie  
+12. Hôpital  
+13. Maladie
 
 ## 5. **Temps et dates**
 ### 5.1. **Mesure du temps**
-0. Hier  
-1. Aujourd'hui  
-2. Demain  
-3. Matin  
-4. Soir  
-5. Nuit  
-6. Midi  
-7. Minuit  
-8. Heure  
-9. Minute  
-10. Seconde  
-11. Semaine  
+1. Hier  
+2. Aujourd'hui  
+3. Demain  
+4. Matin  
+5. Soir  
+6. Nuit  
+7. Midi  
+8. Minuit  
+9. Heure  
+10. Minute  
+11. Seconde  
+12. Semaine  
 
 ### 5.2. **Mois et saisons**
-12. Mois  
-13. Année  
-14. Janvier  
-15. Février  
-16. Mars  
-17. Avril  
-18. Mai  
-19. Juin  
-20. Juillet  
-21. Août  
-22. Septembre  
-23. Octobre  
-24. Novembre  
-25. Décembre  
-26. Printemps  
-27. Été  
-28. Automne  
-29. Hiver
+1. Mois  
+2. Année  
+3. Janvier  
+4. Février  
+5. Mars  
+6. Avril  
+7. Mai  
+8. Juin  
+9. Juillet  
+10. Août  
+11. Septembre  
+12. Octobre  
+13. Novembre  
+14. Décembre  
+15. Printemps  
+16. Été  
+17. Automne  
+18. Hiver
 
 ## 6. **Émotions et sentiments**
 ### 6.1. **Sentiments positifs et négatifs**
-0. Amour  
-1. Joie  
-2. Tristesse  
-3. Colère  
-4. Peur  
-5. Surprise  
-6. Envie  
-7. Plaisir  
-8. Désir  
-9. Honte  
-10. Fierté  
-11. Déception
+1. Amour  
+2. Joie  
+3. Tristesse  
+4. Colère  
+5. Peur  
+6. Surprise  
+7. Envie  
+8. Plaisir  
+9. Désir  
+10. Honte  
+11. Fierté  
+12. Déception
 
 ### 6.2. **Émotions complexes**
-12. Solitude  
-13. Espoir  
-14. Souci  
-15. Stress  
-16. Calme  
-17. Ennui  
-18. Haine  
-19. Patience  
-20. Anxiété  
-21. Soulagement  
-22. Douleur  
-23. Bonheur  
-24. Dépression
+1. Solitude  
+2. Espoir  
+3. Souci  
+4. Stress  
+5. Calme  
+6. Ennui  
+7. Haine  
+8. Patience  
+9. Anxiété  
+10. Soulagement  
+11. Douleur  
+12. Bonheur  
+13. Dépression
     
 ---
 

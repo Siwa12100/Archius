@@ -13,163 +13,163 @@
 ---
 
 ### **Adverbes d'intensité**
-5. Autant  
-6. Très  
-7. Plus  
+1. Autant  
+2. Très  
+3. Plus  
 
 ---
 
 ### **Pronoms et Déterminants Possessifs**
-8. Mon / Ma  
-9. Ton / Ta  
-10. Son / Sa  
-11. Notre  
-12. Votre  
-13. Leur  
-14. Nos  
-15. Vos  
-16. Leurs  
+1. Mon / Ma  
+2. Ton / Ta  
+3. Son / Sa  
+4. Notre  
+5. Votre  
+6. Leur  
+7. Nos  
+8. Vos  
+9. Leurs  
 
 ---
 
 ### **Pronoms Possessifs Singuliers**
-17. Le mien  
-18. La mienne  
-19. Le nôtre  
-20. La nôtre  
-21. Le tien  
-22. La tienne  
-23. Le vôtre  
-24. La vôtre  
-25. Le sien  
-26. La sienne  
-27. Le leur  
-28. La leur  
+1. Le mien  
+2. La mienne  
+3. Le nôtre  
+4. La nôtre  
+5. Le tien  
+6. La tienne  
+7. Le vôtre  
+8. La vôtre  
+9. Le sien  
+10. La sienne  
+11. Le leur  
+12. La leur  
 
 ---
 
 ### **Pronoms Possessifs Pluriels**
-29. Les miens  
-30. Les miennes  
-31. Les tiens  
-32. Les tiennes  
-33. Les nôtres (m.)  
-34. Les nôtres (f.)  
-35. Les vôtres (m.)  
-36. Les vôtres (f.)  
-37. Les leurs (m. & f.)  
+1. Les miens  
+2. Les miennes  
+3. Les tiens  
+4. Les tiennes  
+5. Les nôtres (m.)  
+6. Les nôtres (f.)  
+7. Les vôtres (m.)  
+8. Les vôtres (f.)  
+9. Les leurs (m. & f.)  
 
 ---
 
 ### **Pronoms Démonstratifs**
-38. Celui-ci (proche)  
-39. Celui-là (loin)  
-40. Celle-ci (proche)  
-41. Celle-là (loin)  
-42. Ceux-ci (proche)  
-43. Ceux-là (loin)  
-44. Celles-ci (proche)  
-45. Celles-là (loin)  
+1. Celui-ci (proche)  
+2. Celui-là (loin)  
+3. Celle-ci (proche)  
+4. Celle-là (loin)  
+5. Ceux-ci (proche)  
+6. Ceux-là (loin)  
+7. Celles-ci (proche)  
+8. Celles-là (loin)  
 
 ---
 
 ### **Pronoms Relatifs**
-46. Celui qui  
-47. Celle qui  
-48. Que  
-49. Lequel  
-50. Laquelle  
-51. Lesquels  
-52. Lesquelles  
+1. Celui qui  
+2. Celle qui  
+3. Que  
+4. Lequel  
+5. Laquelle  
+6. Lesquels  
+7. Lesquelles  
 
 ---
 
 ### **Pronoms et Adverbes Interrogatifs**
-53. Dont  
-54. Où  
-55. Quoi  
-56. Duquel / Dont  
-57. Qui (personne)  
-58. Quel  
-59. Quelle  
-60. Quelles  
-61. Quels  
+1. Dont  
+2. Où  
+3. Quoi  
+4. Duquel / Dont  
+5. Qui (personne)  
+6. Quel  
+7. Quelle  
+8. Quelles  
+9. Quels  
 
 ---
 
 ### **Adverbes Pronominaux**
-62. Y  
-63. En  
+1. Y  
+2. En  
 
 ---
 
 ### **Exemples avec Pronoms Personnels**
-64. Moi, je chante une chanson.  
-65. Toi, tu parles occitan ?  
-66. Elle vient bientôt.  
-67. Nous, nous étudions la langue.  
-68. Vous, vous travaillez beaucoup.  
-69. Eux, ils sont contents.  
-70. Tu me vois ?  
-71. Je te rappelle demain.  
-72. Je le / la vois.  
-73. Ils nous appellent au téléphone.  
-74. Je ne vous entends pas.  
-75. Je les vois.  
-76. Il me donne un livre.  
-77. Je te dis un secret.  
-78. Nous lui disons la vérité.  
-79. Il nous écrit une lettre.  
-80. Je vous donnerai le document.  
-81. Nous leur répondons rapidement.  
-82. Je me lève à sept heures.  
-83. Tu te vois dans le miroir ?  
-84. Ils se trouvent dans le jardin.  
-85. Nous nous préparons pour la fête.  
-86. Vous vous souvenez de cela ?  
-87. Ils se disent au revoir avant de partir.  
+1. Moi, je chante une chanson.  
+2. Toi, tu parles occitan ?  
+3. Elle vient bientôt.  
+4. Nous, nous étudions la langue.  
+5. Vous, vous travaillez beaucoup.  
+6. Eux, ils sont contents.  
+7. Tu me vois ?  
+8. Je te rappelle demain.  
+9. Je le / la vois.  
+10. Ils nous appellent au téléphone.  
+11. Je ne vous entends pas.  
+12. Je les vois.  
+13. Il me donne un livre.  
+14. Je te dis un secret.  
+15. Nous lui disons la vérité.  
+16. Il nous écrit une lettre.  
+17. Je vous donnerai le document.  
+18. Nous leur répondons rapidement.  
+19. Je me lève à sept heures.  
+20. Tu te vois dans le miroir ?  
+21. Ils se trouvent dans le jardin.  
+22. Nous nous préparons pour la fête.  
+23. Vous vous souvenez de cela ?  
+24. Ils se disent au revoir avant de partir.  
 
 ---
 
 ### **Expressions de Quantité et Négation**
-88. Tout  
-89. Tous  
-90. Toutes  
-91. Toute  
-92. Où  
-93. Quand  
-94. Comment  
-95. Pourquoi  
-96. Quelques  
-97. Quelqu'un  
-98. Quelques-uns  
-99. Quelque chose  
-100. Certain  
-101. Certains  
-102. Certaine  
-103. Certaines  
-104. Pas  
-105. Guère  
-106. Rien  
-107. Personne  
-108. Jamais  
-109. Pas encore  
-110. Aucun  
-111. Autant  
-112. Tant  
-113. Davantage  
-114. Moins  
-115. Point / Pas du tout  
-116. Plus  
-117. Tel  
-118. Telle  
-119. Tels  
-120. Telles  
-121. Même(s)  
-122. Autre(s)  
-123. Autre chose  
-124. Le reste  
-125. Personne d'autre  
+1. Tout  
+2. Tous  
+3. Toutes  
+4. Toute  
+5. Où  
+6. Quand  
+7. Comment  
+8. Pourquoi  
+9. Quelques  
+10. Quelqu'un  
+11. Quelques-uns  
+12. Quelque chose  
+13. Certain  
+14. Certains  
+15. Certaine  
+16. Certaines  
+17. Pas  
+18. Guère  
+19. Rien  
+20. Personne  
+21. Jamais  
+22. Pas encore  
+23. Aucun  
+24. Autant  
+25. Tant  
+26. Davantage  
+27. Moins  
+28. Point / Pas du tout  
+29. Plus  
+30. Tel  
+31. Telle  
+32. Tels  
+33. Telles  
+34. Même(s)  
+35. Autre(s)  
+36. Autre chose  
+37. Le reste  
+38. Personne d'autre  
 
 --- 
 

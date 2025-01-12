@@ -6,1449 +6,1449 @@
 
 ## 1. **Salutations et formules de politesse**
 ### 1.1. **Formules de base**
-0. Bonjour  
-1. Salut  
-2. Bonsoir  
-3. Au revoir  
-4. Adieu  
-5. Merci  
-6. S'il vous plaît  
-7. Excusez-moi  
-8. Pardon  
-9. De rien  
-10. Oui  
-11. Non
+1. Bonjour  
+2. Salut  
+3. Bonsoir  
+4. Au revoir  
+5. Adieu  
+6. Merci  
+7. S'il vous plaît  
+8. Excusez-moi  
+9. Pardon  
+10. De rien  
+11. Oui  
+12. Non
 
 ### 1.2. **Formules complémentaires**
-12. Peut-être  
-13. D'accord  
-14. Bienvenue  
-15. Comment ça va ?  
-16. Ça va bien  
-17. Et vous ?  
-18. À bientôt  
-19. Bonne journée  
-20. Bonne nuit  
-21. Félicitations  
-22. Bonne chance  
-23. Santé  
-24. Désolé
+1. Peut-être  
+2. D'accord  
+3. Bienvenue  
+4. Comment ça va ?  
+5. Ça va bien  
+6. Et vous ?  
+7. À bientôt  
+8. Bonne journée  
+9. Bonne nuit  
+10. Félicitations  
+11. Bonne chance  
+12. Santé  
+13. Désolé
 
 ## 2. **Famille et relations**
 ### 2.1. **Famille immédiate**
-0. Père  
-1. Mère  
-2. Frère  
-3. Sœur  
-4. Fils  
-5. Fille  
-6. Mari  
-7. Femme  
-8. Enfant  
-9. Bébé  
-10. Grand-père  
-11. Grand-mère  
+1. Père  
+2. Mère  
+3. Frère  
+4. Sœur  
+5. Fils  
+6. Fille  
+7. Mari  
+8. Femme  
+9. Enfant  
+10. Bébé  
+11. Grand-père  
+12. Grand-mère  
 
 ### 2.2. **Famille étendue et relations sociales**
-12. Oncle  
-13. Tante  
-14. Cousin  
-15. Cousine  
-16. Neveu  
-17. Nièce  
-18. Ami  
-19. Amie  
-20. Voisin  
-21. Collègue  
-22. Patron  
-23. Maître  
-24. Élève
+1. Oncle  
+2. Tante  
+3. Cousin  
+4. Cousine  
+5. Neveu  
+6. Nièce  
+7. Ami  
+8. Amie  
+9. Voisin  
+10. Collègue  
+11. Patron  
+12. Maître  
+13. Élève
 
 ## 3. **Nourriture et boissons**
 ### 3.1. **Aliments de base**
-0. Pain  
-1. Eau  
-2. Vin  
-3. Fromage  
-4. Pomme  
-5. Lait  
-6. Café  
-7. Thé  
-8. Viande  
-9. Poulet  
-10. Poisson  
-11. Légume
+1. Pain  
+2. Eau  
+3. Vin  
+4. Fromage  
+5. Pomme  
+6. Lait  
+7. Café  
+8. Thé  
+9. Viande  
+10. Poulet  
+11. Poisson  
+12. Légume
 
 ### 3.2. **Autres aliments et condiments**
-12. Fruit  
-13. Salade  
-14. Soupe  
-15. Riz  
-16. Pâtes  
-17. Sucre  
-18. Sel  
-19. Poivre  
-20. Beurre  
-21. Œuf  
-22. Jus  
-23. Bière  
-24. Gâteau
+1. Fruit  
+2. Salade  
+3. Soupe  
+4. Riz  
+5. Pâtes  
+6. Sucre  
+7. Sel  
+8. Poivre  
+9. Beurre  
+10. Œuf  
+11. Jus  
+12. Bière  
+13. Gâteau
 
 ## 4. **Corps humain et santé**
 ### 4.1. **Parties du corps**
-0. Tête  
-1. Main  
-2. Pied  
-3. Bras  
-4. Jambe  
-5. Œil  
-6. Oreille  
-7. Nez  
-8. Bouche  
-9. Dent  
-10. Cœur  
-11. Sang  
+1. Tête  
+2. Main  
+3. Pied  
+4. Bras  
+5. Jambe  
+6. Œil  
+7. Oreille  
+8. Nez  
+9. Bouche  
+10. Dent  
+11. Cœur  
+12. Sang  
 
 ### 4.2. **Santé et médecine**
-12. Estomac  
-13. Doigt  
-14. Cheveu  
-15. Peau  
-16. Dos  
-17. Cou  
-18. Cerveau  
-19. Douleur  
-20. Fièvre  
-21. Médecin  
-22. Pharmacie  
-23. Hôpital  
-24. Maladie
+1. Estomac  
+2. Doigt  
+3. Cheveu  
+4. Peau  
+5. Dos  
+6. Cou  
+7. Cerveau  
+8. Douleur  
+9. Fièvre  
+10. Médecin  
+11. Pharmacie  
+12. Hôpital  
+13. Maladie
 
 ## 5. **Temps et dates**
 ### 5.1. **Mesure du temps**
-0. Hier  
-1. Aujourd'hui  
-2. Demain  
-3. Matin  
-4. Soir  
-5. Nuit  
-6. Midi  
-7. Minuit  
-8. Heure  
-9. Minute  
-10. Seconde  
-11. Semaine  
+1. Hier  
+2. Aujourd'hui  
+3. Demain  
+4. Matin  
+5. Soir  
+6. Nuit  
+7. Midi  
+8. Minuit  
+9. Heure  
+10. Minute  
+11. Seconde  
+12. Semaine  
 
 ### 5.2. **Mois et saisons**
-12. Mois  
-13. Année  
-14. Janvier  
-15. Février  
-16. Mars  
-17. Avril  
-18. Mai  
-19. Juin  
-20. Juillet  
-21. Août  
-22. Septembre  
-23. Octobre  
-24. Novembre  
-25. Décembre  
-26. Printemps  
-27. Été  
-28. Automne  
-29. Hiver
+1. Mois  
+2. Année  
+3. Janvier  
+4. Février  
+5. Mars  
+6. Avril  
+7. Mai  
+8. Juin  
+9. Juillet  
+10. Août  
+11. Septembre  
+12. Octobre  
+13. Novembre  
+14. Décembre  
+15. Printemps  
+16. Été  
+17. Automne  
+18. Hiver
 
 ## 6. **Émotions et sentiments**
 ### 6.1. **Sentiments positifs et négatifs**
-0. Amour  
-1. Joie  
-2. Tristesse  
-3. Colère  
-4. Peur  
-5. Surprise  
-6. Envie  
-7. Plaisir  
-8. Désir  
-9. Honte  
-10. Fierté  
-11. Déception
+1. Amour  
+2. Joie  
+3. Tristesse  
+4. Colère  
+5. Peur  
+6. Surprise  
+7. Envie  
+8. Plaisir  
+9. Désir  
+10. Honte  
+11. Fierté  
+12. Déception
 
 ### 6.2. **Émotions complexes**
-12. Solitude  
-13. Espoir  
-14. Souci  
-15. Stress  
-16. Calme  
-17. Ennui  
-18. Haine  
-19. Patience  
-20. Anxiété  
-21. Soulagement  
-22. Douleur  
-23. Bonheur  
-24. Dépression  
+1. Solitude  
+2. Espoir  
+3. Souci  
+4. Stress  
+5. Calme  
+6. Ennui  
+7. Haine  
+8. Patience  
+9. Anxiété  
+10. Soulagement  
+11. Douleur  
+12. Bonheur  
+13. Dépression  
 
 ## 7. **Couleurs et formes**
 ### 7.1. **Couleurs**
-0. Rouge  
-1. Bleu  
-2. Vert  
-3. Jaune  
-4. Noir  
-5. Blanc  
-6. Gris  
-7. Marron  
-8. Rose  
-9. Violet  
-10. Orange
+1. Rouge  
+2. Bleu  
+3. Vert  
+4. Jaune  
+5. Noir  
+6. Blanc  
+7. Gris  
+8. Marron  
+9. Rose  
+10. Violet  
+11. Orange
 
 ### 7.2. **Formes et dimensions**
-11. Carré  
-12. Rond  
-13. Triangle  
-14. Ovale  
-15. Rectangle  
-16. Grand  
-17. Petit  
-18. Long  
-19. Court  
-20. Large  
-21. Étroit  
-22. Profond
+1. Carré  
+2. Rond  
+3. Triangle  
+4. Ovale  
+5. Rectangle  
+6. Grand  
+7. Petit  
+8. Long  
+9. Court  
+10. Large  
+11. Étroit  
+12. Profond
 
 ## 8. **Vêtements et accessoires**
 ### 8.1. **Vêtements**
-0. Pantalon  
-1. Chemise  
-2. Veste  
-3. Manteau  
-4. Robe  
-5. Jupe  
-6. Chaussure  
-7. Chaussette  
-8. Chapeau  
-9. Écharpe  
-10. Gant  
-11. Ceinture  
+1. Pantalon  
+2. Chemise  
+3. Veste  
+4. Manteau  
+5. Robe  
+6. Jupe  
+7. Chaussure  
+8. Chaussette  
+9. Chapeau  
+10. Écharpe  
+11. Gant  
+12. Ceinture  
 
 ### 8.2. **Accessoires et bijoux**
-12. Sac  
-13. Lunettes  
-14. Montre  
-15. Cravate  
-16. Collier  
-17. Bague  
-18. Boucle  
-19. Sandale  
-20. Bracelet  
-21. Broche  
-22. Barette  
-23. Cuir  
-24. Laine
+1. Sac  
+2. Lunettes  
+3. Montre  
+4. Cravate  
+5. Collier  
+6. Bague  
+7. Boucle  
+8. Sandale  
+9. Bracelet  
+10. Broche  
+11. Barette  
+12. Cuir  
+13. Laine
 
 ## 9. **Transports**
 ### 9.1. **Moyens de transport**
-0. Voiture  
-1. Train  
-2. Avion  
-3. Bus  
-4. Taxi  
-5. Vélo  
-6. Moto  
-7. Bateau  
-8. Métro  
-9. Tramway  
-10. Scooter  
-11. Trotinette
+1. Voiture  
+2. Train  
+3. Avion  
+4. Bus  
+5. Taxi  
+6. Vélo  
+7. Moto  
+8. Bateau  
+9. Métro  
+10. Tramway  
+11. Scooter  
+12. Trotinette
 
 ### 9.2. **Infrastructure et déplacement**
-12. Gare  
-13. Aéroport  
-14. Route  
-15. Autoroute  
-16. Pont  
-17. Feu rouge  
-18. Permis  
-19. Essence  
-20. Station  
-21. Quai  
-22. Passage  
-23. Passage piéton  
-24. Embouteillage
+1. Gare  
+2. Aéroport  
+3. Route  
+4. Autoroute  
+5. Pont  
+6. Feu rouge  
+7. Permis  
+8. Essence  
+9. Station  
+10. Quai  
+11. Passage  
+12. Passage piéton  
+13. Embouteillage
 
 ## 10. **Maison et meubles**
 ### 10.1. **Pièces de la maison**
-0. Maison  
-1. Appartement  
-2. Chambre  
-3. Salon  
-4. Cuisine  
-5. Salle de bain  
-6. Toilette  
-7. Bureau  
-8. Grenier  
-9. Cave  
-10. Garage  
-11. Jardin  
+1. Maison  
+2. Appartement  
+3. Chambre  
+4. Salon  
+5. Cuisine  
+6. Salle de bain  
+7. Toilette  
+8. Bureau  
+9. Grenier  
+10. Cave  
+11. Garage  
+12. Jardin  
 
 ### 10.2. **Meubles et éléments**
-12. Lit  
-13. Table  
-14. Chaise  
-15. Canapé  
-16. Armoire  
-17. Tiroir  
-18. Étagère  
-19. Bureau  
-20. Fenêtre  
-21. Porte  
-22. Miroir  
-23. Escalier  
-24. Plafond  
-25. Mur
+1. Lit  
+2. Table  
+3. Chaise  
+4. Canapé  
+5. Armoire  
+6. Tiroir  
+7. Étagère  
+8. Bureau  
+9. Fenêtre  
+10. Porte  
+11. Miroir  
+12. Escalier  
+13. Plafond  
+14. Mur
 
 ## 11. **Animaux**
 ### 11.1. **Animaux domestiques**
-0. Chien  
-1. Chat  
-2. Oiseau  
-3. Poisson  
-4. Lapin  
-5. Souris  
-6. Grenouille 
-7. Perruche  
-8. Tortue  
-9. Serpent  
-10. Insecte
-11. Sanglier  
+1. Chien  
+2. Chat  
+3. Oiseau  
+4. Poisson  
+5. Lapin  
+6. Souris  
+7. Grenouille 
+8. Perruche  
+9. Tortue  
+10. Serpent  
+11. Insecte
+12. Sanglier  
 
 ### 11.2. **Animaux de ferme et sauvages**
-12. Cheval  
-13. Vache  
-14. Cochon  
-15. Mouton  
-16. Chèvre  
-17. Poule  
-18. Canard  
-19. Singe  
-20. Tigre  
-21. Éléphant  
-22. Lion  
-23. Serpent  
-24. Abeille  
-25. Papillon
+1. Cheval  
+2. Vache  
+3. Cochon  
+4. Mouton  
+5. Chèvre  
+6. Poule  
+7. Canard  
+8. Singe  
+9. Tigre  
+10. Éléphant  
+11. Lion  
+12. Serpent  
+13. Abeille  
+14. Papillon
 
 ## 12. **Nombres et quantités**
 ### 12.1. **Nombres de base**
-0. Un  
-1. Deux  
-2. Trois  
-3. Quatre  
-4. Cinq  
-5. Six  
-6. Sept  
-7. Huit  
-8. Neuf  
-9. Dix  
-10. Vingt  
-11. Trente  
+1. Un  
+2. Deux  
+3. Trois  
+4. Quatre  
+5. Cinq  
+6. Six  
+7. Sept  
+8. Huit  
+9. Neuf  
+10. Dix  
+11. Vingt  
+12. Trente  
 
 ### 12.2. **Quantités et nombres avancés**
-12. Quarante  
-13. Cinquante  
-14. Soixante  
-15. Cent  
-16. Mille  
-17. Premier  
-18. Deuxième  
-19. Moitié  
-20. Quart  
-21. Plusieurs  
-22. Moins  
-23. Plus  
-24. Ensemble  
-25. Seul
+1. Quarante  
+2. Cinquante  
+3. Soixante  
+4. Cent  
+5. Mille  
+6. Premier  
+7. Deuxième  
+8. Moitié  
+9. Quart  
+10. Plusieurs  
+11. Moins  
+12. Plus  
+13. Ensemble  
+14. Seul
 
 ## 13. **Météo et saisons**
 ### 13.1. **Conditions météorologiques**
-0. Soleil  
-1. Pluie  
-2. Neige  
-3. Vent  
-4. Nuage  
-5. Tempête  
-6. Foudre  
-7. Brouillard  
-8. Arc-en-ciel  
-9. Orage  
-10. Chaud  
-11. Froid  
+1. Soleil  
+2. Pluie  
+3. Neige  
+4. Vent  
+5. Nuage  
+6. Tempête  
+7. Foudre  
+8. Brouillard  
+9. Arc-en-ciel  
+10. Orage  
+11. Chaud  
+12. Froid  
 
 ### 13.2. **Phénomènes météorologiques**
-12. Gel  
-13. Grêle  
-14. Humidité  
-15. Canicule  
-16. Brume  
-17. Éclair  
-18. Climat  
-19. Saisons  
-20. Équinoxe  
-21. Solstice  
-22. Déluge  
-23. Sécheresse  
-24. Avalanche
+1. Gel  
+2. Grêle  
+3. Humidité  
+4. Canicule  
+5. Brume  
+6. Éclair  
+7. Climat  
+8. Saisons  
+9. Équinoxe  
+10. Solstice  
+11. Déluge  
+12. Sécheresse  
+13. Avalanche
 
 ## 14. **Profession et travail**
 ### 14.1. **Professions courantes**
-0. Travail  
-1. Employé  
-2. Ouvrier  
-3. Agriculteur  
-4. Enseignant  
-5. Médecin  
-6. Avocat  
-7. Infirmier  
-8. Policier  
-9. Pompier  
-10. Ingénieur  
-11. Électricien  
+1. Travail  
+2. Employé  
+3. Ouvrier  
+4. Agriculteur  
+5. Enseignant  
+6. Médecin  
+7. Avocat  
+8. Infirmier  
+9. Policier  
+10. Pompier  
+11. Ingénieur  
+12. Électricien  
 
 ### 14.2. **Autres métiers**
-12. Plombier  
-13. Peintre  
-14. Mécanicien  
-15. Architecte  
-16. Vendeur  
-17. Coiffeur  
-18. Cuisinier  
-19. Serveur  
-20. Réceptionniste  
-21. Caissier  
-22. Pharmacien  
-23. Boulanger  
-24. Boucher
+1. Plombier  
+2. Peintre  
+3. Mécanicien  
+4. Architecte  
+5. Vendeur  
+6. Coiffeur  
+7. Cuisinier  
+8. Serveur  
+9. Réceptionniste  
+10. Caissier  
+11. Pharmacien  
+12. Boulanger  
+13. Boucher
 
 ## 15. **Activités quotidiennes**
 ### 15.1. **Routines quotidiennes**
-0. Se lever  
-1. Manger  
-2. Dormir  
-3. Se laver  
-4. Travailler  
-5. Se reposer  
-6. Cuisiner  
-7. Nettoyer  
-8. Lire  
-9. Écrire  
-10. Parler  
-11. Écouter  
+1. Se lever  
+2. Manger  
+3. Dormir  
+4. Se laver  
+5. Travailler  
+6. Se reposer  
+7. Cuisiner  
+8. Nettoyer  
+9. Lire  
+10. Écrire  
+11. Parler  
+12. Écouter  
 
 ### 15.2. **Autres activités**
-12. Regarder  
-13. Marcher  
-14. Courir  
-15. S'asseoir  
-16. Conduire  
-17. Acheter  
-18. Vendre  
-19. Se promener  
-20. Prendre une douche  
-21. Se maquiller  
-22. Se coiffer  
-23. Se raser  
-24. Réparer
+1. Regarder  
+2. Marcher  
+3. Courir  
+4. S'asseoir  
+5. Conduire  
+6. Acheter  
+7. Vendre  
+8. Se promener  
+9. Prendre une douche  
+10. Se maquiller  
+11. Se coiffer  
+12. Se raser  
+13. Réparer
 
 ## 16. **Loisirs et passe-temps**
 ### 16.1. **Loisirs créatifs et artistiques**
-0. Lire  
-1. Écouter  
-2. Musique  
-3. Chanter  
-4. Danser  
-5. Jouer  
-6. Peindre  
-7. Dessiner  
-8. Photographie  
-9. Cinéma  
-10. Théâtre  
-11. Concert  
+1. Lire  
+2. Écouter  
+3. Musique  
+4. Chanter  
+5. Danser  
+6. Jouer  
+7. Peindre  
+8. Dessiner  
+9. Photographie  
+10. Cinéma  
+11. Théâtre  
+12. Concert  
 
 ### 16.2. **Sports et activités physiques**
-12. Football  
-13. Basket-ball  
-14. Nager  
-15. Courir  
-16. Pique-nique  
-17. Jardinage  
-18. Randonnée  
-19. Escalade  
-20. Surf  
-21. Ski  
-22. Snowboard  
-23. Plongée  
-24. Pêche
+1. Football  
+2. Basket-ball  
+3. Nager  
+4. Courir  
+5. Pique-nique  
+6. Jardinage  
+7. Randonnée  
+8. Escalade  
+9. Surf  
+10. Ski  
+11. Snowboard  
+12. Plongée  
+13. Pêche
 
 ## 17. **Achats et argent**
 ### 17.1. **Opérations d'achat et de vente**
-0. Acheter  
-1. Vendre  
-2. Argent  
-3. Prix  
-4. Monnaie  
-5. Billet  
-6. Carte bancaire  
-7. Facture  
-8. Marché  
-9. Magasin  
-10. Boutique  
-11. Supermarché  
+1. Acheter  
+2. Vendre  
+3. Argent  
+4. Prix  
+5. Monnaie  
+6. Billet  
+7. Carte bancaire  
+8. Facture  
+9. Marché  
+10. Magasin  
+11. Boutique  
+12. Supermarché  
 
 ### 17.2. **Gestion financière**
-12. Panier  
-13. Promotion  
-14. Soldes  
-15. Budget  
-16. Économies  
-17. Dépense  
-18. Épargne  
-19. Transaction  
-20. Investissement  
-21. Crédit  
-22. Débit  
-23. Revenu  
-24. Salaire
+1. Panier  
+2. Promotion  
+3. Soldes  
+4. Budget  
+5. Économies  
+6. Dépense  
+7. Épargne  
+8. Transaction  
+9. Investissement  
+10. Crédit  
+11. Débit  
+12. Revenu  
+13. Salaire
 
 ## 18. **Voyages et tourisme**
 ### 18.1. **Préparation et organisation**
-0. Voyage  
-1. Tourisme  
-2. Carte  
-3. Guide  
-4. Hôtel  
-5. Réservation  
-6. Bagage  
-7. Valise  
-8. Passeport  
-9. Visa  
-10. Douane  
-11. Billet  
+1. Voyage  
+2. Tourisme  
+3. Carte  
+4. Guide  
+5. Hôtel  
+6. Réservation  
+7. Bagage  
+8. Valise  
+9. Passeport  
+10. Visa  
+11. Douane  
+12. Billet  
 
 ### 18.2. **Destinations et activités**
-12. Trajet  
-13. Itinéraire  
-14. Excursion  
-15. Guide touristique  
-16. Souvenir  
-17. Monument  
-18. Plage  
-19. Montagne  
-20. Camping  
-21. Safari  
-22. Circuit  
-23. Croisière  
-24. Trek
+1. Trajet  
+2. Itinéraire  
+3. Excursion  
+4. Guide touristique  
+5. Souvenir  
+6. Monument  
+7. Plage  
+8. Montagne  
+9. Camping  
+10. Safari  
+11. Circuit  
+12. Croisière  
+13. Trek
 
 ## 19. **Éducation et apprentissage**
 ### 19.1. **Établissements et structures**
-0. École  
-1. Classe  
-2. Université  
-3. Institut  
-4. Collège  
-5. Lycée  
-6. École primaire  
-7. Crèche  
-8. Bibliothèque  
-9. Gymnase  
-10. Laboratoire  
-11. Cour de récréation
+1. École  
+2. Classe  
+3. Université  
+4. Institut  
+5. Collège  
+6. Lycée  
+7. École primaire  
+8. Crèche  
+9. Bibliothèque  
+10. Gymnase  
+11. Laboratoire  
+12. Cour de récréation
 
 ### 19.2. **Activités et outils d'apprentissage**
-12. Leçon  
-13. Devoir  
-14. Étudier  
-15. Apprendre  
-16. Professeur  
-17. Élève  
-18. Cahier  
-19. Livre  
-20. Crayon  
-21. Stylo  
-22. Gomme  
-23. Règle  
-24. Examen
+1. Leçon  
+2. Devoir  
+3. Étudier  
+4. Apprendre  
+5. Professeur  
+6. Élève  
+7. Cahier  
+8. Livre  
+9. Crayon  
+10. Stylo  
+11. Gomme  
+12. Règle  
+13. Examen
 
 ## 20. **Technologie et médias**
 ### 20.1. **Appareils et outils numériques**
-0. Ordinateur  
-1. Téléphone  
-2. Internet  
-3. Télévision  
-4. Radio  
-5. Écran  
-6. Clavier  
-7. Souris  
-8. Appareil photo  
-9. Caméra  
-10. Vidéo  
-11. Logiciel  
+1. Ordinateur  
+2. Téléphone  
+3. Internet  
+4. Télévision  
+5. Radio  
+6. Écran  
+7. Clavier  
+8. Souris  
+9. Appareil photo  
+10. Caméra  
+11. Vidéo  
+12. Logiciel  
 
 ### 20.2. **Médias et communication**
-12. Application  
-13. Email  
-14. Réseau  
-15. Site web  
-16. Programme  
-17. Journal  
-18. Magazine  
-19. Blog  
-20. Réseau social  
-21. Conférence  
-22. Discussion  
-23. Vidéo  
-24. Film
+1. Application  
+2. Email  
+3. Réseau  
+4. Site web  
+5. Programme  
+6. Journal  
+7. Magazine  
+8. Blog  
+9. Réseau social  
+10. Conférence  
+11. Discussion  
+12. Vidéo  
+13. Film
 
 ## 21. **Lieux et directions**
 ### 21.1. **Lieux urbains**
-0. Ville  
-1. Village  
-2. Rue  
-3. Route  
-4. Chemin  
-5. Carrefour  
-6. Centre-ville  
-7. Banlieue  
-8. Campagne  
-9. Parc  
-10. Monument  
-11. Église  
+1. Ville  
+2. Village  
+3. Rue  
+4. Route  
+5. Chemin  
+6. Carrefour  
+7. Centre-ville  
+8. Banlieue  
+9. Campagne  
+10. Parc  
+11. Monument  
+12. Église  
 
 ### 21.2. **Environnement naturel**
-12. Montagne  
-13. Rivière  
-14. Lac  
-15. Mer  
-16. Plage  
-17. Forêt  
-18. Désert  
-19. Vallée  
-20. Colline  
-21. Grotte  
-22. Ciel  
-23. Étoile  
-24. Lune
+1. Montagne  
+2. Rivière  
+3. Lac  
+4. Mer  
+5. Plage  
+6. Forêt  
+7. Désert  
+8. Vallée  
+9. Colline  
+10. Grotte  
+11. Ciel  
+12. Étoile  
+13. Lune
 
 ## 22. **Expressions courantes**
 ### 22.1. **Expressions de confirmation et de doute**
-0. Bien sûr  
-1. Pourquoi pas  
-2. Je ne sais pas  
-3. C'est vrai  
-4. C'est faux  
-5. Je comprends  
-6. Je ne comprends pas  
-7. D'accord  
-8. Pas de problème  
-9. Ça marche  
-10. Enchanté  
-11. Pas mal  
+1. Bien sûr  
+2. Pourquoi pas  
+3. Je ne sais pas  
+4. C'est vrai  
+5. C'est faux  
+6. Je comprends  
+7. Je ne comprends pas  
+8. D'accord  
+9. Pas de problème  
+10. Ça marche  
+11. Enchanté  
+12. Pas mal  
 
 ### 22.2. **Expressions d'indifférence et de souhait**
-12. Tant pis  
-13. Ça m'est égal  
-14. Peut-être  
-15. Aucun problème  
-16. J'espère  
-17. Quelle heure est-il ?  
-18. Comment vous appelez-vous ?  
-19. Je m'appelle  
-20. Bon courage  
-21. Bravo  
-22. C'est dommage  
-23. Pourquoi pas  
-24. Comme ci, comme ça
+1. Tant pis  
+2. Ça m'est égal  
+3. Peut-être  
+4. Aucun problème  
+5. J'espère  
+6. Quelle heure est-il ?  
+7. Comment vous appelez-vous ?  
+8. Je m'appelle  
+9. Bon courage  
+10. Bravo  
+11. C'est dommage  
+12. Pourquoi pas  
+13. Comme ci, comme ça
 
 ## 23. **Adjectifs courants**
 ### 23.1. **Descriptions physiques**
-0. Grand  
-1. Petit  
-2. Nouveau  
-3. Vieux  
-4. Jeune  
-5. Beau  
-6. Laid  
-7. Fort  
-8. Faible  
-9. Léger  
-10. Lourd  
-11. Rapide  
+1. Grand  
+2. Petit  
+3. Nouveau  
+4. Vieux  
+5. Jeune  
+6. Beau  
+7. Laid  
+8. Fort  
+9. Faible  
+10. Léger  
+11. Lourd  
+12. Rapide  
 
 ### 23.2. **Descriptions de caractère et de qualité**
-12. Bon  
-13. Mauvais  
-14. Facile  
-15. Difficile  
-16. Lent  
-17. Cher  
-18. Bon marché  
-19. Gentil  
-20. Méchant  
-21. Intelligent  
-22. Stupide  
-23. Sûr  
-24. Dangereux
+1. Bon  
+2. Mauvais  
+3. Facile  
+4. Difficile  
+5. Lent  
+6. Cher  
+7. Bon marché  
+8. Gentil  
+9. Méchant  
+10. Intelligent  
+11. Stupide  
+12. Sûr  
+13. Dangereux
 
 ## 24. **Verbes courants**
 ### 24.1. **Actions essentielles**
-0. Être  
-1. Avoir  
-2. Aller  
-3. Venir  
-4. Faire  
-5. Dire  
-6. Voir  
-7. Savoir  
-8. Pouvoir  
-9. Vouloir  
-10. Devoir  
-11. Prendre  
+1. Être  
+2. Avoir  
+3. Aller  
+4. Venir  
+5. Faire  
+6. Dire  
+7. Voir  
+8. Savoir  
+9. Pouvoir  
+10. Vouloir  
+11. Devoir  
+12. Prendre  
 
 ### 24.2. **Verbes d'interaction**
-12. Donner  
-13. Parler  
-14. Écouter  
-15. Lire  
-16. Écrire  
-17. Acheter  
-18. Vendre  
-19. Manger  
-20. Boire  
-21. Ouvrir  
-22. Fermer  
-23. Rire  
-24. Pleurer
+1. Donner  
+2. Parler  
+3. Écouter  
+4. Lire  
+5. Écrire  
+6. Acheter  
+7. Vendre  
+8. Manger  
+9. Boire  
+10. Ouvrir  
+11. Fermer  
+12. Rire  
+13. Pleurer
 
 ## 25. **Mots interrogatifs et conjonctions**
 ### 25.1. **Mots interrogatifs**
-0. Qui  
-1. Quoi  
-2. Où  
-3. Quand  
-4. Pourquoi  
-5. Comment  
-6. Lequel  
-7. Combien  
-8. Quel  
-9. Quelque  
-10. Quiconque  
-11. Pourquoi
+1. Qui  
+2. Quoi  
+3. Où  
+4. Quand  
+5. Pourquoi  
+6. Comment  
+7. Lequel  
+8. Combien  
+9. Quel  
+10. Quelque  
+11. Quiconque  
+12. Pourquoi
 
 ### 25.2. **Conjonctions et connecteurs**
-12. Parce que  
-13. Et  
-14. Ou  
-15. Mais  
-16. Donc  
-17. Alors  
-18. Puis  
-19. Cependant  
-20. Car  
-21. Si  
-22. Pourtant  
-23. Tandis que  
-24. Bien que
+1. Parce que  
+2. Et  
+3. Ou  
+4. Mais  
+5. Donc  
+6. Alors  
+7. Puis  
+8. Cependant  
+9. Car  
+10. Si  
+11. Pourtant  
+12. Tandis que  
+13. Bien que
 
 ## 26. **Prépositions courantes**
 ### 26.1. **Prépositions de lieu**
-0. À  
-1. De  
-2. En  
-3. Sur  
-4. Sous  
-5. Devant  
-6. Derrière  
-7. Avec  
-8. Sans  
-9. Entre  
-10. Parmi  
-11. Près de  
+1. À  
+2. De  
+3. En  
+4. Sur  
+5. Sous  
+6. Devant  
+7. Derrière  
+8. Avec  
+9. Sans  
+10. Entre  
+11. Parmi  
+12. Près de  
 
 ### 26.2. **Prépositions de temps et direction**
-12. Jusqu'à  
-13. Vers  
-14. Autour de  
-15. À côté de  
-16. Loin de  
-17. Pendant  
-18. Depuis  
-19. Pour  
-20. Avant  
-21. Après  
-22. Durant  
-23. Chez  
-24. Dès
+1. Jusqu'à  
+2. Vers  
+3. Autour de  
+4. À côté de  
+5. Loin de  
+6. Pendant  
+7. Depuis  
+8. Pour  
+9. Avant  
+10. Après  
+11. Durant  
+12. Chez  
+13. Dès
 
 ## 27. **Mots de quantité**
 ### 27.1. **Quantités absolues**
-0. Beaucoup  
-1. Peu  
-2. Trop  
-3. Assez  
-4. Tout  
-5. Rien  
-6. Quelque chose  
-7. Personne  
-8. Aucun  
-9. Quelques  
-10. Plusieurs  
-11. Un peu  
+1. Beaucoup  
+2. Peu  
+3. Trop  
+4. Assez  
+5. Tout  
+6. Rien  
+7. Quelque chose  
+8. Personne  
+9. Aucun  
+10. Quelques  
+11. Plusieurs  
+12. Un peu  
 
 ### 27.2. **Expressions de fréquence**
-12. Toujours  
-13. Souvent  
-14. Parfois  
-15. Rarement  
-16. Jamais  
-17. Tout le monde  
-18. Personne  
-19. Tous les jours  
-20. Tous les soirs  
-21. De temps en temps  
-22. Une fois  
-23. Deux fois  
-24. Fréquemment
+1. Toujours  
+2. Souvent  
+3. Parfois  
+4. Rarement  
+5. Jamais  
+6. Tout le monde  
+7. Personne  
+8. Tous les jours  
+9. Tous les soirs  
+10. De temps en temps  
+11. Une fois  
+12. Deux fois  
+13. Fréquemment
 
 ## 28. **Mots liés à la maison et à la vie quotidienne**
 ### 28.1. **Objets domestiques**
-0. Clé  
-1. Portefeuille  
-2. Télécommande  
-3. Lampe  
-4. Rideau  
-5. Tableau  
-6. Horloge  
-7. Réveil  
-8. Ordinateur portable  
-9. Téléphone portable  
-10. Aspirateur  
-11. Machine à laver  
+1. Clé  
+2. Portefeuille  
+3. Télécommande  
+4. Lampe  
+5. Rideau  
+6. Tableau  
+7. Horloge  
+8. Réveil  
+9. Ordinateur portable  
+10. Téléphone portable  
+11. Aspirateur  
+12. Machine à laver  
 
 ### 28.2. **Équipements ménagers**
-12. Réfrigérateur  
-13. Four  
-14. Micro-ondes  
-15. Plaque de cuisson  
-16. Lave-vaisselle  
-17. Poêle  
-18. Casserole  
-19. Assiette  
-20. Verre  
-21. Tasse  
-22. Cuillère  
-23. Fourchette  
-24. Couteau
+1. Réfrigérateur  
+2. Four  
+3. Micro-ondes  
+4. Plaque de cuisson  
+5. Lave-vaisselle  
+6. Poêle  
+7. Casserole  
+8. Assiette  
+9. Verre  
+10. Tasse  
+11. Cuillère  
+12. Fourchette  
+13. Couteau
 
 ## 29. **Mots liés à la nature et aux animaux**
 ### 29.1. **Éléments naturels**
-0. Arbre  
-1. Fleur  
-2. Plante  
-3. Herbe  
-4. Feuille  
-5. Racine  
-6. Branche  
-7. Forêt  
-8. Désert  
-9. Montagne  
-10. Colline  
-11. Rivière  
+1. Arbre  
+2. Fleur  
+3. Plante  
+4. Herbe  
+5. Feuille  
+6. Racine  
+7. Branche  
+8. Forêt  
+9. Désert  
+10. Montagne  
+11. Colline  
+12. Rivière  
 
 ### 29.2. **Phénomènes naturels**
-12. Lac  
-13. Océan  
-14. Mer  
-15. Plage  
-16. Ciel  
-17. Étoile  
-18. Lune  
-19. Soleil  
-20. Arc-en-ciel  
-21. Volcan  
-22. Séisme  
-23. Ouragan  
-24. Tornade
+1. Lac  
+2. Océan  
+3. Mer  
+4. Plage  
+5. Ciel  
+6. Étoile  
+7. Lune  
+8. Soleil  
+9. Arc-en-ciel  
+10. Volcan  
+11. Séisme  
+12. Ouragan  
+13. Tornade
 
 ## 30. **Mots liés aux bâtiments et infrastructures**
 ### 30.1. **Types de bâtiments**
-0. Immeuble  
-1. Bureau  
-2. Usine  
-3. Hôpital  
-4. École  
-5. Université  
-6. Bibliothèque  
-7. Banque  
-8. Magasin  
-9. Supermarché  
-10. Hôtel  
-11. Restaurant  
+1. Immeuble  
+2. Bureau  
+3. Usine  
+4. Hôpital  
+5. École  
+6. Université  
+7. Bibliothèque  
+8. Banque  
+9. Magasin  
+10. Supermarché  
+11. Hôtel  
+12. Restaurant  
 
 ### 30.2. **Infrastructures publiques**
-12. Église  
-13. Cathédrale  
-14. Mosquée  
-15. Synagogue  
-16. Temple  
-17. Musée  
-18. Théâtre  
-19. Cinéma  
-20. Stade  
-21. Piscine  
-22. Parc  
-23. Monument  
-24. Gare
+1. Église  
+2. Cathédrale  
+3. Mosquée  
+4. Synagogue  
+5. Temple  
+6. Musée  
+7. Théâtre  
+8. Cinéma  
+9. Stade  
+10. Piscine  
+11. Parc  
+12. Monument  
+13. Gare
 
 ## 31. **Mots liés aux achats et à l'argent**
 ### 31.1. **Éléments financiers**
-0. Monnaie  
-1. Billet  
-2. Carte  
-3. Crédit  
-4. Débit  
-5. Facture  
-6. Reçu  
-7. Ticket  
-8. Prix  
-9. Promotion  
-10. Rabais  
-11. Remise  
+1. Monnaie  
+2. Billet  
+3. Carte  
+4. Crédit  
+5. Débit  
+6. Facture  
+7. Reçu  
+8. Ticket  
+9. Prix  
+10. Promotion  
+11. Rabais  
+12. Remise  
 
 ### 31.2. **Opérations financières**
-12. Économie  
-13. Dépense  
-14. Budget  
-15. Salaire  
-16. Revenu  
-17. Dépôt  
-18. Prêt  
-19. Remboursement  
-20. Investissement  
-21. Intérêt  
-22. Assurance  
-23. Impôt  
-24. Transaction
+1. Économie  
+2. Dépense  
+3. Budget  
+4. Salaire  
+5. Revenu  
+6. Dépôt  
+7. Prêt  
+8. Remboursement  
+9. Investissement  
+10. Intérêt  
+11. Assurance  
+12. Impôt  
+13. Transaction
 
 ## 32. **Mots liés à la communication**
 ### 32.1. **Moyens de communication**
-0. Téléphone  
-1. Appel  
-2. Message  
-3. SMS  
-4. Email  
-5. Lettre  
-6. Adresse  
-7. Internet  
-8. Réseau  
-9. Média  
-10. Journal  
-11. Magazine  
+1. Téléphone  
+2. Appel  
+3. Message  
+4. SMS  
+5. Email  
+6. Lettre  
+7. Adresse  
+8. Internet  
+9. Réseau  
+10. Média  
+11. Journal  
+12. Magazine  
 
 ### 32.2. **Contenus médiatiques**
-12. Publicité  
-13. Article  
-14. Blog  
-15. Forum  
-16. Réseau social  
-17. Vidéo  
-18. Conférence  
-19. Discussion  
-20. Débat  
-21. Communiqué  
-22. Information  
-23. Émission  
-24. Bulletin
+1. Publicité  
+2. Article  
+3. Blog  
+4. Forum  
+5. Réseau social  
+6. Vidéo  
+7. Conférence  
+8. Discussion  
+9. Débat  
+10. Communiqué  
+11. Information  
+12. Émission  
+13. Bulletin
 
 ## 33. **Mots liés aux loisirs et au sport**
 ### 33.1. **Sports**
-0. Football  
-1. Basketball  
-2. Tennis  
-3. Natation  
-4. Course  
-5. Marche  
-6. Danse  
-7. Yoga  
-8. Gymnastique  
-9. Vélo  
-10. Randonnée  
-11. Escalade  
+1. Football  
+2. Basketball  
+3. Tennis  
+4. Natation  
+5. Course  
+6. Marche  
+7. Danse  
+8. Yoga  
+9. Gymnastique  
+10. Vélo  
+11. Randonnée  
+12. Escalade  
 
 ### 33.2. **Loisirs divers**
-12. Surf  
-13. Ski  
-14. Snowboard  
-15. Plongée  
-16. Pêche  
-17. Chasse  
-18. Jardinage  
-19. Photographie  
-20. Sculpture  
-21. Dessin  
-22. Art  
-23. Cinéma  
-24. Théâtre
+1. Surf  
+2. Ski  
+3. Snowboard  
+4. Plongée  
+5. Pêche  
+6. Chasse  
+7. Jardinage  
+8. Photographie  
+9. Sculpture  
+10. Dessin  
+11. Art  
+12. Cinéma  
+13. Théâtre
 
 ## 34. **Mots liés à la santé et au bien-être**
 ### 34.1. **Soins médicaux**
-0. Médecin  
-1. Infirmier  
-2. Hôpital  
-3. Clinique  
-4. Pharmacie  
-5. Médicament  
-6. Pilule  
-7. Vitamine  
-8. Remède  
-9. Traitement  
-10. Diagnostic  
-11. Consultation  
+1. Médecin  
+2. Infirmier  
+3. Hôpital  
+4. Clinique  
+5. Pharmacie  
+6. Médicament  
+7. Pilule  
+8. Vitamine  
+9. Remède  
+10. Traitement  
+11. Diagnostic  
+12. Consultation  
 
 ### 34.2. **Urgences et interventions**
-12. Examen  
-13. Analyse  
-14. Chirurgie  
-15. Opération  
-16. Urgence  
-17. Ambulance  
-18. Premiers secours  
-19. Infarctus  
-20. Vaccination  
-21. Soin  
-22. Bandage  
-23. Suture  
-24. Plâtre
+1. Examen  
+2. Analyse  
+3. Chirurgie  
+4. Opération  
+5. Urgence  
+6. Ambulance  
+7. Premiers secours  
+8. Infarctus  
+9. Vaccination  
+10. Soin  
+11. Bandage  
+12. Suture  
+13. Plâtre
 
 ## 35. **Mots liés à l’éducation et à l'école**
 ### 35.1. **Structures éducatives**
-0. Professeur  
-1. Élève  
-2. Étudiant  
-3. Classe  
-4. Cours  
-5. Leçon  
-6. Devoir  
-7. Examen  
-8. Diplôme  
-9. Université  
-10. Institut  
-11. Collège  
+1. Professeur  
+2. Élève  
+3. Étudiant  
+4. Classe  
+5. Cours  
+6. Leçon  
+7. Devoir  
+8. Examen  
+9. Diplôme  
+10. Université  
+11. Institut  
+12. Collège  
 
 ### 35.2. **Ressources et matériel pédagogique**
-12. Lycée  
-13. École primaire  
-14. Crèche  
-15. Bibliothèque  
-16. Cantine  
-17. Gymnase  
-18. Laboratoire  
-19. Cour de récréation  
-20. Cahier  
-21. Livre  
-22. Crayon  
-23. Stylo  
-24. Gomme
+1. Lycée  
+2. École primaire  
+3. Crèche  
+4. Bibliothèque  
+5. Cantine  
+6. Gymnase  
+7. Laboratoire  
+8. Cour de récréation  
+9. Cahier  
+10. Livre  
+11. Crayon  
+12. Stylo  
+13. Gomme
 
 ## 36. **Mots liés à l’environnement**
 ### 36.1. **Problèmes environnementaux**
-0. Pollution  
-1. Recyclage  
-2. Déchet  
-3. Poubelle  
-4. Énergie  
-5. Électricité  
-6. Solaire  
-7. Éolienne  
-8. Nucléaire  
-9. Charbon  
-10. Pétrole  
-11. Gaz  
+1. Pollution  
+2. Recyclage  
+3. Déchet  
+4. Poubelle  
+5. Énergie  
+6. Électricité  
+7. Solaire  
+8. Éolienne  
+9. Nucléaire  
+10. Charbon  
+11. Pétrole  
+12. Gaz  
 
 ### 36.2. **Conservation et biodiversité**
-12. Eau potable  
-13. Air  
-14. Climat  
-15. Réchauffement  
-16. Biodiversité  
-17. Forêt tropicale  
-18. Espèce  
-19. Protection  
-20. Conservation  
-21. Réserve  
-22. Déforestation  
-23. Alimentation durable  
-24. Transition énergétique
+1. Eau potable  
+2. Air  
+3. Climat  
+4. Réchauffement  
+5. Biodiversité  
+6. Forêt tropicale  
+7. Espèce  
+8. Protection  
+9. Conservation  
+10. Réserve  
+11. Déforestation  
+12. Alimentation durable  
+13. Transition énergétique
 
 ## 37. **Mots liés aux émotions et à la psychologie**
 ### 37.1. **Psychologie de l'esprit**
-0. Conscience  
-1. Inconscient  
-2. Rêve  
-3. Cauchemar  
-4. Mémoire  
-5. Souvenir  
-6. Perception  
-7. Intuition  
-8. Pensée  
-9. Réflexion  
-10. Imagination  
-11. Créativité  
+1. Conscience  
+2. Inconscient  
+3. Rêve  
+4. Cauchemar  
+5. Mémoire  
+6. Souvenir  
+7. Perception  
+8. Intuition  
+9. Pensée  
+10. Réflexion  
+11. Imagination  
+12. Créativité  
 
 ### 37.2. **Comportement et émotions**
-12. Intelligence  
-13. Volonté  
-14. Motivation  
-15. Désir  
-16. Peur  
-17. Angoisse  
-18. Stress  
-19. Soulagement  
-20. Anxiété  
-21. Dépression  
-22. Résilience  
-23. Patience  
-24. Impatience
+1. Intelligence  
+2. Volonté  
+3. Motivation  
+4. Désir  
+5. Peur  
+6. Angoisse  
+7. Stress  
+8. Soulagement  
+9. Anxiété  
+10. Dépression  
+11. Résilience  
+12. Patience  
+13. Impatience
 
 ## 38. **Mots liés à la culture et aux arts**
 ### 38.1. **Arts visuels**
-0. Art  
-1. Peinture  
-2. Sculpture  
-3. Photographie  
-4. Cinéma  
-5. Théâtre  
-6. Danse  
-7. Musique  
-8. Concert  
-9. Orchestre  
-10. Chant  
-11. Opéra  
+1. Art  
+2. Peinture  
+3. Sculpture  
+4. Photographie  
+5. Cinéma  
+6. Théâtre  
+7. Danse  
+8. Musique  
+9. Concert  
+10. Orchestre  
+11. Chant  
+12. Opéra  
 
 ### 38.2. **Littérature et philosophie**
-12. Ballet  
-13. Poésie  
-14. Littérature  
-15. Roman  
-16. Nouvelle  
-17. Essai  
-18. Philosophie  
-19. Histoire  
-20. Critique  
-21. Essai  
-22. Biographie  
-23. Chronique  
-24. Satire
+1. Ballet  
+2. Poésie  
+3. Littérature  
+4. Roman  
+5. Nouvelle  
+6. Essai  
+7. Philosophie  
+8. Histoire  
+9. Critique  
+10. Essai  
+11. Biographie  
+12. Chronique  
+13. Satire
 
 ## 39. **Mots liés aux sentiments et aux relations humaines**
 ### 39.1. **Relations interpersonnelles**
-0. Amour  
-1. Amitié  
-2. Compassion  
-3. Empathie  
-4. Confiance  
-5. Respect  
-6. Jalousie  
-7. Envie  
-8. Trahison  
-9. Réconciliation  
-10. Rivalité  
-11. Harmonie  
+1. Amour  
+2. Amitié  
+3. Compassion  
+4. Empathie  
+5. Confiance  
+6. Respect  
+7. Jalousie  
+8. Envie  
+9. Trahison  
+10. Réconciliation  
+11. Rivalité  
+12. Harmonie  
 
 ### 39.2. **Relations sociales**
-12. Conflit  
-13. Solidarité  
-14. Coopération  
-15. Indifférence  
-16. Attirance  
-17. Admiration  
-18. Désir  
-19. Passion  
-20. Hostilité  
-21. Alliance  
-22. Négociation  
-23. Accusation  
-24. Défense
+1. Conflit  
+2. Solidarité  
+3. Coopération  
+4. Indifférence  
+5. Attirance  
+6. Admiration  
+7. Désir  
+8. Passion  
+9. Hostilité  
+10. Alliance  
+11. Négociation  
+12. Accusation  
+13. Défense
 
 ## 40. **Mots liés aux voyages et à l'exploration**
 ### 40.1. **Types de voyages**
-0. Aventure  
-1. Découverte  
-2. Excursion  
-3. Itinéraire  
-4. Circuit  
-5. Expédition  
-6. Safari  
-7. Croisière  
-8. Randonnée  
-9. Trek  
-10. Campagne  
-11. Voyage d'affaires  
+1. Aventure  
+2. Découverte  
+3. Excursion  
+4. Itinéraire  
+5. Circuit  
+6. Expédition  
+7. Safari  
+8. Croisière  
+9. Randonnée  
+10. Trek  
+11. Campagne  
+12. Voyage d'affaires  
 
 ### 40.2. **Logistique et organisation**
-12. Tourisme  
-13. Destination  
-14. Hébergement  
-15. Gîte  
-16. Auberge  
-17. Hôtel  
-18. Camping  
-19. Réservation  
-20. Passeport  
-21. Visa  
-22. Douane  
-23. Bagage  
-24. Valise
+1. Tourisme  
+2. Destination  
+3. Hébergement  
+4. Gîte  
+5. Auberge  
+6. Hôtel  
+7. Camping  
+8. Réservation  
+9. Passeport  
+10. Visa  
+11. Douane  
+12. Bagage  
+13. Valise
 
 ## 41. **Mots liés à la justice et à la loi**
 ### 41.1. **Système judiciaire**
-0. Loi  
-1. Règlement  
-2. Tribunal  
-3. Jugement  
-4. Verdict  
-5. Justice  
-6. Crime  
-7. Délit  
-8. Infraction  
-9. Police  
-10. Gendarmerie  
-11. Prison  
+1. Loi  
+2. Règlement  
+3. Tribunal  
+4. Jugement  
+5. Verdict  
+6. Justice  
+7. Crime  
+8. Délit  
+9. Infraction  
+10. Police  
+11. Gendarmerie  
+12. Prison  
 
 ### 41.2. **Processus judiciaire**
-12. Peine  
-13. Amende  
-14. Droit  
-15. Avocat  
-16. Procureur  
-17. Défense  
-18. Témoignage  
-19. Preuve  
-20. Accusation  
-21. Plaidoyer  
-22. Sentence  
-23. Culpabilité  
-24. Acquittement
+1. Peine  
+2. Amende  
+3. Droit  
+4. Avocat  
+5. Procureur  
+6. Défense  
+7. Témoignage  
+8. Preuve  
+9. Accusation  
+10. Plaidoyer  
+11. Sentence  
+12. Culpabilité  
+13. Acquittement
 
 ## 42. **Mots liés à la science et à la technologie**
 ### 42.1. **Disciplines scientifiques**
-0. Science  
-1. Technologie  
-2. Recherche  
-3. Innovation  
-4. Expérience  
-5. Laboratoire  
-6. Théorie  
-7. Hypothèse  
-8. Découverte  
-9. Invention  
-10. Physique  
-11. Chimie  
+1. Science  
+2. Technologie  
+3. Recherche  
+4. Innovation  
+5. Expérience  
+6. Laboratoire  
+7. Théorie  
+8. Hypothèse  
+9. Découverte  
+10. Invention  
+11. Physique  
+12. Chimie  
 
 ### 42.2. **Avancées technologiques**
-12. Biologie  
-13. Mathématiques  
-14. Informatique  
-15. Robotique  
-16. Intelligence artificielle  
-17. Big Data  
-18. Nanotechnologie  
-19. Génétique  
-20. Astrophysique  
-21. Astronomie  
-22. Mécanique  
-23. Électronique  
-24. Cybernétique
+1. Biologie  
+2. Mathématiques  
+3. Informatique  
+4. Robotique  
+5. Intelligence artificielle  
+6. Big Data  
+7. Nanotechnologie  
+8. Génétique  
+9. Astrophysique  
+10. Astronomie  
+11. Mécanique  
+12. Électronique  
+13. Cybernétique
 
 ## 43. **Mots liés aux relations internationales**
 ### 43.1. **Diplomatie et alliances**
-0. Diplomatie  
-1. Traité  
-2. Alliance  
-3. Conflit  
-4. Guerre  
-5. Paix  
-6. Organisation  
-7. ONU  
-8. Union Européenne  
-9. OTAN  
-10. Ambassade  
-11. Consulat  
+1. Diplomatie  
+2. Traité  
+3. Alliance  
+4. Conflit  
+5. Guerre  
+6. Paix  
+7. Organisation  
+8. ONU  
+9. Union Européenne  
+10. OTAN  
+11. Ambassade  
+12. Consulat  
 
 ### 43.2. **Négociation et accords**
-12. Mission  
-13. Sanction  
-14. Négociation  
-15. Accord  
-16. Résolution  
-17. Coopération  
-18. Médiation  
-19. Droit international  
-20. Tribunal international  
-21. Immunité  
-22. Réconciliation  
-23. Intervention  
-24. Armistice
+1. Mission  
+2. Sanction  
+3. Négociation  
+4. Accord  
+5. Résolution  
+6. Coopération  
+7. Médiation  
+8. Droit international  
+9. Tribunal international  
+10. Immunité  
+11. Réconciliation  
+12. Intervention  
+13. Armistice
 
 ## 44. **Mots liés à l'économie**
 ### 44.1. **Concepts économiques**
-0. Économie  
-1. Marché  
-2. Capital  
-3. Investissement  
-4. Croissance  
-5. Développement  
-6. Inflation  
-7. Récession  
-8. Chômage  
-9. Emploi  
-10. PIB  
-11. Banque centrale  
+1. Économie  
+2. Marché  
+3. Capital  
+4. Investissement  
+5. Croissance  
+6. Développement  
+7. Inflation  
+8. Récession  
+9. Chômage  
+10. Emploi  
+11. PIB  
+12. Banque centrale  
 
 ### 44.2. **Opérations financières**
-12. Monnaie  
-13. Taux d'intérêt  
-14. Dette  
-15. Bourse  
-16. Actions  
-17. Obligations  
-18. Marché boursier  
-19. Commerce  
-20. Exportation  
-21. Importation  
-22. Inflation  
-23. Déflation  
-24. Épargne
+1. Monnaie  
+2. Taux d'intérêt  
+3. Dette  
+4. Bourse  
+5. Actions  
+6. Obligations  
+7. Marché boursier  
+8. Commerce  
+9. Exportation  
+10. Importation  
+11. Inflation  
+12. Déflation  
+13. Épargne
 
 ## 45. **Mots liés à l'environnement**
 ### 45.1. **Écologie et développement durable**
-0. Écologie  
-1. Développement durable  
-2. Énergie renouvelable  
-3. Pollution  
-4. Recyclage  
-5. Biodiversité  
-6. Écosystème  
-7. Climat  
-8. Réchauffement climatique  
-9. Gaspillage  
-10. Déforestation  
-11. Agriculture biologique  
+1. Écologie  
+2. Développement durable  
+3. Énergie renouvelable  
+4. Pollution  
+5. Recyclage  
+6. Biodiversité  
+7. Écosystème  
+8. Climat  
+9. Réchauffement climatique  
+10. Gaspillage  
+11. Déforestation  
+12. Agriculture biologique  
 
 ### 45.2. **Protection et conservation**
-12. Alimentation durable  
-13. Énergies fossiles  
-14. Transition énergétique  
-15. Protection de la nature  
-16. Conservation  
-17. Ressources naturelles  
-18. Émissions de CO2  
-19. Zone protégée  
-20. Sanctuaire  
-21. Équilibre écologique  
-22. Réhabilitation  
-23. Reboisement  
-24. Sauvegarde
+1. Alimentation durable  
+2. Énergies fossiles  
+3. Transition énergétique  
+4. Protection de la nature  
+5. Conservation  
+6. Ressources naturelles  
+7. Émissions de CO2  
+8. Zone protégée  
+9. Sanctuaire  
+10. Équilibre écologique  
+11. Réhabilitation  
+12. Reboisement  
+13. Sauvegarde
 
 ## 46. **Mots liés à la technologie et au numérique**
 ### 46.1. **Outils numériques**
-0. Numérique  
-1. Informatique  
-2. Internet  
-3. Réseau  
-4. Sécurité  
-5. Données  
-6. Cloud  
-7. Serveur  
-8. Logiciel  
-9. Application  
-10. Mobile  
-11. Smartphone  
+1. Numérique  
+2. Informatique  
+3. Internet  
+4. Réseau  
+5. Sécurité  
+6. Données  
+7. Cloud  
+8. Serveur  
+9. Logiciel  
+10. Application  
+11. Mobile  
+12. Smartphone  
 
 ### 46.2. **Technologies émergentes**
-12. Ordinateur  
-13. Tablette  
-14. Wi-Fi  
-15. Réseau social  
-16. Big Data  
-17. Intelligence artificielle  
-18. Blockchain  
-19. Programmation  
-20. Cryptomonnaie  
-21. Réalité virtuelle  
-22. Réalité augmentée  
-23. Automatisation  
-24. Machine learning
+1. Ordinateur  
+2. Tablette  
+3. Wi-Fi  
+4. Réseau social  
+5. Big Data  
+6. Intelligence artificielle  
+7. Blockchain  
+8. Programmation  
+9. Cryptomonnaie  
+10. Réalité virtuelle  
+11. Réalité augmentée  
+12. Automatisation  
+13. Machine learning
 
 ## 47. **Mots liés à la culture générale**
 ### 47.1. **Humanités et sciences sociales**
-0. Histoire  
-1. Géographie  
-2. Politique  
-3. Société  
-4. Philosophie  
-5. Religion  
-6. Mythologie  
-7. Littérature  
-8. Poésie  
-9. Art  
-10. Muséologie  
-11. Linguistique  
+1. Histoire  
+2. Géographie  
+3. Politique  
+4. Société  
+5. Philosophie  
+6. Religion  
+7. Mythologie  
+8. Littérature  
+9. Poésie  
+10. Art  
+11. Muséologie  
+12. Linguistique  
 
 ### 47.2. **Sciences et technologies**
-12. Anthropologie  
-13. Sociologie  
-14. Économie  
-15. Physique  
-16. Chimie  
-17. Biologie  
-18. Mathématiques  
-19. Statistiques  
-20. Informatique  
-21. Technologie  
-22. Ingénierie  
-23. Innovation  
-24. Recherche
+1. Anthropologie  
+2. Sociologie  
+3. Économie  
+4. Physique  
+5. Chimie  
+6. Biologie  
+7. Mathématiques  
+8. Statistiques  
+9. Informatique  
+10. Technologie  
+11. Ingénierie  
+12. Innovation  
+13. Recherche
 
 ## 48. **Mots liés aux sentiments et aux relations humaines**
 ### 48.1. **Sentiments positifs**
-0. Amour  
-1. Amitié  
-2. Compassion  
-3. Empathie  
-4. Confiance  
-5. Respect  
-6. Fierté  
-7. Admiration  
-8. Passion  
-9. Harmonie  
-10. Solidarité  
-11. Coopération  
+1. Amour  
+2. Amitié  
+3. Compassion  
+4. Empathie  
+5. Confiance  
+6. Respect  
+7. Fierté  
+8. Admiration  
+9. Passion  
+10. Harmonie  
+11. Solidarité  
+12. Coopération  
 
 ### 48.2. **Sentiments négatifs**
-12. Jalousie  
-13. Envie  
-14. Trahison  
-15. Conflit  
-16. Indifférence  
-17. Hostilité  
-18. Rivalité  
-19. Désespoir  
-20. Anxiété  
-21. Méfiance  
-22. Agressivité  
-23. Rejet  
-24. Isolement
+1. Jalousie  
+2. Envie  
+3. Trahison  
+4. Conflit  
+5. Indifférence  
+6. Hostilité  
+7. Rivalité  
+8. Désespoir  
+9. Anxiété  
+10. Méfiance  
+11. Agressivité  
+12. Rejet  
+13. Isolement
 
 ---
 

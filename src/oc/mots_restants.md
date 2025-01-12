@@ -130,68 +130,68 @@
 11. Estampe  
 12. Céramique  
 13. Textile  
-15. Installation  
-16. Performance  
-20. Perspective  
-21. Composition  
-25. Abstraction  
-26. Réalisme  
-31. Minimalisme  
-32. Baroque  
-33. Renaissance  
-35. Romantisme  
-36. Inspiration  
-37. Créativité  
-38. Imagination  
-39. Émotion  
-40. Esthétique  
-41. Harmonie  
-42. Contraste  
-43. Texture  
-44. Volume  
-45. Ombre  
-46. Lumière  
-47. Nuance  
-48. Pigment  
-49. Palette  
-50. Matériau  
+14. Installation  
+15. Performance  
+16. Perspective  
+17. Composition  
+18. Abstraction  
+19. Réalisme  
+20. Minimalisme  
+21. Baroque  
+22. Renaissance  
+23. Romantisme  
+24. Inspiration  
+25. Créativité  
+26. Imagination  
+27. Émotion  
+28. Esthétique  
+29. Harmonie  
+30. Contraste  
+31. Texture  
+32. Volume  
+33. Ombre  
+34. Lumière  
+35. Nuance  
+36. Pigment  
+37. Palette  
+38. Matériau  
 
 ### Apparence et couleur
 
 1. Saturation  
-3. Teinte  
-4. Luminosité  
-5. Opacité  
-6. Transparence  
-7. Reflet  
-8. Réfraction  
-10. Lueur  
-13. Intensité  
-16. Brillant  
-17. Pâle  
-18. Éclat  
-19. Translucide  
-21. Multicolore  
-22. Monochrome  
-24. Métallisé  
-26. Sombre  
-27. Éblouissant  
-28. Tamisé  
-29. Contrasté  
-30. Dégradé  
-32. Terne  
-33. Vif  
-36. Saturé  
-37. Décoloré  
-38. Ébloui  
-39. Effacé  
-40. Foncé  
-41. Délavé  
-42. Surbrillance  
-43. Intensifié  
-45. Voilé  
-46. Prisme  
-48. Tonalités  
+2. Teinte  
+3. Luminosité  
+4. Opacité  
+5. Transparence  
+6. Reflet  
+7. Réfraction  
+8. Lueur  
+9. Intensité  
+10. Brillant  
+11. Pâle  
+12. Éclat  
+13. Translucide  
+14. Multicolore  
+15. Monochrome  
+16. Métallisé  
+17. Sombre  
+18. Éblouissant  
+19. Tamisé  
+20. Contrasté  
+21. Dégradé  
+22. Terne  
+23. Vif  
+24. Saturé  
+25. Décoloré  
+26. Ébloui  
+27. Effacé  
+28. Foncé  
+29. Délavé  
+30. Surbrillance  
+31. Intensifié  
+32. Voilé  
+33. Prisme  
+34. Tonalités  
 
 ## Noms des animaux
 
@@ -205,17 +205,17 @@
 6. Frelon  
 7. Mouche  
 8. Moustique  
-7. Papillon  
-8. Libellule  
-9. Scarabée  
-10. Cigale  
-11. Sauterelle  
-12. Criquet  
-13. Cafard  
-14. Coléoptère  
-15. Chenille  
-16. Coccinelle  
-17. Termite  
+9. Papillon  
+10. Libellule  
+11. Scarabée  
+12. Cigale  
+13. Sauterelle  
+14. Criquet  
+15. Cafard  
+16. Coléoptère  
+17. Chenille  
+18. Coccinelle  
+19. Termite  
 
 ### Oiseaux
 
@@ -223,18 +223,18 @@
 2. Merle  
 3. Pintade
 4. Corneille  
-6. Pie  
-11. Étourneau  
-11. Goéland  
-12. Mouette  
-13. Flamant rose  
-14. Colibri  
-15. Perroquet  
-16. Pingouin  
-17. Pélican  
-18. Cygne  
-19. Héron  
-20. Alouette  
+5. Pie  
+6. Étourneau  
+7. Goéland  
+8. Mouette  
+9. Flamant rose  
+10. Colibri  
+11. Perroquet  
+12. Pingouin  
+13. Pélican  
+14. Cygne  
+15. Héron  
+16. Alouette  
 
 ### Poissons
 
@@ -242,19 +242,19 @@
 2. Saumon  
 3. Cabillaud  
 4. Morue  
-6. Thon  
-7. Sardine  
-8. Maquereau  
-9. Lotte  
-10. Bar  
-11. Dorade  
-12. Anguille  
-13. Sole  
-14. Raie  
-16. Espadon  
-17. Piranha  
-18. Carpe  
-19. Silure  
+5. Thon  
+6. Sardine  
+7. Maquereau  
+8. Lotte  
+9. Bar  
+10. Dorade  
+11. Anguille  
+12. Sole  
+13. Raie  
+14. Espadon  
+15. Piranha  
+16. Carpe  
+17. Silure  
 
 ## Noms des arbres et fleurs
 
@@ -268,68 +268,68 @@
 6. Sapin  
 7. Cèdre  
 8. Cyprès  
-10. Tilleul  
-11. Bouleau  
-12. Hêtre  
-13. Frêne  
-15. Platane  
-17. Acacia  
-22. Olivier  
-29. Noyer  
-31. Cocotier  
-42. Epicéa  
-48. Laurier  
+9. Tilleul  
+10. Bouleau  
+11. Hêtre  
+12. Frêne  
+13. Platane  
+14. Acacia  
+15. Olivier  
+16. Noyer  
+17. Cocotier  
+18. Epicéa  
+19. Laurier  
 
 ### Fleurs
 
 1. Rose  
 2. Tulipe  
 3. Marguerite  
-5. Lys  
-7. Orchidée  
-9. Anémone  
-10. Violette  
-13. Bleuet  
-14. Coquelicot  
-17. Lavande  
-18. Hibiscus  
-19. Magnolia  
-20. Iris  
-21. Géranium  
-22. Hortensia  
-26. Azalée  
-27. Bougainvillier  
-33. Jonquille  
-34. Mimosa  
-35. Narcisse  
-36. Œillet  
-42. Tournesol  
+4. Lys  
+5. Orchidée  
+6. Anémone  
+7. Violette  
+8. Bleuet  
+9. Coquelicot  
+10. Lavande  
+11. Hibiscus  
+12. Magnolia  
+13. Iris  
+14. Géranium  
+15. Hortensia  
+16. Azalée  
+17. Bougainvillier  
+18. Jonquille  
+19. Mimosa  
+20. Narcisse  
+21. Œillet  
+22. Tournesol  
 
 ## Plantes et biodiversité
 
 ### Composition des plantes
 
-2. Tige  
-8. Pétale  
-12. Pollen  
-13. Nectaire  
-14. Ovule  
-20. Rameau  
-21. Tronc  
-22. Écorce  
-23. Branches  
-25. Bois  
-26. Nœud  
-27. Nappe phréatique  
-28. Moelle  
-30. Chlorophylle  
-31. Photosynthèse  
-36. Symbiose  
-38. Résine  
-40. Épi  
-44. Tubercule  
-45. Bulbe  
-49. Gousse  
+1. Tige  
+2. Pétale  
+3. Pollen  
+4. Nectaire  
+5. Ovule  
+6. Rameau  
+7. Tronc  
+8. Écorce  
+9. Branches  
+10. Bois  
+11. Nœud  
+12. Nappe phréatique  
+13. Moelle  
+14. Chlorophylle  
+15. Photosynthèse  
+16. Symbiose  
+17. Résine  
+18. Épi  
+19. Tubercule  
+20. Bulbe  
+21. Gousse  
 
 ### Biodiversité
 
@@ -352,27 +352,27 @@
 17. Introduite  
 18. Menacée  
 19. Invasive  
-22. Interaction  
-24. Parasite  
-25. Prédation  
-26. alimentaire  
-28. Producteur  
-29. Consommateur  
-30. Décomposeur  
-31. Climat  
-32. Température  
-33. Humidité  
-34. Forêt 
-35. tropicale  
-36. Savane  
-37. Toundra  
-42. Lac  
-46. Océan  
-47. Pollution  
-48. Reforestation  
-49. Déforestation  
-50. Équilibre  
-51. Résilience  
+20. Interaction  
+21. Parasite  
+22. Prédation  
+23. alimentaire  
+24. Producteur  
+25. Consommateur  
+26. Décomposeur  
+27. Climat  
+28. Température  
+29. Humidité  
+30. Forêt 
+31. tropicale  
+32. Savane  
+33. Toundra  
+34. Lac  
+35. Océan  
+36. Pollution  
+37. Reforestation  
+38. Déforestation  
+39. Équilibre  
+40. Résilience  
 
 ## Echange, communication et débats
 
@@ -383,45 +383,45 @@
 3. Discussion  
 4. Conversation  
 5. Échange  
-8. Argument  
-9. Message  
-10. Réponse  
-11. Question  
-12. Opinion  
-13. Idée  
-14. Proposition  
-15. Négociation  
-16. Traduction  
-17. Interprétation  
-20. Courriel  
-21. Lettre  
-23. Appel  
-25. Réunion  
-26. Interview  
-27. Déclaration  
-28. Communiqué  
-29. Publication  
-30. Annonce  
-31. Signal  
-32. Silence  
-33. Geste  
-34. Expression  
-35. Attitude  
-36. Intonation  
-37. Verbe  
-38. Syntaxe  
-39. Signification  
-40. Charisme  
-41. Influence  
-42. Ecoute  
-43. Compréhension  
-44. Explication  
-45. Partage  
-46. Respect  
-47. Émetteur  
-48. Récepteur  
-49. Médiation  
-50. Connexion  
+6. Argument  
+7. Message  
+8. Réponse  
+9. Question  
+10. Opinion  
+11. Idée  
+12. Proposition  
+13. Négociation  
+14. Traduction  
+15. Interprétation  
+16. Courriel  
+17. Lettre  
+18. Appel  
+19. Réunion  
+20. Interview  
+21. Déclaration  
+22. Communiqué  
+23. Publication  
+24. Annonce  
+25. Signal  
+26. Silence  
+27. Geste  
+28. Expression  
+29. Attitude  
+30. Intonation  
+31. Verbe  
+32. Syntaxe  
+33. Signification  
+34. Charisme  
+35. Influence  
+36. Ecoute  
+37. Compréhension  
+38. Explication  
+39. Partage  
+40. Respect  
+41. Émetteur  
+42. Récepteur  
+43. Médiation  
+44. Connexion  
 
 ### Débats
 
@@ -429,39 +429,39 @@
 2. Argumentation  
 3. Controverse  
 4. Opposition  
-6. Contradiction  
-7. Réfutation  
-8. Concession  
-9. Compromis  
-10. Désaccord  
-11. Accord  
-12. Conviction  
-13. Persuasion  
-14. Preuve  
-15. Thèse  
-16. Antithèse  
-17. Synthèse  
-18. Hypothèse  
-20. Démonstration  
-21. Conclusion  
-22. Introduction  
-23. Modération  
-24. Règlement  
-25. Interruption  
-27. Divergence  
-28. Consensus  
-32. Objection  
-33. Réplique  
-36. Justification  
-38. Contre-argument  
-39. Exemple  
-40. Illustration  
-41. Comparaison  
-42. Déduction  
-44. Paradoxe  
-45. Rhétorique  
-47. Raison  
-49. Analyse  
+5. Contradiction  
+6. Réfutation  
+7. Concession  
+8. Compromis  
+9. Désaccord  
+10. Accord  
+11. Conviction  
+12. Persuasion  
+13. Preuve  
+14. Thèse  
+15. Antithèse  
+16. Synthèse  
+17. Hypothèse  
+18. Démonstration  
+19. Conclusion  
+20. Introduction  
+21. Modération  
+22. Règlement  
+23. Interruption  
+24. Divergence  
+25. Consensus  
+26. Objection  
+27. Réplique  
+28. Justification  
+29. Contre-argument  
+30. Exemple  
+31. Illustration  
+32. Comparaison  
+33. Déduction  
+34. Paradoxe  
+35. Rhétorique  
+36. Raison  
+37. Analyse  
 
 ## Religion et culture
 
@@ -473,35 +473,35 @@
 4. Spiritualité  
 5. Divinité  
 6. Dieu  
-8. Âme  
-9. Prière  
-10. Méditation  
-11. Rituel  
-12. Sacrifice  
-13. Prophète  
-14. Prêtre  
-15. Moine  
-18. Temple  
-19. Église  
-20. Mosquée  
-21. Synagogue  
-22. Cathédrale  
-23. Chapelle  
-24. Monastère  
-25. Sanctuaire  
-26. Reliques  
-27. Saint  
-28. Péché  
-29. Rédemption  
-30. Salut  
-31. Paradis  
-32. Enfer  
-34. Réincarnation  
-38. Bible  
-46. Athéisme  
-48. Hérésie  
-49. Dogme  
-50. Pèlerinage  
+7. Âme  
+8. Prière  
+9. Méditation  
+10. Rituel  
+11. Sacrifice  
+12. Prophète  
+13. Prêtre  
+14. Moine  
+15. Temple  
+16. Église  
+17. Mosquée  
+18. Synagogue  
+19. Cathédrale  
+20. Chapelle  
+21. Monastère  
+22. Sanctuaire  
+23. Reliques  
+24. Saint  
+25. Péché  
+26. Rédemption  
+27. Salut  
+28. Paradis  
+29. Enfer  
+30. Réincarnation  
+31. Bible  
+32. Athéisme  
+33. Hérésie  
+34. Dogme  
+35. Pèlerinage  
 
 ### Culture
 
@@ -511,34 +511,34 @@
 4. Art  
 5. Littérature  
 6. Musique  
-9. Théâtre  
-10. Cinéma  
-11. Danse  
-13. Artisanat  
-14. Tradition  
-15. Coutume  
-16. Folklore  
-17. Fête  
-18. Cérémonie  
-19. Festival  
-20. Langue  
-21. Dialecte  
-22. Poésie  
-23. Roman  
-25. Conte  
-26. Mythologie  
-31. Gastronomie  
-35. Exposition  
-37. Mode  
-38. Bijoux  
-39. Design  
-40. Mode de vie  
-41. Héritage  
-42. Identité  
-45. Innovation  
-46. Diversité  
-49. Symbolisme  
-50. Évolution  
+7. Théâtre  
+8. Cinéma  
+9. Danse  
+10. Artisanat  
+11. Tradition  
+12. Coutume  
+13. Folklore  
+14. Fête  
+15. Cérémonie  
+16. Festival  
+17. Langue  
+18. Dialecte  
+19. Poésie  
+20. Roman  
+21. Conte  
+22. Mythologie  
+23. Gastronomie  
+24. Exposition  
+25. Mode  
+26. Bijoux  
+27. Design  
+28. Mode de vie  
+29. Héritage  
+30. Identité  
+31. Innovation  
+32. Diversité  
+33. Symbolisme  
+34. Évolution  
 
 ## Politique et géopolitique
 
@@ -566,70 +566,70 @@
 20. Urne  
 21. Parti  
 22. Coalition  
-24. Majorité  
-25. Président  
-26. Premier ministre  
-27. Député  
-28. Sénateur  
-29. Ministre  
-30. Citoyen  
-31. Suffrage  
-32. Candidat  
-33. Programme  
-34. Campagne  
-35. Discours  
-36. Abstention  
-37. Référendum  
-38. Mandat  
-39. Budget  
-40. Impôts  
-41. Répression  
-42. Manifestation  
-44. Liberté  
-45. Égalité  
-46. Justice  
-47. Corruption  
-49. Diplomatie  
-50. Souveraineté  
+23. Majorité  
+24. Président  
+25. Premier ministre  
+26. Député  
+27. Sénateur  
+28. Ministre  
+29. Citoyen  
+30. Suffrage  
+31. Candidat  
+32. Programme  
+33. Campagne  
+34. Discours  
+35. Abstention  
+36. Référendum  
+37. Mandat  
+38. Budget  
+39. Impôts  
+40. Répression  
+41. Manifestation  
+42. Liberté  
+43. Égalité  
+44. Justice  
+45. Corruption  
+46. Diplomatie  
+47. Souveraineté  
 
 ### Géopolitique
 
 1. Géopolitique  
-4. Nation  
-5. État-nation  
-6. Union  
-7. Alliance  
-8. Traité  
-10. Conflit  
-11. Guerre  
-12. Paix  
-13. influence  
-14. Bloc  
-15. Superpuissance  
-16. Hégémonie  
-17. Multipolarité  
-18. Bipolarité  
-19. Globalisation  
-20. Nationalisme  
-21. Protectionnisme  
-23. Sanctions  
-24. Embargo  
-25. Intervention  
-26. Coopération  
-27. Organisations internationales  
-30. Union européenne  
-31. exclusif
-32. Commerce
-33. international  
-34. Ressources naturelles  
-35. Énergie  
-36. Stratagème  
-37. Migration  
-38. Réfugié  
-39. Crise  
-40. Rivalité  
-42. Expansion  
-46. Colonisation  
+2. Nation  
+3. État-nation  
+4. Union  
+5. Alliance  
+6. Traité  
+7. Conflit  
+8. Guerre  
+9. Paix  
+10. influence  
+11. Bloc  
+12. Superpuissance  
+13. Hégémonie  
+14. Multipolarité  
+15. Bipolarité  
+16. Globalisation  
+17. Nationalisme  
+18. Protectionnisme  
+19. Sanctions  
+20. Embargo  
+21. Intervention  
+22. Coopération  
+23. Organisations internationales  
+24. Union européenne  
+25. exclusif
+26. Commerce
+27. international  
+28. Ressources naturelles  
+29. Énergie  
+30. Stratagème  
+31. Migration  
+32. Réfugié  
+33. Crise  
+34. Rivalité  
+35. Expansion  
+36. Colonisation  
 
 ## Sport & loisirs
 
@@ -637,88 +637,88 @@
 
 1. Sport  
 2. Loisirs  
-4. Entraînement  
-5. Compétition  
-6. Match  
-7. Équipe  
-8. Arbitre  
-9. Joueur  
-10. Adversaire  
-11. Supporter  
-12. Championnat  
-13. Tournoi  
-14. Finale  
-15. Victoire  
-16. Défaite  
-17. Match nul  
-18. Score  
-19. Points  
-21. Stade  
-22. Piste  
-23. Gymnase  
-24. Piscine  
-25. Court  
-26. Salle de sport  
-27. Yoga  
-31. Cyclisme  
-32. Course à pied  
-33. Athlétisme  
-34. Natation  
-35. Boxe  
-36. Aviron  
-37. Gymnastique  
-38. Ski  
-39. Snowboard  
-40. Patinage  
-42. Tennis  
-43. Football  
-44. Basketball  
-45. Volleyball  
-46. Rugby  
-47. Badminton  
-48. Golf  
-49. Échecs  
-50. Jeux de société  
+3. Entraînement  
+4. Compétition  
+5. Match  
+6. Équipe  
+7. Arbitre  
+8. Joueur  
+9. Adversaire  
+10. Supporter  
+11. Championnat  
+12. Tournoi  
+13. Finale  
+14. Victoire  
+15. Défaite  
+16. Match nul  
+17. Score  
+18. Points  
+19. Stade  
+20. Piste  
+21. Gymnase  
+22. Piscine  
+23. Court  
+24. Salle de sport  
+25. Yoga  
+26. Cyclisme  
+27. Course à pied  
+28. Athlétisme  
+29. Natation  
+30. Boxe  
+31. Aviron  
+32. Gymnastique  
+33. Ski  
+34. Snowboard  
+35. Patinage  
+36. Tennis  
+37. Football  
+38. Basketball  
+39. Volleyball  
+40. Rugby  
+41. Badminton  
+42. Golf  
+43. Échecs  
+44. Jeux de société  
 
 ### Instruments de sport
 
 1. Ballon  
 2. Raquette  
-4. But  
-5. Gants de boxe  
-7. Protège-dents  
-8. Genouillères  
-9. Poids  
-10. Haltères  
-11. Barres parallèles  
-12. Barres asymétriques  
-13. Anneaux  
-14. Plongeoir  
-17. Kayak  
-18. Canoë  
-19. Pagaie  
-20. Gilet de sauvetage  
-21. Skis  
-23. Patins à glace  
-24. Surfs  
-25. Planches à voile  
-26. Harnais  
-27. Corde d’escalade  
-28. Mousqueton  
-29. Sac à magnésie  
-30. Lunettes de natation  
-31. Bonnet 
-32. bain  
-33. Palmes  
-34. Maillot  
-37. Club  
-38. Disque  
-39. Javelot  
-40. Perche  
-41. frappe  
-43. Tuba   
-44. Gants
-45. tir à l’arc  
+3. But  
+4. Gants de boxe  
+5. Protège-dents  
+6. Genouillères  
+7. Poids  
+8. Haltères  
+9. Barres parallèles  
+10. Barres asymétriques  
+11. Anneaux  
+12. Plongeoir  
+13. Kayak  
+14. Canoë  
+15. Pagaie  
+16. Gilet de sauvetage  
+17. Skis  
+18. Patins à glace  
+19. Surfs  
+20. Planches à voile  
+21. Harnais  
+22. Corde d’escalade  
+23. Mousqueton  
+24. Sac à magnésie  
+25. Lunettes de natation  
+26. Bonnet 
+27. bain  
+28. Palmes  
+29. Maillot  
+30. Club  
+31. Disque  
+32. Javelot  
+33. Perche  
+34. frappe  
+35. Tuba   
+36. Gants
+37. tir à l’arc  
 
 ## Musique
 
@@ -729,46 +729,46 @@
 3. Partition  
 4. Portée  
 5. Mesure  
-9. Tempo  
-10. Rythme  
-11. Mélodie  
-15. Tonalité  
-27. Accentuations  
-32. Battement  
-33. Croche  
-34. Noire  
-35. Blanche  
-36. Ronde  
-37. Double croche  
-38. Soupir  
-40. Crescendo  
-41. Decrescendo  
+6. Tempo  
+7. Rythme  
+8. Mélodie  
+9. Tonalité  
+10. Accentuations  
+11. Battement  
+12. Croche  
+13. Noire  
+14. Blanche  
+15. Ronde  
+16. Double croche  
+17. Soupir  
+18. Crescendo  
+19. Decrescendo  
 
 ### Instruments
 
 1. Piano  
 2. Guitare  
 3. Violon  
-5. Violoncelle  
-6. Contrebasse  
-7. Harpe  
-8. Flûte
-9.  Piccolo  
-10. Clarinette  
-11. Hautbois  
-12. Basson  
-13. Saxophone  
-14. Trompette  
-15. Trombone  
-17. Cor  
-18. Batterie  
-23. Cymbales  
-24. Tambourin  
-27. Maracas  
-28. Xylophone  
-31. Orgue  
-32. Accordéon  
-33. Harmonica  
+4. Violoncelle  
+5. Contrebasse  
+6. Harpe  
+7. Flûte
+8.  Piccolo  
+9. Clarinette  
+10. Hautbois  
+11. Basson  
+12. Saxophone  
+13. Trompette  
+14. Trombone  
+15. Cor  
+16. Batterie  
+17. Cymbales  
+18. Tambourin  
+19. Maracas  
+20. Xylophone  
+21. Orgue  
+22. Accordéon  
+23. Harmonica  
     
 ## Emotions et sentiments
 
@@ -809,54 +809,54 @@
 33. Désarroi  
 34. Haine  
 35. Euphorie  
-37. Excitation  
-38. Satisfaction  
-39. Doute  
-40. Indignation  
-41. Confusion  
-42. Malaise  
-44. Exaltation  
-46. Dégoût profond  
-48. Regret amer  
-49. Exténuation  
-50. Débordement émotionnel  
+36. Excitation  
+37. Satisfaction  
+38. Doute  
+39. Indignation  
+40. Confusion  
+41. Malaise  
+42. Exaltation  
+43. Dégoût profond  
+44. Regret amer  
+45. Exténuation  
+46. Débordement émotionnel  
 
 ### Sentiments
 
 1. Amitié  
-3. Mépris  
-4. Adoration  
-5. Dévotion  
-6. Altruisme  
-7. Empathie  
-9. Plénitude  
-10. Mal-être  
-12. Attachement  
-13. Passion  
-14. Fraternité  
-15. Culpabilité  
-18. Rejet  
-19. Curiosité  
-22. Résignation  
-23. Dévouement  
-24. Appartenance  
-25. Désintérêt  
-27. Fidélité  
-28. Reconnaissance  
-29. Affection  
-30. Tendresse  
-34. mutuel  
-35. Désillusion  
-37. Introspection  
-39. Confiance en soi  
-40. Doute envers autrui  
-41. affectif  
-42. Dépendance 
-44. Épanouissement  
-46. sentimental  
-49. Désir ardent   
-50. Affinité  
-51. émotionnelle  
+2. Mépris  
+3. Adoration  
+4. Dévotion  
+5. Altruisme  
+6. Empathie  
+7. Plénitude  
+8. Mal-être  
+9. Attachement  
+10. Passion  
+11. Fraternité  
+12. Culpabilité  
+13. Rejet  
+14. Curiosité  
+15. Résignation  
+16. Dévouement  
+17. Appartenance  
+18. Désintérêt  
+19. Fidélité  
+20. Reconnaissance  
+21. Affection  
+22. Tendresse  
+23. mutuel  
+24. Désillusion  
+25. Introspection  
+26. Confiance en soi  
+27. Doute envers autrui  
+28. affectif  
+29. Dépendance 
+30. Épanouissement  
+31. sentimental  
+32. Désir ardent   
+33. Affinité  
+34. émotionnelle  
 
 
 ## Matériaux et consistances
@@ -870,33 +870,33 @@
 5. Acier  
 6. Aluminium  
 7. Plomb  
-14. Lithium  
-15. Uranium  
-16. Charbon  
-18. Diamant  
-19. Saphir  
-20. Émeraude  
-21. Quartz  
-24. Basalte  
-25. Granit  
-26. Marbre  
-27. Calcaire  
-29. Craie  
-30. Sable  
-31. Argile  
-32. Terre cuite  
-33. Porcelaine  
-35. Béton  
-36. Ciment  
-37. Brique  
-39. Bambou  
-40. Liège  
-41. Verre  
-42. Plastique  
-44. Fibre
-45. carbone  
-47. Tissu  
-50. Carton  
+8. Lithium  
+9. Uranium  
+10. Charbon  
+11. Diamant  
+12. Saphir  
+13. Émeraude  
+14. Quartz  
+15. Basalte  
+16. Granit  
+17. Marbre  
+18. Calcaire  
+19. Craie  
+20. Sable  
+21. Argile  
+22. Terre cuite  
+23. Porcelaine  
+24. Béton  
+25. Ciment  
+26. Brique  
+27. Bambou  
+28. Liège  
+29. Verre  
+30. Plastique  
+31. Fibre
+32. carbone  
+33. Tissu  
+34. Carton  
 
 ### Consistances
 
@@ -915,32 +915,32 @@
 13. Ferme  
 14. Dure  
 15. Souple  
-17. Élastique  
-18. Mousseux  
-19. Aéré  
-20. Poreux  
-21. Imperméable  
-22. Flexible  
-23. Compressible  
-24. Malléable  
-25. Durci  
-27. Transparent  
-28. Opaque  
-32. Compact  
-33. Glissant  
-34. Sec  
-35. Humide  
-37. Poudreux  
-38. Collé  
-39. Chiffonné  
-40. Effrité  
-42. Onctueux  
-43. Écrasé  
-44. Fissuré  
-45. Froissé  
-46. Gluant  
-49. Spongieux  
-50. Croquant  
+16. Élastique  
+17. Mousseux  
+18. Aéré  
+19. Poreux  
+20. Imperméable  
+21. Flexible  
+22. Compressible  
+23. Malléable  
+24. Durci  
+25. Transparent  
+26. Opaque  
+27. Compact  
+28. Glissant  
+29. Sec  
+30. Humide  
+31. Poudreux  
+32. Collé  
+33. Chiffonné  
+34. Effrité  
+35. Onctueux  
+36. Écrasé  
+37. Fissuré  
+38. Froissé  
+39. Gluant  
+40. Spongieux  
+41. Croquant  
 
 
 ## Géométrie et transformation matière
@@ -966,25 +966,25 @@
 17. Cylindre  
 18. Cône  
 19. Pyramide  
-24. Rayon  
-25. Diamètre  
-26. Circonférence  
-27. Sommet  
-28. Arête  
-29. Face  
-33. Lignes
-34. Courbes  
-35. Segment  
-36. Droite  
-37. Chordes  
-39. Diagonale  
-40. Perpendiculaire  
-41. Parallèle  
-44. Équilatéral  
-45. Isocèle  
-47. Convexe  
-48. Concave  
-49. Proportion  
+20. Rayon  
+21. Diamètre  
+22. Circonférence  
+23. Sommet  
+24. Arête  
+25. Face  
+26. Lignes
+27. Courbes  
+28. Segment  
+29. Droite  
+30. Chordes  
+31. Diagonale  
+32. Perpendiculaire  
+33. Parallèle  
+34. Équilatéral  
+35. Isocèle  
+36. Convexe  
+37. Concave  
+38. Proportion  
 
 ### Transformation de la matière
 
@@ -1013,30 +1013,30 @@
 23. Fracturer  
 24. Casser  
 25. Craqueler  
-27. Dissoudre  
-28. S’effriter  
-29. Oxydation  
-30. Fusionner  
-31. Mélanger  
-32. Agiter  
-33. Secouer  
-34. Éclater  
-35. Percer  
-36. Enfler  
-37. Étancher  
-38. Ériger  
-39. Détendre  
-40. Compresser  
-41. Souffler  
-42. Découper  
-43. Décoller  
-44. Coller  
-45. Tremper  
-46. Pulvériser  
-47. Déchirer  
-48. Réparer  
-49. Stabiliser  
-50. Réchauffer  
+26. Dissoudre  
+27. S’effriter  
+28. Oxydation  
+29. Fusionner  
+30. Mélanger  
+31. Agiter  
+32. Secouer  
+33. Éclater  
+34. Percer  
+35. Enfler  
+36. Étancher  
+37. Ériger  
+38. Détendre  
+39. Compresser  
+40. Souffler  
+41. Découper  
+42. Décoller  
+43. Coller  
+44. Tremper  
+45. Pulvériser  
+46. Déchirer  
+47. Réparer  
+48. Stabiliser  
+49. Réchauffer  
 
 ## Pêche  poissons, mers & océans
 
@@ -1051,45 +1051,45 @@
 7. Lancer  
 8. Pêcheur  
 9. Ligne  
-15. Épuisette   
-16. Quai  
-17. Banc de poissons  
-33. Brochet  
+10. Épuisette   
+11. Quai  
+12. Banc de poissons  
+13. Brochet  
 
 ### Mers et océans
 
 1. Mer  
-3. Plage  
-4. Rivage  
-5. Vague  
-6. Marée  
-7. Écume  
-8. Baie  
-9. Golfe  
-10. Récif  
-11. Île  
-12. Archipel  
-17. Détroit  
-18. Bassin  
-19. Abysse  
-20. Falaise  
-24. Courant  
-27. Coquillage  
-28. Corail  
-29. Étoile de mer  
-30. Méduse  
-31. Requin  
-32. Baleine  
-33. Dauphin  
-36. Tortue
-37. marin  
-38. Crabe  
-39. Langouste  
-40. Homard  
-41. Crevette  
-43. Algue  
-47. Plongée  
-48. Scaphandre  
+2. Plage  
+3. Rivage  
+4. Vague  
+5. Marée  
+6. Écume  
+7. Baie  
+8. Golfe  
+9. Récif  
+10. Île  
+11. Archipel  
+12. Détroit  
+13. Bassin  
+14. Abysse  
+15. Falaise  
+16. Courant  
+17. Coquillage  
+18. Corail  
+19. Étoile de mer  
+20. Méduse  
+21. Requin  
+22. Baleine  
+23. Dauphin  
+24. Tortue
+25. marin  
+26. Crabe  
+27. Langouste  
+28. Homard  
+29. Crevette  
+30. Algue  
+31. Plongée  
+32. Scaphandre  
 
 ## Aide pour affiner la langue
 
@@ -1159,33 +1159,33 @@
 9. à condition que  
 10. pour peu que  
 11. en cas de  
-13. en outre  
-14. de surcroît  
-15. de plus  
-16. qui plus est  
-17. en dépit de  
-18. malgré  
-21. lors de  
-22. au moment de  
-24. tandis que  
-26. afin de/que  
-28. en vue de  
-29. dans la mesure où  
-30. excepté que  
-31. sauf si  
-32. en d’autres termes  
-33. autrement dit  
-34. du moins  
-35. vu que  
-36. étant donné que  
-37. parce que  
-38. puisque  
-39. alors  
-41. de sorte que  
-47. tantôt… tantôt  
-48. ou bien… ou bien  
-49. du moment que  
-50. sous prétexte que  
+12. en outre  
+13. de surcroît  
+14. de plus  
+15. qui plus est  
+16. en dépit de  
+17. malgré  
+18. lors de  
+19. au moment de  
+20. tandis que  
+21. afin de/que  
+22. en vue de  
+23. dans la mesure où  
+24. excepté que  
+25. sauf si  
+26. en d’autres termes  
+27. autrement dit  
+28. du moins  
+29. vu que  
+30. étant donné que  
+31. parce que  
+32. puisque  
+33. alors  
+34. de sorte que  
+35. tantôt… tantôt  
+36. ou bien… ou bien  
+37. du moment que  
+38. sous prétexte que  
 
 ## Cuisines et ingrédients
 
@@ -1195,125 +1195,125 @@
 2. Wok  
 3. Plat
 4. gratin  
-6. Planche
-7. découper  
-9. chef  
-10. Éplucheur  
-11. Râpe  
-12. Louche  
-13. Fouet  
-14. Passoire  
-15. Tamis  
-16. Moule
-18. Hachoir  
-19. Balance 
-23. Mortier et pilon  
-24. Rouleau
-25. pâtisserie  
-28. Farine  
-29. Levure chimique  
-30. Huile 
-31. Vinaigre 
-32. Piment
-33. poudre  
-34. Cannelle  
-35. Curcuma  
-36. Gingembre  
-37. Paprika  
-38. Viande  
-39. Dinde  
-41. Crevettes  
+5. Planche
+6. découper  
+7. chef  
+8. Éplucheur  
+9. Râpe  
+10. Louche  
+11. Fouet  
+12. Passoire  
+13. Tamis  
+14. Moule
+15. Hachoir  
+16. Balance 
+17. Mortier et pilon  
+18. Rouleau
+19. pâtisserie  
+20. Farine  
+21. Levure chimique  
+22. Huile 
+23. Vinaigre 
+24. Piment
+25. poudre  
+26. Cannelle  
+27. Curcuma  
+28. Gingembre  
+29. Paprika  
+30. Viande  
+31. Dinde  
+32. Crevettes  
 
 ### Actions de cuisine et adjectifs
 
-2. Remuer  
-3. Fouetter  
-4. Battre  
-5. Hacher  
-7. Émincer  
-8. Ciseler  
-9. Éplucher  
-10. Râper  
-11. Moudre  
-12. Pétrir  
-13. Rouler  
-14. Étaler  
-17. mijoter  
-18. bouillir  
-19. Rôtir  
-20. Cuire à la vapeur  
-21. Griller  
-22. Poêler  
-23. Blanchir  
-25. Frire  
-27. Fondant  
-28. Croustillant  
-30. Épicé  
-31. Sucré  
-32. Salé  
-33. Acidulé  
-34. Amer  
-35. Fumé  
-36. Rôti  
-37. Grillé  
-38. Doré  
-39. Savoureux  
-40. Parfumé  
-42. Léger  
-43. Lourd  
-45. Frais  
-46. Cuit à point  
-48. Malaxé  
-49. Sauté  
-50. Caramélisé 
+1. Remuer  
+2. Fouetter  
+3. Battre  
+4. Hacher  
+5. Émincer  
+6. Ciseler  
+7. Éplucher  
+8. Râper  
+9. Moudre  
+10. Pétrir  
+11. Rouler  
+12. Étaler  
+13. mijoter  
+14. bouillir  
+15. Rôtir  
+16. Cuire à la vapeur  
+17. Griller  
+18. Poêler  
+19. Blanchir  
+20. Frire  
+21. Fondant  
+22. Croustillant  
+23. Épicé  
+24. Sucré  
+25. Salé  
+26. Acidulé  
+27. Amer  
+28. Fumé  
+29. Rôti  
+30. Grillé  
+31. Doré  
+32. Savoureux  
+33. Parfumé  
+34. Léger  
+35. Lourd  
+36. Frais  
+37. Cuit à point  
+38. Malaxé  
+39. Sauté  
+40. Caramélisé 
     
 ## Guerres et combats
 
 ### Guerre et conflits
 
-3. Bataille  
-4. Offensive  
-6. Armistice  
-8. Trêve  
-9. Siège  
-10. Insurrection  
-11. Rébellion  
-12. Révolution  
-13. Émeute  
-14. Soulèvement  
-15. Occupation  
-16. Invasion  
-17. Retraite  
-18. Avancée  
-19. Défense  
-20. Stratégie  
-22. Espionnage  
-23. Sabotage  
-24. Alliés  
-25. Ennemi  
-26. Front  
-29. Garnison  
-30. Commandement  
-31. Quartier général  
-32. Troupes  
-33. Armée 
-34. Milice  
-35. Mercenaire  
-36. Soldat  
-37. Capitaine  
-38. Général  
-39. Maréchal  
-40. Réserve  
-41. Convoi  
-42. Blocus  
-43. Bombardement  
-44. Déportation  
-45. Occupant  
-46. Prisonnier 
-47. Champ de bataille  
-48. conflit  
-49. Crise humanitaire  
-50. Opération militaire  
+1. Bataille  
+2. Offensive  
+3. Armistice  
+4. Trêve  
+5. Siège  
+6. Insurrection  
+7. Rébellion  
+8. Révolution  
+9. Émeute  
+10. Soulèvement  
+11. Occupation  
+12. Invasion  
+13. Retraite  
+14. Avancée  
+15. Défense  
+16. Stratégie  
+17. Espionnage  
+18. Sabotage  
+19. Alliés  
+20. Ennemi  
+21. Front  
+22. Garnison  
+23. Commandement  
+24. Quartier général  
+25. Troupes  
+26. Armée 
+27. Milice  
+28. Mercenaire  
+29. Soldat  
+30. Capitaine  
+31. Général  
+32. Maréchal  
+33. Réserve  
+34. Convoi  
+35. Blocus  
+36. Bombardement  
+37. Déportation  
+38. Occupant  
+39. Prisonnier 
+40. Champ de bataille  
+41. conflit  
+42. Crise humanitaire  
+43. Opération militaire  
 
 ### Armes et combats
 
@@ -1328,43 +1328,43 @@
 9. Flèche  
 10. Arbalète  
 11. Lance  
-13. Coutelas  
-14. Bâton  
-15. Hallebarde  
-16. Cimeterre  
-17. Pistolet  
-18. Revolver  
-19. Fusil d’assaut  
-20. Mitraillette  
-21. Mitrailleuse  
-22. Sniper  
-23. Bazooka  
-24. Lance-roquettes  
-25. Grenade  
-26. Mine  
-27. Canon  
-28. Mortier  
-29. Torpille  
-30. Missile  
-31. Bombes  
-32. Charge explosive  
-33. Lance-flammes  
-34. Gilet pare-balles  
-35. Casque  
-36. Armure  
-37. Gantelet  
-38. Couteau de combat  
-39. Taser  
-40. Matraque  
-41. Poing américain  
-42. Filet de combat  
-43. Corde  
-44. Lance-pierres  
-45. Sarbacane  
-46. Glaive  
-47. Trident  
-49. Chakram  
-50. Boulet de canon  
+12. Coutelas  
+13. Bâton  
+14. Hallebarde  
+15. Cimeterre  
+16. Pistolet  
+17. Revolver  
+18. Fusil d’assaut  
+19. Mitraillette  
+20. Mitrailleuse  
+21. Sniper  
+22. Bazooka  
+23. Lance-roquettes  
+24. Grenade  
+25. Mine  
+26. Canon  
+27. Mortier  
+28. Torpille  
+29. Missile  
+30. Bombes  
+31. Charge explosive  
+32. Lance-flammes  
+33. Gilet pare-balles  
+34. Casque  
+35. Armure  
+36. Gantelet  
+37. Couteau de combat  
+38. Taser  
+39. Matraque  
+40. Poing américain  
+41. Filet de combat  
+42. Corde  
+43. Lance-pierres  
+44. Sarbacane  
+45. Glaive  
+46. Trident  
+47. Chakram  
+48. Boulet de canon  
  
 
 
@@ -1373,46 +1373,46 @@
 ### Chasse
 
 1. Fusil  
-4. Carabine  
-6. Piège  
-7. Chien de chasse  
-8. Gibecière  
-9. Battue  
-10. Traque  
-11. Affût  
-12. Mirador  
-14. Appeau  
-15. Bivouac  
-16. Veste de chasse  
-17. Cartouches  
-18. Munitions  
-19. Lunette de visée  
-20. Camouflage  
-21. Bottes  
-22. Couteau  
-24. Étui  
-25. Balle  
-26. Débusquer  
-27. Traqueur  
-28. Garde-chasse  
-29. Chasseur  
-30. Permis de chasse  
-31. Saison de chasse  
-32. Fretin  
-33. Proie  
-34. Sentier forestier  
-36. Enclos  
-37. Zone de chasse  
-39. Tir à l’arc  
-41. Traque silencieuse  
-42. Poste fixe  
-43. Dépecer  
-45. Taxidermie  
-46. Poudrière  
-47. Cheminement  
-48. Carnet de prélèvement  
-49. Laisse  
-50. Sifflet  
+2. Carabine  
+3. Piège  
+4. Chien de chasse  
+5. Gibecière  
+6. Battue  
+7. Traque  
+8. Affût  
+9. Mirador  
+10. Appeau  
+11. Bivouac  
+12. Veste de chasse  
+13. Cartouches  
+14. Munitions  
+15. Lunette de visée  
+16. Camouflage  
+17. Bottes  
+18. Couteau  
+19. Étui  
+20. Balle  
+21. Débusquer  
+22. Traqueur  
+23. Garde-chasse  
+24. Chasseur  
+25. Permis de chasse  
+26. Saison de chasse  
+27. Fretin  
+28. Proie  
+29. Sentier forestier  
+30. Enclos  
+31. Zone de chasse  
+32. Tir à l’arc  
+33. Traque silencieuse  
+34. Poste fixe  
+35. Dépecer  
+36. Taxidermie  
+37. Poudrière  
+38. Cheminement  
+39. Carnet de prélèvement  
+40. Laisse  
+41. Sifflet  
 
 ### Gibier
 
@@ -1456,15 +1456,15 @@
 38. Hermine  
 39. Sanglier noir  
 40. Civette  
-42. Oie sauvage  
-43. Canard siffleur  
-44. Bernache  
-45. Grive  
-46. Merle noir  
-47. Étourneau sansonnet  
-48. Chardonneret  
-49. Ramiers  
-50. Cormoran  
+41. Oie sauvage  
+42. Canard siffleur  
+43. Bernache  
+44. Grive  
+45. Merle noir  
+46. Étourneau sansonnet  
+47. Chardonneret  
+48. Ramiers  
+49. Cormoran  
 
     
 ## Signalisation & justice
@@ -1473,97 +1473,97 @@
 
 1. Rond-point  
 2. Croisement  
-4. Impasse  
-5. Chemin  
-6. Sentier  
-7. Aire de repos  
-8. Bande médiane  
-9. Ligne de rive  
-10. Ligne de séparation  
-11. Passage surélevé  
-12. Passage souterrain  
-13. Piste réservée  
-14. Zone de ralentissement  
-15. Aire de covoiturage  
-16. Couloir de bus  
-17. Marquage zébré  
-18. Îlot directionnel  
-19. Signal d'arrêt obligatoire  
-20. Signal de cédez-le-passage  
-21. Signal de voie ferrée  
-22. Balise de détresse  
-23. Panneau de bifurcation  
-24. Panneau de stationnement interdit  
-25. Panneau d'arrêt d'urgence  
-26. Panneau de priorité absolue  
-27. Signalisation horizontale  
-28. Signalisation verticale  
-29. Signal de ralentissement  
-30. Cône réfléchissant  
-31. Ruban de signalisation  
-32. Flèche de détour  
-33. Signal de stationnement payant  
-34. Ligne d’arrêt  
-35. Chevrons de guidage  
-36. Zébras de séparation  
-37. Bande d’arrêt d’urgence  
-38. Pont basculant  
-39. Tunnel  
-40. Panneau de circulation alternée  
-41. Chicane de sécurité  
-42. Radar pédagogique  
-43. Radar fixe  
-44. Radar mobile  
-45. Zone à risque  
-46. Limiteur de vitesse  
-47. Sens giratoire  
-48. Voie express  
-49. Déviation  
-50. Couloir de secours  
+3. Impasse  
+4. Chemin  
+5. Sentier  
+6. Aire de repos  
+7. Bande médiane  
+8. Ligne de rive  
+9. Ligne de séparation  
+10. Passage surélevé  
+11. Passage souterrain  
+12. Piste réservée  
+13. Zone de ralentissement  
+14. Aire de covoiturage  
+15. Couloir de bus  
+16. Marquage zébré  
+17. Îlot directionnel  
+18. Signal d'arrêt obligatoire  
+19. Signal de cédez-le-passage  
+20. Signal de voie ferrée  
+21. Balise de détresse  
+22. Panneau de bifurcation  
+23. Panneau de stationnement interdit  
+24. Panneau d'arrêt d'urgence  
+25. Panneau de priorité absolue  
+26. Signalisation horizontale  
+27. Signalisation verticale  
+28. Signal de ralentissement  
+29. Cône réfléchissant  
+30. Ruban de signalisation  
+31. Flèche de détour  
+32. Signal de stationnement payant  
+33. Ligne d’arrêt  
+34. Chevrons de guidage  
+35. Zébras de séparation  
+36. Bande d’arrêt d’urgence  
+37. Pont basculant  
+38. Tunnel  
+39. Panneau de circulation alternée  
+40. Chicane de sécurité  
+41. Radar pédagogique  
+42. Radar fixe  
+43. Radar mobile  
+44. Zone à risque  
+45. Limiteur de vitesse  
+46. Sens giratoire  
+47. Voie express  
+48. Déviation  
+49. Couloir de secours  
 
 ### justice
 
-3. Droit  
-5. Code civil  
-6. Code pénal  
-8. Arrêté  
-9. Jurisprudence  
-10. Législation  
-12. Tribunal  
-13. Cour  
-14. Magistrat  
-15. Juge  
-16. Avocat  
-17. Procureur  
-18. Greffier  
-19. Huissier  
-20. Accusé  
-21. Défendeur  
-22. Plaignant  
-23. Victime  
-24. Témoignage  
-25. Témoins  
-26. Enquête  
-27. Infraction  
-28. Crime  
-29. Délit  
-30. Contravention  
-31. Sanction  
-32. Pénalité  
-33. Condamnation  
-34. Peine  
-35. Prison  
-36. Amende  
-37. Liberté conditionnelle  
-38. Caution  
-40. Citation à comparaître  
-41. Assignation  
-42. Plaidoirie  
-43. Verdict  
-45. Casier judiciaire  
-47. Arbitrage  
-48. Immunité  
-50. Juridiction  
+1. Droit  
+2. Code civil  
+3. Code pénal  
+4. Arrêté  
+5. Jurisprudence  
+6. Législation  
+7. Tribunal  
+8. Cour  
+9. Magistrat  
+10. Juge  
+11. Avocat  
+12. Procureur  
+13. Greffier  
+14. Huissier  
+15. Accusé  
+16. Défendeur  
+17. Plaignant  
+18. Victime  
+19. Témoignage  
+20. Témoins  
+21. Enquête  
+22. Infraction  
+23. Crime  
+24. Délit  
+25. Contravention  
+26. Sanction  
+27. Pénalité  
+28. Condamnation  
+29. Peine  
+30. Prison  
+31. Amende  
+32. Liberté conditionnelle  
+33. Caution  
+34. Citation à comparaître  
+35. Assignation  
+36. Plaidoirie  
+37. Verdict  
+38. Casier judiciaire  
+39. Arbitrage  
+40. Immunité  
+41. Juridiction  
 
 
 ## Véhicules et machines
@@ -1624,54 +1624,54 @@
 ### Machine et mécanique
 
 1. Moteur  
-3. Roue  
-4. Pneu  
-5. Jante  
-6. Valve  
-7. Amortisseur  
-8. Essieu  
-9. Boîte de vitesses  
-10. Embrayage  
-11. Transmission  
-12. Châssis  
-13. Carrosserie  
-14. Radiateur  
-15. Pare-chocs  
-16. Réservoir  
-17. Silencieux  
-18. Volant  
-19. Pédales  
-20. Frein  
-21. Étrier  
-22. Plaquette de frein  
-23. Levier de vitesse  
-24. Direction  
-25. Suspension  
-26. Pistons  
-27. Cylindres  
-28. Bougies d’allumage  
-29. Alternateur  
-30. Dynamo  
-31. Courroie  
-32. Hélice  
-33. Turbine  
-34. Palier  
-35. Roulement  
-36. Engrenages  
-37. Chaîne  
-38. Poulie  
-39. Transmission par chaîne  
-40. Filtre à air  
-41. Filtre à huile  
-42. Ressort à compression  
-43. Ressort hélicoïdal  
-44. Écrou  
-45. Galet tendeur  
-46. Crémaillère  
-47. Compresseur  
-48. Régulateur  
-49. Arbre de transmission  
-50. Mécanisme d'embrayage  
+2. Roue  
+3. Pneu  
+4. Jante  
+5. Valve  
+6. Amortisseur  
+7. Essieu  
+8. Boîte de vitesses  
+9. Embrayage  
+10. Transmission  
+11. Châssis  
+12. Carrosserie  
+13. Radiateur  
+14. Pare-chocs  
+15. Réservoir  
+16. Silencieux  
+17. Volant  
+18. Pédales  
+19. Frein  
+20. Étrier  
+21. Plaquette de frein  
+22. Levier de vitesse  
+23. Direction  
+24. Suspension  
+25. Pistons  
+26. Cylindres  
+27. Bougies d’allumage  
+28. Alternateur  
+29. Dynamo  
+30. Courroie  
+31. Hélice  
+32. Turbine  
+33. Palier  
+34. Roulement  
+35. Engrenages  
+36. Chaîne  
+37. Poulie  
+38. Transmission par chaîne  
+39. Filtre à air  
+40. Filtre à huile  
+41. Ressort à compression  
+42. Ressort hélicoïdal  
+43. Écrou  
+44. Galet tendeur  
+45. Crémaillère  
+46. Compresseur  
+47. Régulateur  
+48. Arbre de transmission  
+49. Mécanisme d'embrayage  
 
 
 ## Médecine et soins
@@ -1703,30 +1703,30 @@
 23. Épidémie  
 24. Pandémie  
 25. Vaccin  
-27. Prévention  
-28. Pathologie  
-29. Thérapie  
-30. Scanner  
-31. IRM (Imagerie par Résonance Magnétique)  
-32. Radiographie  
-33. Endoscopie  
-34. Biopsie  
-35. Laboratoire  
-36. Analyse sanguine  
-37. Système immunitaire  
-38. Système nerveux  
-39. Organes vitaux  
-40. Maladies infectieuses  
-41. Antibiotiques  
-42. Antiviraux  
-43. Anti-inflammatoires  
-44. Antidouleur  
-45. Hormones  
-46. Greffe  
-47. Transfusion  
-48. Rééducation  
-49. Sécurité sociale  
-50. Dossier médical  
+26. Prévention  
+27. Pathologie  
+28. Thérapie  
+29. Scanner  
+30. IRM (Imagerie par Résonance Magnétique)  
+31. Radiographie  
+32. Endoscopie  
+33. Biopsie  
+34. Laboratoire  
+35. Analyse sanguine  
+36. Système immunitaire  
+37. Système nerveux  
+38. Organes vitaux  
+39. Maladies infectieuses  
+40. Antibiotiques  
+41. Antiviraux  
+42. Anti-inflammatoires  
+43. Antidouleur  
+44. Hormones  
+45. Greffe  
+46. Transfusion  
+47. Rééducation  
+48. Sécurité sociale  
+49. Dossier médical  
 
 ### Soins
 
@@ -1786,53 +1786,53 @@
 
 ### Parties du corps humain
 
-2. Sourcils  
-3. Paupières  
-4. Narines  
-5. Joues  
-6. Lèvres  
-7. Dents  
-9. Gencives  
-10. Menton  
-11. Gorge  
-12. Omoplates  
-13. Avant-bras  
-14. Phalanges  
-15. Paume  
-16. Aisselles  
-17. Poignets  
-18. Clavicules  
-19. Poitrine  
-20. Côtes  
-21. Abdomen  
-22. Ventre  
-23. Taille  
-24. Hanches  
-25. Fesses  
-26. Cuisses  
-27. Genoux  
-28. Rotules  
-29. Mollets  
-30. Chevilles  
-31. Pieds  
-32. Orteils  
-33. Talons  
-34. Articulations  
-35. Veines  
-36. Nerfs  
-37. Os  
-38. Muscles  
-39. Cœur  
-40. Poumons  
-41. Foie  
-42. Estomac  
-43. Intestins  
-44. Reins  
-45. Crâne  
-46. Mâchoire  
-47. Pommettes  
-48. Tempes  
-49. Vertèbres  
+1. Sourcils  
+2. Paupières  
+3. Narines  
+4. Joues  
+5. Lèvres  
+6. Dents  
+7. Gencives  
+8. Menton  
+9. Gorge  
+10. Omoplates  
+11. Avant-bras  
+12. Phalanges  
+13. Paume  
+14. Aisselles  
+15. Poignets  
+16. Clavicules  
+17. Poitrine  
+18. Côtes  
+19. Abdomen  
+20. Ventre  
+21. Taille  
+22. Hanches  
+23. Fesses  
+24. Cuisses  
+25. Genoux  
+26. Rotules  
+27. Mollets  
+28. Chevilles  
+29. Pieds  
+30. Orteils  
+31. Talons  
+32. Articulations  
+33. Veines  
+34. Nerfs  
+35. Os  
+36. Muscles  
+37. Cœur  
+38. Poumons  
+39. Foie  
+40. Estomac  
+41. Intestins  
+42. Reins  
+43. Crâne  
+44. Mâchoire  
+45. Pommettes  
+46. Tempes  
+47. Vertèbres  
 
 ### Maladies
 
@@ -1902,37 +1902,37 @@
 7. Orca (épaulard)  
 8. Baleine bleue  
 9.  Requin-marteau  
-12. Méduse géante  
-13. Calamar géant  
-14. Crabe des cocotiers  
-15. Langoustine  
-16. Pélican brun  
-18. Autruche  
-19. Kiwi (oiseau)  
-22. Albatros  
-23. Pingouin empereur  
-24. Dauphin rose  
-25. Narval  
-26. Chauve-souris  
-27. Fourmilier  
-28. Tatou  
-29. Porc-épic  
-30. Chameau  
-31. Dromadaire  
-32. Renne  
-33. Caribou  
-34. Mangouste  
-35. Pangolin  
-36. Iguane  
-37. Boa constricteur  
-38. Caméléon  
-39. Crocodile du Nil  
-40. Lézard à collerette  
-41. Gecko  
-43. Hippocampe  
-44. Lémurien  
-45. Paon  
-47. Scarabée rhinocéros  
+10. Méduse géante  
+11. Calamar géant  
+12. Crabe des cocotiers  
+13. Langoustine  
+14. Pélican brun  
+15. Autruche  
+16. Kiwi (oiseau)  
+17. Albatros  
+18. Pingouin empereur  
+19. Dauphin rose  
+20. Narval  
+21. Chauve-souris  
+22. Fourmilier  
+23. Tatou  
+24. Porc-épic  
+25. Chameau  
+26. Dromadaire  
+27. Renne  
+28. Caribou  
+29. Mangouste  
+30. Pangolin  
+31. Iguane  
+32. Boa constricteur  
+33. Caméléon  
+34. Crocodile du Nil  
+35. Lézard à collerette  
+36. Gecko  
+37. Hippocampe  
+38. Lémurien  
+39. Paon  
+40. Scarabée rhinocéros  
 
 ### Parties du corps des animaux
 
@@ -1945,35 +1945,35 @@
 7. Nageoires  
 8. Ailes  
 9. Antennes  
-11. Queue  
-12. Crinière  
-13. Corne  
-14. Défenses  
-15. Pattes  
-16. Écailles  
-17. Peau  
-18. Poils  
-19. Carapace  
-20. Oreilles  
-21. Museau  
-22. Mâchoires  
-23. Branchies  
-25. Épine dorsale  
-26. Plastron  
-28. Tête  
-31. Thorax  
-33. Dos  
-36. Pelage  
-37. Barbichette  
-38. Papilles  
-39. Tentacules  
-40. Coussinets  
-41. Duvet  
-42. Fourrure  
-44. Queue préhensile  
-45. Ventouses  
-46. Griffes rétractiles  
-47. Vibrisses  
+10. Queue  
+11. Crinière  
+12. Corne  
+13. Défenses  
+14. Pattes  
+15. Écailles  
+16. Peau  
+17. Poils  
+18. Carapace  
+19. Oreilles  
+20. Museau  
+21. Mâchoires  
+22. Branchies  
+23. Épine dorsale  
+24. Plastron  
+25. Tête  
+26. Thorax  
+27. Dos  
+28. Pelage  
+29. Barbichette  
+30. Papilles  
+31. Tentacules  
+32. Coussinets  
+33. Duvet  
+34. Fourrure  
+35. Queue préhensile  
+36. Ventouses  
+37. Griffes rétractiles  
+38. Vibrisses  
 
 
 ## Noms et adectifs utilisés dans adverbes
@@ -2059,29 +2059,29 @@
 24. intelligent  
 25. joyeux  
 26. lent  
-28. majestueux  
-29. modéré  
-30. naturel  
-31. nécessaire  
-32. ouvert  
-33. parfait  
-34. patient  
-35. précis  
-36. prudent  
-37. puissant  
-38. raisonnable  
-39. rapide  
-40. régulier  
-41. silencieux  
-42. singulier  
-43. subtil  
-44. suffisant  
-45. sûr  
-46. temporaire  
-47. terrible  
-48. utile  
-49. vrai  
-50. violent  
+27. majestueux  
+28. modéré  
+29. naturel  
+30. nécessaire  
+31. ouvert  
+32. parfait  
+33. patient  
+34. précis  
+35. prudent  
+36. puissant  
+37. raisonnable  
+38. rapide  
+39. régulier  
+40. silencieux  
+41. singulier  
+42. subtil  
+43. suffisant  
+44. sûr  
+45. temporaire  
+46. terrible  
+47. utile  
+48. vrai  
+49. violent  
     
 ## Adverbes partie 1
 
@@ -2202,46 +2202,46 @@
 5. bientôt  
 6. continuellement  
 7. dernièrement  
-9. dorénavant  
-10. éternellement  
-11. fréquemment  
-12. immédiatement  
-13. incessamment  
-14. jadis  
-15. jamais plus  
-16. journellement  
-17. momentanément  
-18. naguère  
-19. parallèlement  
-20. périodiquement  
-21. plus tôt  
-22. prochainement  
-23. ponctuellement  
-24. rarement  
-26. subitement  
-27. successivement  
-28. temporairement  
-29. tardivement  
-30. toujours plus  
-31. tout à l'heure  
-32. un jour  
-33. une fois pour toutes  
-34. à jamais  
-35. à l’instant  
-36. à midi  
-37. au printemps  
-38. à minuit  
-39. dès à présent  
-40. chaque semaine  
-41. quelquefois  
-42. soudainement  
-44. tôt ou tard  
-45. tout à coup  
-46. à cette époque  
-47. en ce moment  
-48. dans le futur  
-49. d’ici peu  
-50. autrefois encore  
+8. dorénavant  
+9. éternellement  
+10. fréquemment  
+11. immédiatement  
+12. incessamment  
+13. jadis  
+14. jamais plus  
+15. journellement  
+16. momentanément  
+17. naguère  
+18. parallèlement  
+19. périodiquement  
+20. plus tôt  
+21. prochainement  
+22. ponctuellement  
+23. rarement  
+24. subitement  
+25. successivement  
+26. temporairement  
+27. tardivement  
+28. toujours plus  
+29. tout à l'heure  
+30. un jour  
+31. une fois pour toutes  
+32. à jamais  
+33. à l’instant  
+34. à midi  
+35. au printemps  
+36. à minuit  
+37. dès à présent  
+38. chaque semaine  
+39. quelquefois  
+40. soudainement  
+41. tôt ou tard  
+42. tout à coup  
+43. à cette époque  
+44. en ce moment  
+45. dans le futur  
+46. d’ici peu  
+47. autrefois encore  
 
 ### Quantité et intensité
 
@@ -2261,37 +2261,37 @@
 14. extraordinairement  
 15. fort peu  
 16. grandement  
-18. incroyablement  
-19. insuffisamment  
-20. inutilement  
-21. largement  
-22. magnifiquement  
-23. merveilleusement  
-24. modérément  
-25. beaucoup plus  
-26. outrageusement  
-27. particulièrement  
-28. parfaitement bien  
-29. plus ou moins  
-30. prodigieusement  
-31. puissamment  
-32. relativement peu  
-33. ridiculement  
-34. sensiblement  
-35. singulièrement  
-36. strictement  
-37. stupéfiante  
-39. tant soit peu  
-40. terriblement  
-41. tout au plus  
-42. tout à fait assez  
-43. trop peu  
-44. véritablement  
-45. vraiment beaucoup  
-46. éblouissamment  
-48. étonnamment  
-49. énormément plus  
-50. extrêmement moins  
+17. incroyablement  
+18. insuffisamment  
+19. inutilement  
+20. largement  
+21. magnifiquement  
+22. merveilleusement  
+23. modérément  
+24. beaucoup plus  
+25. outrageusement  
+26. particulièrement  
+27. parfaitement bien  
+28. plus ou moins  
+29. prodigieusement  
+30. puissamment  
+31. relativement peu  
+32. ridiculement  
+33. sensiblement  
+34. singulièrement  
+35. strictement  
+36. stupéfiante  
+37. tant soit peu  
+38. terriblement  
+39. tout au plus  
+40. tout à fait assez  
+41. trop peu  
+42. véritablement  
+43. vraiment beaucoup  
+44. éblouissamment  
+45. étonnamment  
+46. énormément plus  
+47. extrêmement moins  
 
 ## Adverbes partie 3
 
@@ -2310,42 +2310,42 @@
 11. incertainement  
 12. inexplicablement  
 13. irrémédiablement  
-15. manifestement  
-16. naturellement peut-être  
-17. nécessairement  
-18. obligatoirement  
-19. parfaitement clair  
-20. paradoxalement  
-21. par chance  
-22. par déduction  
-23. par miracle  
-24. potentiellement  
-25. précisément possible  
-26. prévisiblement  
-27. probablement pas  
-28. quelque part peut-être  
-29. réalistiquement  
-30. raisonnablement possible  
-31. sans ambiguïté  
-32. sans aucun doute  
-33. sans hésitation  
-34. sans incertitude  
-35. sûrement pas  
-36. théoriquement  
-37. tout à fait probable  
-38. tout laisse penser  
-39. vraisemblablement moins  
-40. éventuellement oui  
-41. peut-être bien  
-42. hypothétiquement vrai  
-43. possiblement faux  
-44. supposément bon  
-45. vraisemblable  
-46. certainement plausible  
-47. il est probable  
-48. à priori vrai  
-49. objectivement possible  
-50. dans le doute 
+14. manifestement  
+15. naturellement peut-être  
+16. nécessairement  
+17. obligatoirement  
+18. parfaitement clair  
+19. paradoxalement  
+20. par chance  
+21. par déduction  
+22. par miracle  
+23. potentiellement  
+24. précisément possible  
+25. prévisiblement  
+26. probablement pas  
+27. quelque part peut-être  
+28. réalistiquement  
+29. raisonnablement possible  
+30. sans ambiguïté  
+31. sans aucun doute  
+32. sans hésitation  
+33. sans incertitude  
+34. sûrement pas  
+35. théoriquement  
+36. tout à fait probable  
+37. tout laisse penser  
+38. vraisemblablement moins  
+39. éventuellement oui  
+40. peut-être bien  
+41. hypothétiquement vrai  
+42. possiblement faux  
+43. supposément bon  
+44. vraisemblable  
+45. certainement plausible  
+46. il est probable  
+47. à priori vrai  
+48. objectivement possible  
+49. dans le doute 
 
 ## Compléments circonstanciels
 
@@ -2355,61 +2355,61 @@
 2. aujourd’hui  
 3. demain  
 4. maintenant  
-6. tard  
-7. tôt  
-8. encore  
-9. autrefois  
-15. pendant  
-16. après  
-17. avant  
-18. dès  
-19. depuis  
-20. à partir de  
-21. jusqu’à  
-22. chaque jour  
-23. une fois  
-24. deux fois  
-25. souvent  
-27. jamais  
-28. quelque part  
-30. ici  
-31. là  
-33. devant  
-34. derrière  
-40. dedans  
-41. dehors  
-42. près  
-43. loin  
-44. à côté  
-45. au bout de  
-46. à l’intérieur  
-47. à l’extérieur  
-48. au centre  
-49. partout  
-50. nulle part  
+5. tard  
+6. tôt  
+7. encore  
+8. autrefois  
+9. pendant  
+10. après  
+11. avant  
+12. dès  
+13. depuis  
+14. à partir de  
+15. jusqu’à  
+16. chaque jour  
+17. une fois  
+18. deux fois  
+19. souvent  
+20. jamais  
+21. quelque part  
+22. ici  
+23. là  
+24. devant  
+25. derrière  
+26. dedans  
+27. dehors  
+28. près  
+29. loin  
+30. à côté  
+31. au bout de  
+32. à l’intérieur  
+33. à l’extérieur  
+34. au centre  
+35. partout  
+36. nulle part  
 
 ### Autres
 
-5. étant donné  
-10. afin de  
-11. dans le but de  
-13. avec  
-14. sans  
-17. de cette façon  
-18. d’une manière  
-23. en conséquence  
-24. par  
-25. au moyen de  
-26. à travers  
-27. à l’aide de  
-31. sinon  
-43. en fonction de  
-44. proportionnellement  
-45. selon  
-46. par rapport à  
-47. d’autant plus  
-49. faute de  
-50. à défaut de 
+1. étant donné  
+2. afin de  
+3. dans le but de  
+4. avec  
+5. sans  
+6. de cette façon  
+7. d’une manière  
+8. en conséquence  
+9. par  
+10. au moyen de  
+11. à travers  
+12. à l’aide de  
+13. sinon  
+14. en fonction de  
+15. proportionnellement  
+16. selon  
+17. par rapport à  
+18. d’autant plus  
+19. faute de  
+20. à défaut de 
 
 ---
 
