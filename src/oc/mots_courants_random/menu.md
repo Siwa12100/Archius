@@ -6,10 +6,14 @@
 
 ---
 
-:x: [Partida 4](./fiche_1/4.md)
+:x: [Partida 6](./fiches/fiche_2/2.md)
 
-:x: [Partida 3](./fiche_1/3.md)
+:x: [Partida 5](./fiches/fiche_2/1.md)
 
-:x: [Partida 2](./fiche_1/2.md)
+:x: [Partida 4](./fiches/fiche_1/4.md)
 
-:x: [Partida 1](./fiche_1/1.md)
+:x: [Partida 3](./fiches//fiche_1/3.md)
+
+:x: [Partida 2](./fiches//fiche_1/2.md)
+
+:x: [Partida 1](./fiches//fiche_1/1.md)
