@@ -11,49 +11,49 @@
 1. plus
 2. chercher (qq on sait où c'est)
 3. chercher (en mode recherche)
-1. moins  
-2. Comparaison
-3. autant  
-4. aussi  
-5. davantage  
-6. de même  
-7. pareil  
-8. semblable  
-9. inférieur  
-10. supérieur  
-11. meilleur  
-12. mieux
-13. pire  
-14. égal  
-15. identique  
-16. différent
-17. autrement  
-18. que  
-19. tel  
-20. similaire  
-21. proportionnel  
-22. relatif  
-23. comparable  
-24. équivalent  
-25. identiquement  
-26. opposé  
-27. contraire  
-28. tout comme  
-29. comme 
-30. pareillement  
-31. vis-à-vis de 
-32. l'égard 
-33. en face de 
-34. comparativement  
-35. équitable  
-36. symétrique  
-37. proportionné  
-38. inégal  
-39. grand  
-40. un peu
-41. important
-42. beaucoup 
-43. à peu près  
+4. moins  
+5. Comparaison
+6. autant  
+7. aussi  
+8. davantage  
+9. de même  
+10. pareil  
+11. semblable  
+12. inférieur  
+13. supérieur  
+14. meilleur  
+15. mieux
+16. pire  
+17. égal  
+18. identique  
+19. différent
+20. autrement  
+21. que  
+22. tel  
+23. similaire  
+24. proportionnel  
+25. relatif  
+26. comparable  
+27. équivalent  
+28. identiquement  
+29. opposé  
+30. contraire  
+31. tout comme  
+32. comme 
+33. pareillement  
+34. vis-à-vis de 
+35. l'égard 
+36. en face de 
+37. comparativement  
+38. équitable  
+39. symétrique  
+40. proportionné  
+41. inégal  
+42. grand  
+43. un peu
+44. important
+45. beaucoup 
+46. à peu près  
 
 ### Intensité
 

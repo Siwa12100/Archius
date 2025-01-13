@@ -6,55 +6,55 @@
 
 ## Partida 6
 
-1. choisir ----> ****
-2. générer  ----> ****
-3. formulaire  ----> ****
-4. après-midi  ----> ****
-5. enfin  ----> ****
-6. potenciel  ----> ****
-7. échec  ----> ****
-8. minable  ----> ****
-9. excellent  ----> ****
-10. cache  ----> ****
-11. exceller  ----> ****
-12. capturer  ----> ****
-13. traquer  ----> ****
-14. composer ----> ****
-15. cohérent  ----> ****
-16. composant  ----> ****
-17. rappel  ----> ****
-18. dépendance  ----> ****
-19. dynamique  ----> ****
-20. dépendre  ----> ****
-21. injection  ----> ****
-22. langage  ----> ****
-23. flotter  ----> ****
-24. génial  ----> ****
-25. caractère  ----> ****
-26. personnage  ----> ****
-27. résultat  ----> ****
-28. concept  ----> ****
-29. modulaire  ----> ****
-30. performance  ----> ****
-31. effectuer  ----> ****
-32. autonome  ----> ****
-33. conteneur  ----> ****
-34. contenir  ----> ****
-35. architecture  ----> ****
-36. goût  ----> ****
-37. aléatoire  ----> ****
-38. déterministe ----> ****
-39. source  ----> ****
-40. configurer  ----> ****
-41. dossier  ----> ****
-42. documenter  ----> ****
-43. besoin  ----> ****
-44. nécessiter  ----> ****
-45. accéder  ----> ****
-46. câble  ----> ****
-47. activation  ----> ****
-48. ressource  ----> ****
-49. guillemet  ----> ****
+1. choisir
+2. générer  
+3. formulaire  
+4. après-midi
+5. enfin
+6. potenciel 
+7. échec  
+8. minable 
+9. excellent 
+10. cache  
+11. exceller 
+12. capturer 
+13. traquer  
+14. composer 
+15. cohérent 
+16. composant
+17. rappel  
+18. dépendance  
+19. dynamique  
+20. dépendre  
+21. injection  
+22. langage  
+23. flotter 
+24. génial  
+25. caractère  
+26. personnage  
+27. résultat 
+28. concept  
+29. modulaire  
+30. performance 
+31. effectuer 
+32. autonome  
+33. conteneur 
+34. contenir  
+35. architecture  
+36. goût  
+37. aléatoire  
+38. déterministe 
+39. source  
+40. configurer  
+41. dossier  
+42. documenter  
+43. besoin  
+44. nécessiter  
+45. accéder 
+46. câble 
+47. activation  
+48. ressource 
+49. guillemet 
 50. apostrophe 
 51. virgule 
 52. exclamer 
@@ -231,40 +231,38 @@
 115. original  
 116. classique  
 117. externe  
+118. interne
 
 ---
 
-1. c'est partit  ----> ****
-2. dépendance  ----> ****
-3. traitement   ----> ****
-4. requête ----> ****
-5. appel  ----> ****
-6. générer ----> ****
-7. référencer ----> ****
-8. grâce à  ----> ****
-9. efficace ----> ****
-10. définir ----> ****
-11. routage ----> ****
-12. aiguillage ----> ****
-13. permettre ----> ****
-14. naviguer ----> ****
-15. seulement ----> ****
-16. définition ----> ****
-17. méthode ----> ****
-18. fonction  ----> ****
-19. attribut  ----> ****
-20. argument  ----> ****
-21. indice  ----> ****
-22. concis ----> ****
-23. configurer  ----> ****
-24. au sein de  ----> ****
-25. unique  ----> ****
-26. multiple  ----> ****
-27. avantage  ----> ****
-28. enquête  ----> ****
-29. inconvenient ----> ****
-30. correspondre  ----> ****
-30. option  ----> ****
+2. dépendance  
+3. traitement  
+4. requête 
+5. appel  
+6. générer
+7. référencer
+8. grâce à
+9. efficace 
+10. définir 
+12. aiguillage
+13. permettre 
+14. naviguer
+15. seulement
+16. définition
+17. méthode
+18. fonction
+19. attribuer
+20. argument
+21. indice
+22. concis
+23. au sein de  
+24. unique 
+25. multiple
+26. avantage 
+27. enquête  
+28. inconvenient
+29. correspondre 
+30. option 
 31. paramètre
 32. remarquer  
 33. bas 
@@ -275,84 +273,87 @@
 38. agent 
 39. expression 
 40. condition
-40. approfondir
-41. service
-42. exposer
-43. authentifier
-44. en tant que
-45. commande 
-46. déboguer
-47. liste 
-48. soucis
-49. identifier 
-50. interpréter
-51. défaut
-52. identifiant
-53. convention 
-54. possible 
-55. nécessiter 
-56. requérir
-57. pré-requis 
-58. spécial 
-59. prioriser
-60. reproche
-61. aveu 
-62. compliment
-63. critique 
-64. mal 
-65. mauvais 
-66. bon 
-67. prouver 
-68. fondamental 
-69. objectif 
-70. subjectif 
-71. ordre 
-72. conversion 
-73. convertir 
-74. exemple 
-75. démonstration 
-76. entité 
-77. publier 
-78. du coup 
-79. base de données 
-80. hypothèse 
-81. preuve 
-82. mentionner 
-83. type 
-84. raccourcir 
-85. prénom 
-86. surnom 
-87. pointer 
-88. nom de famille 
-89. déprécier 
-90. message 
-91. commun 
-92. exclusif 
-93. partager 
-94. prêter 
-95. typique 
-96. étendre 
-97. abstrait 
-98. concret 
-99. factoriser 
-100. distant 
-101. principe 
-102. accès 
-103. barrage 
-104. empêcher 
-105. puce 
-106. épingle 
-107. direction 
-108. permanent 
-109. éphémère 
-110. autre 
-111. refuser 
-112. retourner 
-113. référencer 
-114. original 
-115. classique 
-116. externe 
-117. interne
+41. approfondir
+42. service
+43. exposer
+44. authentifier
+45. en tant que
+46. commande 
+48. liste 
+49. soucis
+50. identifier 
+51. interpréter
+52. défaut
+53. identifiant
+54. convention 
+55. possible 
+56. nécessiter 
+57. requérir
+58. pré-requis 
+59. spécial 
+60. prioriser
+61. reproche
+62. aveu 
+63. compliment
+64. critique 
+65. mal 
+66. mauvais 
+67. bon 
+68. prouver 
+69. fondamental 
+70. objectif 
+71. subjectif 
+72. ordre 
+73. conversion 
+74. convertir 
+75. exemple 
+76. démonstration 
+77. entité 
+78. publier 
+79. du coup 
+80. base de données 
+81. hypothèse 
+82. preuve 
+83. mentionner 
+84. type 
+85. raccourcir 
+86. raccourci
+87. prénom 
+88. surnom 
+89. pointer 
+90. dresser 
+91. nom de famille 
+92. déprécier 
+93. message 
+94. commun 
+95. exclusif 
+96. juste 
+97. partager 
+98. prêter 
+99. typique 
+100. étendre 
+101. abstrait 
+102. concret 
+103. distant 
+104. principe 
+105. accès 
+106. barrage 
+107. empêcher 
+108. puce 
+107. épingle 
+108. direction 
+109. permanent 
+110. éphémère 
+111. parmi
+112. autre 
+113. refuser 
+114. retourner 
+115. référencer 
+116. original 
+117. classique 
+118. externe 
+119. interne
+120. gêner
 
 ## Partida 4
 
@@ -365,118 +366,118 @@
 7. peuple
 8. équipe
 9. membre
-9. groupe
-10. retour
-11. retourner
-12. demi-tour
-13. en avant
-14. en dessous
-15. en dessus
-16. là-bas
-17. dorénavant
-18. en arrière
-19. clairvoyance
-20. coefficient
-21. corrélation
-22. erreur
-23. similaire
-24. flèche
-25. pointe
-25. signe
-26. caillou
-27. disparaitre
-28. anéantir 
-29. détruire 
-30. créer
-31. apparaitre 
-32. avocat
-33. cheminée
-34. demander
-35. supplier
-36. refuser
-37. souhaiter
-38. gairison
-39. huisser
-38. juge
-39. réguler
-40. autoriser
-41. interdire
-42. référence
-43. sujet 
-39. sortir
-40. extrémité
-41. toutefois
-42. Surtout
-43. cependant
-44. néanmoins
-45. nord
-46. sud 
-47. est
-48. ouest
-49. cardinal
-50. but
-51. prédiction
-52. volonté 
-53. essai 
-54. tentative
-55. habitude 
-56. habituer 
-57. long
-58. court 
-59. cours 
-60. coeur
-61. vêtement
-62. trait
-63. segment
-64. courbe
-65. ligne
-66. plat
-67. tordu
-68. passion
-69. passionner
-70. sport 
-71. loisir
-72. vacances
-73. congés
-74. précis
-75. trouble
-76. flou
-77. clair
-78. devenir clair
-79. complexe
-80. aisé 
-81. dur
-82. visible
-83. facile
-84. angoisse
-85. enfin
-86. début
-87. dès maintenant
-88. fin
-89. milieu
-90. juste
-91. tout juste
-92. après
-93. peine
-94. profiter
-95. enceinte (bébé)
-96. servir
-97. manipuler
-98. orienter
-99. affronter
-100. le tour
-101. la tour
-102. contourner
-103. (en)fuir
-104. repousser
-105. réfugier
-106. ennuyer 
-107. j'ai hâte de 
-108. repousser
-109. échapper
-110. attirer
-111. hâte
-112. redouter
+10. groupe
+11. retour
+12. retourner
+13. demi-tour
+14. en avant
+15. en dessous
+16. en dessus
+17. là-bas
+18. dorénavant
+19. en arrière
+20. clairvoyance
+21. coefficient
+22. corrélation
+23. erreur
+24. similaire
+25. flèche
+26. pointe
+27. signe
+28. caillou
+29. disparaitre
+30. anéantir 
+31. détruire 
+32. créer
+33. apparaitre 
+34. avocat
+35. cheminée
+36. demander
+37. supplier
+38. refuser
+39. souhaiter
+40. gairison
+41. huisser
+42. juge
+43. réguler
+44. autoriser
+45. interdire
+46. référence
+47. sujet 
+48. sortir
+49. extrémité
+50. toutefois
+51. Surtout
+52. cependant
+53. néanmoins
+54. nord
+55. sud 
+56. est
+57. ouest
+58. cardinal
+59. but
+60. prédiction
+61. volonté 
+62. essai 
+63. tentative
+64. habitude 
+65. habituer 
+66. long
+67. court 
+68. cours 
+69. coeur
+70. vêtement
+71. trait
+72. segment
+73. courbe
+74. ligne
+75. plat
+76. tordu
+77. passion
+78. passionner
+79. sport 
+80. loisir
+81. vacances
+82. congés
+83. précis
+84. trouble
+85. flou
+86. clair
+87. devenir clair
+88. complexe
+89. aisé 
+90. dur
+91. visible
+92. facile
+93. angoisse
+94. enfin
+95. début
+96. dès maintenant
+97. fin
+98. milieu
+99. juste
+100. tout juste
+101. après
+102. peine
+103. profiter
+104. enceinte (bébé)
+105. servir
+106. manipuler
+107. orienter
+108. affronter
+109. le tour
+110. la tour
+111. contourner
+112. (en)fuir
+113. repousser
+114. réfugier
+115. ennuyer 
+116. j'ai hâte de 
+117. repousser
+118. échapper
+119. attirer
+120. hâte
+121. redouter
 
 ## Partie 3
 
@@ -493,78 +494,78 @@
 11. vue
 12. plainte
 13. nombreux
-15. normal
-16. langue
-17. levier 
-18. bouton
-19. éteindre
-20. arranger
-21. empirer
+14. normal
+15. langue
+16. levier 
+17. bouton
+18. éteindre
+19. arranger
+20. empirer
 21. empire
 22. royaume 
 23. dégrader
 24. améliorer
 25. régresser
 26. reculer
-28. approcher
-29. éloigner
-30. gens
-31. sentir
-33. lettres
-34. charabia
-35. décider 
-36. blague
-37. plaisanter
-39. conspiration
-40. théorie
-41. complot 
-42. plan
-43. idée
-44. génocide
-45. massacre
-44. repaires
-45. maquis
-46. jeter
-47. par terre
-48. tranquille
-49. agité 
-50. élever
-52. carnage
-53. abattoir 
-54. discret
-55. dégat
-56. bruyant
-57. infliger
-58. rabâcher
-59. voix
+27. approcher
+28. éloigner
+29. gens
+30. sentir
+31. lettres
+32. charabia
+33. décider 
+34. blague
+35. plaisanter
+36. conspiration
+37. théorie
+38. complot 
+39. plan
+40. idée
+41. génocide
+42. massacre
+43. repaires
+44. maquis
+45. jeter
+46. par terre
+47. tranquille
+48. agité 
+49. élever
+50. carnage
+51. abattoir 
+52. discret
+53. dégat
+54. bruyant
+55. infliger
+56. rabâcher
+57. voix
 58. chaîne
-60. amoureux
-61. folklore
-62. légende
-63. prononcer
-64. accent
-65. perdre
-67. ronde
-68. vigiles 
-69. garde
-70. murmure
-71. chuchotter
-72. doucement
-73. brusque
-74. fragile
-75. robuste
-76. refrain
-77. vibrer
-78. pierre 
-79. roche
-80. chaque
-80. reproche
-81. lointain
-83. Tenace
-84. motiver
-85. lierre
-86. Trimbaler
-89. imposer
+59. amoureux
+60. folklore
+61. légende
+62. prononcer
+63. accent
+64. perdre
+65. ronde
+66. vigiles 
+67. garde
+68. murmure
+69. chuchotter
+70. doucement
+71. brusque
+72. fragile
+73. robuste
+74. refrain
+75. vibrer
+76. pierre 
+77. roche
+78. chaque
+79. reproche
+80. lointain
+81. Tenace
+82. motiver
+83. lierre
+84. Trimbaler
+85. imposer
 
 ## Partie 2
 
