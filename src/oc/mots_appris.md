@@ -4,6 +4,116 @@
 
 ---
 
+## Noms et adectifs utilisés dans adverbes
+
+### Noms utilisés dans adverbes
+
+1. abondance  
+2. adverbe  
+3. agilité  
+4. nom  
+5. apparence  
+5. assurance  
+6. attention  
+7. beauté  
+8. bruit  
+9. chance  
+10. clarté  
+11. confusion  
+12. constance  
+13. danger  
+14. délicatesse  
+15. discrétion  
+16. doute  
+17. énergie  
+18. évidence  
+19. force  
+20. fréquence  
+21. grandeur  
+22. intensité  
+23. intelligence  
+24. joie  
+25. lenteur  
+26. logique  
+27. majesté  
+27. mesure  
+28. miracle  
+29. modération  
+30. nature  
+31. nécessité  
+32. perfection  
+33. prudence  
+34. puissance  
+35. raison  
+36. rapidité  
+37. régularité  
+38. sérieux  
+39. silence  
+40. singularité  
+41. subtilité  
+42. suffisance  
+43. temps  
+44. terreur  
+45. utilité  
+46. vérité  
+47. violence  
+48. volonté  
+49. vulgarité  
+50. vulnérabilité  
+
+### Adjectifs utilisés dans adverbes
+
+1. abondant  
+2. agile  
+3. apparent  
+4. assuré  
+5. adjectif  
+5. beau  
+6. bruyant  
+7. calme  
+8. certain  
+9. clair  
+10. confus  
+11. constant  
+12. curieux  
+13. dangereux  
+14. délicat  
+15. discret  
+16. douteux  
+17. énergique  
+18. évident  
+19. faible  
+20. fort  
+21. fréquent  
+22. grand  
+23. intense  
+24. intelligent  
+25. joyeux  
+26. lent  
+27. majestueux  
+28. modéré  
+29. naturel  
+30. nécessaire  
+31. ouvert  
+32. parfait  
+33. patient  
+34. précis  
+35. prudent  
+36. puissant  
+37. raisonnable  
+38. rapide  
+39. régulier  
+40. silencieux  
+41. singulier  
+42. subtil  
+43. suffisant  
+44. sûr  
+45. temporaire  
+46. terrible  
+47. utile  
+48. vrai  
+49. violent  
+    
 ## Comparaison et intensité
 
  ### Comparaison

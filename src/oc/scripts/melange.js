@@ -32,19 +32,19 @@ function processMarkdownFiles(dir) {
     let occitan = [];
 
     // Expression régulière plus flexible
-    const regex = /^(\d+)\.\s*(.*?)\s*[-=]{1,5}>\s*\*\*(.*?)\*\*/;
+    const regex = /^\d+\.\s*(.*?)\s*[-=]{1,5}>\s*\*\*(.*?)\*\*/;
 
     markdownFiles.forEach(file => {
         const data = fs.readFileSync(file, 'utf8');
         const lines = data.split('\n');
-        
+
         // Analyse du fichier ligne par ligne
         lines.forEach(line => {
             const match = line.match(regex);
             if (match) {
-                // Extraire les parties française et occitane avec flexibilité
-                const frWord = match[2].trim();
-                const ocWord = match[3].trim();
+                // Extraire les parties française et occitane en minuscules
+                const frWord = match[1].trim().toLowerCase();
+                const ocWord = match[2].trim().toLowerCase();
                 francais.push(frWord);
                 occitan.push(ocWord);
             }

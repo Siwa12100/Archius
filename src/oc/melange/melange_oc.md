@@ -1,2573 +1,2608 @@
-1. solelh
-2. conortar
-3. espantós
-4. expausar
-5. partida
-6. parivament
-7. botar
-8. pro
-9. portable, portabla
-10. plat
-11. totalament
-12. leugièrament
-13. fin ; fina
-14. acorchar
-15. Costar
-16. Irange
-17. coma
-18. colcar
-19. Alara
-20. Lors
-21. espina
-22. tractar
-23. desroïr, destruire
-24. portal
-25. un emplegat
-26. limon
-27. terren
-28. enlà
-29. indignar
-30. clar, clara
-31. aubèrga
-32. bossòla
-33. activacion
-34. refugiar
-35. rega
-36. riba
-37. chaple
-38. desèrt(a)
-39. tapís
-40. logar
-41. imaginar
-42. nòu
-43. som
-44. lièch
-45. manténer
-46. geografia
-47. segment
-48. s'encanhar
-49. mefisança
-50. títol
-51. tipe
-52. largor
-53. motivar
-54. monard
-55. aleatòri, aleatòria
-56. membre, membra
-57. manjar
-58. tant, aitant
-59. esclairar
-60. excusatz-me
-61. caval
-62. Minuta
-63. La seuna
-64. asuèlh
-65. subjectiu, subjectiva
-66. lèu, aviat
-67. pariu, -iva
-68. cisalha
-69. itinerari
-70. debàs
-71. gas
-72. tortora
-73. secretari ; -ària
-74. parlotejar
-75. estrada
-76. Camba
-77. fial
-78. aventura
-79. passapòrt
-80. revirar
-81. television
-82. mistèri
-83. perfièchament
-84. compliment
-85. brusent, brusenta
-86. instantanèu, instantanèa
-87. referéncia
-88. pinça
-89. entièr, entièra
-90. bailejar
-91. Malautiá
-92. esplech
-93. pelenc
-94. cambra
-95. prononciar
-96. lop
-97. luènh
-98. cordatge
-99. jamai
-100. engimbar
-101. entre
-102. estacion
-103. sortida
-104. amètla
-105. definicion
-106. modificacion
-107. rapid, -a
-108. Ièr
-109. amor
-110. empalhatge
-111. al sen de
-112. taxa
-113. tòca
-114. fialat
-115. èrba
-116. epòca
-117. empejorar
-118. Estrès
-119. existir
-120. risc
-121. pendent
-122. Tu, parlas occitan ?
-123. Tota
-124. interfàcia
-125. basa de donadas
-126. pruna
-127. diagnosticar
-128. sosten
-129. definir
-130. servar
-131. Vòstres ; Vòstras
-132. espòrt
-133. panar ; raubar
-134. mièlhs
-135. catòrze
-136. escart
-137. feble, febla
-138. cambiadís, -issa
-139. soma
-140. luna
-141. prandièra
-142. configurar
-143. simetria
-144. agotar
-145. martèl
-146. infligir
-147. Blanc
-148. glòria
-149. Mens
-150. voltor
-151. aprèp, après
-152. taxi
-153. palaversar
-154. iper
-155. bruch
-156. Cosin
-157. figuièr
-158. avalorar
-159. esmalir
-160. anujar
-161. regetar
-162. establir
-163. irritar
-164. eternitat
-165. estatua
-166. de l'ostal
-167. dependéncia
-168. dorsièr
-169. bèl
-170. ponch
-171. colar
-172. mandarina
-173. remirar
-174. rega
-175. precisar
-176. culhir
-177. Quals
-178. de res
-179. ciutadan, ciutadana
-180. martelar
-181. madur, madura
-182. pargue
-183. nívol
-184. oral, -a
-185. rotlèu
-186. Colèra
-187. programar
-188. mudar
-189. proporcional
-190. escalièr
-191. quauque
-192. susmontar
-193. Tala
-194. median, -a
-195. milgrana
-196. fuèlha
-197. ais
-198. pagelar
-199. priorisar
-200. connectar
-201. escotar
-202. jos
-203. d'ora
-204. quèrre
-205. basa
-206. toalha
-207. Aitant
-208. pertusar
-209. Escolan
-210. Depression
-211. agressivitat
-212. fòrça / bravament
-213. fresc, fresca
-214. intèrne, intèrna
-215. plen
-216. equivalent, equivalenta
-217. rarament
-218. rasar
-219. bastiment
-220. un màntol
-221. armonia
-222. ponçar
-223. auratge
-224. Mètge / medecin
-225. autorizar
-226. falhir
-227. Las vòstras
-228. positiu
-229. compreni pas
-230. coërent, -a
-231. ninòi, -a
-232. frenar
-233. monument
-234. banana
-235. Cèrtas
-236. sotabòsc, cobèrt del bòsc
-237. acorchi, corcha
-238. escampilhat, -ada
-239. tornavitz
-240. plaja
-241. claus
-242. getar
-243. quauques
-244. de
-245. comparar
-246. culhièr ; culhieron
-247. Benvenguda
-248. deserbar
-249. angoissa, ànsia
-250. dàtil
-251. limar
-252. mila
-253. Lo teu
-254. teissut
-255. fisar
-256. un gendarma
-257. frontal, -a
-258. opausat
-259. exportar
-260. musica
-261. regèt
-262. instànciar
-263. capturar
-264. espèri
-265. coratge
-266. militant, militanta
-267. tròç
-268. desirar
-269. fa calor
-270. practica
-271. mai ; pus
-272. en dejós
-273. servir
-274. ràdio
-275. prat
-276. correspondre
-277. Nas
-278. generar
-279. diferéncia
-280. tròn
-281. injectar
-282. estomac
-283. comparable
-284. retardar
-285. cicle
-286. trabalhs
-287. intervencion
-288. puèi
-289. sautar
-290. embalar
-291. assabentar ; informar
-292. sul còp ; sul pic
-293. rafe
-294. quatren, quatrena
-295. frequéncia
-296. velhar ; 	susvelhar
-297. tuta ; espeluga ; cauna ; balma
-298. environament
-299. leugièr
-300. ensenhaire
-301. suprimir
-302. domestic, domestica
-303. posicion
-304. tresen, -a.
-305. cadavre
-306. seguent, seguenta
-307. Degun mai
-308. Paire
-309. connexion
-310. semença
-311. Plombièr
-312. axar
-313. visitar
-314. geinar
-315. necessitar
-316. promocion
-317. escotèr
-318. mens
-319. perseguièr
-320. dificil(e), dificila
-321. remarcar
-322. patir
-323. Tristesa
-324. Las nòstras
-325. presentar
-326. Genièr
-327. rainal
-328. singlar
-329. portar
-330. archivar
-331. rasclador
-332. patac ; tust ; truc
-333. seguida
-334. tot
-335. repais
-336. recobrar
-337. se passejar
-338. rajar
-339. embarrar, tancar
-340. plaidejar
-341. condusir
-342. Bona jornada
-343. canapè
-344. cent
-345. repetitiu
-346. sonhar
-347. corgeta
-348. tot parièr
-349. trenca
-350. tronar
-351. candèla
-352. punhada
-353. eissugar
-354. pastís
-355. regular, regulara
-356. montanha
-357. pòrre
-358. Jaune
-359. La que
-360. grop
-361. cuècha
-362. solidaritat
-363. picar
-364. diferir
-365. espilla
-366. accionar
-367. cort metratge
-368. La nòstra
-369. busca, soc
-370. carrièra
-371. laboratòri
-372. legir
-373. departament
-374. separar
-375. relèu
-376. matematicas
-377. gelador, congelator
-378. fruch
-379. cable
-380. Nuèch
-381. cinc
-382. cada jorn
-383. nadar
-384. exterior
-385. lantèrna
-386. pesuc / pesuga
-387. avenidor
-388. estanh
-389. lo fust
-390. microondas
-391. enebir
-392. Cervèl
-393. junt
-394. injeccion
-395. preparacion
-396. burre
-397. sèt
-398. prescriure
-399. enonciar
-400. interval
-401. Agost
-402. imatge
-403. tant me fa / aquò m’es parièr
-404. ajudar
-405. defendre
-406. mèdia
-407. empèri
-408. règlament
-409. identificar
-410. sac d'esquina
-411. peis
-412. reténer
-413. a
-414. grafic ; grafica
-415. espinarc
-416. còfre
-417. avalir
-418. tenda
-419. progressiu, progressiva
-420. espelucar ; pelar
-421. plancat
-422. innovacion
-423. rastèl
-424. resumit
-425. long
-426. insistir
-427. afichar
-428. Larg
-429. malhum
-430. avoacion
-431. remòrca
-432. badalhar
-433. accelerar
-434. abelha
-435. curiós, curiosa
-436. quina ora es
-437. Pè
-438. autenticar
-439. endavant
-440. de còps
-441. amassa ; ensemble
-442. geometria
-443. afustar
-444. bas(sa)
-445. planièr
-446. goma
-447. estacar
-448. Qual
-449. copar
-450. paramètre
-451. chuc
-452. recitar
-453. quocient
-454. societat
-455. identic, identica
-456. clarièra
-457. construccion
-458. coitar
-459. sentiment
-460. ampola
-461. aprestar
-462. efemèr, efemèra
-463. questionar
-464. demasiat, -ada
-465. toalha, servieta
-466. fòrça, plan, bravament
-467. Aquestas
-468. renovar
-469. cèrvi
-470. Del qual
-471. identificant
-472. Cèrts
-473. seguir
-474. liuç
-475. amortir
-476. codonh
-477. present
-478. accion
-479. grana
-480. afastigar
-481. supermercat
-482. factor
-483. autorisacion
-484. testar
-485. extrèm(e), extrèma
-486. apelar / sonar
-487. Mes
-488. sincronizar
-489. rajal , cascada
-490. abitacion ; demorança
-491. bus
-492. passar
-493. cors
-494. rèsta
-495. secar
-496. plafon
-497. bordigàs
-498. airal
-499. clavèl
-500. bòsc
-501. règla
-502. geinant
-503. morir
-504. revengut
-505. quimia
-506. leon
-507. uòu
-508. corregir
-509. politica
-510. numerica
-511. susar
-512. liquid
-513. calmar
-514. corrida, corsa
-515. netejar
-516. teulat
-517. actualitat
-518. fals, falsa
-519. frequent, frequenta
-520. uissièr
-521. per dessús
-522. municipal
-523. libre
-524. Te cridi deman.
-525. Marit
-526. domatge / rai! / rai d'aquò!
-527. sègle
-528. instant
-529. agafar
-530. Solitud / soletat
-531. entrainar
-532. pertot
-533. pòt de confitura
-534. egal
-535. doana
-536. lent, lenta
-537. Pòrt
-538. cofaire
-539. biologista
-540. requèsta
-541. estudiant
-542. maugrat que
-543. desbarcar
-544. mètro
-545. cançon
-546. redusir
-547. carcanhar
-548. crear
-549. soslinhar
-550. crompar
-551. fraccion
-552. çaquelà
-553. Los / Las vesi.
-554. solament
-555. Cort
-556. batèu
-557. après
-558. caçar
-559. distributor
-560. Çò autre
-561. atjat, atjada
-562. acrocar
-563. tap
-564. escorreguda
-565. escupir
-566. relòtge
-567. antropologia
-568. poder
-569. classa
-570. estacionar
-571. grépia
-572. estabilizar
-573. vuèg
-574. esquiròl
-575. lapin
-576. braçalet
-577. tombar
-578. factura
-579. region
-580. Pichon
-581. publicar
-582. masatge ; mas
-583. cercar
-584. frequentament
-585. passada, andana, alèa
-586. Braç
-587. aprochar
-588. extèrne, extèrna
-589. conferéncia
-590. comparativament
-591. set
-592. ecran, tela
-593. escalar ; escalabrar
-594. conflicte
-595. Te disi un secret.
-596. agent
-597. liurar
-598. sal
-599. pastas
-600. caractèr
-601. un obrièr
-602. economia
-603. passion ; afiscament(+fort)
-604. trebolar
-605. Me balha un libre.
-606. preferir
-607. Fèbre
-608. discors
-609. balaja
-610. immigrar
-611. afanar
-612. tracar
-613. segond, segonda
-614. planejar
-615. bruma
-616. resultat
-617. bon coratge / coratge !
-618. facil(e), facila
-619. tempèsta
-620. frosalon
-621. trabalhar
-622. angle, caire
-623. car, cara
-624. conclusion
-625. avantatge
-626. debuta
-627. padena
-628. al mièg de
-629. lo trabalh
-630. Tal
-631. Enveja
-632. letra
-633. validar
-634. repaus
-635. s'escapar
-636. pena ; bauç
-637. sospechar
-638. macheta
-639. fin
-640. explicar
-641. baga
-642. mòto
-643. adjectiu
-644. ignorar
-645. operacion
-646. en çò de / cò de
-647. sostraccion
-648. contornejar
-649. general
-650. lima
-651. parrat
-652. fertilizar
-653. disputar
-654. negatiu
-655. retard ; alongui
-656. escolan
-657. araire
-658. possible, possibla
-659. Tan
-660. actiu, activa
-661. languiment
-662. redobtar
-663. empatia
-664. Gaire
-665. pesar
-666. referénciar
-667. al costat de
-668. De
-669. coja
-670. equitable, dreiturièr
-671. Qualas
-672. immobil, -a
-673. castanha
-674. cronic, cronica
-675. destinada
-676. plòure
-677. religion
-678. contestar
-679. estranh, estranha
-680. ostal
-681. ciutat
-682. cap a
-683. amplificat
-684. bledaraba
-685. evaluacion
-686. produsir
-687. naut
-688. amagatal
-689. question
-690. Coma aquò va ?
-691. opcion
-692. pilar
-693. passar
-694. Quala
-695. fracàs
-696. avajon
-697. Aquela
-698. la lana
-699. nonanta
-700. esmalt
-701. non
-702. afrontar
-703. intensitat
-704. agla
-705. altre, -a
-706. la torre
-707. bonser
-708. relevar
-709. traversar
-710. gant
-711. Uèlh
-712. aspirar
-713. pèira
-714. instruire
-715. indici
-716. empachar
-717. perièr
-718. vibrar
-719. qual que siá
-720. setanta
-721. Eles, son contents.
-722. tirar
-723. debit
-724. eleccion
-725. tòrt a
-726. objectiu
-727. avenguda
-728. gonèla
-729. equitat
-730. a l'entorn
-731. benlèu
-732. educar
-733. important, importanta
-734. condicion
-735. ostalariá, otèl
-736. s'estrementir
-737. comun
-738. Quin que siá
-739. La teuna
-740. perseverar
-741. Vosautres, trabalhadètz fòrça.
-742. perditz
-743. opausar
-744. distribuir
-745. pèrdre
-746. tèxt
-747. produch
-748. jardin
-749. primièr, primièra
-750. laissa
-751. ondrar
-752. cima, som
-753. pauc
-754. temporari, temporària
-755. Lor
-756. Lo castanhièr
-757. trace, traça
-758. (re)cercar
-759. anar
-760. arpar
-761. veitura
-762. ressorça
-763. se
-764. bois
-765. lavar
-766. estauviar
-767. petròli
-768. escudèla, sieta
-769. division
-770. mièg torn
-771. concís, consisa
-772. cabra
-773. public
-774. parmi
-775. paraula
-776. Còl
-777. ostilitat
-778. activitat
-779. contèxt
-780. òdi / asirança
-781. poma
-782. rastèl
-783. desaveni
-784. Que
-785. presonièr
-786. concèrt
-787. rendement
-788. Amic
-789. puntar
-790. robust(e), robusta
-791. esperar
-792. internèt
-793. caire
-794. fintar
-795. referéncia
-796. davant
-797. las saldas
-798. tot lo mond
-799. picnicar
-800. teoria
-801. distància
-802. cabinet
-803. contrarotlar
-804. similari
-805. De segur
-806. forn
-807. lisar
-808. quicòm
-809. aimable, -a ; brave, brava
-810. cartabèl
-811. estocar
-812. coja
-813. tassa
-814. aspirador
-815. pan
-816. notz
-817. brot
-818. proximitat
-819. bibliotèca
-820. esparnha
-821. desmontar
-822. alunhar
-823. sciéncia
-824. rusca
-825. zerò
-826. pilotar
-827. tipic, tipica
-828. conténer
-829. suggerir
-830. pòble
-831. problèma
-832. Que
-833. pel sòl
-834. portanèl, cledon
-835. personatge
-836. nombrós
-837. sovenir
-838. una camisa
-839. torisme
-840. bon, bona
-841. gerir
-842. Vòstre ; Vòstra
-843. asagatge
-844. relaxar
-845. comjat
-846. Espital
-847. metòde
-848. mesenga
-849. atraire
-850. concèpte
-851. convéncer
-852. Me lèvi a sèt oras.
-853. periodic, periodica
-854. convertir
-855. gardar
-856. diminuir
-857. arquitectura
-858. compàs
-859. sus
-860. Roge
-861. ostil
-862. fragosta
-863. dens, -a
-864. en
-865. percentatge
-866. Nosautres, estudièm la lenga.
-867. costat
-868. mejana
-869. vitz
-870. Dròlla
-871. observacion
-872. darrièr(a)
-873. mejanament
-874. una sandala
-875. ancian
-876. destibar
-877. emprenhada
-878. crosièra
-879. mongeta
-880. per çò que
-881. elegit
-882. vertadièr
-883. regular
-884. depausar
-885. realizar
-886. legenda
-887. en arrièr
-888. anonciar
-889. melhor, melhora
-890. reng
-891. romèc
-892. pel darrièr còp
-893. argument
-894. diferéncia
-895. policièr
-896. ranquejar
-897. aprofechar
-898. verdesca ; terrassa
-899. futur
-900. cabal
-901. encadenar
-902. video
-903. uèitanta, quatre-vints
-904. reservar
-905. còrda
-906. paret
-907. cotèl
-908. aiguièra
-909. tornar parlar
-910. pagina
-911. enveja
-912. al respècte
-913. veire
-914. revirar
-915. Un ; Una
-916. estampar
-917. infinit, infinida
-918. qualitat
-919. cort, corta
-920. embut
-921. s’agenolhar
-922. Tanta
-923. La meuna
-924. sector
-925. nivolós
-926. traïson
-927. astrada
-928. massar
-929. atribuir
-930. orientar
-931. Quora
-932. traçar
-933. rasim
-934. vertadièrament
-935. resultat
-936. Nos cridan al telefòn.
-937. adorar
-938. cava
-939. garric
-940. tondeloira ; talhaprat
-941. pièger
-942. la docha
-943. bolegar
-944. ascensor
-945. durament
-946. gelar
-947. Meteis(ssa)(s)
-948. Mièjanuèch
-949. validar
-950. apreciar
-951. ànsia
-952. ganh
-953. Quin
-954. sageta
-955. linguistica
-956. pistolet
-957. correlacion
-958. ensenhar
-959. nièra
-960. exclamar
-961. prigondor
-962. baloard
-963. benestar
-964. tenaç, tenaça
-965. espectacle
-966. sens
-967. mètge
-968. flatar
-969. electrician
-970. quora
-971. tomata
-972. Desir / desirança
-973. res
-974. milgranièr
-975. tractor
-976. Mecanician
-977. venent ; que ven
-978. pala
-979. francament
-980. enauçar
-981. conselhar
-982. embarcar
-983. tasca
-984. reganhon
-985. corrièr
-986. Espèr
-987. vertat
-988. literatura
-989. rire
-990. gèl
-991. granhòta
-992. tractament
-993. caumaci o calimàs
-994. manipular
-995. orientar
-996. sambuc
-997. rodar
-998. debatre
-999. Lo meu
-1000. eiriç
-1001. plant
-1002. camion
-1003. noguièr
-1004. Res
-1005. nectarinièr
-1006. pertèrra
-1007. majofièr
-1008. ressentir
-1009. notar
-1010. investiment
-1011. concebre
-1012. retrobar
-1013. virgula
-1014. avalanca
-1015. operar
-1016. trucar
-1017. actual
-1018. estampadoira
-1019. equipament
-1020. esséncia
-1021. fòraviar
-1022. fosc, fosca
-1023. ròc
-1024. Oval / Ovau
-1025. cerièra
-1026. Mai
-1027. boquetin
-1028. extrèmament, demasiadament
-1029. recèrca
-1030. principi
-1031. justificar
-1032. despreciar
-1033. mercandejar
-1034. A pauc près ; mai o mens
-1035. fil
-1036. garda
-1037. temps
-1038. Esquina
-1039. apartament
-1040. quilhar
-1041. natura
-1042. limpar, resquilhar
-1043. esperar
-1044. immediat
-1045. escaire
-1046. aplicacion
-1047. nis
-1048. passejada
-1049. agradar
-1050. nivèl
-1051. cai
-1052. pebron
-1053. Febrièr
-1054. conducha
-1055. dètz-e-uèch
-1056. La lor
-1057. camera
-1058. exclamar
-1059. poténcia
-1060. escais
-1061. plan, fòrça, fòrt
-1062. arena / sable
-1063. cadena
-1064. linha
-1065. botega
-1066. rebutar
-1067. calcul
-1068. provar
-1069. corba
-1070. fisança
-1071. exemple
-1072. s’engravar
-1073. aparar
-1074. caminòl ; viòl
-1075. gàbia
-1076. se dochar
-1077. Uèi
-1078. gaudre
-1079. escars / escarsa
-1080. fulham
-1081. web
-1082. institut
-1083. bonjorn / Adiu
-1084. proclamar
-1085. Abril
-1086. projècte
-1087. compreni
-1088. car
-1089. mar
-1090. virada
-1091. inventar
-1092. per
-1093. subreviure
-1094. lo cat / la cata
-1095. rasim
-1096. simple, simpla
-1097. descargar
-1098. documentar
-1099. sala de banh
-1100. filosofia
-1101. relatiu, -iva
-1102. enromegar
-1103. talhièr
-1104. s'afarar
-1105. programa
-1106. talhièr
-1107. preissar
-1108. centena
-1109. Qualques-unes(as)
-1110. despensa
-1111. repausar
-1112. canton, caire
-1113. Bonur
-1114. figa
-1115. bordilhièr / pobèlla
-1116. estatge
-1117. zòna
-1118. rèssa
-1119. assegurar ; afirmar
-1120. professor
-1121. aderir
-1122. informacion
-1123. causida
-1124. estudiar
-1125. apetís
-1126. cresta
-1127. troça, estug
-1128. permanent
-1129. corrent : ordinari
-1130. escruire
-1131. pièger
-1132. dormir
-1133. cadenciar
-1134. galina
-1135. Ges
-1136. avança
-1137. milierat
-1138. seten, setena
-1139. traucar
-1140. vièlh
-1141. completament
-1142. istòria
-1143. ultrà
-1144. caul(et)
-1145. poderós
-1146. Corrècte
-1147. pendent
-1148. escòla primària
-1149. lavador
-1150. fins a
-1151. Patron
-1152. alimentar
-1153. amb
-1154. avet
-1155. pro
-1156. quaranta
-1157. afeccion
-1158. fòto
-1159. jutge, jutja
-1160. lo guit / la guita
-1161. saba
-1162. isolament
-1163. daissar
-1164. puèg / sèrra
-1165. prèissa
-1166. escambiar
-1167. prigondament
-1168. castèl
-1169. tondre
-1170. illustrar
-1171. passion
-1172. sarra
-1173. rotar
-1174. canèla
-1175. rampelar
-1176. bòrd
-1177. òrdre
-1178. boissar / escafar
-1179. secrèt
-1180. boton
-1181. prerequesit
-1182. casco
-1183. excessivament
-1184. verificar
-1185. votz
-1186. còrb
-1187. minimizar
-1188. infinidament
-1189. addicion
-1190. infinidament
-1191. cauçadura
-1192. caractèr
-1193. alentir
-1194. pendula
-1195. insignificant, -a
-1196. pèrdre
-1197. ronda
-1198. embestiant, embestianta
-1199. subrevida
-1200. cada
-1201. amorós, amorosa
-1202. glacièr
-1203. emplaçament
-1204. engrais
-1205. tepa
-1206. pompar
-1207. navigar
-1208. Ivèrn
-1209. predire
-1210. electricitat
-1211. juntar
-1212. formidable, formidabla
-1213. encapar
-1214. avisar
-1215. ustensilha
-1216. ipotèsi
-1217. lausa
-1218. cassís
-1219. baia
-1220. còp
-1221. emcombrament / embotelhatge
-1222. plan
-1223. estatisticas
-1224. complèx, -a
-1225. clavièr
-1226. arpa
-1227. A lèu
-1228. mirga
-1229. usina
-1230. mesurar
-1231. barralha
-1232. complòt
-1233. asirar, aborrir
-1234. guida
-1235. defòra
-1236. transportar
-1237. garir
-1238. objècte
-1239. explorar
-1240. parapluèja
-1241. borron
-1242. apasimar
-1243. carta / mapa
-1244. semblar
-1245. expression
-1246. Març
-1247. modular
-1248. salvatge, salvatja
-1249. tablèu
-1250. paritat | par, para
-1251. nterseccion ; crosament
-1252. formular
-1253. maquina
-1254. Marron
-1255. menor, -a
-1256. version
-1257. ròca
-1258. comunicacion
-1259. encara
-1260. Santat
-1261. cabucèla
-1262. Prèst
-1263. comparason
-1264. Estrech
-1265. exclusiu, -iva
-1266. bièrra / cervesa
-1267. pèrda
-1268. chifra
-1269. pastenaga
-1270. soca
-1271. tròp
-1272. sasons
-1273. millenari
-1274. lengatge
-1275. fornièr
-1276. competicion
-1277. estudi
-1278. aparar
-1279. perqué
-1280. guitarra
-1281. aürosament
-1282. vinha
-1283. Servidor
-1284. cossí
-1285. oèst, al colcant, al ponent
-1286. interpretar
-1287. demostracion
-1288. maquilhar
-1289. plantar
-1290. tirar
-1291. criticar
-1292. doçament
-1293. Collèga
-1294. son
-1295. Blau
-1296. pal, estepa
-1297. caçairòla
-1298. Setembre
-1299. ceba
-1300. Aqueste
-1301. espaci
-1302. de còps
-1303. tram
-1304. punt
-1305. cèrvia
-1306. salari
-1307. dimension
-1308. enviar
-1309. se repausar
-1310. pensar
-1311. pintura
-1312. òsca
-1313. mantun
-1314. aprigondir
-1315. aucèl
-1316. grosso modo
-1317. Pensament / lagui
-1318. precedent, precedenta
-1319. vendre
-1320. d’ara enlà
-1321. obsession
-1322. tornar prene
-1323. normal
-1324. nom d’ostal
-1325. seissanta
-1326. contunhar
-1327. clarament
-1328. fàcia a
-1329. irange
-1330. desespèr
-1331. cultura
-1332. rapid(a)
-1333. una persona
-1334. fust
-1335. recular
-1336. boscassièr
-1337. al fons
-1338. puslèu
-1339. sopa
-1340. (se)desrevelhar
-1341. precís
-1342. infirmièr
-1343. massa
-1344. enregistrar
-1345. barratge
-1346. amora
-1347. Qualqu’un(a)
-1348. atudar
-1349. sabi pas
-1350. bugada
-1351. pega
-1352. utilizar
-1353. lavar
-1354. tres
-1355. prèp, prèpa
-1356. soscriure
-1357. cardinal
-1358. pujòl
-1359. pòrtafuèlha
-1360. Quins
-1361. gaitar ; observar
-1362. deca, defaut
-1363. nectarina
-1364. lengatge
-1365. blaga ; craca
-1366. pont
-1367. caqui
-1368. copa
-1369. Son ; Sa
-1370. setze
-1371. error, enganada
-1372. gestion
-1373. es damatge
-1374. Cossi
-1375. talha
-1376. Paciéncia
-1377. poncha
-1378. Cosina
-1379. dedins / dintre
-1380. tecnologia
-1381. porta
-1382. panièr
-1383. Solatjament
-1384. jove
-1385. un sac
-1386. perdon
-1387. sequénciar
-1388. total
-1389. nòu, novèl
-1390. còp
-1391. sortir
-1392. luènh de
-1393. Totas
-1394. pera
-1395. enfin ; fin finala
-1396. sarrar ; quichar
-1397. carn
-1398. blòg
-1399. rejuntar
-1400. cocombre
-1401. escòla
-1402. pincèl
-1403. aprochar
-1404. calor
-1405. nòrd
-1406. Maire
-1407. facil(e), facila ; aisit, aisida
-1408. poesia
-1409. mitic(a)
-1410. mercés
-1411. Ton ; Ta
-1412. sala
-1413. Lo / La vesi.
-1414. cosinar
-1415. enganar
-1416. representar
-1417. formulari
-1418. permetre
-1419. reialme
-1420. lampa
-1421. Bruelh
-1422. Aquels
-1423. lo que ...
-1424. salut
-1425. estremar ; rengar
-1426. vent
-1427. estupide, estupida
-1428. diferent, diferenta
-1429. subjècte
-1430. collaborar
-1431. lançar
-1432. babau
-1433. espolseta, escobeta, bròssa
-1434. mercat
-1435. pr’aquò, çaquelà
-1436. cargador
-1437. Bilhet
-1438. quin / quina
-1439. Degun(a)
-1440. rauba
-1441. dur, dura
-1442. refregidor
-1443. contorn
-1444. Prigond
-1445. sosténer
-1446. entraïnar
-1447. tèrne, tèrna
-1448. marrit
-1449. léser
-1450. clarejar
-1451. tirar
-1452. Nòstre ; Nòstra
-1453. veire
-1454. dinamic, dinamica
-1455. cèl
-1456. crèma
-1457. pompièr
-1458. trigossar
-1459. navigar
-1460. gròs
-1461. cuèit
-1462. bendar
-1463. pebre
-1464. Dolor
-1465. natural
-1466. empresonar
-1467. La pèl
-1468. encoratjar
-1469. la frucha
-1470. intermitent, intermitenta
-1471. maquís
-1472. tard
-1473. (re)virar
-1474. modèl
-1475. conselhièr
-1476. dempuèi
-1477. apassionar ; afiscar(+fort)
-1478. unitat
-1479. idèa
-1480. sec
-1481. mas
-1482. cisèl
-1483. menina / mameta
-1484. sollicitar
-1485. Se dison adieu abans de partir.
-1486. palha
-1487. equacion
-1488. agricultor
-1489. las gents
-1490. escapar
-1491. logicial
-1492. rude, ruda
-1493. Estiu
-1494. pichon, pichòt
-1495. perqué pas
-1496. gelada
-1497. Enaigar / inondar
-1498. mentre que
-1499. esponga
-1500. parciala
-1501. nèu
-1502. abstrach, -a
-1503. minhòt
-1504. simetric, -a
-1505. Mainatge
-1506. bilanç
-1507. aparéisser
-1508. tretze
-1509. raportador
-1510. liquèn
-1511. visible, visibla
-1512. conversion
-1513. gràcias a
-1514. organizacion
-1515. rapid(e), rapida
-1516. Aurelha
-1517. preson
-1518. aténher
-1519. Fòrça
-1520. solide, solida
-1521. rendable, rendabla
-1522. agulhatge
-1523. tronc
-1524. burèu
-1525. vèspa
-1526. besonh
-1527. fatiga
-1528. espatula
-1529. admiraccion
-1530. present
-1531. una vèsta
-1532. gimnàs
-1533. boscassièr
-1534. defuntar
-1535. s'assetar
-1536. convencion
-1537. establiment
-1538. encantat
-1539. importar
-1540. garri
-1541. gredon
-1542. rapaç, -a
-1543. maine
-1544. decidir
-1545. cors
-1546. charabiat
-1547. solstici
-1548. s'endormir
-1549. fòrt, fòrta
-1550. masèl
-1551. vida
-1552. discrèt
-1553. via
-1554. lo cuèr
-1555. milen, -a
-1556. deluvi
-1557. fargar
-1558. estimar
-1559. argent
-1560. unic, unica
-1561. Los nòstres
-1562. o
-1563. fabrica
-1564. tendresa
-1565. Plus
-1566. ombra
-1567. util, -a
-1568. animar
-1569. examèn
-1570. aprene
-1571. vacanças
-1572. botelha
-1573. manca
-1574. Caissièr
-1575. degun
-1576. cisèls de poda ; secator
-1577. multiplicacion
-1578. cap de problèma
-1579. esclairatge
-1580. loira
-1581. Octobre
-1582. capèl
-1583. Dent
-1584. pese
-1585. fredor
-1586. Mai
-1587. albricotièr
-1588. lèu
-1589. vaccinar
-1590. problèma / lo picar de la dalha (+= le noeud de l'affaire...)
-1591. pegar
-1592. excellent, excellenta
-1593. escanèr ; escanerizar
-1594. òrre, òrra
-1595. badinar
-1596. contactar
-1597. coratjós, coratjosa
-1598. cofar
-1599. reorganizar
-1600. nevar
-1601. Los / Las lors
-1602. bornhon
-1603. profièch
-1604. colorar
-1605. embelinar
-1606. marron
-1607. cable
-1608. caminar
-1609. cada
-1610. a mièjas
-1611. cronomètre
-1612. supervisar
-1613. fragil(e), fragila
-1614. bananièr
-1615. quant
-1616. succedir
-1617. original
-1618. biologia
-1619. Negre
-1620. signe
-1621. moneda
-1622. aver en òdi
-1623. demandar
-1624. malin, -igne
-1625. vergueta
-1626. aprendissatge
-1627. error
-1628. mandar ; enviar
-1629. D'acòrdi
-1630. cinta
-1631. permission
-1632. sòl
-1633. exploracion
-1634. gaireben
-1635. cap de problèma
-1636. climat
-1637. classa
-1638. acostumar
-1639. revisar
-1640. cavèca
-1641. bicicleta
-1642. embrutir
-1643. Auton / Devalada
-1644. Ser
-1645. despenjar
-1646. calhau
-1647. regressar
-1648. levar
-1649. jardinatge
-1650. localizar
-1651. Filh
-1652. bóstia
-1653. prunièr
-1654. asagar
-1655. indeferéncia
-1656. mofa
-1657. singlaron
-1658. pr’aquò, çaquelà
-1659. nautor
-1660. rasclar
-1661. compausar
-1662. luòc
-1663. esperar
-1664. just
-1665. gal
-1666. semenar
-1667. avelana
-1668. mot
-1669. atacar
-1670. inegalitat
-1671. quasi
-1672. lac
-1673. Nòstres ; Nòstras
-1674. sòl
-1675. economia
-1676. detràs / darrièr
-1677. polit
-1678. contravent, tampa
-1679. comica
-1680. brancar ; connectar
-1681. territòri
-1682. Rectangle
-1683. assolar
-1684. ametlièr
-1685. mòrt
-1686. susfàcia
-1687. cabiròl
-1688. Vos ausissi pas.
-1689. gaireben / quasi
-1690. passatge
-1691. endevinar
-1692. accessible, accessibla
-1693. Desolat
-1694. fòrça / plan / bravament
-1695. expausar
-1696. telecomanda
-1697. coma, en qualitat de
-1698. planificar
-1699. ortalissa / legum / verdura
-1700. demest / entre
-1701. aparelh
-1702. melhorar
-1703. major, majora
-1704. abandonar
-1705. Ieu, canti una cançon.
-1706. viatjar
-1707. constructor
-1708. apostrò
-1709. ensalada
-1710. barqueta
-1711. vin
-1712. trantalhar
-1713. òrle, bordadura
-1714. formiga
-1715. cortina ; ridèu
-1716. rotlar
-1717. persuadir
-1718. préner
-1719. Amor
-1720. bauç ; escarpament
-1721. analisar
-1722. cinquanta
-1723. performança
-1724. seriosament
-1725. ortalièr
-1726. escritura
-1727. mai
-1728. Violet
-1729. vaca
-1730. jornadièr, quotidian
-1731. repic
-1732. significatiu, -iva
-1733. degalh ; gast
-1734. parpalhon
-1735. asagador
-1736. còca
-1737. Las meunas
-1738. convenir
-1739. vestir
-1740. descobrir
-1741. impausar
-1742. biais ; faiçon
-1743. escobar
-1744. rivalitat
-1745. pintrar
-1746. commençar
-1747. brusc, brusca
-1748. tranquil, -illa
-1749. abricòt
-1750. palfèr
-1751. desviar
-1752. Cossí vos apelatz ? Cossí t'apelas ? cossí te sonas ?
-1753. estirar
-1754. Gris
-1755. valisa, maleta
-1756. voler
-1757. suscitar
-1758. Capable
-1759. sièis
-1760. Paur
-1761. site
-1762. tronçonadoira
-1763. cònsol
-1764. las bragas
-1765. ribièira
-1766. miralh
-1767. Aquò va plan
-1768. requerir
-1769. interpretar
-1770. librariá
-1771. polet
-1772. musèu
-1773. secada
-1774. tustar
-1775. absoludament
-1776. arcolan
-1777. sompet
-1778. administrar
-1779. social
-1780. ochen, ochena
-1781. téner
-1782. compòst
-1783. cors de recreacion
-1784. mal
-1785. Novembre
-1786. Vos balharai lo document.
-1787. planh
-1788. Vesin
-1789. Sagnar
-1790. retorn
-1791. Carrat
-1792. cauna ; espeluga
-1793. mencionar
-1794. interior
-1795. canèl
-1796. liberar ; desliurar
-1797. brigalhar
-1798. gelosiá
-1799. sociologia
-1800. contemplar
-1801. afrabar ; far perir
-1802. centre
-1803. cinquen, cinquena
-1804. informatica
-1805. fornet
-1806. sol
-1807. similar
-1808. elefant
-1809. quatre
-1810. somiar
-1811. amortesiment
-1812. crear
-1813. plegadís, plegadissa
-1814. valor
-1815. remandar
-1816. Boca
-1817. gailhard
-1818. telefòn
-1819. especial
-1820. jornal
-1821. viatge
-1822. Man
-1823. dotze
-1824. repassar, tornar veire
-1825. compausant, -a
-1826. cadièra
-1827. Lor respondèm lèu.
-1828. document
-1829. los comuns
-1830. cors
-1831. circuit
-1832. nap
-1833. mens
-1834. vos prègui / te prègui
-1835. armori
-1836. permés
-1837. sabon
-1838. servici
-1839. baston, pal, bròc
-1840. gamèla
-1841. Filmar
-1842. matar
-1843. gost
-1844. estructura
-1845. olbidar
-1846. prepausar
-1847. Annada
-1848. provar
-1849. equinòcci
-1850. èura
-1851. luenhèc, luenhèca
-1852. compòrtament
-1853. taula
-1854. interès
-1855. garar, rambar
-1856. adieu
-1857. bagatge
-1858. agrum
-1859. Plaser
-1860. Jòia
-1861. prètz
-1862. sagelar
-1863. Suspresa
-1864. Còr
-1865. prevenir
-1866. Bona nuèch
-1867. meriti
-1868. acampar
-1869. es vertat
-1870. avion
-1871. coquèla
-1872. prevencion
-1873. extrèmament, demasiadament.
-1874. uèch
-1875. genocidi
-1876. revelh
-1877. espés
-1878. passiu, passiva
-1879. mal, -a
-1880. entitat
-1881. fluvi
-1882. degradar
-1883. dos ; doas
-1884. La vòstra
-1885. proporcionat, -ada
-1886. granissa(r)
-1887. Qual
-1888. obténer
-1889. executar
-1890. Det
-1891. Lo Pel
-1892. ressegar
-1893. falguièra, feuse
-1894. localizacion
-1895. multicolòr, -a
-1896. tresen, tresena
-1897. codonhièr
-1898. Mon ; Ma
-1899. far l'òrt
-1900. Fraire
-1901. cerièr
-1902. excellir
-1903. cridar
-1904. saniquejar ; bricolar
-1905. Qual / Quala
-1906. licèu
-1907. quimista
-1908. salvar
-1909. òc
-1910. caud
-1911. injustícia
-1912. adjunt
-1913. esplech
-1914. aimar
-1915. exclure
-1916. Decepcion
-1917. cargament
-1918. palais
-1919. poesia
-1920. accedir
-1921. vint
-1922. excepcion
-1923. eficaç, eficaça
-1924. Quicòm mai
-1925. senhor
-1926. aisit, aisida
-1927. De | "Portatz-me de pan, d'aiga."
-1928. passat
-1929. durar
-1930. avocat
-1931. Adorar
-1932. Suau / Calme
-1933. entreténer
-1934. I
-1935. arredondir
-1936. escortar
-1937. Quinas
-1938. nivolina
-1939. boligraf
-1940. installar
-1941. educacion
-1942. aeropòrt
-1943. eissarpa
-1944. trobar
-1945. pòrc / maura
-1946. garatge
-1947. contengut
-1948. provocar
-1949. còr
-1950. gemèlas
-1951. banca
-1952. Bon astre
-1953. pes
-1954. edifici
-1955. excessiu, excessiva
-1956. en consequéncia
-1957. secador
-1958. camp
-1959. vaissèla
-1960. compassion
-1961. amassar
-1962. compatir
-1963. apondre
-1964. tant, talament
-1965. Aquel
-1966. respècte
-1967. anujós, anujosa
-1968. apèl, crida
-1969. ont
-1970. Mai
-1971. fiular
-1972. torn
-1973. segond, segonda
-1974. amassar
-1975. aumentar
-1976. luènh
-1977. Li disèm la vertat.
-1978. complicat, -ada
-1979. Femna
-1980. clarvesença
-1981. messatge
-1982. Amiga
-1983. abstrait
-1984. autrament
-1985. ris
-1986. Lo seu
-1987. cobèrt
-1988. mastegar
-1989. proporcion
-1990. tuta
-1991. descripcion
-1992. Quicòm
-1993. desvolopar
-1994. seisen, seisena
-1995. Nos preparèm per la fèsta.
-1996. som
-1997. quand
-1998. Vos sovenètz d’aquò ?
-1999. bocla
-2000. tirador / tireta
-2001. ligam
-2002. vesprada
-2003. brancum
-2004. relacion
-2005. noven, novena
-2006. inferior, inferiora
-2007. gasanhar
-2008. triar
-2009. indicar
-2010. intelligent, intelligenta
-2011. pompa
-2012. lent
-2013. Deman
-2014. emocion
-2015. salon
-2016. superior, superiora
-2017. recebre
-2018. Lo lor
-2019. site ; empleçament
-2020. parlar
-2021. Totes
-2022. veta
-2023. papièr
-2024. canton
-2025. soscar
-2026. deman passat
-2027. arrestar
-2028. rajar
-2029. recampar
-2030. Tals
-2031. juntar
-2032. alongar
-2033. garison
-2034. infrastructura
-2035. tot escàs
-2036. nombre
-2037. despegar
-2038. radicalament
-2039. campèstre
-2040. frontièra
-2041. pujar
-2042. lach
-2043. tè
-2044. près
-2045. completar
-2046. bas ; enbàs
-2047. seguir
-2048. santat
-2049. multiple, multipla
-2050. languissi
-2051. pescar
-2052. pròva
-2053. preveire
-2054. bartàs
-2055. Los teus
-2056. cooperacion
-2057. urban
-2058. Cap
-2059. donar / balhar
-2060. susvelhar
-2061. quasèrn
-2062. avalar
-2063. vinten, vintena
-2064. lo melon
-2065. fisar
-2066. coma
-2067. tre ara
-2068. donc / doncas
-2069. refusar
-2070. ferrat, selha
-2071. descriure
-2072. pepin / papeta
-2073. clacar
-2074. arrengar
-2075. Decembre
-2076. codar
-2077. contenedor
-2078. mespresar
-2079. freg / freya
-2080. Dont
-2081. meditar
-2082. montar
-2083. vabre
-2084. espasa
-2085. Rond / Ceucle
-2086. rapiditat ; velocitat
-2087. Jamai
-2088. Lo que
-2089. cabussar
-2090. E vosautres ?
-2091. comptar
-2092. esfòrç
-2093. enganar
-2094. valada
-2095. dire
-2096. forca
-2097. populacion
-2098. venir
-2099. distant, -a
-2100. Pas encara
-2101. còser
-2102. demostrar
-2103. beure
-2104. bèç
-2105. bufar
-2106. purament
-2107. granièr
-2108. placa
-2109. pin
-2110. davalar
-2111. relativament
-2112. estimular
-2113. Pas
-2114. rapòrt
-2115. pontual
-2116. fòrtament
-2117. barrar ; tapar
-2118. amistat
-2119. folclòre
-2120. ralentir
-2121. sopar
-2122. fromatge
-2123. espepissar
-2124. los afars
-2125. revista
-2126. avocat
-2127. Mediterranèa
-2128. transaccion
-2129. prototip
-2130. concrèt, concrèta
-2131. potencial
-2132. fonccion
-2133. mèstre
-2134. tanlèu que
-2135. aissada
-2136. maselièr
-2137. permanent, permanenta
-2138. Cèrta
-2139. trajècte
-2140. repapiar
-2141. fenèstra
-2142. carta bancària
-2143. remar
-2144. primièr, primièra
-2145. Las teunas
-2146. tren
-2147. espaçar
-2148. raiç
-2149. dètz-e-sèt
-2150. respècte
-2151. Prima
-2152. meravilhar
-2153. mèl
-2154. presa de corrent
-2155. altimètre
-2156. fisica
-2157. pompir
-2158. Ne ; N'
-2159. Nos escriu una letra.
-2160. terranha
-2161. aver
-2162. mejan
-2163. discussion
-2164. Neboda
-2165. causir
-2166. ròca
-2167. Vergonha
-2168. Plana
-2169. sarcleta
-2170. vegetacion
-2171. avertiment
-2172. Adissiatz
-2173. semblable, semblabla
-2174. efectuar
-2175. capitar
-2176. accent
-2177. lemonièr
-2178. duradís, -issa
-2179. quart
-2180. capitada
-2181. marmòta
-2182. Los vòstres
-2183. laid, laida
-2184. comandar
-2185. gratuit, gratuita
-2186. baujament
-2187. ser
-2188. pas cap
-2189. film
-2190. umiditat
-2191. cabdèt
-2192. majofa
-2193. alenar
-2194. recès, abric, sosta
-2195. foliá
-2196. escultar
-2197. Julhet
-2198. camin
-2199. Miègjorn
-2200. Segonda
-2201. atge ; edat
-2202. coeficient
-2203. estrambordar
-2204. termòs
-2205. tartuga
-2206. las lunetas
-2207. impòst
-2208. massacre
-2209. rèc ; riu
-2210. pascalenc
-2211. Ela ven lèu.
-2212. frasa
-2213. campairòl
-2214. segur
-2215. autonòm, -a
-2216. partejar
-2217. pigassa, destral
-2218. mièlhs
-2219. avans
-2220. mercejar
-2221. extrà
-2222. reservacion
-2223. toristic
-2224. Qual
-2225. cada ser
-2226. trebol, -a
-2227. aiga
-2228. flascon
-2229. agachar
-2230. plan mai
-2231. Cap
-2232. Felicitacions
-2233. folzejar
-2234. moment ; brieu
-2235. admetre
-2236. formula
-2237. branca
-2238. Qualques
-2239. vendeire
-2240. endacòm
-2241. acquò fonctiona
-2242. arbre
-2243. segur
-2244. èst ; levant
-2245. atirar
-2246. aparament
-2247. (re)ligar
-2248. dètz-e-nòu
-2249. ja
-2250. inegal, desparièr
-2251. tastar
-2252. vila
-2253. defugir
-2254. decimal
-2255. ennemic
-2256. desembalar
-2257. estauvi
-2258. penjar
-2259. cobèrta
-2260. tròp
-2261. capbord
-2262. president
-2263. pena
-2264. uman
-2265. rampèl
-2266. Cèrt
-2267. preveire
-2268. reconciliar
-2269. pr’aquò / pasmens
-2270. campament
-2271. perdonar
-2272. mormolh
-2273. falcon
-2274. gardian, gardiana
-2275. ostal de comuna
-2276. amagar
-2277. immobilisar
-2278. d'acòrdi
-2279. pasmens
-2280. umanitat
-2281. lèu lèu
-2282. despachar
-2283. Nenet
-2284. caisseta (f) ; caissòt
-2285. un pauc
-2286. prestar
-2287. fólzer
-2288. repròchi
-2289. equipa
-2290. aterrir
-2291. mòtle
-2292. aisina, recipient
-2293. cavilha
-2294. expedir
-2295. Perqué
-2296. Sòrre
-2297. cosinièr
-2298. Pintre
-2299. conspiracion
-2300. astrugar
-2301. rassegurar
-2302. flotar
-2303. anterior, anteriora
-2304. glaça
-2305. glèisa
-2306. Oncle
-2307. trenta
-2308. Benlèu
-2309. rosièr
-2310. lo can / la canha
-2311. Unes ; Unas
-2312. amusar
-2313. toalhon
-2314. prada ; travèrs
-2315. clavelar
-2316. esbodenament
-2317. bescaume ; balcon
-2318. talhar
-2319. iranjièr
-2320. sentir
-2321. rengada
-2322. magre ; estequit
-2323. ensag
-2324. exterior, defòra
-2325. dever
-2326. vilatge
-2327. editar
-2328. tronc
-2329. un ; una
-2330. escolar
-2331. entièrament
-2332. supòrt
-2333. responsa
-2334. carabassa ; gorda
-2335. farmacian
-2336. genial
-2337. pinçar
-2338. deprimir
-2339. Autre(a)(s)
-2340. refortir
-2341. leiçon
-2342. vaquí, me vaquí, vaquí-lo, ne vòls aquí n’as
-2343. vigília
-2344. aubergina
-2345. Aquesta
-2346. transferir
-2347. qué
-2348. gaireben ; quasi
-2349. banhat
-2350. parièr, parièra
-2351. classic, classica
-2352. formar
-2353. tal, -a
-2354. costuma
-2355. bòl
-2356. crèdit
-2357. adobar
-2358. lista, tièra
-2359. comunicar
-2360. moton
-2361. interrogacion
-2362. orientar
-2363. pluèja
-2364. dobrir
-2365. sang
-2366. banlèga
-2367. linx
-2368. forqueta
-2369. circular
-2370. perilhós, perilhosa
-2371. Lo vòstre
-2372. Aquestes
-2373. corredor
-2374. periòde
-2375. popular
-2376. cafè
-2377. cronologia
-2378. extremitat
-2379. es çò parièr
-2380. plan
-2381. fondamental, -a
-2382. lo persèc
-2383. postular
-2384. cauceta
-2385. tanben
-2386. onze
-2387. periferia
-2388. planòl
-2389. pòrt
-2390. Talas
-2391. engenhaire
-2392. es fals
-2393. chòt
-2394. Los meus
-2395. arbricèl
-2396. desen, desena
-2397. sovent
-2398. campatge
-2399. ainat
-2400. sud
-2401. Tot
-2402. (en)fugir
-2403. comèrci
-2404. se languir
-2405. broa
-2406. universitat
-2407. mètre
-2408. bon
-2409. revoltar
-2410. desmentir
-2411. ministre
-2412. totjorn
-2413. onglet
-2414. quatren, quatrena
-2415. complèx, -a
-2416. tant polit
-2417. cervion
-2418. direccion
-2419. castanhièr
-2420. coordenadas
-2421. Quina
-2422. bòla
-2423. pensament
-2424. pebrina
-2425. motocultor
-2426. Espalta
-2427. suplicar
-2428. arquitècta
-2429. saber / saupre
-2430. plorar
-2431. limitat, -ada
-2432. environament
-2433. volontat
-2434. ofrir
-2435. mitologia
-2436. adesiu
-2437. Lo nòstre
-2438. creire
-2439. grava
-2440. e
-2441. davalar
-2442. dobtar
-2443. dètz
-2444. bon, bona
-2445. pichon nom
-2446. ordenador
-2447. melhor
-2448. desaparéisser
-2449. mitat
-2450. accès
-2451. quinze
-2452. roncar
-2453. bilhet
-2454. pedon
-2455. ajustar
-2456. uman
-2457. lavavaissèla
-2458. palomba
-2459. saca de dormida
-2460. tigre
-2461. manipular
-2462. ben ; pla
-2463. dessenhar
-2464. recordurar
-2465. fornir ; provesir
-2466. clau
-2467. emperaire
-2468. me soni / m'apèli / me disi
-2469. Te veses dins lo miralh ?
-2470. vitra, veiral
-2471. interior, interiora
-2472. cosina
-2473. contrari
-2474. vista
-2475. comanda
-2476. Long
-2477. progressar
-2478. far
-2479. èsser
-2480. estela
-2481. córrer
-2482. dossièr
-2483. Ròsa
-2484. espandir
-2485. temptativa
-2486. dintrada
-2487. trencar
-2488. prediccion
-2489. tais
-2490. Gloria
-2491. constant, constanta
-2492. Mèstre
-2493. Farmacia
-2494. idratar
-2495. interrogar
-2496. Tant(s) ; Tanta(s)
-2497. palmièr
-2498. anticipar
-2499. fiòla
-2500. sèga
-2501. fad(e), fada
-2502. si que no ; senon
-2503. subretot
-2504. autostrada
-2505. prada
-2506. planeta
-2507. rescaud
-2508. critic, critica
-2509. regular
-2510. blanda
-2511. traucadoira
-2512. pomièr
-2513. Matin
-2514. quitran
-2515. resumir ; abreujar
-2516. avelanièr
-2517. Bèl
-2518. Me veses ?
-2519. estatjant, estatjanta
-2520. Budgèt
-2521. gara
-2522. Triangle
-2523. podet
-2524. just, justa
-2525. desena
-2526. semblar
-2527. determinista
-2528. decennia
-2529. tossir
-2530. un conte
-2531. catedrala
-2532. lo fruch
-2533. marrit, -ida
-2534. sacòcha
-2535. campar
-2536. paredon
-2537. mòstra
-2538. vestit
-2539. sèrp
-2540. esternudar
-2541. boissador
-2542. barrar
-2543. a causa de
-2544. Setmana
-2545. enquèsta
-2546. ofensar
-2547. caireforc ; crosada
-2548. chiminièra
-2549. fòrma
-2550. barri
-2551. art
-2552. angle ; caire
-2553. Aquelas
-2554. Se tròban dins lo jardin.
-2555. lenga
-2556. n'aver un sadol
-2557. agitat, agitada
-2558. sucre
-2559. vòte
-2560. interessant
-2561. flac, -a ; capon, coard
-2562. Ora
-2563. Nebot
-2564. Junh
-2565. Ont
-2566. bèl, grand
-2567. sorga
-2568. Verd
-2569. carriòla
-2570. genibre
-2571. jovença
-2572. collègi
-2573. frescor
+1. ja
+2. massa
+3. reservacion
+4. aquels
+5. tasca
+6. 
+7. paraula
+8. escritura
+9. membre, membra
+10. 
+11. e vosautres ?
+12. armori
+13. signe
+14. lista, tièra
+15. idratar
+16. extrèm(e), extrèma
+17. sortida
+18. det
+19. onze
+20. web
+21. extrèmament, demasiadament
+22. al costat de
+23. ne ; n'
+24. far l'òrt
+25. aissada
+26. pertot
+27. pena ; bauç
+28. esperar
+29. anterior, anteriora
+30. simetric, -a
+31. nòu
+32. còp
+33. ofrir
+34. (re)cercar
+35. nonanta
+36. calhau
+37. entitat
+38. crear
+39. frontal, -a
+40. toalhon
+41. nívol
+42. aprestar
+43. autenticar
+44. recampar
+45. matin
+46. seissanta
+47. moton
+48. ustensilha
+49. taula
+50. glòria
+51. trebol, -a
+52. comun
+53. los vòstres
+54. abricòt
+55. bastiment
+56. vertadièr
+57. alara
+58. biais ; faiçon
+59. laboratòri
+60. cinquen, cinquena
+61. minhòt
+62. (se)desrevelhar
+63. biologia
+64. aquela
+65. porta
+66. rescaud
+67. visitar
+68. observacion
+69. teulat
+70. clarvesença
+71. reténer
+72. passapòrt
+73. 
+74. retard ; alongui
+75. 
+76. gaudre
+77. lièch
+78. òc
+79. actiu, activa
+80. genibre
+81. recobrar
+82. ordenador
+83. bartàs
+84. ressorça
+85. taxa
+86. completar
+87. economia
+88. còp
+89. lop
+90. umanitat
+91. investiment
+92. melhor, melhora
+93. cada
+94. completament
+95. altre, -a
+96. sopa
+97. car, cara
+98. renovar
+99. vinha
+100. traçar
+101. utilizar
+102. la pèl
+103. plombièr
+104. melhor
+105. quant
+106. aleatòri, aleatòria
+107. via
+108. còrda
+109. nom d’ostal
+110. sovenir
+111. encapar
+112. tipic, tipica
+113. rapaç, -a
+114. dent
+115. cinta
+116. nautor
+117. codonhièr
+118. tractament
+119. quitran
+120. brancar ; connectar
+121. vèspa
+122. biologista
+123. art
+124. bòl
+125. excepcion
+126. pintre
+127. getar
+128. pascalenc
+129. anticipar
+130. accent
+131. resumir ; abreujar
+132. dificil(e), dificila
+133. performança
+134. tombar
+135. axar
+136. guitarra
+137. nos preparèm per la fèsta.
+138. pòrt
+139. bèç
+140. marit
+141. estatjant, estatjanta
+142. marmòta
+143. apetís
+144. entièr, entièra
+145. tronc
+146. pensament / lagui
+147. pèira
+148. messatge
+149. caractèr
+150. positiu
+151. d’ara enlà
+152. caireforc ; crosada
+153. comparar
+154. fust
+155. lausa
+156. coratge
+157. vestir
+158. publicar
+159. practica
+160. 
+161. parmi
+162. refregidor
+163. prononciar
+164. tais
+165. vièlh
+166. degalh ; gast
+167. cors
+168. problèma
+169. ninòi, -a
+170. esponga
+171. opausat
+172. poténcia
+173. tè
+174. aiguièra
+175. rapiditat ; velocitat
+176. palha
+177. quatren, quatrena
+178. carcanhar
+179. tecnologia
+180. geografia
+181. refusar
+182. 
+183. alimentar
+184. perfièchament
+185. oral, -a
+186. equipa
+187. sociologia
+188. embut
+189. fornir ; provesir
+190. culhièr ; culhieron
+191. 
+192. tenaç, tenaça
+193. la seuna
+194. pinça
+195. cadena
+196. picnicar
+197. estampar
+198. prèp, prèpa
+199. deca, defaut
+200. de còps
+201. ròca
+202. cabdèt
+203. refugiar
+204. moneda
+205. similar
+206. aprigondir
+207. un conte
+208. lo guit / la guita
+209. equitable, dreiturièr
+210. cable
+211. meditar
+212. romèc
+213. median, -a
+214. acostumar
+215. octobre
+216. quimista
+217. ampola
+218. ressentir
+219. injeccion
+220. peis
+221. desolat
+222. grop
+223. punhada
+224. electrician
+225. garar, rambar
+226. rasar
+227. sollicitar
+228. connectar
+229. tresen, tresena
+230. salari
+231. volontat
+232. botar
+233. mongeta
+234. padena
+235. primièr, primièra
+236. eissarpa
+237. pinçar
+238. flac, -a ; capon, coard
+239. vent
+240. palaversar
+241. infinidament
+242. tant(s) ; tanta(s)
+243. excessiu, excessiva
+244. rajar
+245. paur
+246. 
+247. mecanician
+248. coma
+249. cosinar
+250. dont
+251. uèlh
+252. retorn
+253. enauçar
+254. servidor
+255. lantèrna
+256. plan
+257. tornar prene
+258. responsa
+259. falhir
+260. adorar
+261. quilhar
+262. tranquil, -illa
+263. quicòm mai
+264. logicial
+265. març
+266. tartuga
+267. tot
+268. vin
+269. aver
+270. 
+271. lent, lenta
+272. segur
+273. pin
+274. gàbia
+275. poesia
+276. culhir
+277. arpa
+278. ponch
+279. aimar
+280. calor
+281. agulhatge
+282. maquís
+283. per çò que
+284. amassa ; ensemble
+285. melhorar
+286. fiular
+287. planificar
+288. desena
+289. multiplicacion
+290. singlar
+291. fresc, fresca
+292. levar
+293. redobtar
+294. dobrir
+295. vista
+296. lac
+297. lo seu
+298. mandarina
+299. bòrd
+300. grana
+301. colar
+302. uèi
+303. bonjorn / adiu
+304. 
+305. netejar
+306. rectangle
+307. raportador
+308. compausar
+309. municipal
+310. degun
+311. 
+312. gonèla
+313. cava
+314. folclòre
+315. santat
+316. amiga
+317. dur, dura
+318. copar
+319. pastenaga
+320. accion
+321. departament
+322. sincronizar
+323. identificar
+324. n'aver un sadol
+325. embalar
+326. existir
+327. mèdia
+328. ochen, ochena
+329. ostilitat
+330. pesuc / pesuga
+331. clau
+332. aurelha
+333. popular
+334. impòst
+335. verificar
+336. codonh
+337. produsir
+338. testar
+339. tuta
+340. clavièr
+341. paramètre
+342. aiga
+343. bordilhièr / pobèlla
+344. una vèsta
+345. son
+346. eternitat
+347. refortir
+348. estauviar
+349. cerièra
+350. aeropòrt
+351. licèu
+352. amplificat
+353. rampèl
+354. portable, portabla
+355. exclusiu, -iva
+356. objècte
+357. cap de problèma
+358. canton
+359. castèl
+360. destibar
+361. encantat
+362. cabra
+363. pintura
+364. vendeire
+365. mètre
+366. gaireben
+367. oèst, al colcant, al ponent
+368. bibliotèca
+369. acorchi, corcha
+370. quals
+371. afeccion
+372. concís, consisa
+373. junt
+374. expression
+375. susmontar
+376. badalhar
+377. formula
+378. en çò de / cò de
+379. estranh, estranha
+380. collègi
+381. votz
+382. mitat
+383. pertèrra
+384. ièr
+385. zòna
+386. 
+387. aterrir
+388. vacanças
+389. espital
+390. pistolet
+391. quina
+392. persuadir
+393. pariu, -iva
+394. cònsol
+395. estatua
+396. la meuna
+397. analisar
+398. limpar, resquilhar
+399. bonser
+400. matar
+401. cinquanta
+402. parapluèja
+403. filh
+404. recès, abric, sosta
+405. estimar
+406. soslinhar
+407. pas
+408. tram
+409. sèrp
+410. mudar
+411. exclamar
+412. ronda
+413. 
+414. un gendarma
+415. repassar, tornar veire
+416. aquesta
+417. cap
+418. coquèla
+419. sarcleta
+420. coërent, -a
+421. mètro
+422. lo can / la canha
+423. isolament
+424. semblar
+425. mai ; pus
+426. sang
+427. interior
+428. subjècte
+429. lavar
+430. filmar
+431. lo cuèr
+432. figa
+433. problèma / lo picar de la dalha (+= le noeud de l'affaire...)
+434. multicolòr, -a
+435. fluvi
+436. lampa
+437. cèrvi
+438. tortora
+439. autrament
+440. res
+441. ferrat, selha
+442. amassar
+443. fatiga
+444. boca
+445. barqueta
+446. glaça
+447. segond, segonda
+448. abstrait
+449. endacòm
+450. fuèlha
+451. 
+452. 
+453. tomata
+454. tre ara
+455. sequénciar
+456. centre
+457. 
+458. una sandala
+459. solitud / soletat
+460. escampilhat, -ada
+461. exemple
+462. arrestar
+463. revelh
+464. comparason
+465. teoria
+466. las vòstras
+467. al mièg de
+468. afrabar ; far perir
+469. dètz-e-uèch
+470. notz
+471. quora
+472. conclusion
+473. calcul
+474. bruch
+475. genial
+476. vabre
+477. recular
+478. comparable
+479. chuc
+480. 
+481. nièra
+482. provocar
+483. camba
+484. fòrt, fòrta
+485. clavelar
+486. quèrre
+487. guida
+488. agressivitat
+489. mòstra
+490. intervencion
+491. efemèr, efemèra
+492. 
+493. èsser
+494. dolor
+495. a l'entorn
+496. identic, identica
+497. 
+498. bocla
+499. tornavitz
+500. question
+501. addicion
+502. majofa
+503. roncar
+504. repausar
+505. vila
+506. quin / quina
+507. salut
+508. traucar
+509. ortalièr
+510. al fons
+511. elefant
+512. farmacia
+513. conversion
+514. depression
+515. massar
+516. aubergina
+517. pièger
+518. far
+519. lor respondèm lèu.
+520. cosinièr
+521. perdonar
+522. gailhard
+523. obsession
+524. còser
+525. quimia
+526. besonh
+527. cervèl
+528. pastas
+529. remòrca
+530. la teuna
+531. empresonar
+532. negre
+533. pòrt
+534. social
+535. relaxar
+536. conferéncia
+537. sens
+538. ortalissa / legum / verdura
+539. empèri
+540. gara
+541. transaccion
+542. interpretar
+543. pauc
+544. universitat
+545. soscar
+546. dàtil
+547. 
+548. repaus
+549. conselhièr
+550. espalta
+551. orientar
+552. dètz
+553. pòrre
+554. te disi un secret.
+555. genièr
+556. comjat
+557. preissar
+558. ostil
+559. exportar
+560. escòla
+561. escultar
+562. gaireben / quasi
+563. potencial
+564. circular
+565. amb
+566. compassion
+567. set
+568. forn
+569. francament
+570. patac ; tust ; truc
+571. epòca
+572. terranha
+573. gelar
+574. sol
+575. lavavaissèla
+576. sospechar
+577. panièr
+578. cabinet
+579. una camisa
+580. eiriç
+581. 
+582. localizar
+583. pebrina
+584. lo fruch
+585. falcon
+586. contornejar
+587. fonccion
+588. car
+589. qual que siá
+590. luènh de
+591. especial
+592. compreni
+593. aprene
+594. bèl
+595. escars / escarsa
+596. repapiar
+597. intelligent, intelligenta
+598. cultura
+599. rebutar
+600. pèrdre
+601. intermitent, intermitenta
+602. 
+603. monument
+604. diagnosticar
+605. fòrça / plan / bravament
+606. meriti
+607. ciutat
+608. installar
+609. fragil(e), fragila
+610. conflicte
+611. estacion
+612. bèl, grand
+613. miralh
+614. ombra
+615. nòu, novèl
+616. venir
+617. pompièr
+618. doana
+619. uòu
+620. brot
+621. cosina
+622. 
+623. escupir
+624. constant, constanta
+625. prerequesit
+626. carrièra
+627. pal, estepa
+628. nadar
+629. poderós
+630. après
+631. ennemic
+632. sagnar
+633. commençar
+634. lançar
+635. cada ser
+636. gerir
+637. braç
+638. cima, som
+639. 
+640. reorganizar
+641. benvenguda
+642. preparacion
+643. abitacion ; demorança
+644. garric
+645. e
+646. martelar
+647. escais
+648. argent
+649. palais
+650. capturar
+651. arena / sable
+652. semenar
+653. pilotar
+654. virada
+655. tracar
+656. corrièr
+657. decidir
+658. convenir
+659. jardinatge
+660. equivalent, equivalenta
+661. tastar
+662. document
+663. cossí vos apelatz ? cossí t'apelas ? cossí te sonas ?
+664. ensenhaire
+665. original
+666. policièr
+667. durar
+668. estela
+669. succedir
+670. edifici
+671. manténer
+672. 
+673. amagatal
+674. tretze
+675. dossièr
+676. interfàcia
+677. uissièr
+678. atge ; edat
+679. fòrça
+680. desirar
+681. annada
+682. fólzer
+683. demostrar
+684. de
+685. natura
+686. caminòl ; viòl
+687. tuta ; espeluga ; cauna ; balma
+688. cosin
+689. talhar
+690. adesiu
+691. tempèsta
+692. boligraf
+693. ela ven lèu.
+694. vertadièrament
+695. pompa
+696. pas cap
+697. estrech
+698. amor
+699. rasclar
+700. anujós, anujosa
+701. enveja
+702. a pauc près ; mai o mens
+703. ostal de comuna
+704. compòrtament
+705. tigre
+706. paritat | par, para
+707. trenta
+708. préner
+709. decimal
+710. regular
+711. palfèr
+712. cambiadís, -issa
+713. deman
+714. trace, traça
+715. rassegurar
+716. qualitat
+717. domatge / rai! / rai d'aquò!
+718. cap
+719. solelh
+720. mièg torn
+721. instantanèu, instantanèa
+722. seguent, seguenta
+723. separar
+724. nterseccion ; crosament
+725. facil(e), facila ; aisit, aisida
+726. 
+727. sec
+728. esplech
+729. mastegar
+730. aisit, aisida
+731. setmana
+732. gant
+733. qual
+734. decennia
+735. oncle
+736. salvar
+737. passejada
+738. complicat, -ada
+739. chiminièra
+740. degradar
+741. abandonar
+742. cronologia
+743. 
+744. negatiu
+745. somiar
+746. caçairòla
+747. espina
+748. atraire
+749. perilhós, perilhosa
+750. folzejar
+751. puèg / sèrra
+752. infligir
+753. aucèl
+754. forca
+755. autorizar
+756. postular
+757. secar
+758. quasi
+759. aumentar
+760. 
+761. disputar
+762. ensag
+763. librariá
+764. rapid(e), rapida
+765. araire
+766. òrle, bordadura
+767. 
+768. frequentament
+769. frontièra
+770. adjectiu
+771. bruelh
+772. corba
+773. site ; empleçament
+774. comica
+775. ajustar
+776. tu, parlas occitan ?
+777. banlèga
+778. adjunt
+779. excellir
+780. suau / calme
+781. 
+782. operacion
+783. meravilhar
+784. sotabòsc, cobèrt del bòsc
+785. interessant
+786. prèissa
+787. vergonha
+788. cosina
+789. subreviure
+790. qual
+791. precisar
+792. contèxt
+793. mai
+794. 
+795. nòstres ; nòstras
+796. mièlhs
+797. sostraccion
+798. tablèu
+799. la que
+800. felicitacions
+801. cotèl
+802. jaune
+803. 
+804. fin
+805. 
+806. dobtar
+807. benlèu
+808. presa de corrent
+809. de l'ostal
+810. activitat
+811. estrès
+812. mal
+813. simple, simpla
+814. fabrica
+815. ges
+816. leugièr
+817. aver en òdi
+818. fisar
+819. agla
+820. valor
+821. sosten
+822. règlament
+823. brusc, brusca
+824. accelerar
+825. som
+826. agent
+827. bilhet
+828. sector
+829. nap
+830. dormir
+831. arbre
+832. just
+833. parciala
+834. asuèlh
+835. costuma
+836. futur
+837. plan mai
+838. cambra
+839. desen, desena
+840. prigondament
+841. explicar
+842. passar
+843. teissut
+844. contemplar
+845. termòs
+846. discrèt
+847. prigond
+848. bon coratge / coratge !
+849. còr
+850. irange
+851. alunhar
+852. maire
+853. batèu
+854. tota
+855. espés
+856. normal
+857. pichon
+858. portar
+859. ceba
+860. vitra, veiral
+861. majofièr
+862. conténer
+863. 
+864. macheta
+865. archivar
+866. los / las vesi.
+867. juntar
+868. afichar
+869. coeficient
+870. capbord
+871. capèl
+872. 
+873. passar
+874. placa
+875. taxi
+876. itinerari
+877. claus
+878. s’agenolhar
+879. amic
+880. ostal
+881. contrarotlar
+882. ainat
+883. descripcion
+884. actualitat
+885. tròç
+886. riba
+887. despachar
+888. compreni pas
+889. gas
+890. pomièr
+891. canèla
+892. 
+893. nuèch
+894. pro
+895. pese
+896. enebir
+897. arrengar
+898. esbodenament
+899. total
+900. femna
+901. escanèr ; escanerizar
+902. títol
+903. legir
+904. pelenc
+905. 
+906. gloria
+907. eleccion
+908. non
+909. trabalhs
+910. lèu lèu
+911. léser
+912. defuntar
+913. tanlèu que
+914. cobèrta
+915. cronomètre
+916. pega
+917. traucadoira
+918. estiu
+919. 
+920. revirar
+921. imaginar
+922. avoacion
+923. parrat
+924. 
+925. cisalha
+926. adobar
+927. ultrà
+928. se repausar
+929. segonda
+930. concèpte
+931. bon
+932. 
+933. per dessús
+934. interior, interiora
+935. fin ; fina
+936. unitat
+937. còfre
+938. de | "portatz-me de pan, d'aiga."
+939. junh
+940. 
+941. 
+942. ora
+943. geinant
+944. equitat
+945. aisina, recipient
+946. trebolar
+947. moment ; brieu
+948. depausar
+949. espèr
+950. instànciar
+951. causir
+952. valada
+953. 
+954. òrre, òrra
+955. manjar
+956. bagatge
+957. ais
+958. usina
+959. vos ausissi pas.
+960. suggerir
+961. nis
+962. aspirador
+963. lavador
+964. mes
+965. lo teu
+966. 
+967. vos prègui / te prègui
+968. estocar
+969. cors de recreacion
+970. blaga ; craca
+971. coratjós, coratjosa
+972. subjectiu, subjectiva
+973. garison
+974. contunhar
+975. convencion
+976. mirga
+977. sonhar
+978. pèrda
+979. repais
+980. masèl
+981. juntar
+982. gratuit, gratuita
+983. lo / la vesi.
+984. d'ora
+985. ròsa
+986. intensitat
+987. tal
+988. totalament
+989. contactar
+990. avalir
+991. blanda
+992. embrutir
+993. documentar
+994. solstici
+995. es fals
+996. quart
+997. esplech
+998. empachar
+999. alongar
+1000. entièrament
+1001. verdesca ; terrassa
+1002. vaquí, me vaquí, vaquí-lo, ne vòls aquí n’as
+1003. o
+1004. ton ; ta
+1005. empejorar
+1006. argument
+1007. ribièira
+1008. aubèrga
+1009. escotèr
+1010. laid, laida
+1011. milen, -a
+1012. malin, -igne
+1013. ascensor
+1014. instruire
+1015. poder
+1016. lengatge
+1017. mèstre
+1018. vòstres ; vòstras
+1019. tristesa
+1020. barralha
+1021. educar
+1022. tirador / tireta
+1023. cèrtas
+1024. examèn
+1025. dotze
+1026. empatia
+1027. 
+1028. caval
+1029. ajudar
+1030. repic
+1031. pòt de confitura
+1032. inventar
+1033. tan
+1034. climat
+1035. cassís
+1036. pepin / papeta
+1037. tren
+1038. cèrta
+1039. 
+1040. excusatz-me
+1041. susar
+1042. proporcional
+1043. barratge
+1044. fraccion
+1045. toalha, servieta
+1046. prediccion
+1047. jovença
+1048. maselièr
+1049. fargar
+1050. umiditat
+1051. escalar ; escalabrar
+1052. mesurar
+1053. centena
+1054. proporcionat, -ada
+1055. passatge
+1056. estauvi
+1057. benestar
+1058. flotar
+1059. calmar
+1060. dinamic, dinamica
+1061. règla
+1062. rapid, -a
+1063. espaci
+1064. lo vòstre
+1065. enregistrar
+1066. planeta
+1067. cap a
+1068. despenjar
+1069. frasa
+1070. pichon nom
+1071. establir
+1072. equinòcci
+1073. comanda
+1074. quasèrn
+1075. 
+1076. esquina
+1077. secada
+1078. bruma
+1079. ranquejar
+1080. gris
+1081. prada ; travèrs
+1082. li disèm la vertat.
+1083. diferéncia
+1084. malautiá
+1085. entrainar
+1086. alentir
+1087. personatge
+1088. pes
+1089. curiós, curiosa
+1090. soma
+1091. airal
+1092. garri
+1093. pompar
+1094. frenar
+1095. predire
+1096. motivar
+1097. bòla
+1098. bus
+1099. rivalitat
+1100. lavar
+1101. fòrma
+1102. sala
+1103. caminar
+1104. referéncia
+1105. caisseta (f) ; caissòt
+1106. codar
+1107. lo cat / la cata
+1108. demest / entre
+1109. assegurar ; afirmar
+1110. letra
+1111. caumaci o calimàs
+1112. 
+1113. television
+1114. darrièr(a)
+1115. saba
+1116. territòri
+1117. còr
+1118. mejana
+1119. lent
+1120. apondre
+1121. vida
+1122. aquelas
+1123. mètge / medecin
+1124. dependéncia
+1125. fa calor
+1126. pr’aquò / pasmens
+1127. venent ; que ven
+1128. formular
+1129. la torre
+1130. mistèri
+1131. pastís
+1132. 
+1133. agachar
+1134. passat
+1135. camera
+1136. bóstia
+1137. segond, segonda
+1138. esperar
+1139. cai
+1140. las lunetas
+1141. cuèit
+1142. banhat
+1143. precedent, precedenta
+1144. man
+1145. colèra
+1146. tirar
+1147. rotar
+1148. escotar
+1149. vaca
+1150. requèsta
+1151. descargar
+1152. de
+1153. vitz
+1154. saniquejar ; bricolar
+1155. revisar
+1156. albricotièr
+1157. a lèu
+1158. pargue
+1159. lo trabalh
+1160. la docha
+1161. organizacion
+1162. rajal , cascada
+1163. se dochar
+1164. esternudar
+1165. plancat
+1166. revista
+1167. agricultor
+1168. viatjar
+1169. amassar
+1170. pala
+1171. periferia
+1172. caul(et)
+1173. poncha
+1174. compausant, -a
+1175. seisen, seisena
+1176. pujòl
+1177. falguièra, feuse
+1178. long
+1179. aimable, -a ; brave, brava
+1180. debuta
+1181. milgrana
+1182. espantós
+1183. me veses ?
+1184. leugièrament
+1185. exclure
+1186. solidaritat
+1187. legenda
+1188. palomba
+1189. rotlar
+1190. copa
+1191. bailejar
+1192. òdi / asirança
+1193. i
+1194. adissiatz
+1195. encoratjar
+1196. tals
+1197. troça, estug
+1198. lo castanhièr
+1199. vòte
+1200. pendent
+1201. s'encanhar
+1202. sus
+1203. profièch
+1204. pruna
+1205. charabiat
+1206. armonia
+1207. gelador, congelator
+1208. instant
+1209. se passejar
+1210. preson
+1211. error, enganada
+1212. aquestas
+1213. colcar
+1214. presonièr
+1215. baloard
+1216. logar
+1217. dètz-e-sèt
+1218. còl
+1219. emcombrament / embotelhatge
+1220. ròc
+1221. dessenhar
+1222. languissi
+1223. burèu
+1224. linha
+1225. plantar
+1226. repròchi
+1227. goma
+1228. immigrar
+1229. grava
+1230. alenar
+1231. cresta
+1232. arpar
+1233. 
+1234. enquèsta
+1235. se
+1236. mas
+1237. plana
+1238. cisèls de poda ; secator
+1239. decembre
+1240. tossir
+1241. toalha
+1242. totas
+1243. 
+1244. bas(sa)
+1245. quins
+1246. ben ; pla
+1247. arquitècta
+1248. luènh
+1249. la nòstra
+1250. factor
+1251. discussion
+1252. sièis
+1253. illustrar
+1254. comèrci
+1255. cinc
+1256. puslèu
+1257. infirmièr
+1258. avans
+1259. amorós, amorosa
+1260. terren
+1261. ànsia
+1262. setembre
+1263. risc
+1264. cauçadura
+1265. trencar
+1266. dètz-e-nòu
+1267. camin
+1268. despensa
+1269. clarament
+1270. ecran, tela
+1271. son ; sa
+1272. desbarcar
+1273. parpalhon
+1274. dever
+1275. militant, militanta
+1276. 
+1277. campar
+1278. presentar
+1279. talas
+1280. relèu
+1281. que
+1282. tresen, -a.
+1283. pòrtafuèlha
+1284. lo nòstre
+1285. modular
+1286. monard
+1287. partida
+1288. gardar
+1289. significatiu, -iva
+1290. autonòm, -a
+1291. pensament
+1292. te cridi deman.
+1293. se dison adieu abans de partir.
+1294. avalar
+1295. rendement
+1296. mitic(a)
+1297. sciéncia
+1298. dimension
+1299. malhum
+1300. corgeta
+1301. permetre
+1302. tondeloira ; talhaprat
+1303. trigossar
+1304. 
+1305. quin
+1306. veire
+1307. secretari ; -ària
+1308. paret
+1309. conortar
+1310. descriure
+1311. encadenar
+1312. defugir
+1313. èst ; levant
+1314. antropologia
+1315. asagatge
+1316. fornièr
+1317. anujar
+1318. fracàs
+1319. domestic, domestica
+1320. relativament
+1321. cavèca
+1322. cap de problèma
+1323. musica
+1324. jutge, jutja
+1325. present
+1326. espectacle
+1327. permission
+1328. rire
+1329. distribuir
+1330. estructura
+1331. campatge
+1332. prevencion
+1333. necessitar
+1334. boscassièr
+1335. talhièr
+1336. fondamental, -a
+1337. irritar
+1338. chaple
+1339. immobil, -a
+1340. segment
+1341. capitada
+1342. desmontar
+1343. anar
+1344. martèl
+1345. puèi
+1346. remirar
+1347. chifra
+1348. 
+1349. dròlla
+1350. forqueta
+1351. pel sòl
+1352. camp
+1353. en
+1354. lenga
+1355. jove
+1356. cèrts
+1357. cargador
+1358. estatisticas
+1359. gasanhar
+1360. editar
+1361. fenèstra
+1362. pedon
+1363. montar
+1364. mandar ; enviar
+1365. produch
+1366. cardinal
+1367. avocat
+1368. ancian
+1369. prevenir
+1370. nevar
+1371. politica
+1372. libre
+1373. detràs / darrièr
+1374. 
+1375. cooperacion
+1376. sòrre
+1377. percentatge
+1378. estudiar
+1379. los meus
+1380. periòde
+1381. bois
+1382. quauques
+1383. planejar
+1384. nectarina
+1385. contestar
+1386. estabilizar
+1387. tòrt a
+1388. religion
+1389. pera
+1390. fèbre
+1391. relatiu, -iva
+1392. robust(e), robusta
+1393. aquel
+1394. un ; una
+1395. basa
+1396. informatica
+1397. clarejar
+1398. esquiròl
+1399. lisar
+1400. embelinar
+1401. cronic, cronica
+1402. triangle
+1403. seten, setena
+1404. purament
+1405. mofa
+1406. corrent : ordinari
+1407. sacòcha
+1408. pont
+1409. proporcion
+1410. expausar
+1411. nivolós
+1412. aitant
+1413. partejar
+1414. sagelar
+1415. multiple, multipla
+1416. 
+1417. montanha
+1418. preferir
+1419. environament
+1420. repetitiu
+1421. remandar
+1422. un obrièr
+1423. esclairar
+1424. maine
+1425. descobrir
+1426. avança
+1427. torisme
+1428. quin que siá
+1429. sovent
+1430. critic, critica
+1431. borron
+1432. reservar
+1433. temps
+1434. un pauc
+1435. es çò parièr
+1436. entraïnar
+1437. parlar
+1438. perièr
+1439. liquèn
+1440. rèsta
+1441. prat
+1442. novembre
+1443. los nòstres
+1444. avet
+1445. 
+1446. referéncia
+1447. baga
+1448. fruch
+1449. representar
+1450. mitologia
+1451. pontual
+1452. cervion
+1453. comptar
+1454. 
+1455. rampelar
+1456. camion
+1457. boton
+1458. bona nuèch
+1459. mòto
+1460. tot lo mond
+1461. prima
+1462. creire
+1463. meteis(ssa)(s)
+1464. d'acòrdi
+1465. cartabèl
+1466. un ; una
+1467. validar
+1468. dos ; doas
+1469. nos cridan al telefòn.
+1470. activacion
+1471. superior, superiora
+1472. supòrt
+1473. cadenciar
+1474. 
+1475. avelana
+1476. explorar
+1477. madur, madura
+1478. frequent, frequenta
+1479. formiga
+1480. mejanament
+1481. tres
+1482. cançon
+1483. demostracion
+1484. de res
+1485. saber / saupre
+1486. sosténer
+1487. atudar
+1488. cèrvia
+1489. estacionar
+1490. lèu
+1491. traversar
+1492. anonciar
+1493. populacion
+1494. un emplegat
+1495. plen
+1496. fosc, fosca
+1497. mespresar
+1498. apreciar
+1499. 
+1500. expedir
+1501. evaluacion
+1502. bossòla
+1503. dire
+1504. acampar
+1505. connexion
+1506. gràcias a
+1507. còrb
+1508. transferir
+1509. barrar ; tapar
+1510. braçalet
+1511. estremar ; rengar
+1512. fraire
+1513. campament
+1514. sentir
+1515. arredondir
+1516. petròli
+1517. 
+1518. linguistica
+1519. aquò va plan
+1520. bon astre
+1521. public
+1522. 
+1523. a
+1524. luòc
+1525. tant, aitant
+1526. avenguda
+1527. caissièr
+1528. 
+1529. distant, -a
+1530. crompar
+1531. espasa
+1532. classic, classica
+1533. altimètre
+1534. desespèr
+1535. magre ; estequit
+1536. tronçonadoira
+1537. senhor
+1538. referénciar
+1539. fil
+1540. asagar
+1541. error
+1542. vint
+1543. mormolh
+1544. capable
+1545. demasiat, -ada
+1546. traïson
+1547. un màntol
+1548. (re)ligar
+1549. chòt
+1550. avantatge
+1551. s'afarar
+1552. perqué
+1553. gèl
+1554. espèri
+1555. nosautres, estudièm la lenga.
+1556. avenidor
+1557. brancum
+1558. temptativa
+1559. navigar
+1560. geinar
+1561. pichon, pichòt
+1562. comunicar
+1563. avertiment
+1564. 
+1565. parlotejar
+1566. coma
+1567. lapin
+1568. telefòn
+1569. lo pel
+1570. perditz
+1571. farmacian
+1572. tap
+1573. debàs
+1574. budgèt
+1575. auratge
+1576. naut
+1577. asagador
+1578. toristic
+1579. remarcar
+1580. poma
+1581. contrari
+1582. rastèl
+1583. pensar
+1584. apartament
+1585. blanc
+1586. avelanièr
+1587. en arrièr
+1588. quaranta
+1589. mens
+1590. clacar
+1591. nòrd
+1592. recordurar
+1593. excellent, excellenta
+1594. per
+1595. emperaire
+1596. extrèmament, demasiadament.
+1597. ralentir
+1598. injectar
+1599. canton, caire
+1600. important, importanta
+1601. degun(a)
+1602. reialme
+1603. provar
+1604. còca
+1605. division
+1606. soscriure
+1607. sautar
+1608. botega
+1609. rauba
+1610. carabassa ; gorda
+1611. embarrar, tancar
+1612. rèc ; riu
+1613. cridar
+1614. desaveni
+1615. mantun
+1616. determinista
+1617. onglet
+1618. endevinar
+1619. encara
+1620. lemonièr
+1621. fòrtament
+1622. pr’aquò, çaquelà
+1623. pròva
+1624. grépia
+1625. construccion
+1626. tractor
+1627. permanent, permanenta
+1628. 
+1629. mot
+1630. blau
+1631. enviar
+1632. bufar
+1633. pebron
+1634. questionar
+1635. arbricèl
+1636. vuèg
+1637. insignificant, -a
+1638. una persona
+1639. pòrc / maura
+1640. geometria
+1641. escobar
+1642. pompir
+1643. noguièr
+1644. aprèp, après
+1645. burre
+1646. coordenadas
+1647. gemèlas
+1648. lo melon
+1649. contengut
+1650. s'estrementir
+1651. esmalir
+1652. contravent, tampa
+1653. tronar
+1654. rengada
+1655. gaireben ; quasi
+1656. mesenga
+1657. relacion
+1658. aparelh
+1659. mefisança
+1660. aplicacion
+1661. lors
+1662. immediat
+1663. bon, bona
+1664. laissa
+1665. leon
+1666. embarcar
+1667. agost
+1668. extrà
+1669. cabal
+1670. boquetin
+1671. mencionar
+1672. gimnàs
+1673. rarament
+1674. literatura
+1675. catedrala
+1676. parièr, parièra
+1677. reconciliar
+1678. sopar
+1679. pas encara
+1680. plus
+1681. ieu, canti una cançon.
+1682. gestion
+1683. bauç ; escarpament
+1684. sasons
+1685. canèl
+1686. en consequéncia
+1687. fisança
+1688. microondas
+1689. broa
+1690. seguida
+1691. mar
+1692. los afars
+1693. costar
+1694. mòtle
+1695. 
+1696. discors
+1697. opcion
+1698. demandar
+1699. perseverar
+1700. contorn
+1701. frosalon
+1702. cèrt
+1703. fins a
+1704. tot parièr
+1705. servir
+1706. entre
+1707. desvolopar
+1708. leiçon
+1709. grafic ; grafica
+1710. 
+1711. rendable, rendabla
+1712. cuècha
+1713. exterior, defòra
+1714. s'endormir
+1715. enganar
+1716. definicion
+1717. realizar
+1718. interès
+1719. òrdre
+1720. granhòta
+1721. abelha
+1722. afastigar
+1723. pè
+1724. solatjament
+1725. fòraviar
+1726. uèitanta, quatre-vints
+1727. modèl
+1728. atacar
+1729. ministre
+1730. regular, regulara
+1731. sabon
+1732. prandièra
+1733. caçar
+1734. istòria
+1735. apostrò
+1736. reganhon
+1737. cauna ; espeluga
+1738. 
+1739. exploracion
+1740. revoltar
+1741. tal, -a
+1742. espelucar ; pelar
+1743. beure
+1744. enfin ; fin finala
+1745. manipular
+1746. version
+1747. direccion
+1748. fisar
+1749. desembalar
+1750. 
+1751. deman passat
+1752. 
+1753. sud
+1754. sòl
+1755. del qual
+1756. configurar
+1757. cossi
+1758. agrum
+1759. pagelar
+1760. gost
+1761. planòl
+1762. agitat, agitada
+1763. salon
+1764. iranjièr
+1765. bilanç
+1766. emplaçament
+1767. bonur
+1768. qualqu’un(a)
+1769. bicicleta
+1770. site
+1771. factura
+1772. genocidi
+1773. limitat, -ada
+1774. just, justa
+1775. executar
+1776. vaccinar
+1777. loira
+1778. agotar
+1779. major, majora
+1780. fialat
+1781. cort
+1782. garatge
+1783. tot escàs
+1784. transportar
+1785. las saldas
+1786. milgranièr
+1787. 
+1788. possible, possibla
+1789. mercés
+1790. debatre
+1791. estrambordar
+1792. balaja
+1793. escortar
+1794. empalhatge
+1795. bendar
+1796. granièr
+1797. permés
+1798. cobèrt
+1799. tant me fa / aquò m’es parièr
+1800. fisica
+1801. pr’aquò, çaquelà
+1802. comandar
+1803. nèu
+1804. vigília
+1805. babau
+1806. miègjorn
+1807. 
+1808. deluvi
+1809. exterior
+1810. escapar
+1811. atirar
+1812. cofar
+1813. pel darrièr còp
+1814. quatre
+1815. vesin
+1816. caqui
+1817. respècte
+1818. suprimir
+1819. lach
+1820. flascon
+1821. ostalariá, otèl
+1822. las nòstras
+1823. sal
+1824. pòble
+1825. pendula
+1826. debit
+1827. projècte
+1828. verd
+1829. intèrne, intèrna
+1830. bugada
+1831. rapid(a)
+1832. masatge ; mas
+1833. dens, -a
+1834. resumit
+1835. despegar
+1836. cort, corta
+1837. neboda
+1838. deprimir
+1839. gredon
+1840. carta / mapa
+1841. jos
+1842. virgula
+1843. papièr
+1844. vendre
+1845. la vòstra
+1846. trucar
+1847. condicion
+1848. vos sovenètz d’aquò ?
+1849. pasmens
+1850. subretot
+1851. perseguièr
+1852. cèl
+1853. aprendissatge
+1854. relòtge
+1855. pincèl
+1856. 
+1857. frescor
+1858. jòia
+1859. ipotèsi
+1860. quicòm
+1861. ser
+1862. avalanca
+1863. electricitat
+1864. mercejar
+1865. secador
+1866. classa
+1867. redusir
+1868. trantalhar
+1869. massacre
+1870. abril
+1871. 
+1872. estirar
+1873. davalar
+1874. (en)fugir
+1875. fàcia a
+1876. arcolan
+1877. prigondor
+1878. qual / quala
+1879. mentre que
+1880. escolan
+1881. passiu, passiva
+1882. interrogar
+1883. defendre
+1884. perqué pas
+1885. complèx, -a
+1886. fiòla
+1887. voltor
+1888. polet
+1889. general
+1890. duradís, -issa
+1891. rajar
+1892. convertir
+1893. sarrar ; quichar
+1894. cortina ; ridèu
+1895. paciéncia
+1896. formar
+1897. convéncer
+1898. suspresa
+1899. afanar
+1900. cada jorn
+1901. mon ; ma
+1902. region
+1903. complòt
+1904. costat
+1905. equacion
+1906. innovacion
+1907. accedir
+1908. qualques-unes(as)
+1909. gaire
+1910. fulham
+1911. metòde
+1912. ensalada
+1913. vaissèla
+1914. trobar
+1915. conselhar
+1916. inegalitat
+1917. luna
+1918. relevar
+1919. priorisar
+1920. caire
+1921. paire
+1922. despreciar
+1923. diferent, diferenta
+1924. èura
+1925. près
+1926. 
+1927. quinze
+1928. quauque
+1929. manca
+1930. emocion
+1931. mal, -a
+1932. mainatge
+1933. establiment
+1934. baia
+1935. parivament
+1936. gelosiá
+1937. espinarc
+1938. matematicas
+1939. interval
+1940. menor, -a
+1941. 
+1942. tustar
+1943. pluèja
+1944. febrièr
+1945. amortir
+1946. susfàcia
+1947. òsca
+1948. 
+1949. ciutadan, ciutadana
+1950. nectarinièr
+1951. palmièr
+1952. cabucèla
+1953. importar
+1954. feble, febla
+1955. al respècte
+1956. passada, andana, alèa
+1957. concebre
+1958. apasimar
+1959. rodar
+1960. minuta
+1961. sucre
+1962. informacion
+1963. 
+1964. administrar
+1965. lo que ...
+1966. asirar, aborrir
+1967. s'escapar
+1968. uman
+1969. corregir
+1970. trajècte
+1971. notar
+1972. veta
+1973. gelada
+1974. luenhèc, luenhèca
+1975. servici
+1976. las bragas
+1977. morir
+1978. mòrt
+1979. uèch
+1980. bona jornada
+1981. cicle
+1982. suscitar
+1983. sèt
+1984. quinas
+1985. actual
+1986. espaçar
+1987. deserbar
+1988. 
+1989. jornal
+1990. angle ; caire
+1991. desaparéisser
+1992. remar
+1993. tipe
+1994. amistat
+1995. simetria
+1996. dorsièr
+1997. estomac
+1998. velhar ; 	susvelhar
+1999. 
+2000. estanh
+2001. tant, talament
+2002. tard
+2003. constructor
+2004. amagar
+2005. prepausar
+2006. raiç
+2007. limon
+2008. milierat
+2009. campèstre
+2010. me balha un libre.
+2011. baujament
+2012. la lor
+2013. 
+2014. similari
+2015. apelar / sonar
+2016. te veses dins lo miralh ?
+2017. fromatge
+2018. iper
+2019. idèa
+2020. enromegar
+2021. a causa de
+2022. aprochar
+2023. paredon
+2024. planièr
+2025. 
+2026. vinten, vintena
+2027. pertusar
+2028. revengut
+2029. desviar
+2030. çò autre
+2031. lo que
+2032. plant
+2033. institut
+2034. espandir
+2035. retrobar
+2036. facil(e), facila
+2037. plaser
+2038. regressar
+2039. sègle
+2040. bledaraba
+2041. espolseta, escobeta, bròssa
+2042. plaja
+2043. economia
+2044. collèga
+2045. subrevida
+2046. sompet
+2047. definir
+2048. tassa
+2049. ignorar
+2050. prototip
+2051. indeferéncia
+2052. angle, caire
+2053. sala de banh
+2054. justificar
+2055. eles, son contents.
+2056. patir
+2057. rega
+2058. indici
+2059. sul còp ; sul pic
+2060. 
+2061. roge
+2062. atribuir
+2063. badinar
+2064. bòsc
+2065. condusir
+2066. fòrça / bravament
+2067. es vertat
+2068. afustar
+2069. 
+2070. agradar
+2071. acquò fonctiona
+2072. filosofia
+2073. present
+2074. prunièr
+2075. nivolina
+2076. fertilizar
+2077. ensenhar
+2078. casco
+2079. destinada
+2080. las teunas
+2081. lo lor
+2082. 
+2083. veitura
+2084. busca, soc
+2085. vosautres, trabalhadètz fòrça.
+2086. coitar
+2087. mercandejar
+2088. durament
+2089. saca de dormida
+2090. film
+2091. noven, novena
+2092. ganh
+2093. efectuar
+2094. bananièr
+2095. criticar
+2096. temporari, temporària
+2097. carn
+2098. lima
+2099. preveire
+2100. quala
+2101. conducha
+2102. mediterranèa
+2103. natural
+2104. espatula
+2105. respècte
+2106. valisa, maleta
+2107. ràdio
+2108. escolar
+2109. liurar
+2110. crosièra
+2111. contenedor
+2112. aürosament
+2113. extremitat
+2114. comunicacion
+2115. aparament
+2116. concrèt, concrèta
+2117. desir / desirança
+2118. vibrar
+2119. cent
+2120. mètge
+2121. amètla
+2122. plorar
+2123. urban
+2124. servar
+2125. programa
+2126. escruire
+2127. motocultor
+2128. 
+2129. los / las lors
+2130. fals, falsa
+2131. autre(a)(s)
+2132. fredor
+2133. gròs
+2134. avalorar
+2135. prada
+2136. posicion
+2137. emprenhada
+2138. 
+2139. quina ora es
+2140. campairòl
+2141. al sen de
+2142. clar, clara
+2143. quand
+2144. los teus
+2145. sac d'esquina
+2146. los comuns
+2147. rafe
+2148. auton / devalada
+2149. es damatge
+2150. recitar
+2151. ondrar
+2152. podet
+2153. rusca
+2154. 
+2155. (re)virar
+2156. plan, fòrça, fòrt
+2157. vestit
+2158. liuç
+2159. marrit, -ida
+2160. esparnha
+2161. susvelhar
+2162. plafon
+2163. vos balharai lo document.
+2164. solide, solida
+2165. collaborar
+2166. sèga
+2167. regetar
+2168. èrba
+2169. fragosta
+2170. lor
+2171. picar
+2172. jornadièr, quotidian
+2173. castanhièr
+2174. indicar
+2175. cabiròl
+2176. totes
+2177. nos escriu una letra.
+2178. unic, unica
+2179. grosso modo
+2180. revirar
+2181. pegar
+2182. dintrada
+2183. trenca
+2184. dempuèi
+2185. triar
+2186. pujar
+2187. largor
+2188. admetre
+2189. pagina
+2190. figuièr
+2191. panar ; raubar
+2192. qual
+2193. tala
+2194. arquitectura
+2195. estrada
+2196. esclairatge
+2197. crèdit
+2198. 
+2199. rejuntar
+2200. immobilisar
+2201. oval / ovau
+2202. acorchar
+2203. amortesiment
+2204. principi
+2205. cercar
+2206. nenet
+2207. interrogacion
+2208. enlà
+2209. setze
+2210. ametlièr
+2211. bolegar
+2212. formulari
+2213. me lèvi a sèt oras.
+2214. inegal, desparièr
+2215. talha
+2216. rond / ceucle
+2217. escart
+2218. equipament
+2219. qualques
+2220. educacion
+2221. la frucha
+2222. botelha
+2223. fial
+2224. autostrada
+2225. tapís
+2226. afrontar
+2227. proclamar
+2228. aspirar
+2229. soca
+2230. angoissa, ànsia
+2231. vilatge
+2232. recèrca
+2233. rasclador
+2234. 
+2235. tondre
+2236. banca
+2237. corrida, corsa
+2238. zerò
+2239. basa de donadas
+2240. fornet
+2241. regèt
+2242. 
+2243. president
+2244. larg
+2245. ponçar
+2246. professor
+2247. estupide, estupida
+2248. degun mai
+2249. tèxt
+2250. nombrós
+2251. escudèla, sieta
+2252. olbidar
+2253. si que no ; senon
+2254. 
+2255. tirar
+2256. bas ; enbàs
+2257. nas
+2258. quocient
+2259. trabalhar
+2260. esséncia
+2261. ressegar
+2262. castanha
+2263. visible, visibla
+2264. correlacion
+2265. animar
+2266. foliá
+2267. secrèt
+2268. 
+2269. ofensar
+2270. semblable, semblabla
+2271. nebot
+2272. liquid
+2273. cauceta
+2274. tirar
+2275. daissar
+2276. fad(e), fada
+2277. 
+2278. rosièr
+2279. compliment
+2280. qualas
+2281. blòg
+2282. pintrar
+2283. aprofechar
+2284. fòto
+2285. identificant
+2286. 
+2287. banana
+2288. rotlèu
+2289. obténer
+2290. indignar
+2291. engrais
+2292. estimular
+2293. lo persèc
+2294. perdon
+2295. generar
+2296. sarra
+2297. enaigar / inondar
+2298. corredor
+2299. passion ; afiscament(+fort)
+2300. nivèl
+2301. glèisa
+2302. galina
+2303. cavilha
+2304. 
+2305. desèrt(a)
+2306. supervisar
+2307. çaquelà
+2308. se languir
+2309. autorisacion
+2310. espepissar
+2311. sentiment
+2312. mèl
+2313. davalar
+2314. cocombre
+2315. avisar
+2316. linx
+2317. voler
+2318. seguir
+2319. coma aquò va ?
+2320. aparar
+2321. doçament
+2322. penjar
+2323. embestiant, embestianta
+2324. marron
+2325. recebre
+2326. desmentir
+2327. gal
+2328. maquina
+2329. garda
+2330. requerir
+2331. infinit, infinida
+2332. progressar
+2333. mai
+2334. singlaron
+2335. entreténer
+2336. carrat
+2337. permanent
+2338. donar / balhar
+2339. julhet
+2340. de segur
+2341. maquilhar
+2342. mai
+2343. cargament
+2344. carta bancària
+2345. liberar ; desliurar
+2346. marrit
+2347. rega
+2348. decepcion
+2349. infrastructura
+2350. engimbar
+2351. modificacion
+2352. supermercat
+2353. vòstre ; vòstra
+2354. agafar
+2355. lo meu
+2356. córrer
+2357. brusent, brusenta
+2358. dedins / dintre
+2359. capitar
+2360. las meunas
+2361. compatir
+2362. ont
+2363. formidable, formidabla
+2364. canapè
+2365. lo fust
+2366. ris
+2367. boissar / escafar
+2368. vegetacion
+2369. desroïr, destruire
+2370. espòrt
+2371. jardin
+2372. cort metratge
+2373. colorar
+2374. seriosament
+2375. sageta
+2376. absoludament
+2377. conspiracion
+2378. pigassa, destral
+2379. cabussar
+2380. prèst
+2381. assabentar ; informar
+2382. setanta
+2383. languiment
+2384. promocion
+2385. prescriure
+2386. operar
+2387. davant
+2388. tanta
+2389. correspondre
+2390. estudiant
+2391. util, -a
+2392. tòca
+2393. proximitat
+2394. espilla
+2395. aquestes
+2396. aténher
+2397. pebre
+2398. sabi pas
+2399. concèrt
+2400. plaidejar
+2401. causida
+2402. s’engravar
+2403. puntar
+2404. se tròban dins lo jardin.
+2405. regular
+2406. plòure
+2407. estacar
+2408. orientar
+2409. programar
+2410. aderir
+2411. tròn
+2412. limar
+2413. precís
+2414. tròp
+2415. cors
+2416. escambiar
+2417. amora
+2418. prètz
+2419. imatge
+2420. esmalt
+2421. escorreguda
+2422. rèssa
+2423. passion
+2424. insistir
+2425. compàs
+2426. bornhon
+2427. endavant
+2428. portanèl, cledon
+2429. polit
+2430. 
+2431. gamèla
+2432. mejan
+2433. cafè
+2434. s'assetar
+2435. extèrne, extèrna
+2436. frequéncia
+2437. flatar
+2438. astrada
+2439. suplicar
+2440. pesar
+2441. estampadoira
+2442. garir
+2443. vergueta
+2444. corrècte
+2445. localizacion
+2446. internèt
+2447. progressiu, progressiva
+2448. millenari
+2449. sortir
+2450. mercat
+2451. en dejós
+2452. mièjanuèch
+2453. aqueste
+2454. inferior, inferiora
+2455. pendent
+2456. cadièra
+2457. la lana
+2458. elegit
+2459. bièrra / cervesa
+2460. fintar
+2461. qué
+2462. patron
+2463. jamai
+2464. escalièr
+2465. gaitar ; observar
+2466. minimizar
+2467. escòla primària
+2468. astrugar
+2469. coma, en qualitat de
+2470. pilar
+2471. apassionar ; afiscar(+fort)
+2472. periodic, periodica
+2473. sorga
+2474. distributor
+2475. circuit
+2476. esfòrç
+2477. escaire
+2478. que
+2479. reng
+2480. 
+2481. de còps
+2482. vesprada
+2483. numerica
+2484. excessivament
+2485. aventura
+2486. tepa
+2487. viatge
+2488. plat
+2489. ligam
+2490. acrocar
+2491. barrar
+2492. 
+2493. competicion
+2494. violet
+2495. pena
+2496. menina / mameta
+2497. avion
+2498. torn
+2499. prestar
+2500. 
+2501. veire
+2502. maugrat que
+2503. 
+2504. barri
+2505. nombre
+2506. clarièra
+2507. diferir
+2508. musèu
+2509. semença
+2510. video
+2511. estudi
+2512. retardar
+2513. tractar
+2514. accessible, accessibla
+2515. eficaç, eficaça
+2516. amusar
+2517. crèma
+2518. orientar
+2519. brigalhar
+2520. cisèl
+2521. portal
+2522. tenda
+2523. engenhaire
+2524. assolar
+2525. estatge
+2526. tendresa
+2527. candèla
+2528. me soni / m'apèli / me disi
+2529. rainal
+2530. freg / freya
+2531. injustícia
+2532. opausar
+2533. boscassièr
+2534. totjorn
+2535. luènh
+2536. boissador
+2537. rasim
+2538. rapòrt
+2539. granissa(r)
+2540. lèu, aviat
+2541. admiraccion
+2542. 
+2543. glacièr
+2544. tanben
+2545. eissugar
+2546. solament
+2547. semblar
+2548. cossí
+2549. coja
+2550. baston, pal, bròc
+2551. pescar
+2552. bordigàs
+2553. apèl, crida
+2554. clavèl
+2555. gardian, gardiana
+2556. rastèl
+2557. enonciar
+2558. defòra
+2559. catòrze
+2560. resultat
+2561. diminuir
+2562. téner
+2563. atjat, atjada
+2564. mila
+2565. avajon
+2566. a mièjas
+2567. objectiu
+2568. cadavre
+2569. tant polit
+2570. caud
+2571. un sac
+2572. plegadís, plegadissa
+2573. donc / doncas
+2574. distància
+2575. tèrne, tèrna
+2576. carriòla
+2577. comparativament
+2578. coja
+2579. radicalament
+2580. las gents
+2581. accès
+2582. pan
+2583. societat
+2584. abstrach, -a
+2585. nòstre ; nòstra
+2586. rude, ruda
+2587. fòrça, plan, bravament
+2588. bescaume ; balcon
+2589. egal
+2590. vertat
+2591. tornar parlar
+2592. ivèrn
+2593. compòst
+2594. adieu
+2595. branca
+2596. aparéisser
+2597. impausar
+2598. sambuc
+2599. salvatge, salvatja
+2600. planh
+2601. telecomanda
+2602. som
+2603. punt
+2604. unes ; unas
+2605. cofaire
+2606. cerièr
+2607. accionar
+2608. cordatge

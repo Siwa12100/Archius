@@ -16,6 +16,12 @@
   
 ---
 
+## 39. Noms et adjectifs utilisés dans adverbes
+
+:x: [Noms](./fiches/fiches_6/1/1.md)
+
+:x: [Adjectifs](./fiches/fiches_6/1/2.md)
+
 ## 38. Comparaison et intensité
 
 :x: [Comparaison](./fiches/fiches_5/5/1.md)
