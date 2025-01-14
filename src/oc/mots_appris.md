@@ -18,12 +18,14 @@
 7. beauté  
 8. bruit  
 9. chance  
-10. clarté  
-11. confusion  
-12. constance  
-13. danger  
-14. délicatesse  
-15. discrétion  
+10. destin
+11. hasard
+12. clarté  
+13. confusion  
+14. constance  
+15. danger  
+16. délicatesse  
+17. discrétion  
 16. doute  
 17. énergie  
 18. évidence  
@@ -36,7 +38,7 @@
 25. lenteur  
 26. logique  
 27. majesté  
-27. mesure  
+28. mesure  
 28. miracle  
 29. modération  
 30. nature  
@@ -44,10 +46,6 @@
 32. perfection  
 33. prudence  
 34. puissance  
-35. raison  
-36. rapidité  
-37. régularité  
-38. sérieux  
 39. silence  
 40. singularité  
 41. subtilité  
@@ -57,25 +55,22 @@
 45. utilité  
 46. vérité  
 47. violence  
-48. volonté  
 49. vulgarité  
 50. vulnérabilité  
+51. paix
 
 ### Adjectifs utilisés dans adverbes
 
 1. abondant  
 2. agile  
 3. apparent  
-4. assuré  
 5. adjectif  
 5. beau  
 6. bruyant  
 7. calme  
 8. certain  
-9. clair  
 10. confus  
 11. constant  
-12. curieux  
 13. dangereux  
 14. délicat  
 15. discret  
@@ -84,8 +79,6 @@
 18. évident  
 19. faible  
 20. fort  
-21. fréquent  
-22. grand  
 23. intense  
 24. intelligent  
 25. joyeux  
@@ -101,8 +94,6 @@
 35. prudent  
 36. puissant  
 37. raisonnable  
-38. rapide  
-39. régulier  
 40. silencieux  
 41. singulier  
 42. subtil  
@@ -110,9 +101,8 @@
 44. sûr  
 45. temporaire  
 46. terrible  
-47. utile  
-48. vrai  
 49. violent  
+50. tendre
     
 ## Comparaison et intensité
 
