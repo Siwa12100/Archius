@@ -5,7 +5,7 @@
 ---
 
 dempuèi l’Aups italianas,
-A travèrs vilas, monts e lanas,
+A travèrs vilas, e monts e lanas,
 E fins a la mar granda
 Que senhoreja una sobirana.
 
