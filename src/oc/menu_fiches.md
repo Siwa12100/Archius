@@ -17,6 +17,12 @@
   
 ---
 
+## 40. Signalisation et justice
+
+:x: [Justice](./fiches/fiches_6/2/1.md)
+
+:x: [Signalisation](./fiches/fiches_6/2/2.md)
+
 ## 39. Noms et adjectifs utilisés dans adverbes
 
 :x: [Noms](./fiches/fiches_6/1/1.md)
