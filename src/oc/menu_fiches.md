@@ -17,6 +17,12 @@
   
 ---
 
+## 41. Aide pour afficher la langue
+
+:x: [Locutions pour introduire, préciser et comparer](./fiches/fiches_6/3/1.md)
+
+:x: [Locutions pour opposer, expliquer, conclure ou articuler](./fiches/fiches_6/3/2.md)
+
 ## 40. Signalisation et justice
 
 :x: [Justice](./fiches/fiches_6/2/1.md)

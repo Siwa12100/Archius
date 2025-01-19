@@ -4,6 +4,112 @@
 
 ---
 
+## Aide pour affiner la langue
+
+### Locutions pour introduire, préciser et comparer
+
+1. et  
+2. affiner
+3. locution
+4. introduire
+5. préciser
+6. comparer
+7. ou  
+8. mais  
+9. donc  
+10. or  
+11. ni  
+12. car  
+13. quant à  
+14. en ce qui concerne  
+15. concerner
+16. s’agissant de
+17. agir  
+18. pour ce qui est de  
+19. relativement à  
+20. à propos de  
+21. concernant  
+22. cependant  
+23. toutefois  
+24. néanmoins  
+25. bien que  
+26. même si  
+27. quoique  
+28. si  
+29. à condition de/que  
+30. pourvu que  
+31. au cas où  
+32. à moins que  
+33. pour que  
+34. afin que  
+35. de peur que  
+36. comme  
+37. autant que  
+38. ainsi que  
+39. de même que    
+1.  c’est-à-dire que  
+2.  en effet  
+3.  soit  
+6.  dès que  
+7.  aussitôt que  
+8.  pendant que  
+9.  tant que  
+10. du fait de  
+11. à cause de  
+47. grâce à  
+48. en raison de  
+49. de par  
+50. par contre  
+
+ ### Locutions pour opposer, expliquer, conclure ou articuler
+
+1. en revanche  
+2. conclure
+3. articuler
+4. d’un autre côté  
+5. autre part
+6. c’est pourquoi  
+7. de ce fait  
+8. par conséquent  
+9. depuis lors
+10. dès lors  
+11. ainsi  
+12. là
+13. ici
+14. le voilà
+15. là-bas 
+16. là-haut
+17. pour peu que  
+18. cas 
+19. en outre  
+20. passer outre
+21. de surcroît  
+22. de plus  
+24. en dépit de  
+26. lors de 
+28. tandis que  
+29. afin de/que  
+30. en vue de  
+31. dans la mesure où  
+32. excepté que  
+33. sain et sauf
+34. sauf 
+35. hors 
+36. sauf si  
+37. à part 
+38. en d’autres termes  
+39. autrement dit  
+40. du moins  
+41. vu que  
+42. circonstance
+43. étant donné que  
+44. parce que  
+45. puisque  
+47. de sorte que  
+48. tantôt… tantôt  
+49. ou bien… ou bien  
+51. sous prétexte que  
+
 ## Signalisation & justice
 
 ### Signalisation
