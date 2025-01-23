@@ -4,6 +4,127 @@
 
 ---
 
+## Guerres et combats
+
+### Guerre et conflits
+
+1. Bataille  
+2. Guerre
+3. Conflit
+4. Offensive  
+5. Armistice  
+6. Trêve  
+7. Siège  (guerre)
+8. Siège (assoir)
+9. Insurrection  
+10. Rébellion  
+11. Révolution  
+12. Émeute  
+13. Soulèvement  
+14. Occupation  
+15. Invasion  
+16. Retraite  
+17. Avancée  
+18. Défense  
+19. Stratégie  
+20. Espionnage  
+21. Sabotage  
+22. Alliés  
+23. Ennemi  
+24. Front  
+25. Garnison  
+26. Commandement  
+27. Quartier général  
+28. Troupes  
+29. Armée 
+30. Milice  
+31. Mercenaire  
+32. Soldat  
+33. Capitaine  
+34. Général  
+35. Maréchal  
+36. Réserve  
+37. Convoi  
+38. Blocus  
+39. Bombardement  
+40. Déportation  
+41. Occupant  
+42. Prisonnier 
+43. Champ
+44. bataille  
+45. conflit  
+46. Crise
+47. humanitaire  
+48. Opération
+49. militaire  
+50.  lutter 
+47. combattre 
+48. affronter 
+49. subir 
+50. résister 
+51. céder 
+52. battre 
+53. plier
+54. forcer
+55. renforcer
+56. consolider
+57. affaiblir 
+58. faiblir 
+
+### Armes et combats
+
+1. Épée  
+2. Arme
+3. combat
+4. Dague  
+5. Sabre  
+6. Lame  
+7. Hache  
+8. Masse  
+8. Bouclier  
+8. Arc  
+9. Flèche  
+10. Arbalète  
+11. Lance  
+12. Lancer
+13. Bâton  
+14. Pistolet  
+15. Revolver  
+16. Fusil
+17. Carabine
+18. assaut  
+19. Mitraillette  
+20. Mitrailleuse  
+22. Lance-roquettes  
+23. Grenade  
+24. Mine  
+25. Canon  
+26. Mortier  
+27. Torpille  
+28. Missile  
+29. Cartouche
+30. Balle 
+31. Munition
+32. Bombes  
+33. explosive  
+34. Lance-flammes  
+35. Gilet pare-balles  
+36. Casque  
+37. Armure  
+38. Gantelet  
+39. bonnet 
+41. Matraque  
+42. Poing  
+43. Corde  
+44. fil 
+45. ficelle
+46. Lance-pierres  
+47. Sarbacane  
+48. Glaive  
+49. Trident  
+50. Boulet 
+51. Projectile 
+
 ## Aide pour affiner la langue
 
 ### Locutions pour introduire, préciser et comparer

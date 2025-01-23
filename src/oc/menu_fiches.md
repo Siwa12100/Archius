@@ -17,6 +17,12 @@
   
 ---
 
+## 42. Guerres et combats
+
+:x: [Guerre et conflit](./fiches/fiches_6/4/1.md)
+
+:x: [Armes et combats](./fiches/fiches_6/4/2.md)
+
 ## 41. Aide pour afficher la langue
 
 :x: [Locutions pour introduire, préciser et comparer](./fiches/fiches_6/3/1.md)
