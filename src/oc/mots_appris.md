@@ -30,39 +30,39 @@
 20. Interprétation  
 21. Courriel  
 22. Lettre  
-20. Appel  
-21. Réunion  
-22. Interview  
-23. Déclaration 
-24. Rendez-vous  
-25. Communiqué  
-26. Publication  
-27. Annonce  
-28. Signal  
-29. Silence  
-30. Geste  
-31. Expression  
-32. Attitude  
-33. Intonation  
-34. Verbe  
-35. Syntaxe  
-34. Signification  
-35. Charisme  
-36. Crédibilité
-37. Catastrophe
-38. Désastre
-39. Formidable
-40. Impressionnant
-41. Ridicule
-43. Influence  
-44. Ecoute  
-45. Compréhension  
-46. Explication  
-47. Partage  
-49. Émetteur  
-50. Récepteur  
-51. Médiation  
-52. Connexion  
+23. Appel  
+24. Réunion  
+25. Interview  
+26. Déclaration 
+27. Rendez-vous  
+28. Communiqué  
+29. Publication  
+30. Annonce  
+31. Signal  
+32. Silence  
+33. Geste  
+34. Expression  
+35. Attitude  
+36. Intonation  
+37. Verbe  
+38. Syntaxe  
+39. Signification  
+40. Charisme  
+41. Crédibilité
+42. Catastrophe
+43. Désastre
+44. Formidable
+45. Impressionnant
+46. Ridicule
+47. Influence  
+48. Ecoute  
+49. Compréhension  
+50. Explication  
+51. Partage  
+52. Émetteur  
+53. Récepteur  
+54. Médiation  
+55. Connexion  
 
 ### Débats
 
@@ -74,42 +74,42 @@
 6. Enguelade
 7. Argumentation  
 8. Controverse  
-8. Opposition  
-9. Contradiction  
-10. Réfutation  
-11. Concession  
-12. Compromis  
-13. Promettre
-14. Mentir
-15. Désaccord  
-16. Accord  
-16. Conviction  
-17. Persuasion  
-18. Preuve  
-16. Thèse  
-17. Antithèse  
-18. Synthèse  
-19. Hypothèse  
-20. Démonstration  
-21. Conclusion  
-22. Introduction  
-23. Modération  
-24. Règlement  
-25. Interruption  
-26. Divergence  
-25. Consensus  
-26. Objection  
-27. Réplique  
-28. Justification  
-29. Contre  
-30. Exemple  
-31. Illustration  
-32. Comparaison  
-33. Déduction  
-34. Paradoxe  
-35. Rhétorique  
-36. Raison  
-37. Analyse  
+9. Opposition  
+10. Contradiction  
+11. Réfutation  
+12. Concession  
+13. Compromis  
+14. Promettre
+15. Mentir
+16. Désaccord  
+17. Accord  
+18. Conviction  
+19. Persuasion  
+20. Preuve  
+21. Thèse  
+22. Antithèse  
+23. Synthèse  
+24. Hypothèse  
+25. Démonstration  
+26. Conclusion  
+27. Introduction  
+28. Modération  
+29. Règlement  
+30. Interruption  
+31. Divergence  
+32. Consensus  
+33. Objection  
+34. Réplique  
+35. Justification  
+36. Contre  
+37. Exemple  
+38. Illustration  
+39. Comparaison  
+40. Déduction  
+41. Paradoxe  
+42. Rhétorique  
+43. Raison  
+44. Analyse  
 
 ## Guerres et combats
 
@@ -165,18 +165,18 @@
 48. Opération
 49. militaire  
 50.  lutter 
-47. combattre 
-48. affronter 
-49. subir 
-50. résister 
-51. céder 
-52. battre 
-53. plier
-54. forcer
-55. renforcer
-56. consolider
-57. affaiblir 
-58. faiblir 
+51. combattre 
+52. affronter 
+53. subir 
+54. résister 
+55. céder 
+56. battre 
+57. plier
+58. forcer
+59. renforcer
+60. consolider
+61. affaiblir 
+62. faiblir 
 
 ### Armes et combats
 
@@ -188,38 +188,38 @@
 6. Lame  
 7. Hache  
 8. Masse  
-8. Bouclier  
-8. Arc  
-9. Flèche  
-10. Arbalète  
-11. Lance  
-12. Lancer
-13. Bâton  
-14. Pistolet  
-15. Revolver  
-16. Fusil
-17. Carabine
-18. assaut  
-19. Mitraillette  
-20. Mitrailleuse  
-22. Lance-roquettes  
-23. Grenade  
-24. Mine  
-25. Canon  
-26. Mortier  
-27. Torpille  
-28. Missile  
-29. Cartouche
-30. Balle 
-31. Munition
-32. Bombes  
-33. explosive  
-34. Lance-flammes  
-35. Gilet pare-balles  
-36. Casque  
-37. Armure  
-38. Gantelet  
-39. bonnet 
+9. Bouclier  
+10. Arc  
+11. Flèche  
+12. Arbalète  
+13. Lance  
+14. Lancer
+15. Bâton  
+16. Pistolet  
+17. Revolver  
+18. Fusil
+19. Carabine
+20. assaut  
+21. Mitraillette  
+22. Mitrailleuse  
+23. Lance-roquettes  
+24. Grenade  
+25. Mine  
+26. Canon  
+27. Mortier  
+28. Torpille  
+29. Missile  
+30. Cartouche
+31. Balle 
+32. Munition
+33. Bombes  
+34. explosive  
+35. Lance-flammes  
+36. Gilet pare-balles  
+37. Casque  
+38. Armure  
+39. Gantelet  
+40. bonnet 
 41. Matraque  
 42. Poing  
 43. Corde  
@@ -275,19 +275,19 @@
 37. autant que  
 38. ainsi que  
 39. de même que    
-1.  c’est-à-dire que  
-2.  en effet  
-3.  soit  
-6.  dès que  
-7.  aussitôt que  
-8.  pendant que  
-9.  tant que  
-10. du fait de  
-11. à cause de  
-47. grâce à  
-48. en raison de  
-49. de par  
-50. par contre  
+40.  c’est-à-dire que  
+41.  en effet  
+42.  soit  
+43.  dès que  
+44.  aussitôt que  
+45.  pendant que  
+46.  tant que  
+47. du fait de  
+48. à cause de  
+49. grâce à  
+50. en raison de  
+51. de par  
+52. par contre  
 
  ### Locutions pour opposer, expliquer, conclure ou articuler
 
@@ -313,30 +313,30 @@
 20. passer outre
 21. de surcroît  
 22. de plus  
-24. en dépit de  
-26. lors de 
-28. tandis que  
-29. afin de/que  
-30. en vue de  
-31. dans la mesure où  
-32. excepté que  
-33. sain et sauf
-34. sauf 
-35. hors 
-36. sauf si  
-37. à part 
-38. en d’autres termes  
-39. autrement dit  
-40. du moins  
-41. vu que  
-42. circonstance
-43. étant donné que  
-44. parce que  
-45. puisque  
-47. de sorte que  
-48. tantôt… tantôt  
-49. ou bien… ou bien  
-51. sous prétexte que  
+23. en dépit de  
+24. lors de 
+25. tandis que  
+26. afin de/que  
+27. en vue de  
+28. dans la mesure où  
+29. excepté que  
+30. sain et sauf
+31. sauf 
+32. hors 
+33. sauf si  
+34. à part 
+35. en d’autres termes  
+36. autrement dit  
+37. du moins  
+38. vu que  
+39. circonstance
+40. étant donné que  
+41. parce que  
+42. puisque  
+43. de sorte que  
+44. tantôt… tantôt  
+45. ou bien… ou bien  
+46. sous prétexte que  
 
 ## Signalisation & justice
 
