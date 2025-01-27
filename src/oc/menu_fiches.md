@@ -17,6 +17,12 @@
   
 ---
 
+## 43. Echange et communication et débats
+
+:x: [Echange et communication](./fiches/fiches_6/5/1.md)
+
+:x: [Débats](./fiches/fiches_6/5/2.md)
+
 ## 42. Guerres et combats
 
 :x: [Guerre et conflit](./fiches/fiches_6/4/1.md)

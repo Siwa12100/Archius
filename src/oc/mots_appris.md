@@ -4,6 +4,111 @@
 
 ---
 
+## Echange, communication et débats
+
+### Echange et communication
+
+1. Communication 
+2. Faire savoir 
+3. Dialogue  
+4. Discussion  
+5. Conversation  
+6. Échange  
+7. Argument  
+8. Message  
+9. Réponse  
+10. Question  
+11. Interroger
+12. Suggestion
+13. Opinion  
+14. Idée  
+15. Proposition  
+16. proposer
+17. Négociation  
+18. Traduction  
+19. Réprimande
+20. Interprétation  
+21. Courriel  
+22. Lettre  
+20. Appel  
+21. Réunion  
+22. Interview  
+23. Déclaration 
+24. Rendez-vous  
+25. Communiqué  
+26. Publication  
+27. Annonce  
+28. Signal  
+29. Silence  
+30. Geste  
+31. Expression  
+32. Attitude  
+33. Intonation  
+34. Verbe  
+35. Syntaxe  
+34. Signification  
+35. Charisme  
+36. Crédibilité
+37. Catastrophe
+38. Désastre
+39. Formidable
+40. Impressionnant
+41. Ridicule
+43. Influence  
+44. Ecoute  
+45. Compréhension  
+46. Explication  
+47. Partage  
+49. Émetteur  
+50. Récepteur  
+51. Médiation  
+52. Connexion  
+
+### Débats
+
+1. Débat  
+2. Avis
+3. Gueuler
+4. Engueler
+5. Reprocher
+6. Enguelade
+7. Argumentation  
+8. Controverse  
+8. Opposition  
+9. Contradiction  
+10. Réfutation  
+11. Concession  
+12. Compromis  
+11. Désaccord  
+12. Accord  
+13. Conviction  
+14. Persuasion  
+15. Preuve  
+16. Thèse  
+17. Antithèse  
+18. Synthèse  
+19. Hypothèse  
+20. Démonstration  
+21. Conclusion  
+22. Introduction  
+23. Modération  
+24. Règlement  
+23. Interruption  
+24. Divergence  
+25. Consensus  
+26. Objection  
+27. Réplique  
+28. Justification  
+29. Contre-argument  
+30. Exemple  
+31. Illustration  
+32. Comparaison  
+33. Déduction  
+34. Paradoxe  
+35. Rhétorique  
+36. Raison  
+37. Analyse  
+
 ## Guerres et combats
 
 ### Guerre et conflits
