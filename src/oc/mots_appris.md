@@ -4,6 +4,100 @@
 
 ---
 
+## Emotions et sentiments
+
+### Emotions
+
+1. Bonheur  
+2. Emotion
+3. Mélancolie  
+4. Angoisse  
+5. Sérénité  
+6. Étonnement  
+7. Frustration  
+8. Gêne  
+9. Soulagement  
+10. Choc  
+11. Désespoir  
+12. Enthousiasme  
+13. Dégoût  
+14. Nostalgie  
+15. Amusement  
+16. Déception  
+17. Gratitude  
+18. Détermination  
+19. Extase  
+20. Regret  
+21. Compassion  
+22. Agacer
+23. Révolte  
+24. Panique  
+25. Tranquillité  
+26. Inquiétude  
+27. Admiration  
+28. Exaspération  
+29. Nervosité  
+30. Découragement  
+31. Apaisement 
+32. apaiser  
+33. Terreur  
+34. Stress  
+35. Désarroi  
+36. Haine  
+37. Euphorie  
+38. Excitation  
+39. Satisfaction  
+40. Indignation  
+41. Confusion  
+42. Malaise  
+43. Exaltation  
+44. Dégoût
+45. Regret 
+46. Exténuation  
+47. Débordement
+
+### Sentiments
+
+1. Amitié  
+2. Sentiment
+3. Mépris  
+4. Adoration  
+5. Dévotion  
+6. Altruisme  
+7. Egoisme
+8. égo
+9. honneur
+10. mérite 
+11. Empathie  
+12. Plénitude  
+13. Mal-être  
+14. méchant 
+15. Attachement  
+16. Passion  
+17. Fraternité  
+18. Culpabilité  
+19. Rejet  
+20. Curiosité  
+21. Résignation  
+22. Dévouement  
+23. Appartenance  
+24. Désintérêt  
+25. Fidélité  
+26. Reconnaissance  
+27. Affection  
+28. Tendresse  
+29. mutuel  
+30. Désillusion  
+31. Introspection  
+32. Confiance en soi  
+33. autrui  
+34. affectif  
+35. Dépendance 
+36. Épanouissement  
+37. sentimental  
+38. Désir ardent   
+39. Affinité  
+
 ## Echange, communication et débats
 
 ### Echange et communication

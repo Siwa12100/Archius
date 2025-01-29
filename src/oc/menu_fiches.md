@@ -17,6 +17,12 @@
   
 ---
 
+## 44. Emotions et sentiments
+
+:x: [Emotions](./fiches/fiches_7/1/1.md)
+
+:x: [Sentiments](./fiches/fiches_7/1/2.md)
+
 ## 43. Echange et communication et débats
 
 :x: [Echange et communication](./fiches/fiches_6/5/1.md)
