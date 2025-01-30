@@ -17,7 +17,11 @@
   
 ---
 
+## 45. Religion et culture 
 
+:x: [Religion](./fiches/fiches_7/1/1.md)
+
+:x: [Culture](./fiches/fiches_7/2/2.md)
 
 ## 44. Emotions et sentiments
 
