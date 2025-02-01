@@ -194,6 +194,76 @@ bash ~/tmux-startup.sh
 
 ---
 
+## Configuration de tmux : Scroll, Copier-Coller et Souris
+
+### 📌 1. Création ou modification du fichier de configuration
+Ouvrir le fichier de configuration de **tmux** :
+
+```bash
+nano ~/.tmux.conf
+```
+
+Si le fichier n'existe pas, il sera créé.
+
+---
+
+### 🖱 2. Activer la gestion de la souris (scroll et sélection)
+Ajoutez ces lignes dans **~/.tmux.conf** :
+
+```bash
+# Activer la souris pour le scroll et la sélection
+set -g mouse on
+
+# Activer la copie automatique vers le presse-papiers
+set -g set-clipboard on
+
+# Corriger le scroll avec la molette en mode vi
+setw -g mode-keys vi
+
+# Copier automatiquement dans le presse-papiers avec la souris
+bind-key -T copy-mode-vi MouseDragEnd1Pane send-keys -X copy-pipe-and-cancel "xclip -sel clip"
+```
+
+---
+
+### 🔄 3. Recharger la configuration de tmux
+Après modification du fichier, rechargez la configuration sans redémarrer tmux :
+
+```bash
+tmux source ~/.tmux.conf
+```
+
+Si vous souhaitez redémarrer tmux complètement :
+
+```bash
+tmux kill-server
+tmux
+```
+
+---
+
+### ✂ 4. Copier-Coller sous tmux
+
+#### 📌 Méthode 1 : Avec la souris (Shift + clic)
+- **Maintenir `Shift` et sélectionner** du texte avec la souris.
+- Relâcher le bouton.
+- **Faire un clic droit** et choisir "Copier".
+
+#### 📌 Méthode 2 : Avec le mode tmux
+1. **Entrer en mode copie** :
+   ```bash
+   Ctrl + b puis [
+   ```
+2. **Déplacer le curseur avec les flèches ou PgUp/PgDown**.
+3. **Début de la sélection** : `Espace`.
+4. **Fin de la sélection** : `Entrée` (le texte est copié).
+5. **Coller le texte** :
+   ```bash
+   Ctrl + b puis ]
+   ```
+
+---
+
 ## Références
 
 - [Documentation Officielle Tmux](https://github.com/tmux/tmux/wiki)
