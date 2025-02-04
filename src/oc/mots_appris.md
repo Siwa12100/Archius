@@ -4,6 +4,76 @@
 
 ---
 
+## Cuisines et ingrédients
+
+### Ustenciles et ingrédients
+
+1. Marmite  
+2. Ustencile
+3. Ingrédient
+4. Recette
+7. gratin  
+8. Planche
+7. découper  
+8. chef  
+9. Râpe  
+10. Louche  
+11. Fouet  
+12. Passoire  
+13. Tamis  
+14. Moule
+15. Hachoir  
+16. Balance   
+17. Rouleau
+18. pâtisserie  
+20. Farine  
+21. Levure chimique  
+22. Huile 
+23. Vinaigre 
+24. Piment
+25. poudre  
+26. Cannelle  
+27. Viande  
+28. Dinde  
+30. Crevettes  
+
+### Actions de cuisine et adjectifs
+
+1. Remuer  
+2. Fouetter  
+3. Battre  
+4. Hacher  
+5. Émincer  
+6. Couper en petitx morceaux
+7. Ciseler  
+9. Râper  
+10. Moudre  
+11. Pétrir  
+12. Rouler  
+13. Étaler  
+14. mijoter  
+15. bouillir  
+16. Rôtir  
+17. vapeur  
+18. Griller  
+20. Blanchir  
+21. Frire  
+22. Fondant  
+23. Croustillant  
+24. Épicé  
+25. Sucré  
+26. Salé  
+27. Acidulé  
+28. Amer  
+32. Doré  
+33. Savoureux  
+34. Parfumé  
+35. Léger  
+36. Lourd  
+37. Frais  
+38. Cuit à point  
+39. Caramélisé 
+
 ## Religion et culture
 
 ### Religion

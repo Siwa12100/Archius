@@ -17,6 +17,12 @@
   
 ---
 
+## 46. Cuisine
+
+:x: [Ustenciles et ingredients](./fiches/fiches_7/3/1.md)
+
+:x: [Actions et adjectifs](./fiches/fiches_7/3/2.md)
+
 ## 45. Religion et culture 
 
 :x: [Religion](./fiches/fiches_7/2/1.md)
