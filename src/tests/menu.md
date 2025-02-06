@@ -13,6 +13,9 @@
 - [Tests automatisés et IA](./notes/5.md)
 - [Validation et analyse des résultats](./notes/6.md)
 
+- [selenium](./notes/sel.md)
+- [Maven]()
+
 ---
 
 [...retour accueil Archius](../../README.md)
