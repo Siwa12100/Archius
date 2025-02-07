@@ -12,3 +12,4 @@
 - [DSA Partie 2](./notes2/2.md)
 - [DSA Partie 3](./notes2/3.md)
 - [E-Commerce](./notes2/4.md)
+- [Propriété industrielle](./notes2/5.md)
