@@ -4,6 +4,25 @@
 
 ---
 
+## Partida 8
+
+1. piétiner
+2. trottoir
+3. casser
+4. réparer
+5. essence
+6. légume 
+7. épeler
+8. éplucher
+9. non plus
+10. haricots verts
+11. gare ! 
+12. saouler
+13. noisette
+14. champignon
+15. va et vient
+16. requérir
+
 ## Partida 7
 
 1. modèle 

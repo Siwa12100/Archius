@@ -6,6 +6,8 @@
 
 ---
 
+:x: [Partida 8](./fiches/fiche_2/4.md)
+
 :x: [Partida 7](./fiches/fiche_2/3.md)
 
 :x: [Partida 6](./fiches/fiche_2/2.md)
