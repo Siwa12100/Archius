@@ -6,6 +6,8 @@
 
 Ce tutoriel explique étape par étape comment configurer un serveur Drone CI sur un VPS, en intégrant GitHub pour la gestion des dépôts et Docker pour l'exécution des pipelines.
 
+Inpirée de la doc [ici](https://medium.com/@pavanbelagatti/continuous-integration-self-hosting-drone-ci-1959b961ef5e)
+
 ---
 
 ## Prérequis
