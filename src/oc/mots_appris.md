@@ -4,6 +4,93 @@
 
 ---
 
+## Politique et géopolitique
+
+### Politique
+
+1. Politique  
+2. État  
+3. Gouvernement  
+4. Parlement  
+5. Assemblée  
+6. Sénat  
+7. Constitution  
+8. Démocratie  
+9. Monarchie  
+10. République  
+11. Dictature  
+12. Régime  
+13. Pouvoir  
+14. Institution  
+15. Loi  
+16. Décret  
+17. Réforme  
+18. Élections  
+19. Vote  
+20. Urne  
+21. Parti  
+22. Coalition  
+23. Majorité  
+24. Président  
+25. Premier ministre  
+26. Député  
+27. Sénateur  
+28. Citoyen  
+29. Suffrage  
+30. Candidat  
+32. Programme  
+33. Campagne  
+34. Discours  
+35. Abstention  
+36. Référendum  
+37. Mandat  
+38. Budget  
+39. Impôts  
+40. Répression  
+41. Manifestation  
+42. Liberté  
+43. Égalité  
+44. Justice  
+45. Corruption  
+46. Diplomatie  
+47. Souveraineté  
+
+### Géopolitique
+
+1. Géopolitique  
+2. Nation  
+3. Patrie  
+4. Union  
+5. Alliance  
+6. Traité  
+7. Conflit  
+8. Guerre  
+9. Paix  
+10. influence  
+11. Bloc  
+12. Superpuissance  
+13. Hégémonie  
+14. Multipolarité  
+15. Bipolaire
+16. Nationalisme  
+17. Protectionniste
+18. Sanctions  
+19. Embargo  
+21. Intervention  
+22. Coopération  
+23. Organisation
+24. International
+25. Union européenne  
+26. exclusif
+27. Commerce
+28. Stratagème  
+29. Migration  
+30. Réfugié  
+34. Crise  
+35. Rivalité  
+36. Expansion  
+37. Colonisation  
+
 ## Cuisines et ingrédients
 
 ### Ustenciles et ingrédients

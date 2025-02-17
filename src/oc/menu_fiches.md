@@ -17,6 +17,12 @@
   
 ---
 
+## 47. Politique et géopolitique
+
+:x: [Politique](./fiches/fiches_7/4/1.md)
+
+:x: [Géopolitique](./fiches/fiches_7/4/2.md)
+
 ## 46. Cuisine
 
 :x: [Ustenciles et ingredients](./fiches/fiches_7/3/1.md)
