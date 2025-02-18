@@ -17,6 +17,12 @@
   
 ---
 
+## 48. Géométrie et transformation matière
+
+:x: [Formes et géométrie](./fiches/fiches_7/5/1.md)
+
+:x: [Transformation de la matière](./fiches/fiches_7/5/2.md)
+
 ## 47. Politique et géopolitique
 
 :x: [Politique](./fiches/fiches_7/4/1.md)

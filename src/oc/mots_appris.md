@@ -4,6 +4,104 @@
 
 ---
 
+## Géométrie et transformation matière
+
+### Formes et géométrie
+
+1. Cercle  
+2. Triangle  
+3. Forme
+4. Géométrie
+5. Carré  
+6. Rectangle  
+7. Losange  
+8. Trapèze  
+9. Parallélogramme  
+10. Polygone  
+11. Pentagone  
+12. Hexagone  
+13. Heptagone  
+14. Octogone  
+15. Ellipse  
+16. Ovale  
+17. Cube  
+18. Sphère  
+17. Cylindre  
+18. Cône  
+19. Pyramide  
+20. Rayon  
+21. Diamètre  
+22. Circonférence  
+23. Sommet  
+24. Arête  
+25. Face  
+26. Lignes
+27. Courbes  
+28. Segment  
+29. Droite  
+31. Diagonale  
+32. Perpendiculaire  
+33. Parallèle  
+34. Équilatéral  
+35. Isocèle  
+36. Convexe  
+37. Concave  
+38. Proportion  
+
+### Transformation de la matière
+
+1. Gonfler  
+2. Rétrécir  
+3. Transformation
+4. matière
+5. Étirer  
+6. Déformer  
+7. Plier  
+8. Tourner  
+9. Chauffer  
+10. Fondre  
+10. Refroidir  
+11. Solidifier  
+12. Vaporiser  
+13. Geler  
+14. Dilater  
+14. Contracter  
+15. Évaporer  
+16. Condenser  
+17. Polir  
+18. Modeler  
+19. Malaxer  
+20. Mouler  
+21. Durcir  
+22. Ramollir  
+23. Fracturer  
+24. Casser  
+25. Craqueler  
+26. Dissoudre  
+27. S’effriter  
+28. Oxydation  
+29. Fusionner  
+30. Mélanger  
+31. Agiter  
+32. Secouer  
+33. Éclater  
+34. Percer  
+35. Enfler  
+36. Étancher  
+37. Ériger  
+38. Détendre  
+39. Compresser  
+40. Souffler  
+41. Découper  
+42. Décoller  
+43. Coller  
+44. Tremper  
+45. Pulvériser  
+46. Déchirer  
+47. Réparer  
+48. Stabiliser  
+49. Réchauffer  
+
 ## Politique et géopolitique
 
 ### Politique
