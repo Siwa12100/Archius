@@ -4,6 +4,108 @@
 
 ---
 
+## Parties du corps humain & maladies
+
+### Parties du corps humain
+
+1. Sourcils  
+2. Cil
+3. corps
+4. Paupières  
+5. Narines  
+6. Joues  
+7. Lèvres  
+6. Dents  
+7. Gencives  
+8. Menton  
+9. Gorge  
+10. Omoplates  
+11. Avant-bras  
+12. Phalanges  
+13. Paume  
+14. Aisselles  
+15. Poignets  
+16. Clavicules  
+17. Poitrine  
+18. Côtes  
+19. Abdomen  
+20. Ventre  
+21. Taille  
+22. Hanches  
+23. Fesses  
+24. Cuisses  
+25. Genoux  
+26. Rotules  
+27. Mollets  
+28. Chevilles  
+29. Pieds  
+30. Orteils  
+31. Talons  
+32. Articulations  
+33. Veines  
+34. Nerfs  
+35. Os  
+36. Muscles  
+37. Cœur  
+38. Poumons  
+39. Foie  
+40. Estomac  
+41. Intestins  
+42. Reins  
+43. Crâne  
+44. Mâchoire  
+45. Pommettes  
+46. Tempes  
+47. Vertèbres  
+
+### Maladies
+
+1. Fièvre  
+2. Toux  
+3. Tousser
+4. Rhume  
+5. Grippe  
+6. Bronchite  
+7. Pneumonie  
+8. Asthme  
+9. Allergie  
+10. Démangeaisons  
+11. Migraine  
+12. Maux de tête  
+13. Vertiges  
+14. Nausées  
+15. Vomissements  
+16. Diarrhée  
+17. Constipation  
+18. Infection  
+19. Bactéries  
+20. Virus  
+21. Parasites  
+23. Ulcère  
+24. Anémie  
+25. Hypertension  
+26. Hypotension  
+27. Diabète  
+28. Cholestérol  
+29. Insuffisance  
+30. Cardiaque  
+31. Cancer  
+32. Tumeur  
+33. Fracture  
+34. Entorse  
+35. Blessure  
+36. Brûlure  
+37. Coupure  
+38. Contusion  
+39. Hémorragie  
+41. Urinaire  
+42. Appendicite  
+43. Hépatite  
+45. Tuberculose  
+47. Dépression  
+48. Anxiété  
+49. Insomnie  
+
 ## Géométrie et transformation matière
 
 ### Formes et géométrie

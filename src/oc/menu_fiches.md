@@ -17,6 +17,12 @@
   
 ---
 
+## 49.Parties du corps humain et maladies
+
+:x: [Parties du corps](./fiches/fiches_8/1/1.md)
+
+:x: [Maladies](./fiches/fiches_8/1/2.md)
+
 ## 48. Géométrie et transformation matière
 
 :x: [Formes et géométrie](./fiches/fiches_7/5/1.md)
