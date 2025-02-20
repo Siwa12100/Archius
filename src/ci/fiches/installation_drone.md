@@ -1,153 +1,124 @@
-# Déployer un Serveur Drone CI avec GitHub
+# Déployer un Serveur Drone CI avec GitHub et HTTPS
 
 [Menu CI](../menu.md)
 
 ---
 
-Ce tutoriel explique étape par étape comment configurer un serveur Drone CI sur un VPS, en intégrant GitHub pour la gestion des dépôts et Docker pour l'exécution des pipelines.
+Ce tutoriel explique comment configurer un serveur **Drone CI** sur un VPS, en intégrant **GitHub** pour la gestion des dépôts, **Docker** pour l'exécution des pipelines et **Let's Encrypt** pour la gestion automatique du HTTPS avec **Nginx Proxy**.
 
-Inpirée de la doc [ici](https://medium.com/@pavanbelagatti/continuous-integration-self-hosting-drone-ci-1959b961ef5e)
+Inspiré de la documentation [ici](https://medium.com/@pavanbelagatti/continuous-integration-self-hosting-drone-ci-1959b961ef5e).
 
 ---
 
-## Prérequis
+## **Prérequis**
 
-### 1. Compte GitHub
+### **1. Compte GitHub**
 - Un compte GitHub actif.
-- Droits d'accès aux dépôts que vous souhaitez intégrer à Drone.
+- Droits d'accès aux dépôts à intégrer à Drone.
 
-### 2. Serveur VPS
+### **2. Serveur VPS**
 - Un VPS avec une distribution Linux (Ubuntu recommandé).
 - Configuration minimale :
   - **RAM :** 2 Go.
   - **Processeur :** 2 cœurs.
   - **Stockage :** 10 Go minimum.
-  - **Port 80** ouvert pour HTTP.
-- Docker et Docker Compose installés.
+  - **Port 80 et 443** ouverts pour HTTP et HTTPS.
+- **Docker et Docker Compose** installés.
 
-### 3. Domaine ou Adresse IP publique
-- Une adresse IP publique ou un domaine pour accéder au serveur Drone.
-- Si vous n'avez pas de domaine, utilisez directement l'IP publique.
-
----
-
-## Étape 1 : Installer Docker et Docker Compose
-
-### Installation de Docker
-1. Connectez-vous à votre VPS via SSH.
-2. Exécutez les commandes suivantes :
-   ```bash
-   sudo apt update
-   sudo apt install -y apt-transport-https ca-certificates curl software-properties-common
-   curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo apt-key add -
-   sudo add-apt-repository "deb [arch=amd64] https://download.docker.com/linux/ubuntu $(lsb_release -cs) stable"
-   sudo apt update
-   sudo apt install -y docker-ce
-   ```
-
-3. Vérifiez que Docker est installé :
-   ```bash
-   docker --version
-   ```
-
-### Installation de Docker Compose
-1. Téléchargez Docker Compose :
-   ```bash
-   sudo curl -L "https://github.com/docker/compose/releases/latest/download/docker-compose-$(uname -s)-$(uname -m)" -o /usr/local/bin/docker-compose
-   ```
-
-2. Rendez-le exécutable :
-   ```bash
-   sudo chmod +x /usr/local/bin/docker-compose
-   ```
-
-3. Vérifiez l'installation :
-   ```bash
-   docker-compose --version
-   ```
+### **3. Domaine ou Adresse IP publique**
+- Un **domaine** configuré (ex: `drone.ioa-pais.fr`).
+- Si vous n'avez pas de domaine, utilisez l'**IP publique**, mais HTTPS nécessitera un certificat autosigné.
 
 ---
 
-## Étape 2 : Configurer une Application OAuth sur GitHub
+## **Étape 1 : Configurer une Application OAuth sur GitHub**
 
-Drone CI utilise OAuth pour s'authentifier auprès de GitHub. Suivez ces étapes pour configurer votre application OAuth.
+### **1. Accédez à GitHub**
+- Connectez-vous à GitHub.
+- Allez dans **Settings > Developer settings > OAuth Apps** : [Lien direct](https://github.com/settings/developers).
 
-### 1. Accédez à GitHub
-- Connectez-vous à votre compte GitHub.
-- Allez dans **Settings > Developer settings > OAuth Apps** : [Lien direct vers OAuth Apps](https://github.com/settings/developers).
-
-### 2. Créez une Nouvelle Application OAuth
+### **2. Créez une Nouvelle Application OAuth**
 1. Cliquez sur **New OAuth App**.
 2. Renseignez les champs :
    - **Application name :** `Drone CI`.
-   - **Homepage URL :** `http://<IP-PUBLIC-VPS>` (remplacez `<IP-PUBLIC-VPS>` par l'adresse IP publique de votre VPS ou votre domaine).
-   - **Authorization callback URL :** `http://<IP-PUBLIC-VPS>/login`.
+   - **Homepage URL :** `https://drone.ioa-pais.fr` (remplacez avec votre domaine/IP).
+   - **Authorization callback URL :** `https://drone.ioa-pais.fr/login`.
 3. Cliquez sur **Register application**.
 
-### 3. Sauvegardez les Informations OAuth
-Une fois l'application créée :
+### **3. Sauvegardez les Informations OAuth**
 - Notez **Client ID**.
 - Cliquez sur **Generate a new client secret** et sauvegardez **Client Secret**.
 
 ---
 
-## Étape 3 : Créer les Fichiers de Configuration sur le VPS
+## **Étape 2 : Créer les Fichiers de Configuration**
 
-### 1. Fichier `.env`
-1. Connectez-vous à votre VPS.
-2. Créez un fichier `.env` dans votre répertoire de travail :
+### **1. Fichier `.env`**
+1. Créez un fichier `.env` :
    ```bash
    vim .env
    ```
 
-3. Ajoutez le contenu suivant, en remplaçant les valeurs :
+2. Ajoutez :
    ```env
    # Configuration serveur Drone
-   DRONE_SERVER_HOST=<IP-PUBLIC-VPS>
-   DRONE_SERVER_PROTO=http
+   DRONE_SERVER_HOST=drone.ioa-pais.fr
+   DRONE_SERVER_PROTO=https
    DRONE_GITHUB_CLIENT_ID=<VOTRE_CLIENT_ID>
    DRONE_GITHUB_CLIENT_SECRET=<VOTRE_CLIENT_SECRET>
    DRONE_RPC_SECRET=<SECRET_DRONE>
+   DRONE_TLS_AUTOCERT=false
+   DRONE_COOKIE_SECURE=true
    DRONE_USER_CREATE=username:<VOTRE_USERNAME_GITHUB>,admin:true
 
    # Configuration Runner Drone
-   DRONE_RPC_HOST=<IP-PUBLIC-VPS>
-   DRONE_RPC_PROTO=http
+   DRONE_RPC_HOST=drone.ioa-pais.fr
+   DRONE_RPC_PROTO=https
    DRONE_RUNNER_NAME="Drone.io_runner"
    ```
 
 - **Remplacez :**
-  - `<IP-PUBLIC-VPS>` : Par l'adresse IP publique ou le domaine.
-  - `<VOTRE_CLIENT_ID>` et `<VOTRE_CLIENT_SECRET>` : Par les valeurs générées sur GitHub.
-  - `<SECRET_DRONE>` : Générez un secret avec cette commande :
+  - `<VOTRE_CLIENT_ID>` et `<VOTRE_CLIENT_SECRET>` par ceux générés sur GitHub.
+  - `<SECRET_DRONE>` avec une clé générée via :
     ```bash
     openssl rand -hex 16
     ```
-  - `<VOTRE_USERNAME_GITHUB>` : Par votre nom d'utilisateur GitHub.
+  - `<VOTRE_USERNAME_GITHUB>` par votre nom d'utilisateur GitHub.
 
 ---
 
-### 2. Fichier `docker-compose.yml`
+### **2. Fichier `docker-compose.yml`**
 1. Créez un fichier `docker-compose.yml` :
    ```bash
    vim docker-compose.yml
    ```
 
-2. Collez le contenu suivant :
+2. Collez :
    ```yaml
    version: '3.8'
 
    services:
      drone:
        image: drone/drone:2
+       restart: always
        volumes:
          - /var/run/docker.sock:/var/run/docker.sock
          - ./volumes/drone:/data
-       restart: always
        ports:
-         - 80:80
+         - 40001:80  # Permet le debug direct
+       expose:
+         - "80"  # Nginx Proxy doit voir ce port
        env_file:
          - .env
+       environment:
+         - DRONE_SERVER_HOST=drone.ioa-pais.fr
+         - DRONE_SERVER_PROTO=https
+         - DRONE_RPC_PROTO=https
+         - VIRTUAL_HOST=drone.ioa-pais.fr
+         - LETSENCRYPT_HOST=drone.ioa-pais.fr
+         - LETSENCRYPT_EMAIL=jean.marcillac12@gmail.com
+       networks:
+         - nginx-proxy-network
 
      drone-runner:
        image: drone/drone-runner-docker:1
@@ -159,83 +130,72 @@ Une fois l'application créée :
          - /var/run/docker.sock:/var/run/docker.sock
        env_file:
          - .env
+
+   networks:
+     nginx-proxy-network:
+       external: true
    ```
 
 ---
 
-## Étape 4 : Lancer Drone CI
+## **Étape 3 : Spécificités de Drone avec HTTPS et Nginx Proxy**
 
-1. Démarrez les services Drone CI :
+Contrairement à SonarQube ou une registry Docker, **Drone nécessite une configuration précise** pour éviter les erreurs de redirection OAuth et d’accès HTTPS.
+
+### **1. Drone doit connaître son URL publique exacte**
+👉 **Problème rencontré :**
+- Si Drone pense être accessible en `http://IP:40001`, mais que l'utilisateur y accède via `https://drone.ioa-pais.fr`, il génère des **redirections erronées** et OAuth échoue.
+- Erreur observée : `oauth: invalid or missing state`
+
+✅ **Solution** :
+- Définir **DRONE_SERVER_HOST** et **DRONE_SERVER_PROTO** correctement dans `.env`.
+- Vérifier que l’URL de callback sur GitHub est **`https://drone.ioa-pais.fr/login`**.
+
+### **2. Nginx Proxy gère HTTPS, Drone doit être en HTTP en interne**
+👉 **Problème rencontré :**
+- Drone ne doit **pas** gérer HTTPS lui-même, car c’est Nginx Proxy qui s’en charge.
+
+✅ **Solution** :
+- **Désactiver le TLS automatique** avec `DRONE_TLS_AUTOCERT=false`.
+- **Autoriser les cookies sécurisés** avec `DRONE_COOKIE_SECURE=true`.
+
+### **3. Debug avec accès direct**
+- **Le port 40001:80** permet d’accéder à Drone en HTTP localement si besoin.
+- `curl -vI http://IP:40001` permet de tester sans passer par le proxy.
+
+---
+
+## **Étape 4 : Démarrer Drone CI**
+1. Lancer Drone et le runner :
    ```bash
    sudo docker-compose up -d
    ```
-
-2. Vérifiez que les conteneurs sont en cours d'exécution :
+2. Vérifier les conteneurs :
    ```bash
    sudo docker ps
    ```
-
-3. Accédez à l'interface Drone :
-   - URL : `http://<IP-PUBLIC-VPS>`.
+3. Accéder à Drone via **https://drone.ioa-pais.fr**.
 
 ---
 
-## Étape 5 : Configurer un Projet avec Drone CI
+## **Étape 5 : Ajouter un Projet**
+Ajoutez un `.drone.yml` dans votre dépôt :
+```yaml
+kind: pipeline
+type: docker
+name: default
+steps:
+  - name: build
+    image: alpine
+    commands:
+      - echo "Hello, Drone CI!"
+```
 
-### 1. Créer un Nouveau Dépôt GitHub
-1. Créez un dépôt sur GitHub.
-2. Ajoutez un fichier `.drone.yml` à la racine du projet :
-   ```yaml
-   kind: pipeline
-   type: docker
-   name: default
-
-   steps:
-     - name: build
-       image: alpine
-       commands:
-         - echo "Hello, Drone CI!"
-   ```
-
-### 2. Ajouter le Projet à Drone
-1. Connectez-vous à l'interface Drone CI.
-2. Cliquez sur **Sync** pour synchroniser vos dépôts GitHub.
-3. Ajoutez le dépôt contenant `.drone.yml`.
+Puis activez-le via l’interface Drone.
 
 ---
 
-## Étape 6 : Secrets pour Docker Hub (Optionnel)
-
-1. Dans l'interface Drone, accédez au projet.
-2. Ajoutez des secrets :
-   - **docker_username** : Votre nom d'utilisateur Docker Hub.
-   - **docker_password** : Votre mot de passe Docker Hub.
-
-3. Modifiez le `.drone.yml` pour inclure une étape de publication :
-   ```yaml
-   steps:
-     - name: publish
-       image: plugins/docker
-       settings:
-         username:
-           from_secret: docker_username
-         password:
-           from_secret: docker_password
-         repo: your-dockerhub-username/your-repo
-   ```
-
----
-
-## Étape 7 : Résolution des Problèmes
-
-### Problème : Échec de l'authentification GitHub
-- **Cause :** Mauvaise configuration de l'application OAuth.
-- **Solution :** Vérifiez les URLs configurées sur GitHub (Homepage et Callback).
-
-### Problème : Erreur de connexion Runner-Serveur
-- **Cause :** Mauvaise valeur pour `DRONE_RPC_SECRET`.
-- **Solution :** Assurez-vous que le même secret est utilisé dans le fichier `.env` et dans la configuration du Runner.
-
----
+🎉 **Votre serveur Drone CI est maintenant fonctionnel avec HTTPS et OAuth !** 🚀
 
 [Menu CI](../menu.md)
+
