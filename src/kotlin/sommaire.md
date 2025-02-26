@@ -4,7 +4,11 @@
 
 ---
 
-## Introduction
+## Notes persos
+
+* [Initialisation d'un projet amb Maven](./notes/initprojet.md)
+
+## Introduction - Cours BUT 2
 
 Kotlin a été présenté comme un langage de premier ordre pour Android lors de la Google I/O 2017. Il offre plusieurs avantages, dont une syntaxe moins verbeuse que Java grâce à une forte inférence de type, la prise en charge de plusieurs paradigmes de programmation, et une incitation aux bonnes pratiques.
 
