@@ -8,6 +8,7 @@
 
 * [Initialisation d'un projet amb Maven](./notes/initprojet.md)
 * [Compilation, Exécution et Gestion d’un Projet Kotlin avec Maven](./notes/commandes1.md)
+* [Manipulation de Fichiers et de Dossiers en Kotlin (avec Maven)](./notes/images.md)
 
 ## Introduction - Cours BUT 2
 
