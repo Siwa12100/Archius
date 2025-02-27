@@ -4,24 +4,177 @@
 
 ---
 
+## Partida 9
+
+1. limite  
+2. que dalle  
+3. régaler  
+4. falaise  
+5. halle  
+6. géant  
+7. vivant  
+8. vivante  
+9. prévu  
+10. d'une traite  
+11. "quand on ne croit pas à quelque chose..."  
+12. mince  
+13. au plus / au moins  
+14. prêter  
+15. déranger  
+16. voler  
+17. rappeler  
+18. rappel  
+19. meuble  
+20. ployer sous le poids  
+21. la préface  
+22. arche  
+23. talus  
+24. bourrin  
+25. cousin germain  
+26. gueule  
+27. mordre  
+28. remède  
+29. prendre des remèdes  
+30. disputer  
+31. se remémorer  
+32. plaisanterie  
+33. classeur  
+34. signe  
+35. brouillard  
+36. fait soleil et pluie en même temps  
+37. continuellement  
+38. brouillard  
+39. repas du midi  
+40. repas du soir  
+41. petit déjeuner  
+42. le goûter  
+43. 2 heures du soir  
+44. déchets  
+45. croisillons  
+46. piège  
+47. accident  
+48. résultat  
+49. influent  
+50. influenceur  
+51. étendre  
+52. y en a beaucoup  
+53. chatouiller  
+54. faire des chatouilles  
+55. aucun ...  
+56. fumier  
+57. tas  
+58. fumer la terre  
+59. tas de fumier  
+60. pie  
+61. le nid  
+62. se nicher  
+63. cloche-pied  
+
 ## Partida 8
 
-1. piétiner
-2. trottoir
-3. casser
-4. réparer
-5. essence
-6. légume 
-7. épeler
-8. éplucher
-9. non plus
-10. haricots verts
-11. gare ! 
-12. saouler
-13. noisette
-14. champignon
-15. va et vient
-16. requérir
+1. piétiner  
+2. trottoir  
+3. casser  
+4. réparer  
+5. essence  
+6. légume  
+7. épeler  
+8. éplucher  
+9. non plus  
+10. haricots verts  
+11. gare !  
+12. saouler  
+13. noisette  
+14. champignon  
+15. va et vient  
+16. requérir  
+17. C'est incroyable  
+18. j'ai extrêmement soif  
+19. gratuit  
+20. (im)politesse  
+21. Pourtant  
+22. néanmoins  
+23. cependant  
+24. taper avec le front  
+25. chez nous  
+26. en arrière  
+27. percher  
+28. numéro  
+29. ...h 45  
+30. ...h 30  
+31. ...h 15  
+32. énerver  
+33. Se disputer / battre  
+34. ... ?  
+35. faire faillite  
+36. ...  
+37. honte  
+38. ranger / cacher  
+39. surnom  
+40. blaireau  
+41. j'ai mal à la tête  
+42. le ciel se couvre  
+43. crépuscule  
+44. un demi litre (bar)  
+45. un quart de litre (bar)  
+46. "mince / je m'en veux"  
+47. marrant  
+48. décès  
+49. vaut mieux  
+50. de toute façon  
+51. emprunter  
+52. emprunt  
+53. harceler  
+54. fixer (&piqure abelha)  
+55. mouchoir  
+56. moucher  
+57. mèche  
+58. éternuer  
+59. frotter  
+60. on ne peut pas leur en vouloir  
+61. cette année  
+62. milieu  
+63. vers  
+64. décevoir  
+65. "super"  
+66. ....  
+67. à l'aise  
+68. courte échelle  
+69. cache-cache  
+70. but  
+71. embêté  
+72. déranger  
+73. gâteau  
+74. bonbon  
+75. folie  
+76. grave  
+77. en retard  
+78. est-ce que  
+79. pour cent  
+80. probablement  
+81. "Bien sûr"  
+82. oublier  
+83. signer  
+84. "du coup"  
+85. fatiguée  
+86. crevé  
+87. rouler  
+88. entourer  
+89. "j'ai failli"  
+90. "exceptionnel ; d'élite"  
+91. mise à jour  
+92. s’épuiser  
+93. l'éclosion  
+94. mensonge  
+95. gaver  
+96. digérer  
+97. bâillement  
+98. plonger  
+99. laboureur  
+100. précurseur  
+101. tinter  
+102. ressusciter ; ranimer  
+103. fratrie  
 
 ## Partida 7
 
