@@ -11,6 +11,16 @@
 * [Manipulation de Fichiers et de Dossiers en Kotlin (avec Maven)](./notes/images.md)
 * [Lancement d'un Projet Maven (Java/Kotlin)](./notes/lancement.md)
 
+### Async et threads
+
+* [Introduction & bases des coroutines](./notes/coroutines/1.md)
+* [Gérer les threads avec Dispatchers & gestion avancée coroutines](./notes/coroutines/2.md)
+* 
+
+## Appels API asynchrones en Kotlin
+
+* [Introduction aux appels API en Kotlin](./notes/apis/1.md)
+
 ## Introduction - Cours BUT 2
 
 Kotlin a été présenté comme un langage de premier ordre pour Android lors de la Google I/O 2017. Il offre plusieurs avantages, dont une syntaxe moins verbeuse que Java grâce à une forte inférence de type, la prise en charge de plusieurs paradigmes de programmation, et une incitation aux bonnes pratiques.
