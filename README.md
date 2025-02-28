@@ -25,6 +25,7 @@ Tot aquò dich, bona lectura als curioses !
 
 - [Symphonie](./src/symphonie/menu.md)
 - [Vue.js](./src/vue2/menu.md)
+- [Kotlin](./src/kotlin/sommaire.md)
 
 ### Administration système
 
