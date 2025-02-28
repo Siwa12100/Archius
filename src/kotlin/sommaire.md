@@ -15,11 +15,13 @@
 
 * [Introduction & bases des coroutines](./notes/coroutines/1.md)
 * [Gérer les threads avec Dispatchers & gestion avancée coroutines](./notes/coroutines/2.md)
-* 
+* [Séquence et flux de données asynchrones en Kotlin](./notes/coroutines/3.md)
 
 ## Appels API asynchrones en Kotlin
 
 * [Introduction aux appels API en Kotlin](./notes/apis/1.md)
+* [Appels API asynchrones avec Ktor Client](./notes/apis/2.md)
+* [Optimisation et bonnes pratiques](./notes/apis/3.md)
 
 ## Introduction - Cours BUT 2
 
