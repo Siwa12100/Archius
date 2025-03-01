@@ -14,6 +14,7 @@
 * [Verbes importants à maitriser](./verbes_importants.md)
 * [Libertat](./chansons/libertat.md)
 * [La sobeirana](./chansons/sobeirana.md)
+* [Lexique al canton](./lexiqueAlCanton/sommaire.md)
   
 ---
 
