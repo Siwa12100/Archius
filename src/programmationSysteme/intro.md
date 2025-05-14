@@ -1,7 +1,12 @@
 # Programmation Système
 
-Documentation résumant mes cours de programmation de système (2ème année de BUT Info), en vue d'un examen proche. 
+Notes sur mes cours de programmation de système (2ème & 3ème année de BUT Info), en vue d'un examen proche. 
 
-# Sommaire
+## 3ème année
 
-- [1.) Les processus](./resumeCours/notes1.md)
+- [Intro sur les objets ipc](./resumeCours/notes2.md)
+- [Segments de mémoire partagée](./resumeCours/notes3.md)
+
+## 2éme année
+
+- [Les processus](./resumeCours/notes1.md)
