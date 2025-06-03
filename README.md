@@ -17,6 +17,8 @@ Certans passatges, l'aurètz notat, son escrichs en occitan languedocian, la len
 
 Tot aquò dich, bona lectura als curioses !
 
+[eco](./src/temp/eco.md)
+
 ## Général
 
 - [Apprentissage occitan](./src/oc/menu_fiches.md)
