@@ -15,8 +15,10 @@
 5. [Doctrine](./notes/doctrine.md)
 6. [Sérialisation et vérification](./notes/serialisation_validation.md)
 7. [Gestion des exceptions](./notes/exceptions.md)
-8. [Securite](./notes/securite.md)
-9. [Tests](./notes/tests.md)
+8. [Api](./notes/api.md)
+9. [Authentification](./notes/auth.md)
+10. [Securite](./notes/securite.md)
+11. [Tests](./notes/tests.md)
 
 ## Bonus
 
