@@ -1,124 +1,80 @@
 
-## 🔍 Lecture et analyse graphique par graphique
+# 📊 Analyse des histogrammes par caractéristiques
 
 ---
 
-### 📊 1. **Worst Concavity — Diagnostic 'M'**
+## 🔷 1. Histogramme de `Mean Area` pour le diagnostic 'B'
 
-![Worst Concavity M](sandbox:/mnt/data/1.png)
+- **Axe X** : Mean Area (surface moyenne de la tumeur)
+- **Axe Y** : Effectif (nombre d'échantillons observés dans chaque intervalle de surface)
+- **Interprétation** :
+  - La majorité des tumeurs bénignes (diagnostic `B`) ont une surface moyenne comprise entre **300 et 600**.
+  - On observe une distribution relativement centrée avec une forme légèrement asymétrique vers la droite.
+- **Conclusion** : Les tumeurs bénignes ont une **taille moyenne modérée**, rarement très élevée.
 
-**📌 Variable** : *Worst Concavity* = Concavité maximale des contours de la tumeur
-**🟣 Diagnostic** : *M* (Malin)
 
-**🧠 Lecture** :
+## 🔷 5. Histogramme de `Mean Area` pour le diagnostic 'M'
 
-* Distribution asymétrique à droite (positive skew)
-* Pic autour de `0.35–0.4`
-* Des cas extrêmes jusqu’à `1.2`, donc très concaves
-
-**📈 Conclusion** :
-Les tumeurs malignes présentent **une forte concavité des bords**, ce qui signifie que leur forme est plus **irrégulière**, un indicateur clinique important.
-
----
-
-### 📊 2. **Worst Concavity — Diagnostic 'B'**
-
-![Worst Concavity B](sandbox:/mnt/data/2.png)
-
-**📌 Variable** : *Worst Concavity*
-**🟢 Diagnostic** : *B* (Bénin)
-
-**🧠 Lecture** :
-
-* Distribution très concentrée entre `0.0` et `0.3`
-* Pic massif autour de `0.1–0.15`
-* Très peu de cas au-dessus de `0.5`
-
-**📈 Conclusion** :
-Les tumeurs bénignes ont **des contours beaucoup plus réguliers**, ce qui rend cette variable **fortement discriminante**.
+- **Axe X** : Mean Area
+- **Axe Y** : Effectif
+- **Interprétation** :
+  - Les surfaces des tumeurs malignes (`M`) sont souvent comprises entre **500 et 1200**, mais certaines atteignent plus de **2000**.
+  - Distribution plus **étalée et décalée vers la droite** que pour les bénignes.
+- **Conclusion** : Les tumeurs malignes sont **plus grandes** en moyenne.
 
 ---
 
-### 📊 3. **Mean Area — Diagnostic 'M'**
+---
 
-![Mean Area M](sandbox:/mnt/data/3.png)
+## 🔷 2. Histogramme de `Mean Radius` pour le diagnostic 'M'
 
-**📌 Variable** : *Mean Area* = Aire moyenne des cellules
-**🟣 Diagnostic** : *M*
-
-**🧠 Lecture** :
-
-* Distribution large, centrée autour de `800–1000`
-* Des cas très étendus jusqu’à `2500`
-* Plusieurs sous-groupes visibles (multimodal)
-
-**📈 Conclusion** :
-Les tumeurs malignes tendent à être **beaucoup plus grandes en moyenne**, avec une variabilité importante.
+- **Axe X** : Mean Radius (rayon moyen de la tumeur)
+- **Axe Y** : Effectif (nombre d’échantillons dans chaque intervalle de rayon)
+- **Interprétation** :
+  - Pour les tumeurs malignes (`M`), les rayons sont plus grands que ceux des tumeurs bénignes.
+  - La distribution est étalée entre **12,5 et 27,5**, avec un maximum d’occurrences vers **15 à 20**.
+- **Conclusion** : Les tumeurs malignes tendent à être **plus larges** que les bénignes.
 
 ---
 
-### 📊 4. **Mean Area — Diagnostic 'B'**
+## 🔷 3. Histogramme de `Mean Radius` pour le diagnostic 'B'
 
-![Mean Area B](sandbox:/mnt/data/4.png)
-
-**📌 Variable** : *Mean Area*
-**🟢 Diagnostic** : *B*
-
-**🧠 Lecture** :
-
-* Distribution centrée autour de `400–500`
-* Plus resserrée que pour M
-* Très peu de cas au-delà de `1000`
-
-**📈 Conclusion** :
-Les tumeurs bénignes ont **une aire moyenne plus petite et plus homogène**, ce qui confirme **une bonne capacité discriminante** de cette variable.
+- **Axe X** : Mean Radius
+- **Axe Y** : Effectif
+- **Interprétation** :
+  - Pour les tumeurs bénignes (`B`), le rayon est souvent entre **10 et 13**, avec peu d’observations au-delà de 15.
+- **Conclusion** : Le rayon est un indicateur discriminant : **plus faible en cas de tumeur bénigne**.
 
 ---
 
-### 📊 5. **Mean Radius — Diagnostic 'M'**
+### 📊 Graphique de gauche : Diagnostic 'B' (Bénin)
+- **Axe X** : `Worst Concavity` (concavité la plus prononcée mesurée sur la tumeur)
+- **Axe Y** : `Effectif` (nombre de tumeurs correspondant à une certaine valeur de concavité)
 
-![Mean Radius M](sandbox:/mnt/data/5.png)
+#### 🔍 Analyse :
+- La plupart des tumeurs bénignes ont une concavité faible, majoritairement inférieure à 0.2.
+- Très peu de cas bénins présentent une concavité au-delà de 0.4.
+- Distribution fortement **asymétrique à droite**, concentrée sur de faibles valeurs.
 
-**📌 Variable** : *Mean Radius* = Rayon moyen de la cellule
-**🟣 Diagnostic** : *M*
-
-**🧠 Lecture** :
-
-* Majorité des cas entre `14` et `22`
-* Cas extrêmes jusqu’à `27`
-* Asymétrie faible, distribution plutôt étalée
-
-**📈 Conclusion** :
-Les tumeurs malignes tendent à avoir **un rayon plus grand**, ce qui reflète leur volume important.
+#### ✅ Conclusion :
+- Les tumeurs bénignes ont généralement des bords plus **réguliers et moins concaves**.
 
 ---
 
-### 📊 6. **Mean Radius — Diagnostic 'B'**
+### 📊 Graphique de droite : Diagnostic 'M' (Malin)
+- **Axe X** : `Worst Concavity`
+- **Axe Y** : `Effectif`
 
-![Mean Radius B](sandbox:/mnt/data/6.png)
+#### 🔍 Analyse :
+- La distribution est plus **étalée** que pour les cas bénins.
+- Beaucoup de tumeurs malignes ont une concavité comprise entre 0.3 et 0.6, avec un pic autour de 0.4.
+- Une proportion significative de cas dépasse 0.6, certains allant jusqu’à 1.2.
 
-**📌 Variable** : *Mean Radius*
-**🟢 Diagnostic** : *B*
+#### ❗ Conclusion :
+- Les tumeurs malignes présentent des **formes plus irrégulières et concaves**.
+- La concavité est un **critère pertinent pour distinguer** les tumeurs malignes des tumeurs bénignes.
 
-**🧠 Lecture** :
 
-* Pic net autour de `12`
-* Très peu de cas au-dessus de `15`
-* Distribution plus resserrée
-  
-
-**📈 Conclusion** :
-Le rayon moyen des tumeurs bénignes est **nettement plus faible et concentré**, une différence encore une fois marquée.
-
----
-
-## ✅ Synthèse des variables discriminantes
-
-| Variable            | Différence notable entre B et M ? | Commentaire                          |
-| ------------------- | --------------------------------- | ------------------------------------ |
-| **Worst Concavity** | ✅ Très forte                      | Contours très irréguliers chez les M |
-| **Mean Area**       | ✅ Forte                           | Tumeurs M plus grandes               |
-| **Mean Radius**     | ✅ Claire                          | Les M sont visiblement plus larges   |
 
 
 ### 🧭 Lecture du graphique
