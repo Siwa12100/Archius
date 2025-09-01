@@ -20,6 +20,7 @@
 
 * [Configuration SSH basique](./notes/confg_ssh.md)
 * [Sécuriser ssh sur un vps](./notes/securiser_ssh.md)
+* [Installer & config Fail2Ban](./notes/fail2ban.md)
 
 ## Tutos externes utiles
 
