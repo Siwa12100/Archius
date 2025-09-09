@@ -25,6 +25,7 @@ Tot aquò dich, bona lectura als curioses !
 
 ## Dev
 
+- [C](./src/prog_c/menu.md)
 - [Symphonie](./src/symphonie/menu.md)
 - [Vue.js](./src/vue2/menu.md)
 - [Kotlin](./src/kotlin/sommaire.md)
