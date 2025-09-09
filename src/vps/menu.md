@@ -11,6 +11,7 @@
 * [Gestion des utilisateurs](./notes/gerer_utilisateurs.md)
 * [Gestion des Droits d'Accès](./notes/permissions.md)
 * [Les groupes](./notes/groupes.md)
+* [Permissions, groupes et utilisateurs : vue générale](./notes/resume_permissions.md)
 * [Permissions Docker - Utiliser Docker sans sudo](./notes/docker_sans_sudo.md)
   
 ## Https
