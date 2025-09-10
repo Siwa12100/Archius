@@ -7,3 +7,4 @@
 ## Notas
 
 * [Compilation C/C++](./notes/compilation.md)
+* [Makefile](./notes/makefile.md)
