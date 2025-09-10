@@ -6,3 +6,4 @@
 
 ## Notas
 
+* [Compilation C/C++](./notes/compilation.md)
