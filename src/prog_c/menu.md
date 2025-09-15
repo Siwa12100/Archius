@@ -7,6 +7,7 @@
 ## Basas
 
 * [Types, Tailles, Bases et Conversions](./notes/types.md)
+* [Tableaux de `char`, Chaînes de Caractères (`strings`) et Fonctions de Manipulation](./notes/strings.md)
 
 ## Notas
 
