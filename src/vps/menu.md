@@ -28,6 +28,7 @@
 
 ## Autre 
 
+* [Le Shell](./notes/shell_1.md)
 * [Gestion / inspection du stockage](./notes/gestion_stockage.md)
 * [Memo Tmux](./notes/tmux_1.md)
 
