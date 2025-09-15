@@ -13,6 +13,7 @@
 * [Les groupes](./notes/groupes.md)
 * [Permissions, groupes et utilisateurs : vue générale](./notes/resume_permissions.md) ; [toutes les permissions possibles](./notes/ensemble_droits.csv)
 * [Permissions Docker - Utiliser Docker sans sudo](./notes/docker_sans_sudo.md)
+* [Flags s ; S ; t ; T : SetUID, Set GID, sticky](./notes2/flags1.md)
   
 ## Https
 
