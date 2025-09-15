@@ -1,11 +1,10 @@
-Voici la **fusion ultra-complète** des deux documents avec des émojis pour la clarté, sans rien omettre, et en gardant la structure pédagogique et détaillée. J’ai aussi intégré les encadrés "pièges & bonnes pratiques" et les exemples concrets.
+
+# **Introduction au Shell**
+
+[...retorn en rèire](../menu.md)
 
 ---
 
-# **🚀 Introduction au Shell – Cours Complet & Illustré**
-**📚 Mathieu Maranzana – INSA Lyon | 3IFA – 2025-2026**
-
----
 ## **📋 Table des Matières**
 1. [🌟 Introduction](#-introduction)
 2. [🔧 Généralités sur le Shell](#-généralités-sur-le-shell)
@@ -1009,10 +1008,5 @@ Le Shell est un outil **puissant** mais **exigeant** :
 [Lien vers un template PDF](#) (à générer avec les tableaux ci-dessus).
 
 ---
-**🙌 Merci !** Ce cours est maintenant **complet et prêt à l’emploi**.
-Pour aller plus loin, essayez d’écrire un script qui :
-1. Prend un répertoire en argument.
-2. Compte le nombre de fichiers par extension.
-3. Affiche un rapport trié par ordre décroissant.
 
-> *"Le Shell est comme un couteau suisse : simple en apparence, mais incroyablement puissant entre les mains d’un expert."* — Un sysadmin anonyme.
+[...retorn en rèire](../menu.md)
