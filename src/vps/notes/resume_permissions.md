@@ -333,4 +333,33 @@ drwxrwxr-x  2 root  devs  4096 Jun 10 10:02 shared_project
 
 ---
 
+## `mv`, `chown` et les **liens symboliques**
+
+### Permissions & appartenance d’un lien symbolique
+
+* Un **lien symbolique** a typiquement des perms indiquées comme `lrwxrwxrwx`, mais **ces permissions sont ignorées** pour l’accès au contenu :
+  c’est **le fichier pointé** qui décide des droits d’accès.
+* Le **propriétaire/groupe** du symlink existent (métadonnées du lien), mais pour **supprimer** un symlink, ce sont les **droits du dossier parent** (écrire+exécuter) qui comptent, pas ceux du lien ni de la cible.
+
+### `mv` sur un lien symbolique
+
+* `mv symlink …` **déplace/renomme le lien lui-même**, **pas** le fichier cible.
+* **Même filesystem** : c’est un *rename* → les métadonnées du lien ne changent pas (même inode).
+* **Filesystem différent** : c’est *copy + unlink* → on recrée un **nouveau lien** ; ses métadonnées peuvent différer (nouvel inode, propriétaire/groupe selon le contexte).
+
+### `chown` et liens symboliques
+
+* Par **défaut**, `chown symlink` agit sur **la cible** (il **déréférence** le lien).
+* Pour changer **l’owner du lien lui-même**, utilise l’option **`-h`** (ou la variante système **`lchown`**) si disponible :
+
+  * `chown -h nouvel_user:nouveau_groupe mon_lien` → change le **symlink**, pas la cible.
+* Astuce : `stat -c '%A %U:%G %N' mon_lien` et `stat -c '%A %U:%G' -- "$(readlink -f mon_lien)"` te permettent de comparer lien vs cible.
+
+### Accès via un lien symbolique
+
+* Lire/écrire/exécuter via un symlink dépend **exclusivement** des droits de la **cible** (et des droits de parcours `x` sur les dossiers de son chemin).
+* Les perms affichées sur le lien n’entrent pas dans la décision d’accès.
+
+---
+
 [...retorn en rèire](../menu.md)
