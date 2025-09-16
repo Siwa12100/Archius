@@ -9,6 +9,10 @@
 * [Types, Tailles, Bases et Conversions](./notes/types.md)
 * [Tableaux de `char`, Chaînes de Caractères (`strings`) et Fonctions de Manipulation](./notes/strings.md)
 
+## Pointeurs
+
+* [Les Pointeurs Génériques (void*) et les Casts](./notes/pointeurs_generiques.md)
+
 ## Notas
 
 * [Bases / syntaxe initiale](./notes/syntaxe_1.md)
