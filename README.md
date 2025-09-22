@@ -13,7 +13,7 @@ I trobarètz, se siatz curiós :
 
 Aquelas archius son d’en primièr **personalas**, e pretendon pas a res mai qu’a m’ajudar a metre d’òrdre dins mas informacions utilas, o a me forçar a pausar sus lo papièr de pensadas, d’un biais de structurar mon esperit.  
 Pretendi pas ensenhar res a degun, siá clar.  
-Ça que la, quauques uns de mos apontaments — sustot sus d’aspectes tecnics — pòdon portar d’errors que m’escapèron. Es doncas responsabilitat deis eventuals legeires de gardar un uèlh critic sus çò que i traparàn.
+Ça que la, quauques uns de mos apontaments — sustot sus d’aspectes tecnics — pòdon portar d’errors que m’escapèron. Es doncas responsabilitat dels eventuals legeires de gardar un uèlh critic sus çò que i traparàn.
 
 D’unes passatges, l’avètz vist, son escriches en **occitan lengadocian**, la lenga de mon país, lo Roergue. Es mon biais de li rendre omenatge e de l’inscriure dins una modernitat. Aquò m’es car de far atal.
 
