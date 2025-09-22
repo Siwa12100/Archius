@@ -2,133 +2,108 @@
 set -euo pipefail
 
 JOBS="${JOBS:-$(command -v nproc >/dev/null 2>&1 && nproc || echo 4)}"
-DRY_RUN="${DRY_RUN:-0}"         # 1 = prévisualiser sans écrire
-SHOW_UNCHANGED="${SHOW_UNCHANGED:-0}"
+DRY_RUN="${DRY_RUN:-0}"      # 1 = prévisualiser (diff) sans écrire
+VERBOSE="${VERBOSE:-1}"      # 1 = logs détaillés, 0 = logs minimum
+SHOW_UNCHANGED="${SHOW_UNCHANGED:-0}"  # 1 = afficher aussi les fichiers inchangés
 
-# --- Mapping des chemins (ancien -> nouveau) ---
-read -r -d '' MAPPING <<'MAP'
-src/vps|docs/sysadmin/vps
-src/linux|docs/sysadmin/linux
-src/docker|docs/devops/docker
-src/ci|docs/devops/ci-cd
-src/stockageCode|docs/devops/stockage
-src/cpp|docs/langages/cpp
-src/htmlCss|docs/langages/html-css
-src/symphonie|docs/langages/symfony
-src/vue2|docs/langages/vue2
-src/php|cours/semestre3-4/php
-src/programmationSysteme|cours/semestre3-4/programmation-systeme
-src/dotnet|cours/semestre3-4/dotnet
-src/java|cours/semestre3-4/java
-src/vue|cours/semestre3-4/vue
-src/servicesWeb|cours/semestre3-4/services-web
-src/saeReseau|cours/semestre3-4/sae-reseau
-src/tests|cours/semestre5-6/qualite-tests
-src/droit|cours/semestre5-6/droit
-src/nouveaux_parag_bdd|cours/semestre5-6/bdd-paradigmes
-src/javascript|cours/semestre5-6/javascript
-src/python|cours/semestre5-6/python
-src/angular|cours/semestre5-6/angular
-src/mongo|cours/semestre5-6/mongo
-src/securite|cours/semestre5-6/securite
-src/ioa|cours/semestre5-6/ioa
-src/kotlin|cours/semestre5-6/kotlin
-src/prog_c|cours/semestre5-6/c
-src/mc|projets/minecraft
-src/oc|projets/occitan
-src/tutoriels|docs/tutoriels
-src/temp|brouillons/src-temp
-src/temporaire|brouillons/src-temporaire
-temp/|brouillons/root-temp/
-MAP
+ROOT_README="README.md"
 
-# --- fichiers ciblés : uniquement md suivis par git ---
+# -- fichiers ciblés : tous les .md suivis par git --
 mapfile -t FILES < <(git ls-files '*.md' | LC_ALL=C sort)
-TOTAL="${#FILES[@]}"
-[ "$TOTAL" -eq 0 ] && { echo "Aucun fichier .md suivi par git."; exit 0; }
 
-# --- Génère le programme perl pour le mapping (ancien -> nouveau) ---
-perl_prog_mapping() {
-  while IFS='|' read -r FROM TO; do
-    [ -z "$FROM" ] && continue
-    cat <<EOF
-# Inline: [txt](${FROM}/...) et [txt](${FROM})
-s{(\\]\\()\\Q${FROM}\\E/}{\$1${TO}/}g;
-s{(\\]\\()\\Q${FROM}\\E(\\))}{\$1${TO}\$2}g;
-# Réf: [txt]: ${FROM}/... et [txt]: ${FROM}
-s{(\\]:\\s*)\\Q${FROM}\\E/}{\$1${TO}/}g;
-s{(\\]:\\s*)\\Q${FROM}\\E\\s*\$}{\$1${TO}}mg;
-EOF
-  done <<< "$MAPPING"
+# -- util: est-ce le README racine ? --
+is_root_readme() {
+  local f="$1"
+  [[ "$f" == "$ROOT_README" ]]
 }
 
-# --- Calcule le préfixe relatif vers la racine (ex: "../../../") ---
+# -- calcule le préfixe relatif (../../../) pour rejoindre la racine depuis le fichier --
 prefix_to_root() {
   local path="$1"
   local dir="${path%/*}"
-  [ "$dir" = "$path" ] && dir="."         # si le fichier est à la racine
-  [ "$dir" = "." ] && { printf ""; return; }
-  # compte les segments non vides
+  [[ "$dir" == "$path" ]] && dir="."     # pas de slash -> racine
+  [[ "$dir" == "." ]] && { printf ""; return; }
   IFS='/' read -r -a seg <<< "$dir"
   local n=0 s
   for s in "${seg[@]}"; do
-    [ -n "$s" ] && n=$((n+1))
+    [[ -n "$s" ]] && n=$((n+1))
   done
   printf '%0.s../' $(seq 1 "$n")
 }
 
-# --- Traite un fichier : mapping + correction de profondeur (README/archives) ---
+# -- compte les occurrences de liens vers README dans un fichier --
+count_readme_links() {
+  local f="$1"
+  # Inline: ](../*/README.md[...])
+  # Ref:   ]: ../*/README.md
+  perl -0777 -ne '
+    $c  = () = /\]\(((?:\.\/|\.\.\/)*)README\.md(?:#[^)]+)?\)/g;
+    $c += () = /\]:\s*((?:\.\/|\.\.\/)*)README\.md(?:\s*|\s+#.*)$/mg;
+    print $c;
+  ' -- "$f"
+}
+
+# -- programme perl sur-mesure pour un fichier donné (insertion du bon prefix) --
+build_perl_prog() {
+  local prefix="$1"
+  cat <<'PPL'
+# normalise : on enlève temporairement ancre/query côté RHS si présents (gérées par backref)
+# (on conserve l’ancre/les queries si elles existent)
+PPL
+  cat <<PPL
+# Inline [txt](./README.md#...) ou (../../README.md)
+s{(\\]\\()(?:(?:\\./|\\.\\./)*)README\\.md(#[^)]+)?\\)}{\$1${prefix}README.md\$2)}g;
+
+# Références  [txt]: ./README.md  ou  ../../README.md
+s{(\\]:\\s*)(?:(?:\\./|\\.\\./)*)README\\.md(\\s*(?:#.*)?)}{\$1${prefix}README.md\$2}mg;
+PPL
+}
+
 process_one() {
   local f="$1"
-  [ -f "$f" ] || { echo "skip (not file): $f"; return; }
+  [[ -f "$f" ]] || { [[ "$VERBOSE" = 1 ]] && echo "skip (not file): $f"; return; }
+  is_root_readme "$f" && { [[ "$VERBOSE" = 1 ]] && echo "skip root README: $f"; return; }
 
-  local root_prefix
-  root_prefix="$(prefix_to_root "$f")"
+  local prefix links_before links_after
+  prefix="$(prefix_to_root "$f")"
+  links_before="$(count_readme_links "$f")"
 
-  # programme perl additionnel pour corriger les liens vers la racine
-  # - remplace n'importe quel pattern ../*/README.md par le bon $root_prefix/README.md
-  # - idem pour archives.md
-  local perl_root_fix
-  perl_root_fix=$(cat <<EOF
-# Normalise les ancres/queries
-s{(\\]\\([^\\)#?]+)\\#[^)]+}{\$1}g;
+  if [[ "$links_before" -eq 0 ]]; then
+    [[ "$SHOW_UNCHANGED" = 1 ]] && echo "… unchanged (no README links): $f"
+    return
+  fi
 
-# README.md
-s{(\\]\\()((?:\\./|\\.\\./)*)(README\\.md\\))}{\$1${root_prefix}README.md}g;
-s{(\\]:\\s*)((?:\\./|\\.\\./)*)README\\.md\\s*\$}{\$1${root_prefix}README.md}mg;
-
-# archives.md
-s{(\\]\\()((?:\\./|\\.\\./)*)(archives\\.md\\))}{\$1${root_prefix}archives.md}g;
-s{(\\]:\\s*)((?:\\./|\\.\\./)*)archives\\.md\\s*\$}{\$1${root_prefix}archives.md}mg;
-EOF
-)
-
-  # Compose le programme complet pour ce fichier
+  # construit le programme perl pour CE fichier
   local PERL_PROG
-  PERL_PROG="$(perl_prog_mapping; echo "$perl_root_fix")"
+  PERL_PROG="$(build_perl_prog "$prefix")"
 
-  if [ "$DRY_RUN" = "1" ]; then
-    # Diff visuelle
+  if [[ "$DRY_RUN" = 1 ]]; then
+    echo "—— DRY-RUN —— $f"
+    [[ "$VERBOSE" = 1 ]] && echo "  prefix_to_root='$prefix' ; matches=$links_before"
     perl -0777 -pe "$PERL_PROG" "$f" | diff -u --label "$f (old)" --label "$f (new)" "$f" - || true
     return
   fi
 
-  # Édition in-place avec sauvegarde .bak
   perl -0777 -i.bak -pe "$PERL_PROG" "$f" || { echo "ERR perl on $f"; return 1; }
+
+  links_after="$(count_readme_links "$f")"
 
   if cmp -s "$f" "$f.bak"; then
     rm -f -- "$f.bak"
-    [ "$SHOW_UNCHANGED" = "1" ] && echo "… unchanged: $f"
+    [[ "$SHOW_UNCHANGED" = 1 ]] && echo "… unchanged: $f (prefix='$prefix', found=$links_before)"
   else
     rm -f -- "$f.bak"
-    echo "✏️  updated: $f   (root_prefix=${root_prefix:-"."})"
+    local fixed=$(( links_before - links_after ))
+    [[ "$fixed" -lt 0 ]] && fixed=0
+    echo "✏️  updated: $f"
+    [[ "$VERBOSE" = 1 ]] && echo "    prefix_to_root='$prefix' ; before=$links_before ; after=$links_after ; fixed=$fixed"
   fi
 }
 
-export -f process_one perl_prog_mapping prefix_to_root
-export MAPPING
+export -f process_one prefix_to_root count_readme_links build_perl_prog is_root_readme
+export DRY_RUN VERBOSE SHOW_UNCHANGED ROOT_README
 
-echo "➡️  Réécriture des liens sur $TOTAL fichiers (.md) avec $JOBS jobs…"
+echo "➡️  Correction des liens vers '$ROOT_README'… (jobs=$JOBS)"
 printf "%s\0" "${FILES[@]}" | xargs -0 -n1 -P "$JOBS" bash -lc 'process_one "$@"' _
 
 echo "✅ Terminé."

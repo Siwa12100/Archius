@@ -1,6 +1,6 @@
 # Notes sur la CI / CD
 
-[...retour à l'accueil des archives](../../README.md)
+[...retour à l'accueil des archives](../../../README.md)
 
 ## Notes
 

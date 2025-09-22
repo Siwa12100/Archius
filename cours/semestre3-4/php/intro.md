@@ -1,6 +1,6 @@
 # PHP - Introduction
 
-[... retour à l'accueil](../../README.md)
+[... retour à l'accueil](../../../README.md)
 
 ## Notions de base
 

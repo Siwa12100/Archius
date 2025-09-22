@@ -1,6 +1,6 @@
 # Guide d'Administration Réseau
 
-[...retour au sommaire](../../README.md)
+[...retour au sommaire](../../../README.md)
 [version 2 ici](./notes2.md)
 
 ---
@@ -199,4 +199,4 @@ Pensez à ajuster les adresses IP et noms de réseau (ethX, ethY) en fonction de
 
 ---
 
-[...retour au sommaire](../../README.md)
+[...retour au sommaire](../../../README.md)

@@ -1,6 +1,6 @@
 # Notes sur Angular
 
-[...retour à l'accueil des archives](../../README.md)
+[...retour à l'accueil des archives](../../../README.md)
 
 ## Syntèse diapos du cours
 

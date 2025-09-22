@@ -1,6 +1,6 @@
 # Kotlin
 
-[...retour à l'accueil](../../README.md)
+[...retour à l'accueil](../../../README.md)
 
 ---
 
@@ -79,4 +79,4 @@ Kotlin a été présenté comme un langage de premier ordre pour Android lors de
 
 ---
 
-[...retour au sommaire](../../README.md)
+[...retour au sommaire](../../../README.md)

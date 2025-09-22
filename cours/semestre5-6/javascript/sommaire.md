@@ -1,6 +1,6 @@
 # Notes JavaScript
 
-[...retour au sommaire](../../README.md)
+[...retour au sommaire](../../../README.md)
 
 ---
 
@@ -102,4 +102,4 @@ console.log(maVariableGlobale); //marche toujours
 ```
 
 ---
-[retour à l'accueil](../../README.md)
+[retour à l'accueil](../../../README.md)

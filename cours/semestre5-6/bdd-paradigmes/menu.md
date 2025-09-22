@@ -1,6 +1,6 @@
 # Nouveaux paradigmes de base de données
 
-[...retour à l'accueil](../../README.md)
+[...retour à l'accueil](../../../README.md)
 
 ---
 
