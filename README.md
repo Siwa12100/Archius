@@ -1,89 +1,120 @@
 # Archius
 
-Bienvenue dans mes archives.
-Ce dépôt me permet de stocker une partie de mes prises de notes, et de manière générale, il me fournit un support d'écriture rapide particulièrement efficace, grâce à la simplicité du markdown, couplée à l'accessibilité apportée par git.
+> Banque de connaissances personnelle — notes de cours, wiki technique, projets et brouillons.  
+> *Occitan & DevOps friendly 💛*
 
-**Vous retrouverez donc sur ce repo, pour les curieux :**
+Archius est mon **second cerveau versionné** : j’y range mes notes, documentations, TP/DM, et réflexions.  
+Le repo est organisé pour **toujours savoir où ranger quoi** :
 
-- Des documentations rédigées par mes soins pour me créer une banque de connaissances personnelles sur divers sujets.
-- Des morceaux de notes inachevées sur des cours.
-- Des débuts de réflexions sur certains sujets, particulièrement vis à vis du Valorium, et par extension sur MC.
+- **`docs/`** – Wiki technique personnel (procédures, how-to, langages, DevOps)
+- **`cours/`** – Notes liées au BUT (classées par semestre et matière)
+- **`projets/`** – Projets personnels (Minecraft/Valorium, Occitan, etc.)
+- **`brouillons/`** – Zone tampon pour ce qui n’est pas trié
+- **`archives/`** – Vieux contenus gelés
 
-Aquelas archius son sobretot personals e pretendon a res d'autre coma m'ajudar a gardar a drech dins ma man d'informacions que mi seran utilas a l'avenir, o ben mi guiarnar a metre sus papièr de reflexions, d'una mòda a structurar ma pensada.
-Ieu ne pretendi ni explicar res a degun, que sigam plan clar.
-Dins aquò, certans de mos apontaments, especialament sus d'aspectes tecnics, pòdon conténer quauques errors que m'aurian escapats, es donc responsabilitat deis eventuals legeires de conservar un regard critic sus çò que pourran trobar aqui.
+---
 
-Certans passatges, l'aurètz notat, son escrichs en occitan languedocian, la lenga de mon país, lo Roergue. Es una mòda de li rende omatge e de l'inscriure dins una certa modernitat. Aquò m'es car de far aital.
+## 🧭 Plan rapide
 
-Tot aquò dich, bona lectura als curioses !
+### 📚 docs/ – Wiki technique
+- **Sysadmin**
+  - [`linux`](docs/sysadmin/linux/)
+  - [`vps`](docs/sysadmin/vps/) → [menu](docs/sysadmin/vps/menu.md)
+- **DevOps**
+  - [`docker`](docs/devops/docker/) → [sommaire](docs/devops/docker/sommaire.md)
+  - [`ci-cd`](docs/devops/ci-cd/) → [menu](docs/devops/ci-cd/menu.md)
+  - [`stockage`](docs/devops/stockage/)
+- **Langages & outils**
+  - [`cpp`](docs/langages/cpp/)
+  - [`html-css`](docs/langages/html-css/)
+  - [`symfony`](docs/langages/symfony/)
+  - [`vue2`](docs/langages/vue2/)
+- **Tutoriels**
+  - [`tutoriels`](docs/tutoriels/)
 
-[eco](./src/temp/eco.md)
+### 🎓 cours/ – BUT Informatique
 
-## Général
+#### Semestre 3–4
+- [`php`](cours/semestre3-4/php/)
+- [`programmation-système`](cours/semestre3-4/programmation-systeme/)
+- [`dotnet`](cours/semestre3-4/dotnet/)
+- [`java`](cours/semestre3-4/java/)
+- [`vue`](cours/semestre3-4/vue/)
+- [`services-web`](cours/semestre3-4/services-web/)  
+- [`sae-reseau`](cours/semestre3-4/sae-reseau/)
 
-- [Apprentissage occitan](./src/oc/menu_fiches.md)
+#### Semestre 5–6
+- [`qualite-tests`](cours/semestre5-6/qualite-tests/)
+- [`droit`](cours/semestre5-6/droit/)
+- [`bdd-paradigmes`](cours/semestre5-6/bdd-paradigmes/)
+- [`javascript`](cours/semestre5-6/javascript/)
+- [`python`](cours/semestre5-6/python/)
+- [`angular`](cours/semestre5-6/angular/)
+- [`mongo`](cours/semestre5-6/mongo/)
+- [`securite`](cours/semestre5-6/securite/)
+- [`ioa`](cours/semestre5-6/ioa/)
+- [`kotlin`](cours/semestre5-6/kotlin/)
+- [`c`](cours/semestre5-6/c/)
+- [`ppp`](cours/semestre5-6/ppp/)
 
-## Dev
+### 🛠️ projets/
+- [`minecraft`](projets/minecraft/) → Valorium, Elendil, etc.
+- [`occitan`](projets/occitan/) → fiches, lexiques, entraînements, scripts, etc.
 
-- [C](./src/prog_c/menu.md)
-- [C++](./src/cpp/menu.md)
-- [Symphonie](./src/symphonie/menu.md)
-- [Vue.js](./src/vue2/menu.md)
-- [Kotlin](./src/kotlin/sommaire.md)
-- [Prog sys](./src/programmationSysteme/intro.md)
+### ✍️ brouillons/
+- [`root-temp`](brouillons/root-temp/)
+- [`src-temp`](brouillons/src-temp/)
+- [`src-temporaire`](brouillons/src-temporaire/)
 
-### Administration système
+### 🗄️ archives/
+- [`semestre3-4`](archives/semestre3-4/)
+- [`anciens_projets`](archives/anciens_projets/)
 
-- [Docker](./src/docker/sommaire.md)
-- [CI / CD](./src/ci/menu.md)
-- [Administration VPS](./src/vps/menu.md)
-- [MongoDB](./src/mongo/menu.md)
+---
 
+## 🔗 Anciennes pages d’accueil
 
-## Temporaire
+- Ancien **menu VPS** : [`docs/sysadmin/vps/menu.md`](docs/sysadmin/vps/menu.md)  
+- Ancien **archives.md** : [`archives.md`](archives.md) (conservé, mais liens mis à jour)
 
-- [anglais](./src/temporaire/anglais.md)
-  
-### Tps de securite
+---
 
-- [Dm](./src/securite/dm.md)
-- [DM -V2](./src/securite/dm_v2.md)
-- [tp1](./src/securite/tp1/tp1.md)
-- [tp2](./src/securite/tp2/tp2.md)
-- [tp3](./src/securite/tp3/tp3.md)
-- [tp4](./src/securite/tp4/tp4.md)
-- [tp5](./src/securite/tp5/tp5.md)
-- [Expose td](./src/securite/expose_td.md)
-- [Revisions DS](./src/securite/revisions_Ds.md)
+## 📝 Philosophie & avertissement
 
-## Notes semestre 5 & 6 BUT Informatique
+Aquelas archius son sobretot personals… (texte original conservé).  
+Il peut subsister **des erreurs** dans certaines notes techniques. Gardez un **regard critique**.
 
-- [Qualité de dvlp](./src/tests/menu.md)
-- [Droit](./src/droit/menu.md)
-- [Images, son et visualisation](./src/python/images/menu.md)
-- [Nouveaux paradigmes de BDD](./src/nouveaux_parag_bdd/menu.md)
-- [JavaScript](./src/javascript/sommaire.md)
-- [Python](./src/python/menu.md)
-- [Angular](./src/angular/menu.md) 
+---
 
-## MC.
+## ✅ Contribuer (moi-même, futur moi)
 
-- [Archives du Valorium](./src/mc/valorium/accueil.md)
-- [Elendil](./src/mc/Elendil/Ligue.md)
-- [Display text](./src/mc/display-entities/menu.md)
+- Créer systématiquement un `menu.md` / `sommaire.md` par dossier
+- Utiliser des **liens relatifs** et des **titres explicites**
+- Ranger :
+  - en **`docs/`** ce qui est générique / intemporel,
+  - en **`cours/`** ce qui est lié à la formation,
+  - en **`projets/`** ce qui est concret et personnel,
+  - en **`brouillons/`** ce qui n’est pas trié,
+  - en **`archives/`** ce qui est gelé.
 
-## Autre
+---
 
-- [Ioa](./src/ioa/menu.md)
-- [Tutoriels](./src/tutoriels/menu.md)
-- [Anciens sujets / notes](./archives.md)
+## 🧰 Scripts utiles
 
-## A approfondir
+- **Réorganisation** : `./scripts/reorg_archius.sh`  
+- **Réécriture des liens** : `./scripts/rewire_links.sh`
 
-- [docker](https://www.youtube.com/playlist?list=PL6gx4Cwl9DGBkvpSIgwchk0glHLz7CQ-7)
-- [Bot discord - Python](https://www.youtube.com/playlist?list=PL6gx4Cwl9DGAHdJdtEl0-XiRfPRAvpbSz)
-- [Junit IntelliJ](https://www.jetbrains.com/help/idea/junit.html#intellij)
-- [Documentation de JUnit](https://junit.org/junit5/docs/current/user-guide/#writing-tests)
-- [Initialisation xUnit avec vs code](https://code.visualstudio.com/docs/csharp/testing)
+> Après exécution :
+> ```bash
+> git status
+> git add -A
+> git commit -m "refactor(structure): réorg + liens"
+> ```
 
+---
 
+## 📌 À approfondir
+
+- Docker (playlist)
+- Bot Discord (playlist)
+- JUnit & xUnit (docs officiels)
