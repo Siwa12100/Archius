@@ -8,3 +8,4 @@
 
 * [Compilation C/C++](./notes/compilation.md)
 * [Makefile](./notes/makefile.md)
+* [Introduction au language](./notes/introduction.md)
