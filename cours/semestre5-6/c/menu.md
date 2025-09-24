@@ -13,6 +13,7 @@
 
 * [Pointeurs et Tableaux](./notes/pointeurs_tableaux.md)
 * [Les Pointeurs Génériques (void*) et les Casts](./notes/pointeurs_generiques.md)
+* [Allocacion dinamica](./notes/allocDyn.md)
 
 ## Generau
 

@@ -19,7 +19,6 @@ D’unes passatges, l’avètz vist, son escriches en **occitan lengadocian**, l
 
 Tot aquò dich… **bona lectura als curioses !**
 
-
 ---
 
 ## 1) 🖥️ Linux / Admin sys / DevOps
