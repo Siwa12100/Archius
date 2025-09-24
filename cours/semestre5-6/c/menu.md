@@ -20,6 +20,7 @@
 * [Gestion des erreurs](./notes/gestion_erreurs.md)
 * [Compilation & Édition de liens](./notes/compilLiens.md)
 * [GDB](./notes/gdb.md)
+* [Accès aux fichiers](./notes/manipFichiers.md)
 
 ## Notas
 
