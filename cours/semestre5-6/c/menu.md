@@ -22,6 +22,10 @@
 * [GDB](./notes/gdb.md)
 * [Accès aux fichiers](./notes/manipFichiers.md)
 
+## Algo
+
+* [Taulas d'atalhonament](./notes/tableaux.md)
+
 ## Notas
 
 * [Bases / syntaxe initiale](./notes/syntaxe_1.md)
