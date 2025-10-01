@@ -24,7 +24,7 @@
 
 ## Algo
 
-* [Taulas d'atalhonament](./notes/tableaux.md)
+* [Taulas d'atalhonament](./notes/atalhonament.md)
 
 ## Notas
 
