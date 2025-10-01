@@ -26,3 +26,5 @@
 
 * [Bases / syntaxe initiale](./notes/syntaxe_1.md)
 * [Canaux de communication nommés](./notes/fifos.md)
+
+Elendil : Trouve la survie vanilla qui te correspond parmis noq serveurs ralliés  

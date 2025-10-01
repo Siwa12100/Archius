@@ -5,6 +5,7 @@
 ### Notions de base
 
 - [gestionErreurs](./notes/gestionErreurs.md)
+- [CompletableFuture, virtuals threads et leur synergie](./notes/completableFuture.md)
 
 ### Bukkit & ses forks
 
