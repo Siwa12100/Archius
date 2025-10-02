@@ -10,3 +10,4 @@
 * [Makefile](./notes/makefile.md)
 * [Introduction au language](./notes/introduction.md)
 * [Valgrind](./notes/valgrind1.md)
+* [Heritage - bases](./notes/heritage/bases.md)
