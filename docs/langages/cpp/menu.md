@@ -11,3 +11,4 @@
 * [Introduction au language](./notes/introduction.md)
 * [Valgrind](./notes/valgrind1.md)
 * [Heritage - bases](./notes/heritage/bases.md)
+* [Virtual e constructors](./notes/heritage/virtual.md)
