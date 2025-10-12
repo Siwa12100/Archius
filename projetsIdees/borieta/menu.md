@@ -5,7 +5,7 @@
 * [To do list / brouillon de planification](./planning.md)
 
 
-# **📜 RÉSUMÉ COMPLET DU PROJET DE MICROFERME AGROÉCOLOGIQUE**
+# **📜 Introduction**
 **Localisation** : **Saint-Jean-du-Bruel** (Aveyron, Occitanie)
 **Porteur(s)** : 1 personne (ou 2 associés max) en **parallèle d’un emploi principal (35h/semaine chez Enedis)**
 **Philosophie** : **Low-tech, agroécologie/syntropie, résilience locale, revenus passifs à long terme**
