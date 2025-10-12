@@ -101,6 +101,7 @@ Tot aquò dich… **bona lectura als curioses !**
 
 ## 6) 🗄️ Archives
 - [Index d’archives](archives.md)
+- [Borietta](./projetsIdees/borieta/menu.md)
 
 ---
 
