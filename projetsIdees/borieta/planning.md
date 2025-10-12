@@ -197,11 +197,3 @@
    - Calendrier des tâches sur 2 ans.
 3. **Contacter 3 maraîchers locaux** pour conseils (1h).
 
-#### **Si à 2 associés** :
-1. **Trouver un·e associé·e** :
-   - Poster sur [Terre de Liens](https://www.terredeliens.org/) ou groupes Facebook "Permaculture [région]".
-   - Critères : **même vision agroécologique**, disponibilité similaire.
-2. **Répartir les tâches** (voir tableau ci-dessus).
-3. **Signer une lettre d’intention** (engagement moral avant le contrat officiel).
-
----
