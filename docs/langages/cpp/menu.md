@@ -6,9 +6,21 @@
 
 ## Notas
 
+### Novelari
+
 * [Compilation C/C++](./notes/compilation.md)
 * [Makefile](./notes/makefile.md)
 * [Introduction au language](./notes/introduction.md)
 * [Valgrind](./notes/valgrind1.md)
 * [Heritage - bases](./notes/heritage/bases.md)
 * [Virtual e constructors](./notes/heritage/virtual.md)
+
+### Avançat
+
+* [Fonctions et Méthodes inline](./notes/inline.md)
+* [Classes, Méthodes et Fonctions Amies](./notes/amistat.md)
+* [Surcharge (Overloading)](./notes/subrecarga.md)
+* [Constructeurs & Forme Canonique](./notes/constructor.md)
+* [Conversion de Types](./notes/convercions.md)
+* [Généricité (Templates)](./notes/genericitat.md)
+* [Entrées / Sorties : iostream](./notes/flus.md)
