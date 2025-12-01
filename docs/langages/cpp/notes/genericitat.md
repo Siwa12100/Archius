@@ -4,18 +4,22 @@
 
 ---
 
-Les **templates** permettent d’écrire du code **paramétré par des types**, réutilisable et optimisé **à la compilation** (pas de coût d’abstraction).
-C’est l’un des mécanismes les plus puissants du C++.
+Les **templates** permettent d’écrire du code **paramétré par des types** :
+
+* Une seule définition → utilisable avec **int, double, std::string, Point, etc.**
+* Le tout est **instancié à la compilation** → pas de coût d’abstraction à l’exécution.
+
+C’est le cœur de la **programmation générique** en C++ (comme `std::vector`, `std::sort`, `std::pair`, etc.).
 
 ---
 
-# 7.1 🧰 Fonctions génériques (function templates)
+# 5.1 🧰 Fonctions génériques (function templates)
 
-Une fonction générique fonctionne avec n’importe quel type **tant que les opérations utilisées existent**.
+Une **fonction template** ressemble à une fonction normale, mais avec un **paramètre de type**.
 
 ---
 
-## 7.1.1 🎯 Déclaration classique
+## 5.1.1 🎯 Déclaration et utilisation simple
 
 ```cpp
 template<typename T>
@@ -24,296 +28,395 @@ T maximum(T a, T b) {
 }
 ```
 
-Appel :
+Utilisation :
 
 ```cpp
-int x = maximum(3, 7);           // T = int
-double y = maximum(2.5, 1.7);    // T = double
-std::string s = maximum("ab"s, "ac"s); // T = string
+int    ix = maximum(3, 7);                 // T = int
+double dx = maximum(2.5, 1.7);             // T = double
+std::string sx = maximum(std::string("ab"),
+                         std::string("ac")); // T = std::string
 ```
 
-➡️ Le compilateur **déduit automatiquement** le type `T` lors de l’appel.
+🧠 Le compilateur **déduit automatiquement** `T` à partir des arguments.
 
 ---
 
-## 7.1.2 🤖 Déduction automatique du type
+## 5.1.2 🤖 Déduction automatique de type (et ses limites)
 
-C’est l’un des gros atouts :
+La déduction, c’est le compilateur qui infère `T` tout seul :
 
 ```cpp
-auto r = maximum(10, 20); // T = int
-auto s = maximum(2.5, 3.7); // T = double
+auto r1 = maximum(10, 20);      // T = int
+auto r2 = maximum(2.5, 3.7);    // T = double
 ```
 
-### ⚠️ Mais la déduction peut échouer
-
-Exemple :
+Mais la déduction impose que **tous les paramètres** soient du **même** type `T`.
 
 ```cpp
-maximum(3, 4.5);  // ❌ erreur : impossible de déduire UN type T commun
+maximum(3, 4.5);   // ❌ quelle valeur pour T ? int ? double ?
 ```
 
 Pour corriger :
 
 ```cpp
-maximum<double>(3, 4.5);  // ✔️ T = double imposé
+maximum<double>(3, 4.5); // ✔️ on impose T = double
 ```
 
-➡️ **Les templates ne réalisent pas de promotion implicite** comme les fonctions normales.
+👉 *Règle :* si les arguments ne sont pas du même type, soit :
+
+* tu forces `T` avec `maximum<double>(…)`,
+* soit tu fournis une surcharge/template plus adaptée.
 
 ---
 
-## 7.1.3 ⚠️ Ambiguïtés nécessitant explicitations (ex : Minimum<T>)
+## 5.1.3 🚧 Contraintes : le type T doit supporter les opérations utilisées
 
-Exemple classique :
-
-```cpp
-template<typename T>
-T minimum(T a, T b);
-
-minimum(3, 4.5);        // ❌ T ? int ? double ?
-minimum<double>(3, 4.5); // ✔️
-```
-
-Ou encore :
+Le template est accepté **uniquement** si, pour le type `T` choisi, les opérations utilisées dans le corps **existent**.
 
 ```cpp
 template<typename T>
-void f(T a, T b);
-
-f(1, 'c');   // ❌ T incompatible
-```
-
-🧠 Règle : *Tous les paramètres doivent avoir le même type T, sauf si tu précises explicitement T.*
-
----
-
-## 7.1.4 🚧 Limites : nécessitent l’existence d’opérateurs
-
-Le template fonctionne **uniquement si le type T possède les opérations utilisées**.
-
-Exemple :
-
-```cpp
-template<typename T>
-T addition(T a, T b) { return a + b; }
-```
-
-Fonctionne avec :
-
-* int, double → ✔️
-* std::string → ✔️ (`operator+`)
-* ta propre classe → seulement si **tu fournis `operator+`**
-
-Sinon :
-
-```cpp
-addition(objetSansPlus, objetSansPlus);  
-// ❌ erreur : operator+ n’existe pas pour ce type
-```
-
----
-
-# 7.2 🧩 Spécialisations : résoudre les cas particuliers
-
-Les templates permettent de faire des **exceptions** pour certains types précis.
-
----
-
-## 7.2.1 🎯 Spécialisation totale
-
-```cpp
-template<typename T>
-T abs_generique(T x) { return (x < 0 ? -x : x); }
-
-template<>
-const char* abs_generique(const char* x) {
-    return x;  // définition spéciale pour const char*
+T addition(T a, T b) {
+    return a + b;   // nécessite operator+ pour T
 }
 ```
 
-Appels :
+Fonctionne pour :
+
+* `int`, `double`          → ✔️
+* `std::string`            → ✔️ (`operator+` concatène)
+* une classe `Point`       → ❌ si tu n’as pas défini `operator+`
+
+En cas d’absence d’`operator+` :
 
 ```cpp
-abs_generique(-3);          // version générique
-abs_generique("Coucou");    // version spécialisée
+Point p1, p2;
+addition(p1, p2); // ❌ erreur de compilation : pas d’operator+ pour Point
 ```
-
-💡 Idéal pour adapter le comportement à certains types particuliers.
 
 ---
 
-## 7.2.2 🔧 Spécialisation partielle (pour les classes)
+## 5.1.4 🎯 Spécialisation totale : cas particulier (ex : `Minimum<Point>`)
 
-Impossible avec **les fonctions**, mais possible pour **les classes** :
+Parfois le **comportement générique** ne convient pas pour un type précis.
+On peut alors écrire une **spécialisation totale**.
+
+### 🧪 Exemple : `Minimum<T>` générique
 
 ```cpp
 template<typename T>
-class Boite { /* ... */ };
+const T& Minimum(const T& a, const T& b) {
+    return (b < a ? b : a);   // utilise operator<
+}
+```
+
+Pour des types “normaux” (int, double, string…), ça marche.
+Pour une classe `Point`, on peut vouloir : *“le point le plus proche de l’origine”*.
+
+---
+
+### 🧱 Classe `Point` avec membres privés
+
+```cpp
+class Point {
+private:
+    double x;
+    double y;
+
+public:
+    Point(double x, double y) : x{x}, y{y} {}
+
+    double norm2() const { return x * x + y * y; }
+
+    // on pourrait aussi définir operator< ici
+};
+```
+
+On veut une **spécialisation** de `Minimum<Point>` :
+
+```cpp
+template<>
+const Point& Minimum<Point>(const Point& a, const Point& b) {
+    return (a.norm2() < b.norm2() ? a : b);
+}
+```
+
+Ici, pas de problème : `norm2()` est public.
+
+---
+
+### ⚠️ Problème d’accessibilité + `friend`
+
+Si on préfère comparer directement les coordonnées privées (`x`, `y`) *sans getter*,
+on se heurte à un problème d’**encapsulation**.
+
+Exemple (mauvais) :
+
+```cpp
+template<>
+const Point& Minimum<Point>(const Point& a, const Point& b) {
+    // ❌ accéder à a.x et a.y serait interdit si x/y sont private
+}
+```
+
+Pour autoriser précisément ce code, on peut déclarer la spécialisation comme **amie** :
+
+```cpp
+class Point {
+private:
+    double x;
+    double y;
+
+    // 👇 Déclaration d’amitié : cette spécialisation peut accéder à x,y
+    friend const Point& Minimum<Point>(const Point&, const Point&);
+
+public:
+    Point(double x, double y) : x{x}, y{y} {}
+};
+```
+
+Maintenant, on peut écrire :
+
+```cpp
+template<>
+const Point& Minimum<Point>(const Point& a, const Point& b) {
+    // accès privé autorisé grâce à friend
+    double na = a.x * a.x + a.y * a.y;
+    double nb = b.x * b.x + b.y * b.y;
+    return (nb < na ? b : a);
+}
+```
+
+🧠 *Idée clé :*
+
+> Les **templates** respectent l’encapsulation.
+> Si une spécialisation a besoin des membres privés → il faut déclarer la fonction (ou template) comme `friend` dans la classe.
+
+---
+
+# 5.2 🧱 Classes génériques (class templates)
+
+Les **classes templates** permettent de créer des **conteneurs et structures génériques**, comme `std::vector<T>`, `std::stack<T>`, `std::map<K,V>`, etc.
+
+---
+
+## 5.2.1 📦 Exemple : `Pile<T>` (stack générique) & forme canonique
+
+On va coder une petite **pile générique** `Pile<T>` avec :
+
+* stockage dynamique via un tableau `T*`,
+* **forme canonique** : constructeur, destructeur, constructeur de copie, `operator=`,
+* opérations : `push`, `pop`, `top`, `estVide`, `taille`,
+* surcharge d’`operator<<` pour l’affichage (avec `friend`).
+
+---
+
+### 🧱 Déclaration de base
+
+```cpp
+template<typename T>
+class Pile {
+private:
+    std::size_t capacite;
+    std::size_t tailleCourante;
+    T*          donnees;
+
+public:
+    // Constructeur
+    explicit Pile(std::size_t cap = 10)
+        : capacite{cap}, tailleCourante{0}, donnees{new T[cap]} {}
+
+    // Destructeur
+    ~Pile() {
+        delete[] donnees;
+    }
+
+    // Constructeur de copie
+    Pile(const Pile& autre)
+        : capacite{autre.capacite},
+          tailleCourante{autre.tailleCourante},
+          donnees{new T[autre.capacite]} 
+    {
+        for (std::size_t i = 0; i < tailleCourante; ++i) {
+            donnees[i] = autre.donnees[i];
+        }
+    }
+
+    // Opérateur d'affectation (operator=)
+    Pile& operator=(const Pile& autre) {
+        if (this != &autre) {                // auto-affectation
+            delete[] donnees;                // libérer anciennes données
+            capacite       = autre.capacite;
+            tailleCourante = autre.tailleCourante;
+            donnees        = new T[capacite];
+            for (std::size_t i = 0; i < tailleCourante; ++i) {
+                donnees[i] = autre.donnees[i];
+            }
+        }
+        return *this;
+    }
+
+    // Méthodes de pile
+    bool estVide() const { return tailleCourante == 0; }
+    std::size_t taille() const { return tailleCourante; }
+
+    void push(const T& valeur) {
+        if (tailleCourante == capacite) {
+            // en vrai, on agrandirait la capacité (realloc dynamique)
+            throw std::runtime_error("Pile pleine");
+        }
+        donnees[tailleCourante++] = valeur;
+    }
+
+    void pop() {
+        if (estVide()) {
+            throw std::runtime_error("Pile vide");
+        }
+        --tailleCourante;
+    }
+
+    T& top() {
+        if (estVide()) {
+            throw std::runtime_error("Pile vide");
+        }
+        return donnees[tailleCourante - 1];
+    }
+
+    const T& top() const {
+        if (estVide()) {
+            throw std::runtime_error("Pile vide");
+        }
+        return donnees[tailleCourante - 1];
+    }
+
+    // Déclaration friend pour l'affichage
+    template<typename U>
+    friend std::ostream& operator<<(std::ostream& os, const Pile<U>& p);
+};
+```
+
+🔍 **Forme canonique** ici :
+
+* constructeur,
+* destructeur,
+* constructeur de copie,
+* `operator=` (deep copy obligatoire car on gère un `T*`),
+* (en C++11 on ajouterait aussi le move constructor et move assignment → “règle des 5”).
+
+---
+
+### 🖨️ Surcharge d’`operator<<` avec `friend`
+
+On veut pouvoir écrire :
+
+```cpp
+Pile<int> p;
+p.push(1);
+p.push(2);
+std::cout << p << "\n";
+```
+
+On définit :
+
+```cpp
+template<typename T>
+std::ostream& operator<<(std::ostream& os, const Pile<T>& p) {
+    os << "[";
+    for (std::size_t i = 0; i < p.tailleCourante; ++i) {
+        os << p.donnees[i];
+        if (i + 1 < p.tailleCourante) os << ", ";
+    }
+    os << "]";
+    return os;
+}
+```
+
+💡 Pourquoi `friend` dans la classe ?
+
+* Parce que `donnees` et `tailleCourante` sont `private`.
+* Sans `friend`, `operator<<` n’aurait pas accès à ces membres.
+* On a donc ajouté dans la classe :
+
+```cpp
+template<typename U>
+friend std::ostream& operator<<(std::ostream& os, const Pile<U>& p);
+```
+
+🧠 *Encore une fois :*
+
+> Les templates respectent l’encapsulation → on doit explicitement déclarer les fonctions d’affichage/outil comme `friend` si elles ont besoin de l’intérieur.
+
+---
+
+## 5.2.2 📦 Classes génériques & formes canoniques
+
+À retenir sur les classes templates comme `Pile<T>` :
+
+* Elles sont **définies dans les headers** (sinon le compilateur ne peut pas les instancier).
+* Elles suivent les **mêmes règles** que les classes normales :
+
+  * destructeur,
+  * constructeur de copie,
+  * `operator=`,
+  * éventuellement move constructor / move assignment.
+* On peut surcharger :
+
+  * `operator[]`, `operator==`, `operator!=`, etc.
+  * `operator<<`/`>>` (en général via `friend` template).
+
+---
+
+## 5.2.3 🔧 Spécialiser une classe template (idée rapide)
+
+Pour certains types, on peut écrire une **version différente** de la classe.
+
+```cpp
+template<typename T>
+class Boite {
+    // version générique
+};
+
+template<>
+class Boite<bool> {
+    // version spécialisée pour bool
+};
+```
+
+Ou une **spécialisation partielle** :
+
+```cpp
+template<typename T>
+class Wrapper { /* ... */ };
 
 template<typename U>
-class Boite<U*> { /* version spécialisée pour pointeurs */ };
+class Wrapper<U*> { /* version spéciale pour les pointeurs */ };
 ```
 
-Cible :
-
-* tous les `T*`
-* mais pas les autres types
+➡️ Utilisé pour optimiser ou adapter le comportement (ex : `std::vector<bool>`).
 
 ---
 
-## 7.2.3 📌 Pourquoi spécialiser ?
+# 5.3 🧾 Récap : Programmation Générique (Templates)
 
-* Optimiser pour un type spécifique (ex : `vector<bool>`)
-* Changer le comportement (ex : représentation spéciale des chaînes)
-* Fournir des opérations seulement disponibles pour un sous-type
+### 🔹 Fonctions génériques
 
----
+* `template<typename T> T f(T a, T b);`
+* Déduction automatique de `T`.
+* Attention aux **ambiguïtés** (`f(3, 4.5)`).
+* Les types doivent supporter les **opérations utilisées**.
+* **Spécialisation totale** possible (`Minimum<Point>`).
+* Problèmes d’accessibilité si on touche aux privés → **`friend`**.
 
-# 7.3 🧱 Classes génériques (class templates)
+### 🔹 Classes génériques
 
-Les classes peuvent aussi être paramétrées par des types.
+* `template<typename T> class Pile { … };`
+* Utilisation de la **forme canonique** si on gère des ressources :
 
----
-
-## 7.3.1 🧱 Syntaxe classique
-
-```cpp
-template<typename T>
-class Boite {
-private:
-    T valeur;
-
-public:
-    Boite(T v) : valeur(v) {}
-
-    T get() const { return valeur; }
-};
-```
-
-Usage :
-
-```cpp
-Boite<int> b1(10);
-Boite<std::string> b2("Salut");
-```
-
----
-
-## 7.3.2 🧩 Membres utilisant des structures internes (typedef / using)
-
-Dans une classe template, tu peux définir :
-
-```cpp
-template<typename T>
-class Tableau {
-public:
-    using value_type = T;
-
-private:
-    T data[10];
-};
-```
-
-Ou encore des structures internes :
-
-```cpp
-template<typename T>
-class Boite {
-public:
-    struct Info {
-        T element;
-        int id;
-    };
-};
-```
-
----
-
-## 7.3.3 🔢 Templates à plusieurs paramètres
-
-```cpp
-template<typename T, typename U>
-class Paire {
-public:
-    T first;
-    U second;
-
-    Paire(T f, U s) : first(f), second(s) {}
-};
-```
-
-Appel :
-
-```cpp
-Paire<int, double> p(3, 2.5);
-```
-
-Tu peux mélanger autant de types que tu veux :
-
-```cpp
-template<typename T, typename U, typename V>
-class Triple { /* ... */ };
-```
-
----
-
-## 7.3.4 🧠 Définition en dehors de la classe (important !)
-
-```cpp
-template<typename T>
-class Boite {
-public:
-    T get() const;
-};
-
-template<typename T>
-T Boite<T>::get() const {
-    return T{42};    // exemple
-}
-```
-
-💡 Remarque cruciale :
-Les templates doivent être **entièrement définis dans le header**, car le compilateur doit les voir lors de l’instanciation.
-
----
-
-# 7.4 📌 Résumé général
-
-| Concept               | Idée clé                                           |
-| --------------------- | -------------------------------------------------- |
-| Déduction automatique | Le compilateur choisit T selon les arguments       |
-| Ambiguïtés            | Parfois T doit être précisé manuellement           |
-| Limites               | Le type T doit supporter les opérations utilisées  |
-| Spécialisation        | Permet de gérer des cas particuliers               |
-| Classes génériques    | Utilisées pour containers, utilitaires, structures |
-| Multi-templates       | Plus d’un paramètre : classique pour maps, pairs…  |
-
----
-
-# 7.5 🎁 Exemple complet regroupant tout
-
-```cpp
-template<typename T>
-class Vec2 {
-public:
-    T x, y;
-
-    Vec2(T x, T y) : x(x), y(y) {}
-
-    T norm2() const { return x*x + y*y; }
-};
-
-// Spécialisation totale pour bool
-template<>
-class Vec2<bool> {
-public:
-    bool x, y;
-    Vec2(bool x, bool y) : x(x), y(y) {}
-
-    int norm2() const { return x + y; } // adaptation spécifique
-};
-```
+  * constructeur, destructeur,
+  * constructeur de copie,
+  * `operator=`,
+  * (+ éventuellement move constructor / move assignment).
+* Surcharge d’opérateurs (`operator<<`, `operator[]`, `operator==`, …).
+* `friend` utile pour les fonctions d’affichage ou utilitaires qui ont besoin d’accéder aux membres privés.
 
 ---
 

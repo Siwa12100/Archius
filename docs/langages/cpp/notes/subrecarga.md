@@ -4,8 +4,10 @@
 
 ---
 
-La surcharge permet d’utiliser **le même nom** pour **plusieurs fonctions** tant que leurs **signatures diffèrent**.
-C’est un pilier de l’écriture de code propre, expressif et lisible en C++.
+La **surcharge** permet d’utiliser **le même nom** pour **plusieurs fonctions ou opérateurs**, tant que leurs **signatures diffèrent**.
+
+🎯 Objectif :
+Écrire du code **expressif**, **lisible** et **proche des maths** ou du langage naturel, sans dupliquer des noms (`afficherInt`, `afficherDouble`, etc.).
 
 ---
 
@@ -13,31 +15,43 @@ C’est un pilier de l’écriture de code propre, expressif et lisible en C++.
 
 ## 🔧 Principe général
 
-Une fonction est surchargée quand **elle a le même nom**, mais :
+On parle de *surcharge* (overload) lorsqu’on définit **plusieurs fonctions** :
 
-* un **nombre d’arguments différent**,
-* ou des **types différents**.
+* avec le **même nom**,
+* mais **des paramètres différents** (en nombre, en type, ou en const-ness).
 
-👉 Le **retour** ne compte *jamais* dans la surcharge.
-👉 Le compilateur choisit la bonne fonction grâce à la **résolution de surcharge**.
+> ⚠️ **Le type de retour ne participe PAS à la surcharge.**
+> On ne peut pas distinguer deux fonctions uniquement par leur type de retour.
 
 ---
 
-## 🟪 Par type d’arguments
+## 🟪 Surcharge par type d’arguments
 
 ```cpp
-void afficher(int x)       { std::cout << "int : " << x; }
-void afficher(double x)    { std::cout << "double : " << x; }
-void afficher(std::string s) { std::cout << "string : " << s; }
+void afficher(int x) {
+    std::cout << "int : " << x << '\n';
+}
 
-afficher(10);         // appelle afficher(int)
-afficher(3.14);       // appelle afficher(double)
-afficher("Salut");    // appelle afficher(string)
+void afficher(double x) {
+    std::cout << "double : " << x << '\n';
+}
+
+void afficher(const std::string& s) {
+    std::cout << "string : " << s << '\n';
+}
+
+void demo() {
+    afficher(10);           // appelle afficher(int)
+    afficher(3.14);         // appelle afficher(double)
+    afficher("Salut");      // const char[] → conversion en std::string → afficher(string)
+}
 ```
+
+🧠 Le compilateur choisit la **meilleure correspondance** (best match) selon le type réel, et applique si besoin des conversions **minimales**.
 
 ---
 
-## 🟪 Par nombre d’arguments
+## 🟪 Surcharge par nombre d’arguments
 
 ```cpp
 int addition(int a, int b) {
@@ -47,51 +61,65 @@ int addition(int a, int b) {
 int addition(int a, int b, int c) {
     return a + b + c;
 }
+
+void demo() {
+    std::cout << addition(1, 2);      // 3 → version à 2 paramètres
+    std::cout << addition(1, 2, 3);   // 6 → version à 3 paramètres
+}
 ```
 
 ---
 
-## ⚠️ Non distinction entre méthode const et non-const à l’appel
+## ⚠️ Surcharge & `const` : méthodes const et non-const
 
-C’est un cas très important en POO !
+Très important pour les classes.
 
 ```cpp
 class Compte {
 public:
-    int get()       { std::cout << "normal\n"; return 1; }
-    int get() const { std::cout << "const\n"; return 2; }
+    int get()       { 
+        std::cout << "normal\n"; 
+        return 1; 
+    }
+
+    int get() const { 
+        std::cout << "const\n"; 
+        return 2; 
+    }
 };
 
-void test() {
+void demo() {
     Compte c;
     const Compte cc;
 
-    c.get();   // appelle get() normal
-    cc.get();  // appelle get() const
+    c.get();   // appelle get() non const  → "normal"
+    cc.get();  // appelle get() const      → "const"
 }
 ```
 
-💡 Ici la surcharge ne dépend pas du type `Compte`, mais du fait que **l’objet est const ou non**.
+💡 Ici, la surcharge repose sur la **qualification `const` de l’objet** (`this`).
 
-➡️ Le compilateur choisit selon la **qualification const du receiver**.
+* Pour un objet non `const`, la version non-const est préférée.
+* Pour un objet `const`, seule la version `const` est autorisée.
 
-⚠️ Mais : **on ne peut pas surcharger uniquement par const du *retour*** ⛔
-(Ça ne fait pas partie de la signature.)
+📌 **On ne peut pas surcharger deux fonctions qui ne diffèrent que par le type de retour** :
+
+```cpp
+int f();
+double f();  // ❌ interdit
+```
+
+Le compilateur ne pourrait pas savoir **laquelle choisir** quand tu écris juste `f();`.
 
 ---
 
 # 3.2 🔀 Surcharge via pointeurs et références
 
-Deux points cruciaux :
-
-* différence entre **T*** et **const T***
-* différence entre **T&** et **const T&**
-
-Ces différences font partie de la **signature**, donc permettent de surcharger.
+Les pointeurs et références permettent également de définir des surcharges **plus fines**, notamment pour la gestion de const-ness.
 
 ---
 
-## 📌 T* vs const T*
+## 📌 `T*` vs `const T*`
 
 ```cpp
 void process(int* p) {
@@ -102,19 +130,25 @@ void process(const int* p) {
     std::cout << "pointeur vers const\n";
 }
 
-int x = 10;
-const int y = 20;
+void demo() {
+    int x = 10;
+    const int y = 20;
 
-process(&x); // → pointeur normal
-process(&y); // → pointeur vers const
+    process(&x); // → "pointeur normal"
+    process(&y); // → "pointeur vers const"
+}
 ```
 
-💡 règle :
-Le compilateur choisit la meilleure correspondance **la plus const-correcte**.
+🧠 Règle :
+
+* `int*` → pointeur vers données modifiables
+* `const int*` → pointeur vers données non-modifiables
+
+Le compilateur choisit la version la **plus compatible** avec ce que tu lui passes.
 
 ---
 
-## 📌 T& vs const T&
+## 📌 `T&` vs `const T&`
 
 ```cpp
 void afficher(int& x) {
@@ -125,44 +159,59 @@ void afficher(const int& x) {
     std::cout << "ref const\n";
 }
 
-int a = 10;
-const int b = 20;
+void demo() {
+    int a = 10;
+    const int b = 20;
 
-afficher(a); // ref non const
-afficher(b); // ref const
+    afficher(a);  // → ref non const
+    afficher(b);  // → ref const
+}
 ```
 
-🧠 Pourquoi ?
-Parce qu’un `int&` **ne peut référencer qu’un objet modifiable**, mais un `const int&` peut référencer **tous les types** (modifiable ou non).
+🧠 Détails :
 
-💡 Cette propriété est utilisée partout en C++ pour éviter les copies inutiles (ex : `const std::string&` dans les API).
+* Un `int&` ne peut référencer que des objets **modifiables**.
+* Un `const int&` peut référencer :
+
+  * un `int` modifiable,
+  * un `const int`,
+  * des temporaires (`afficher(3)` par ex),
+  * etc.
+
+C’est pourquoi on voit partout dans les API :
+
+```cpp
+void f(const std::string& s);
+```
+
+→ pas de copie, pas de modification, accepte tout (littéraux, temporaires, etc.).
 
 ---
 
 # 3.3 ⚡ Surcharge des opérateurs
 
-L’un des aspects les plus puissants (mais souvent mal maîtrisés) du C++.
+La surcharge d’opérateurs permet d’écrire du code naturel :
+
+```cpp
+Vector2D u, v;
+Vector2D w = u + v;       // comme en maths
+std::cout << w << "\n";   // affichage lisible
+```
 
 ## 🧩 Principes généraux
 
-* Tous les opérateurs ne sont pas surchargeables (ex : `?:`, `.`).
-* On surcharge en gardant le **sens naturel** (pas de `operator+` qui divise !!).
-* Les opérateurs peuvent être :
+* tous les opérateurs ne sont pas surchargeables (ex : `?:`, `.`),
+* on garde autant que possible le **sens naturel** de l’opérateur,
+* un opérateur peut être :
 
-  * des **méthodes membres**,
-  * ou des **fonctions libres** (très fréquent).
+  * une **méthode membre**,
+  * ou une **fonction libre** (souvent friend).
 
 ---
 
-## 3.3.1 🔢 Surcharge de `operator[]`
+## 3.3.1 🔢 `operator[]` (indexation)
 
-Utilisé pour écrire :
-
-```cpp
-tableau[i]
-```
-
-### Exemple :
+Permet d’écrire `obj[i]`.
 
 ```cpp
 class Tableau {
@@ -170,62 +219,26 @@ private:
     int data[10];
 
 public:
-    int& operator[](size_t i) {
-        return data[i];
+    int& operator[](std::size_t i) {
+        return data[i];           // accès modifiable
     }
 
-    const int& operator[](size_t i) const {
-        return data[i];
+    const int& operator[](std::size_t i) const {
+        return data[i];           // accès en lecture seule
     }
 };
 ```
 
-👉 Version const → indispensable pour les objets `const`.
+📌 Pourquoi deux versions ?
+
+* pour un `Tableau t;` → `t[i]` retourne un `int&` modifiable,
+* pour un `const Tableau t;` → `t[i]` retourne un `const int&` (lecture seule).
 
 ---
 
-## 3.3.2 🟦 `operator=` (assignation)
+## 3.3.2 ➕ Opérateurs arithmétiques (+, -, *, /)
 
-Cas où il faut faire **une copie profonde** (deep copy).
-Indispensable si votre classe possède des ressources allouées dynamiquement.
-
-```cpp
-class Buffer {
-private:
-    int* data;
-    size_t size;
-
-public:
-    Buffer(size_t size) : size(size), data(new int[size]) {}
-
-    // opérateur d’assignation
-    Buffer& operator=(const Buffer& other) {
-        if (this != &other) {          // auto-assignation
-            delete[] data;             // libération ancienne mémoire
-            size = other.size;
-            data = new int[size];
-            std::copy(other.data, other.data + size, data);
-        }
-        return *this;
-    }
-
-    ~Buffer() { delete[] data; }
-};
-```
-
-🎯 Objectif : éviter les **double delete** et les fuites mémoire (RAII).
-
----
-
-## 3.3.3 ➕ Opérateurs arithmétiques (+, -, *, /)
-
-Ils peuvent être définis comme :
-
-* méthodes membres (rare)
-* fonctions `friend` (souvent)
-* fonctions libres (meilleur design dans beaucoup de cas)
-
-Exemple simple :
+Souvent comme **fonctions libres** (parfois `friend`) :
 
 ```cpp
 class Vector2D {
@@ -239,25 +252,26 @@ Vector2D operator+(const Vector2D& a, const Vector2D& b) {
     return Vector2D(a.x + b.x, a.y + b.y);
 }
 
-Vector2D c = a + b;
+void demo() {
+    Vector2D u{1.0, 2.0};
+    Vector2D v{3.0, 4.0};
+    Vector2D w = u + v;   // utilise operator+
+}
 ```
 
-🔍 Pourquoi souvent en fonction libre ?
+💡 En fonction libre :
 
-* permet la commutativité (ex : `a + b`)
-* évite d’ajouter trop de méthodes à la classe
-* garde les opérations mathématiques externes
+* tu peux aussi écrire des choses comme `u + v` où `u` est à gauche,
+* tu peux plus facilement définir des opérateurs **commutatifs**, etc.
 
 ---
 
-## 3.3.4 🔼 Pré-incrémentation ++p vs post-incrémentation p++
+## 3.3.3 🔼 Pré-incrément (++p) vs post-incrément (p++)
 
-Différence extrêmement importante.
+### ✅ Pré-incrément : `++p`
 
-### Pré-incrémentation (++p)
-
-* Modifie l’objet
-* Retourne une **référence vers l’objet modifié**
+* Modifie l’objet,
+* Renvoie une **référence vers l’objet modifié**.
 
 ```cpp
 class Entier {
@@ -266,7 +280,7 @@ private:
 public:
     Entier(int v) : x(v) {}
 
-    Entier& operator++() {   // ++p
+    Entier& operator++() {   // pré-incrément (++p)
         ++x;
         return *this;
     }
@@ -275,34 +289,37 @@ public:
 
 ---
 
-### Post-incrémentation (p++)
+### ✅ Post-incrément : `p++`
 
-* Modifie l’objet
-* Mais retourne **l’ancienne valeur** (copie)
+* Modifie l’objet,
+* Renvoie **l’ancienne valeur** (copie).
 
 ```cpp
 class Entier {
+private:
+    int x;
 public:
-    Entier operator++(int) {  // p++  (le int est un paramètre factice)
-        Entier temp = *this;  // sauvegarde de l’état
-        ++x;                  // modification
-        return temp;          // renvoie l’ancien état
+    Entier(int v) : x(v) {}
+
+    Entier operator++(int) {  // post-incrément (p++)
+        Entier temp = *this;  // copie de l’état actuel
+        ++x;                  // on modifie l’objet
+        return temp;          // on renvoie l’ancienne valeur
     }
 };
 ```
 
-💡 Le paramètre `int` sert juste à différencier les deux surcharges !
+💡 Le `int` dans la signature est un **paramètre factice** pour distinguer `++p` de `p++`.
 
 ---
 
-## 3.3.5 📝 Opérateurs d’insertion/extraction `<<` et `>>`
+## 3.3.4 📝 `operator<<` et `operator>>`
 
-Très fréquents pour rendre une classe “imprimable”.
-
-### operator<<
+Très utilisés pour le **debug** et les **logs**.
 
 ```cpp
 class Vector2D {
+private:
     double x, y;
 
 public:
@@ -312,11 +329,12 @@ public:
 };
 
 std::ostream& operator<<(std::ostream& os, const Vector2D& v) {
-    return os << "(" << v.x << ", " << v.y << ")";
+    os << "(" << v.x << ", " << v.y << ")";
+    return os;
 }
 ```
 
-### operator>>
+Pour `>>` :
 
 ```cpp
 friend std::istream& operator>>(std::istream& is, Vector2D& v) {
@@ -326,25 +344,151 @@ friend std::istream& operator>>(std::istream& is, Vector2D& v) {
 
 ---
 
-## 3.3.6 🗂️ Opérateurs et copie profonde (deep copy)
+# 3.4 🧠 Gestion de la Mémoire et Opérateurs spéciaux
 
-Quand votre classe gère :
+Ici on se concentre sur **deux opérateurs cruciaux** lorsqu’une classe gère de la mémoire dynamique :
 
-* un tableau dynamique
-* une ressource système (fichier, socket…)
-* de la mémoire allouée
-* un buffer C…
+* `operator=` (affectation / assignation),
+* `operator[]` (indexation).
 
-Alors il faut impérativement surcharger **au moins** :
+## 3.4.1 🧱 Règle des 3 : destructeur, constructeur de copie, operator=
 
-* `operator=`
-* constructeur de copie
-* destructeur
+Si ta classe possède un **pointeur** vers de la mémoire dynamique (ex : `new[]`), ou une ressource à gérer (fichier, socket…), tu dois te soucier de :
 
-C’est la **règle des 3 (ou 5 en C++11)**.
+1. **Destructeur**
+2. **Constructeur de copie**
+3. **Opérateur d’affectation `operator=`**
 
-Exemple classique avec deep copy (réécriture du `operator=` vue plus haut).
+C’est la **règle des 3** (avant C++11).
+
+### Exemple : classe `Vecteur` avec tableau dynamique
+
+```cpp
+class Vecteur {
+private:
+    std::size_t n;
+    double* data;
+
+public:
+    // Constructeur
+    explicit Vecteur(std::size_t n)
+        : n{n}, data{new double[n]} {}
+
+    // Destructeur
+    ~Vecteur() {
+        delete[] data;
+    }
+
+    // Constructeur de copie
+    Vecteur(const Vecteur& other)
+        : n{other.n}, data{new double[other.n]} {
+        std::copy(other.data, other.data + n, data);
+    }
+
+    // Opérateur d'affectation (operator=)
+    Vecteur& operator=(const Vecteur& other) {
+        if (this != &other) {                // protection auto-affectation
+            delete[] data;                   // 1. libérer anciennes données
+            n = other.n;                     // 2. copier la taille
+            data = new double[n];            // 3. allouer nouveau tableau
+            std::copy(other.data, other.data + n, data);  // 4. copier le contenu
+        }
+        return *this;
+    }
+};
+```
+
+🧠 Pourquoi c’est indispensable ?
+
+Sans ces trois fonctions :
+
+* copie par défaut = **copie superficielle** (shallow copy) du pointeur,
+* deux objets pointent vers la **même** zone mémoire,
+* → **double `delete[]`** dans les destructeurs,
+* → comportement indéfini, crash, corruption mémoire.
+
+---
+
+## 3.4.2 🪪 `operator[]` et gestion de la mémoire
+
+On peut maintenant ajouter un **`operator[]`** à notre `Vecteur` :
+
+```cpp
+class Vecteur {
+private:
+    std::size_t n;
+    double* data;
+
+public:
+    // ... constructeurs, destructeur, operator= comme ci-dessus ...
+
+    std::size_t size() const { return n; }
+
+    double& operator[](std::size_t i) {
+        // (en vraie prod, on vérifierait les bornes)
+        return data[i]; // accès modifiable
+    }
+
+    const double& operator[](std::size_t i) const {
+        return data[i]; // accès lecture seule
+    }
+};
+```
+
+Utilisation :
+
+```cpp
+Vecteur v(3);
+v[0] = 1.0;
+v[1] = 2.0;
+v[2] = 3.0;
+
+const Vecteur cv = v;
+std::cout << cv[1]; // OK, lecture seule
+```
+
+📌 Ce qu’il faut bien voir :
+
+* `operator[]` **ne gère pas** la mémoire lui-même,
+* il donne juste un **accès pratique** aux éléments du tableau interne,
+* la gestion mémoire (allocation, copie, destruction) reste dans :
+
+  * constructeur,
+  * destructeur,
+  * constructeur de copie,
+  * `operator=`.
+
+---
+
+## 3.4.3 🔄 Récap Mémoire + Opérateurs
+
+Pour une classe qui gère des **pointeurs** (ex : `Vecteur`) :
+
+* ✅ **Destructeur** → libérer la mémoire
+* ✅ **Constructeur de copie** → créer une vraie nouvelle copie (deep copy)
+* ✅ **`operator=`** → remplacer proprement le contenu d’un objet par un autre
+
+Ensuite, tu peux ajouter :
+
+* ✅ **`operator[]`** pour accéder facilement aux éléments
+* ✅ éventuellement d’autres opérateurs (`+`, `-`, `==`, etc.)
+
+👉 Sans ça, tu te heurteras tôt ou tard à des **crashs aléatoires**, des **fuites mémoire** ou du **comportement indéfini**.
+
+---
+
+# 🧾 Récap global sur la surcharge
+
+* La **surcharge** = même nom, signatures différentes (params / const / ref / pointer…).
+* Le **type de retour ne compte pas** pour distinguer les surcharges.
+* On surcharge :
+
+  * des **fonctions** (par type / nombre d’arguments, const-ness),
+  * des **méthodes** (const / non-const, ref-qualifiers…),
+  * des **opérateurs** (`[]`, `=`, `+`, `++`, `<<`, `>>`, etc.).
+* `operator=` et `operator[]` sont **critiques** pour les classes qui gèrent de la **mémoire dynamique**.
 
 ---
 
 [...retorn en rèire](../menu.md)
+

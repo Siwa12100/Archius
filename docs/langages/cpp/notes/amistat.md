@@ -4,49 +4,20 @@
 
 ---
 
-Les amis en C++ sont un **mécanisme d’exception au principe d’encapsulation** : on donne à certaines fonctions / classes le droit de voir l’**intérieur (private / protected)** d’une classe.
+Les **amis** (`friend`) en C++ sont un **mécanisme d'exception à l'encapsulation** :
+une classe peut **offrir volontairement un accès privilégié** à ses membres privés ou protégés.
 
-> 🧠 Idée clé : *c’est la classe qui “offre sa confiance” à quelqu’un en le déclarant `friend`.*
+> 🧠 *C’est toujours la classe qui déclare quelqu’un comme ami, jamais l’inverse.*
 
----
-
-## 2.1 🧑‍🤝‍🧑 Principe de l’amitié : accès privilégié
-
-### 🔒 Rappel : encapsulation sans `friend`
-
-Sans `friend`, seule la classe elle-même (et ses classes dérivées pour `protected`) peut accéder à ses membres privés :
-
-```cpp
-class CompteBancaire {
-private:
-    double solde;
-
-public:
-    explicit CompteBancaire(double s) : solde{s} {}
-
-    void deposer(double montant) {
-        solde += montant;
-    }
-
-    double getSolde() const {
-        return solde;
-    }
-};
-```
-
-Une fonction externe ne peut pas faire :
-
-```cpp
-void pirater(CompteBancaire& c) {
-    // c.solde = 1'000'000;  // ❌ Erreur : solde est privé
-}
-```
+L’amitié sert à **autoriser** des fonctions ou classes externes à manipuler directement des données internes, **sans modifier la visibilité générale** (private/protected).
 
 ---
 
-### ✅ Avec `friend` : donner un accès “VIP”
+# 🔵 1. Principe Fondamental : Accès Privé Autorisé
 
-On peut autoriser une **fonction externe** à accéder aux membres privés :
+## 🔒 1.1. Sans `friend` : encapsulation stricte
+
+Par défaut, les membres `private` restent invisibles de l’extérieur :
 
 ```cpp
 class CompteBancaire {
@@ -57,30 +28,53 @@ public:
     explicit CompteBancaire(double s) : solde{s} {}
 
     void deposer(double montant) { solde += montant; }
-
     double getSolde() const { return solde; }
-
-    // Déclaration d'ami :
-    friend void afficherDetails(const CompteBancaire& c);
 };
+```
 
-// Définition de la fonction amie (en dehors de la classe)
-void afficherDetails(const CompteBancaire& c) {
-    // ✅ Accès direct à un membre privé
-    std::cout << "Solde interne = " << c.solde << " euros\n";
+Impossible pour une fonction externe de faire :
+
+```cpp
+void pirater(CompteBancaire& c) {
+    // c.solde = 1000000; // ❌ Interdit
 }
 ```
 
-🔎 Points importants :
+---
 
-* La **classe** `CompteBancaire` dit : *"cette fonction est mon amie"*
-* `afficherDetails` n’est **pas** une méthode, c’est une **fonction libre**, mais elle voit `solde` comme si elle était “à l’intérieur” de la classe.
+## 🔑 1.2. Avec `friend` : accès “VIP”
+
+Une **fonction libre** peut devenir amie :
+
+```cpp
+class CompteBancaire {
+private:
+    double solde;
+
+public:
+    explicit CompteBancaire(double s) : solde{s} {}
+
+    friend void afficherDetails(const CompteBancaire& c); // 💡 Accès autorisé
+};
+
+void afficherDetails(const CompteBancaire& c) {
+    std::cout << "Solde interne = " << c.solde << " euros\n";  // ✅ OK
+}
+```
+
+### ❤️ Points clés
+
+* La **classe** accorde sa confiance.
+* La fonction amie **n’est pas une méthode**.
+* Elle accède malgré tout aux membres privés.
 
 ---
 
-### 👭 Classes amies
+# 👫 2. Déclarations d’Amitié (`friend`)
 
-On peut aussi déclarer **une classe entière** comme amie :
+Les amitiés en C++ se déclarent **dans la classe qui ouvre l’accès**, jamais ailleurs.
+
+## 👭 2.1. Classe amie
 
 ```cpp
 class Moteur;
@@ -89,33 +83,20 @@ class Voiture {
 private:
     double carburant = 50.0;
 
-    friend class Moteur;  // 👈 Moteur est amie de Voiture
-
-public:
-    void afficherCarburant() const {
-        std::cout << "Carburant : " << carburant << " L\n";
-    }
+    friend class Moteur;  // 👈 Moteur a accès au private de Voiture
 };
 
 class Moteur {
 public:
     void consommer(Voiture& v, double litres) {
-        // ✅ Accès direct au private de Voiture
-        v.carburant -= litres;
+        v.carburant -= litres; // ✅ autorisé
     }
 };
 ```
 
-Ici :
-
-* `Moteur` peut lire/modifier `v.carburant` directement.
-* En revanche, **l’inverse n’est pas vrai** (on le verra dans les limites).
-
 ---
 
-### 👇 Méthode amie d’une autre classe
-
-On peut aussi rendre **une méthode précise** amie d’une classe :
+## 👇 2.2. Méthode amie (plus précis)
 
 ```cpp
 class CompteBancaire;
@@ -129,67 +110,49 @@ class CompteBancaire {
 private:
     double solde;
 
-    // 👇 Seule cette méthode est amie
-    friend void Auditeur::auditer(const CompteBancaire& c);
-
-public:
-    explicit CompteBancaire(double s) : solde{s} {}
+    friend void Auditeur::auditer(const CompteBancaire&);
 };
-
-void Auditeur::auditer(const CompteBancaire& c) {
-    // ✅ a accès à solde grâce à l'amitié
-    std::cout << "Audit : solde interne = " << c.solde << "\n";
-}
 ```
+
+La méthode **précise** `Auditeur::auditer` est amie, pas toute la classe.
 
 ---
 
-## 2.2 🧱 `friend` et surcharge d’opérateurs (cas très courant)
+## 🧾 2.3. Fonction amie (cas le plus courant)
 
-Un usage **hyper classique** de `friend` : les opérateurs comme `operator<<` pour `std::ostream`.
+Très utilisé pour les opérateurs :
 
 ```cpp
 class Vector2D {
 private:
-    double x;
-    double y;
+    double x, y;
 
-public:
-    Vector2D(double x, double y) : x{x}, y{y} {}
-
-    // Fonction amie pour pouvoir afficher Vector2D
     friend std::ostream& operator<<(std::ostream& os, const Vector2D& v);
 };
 
 std::ostream& operator<<(std::ostream& os, const Vector2D& v) {
-    // ✅ Accès aux membres privés
     os << "(" << v.x << ", " << v.y << ")";
     return os;
 }
 ```
 
-💡 Pourquoi `friend` est pratique ici ?
-
-* On veut que `operator<<` soit une **fonction libre** (pour respecter la forme `os << v`).
-* Mais cette fonction a besoin d’accéder à `x` et `y` → `friend` résout ça proprement.
+> 💡 `operator<<` DOIT être une **fonction libre**, pas une méthode :
+> forme `os << v` uniquement possible ainsi.
 
 ---
 
-## 2.3 ⚠️ Limites de l’amitié
+# ⚠️ 3. Limites Importantes de l’Amitié
 
-Maintenant les points importants : l’amitié est **très limitée** et ne se propage pas magiquement.
+L’amitié en C++ **ne se transmet pas**, **n’est pas symétrique**, **n’est pas héritée**, **n’est pas rétroactive**.
 
-### 2.3.1 ❌ Pas de symétrie
+## 🚫 3.1. Pas de symétrie
 
-> Si A déclare B comme ami, **l’inverse n’est pas automatiquement vrai**.
-
-Exemple :
+> Si A déclare B amie, B peut accéder aux privés de A…
+> mais A ne peut PAS accéder à B.
 
 ```cpp
-class B;  // déclaration anticipée
-
 class A {
-    friend class B;  // B est amie de A
+    friend class B;
 private:
     int secretA = 42;
 };
@@ -197,209 +160,165 @@ private:
 class B {
 private:
     int secretB = 7;
-
 public:
-    void foo(A& a) {
-        a.secretA = 0;   // ✅ OK, B est amie de A
-    }
+    void f(A& a) { a.secretA = 0; }   // ✅
 };
 
-void f(B& b, A& a) {
-    // b.secretB = 0;   // ❌ A n'est PAS amie de B, même si l'inverse est vrai
+void test(B& b) {
+    // b.secretB = 0; // ❌ A ne devient pas amie de B automatiquement
 }
 ```
 
-👉 L’amitié va **dans un seul sens**, celui de la classe qui déclare `friend`.
-
 ---
 
-### 2.3.2 ❌ Pas de transitivité
+## 🔗 3.2. Pas de transitivité
 
-> Si A est amie de B, et B est amie de C, **A n’est pas automatiquement amie de C**.
-
-Schéma :
-
-* `C` déclare `B` amie → `B` peut voir les privés de `C`.
-* `B` déclare `A` amie → `A` peut voir les privés de `B`.
-* Mais **A ne peut pas voir les privés de C**.
-
-Exemple :
+> Si A est amie de B, et B est amie de C, A n’est **pas** amie de C.
 
 ```cpp
+class B;
 class C;
 
-class B {
-    friend class A;  // A est amie de B
-private:
-    int secretB = 10;
-};
-
-class C {
-    friend class B;  // B est amie de C
-private:
-    int secretC = 20;
-};
-
-class A {
-public:
-    void test(B& b, C& c) {
-        b.secretB = 0;   // ✅ OK (A est amie de B)
-        // c.secretC = 0;   // ❌ Interdit : A n'est PAS amie de C
-    }
-};
+class A { friend class B; };
+class B { friend class C; };
+class C {};
 ```
 
-🧩 Moralité :
-L’amitié ne se “propage” pas. On doit déclarer **explicitement** chaque relation d’amitié voulue.
+A ➜ B
+B ➜ C
+❌ A ➜ C (NON)
 
 ---
 
-### 2.3.3 ❌ Pas d’héritage automatique de l’amitié
+## 🧬 3.3. Pas d’héritage
 
-Deux sens à bien distinguer :
-
-#### 🔹 (1) Une classe dérivée n’hérite pas des amis de sa base
+### ① Les amis de la base **ne deviennent pas** amis de la dérivée
 
 ```cpp
 class Base {
-    friend class AmiDeBase;
+    friend class Ami;
 private:
     int secretBase = 1;
 };
 
 class Derivee : public Base {
 private:
-    int secretDerivee = 2;
+    int secretDerive = 2;
 };
 
-class AmiDeBase {
+class Ami {
 public:
     void f(Base& b, Derivee& d) {
-        b.secretBase = 0;       // ✅ OK
-        // d.secretDerivee = 0; // ❌ Non, l'amitié ne s'étend pas à Derivee
+        b.secretBase = 0;      // ✔️
+        // d.secretDerive = 0; // ❌ Non hérité
     }
 };
 ```
 
-* `AmiDeBase` a accès aux `private` de `Base`,
-* mais pas à ceux de `Derivee`, sauf si `Derivee` déclare aussi `friend class AmiDeBase;`.
-
-#### 🔹 (2) Une classe dérivée ne devient pas amie parce que la base est amie
+### ② Une classe dérivée **n’est pas amie** juste parce que la base l’est
 
 ```cpp
 class A {
-    friend class B;  // B est amie de A
-private:
-    int secretA = 1;
+    friend class B;
 };
 
-class B {
-    // Rien de spécial ici
-};
+class B {};
 
 class C : public B {
 public:
     void f(A& a) {
-        // a.secretA = 0;   // ❌ C n'est PAS amie de A, même si B l'est
+        // ❌ Pas amie, même si B l'était
     }
 };
 ```
 
-L’amitié **ne suit pas l’héritage** : ni vers la base, ni vers les dérivés, ni via les amis.
-
 ---
 
-### 2.3.4 ❌ Pas de “propagation” aux amis des amis
+## ❗ 3.4. Pas d’amitié entre amis
 
-> Un ami d’une classe ne devient pas automatiquement ami des autres amis de cette classe.
-
-Exemple :
+Même si deux fonctions/classes sont amies d’une même classe, elles ne sont **pas amies entre elles**.
 
 ```cpp
 class A {
     friend class B;
     friend class C;
 private:
-    int secret = 42;
-};
-
-class B {
-public:
-    void f(A& a) { a.secret = 0; }   // ✅
-};
-
-class C {
-public:
-    void g(A& a) { a.secret = 1; }   // ✅
-    void h(B& b) {
-        // Ici C n'a aucun droit spécial sur les membres privés de B
-        // sauf si B déclare explicitement C comme friend.
-    }
+    int secret;
 };
 ```
 
-👉 Chaque lien d’amitié est **individuel** et doit être **déclaré là où l’accès est accordé**.
+* `B` peut toucher `secret`
+* `C` peut toucher `secret`
+* mais **B n’a aucun droit sur C**, ni C sur B.
 
 ---
 
-### 2.3.5 📝 Nécessité d’une déclaration explicite dans tous les cas
+## 📝 3.5. L’amitié doit toujours être explicitement déclarée
 
 Règle d’or :
 
-> 🔑 *On ne devient jamais ami “par accident”. L’amitié doit être explicitement accordée par la classe qui ouvre son encapsulation.*
-
-Concrètement :
-
-* Une **fonction libre** doit être déclarée `friend` **dans la classe qui partage ses privés**
-* Une **classe amie** doit être listée avec `friend class Nom;`
-* Une **méthode amie** doit être déclarée exactement avec sa **signature complète** dans la classe qui lui donne accès.
+> 🧷 *Aucune amitié n’est implicite.
+> Si une fonction ou une classe doit accéder à un private, elle doit être listée comme `friend` dans la classe concernée.*
 
 Exemple complet :
 
 ```cpp
-class B;   // forward declaration
-
 class A {
-    friend class B;  // ✅ classe amie
-    friend void utilitaire(A&);  // ✅ fonction amie
-
+    friend class B;
+    friend void util(A&);
 private:
     int secret = 123;
 };
 
 class B {
 public:
-    void f(A& a) { a.secret = 0; }    // ✅ OK
+    void f(A& a) { a.secret = 0; }   // OK
 };
 
-void utilitaire(A& a) {
-    a.secret = 999;                   // ✅ OK
+void util(A& a) {
+    a.secret = 99; // OK
 }
 
 void g(A& a) {
-    // a.secret = 10;                 // ❌ pas amie, pas d'accès
+    // a.secret = 1; // ❌ pas ami
 }
 ```
 
-Sans cette déclaration `friend` **dans A**, ni `B::f` ni `utilitaire` n’auraient le droit de toucher `secret`.
+---
+
+# 🎯 4. Guideline : Quand utiliser `friend` ?
+
+## 👍 Cas où c’est une bonne idée
+
+* ✔️ Surcharge des opérateurs (`<<`, `>>`, `==`, etc.)
+* ✔️ Algèbre (ex. géométrie : `norme(u+v)`)
+* ✔️ Patterns *Builder*, *Factory*, *Manager*
+* ✔️ Fonctions utilitaires très liées à une classe
 
 ---
 
-## 2.4 🎯 Quand (et comment) utiliser `friend` proprement
+## 👎 Cas où c’est une mauvaise idée
 
-Parce que `friend` casse (un peu) l’encapsulation, il faut l’utiliser avec **parcimonie**.
+* ❌ Pour “casser l’encapsulation” vite fait
+* ❌ Pour corriger un mauvais design
+* ❌ Pour donner trop de pouvoir à trop de classes
 
-✅ Cas où `friend` est souvent **pertinent** :
+---
 
-* ✅ Surcharge de `operator<<` ou `operator>>` pour les I/O.
-* ✅ Fonctions utilitaires très proches de la classe, mais qu’on veut garder libres (ex. fonctions mathématiques sur des vecteurs / matrices).
-* ✅ Classes fortement liées (pattern de type `Builder`, `Factory`, `Manager` qui doivent manipuler des détails internes).
+# 🧭 5. Récap express
 
-⚠️ À éviter :
-
-* ❌ Mettre `friend` partout “par facilité” → forte **couplage**, difficile à maintenir.
-* ❌ Utiliser `friend` pour contourner paresseusement un mauvais design.
+| Règle                                                 | Vrai ? |
+| ----------------------------------------------------- | ------ |
+| Une classe peut ouvrir son encapsulation via `friend` | ✔️     |
+| L’amitié n’est pas symétrique                         | ❌      |
+| L’amitié n’est pas transitive                         | ❌      |
+| L’amitié n’est pas héritée                            | ❌      |
+| Toute fonction amie doit être déclarée explicitement  | ✔️     |
+| `friend` est utile pour les opérateurs                | ✔️     |
 
 ---
 
 [...retorn en rèire](../menu.md)
+
+---
+

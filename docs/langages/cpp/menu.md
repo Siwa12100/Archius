@@ -15,7 +15,7 @@
 * [Heritage - bases](./notes/heritage/bases.md)
 * [Virtual e constructors](./notes/heritage/virtual.md)
 
-### Avançat
+### Intermediari
 
 * [Fonctions et Méthodes inline](./notes/inline.md)
 * [Classes, Méthodes et Fonctions Amies](./notes/amistat.md)
@@ -24,3 +24,11 @@
 * [Conversion de Types](./notes/convercions.md)
 * [Généricité (Templates)](./notes/genericitat.md)
 * [Entrées / Sorties : iostream](./notes/flus.md)
+
+#### Standard Template Library (STL)
+
+* [Introduction & structures principales](./notes/stl1.md)
+* [Les Algorithmes](./notes/stl2.md)
+
+
+
