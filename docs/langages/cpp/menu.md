@@ -24,7 +24,9 @@
 * [Conversion de Types](./notes/convercions.md)
 * [Généricité (Templates)](./notes/genericitat.md)
 * [Entrées / Sorties : iostream](./notes/flus.md)
-
+* [Exceptions](./notes/Exceptions.md)
+* [Bonnes Pratiques et Nuances : Forme canonique, optimisations, sécurité](./notes/bonnesPratiques.md)
+* [Organisation du code, Namespaces et Includes](./notes/orga.md)
 #### Standard Template Library (STL)
 
 * [Introduction & structures principales](./notes/stl1.md)
