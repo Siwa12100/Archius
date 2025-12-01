@@ -34,5 +34,9 @@
 * [Introduction & structures principales](./notes/stl1.md)
 * [Les Algorithmes](./notes/stl2.md)
 
+### Adjudas
+
+* [Résolution du problème IntelliSense VSCode avec C++](./adjudas/soucisIntellisenceVsCode.md)
+
 
 
