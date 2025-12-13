@@ -28,6 +28,10 @@
 * [Bonnes Pratiques et Nuances : Forme canonique, optimisations, sécurité](./notes/bonnesPratiques.md)
 * [Organisation du code, Namespaces et Includes](./notes/orga.md)
 * [Bases sur l'abstraction](./notes/basesAbstraction.md)
+
+#### Altras nocions intermediarias
+
+* [Puntaires inteligents & auto](./notes/puntairesInteligents.md)
   
 #### Standard Template Library (STL)
 
