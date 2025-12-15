@@ -45,7 +45,7 @@
 ### bremba-te
 
 * [Instanciation, pile/tas, pointeurs, références, ctors/dtors, polymorphisme](./brembate/1.md)
-* [Déclarations tordues, const, static, inline, #define]
+* [Déclarations tordues, const, static, inline, #define](./brembate/2.md)
 
 ### Adjudas
 
