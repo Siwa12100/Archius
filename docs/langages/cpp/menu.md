@@ -42,6 +42,11 @@
 
 * [TD C++ – Surcharge, valeur, pointeur et référence  ](./tds/1/td.md)
 
+### bremba-te
+
+* [Instanciation, pile/tas, pointeurs, références, ctors/dtors, polymorphisme](./brembate/1.md)
+* [Déclarations tordues, const, static, inline, #define]
+
 ### Adjudas
 
 * [Résolution du problème IntelliSense VSCode avec C++](./adjudas/soucisIntellisenceVsCode.md)
