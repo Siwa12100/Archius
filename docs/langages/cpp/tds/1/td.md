@@ -1,4 +1,3 @@
-```markdown
 # TD C++ – Surcharge, valeur, pointeur et référence  
 
 ### [...retorn en rèire](../../menu.md)
