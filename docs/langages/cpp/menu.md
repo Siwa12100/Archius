@@ -37,6 +37,7 @@
 
 * [Introduction & structures principales](./notes/stl1.md)
 * [Les Algorithmes](./notes/stl2.md)
+* [Surcharge en C++, conversions, et manipulation de `ifstream` / `ofstream`]()
 
 ### Correcions de Tds
 
@@ -46,6 +47,8 @@
 
 * [Instanciation, pile/tas, pointeurs, références, ctors/dtors, polymorphisme](./brembate/1.md)
 * [Déclarations tordues, const, static, inline, #define](./brembate/2.md)
+* [Déclarations tordues, `const`, `static`, `inline`, `#define`](./brembate/3.md)
+* 
 
 ### Adjudas
 
