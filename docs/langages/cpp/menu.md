@@ -6,6 +6,11 @@
 
 ## Notas
 
+### Diapos
+
+* [Diapos C++ basas](./diapos/poo1.pdf)
+* [Diapos C++ avançats](./diapos/poo2.pdf)
+
 ### Novelari
 
 * [Compilation C/C++](./notes/compilation.md)
