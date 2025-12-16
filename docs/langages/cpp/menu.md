@@ -49,6 +49,7 @@
 * [Déclarations tordues, `const`, `static`, `inline`, `#define`](./brembate/3.md)
 * [`vector`, `list`, `map`, `set`, itérateurs, complexité](./brembate/4.md)
 * [“manipulation propre de la STL” – Ajout, modif, suppression, doublons, parcours](./brembate/2.md)
+* [Surcharge & Conversions de types en C++](./brembate/5.md)
 
 ### Adjudas
 
