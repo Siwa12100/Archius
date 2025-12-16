@@ -46,9 +46,9 @@
 ### bremba-te
 
 * [Instanciation, pile/tas, pointeurs, références, ctors/dtors, polymorphisme](./brembate/1.md)
-* [Déclarations tordues, const, static, inline, #define](./brembate/2.md)
 * [Déclarations tordues, `const`, `static`, `inline`, `#define`](./brembate/3.md)
 * [`vector`, `list`, `map`, `set`, itérateurs, complexité](./brembate/4.md)
+* [“manipulation propre de la STL” – Ajout, modif, suppression, doublons, parcours](./brembate/2.md)
 
 ### Adjudas
 
