@@ -34,6 +34,7 @@
 * [Organisation du code, Namespaces et Includes](./notes/orga.md)
 * [Bases sur l'abstraction](./notes/basesAbstraction.md)
 * [Portée, Visibilité et Durée de Vie](./notes/portee.md)
+* [Flux C++11, `ifstream` / `ofstream`, `<<`, `>>`, `endl` ](./notes/flux2.md)
 
 #### Altras nocions intermediarias
 
@@ -49,7 +50,7 @@
 
 * [TD C++ – Surcharge, valeur, pointeur et référence  ](./tds/1/td.md)
 
-### bremba-te
+### bremba-**te**
 
 * [Instanciation, pile/tas, pointeurs, références, ctors/dtors, polymorphisme](./brembate/1.md)
 * [Déclarations tordues, `const`, `static`, `inline`, `#define`](./brembate/3.md)
