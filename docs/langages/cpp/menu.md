@@ -28,6 +28,7 @@
 * [Bonnes Pratiques et Nuances : Forme canonique, optimisations, sécurité](./notes/bonnesPratiques.md)
 * [Organisation du code, Namespaces et Includes](./notes/orga.md)
 * [Bases sur l'abstraction](./notes/basesAbstraction.md)
+* [Portée, Visibilité et Durée de Vie](./notes/portee.md)
 
 #### Altras nocions intermediarias
 
